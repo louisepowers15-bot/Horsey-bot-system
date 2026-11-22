@@ -9,7 +9,7 @@ let currentTab = "today";
 
 const SAMPLE_DATA = {
   date: "2026-11-21",
-  meetings: ["Ascot", "Haydock", "Punchestown"],
+  meetings: [],
   races: []
 };
 
@@ -20,14 +20,14 @@ function getDateOffset(days) {
 }
 
 async function fetchTipsForDate(dateStr) {
-  // Try root folder first, then data/ subfolder as backup
   for (const path of [`./tips-${dateStr}.json`, `./data/tips-${dateStr}.json`]) {
     try {
       const res = await fetch(`${path}?t=${Date.now()}`);
       if (res.ok) {
-        return await res.json();
+        const data = await res.json();
+        if (data && data.races && data.races.length > 0) return data;
       }
-    } catch (e) { /* try next path */ }
+    } catch (e) { /* try next */ }
   }
   return null;
 }
@@ -44,19 +44,17 @@ async function loadTips() {
 }
 
 function updateHeaderDate(dateStr) {
-  const dateObj = new Date(dateStr + "T12:00:00");
-  const formatted = dateObj.toLocaleDateString("en-GB", {
-    weekday: "long",
-    day: "numeric",
-    month: "long",
-    year: "numeric"
-  });
-  // Update any subtitle/date element on the page
-  document.querySelectorAll("p, .subtitle, #date-display").forEach(el => {
-    if (el.textContent.includes("UK & Ireland")) {
-      el.textContent = `UK & Ireland · ${formatted}`;
-    }
-  });
+  const el = document.getElementById("header-meta");
+  if (!el) return;
+  try {
+    const dateObj = new Date(dateStr + "T12:00:00");
+    const formatted = dateObj.toLocaleDateString("en-GB", {
+      weekday: "long", day: "numeric", month: "long", year: "numeric"
+    });
+    el.textContent = `UK & Ireland · ${formatted}`;
+  } catch (e) {
+    el.textContent = `UK & Ireland · ${dateStr}`;
+  }
 }
 
 function confClass(c) {
@@ -66,12 +64,14 @@ function confClass(c) {
 }
 
 function renderStars(n) {
-  return "★".repeat(n) + "☆".repeat(Math.max(0, 4 - n));
+  n = n || 0;
+  if (n < 2) return "";
+  return "★".repeat(Math.min(n, 6));
 }
 
 function renderRacecards(dataSet) {
   if (!dataSet || !dataSet.races || dataSet.races.length === 0) {
-    return `<p style="color:#94a3b8;text-align:center;padding:2rem">No racecards available yet for this date.</p>`;
+    return `<p style="color:#94a3b8;text-align:center;padding:2rem">No tips available yet for this date.<br>The daily update may still be running.</p>`;
   }
 
   const meetings = {};
@@ -82,93 +82,89 @@ function renderRacecards(dataSet) {
 
   let html = "";
   Object.keys(meetings).sort().forEach(course => {
-    html += `<div class="meeting"><div class="meeting-title">${course}</div>`;
+    html += `<div class="meeting open">
+      <div class="meeting-header" onclick="this.parentElement.classList.toggle('open')">
+        <span>${course}</span>
+        <span class="chevron">▶</span>
+      </div>
+      <div class="meeting-body">`;
+
     meetings[course].forEach(race => {
       html += `
         <div class="race">
           <div class="race-header">
-            ${race.time} · ${race.name}
+            <span class="race-time">${race.time || ""}</span>
+            <span class="race-name">${race.name || ""}</span>
           </div>
-          ${race.tips.map(t => {
-            const bot = BOTS[t.bot] || { colour: "#64748b", name: t.bot };
-            return `
-              <div class="tip">
-                <span class="bot-badge" style="background:${bot.colour}">${bot.name}</span>
-                <span class="horse-name">${t.horse}${t.type === "ew" ? '<span class="ew-flag">E/W</span>' : ""}</span>
-                <span class="stars">${renderStars(t.stars || 1)}</span>
-                <span class="odds">${Number(t.odds).toFixed(2)}</span>
-                <span class="confidence ${confClass(t.conf)}">${t.conf}%</span>
-              </div>
-            `;
-          }).join("")}
-        </div>
-      `;
+          <div class="col-headers">
+            <div>Bot</div><div>Horse</div><div style="text-align:center">Stars</div>
+            <div style="text-align:right">Odds</div><div style="text-align:center">Conf</div>
+          </div>`;
+
+      (race.tips || []).forEach(t => {
+        const bot = (window.BOTS && window.BOTS[t.bot]) || { name: t.bot, colour: "#64748b" };
+        html += `
+          <div class="tip" onclick="this.classList.toggle('open')">
+            <span class="bot-badge" style="background:${bot.colour}">${bot.name}</span>
+            <span class="horse-name">${t.horse}${t.type === "ew" ? '<span class="ew-flag">E/W</span>' : ""}</span>
+            <span class="stars">${renderStars(t.stars)}</span>
+            <span class="odds">${Number(t.odds).toFixed(2)}</span>
+            <span class="confidence ${confClass(t.conf)}">${t.conf}%</span>
+            <div class="reason-panel"><strong>${bot.name}:</strong> ${t.reason || "No reasoning provided."}</div>
+          </div>`;
+      });
+      html += `</div>`;
     });
-    html += `</div>`;
+    html += `</div></div>`;
   });
   return html;
 }
 
 function renderLeaderboard() {
-  const lb = loadLeaderboard();
-  const rows = Object.entries(lb.bots).map(([id, b]) => {
-    const bot = BOTS[id] || { name: id, colour: "#64748b" };
-    const roi = b.stakes > 0 ? ((b.returns - b.stakes) / b.stakes * 100) : 0;
-    const winRate = b.tips > 0 ? (b.wins / b.tips * 100) : 0;
-    return `
-      <tr>
-        <td><span class="bot-badge" style="background:${bot.colour}">${bot.name}</span></td>
-        <td>${b.tips}</td>
-        <td>${winRate.toFixed(1)}%</td>
-        <td class="${roi >= 0 ? "roi-pos" : "roi-neg"}">${roi >= 0 ? "+" : ""}${roi.toFixed(1)}%</td>
-        <td>${b.avgOdds.toFixed(2)}</td>
-        <td>${b.style.short}/${b.style.ew}/${b.style.longshot}</td>
-      </tr>
-    `;
-  }).join("");
-
-  return `
-    <div style="margin-bottom:1rem;display:flex;gap:0.75rem;flex-wrap:wrap">
-      <button class="tab" onclick="exportLeaderboard()">Export JSON</button>
-      <label class="tab" style="cursor:pointer">
-        Import JSON
-        <input type="file" accept=".json" style="display:none" onchange="handleImport(event)">
-      </label>
-    </div>
-    <table class="lb-table">
-      <thead>
-        <tr>
-          <th>Bot</th>
-          <th>Tips</th>
-          <th>Win %</th>
-          <th>ROI</th>
-          <th>Avg Odds</th>
-          <th>Style (S/EW/L)</th>
-        </tr>
-      </thead>
-      <tbody>
-        ${rows || "<tr><td colspan='6' style='text-align:center;color:#94a3b8'>No results recorded yet</td></tr>"}
-      </tbody>
-    </table>
-    <p style="margin-top:1rem;color:#94a3b8;font-size:0.85rem">
-      Style = Short-priced / Each-way / Longshot. Level stakes assumed. Results must be entered manually for now.
-    </p>
-  `;
+  return `<p style="color:#94a3b8;text-align:center;padding:2rem">Leaderboard coming soon.<br>Results will be tracked here.</p>`;
 }
 
 function renderContent() {
   const el = document.getElementById("content");
+  if (!el) return;
+
   if (currentTab === "today") {
-    updateHeaderDate(getDateOffset(0));
-    el.innerHTML = renderRacecards(todayData || SAMPLE_DATA);
+    updateHeaderDate((todayData && todayData.date) || getDateOffset(0));
+    el.innerHTML = renderRacecards(todayData);
   } else if (currentTab === "tomorrow") {
-    updateHeaderDate(getDateOffset(1));
+    updateHeaderDate((tomorrowData && tomorrowData.date) || getDateOffset(1));
     el.innerHTML = renderRacecards(tomorrowData);
   } else if (currentTab === "leaderboard") {
     el.innerHTML = renderLeaderboard();
   } else if (currentTab === "big") {
-    el.innerHTML = `<p style="color:#94a3b8;text-align:center;padding:2rem">Big race focus view coming next.</p>`;
+    el.innerHTML = `<p style="color:#94a3b8;text-align:center;padding:2rem">Big Festivals view coming next.</p>`;
   } else if (currentTab === "doubles") {
     el.innerHTML = `<p style="color:#94a3b8;text-align:center;padding:2rem">Doubles & Accas view coming next.</p>`;
   }
 }
+
+// Tab clicks
+document.addEventListener("DOMContentLoaded", () => {
+  const tabs = document.getElementById("main-tabs");
+  if (tabs) {
+    tabs.addEventListener("click", (e) => {
+      const btn = e.target.closest(".tab");
+      if (!btn) return;
+      document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+      btn.classList.add("active");
+      currentTab = btn.dataset.tab;
+      renderContent();
+    });
+  }
+});
+
+// Boot
+(async function boot() {
+  try {
+    await loadTips();
+  } catch (e) {
+    console.error(e);
+    todayData = SAMPLE_DATA;
+  }
+  renderContent();
+})();
