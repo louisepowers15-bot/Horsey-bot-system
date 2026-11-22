@@ -2,8 +2,8 @@ name: Daily Racecards & Tips Update
 
 on:
   schedule:
-    - cron: '30 7 * * *'
-  workflow_dispatch:
+    - cron: '30 7 * * *'   # 07:30 UTC every day
+  workflow_dispatch:        # allows manual runs
 
 permissions:
   contents: write
@@ -21,8 +21,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
+        run: pip install -r requirements.txt
 
       - name: Scrape Today and Tomorrow & Generate Tips
         run: |
@@ -31,12 +30,15 @@ jobs:
           python scrape_racecards.py --date tomorrow
           python generate_tips.py --date tomorrow
 
-           - name: Commit and push updated JSON files
+      - name: Commit and push updated JSON files
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add racecards-*.json tips-*.json || true
-          git diff --staged --quiet && echo "No changes to commit" && exit 0
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
           git commit -m "Auto-update racecards and tips"
           git pull --rebase origin main
           git push origin main
