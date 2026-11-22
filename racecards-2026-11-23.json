@@ -1,7 +1,7 @@
 {
   "date": "2026-11-23",
   "source": "sportinglife",
-  "scraped_at": "2026-11-22T11:22:47.969009Z",
+  "scraped_at": "2026-11-22T15:52:06.984962Z",
   "meetings": [
     {
       "course": "Exeter",
@@ -97,7 +97,7 @@
     },
     {
       "course": "Punchestown",
-      "going": "Good (Good to Yielding in places)",
+      "going": "Good to Yielding (Yielding in places)",
       "races": [
         {
           "time": "12:00",
@@ -143,7 +143,7 @@
     },
     {
       "course": "Cork",
-      "going": "Soft (Yielding to Soft in places)",
+      "going": "Soft (Soft to Yielding in places)",
       "races": [
         {
           "time": "12:19",
