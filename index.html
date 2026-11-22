@@ -356,12 +356,19 @@ function renderBigFestivals() {
 function renderChat() {
   const data = todayData;
   const lines = (data && data.chat) || [];
+  const votes = (data && data.votes) || {};
   if (!lines.length) {
     return '<div class="section-title">Bot Chat Room</div>' +
-      '<p style="color:#94a3b8;text-align:center;padding:1.5rem">No chat generated yet for today. Re-run tip generation after uploading the new generate_tips.py.</p>';
+      '<p style="color:#94a3b8;text-align:center;padding:1.5rem">No chat/votes yet. Upload the new generate_tips.py and re-run the Action.</p>';
   }
   let html = '<div class="section-title">Bot Chat Room</div>' +
-    '<p style="color:#94a3b8;font-size:0.88rem;margin-bottom:1rem">The bots discuss the card, challenge each other, and settle on shared doubles / longer multiples. They stay distinct but can align where the data is strong.</p>';
+    '<p style="color:#94a3b8;font-size:0.88rem;margin-bottom:1rem">Each bot nominates legs from its own tips. Votes are tallied for doubles, trebles and a 6-fold. Discussion below reflects agreement and disagreement.</p>';
+  if (votes.double && votes.double.length) {
+    html += '<div class="card hot-pick"><h3>Voted results</h3>' +
+      '<p><strong>Double:</strong> ' + votes.double.join(' + ') + '</p>' +
+      '<p><strong>Treble:</strong> ' + (votes.treble || []).join(' + ') + '</p>' +
+      '<p><strong>6-fold:</strong> ' + (votes.sixfold || []).join(' + ') + '</p></div>';
+  }
   lines.forEach(line => {
     const bot = BOTS[line.bot] || { name: line.bot, colour: "#64748b" };
     html += '<div class="chat-line">' +
