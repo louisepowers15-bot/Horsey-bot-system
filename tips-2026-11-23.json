@@ -17,7 +17,7 @@
           "bot": "FormFox",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 71,
+          "conf": 72,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -26,34 +26,7 @@
           "bot": "HotTrainer",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 66,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 61,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 58,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 56,
+          "conf": 72,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -62,7 +35,34 @@
           "bot": "PaceProphet",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 50,
+          "conf": 59,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 57,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 57,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 45,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -87,7 +87,7 @@
           "bot": "HotTrainer",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 64,
+          "conf": 72,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -96,7 +96,7 @@
           "bot": "BloodlineBetty",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 62,
+          "conf": 64,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -111,19 +111,19 @@
           "stars": 4
         },
         {
-          "bot": "ValueHunter",
+          "bot": "PaceProphet",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 52,
+          "conf": 54,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
         },
         {
-          "bot": "PaceProphet",
+          "bot": "ValueHunter",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 51,
+          "conf": 46,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -139,11 +139,63 @@
           "bot": "FormFox",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 72,
+          "conf": 67,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
         },
+        {
+          "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 64,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 61,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 53,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 53,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 47,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Exeter",
+      "time": "14:07",
+      "name": "Happy 70th David Clements Handicap Hurdle (Class 3)",
+      "tips": [
         {
           "bot": "HotTrainer",
           "horse": "Idoloditrexenta",
@@ -154,10 +206,10 @@
           "stars": 4
         },
         {
-          "bot": "DevilAdvocate",
+          "bot": "FormFox",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 62,
+          "conf": 69,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -166,7 +218,16 @@
           "bot": "BloodlineBetty",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 59,
+          "conf": 57,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 53,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -184,68 +245,7 @@
           "bot": "ValueHunter",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 45,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        }
-      ]
-    },
-    {
-      "course": "Exeter",
-      "time": "14:07",
-      "name": "Happy 70th David Clements Handicap Hurdle (Class 3)",
-      "tips": [
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 66,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 58,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 51,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 47,
+          "conf": 49,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -270,7 +270,7 @@
           "bot": "FormFox",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 66,
+          "conf": 69,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -279,16 +279,7 @@
           "bot": "BloodlineBetty",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 58,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 58,
+          "conf": 62,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -297,7 +288,7 @@
           "bot": "DevilAdvocate",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 55,
+          "conf": 59,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -306,7 +297,16 @@
           "bot": "ValueHunter",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 53,
+          "conf": 56,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 50,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -322,7 +322,7 @@
           "bot": "FormFox",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 71,
+          "conf": 72,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -331,25 +331,7 @@
           "bot": "HotTrainer",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 71,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
           "conf": 64,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 59,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -358,7 +340,25 @@
           "bot": "PaceProphet",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 50,
+          "conf": 60,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 59,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 58,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -367,7 +367,7 @@
           "bot": "ValueHunter",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 45,
+          "conf": 47,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -380,19 +380,19 @@
       "name": "Exminster Golf Centre Richard Candy Memorial Handicap Hurdle (Class 5)",
       "tips": [
         {
-          "bot": "FormFox",
+          "bot": "HotTrainer",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 72,
+          "conf": 67,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
         },
         {
-          "bot": "HotTrainer",
+          "bot": "FormFox",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 72,
+          "conf": 65,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -401,7 +401,7 @@
           "bot": "BloodlineBetty",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 64,
+          "conf": 60,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -410,7 +410,7 @@
           "bot": "DevilAdvocate",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 57,
+          "conf": 56,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -419,7 +419,7 @@
           "bot": "PaceProphet",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 49,
+          "conf": 53,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -428,7 +428,7 @@
           "bot": "ValueHunter",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 45,
+          "conf": 52,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -441,19 +441,10 @@
       "name": "All-Weather Championship Is Back 'Hands And Heels' Apprentice Handicap (Class 5)",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 68,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "FormFox",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 64,
+          "conf": 69,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -462,7 +453,16 @@
           "bot": "BloodlineBetty",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 61,
+          "conf": 65,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 65,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -471,7 +471,7 @@
           "bot": "DevilAdvocate",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 60,
+          "conf": 61,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -480,7 +480,7 @@
           "bot": "PaceProphet",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 55,
+          "conf": 56,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -489,7 +489,7 @@
           "bot": "ValueHunter",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 51,
+          "conf": 49,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -505,7 +505,68 @@
           "bot": "HotTrainer",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 67,
+          "conf": 72,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 71,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 58,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 57,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 52,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 52,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Lingfield",
+      "time": "12:25",
+      "name": "AWC Season 14 Has Begun EBF Novice Stakes (GBB/GBBPlus Race) (Div 2) (Class 3)",
+      "tips": [
+        {
+          "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 70,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -523,7 +584,7 @@
           "bot": "BloodlineBetty",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 59,
+          "conf": 60,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -532,7 +593,59 @@
           "bot": "DevilAdvocate",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 57,
+          "conf": 60,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 59,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 47,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Lingfield",
+      "time": "12:55",
+      "name": "Midnite A Next Generation Betting App Novice Stakes (GBB/GBBPlus Race) (Class 3)",
+      "tips": [
+        {
+          "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 72,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 68,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 60,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -542,6 +655,259 @@
           "horse": "Idoloditrexenta",
           "odds": 9.0,
           "conf": 54,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 52,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 50,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Lingfield",
+      "time": "13:25",
+      "name": "Midnite It's Actually Pretty Good Handicap (GBBPlus Race) (Class 4)",
+      "tips": [
+        {
+          "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 69,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 67,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 60,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 56,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 55,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 52,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Lingfield",
+      "time": "13:55",
+      "name": "AWC Finals Day At Newcastle 26th March Fillies' Handicap (Class 5)",
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 68,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 67,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 62,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 61,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 55,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 51,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Lingfield",
+      "time": "14:25",
+      "name": "Make The Move To Midnite Handicap (Class 6)",
+      "tips": [
+        {
+          "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 71,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 70,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 62,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 61,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 54,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 47,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Lingfield",
+      "time": "14:55",
+      "name": "Midnite: Built For 2026 Not 2006 Handicap (Class 6)",
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 68,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 67,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 57,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 56,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 53,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -559,372 +925,6 @@
     },
     {
       "course": "Lingfield",
-      "time": "12:25",
-      "name": "AWC Season 14 Has Begun EBF Novice Stakes (GBB/GBBPlus Race) (Div 2) (Class 3)",
-      "tips": [
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 52,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 45,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        }
-      ]
-    },
-    {
-      "course": "Lingfield",
-      "time": "12:55",
-      "name": "Midnite A Next Generation Betting App Novice Stakes (GBB/GBBPlus Race) (Class 3)",
-      "tips": [
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 67,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 60,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 59,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 54,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 53,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        }
-      ]
-    },
-    {
-      "course": "Lingfield",
-      "time": "13:25",
-      "name": "Midnite It's Actually Pretty Good Handicap (GBBPlus Race) (Class 4)",
-      "tips": [
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 71,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 54,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 53,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 52,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 46,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        }
-      ]
-    },
-    {
-      "course": "Lingfield",
-      "time": "13:55",
-      "name": "AWC Finals Day At Newcastle 26th March Fillies' Handicap (Class 5)",
-      "tips": [
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 71,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 65,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 58,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 52,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        }
-      ]
-    },
-    {
-      "course": "Lingfield",
-      "time": "14:25",
-      "name": "Make The Move To Midnite Handicap (Class 6)",
-      "tips": [
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 71,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 71,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 51,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 51,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        }
-      ]
-    },
-    {
-      "course": "Lingfield",
-      "time": "14:55",
-      "name": "Midnite: Built For 2026 Not 2006 Handicap (Class 6)",
-      "tips": [
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 67,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 64,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 60,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 53,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 51,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        }
-      ]
-    },
-    {
-      "course": "Lingfield",
       "time": "15:25",
       "name": "Midnite Ain't Your Grandad's Bookie Handicap (Class 6)",
       "tips": [
@@ -932,7 +932,7 @@
           "bot": "FormFox",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 66,
+          "conf": 72,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -941,7 +941,7 @@
           "bot": "HotTrainer",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 64,
+          "conf": 72,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -950,7 +950,7 @@
           "bot": "BloodlineBetty",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 58,
+          "conf": 63,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -959,7 +959,7 @@
           "bot": "PaceProphet",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 58,
+          "conf": 60,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -968,7 +968,7 @@
           "bot": "DevilAdvocate",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 54,
+          "conf": 58,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -977,7 +977,7 @@
           "bot": "ValueHunter",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 50,
+          "conf": 52,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -990,19 +990,19 @@
       "name": "Donohue Marquees Risk Of Thunder Chase",
       "tips": [
         {
-          "bot": "HotTrainer",
+          "bot": "FormFox",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 68,
+          "conf": 72,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
         },
         {
-          "bot": "FormFox",
+          "bot": "HotTrainer",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 65,
+          "conf": 67,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1011,16 +1011,7 @@
           "bot": "BloodlineBetty",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 61,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 59,
+          "conf": 60,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1035,10 +1026,19 @@
           "stars": 4
         },
         {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 49,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
           "bot": "ValueHunter",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 52,
+          "conf": 49,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1054,7 +1054,7 @@
           "bot": "FormFox",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 72,
+          "conf": 71,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1063,7 +1063,7 @@
           "bot": "HotTrainer",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 72,
+          "conf": 64,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1081,7 +1081,7 @@
           "bot": "BloodlineBetty",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 59,
+          "conf": 58,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1090,7 +1090,7 @@
           "bot": "PaceProphet",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 57,
+          "conf": 58,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1099,7 +1099,7 @@
           "bot": "ValueHunter",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 45,
+          "conf": 48,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1112,71 +1112,10 @@
       "name": "Pertemps Network Group Handicap Hurdle (Qualifier)",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 70,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "FormFox",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 65,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 63,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 61,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        }
-      ]
-    },
-    {
-      "course": "Punchestown",
-      "time": "13:30",
-      "name": "Colm Quinn BMW Novice Handicap Hurdle",
-      "tips": [
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 70,
+          "conf": 72,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1185,22 +1124,22 @@
           "bot": "HotTrainer",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 69,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 64,
+          "conf": 67,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
         },
         {
           "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 59,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
           "conf": 56,
@@ -1221,7 +1160,68 @@
           "bot": "PaceProphet",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 48,
+          "conf": 52,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Punchestown",
+      "time": "13:30",
+      "name": "Colm Quinn BMW Novice Handicap Hurdle",
+      "tips": [
+        {
+          "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 68,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 67,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 60,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 56,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 56,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 55,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1246,129 +1246,7 @@
           "bot": "HotTrainer",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 67,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 54,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 46,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        }
-      ]
-    },
-    {
-      "course": "Punchestown",
-      "time": "14:30",
-      "name": "Matchbook Betting Exchange Craddockstown Novice Chase (Grade 2) (Class 1)",
-      "tips": [
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 70,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 60,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 53,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 52,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 50,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        }
-      ]
-    },
-    {
-      "course": "Punchestown",
-      "time": "15:00",
-      "name": "John Durkan Memorial Punchestown Chase (Grade 1) (Class 1)",
-      "tips": [
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
+          "conf": 66,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1395,7 +1273,7 @@
           "bot": "PaceProphet",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 58,
+          "conf": 56,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1404,7 +1282,7 @@
           "bot": "ValueHunter",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 54,
+          "conf": 47,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1413,11 +1291,20 @@
     },
     {
       "course": "Punchestown",
-      "time": "15:30",
-      "name": "Keadeen Hotel (Pro/Am) Flat Race",
+      "time": "14:30",
+      "name": "Matchbook Betting Exchange Craddockstown Novice Chase (Grade 2) (Class 1)",
       "tips": [
         {
           "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 72,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
           "conf": 71,
@@ -1426,77 +1313,16 @@
           "stars": 4
         },
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 69,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 58,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 54,
+          "conf": 63,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 51,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        }
-      ]
-    },
-    {
-      "course": "Cork",
-      "time": "12:19",
-      "name": "Irish Stallion Farms EBF Academy Hurdle",
-      "tips": [
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
           "conf": 56,
@@ -1514,10 +1340,62 @@
           "stars": 4
         },
         {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 52,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Punchestown",
+      "time": "15:00",
+      "name": "John Durkan Memorial Punchestown Chase (Grade 1) (Class 1)",
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 69,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 64,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 62,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 61,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
           "bot": "ValueHunter",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 54,
+          "conf": 53,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1526,7 +1404,129 @@
           "bot": "PaceProphet",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 50,
+          "conf": 51,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Punchestown",
+      "time": "15:30",
+      "name": "Keadeen Hotel (Pro/Am) Flat Race",
+      "tips": [
+        {
+          "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 72,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 71,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 59,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 57,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 56,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 47,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Cork",
+      "time": "12:19",
+      "name": "Irish Stallion Farms EBF Academy Hurdle",
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 66,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 64,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 64,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 61,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 57,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 47,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1551,16 +1551,7 @@
           "bot": "FormFox",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 68,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 59,
+          "conf": 69,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1569,13 +1560,13 @@
           "bot": "BloodlineBetty",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 55,
+          "conf": 59,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
         },
         {
-          "bot": "ValueHunter",
+          "bot": "DevilAdvocate",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
           "conf": 55,
@@ -1588,58 +1579,6 @@
           "horse": "Idoloditrexenta",
           "odds": 9.0,
           "conf": 49,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        }
-      ]
-    },
-    {
-      "course": "Cork",
-      "time": "13:19",
-      "name": "Irish Stallion Farms EBF Maiden Hurdle",
-      "tips": [
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 70,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 69,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 58,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 53,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1657,8 +1596,8 @@
     },
     {
       "course": "Cork",
-      "time": "13:49",
-      "name": "Irish Stallion Farms EBF Mares Beginners Chase",
+      "time": "13:19",
+      "name": "Irish Stallion Farms EBF Maiden Hurdle",
       "tips": [
         {
           "bot": "HotTrainer",
@@ -1673,7 +1612,16 @@
           "bot": "FormFox",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 68,
+          "conf": 71,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 60,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1682,7 +1630,7 @@
           "bot": "DevilAdvocate",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 62,
+          "conf": 59,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1697,10 +1645,53 @@
           "stars": 4
         },
         {
-          "bot": "PaceProphet",
+          "bot": "ValueHunter",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 49,
+          "conf": 52,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Cork",
+      "time": "13:49",
+      "name": "Irish Stallion Farms EBF Mares Beginners Chase",
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 72,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 67,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 62,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 61,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1709,7 +1700,16 @@
           "bot": "ValueHunter",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 46,
+          "conf": 52,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 50,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1722,7 +1722,7 @@
       "name": "Kevin McManus Bookmaker Handicap Chase",
       "tips": [
         {
-          "bot": "HotTrainer",
+          "bot": "FormFox",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
           "conf": 72,
@@ -1731,28 +1731,10 @@
           "stars": 4
         },
         {
-          "bot": "FormFox",
+          "bot": "HotTrainer",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 64,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 63,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 55,
+          "conf": 67,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1761,7 +1743,25 @@
           "bot": "ValueHunter",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 53,
+          "conf": 56,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 54,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 52,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1770,7 +1770,7 @@
           "bot": "PaceProphet",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 51,
+          "conf": 50,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1781,494 +1781,6 @@
       "course": "Cork",
       "time": "14:49",
       "name": "William Hill Challenge Series Irish EBF Beginners Chase",
-      "tips": [
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 68,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 67,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 60,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 60,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 59,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 54,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        }
-      ]
-    },
-    {
-      "course": "Cork",
-      "time": "15:19",
-      "name": "Adare Manor Opportunity Handicap Hurdle",
-      "tips": [
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 54,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 53,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 46,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        }
-      ]
-    },
-    {
-      "course": "Cork",
-      "time": "15:49",
-      "name": "William Hill Challenge Series Handicap Hurdle",
-      "tips": [
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 62,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 49,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 47,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        }
-      ]
-    },
-    {
-      "course": "Fakenham",
-      "time": "12:43",
-      "name": "racingtv.com/freetrial - Last Day Mares' Handicap Hurdle (Class 4)",
-      "tips": [
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 69,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 63,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 58,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 53,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 52,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        }
-      ]
-    },
-    {
-      "course": "Fakenham",
-      "time": "13:13",
-      "name": "Royal British Legion Poppy Appeal 2026 Handicap Chase (Class 5)",
-      "tips": [
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 59,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 54,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 51,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        }
-      ]
-    },
-    {
-      "course": "Fakenham",
-      "time": "13:43",
-      "name": "Get A Free Trial Of Racing TV Now Maiden Hurdle (GBB Race) (Class 4)",
-      "tips": [
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 71,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 67,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 54,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 47,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        }
-      ]
-    },
-    {
-      "course": "Fakenham",
-      "time": "14:13",
-      "name": "Jumps Looks Better On Racing TV Mares' Handicap Chase (Class 5)",
-      "tips": [
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 59,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 54,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 52,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 47,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        }
-      ]
-    },
-    {
-      "course": "Fakenham",
-      "time": "14:43",
-      "name": "Get A Free Trial At racingtv.com/freetrial Handicap Hurdle (Class 4)",
-      "tips": [
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 61,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 54,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 53,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        }
-      ]
-    },
-    {
-      "course": "Fakenham",
-      "time": "15:13",
-      "name": "31 Days Free Racing TV At racingtv.com/freetrial Novices' Handicap Chase (GBB Race) (Class 4)",
       "tips": [
         {
           "bot": "FormFox",
@@ -2292,6 +1804,76 @@
           "bot": "BloodlineBetty",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
+          "conf": 62,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 60,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 52,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 48,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Cork",
+      "time": "15:19",
+      "name": "Adare Manor Opportunity Handicap Hurdle",
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 71,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 65,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 65,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
           "conf": 57,
           "type": "ew",
           "reason": "Each-way value at the price",
@@ -2301,7 +1883,7 @@
           "bot": "PaceProphet",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
-          "conf": 57,
+          "conf": 51,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -2310,7 +1892,294 @@
           "bot": "ValueHunter",
           "horse": "Idoloditrexenta",
           "odds": 9.0,
+          "conf": 50,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Cork",
+      "time": "15:49",
+      "name": "William Hill Challenge Series Handicap Hurdle",
+      "tips": [
+        {
+          "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 72,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 67,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 55,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 55,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
           "conf": 54,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 45,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Fakenham",
+      "time": "12:43",
+      "name": "racingtv.com/freetrial - Last Day Mares' Handicap Hurdle (Class 4)",
+      "tips": [
+        {
+          "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 68,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 65,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 55,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 55,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 54,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 51,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Fakenham",
+      "time": "13:13",
+      "name": "Royal British Legion Poppy Appeal 2026 Handicap Chase (Class 5)",
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 69,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 65,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 62,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 58,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 53,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 48,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Fakenham",
+      "time": "13:43",
+      "name": "Get A Free Trial Of Racing TV Now Maiden Hurdle (GBB Race) (Class 4)",
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 69,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 66,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 61,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 57,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 56,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 53,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Fakenham",
+      "time": "14:13",
+      "name": "Jumps Looks Better On Racing TV Mares' Handicap Chase (Class 5)",
+      "tips": [
+        {
+          "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 70,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 65,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 65,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 55,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -2323,10 +2192,141 @@
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 48,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Fakenham",
+      "time": "14:43",
+      "name": "Get A Free Trial At racingtv.com/freetrial Handicap Hurdle (Class 4)",
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 71,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 64,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 61,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 60,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 56,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 48,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Fakenham",
+      "time": "15:13",
+      "name": "31 Days Free Racing TV At racingtv.com/freetrial Novices' Handicap Chase (GBB Race) (Class 4)",
+      "tips": [
+        {
+          "bot": "HotTrainer",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 72,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 67,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 62,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 61,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 55,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Idoloditrexenta",
+          "odds": 9.0,
+          "conf": 50,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
         }
       ]
     }
   ],
-  "generated_at": "2026-11-22T16:03:33.907723Z",
+  "generated_at": "2026-11-22T16:14:32.488837Z",
   "note": "Live scraped UK & Ireland racecards"
 }

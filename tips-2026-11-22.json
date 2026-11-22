@@ -14,10 +14,10 @@
       "name": "Sunday At The Races With Greendale EBF Junior 'National Hunt' Hurdle (GBB Race) (Class 4)",
       "tips": [
         {
-          "bot": "FormFox",
+          "bot": "ValueHunter",
           "horse": "Our Wee Horse",
           "odds": 2.25,
-          "conf": 51,
+          "conf": 53,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -26,7 +26,34 @@
           "bot": "PaceProphet",
           "horse": "Our Wee Horse",
           "odds": 2.25,
-          "conf": 51,
+          "conf": 50,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Our Wee Horse",
+          "odds": 2.25,
+          "conf": 49,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Our Wee Horse",
+          "odds": 2.25,
+          "conf": 47,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Our Wee Horse",
+          "odds": 2.25,
+          "conf": 46,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -35,37 +62,10 @@
           "bot": "HotTrainer",
           "horse": "Our Wee Horse",
           "odds": 2.25,
-          "conf": 45,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Our Wee Horse",
-          "odds": 2.25,
-          "conf": 42,
+          "conf": 44,
           "type": "win",
           "reason": "Preferred selection",
           "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Naturaouse",
-          "odds": 2.62,
-          "conf": 50,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 2
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Naturaouse",
-          "odds": 2.62,
-          "conf": 48,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 2
         }
       ]
     },
@@ -75,12 +75,39 @@
       "name": "Elf Exeter Leukaemia Fund Mares' Novices' Hurdle (GBB Race) (Class 4)",
       "tips": [
         {
-          "bot": "PaceProphet",
+          "bot": "FormFox",
+          "horse": "Winding Lake",
+          "odds": 21.0,
+          "conf": 57,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 3
+        },
+        {
+          "bot": "ValueHunter",
           "horse": "Poet's Muse",
           "odds": 2.2,
           "conf": 54,
           "type": "win",
           "reason": "Strong favourite with high confidence",
+          "stars": 3
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Winding Lake",
+          "odds": 21.0,
+          "conf": 53,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 3
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Winding Lake",
+          "odds": 21.0,
+          "conf": 50,
+          "type": "ew",
+          "reason": "Each-way value at the price",
           "stars": 3
         },
         {
@@ -93,40 +120,13 @@
           "stars": 3
         },
         {
-          "bot": "ValueHunter",
+          "bot": "PaceProphet",
           "horse": "Poet's Muse",
           "odds": 2.2,
-          "conf": 43,
+          "conf": 44,
           "type": "win",
           "reason": "Preferred selection",
           "stars": 3
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Winding Lake",
-          "odds": 21.0,
-          "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Winding Lake",
-          "odds": 21.0,
-          "conf": 53,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Correen",
-          "odds": 5.5,
-          "conf": 45,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 1
         }
       ]
     },
@@ -136,58 +136,58 @@
       "name": "Chris Down A Lifetime In Racing Novices' Limited Handicap Chase (GBB Race) (Class 3)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Silver Hill",
-          "odds": 3.25,
-          "conf": 70,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Silver Hill",
-          "odds": 3.25,
-          "conf": 62,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Silver Hill",
-          "odds": 3.25,
-          "conf": 60,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Silver Hill",
-          "odds": 3.25,
-          "conf": 53,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
           "bot": "HotTrainer",
-          "horse": "Rickety Bridge",
-          "odds": 7.0,
-          "conf": 64,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "horse": "Silver Hill",
+          "odds": 3.25,
+          "conf": 63,
+          "type": "win",
+          "reason": "Best option on the card",
           "stars": 2
         },
         {
-          "bot": "BloodlineBetty",
+          "bot": "DevilAdvocate",
           "horse": "Rickety Bridge",
           "odds": 7.0,
           "conf": 61,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 2
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Silver Hill",
+          "odds": 3.25,
+          "conf": 61,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 2
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Rickety Bridge",
+          "odds": 7.0,
+          "conf": 60,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 2
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Torrent",
+          "odds": 4.0,
+          "conf": 67,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 1
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Champagne Chic",
+          "odds": 3.5,
+          "conf": 55,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 1
         }
       ]
     },
@@ -200,7 +200,7 @@
           "bot": "FormFox",
           "horse": "Handlethekettle",
           "odds": 3.75,
-          "conf": 69,
+          "conf": 73,
           "type": "win",
           "reason": "Best option on the card",
           "stars": 4
@@ -215,10 +215,28 @@
           "stars": 4
         },
         {
+          "bot": "PaceProphet",
+          "horse": "Handlethekettle",
+          "odds": 3.75,
+          "conf": 63,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Handlethekettle",
+          "odds": 3.75,
+          "conf": 58,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 4
+        },
+        {
           "bot": "ValueHunter",
           "horse": "Handlethekettle",
           "odds": 3.75,
-          "conf": 60,
+          "conf": 57,
           "type": "win",
           "reason": "Best option on the card",
           "stars": 4
@@ -227,28 +245,10 @@
           "bot": "BloodlineBetty",
           "horse": "Handlethekettle",
           "odds": 3.75,
-          "conf": 59,
+          "conf": 55,
           "type": "win",
           "reason": "Best option on the card",
           "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Handlethekettle",
-          "odds": 3.75,
-          "conf": 56,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Treasure Planet",
-          "odds": 3.0,
-          "conf": 57,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 1
         }
       ]
     },
@@ -261,54 +261,54 @@
           "bot": "FormFox",
           "horse": "Kingcormac",
           "odds": 13.0,
-          "conf": 69,
+          "conf": 70,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 2
+          "stars": 3
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Kingcormac",
+          "odds": 13.0,
+          "conf": 57,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 3
         },
         {
           "bot": "HotTrainer",
           "horse": "Kingcormac",
           "odds": 13.0,
-          "conf": 58,
+          "conf": 57,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 2
+          "stars": 3
         },
         {
           "bot": "BloodlineBetty",
-          "horse": "He Knows Better",
-          "odds": 6.5,
-          "conf": 58,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 1
-        },
-        {
-          "bot": "PaceProphet",
           "horse": "Sage Green",
           "odds": 3.25,
-          "conf": 57,
+          "conf": 58,
           "type": "win",
           "reason": "Best option on the card",
-          "stars": 1
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "It's A Breeze",
-          "odds": 15.0,
-          "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 1
+          "stars": 2
         },
         {
           "bot": "ValueHunter",
-          "horse": "Kel Du Large",
-          "odds": 3.5,
-          "conf": 51,
+          "horse": "Sage Green",
+          "odds": 3.25,
+          "conf": 56,
           "type": "win",
           "reason": "Best option on the card",
+          "stars": 2
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "It's A Breeze",
+          "odds": 15.0,
+          "conf": 51,
+          "type": "ew",
+          "reason": "Each-way value at the price",
           "stars": 1
         }
       ]
@@ -320,57 +320,57 @@
       "tips": [
         {
           "bot": "FormFox",
-          "horse": "Mecene",
-          "odds": 2.5,
-          "conf": 65,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Mecene",
-          "odds": 2.5,
-          "conf": 56,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Mecene",
-          "odds": 2.5,
-          "conf": 56,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Mecene",
-          "odds": 2.5,
-          "conf": 53,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
           "horse": "Modern Style",
           "odds": 6.0,
-          "conf": 57,
+          "conf": 62,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 2
+          "stars": 3
         },
         {
           "bot": "HotTrainer",
           "horse": "Modern Style",
           "odds": 6.0,
-          "conf": 53,
+          "conf": 61,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 2
+          "stars": 3
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Modern Style",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 3
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Mecene",
+          "odds": 2.5,
+          "conf": 55,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 3
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Mecene",
+          "odds": 2.5,
+          "conf": 55,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 3
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Mecene",
+          "odds": 2.5,
+          "conf": 53,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 3
         }
       ]
     },
@@ -380,58 +380,58 @@
       "name": "Exminster Golf Centre Richard Candy Memorial Handicap Hurdle (Class 5)",
       "tips": [
         {
+          "bot": "BloodlineBetty",
+          "horse": "Blue In The West",
+          "odds": 9.5,
+          "conf": 54,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
           "bot": "FormFox",
           "horse": "Blue In The West",
           "odds": 9.5,
           "conf": 54,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 3
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Blue In The West",
+          "odds": 9.5,
+          "conf": 50,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Blue In The West",
           "odds": 9.5,
-          "conf": 47,
+          "conf": 42,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 3
+          "stars": 4
         },
         {
           "bot": "PaceProphet",
           "horse": "Blue In The West",
           "odds": 9.5,
-          "conf": 43,
+          "conf": 42,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 3
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Hillsin",
-          "odds": 17.0,
-          "conf": 49,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Hillsin",
-          "odds": 17.0,
-          "conf": 48,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
+          "stars": 4
         },
         {
           "bot": "ValueHunter",
-          "horse": "Can You Hear Me",
-          "odds": 4.5,
-          "conf": 41,
+          "horse": "Blue In The West",
+          "odds": 9.5,
+          "conf": 42,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 1
+          "stars": 4
         }
       ]
     },
@@ -441,22 +441,13 @@
       "name": "All-Weather Championship Is Back 'Hands And Heels' Apprentice Handicap (Class 5)",
       "tips": [
         {
-          "bot": "FormFox",
+          "bot": "HotTrainer",
           "horse": "Mister Mojito",
           "odds": 4.5,
-          "conf": 62,
+          "conf": 58,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 3
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Mister Mojito",
-          "odds": 4.5,
-          "conf": 54,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
+          "stars": 4
         },
         {
           "bot": "DevilAdvocate",
@@ -465,34 +456,43 @@
           "conf": 53,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 3
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Viking Glory",
-          "odds": 23.0,
-          "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
+          "stars": 4
         },
         {
           "bot": "PaceProphet",
+          "horse": "Mister Mojito",
+          "odds": 4.5,
+          "conf": 53,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Mister Mojito",
+          "odds": 4.5,
+          "conf": 53,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
           "horse": "Viking Glory",
           "odds": 23.0,
-          "conf": 48,
+          "conf": 57,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 2
         },
         {
           "bot": "BloodlineBetty",
-          "horse": "Mighty Vega",
-          "odds": 11.0,
-          "conf": 51,
+          "horse": "Viking Glory",
+          "odds": 23.0,
+          "conf": 54,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 1
+          "stars": 2
         }
       ]
     },
@@ -502,10 +502,28 @@
       "name": "AWC Season 14 Has Begun EBF Novice Stakes (GBB/GBBPlus Race) (Div 1) (Class 3)",
       "tips": [
         {
-          "bot": "DevilAdvocate",
+          "bot": "ValueHunter",
           "horse": "Arkat",
           "odds": 2.38,
           "conf": 52,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Arkat",
+          "odds": 2.38,
+          "conf": 50,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Arkat",
+          "odds": 2.38,
+          "conf": 49,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -520,37 +538,19 @@
           "stars": 4
         },
         {
-          "bot": "ValueHunter",
+          "bot": "DevilAdvocate",
           "horse": "Arkat",
           "odds": 2.38,
-          "conf": 49,
+          "conf": 43,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
+          "reason": "Best option on the card",
           "stars": 4
         },
         {
           "bot": "BloodlineBetty",
-          "horse": "Arkat",
-          "odds": 2.38,
+          "horse": "Frankenstyne",
+          "odds": 4.33,
           "conf": 47,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Arkat",
-          "odds": 2.38,
-          "conf": 47,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Reign Over All",
-          "odds": 4.5,
-          "conf": 44,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 1
@@ -563,19 +563,10 @@
       "name": "AWC Season 14 Has Begun EBF Novice Stakes (GBB/GBBPlus Race) (Div 2) (Class 3)",
       "tips": [
         {
-          "bot": "ValueHunter",
-          "horse": "Sea Fortress",
-          "odds": 2.0,
-          "conf": 54,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
           "bot": "PaceProphet",
           "horse": "Sea Fortress",
           "odds": 2.0,
-          "conf": 52,
+          "conf": 51,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -584,7 +575,25 @@
           "bot": "BloodlineBetty",
           "horse": "Sea Fortress",
           "odds": 2.0,
-          "conf": 48,
+          "conf": 50,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Sea Fortress",
+          "odds": 2.0,
+          "conf": 50,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Sea Fortress",
+          "odds": 2.0,
+          "conf": 46,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -606,15 +615,6 @@
           "type": "win",
           "reason": "Preferred selection",
           "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Two Of A Kind",
-          "odds": 7.0,
-          "conf": 42,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 1
         }
       ]
     },
@@ -623,6 +623,15 @@
       "time": "12:55",
       "name": "Midnite A Next Generation Betting App Novice Stakes (GBB/GBBPlus Race) (Class 3)",
       "tips": [
+        {
+          "bot": "ValueHunter",
+          "horse": "Olympic Charter",
+          "odds": 1.67,
+          "conf": 65,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
         {
           "bot": "PaceProphet",
           "horse": "Olympic Charter",
@@ -633,19 +642,10 @@
           "stars": 4
         },
         {
-          "bot": "ValueHunter",
+          "bot": "HotTrainer",
           "horse": "Olympic Charter",
           "odds": 1.67,
-          "conf": 58,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Olympic Charter",
-          "odds": 1.67,
-          "conf": 57,
+          "conf": 59,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -660,19 +660,19 @@
           "stars": 4
         },
         {
-          "bot": "HotTrainer",
+          "bot": "FormFox",
           "horse": "Olympic Charter",
           "odds": 1.67,
-          "conf": 55,
+          "conf": 57,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
         },
         {
-          "bot": "FormFox",
+          "bot": "BloodlineBetty",
           "horse": "Olympic Charter",
           "odds": 1.67,
-          "conf": 52,
+          "conf": 53,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -688,55 +688,55 @@
           "bot": "FormFox",
           "horse": "Politely",
           "odds": 3.25,
-          "conf": 64,
+          "conf": 67,
           "type": "win",
           "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Politely",
-          "odds": 3.25,
-          "conf": 60,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Politely",
-          "odds": 3.25,
-          "conf": 59,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Politely",
-          "odds": 3.25,
-          "conf": 58,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Politely",
-          "odds": 3.25,
-          "conf": 56,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
+          "stars": 3
         },
         {
           "bot": "PaceProphet",
           "horse": "Politely",
           "odds": 3.25,
-          "conf": 50,
+          "conf": 51,
           "type": "win",
           "reason": "Best option on the card",
-          "stars": 4
+          "stars": 3
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Politely",
+          "odds": 3.25,
+          "conf": 51,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 3
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Wyld Bill",
+          "odds": 15.0,
+          "conf": 57,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 2
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Wyld Bill",
+          "odds": 15.0,
+          "conf": 51,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 2
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Merci Monsieur",
+          "odds": 3.5,
+          "conf": 51,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 1
         }
       ]
     },
@@ -746,28 +746,10 @@
       "name": "AWC Finals Day At Newcastle 26th March Fillies' Handicap (Class 5)",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Maria Da Silva",
-          "odds": 2.62,
-          "conf": 70,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
           "bot": "FormFox",
           "horse": "Maria Da Silva",
           "odds": 2.62,
-          "conf": 65,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Maria Da Silva",
-          "odds": 2.62,
-          "conf": 63,
+          "conf": 69,
           "type": "win",
           "reason": "Best option on the card",
           "stars": 4
@@ -776,7 +758,7 @@
           "bot": "BloodlineBetty",
           "horse": "Maria Da Silva",
           "odds": 2.62,
-          "conf": 62,
+          "conf": 61,
           "type": "win",
           "reason": "Best option on the card",
           "stars": 4
@@ -786,6 +768,24 @@
           "horse": "Maria Da Silva",
           "odds": 2.62,
           "conf": 61,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Maria Da Silva",
+          "odds": 2.62,
+          "conf": 60,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Maria Da Silva",
+          "odds": 2.62,
+          "conf": 60,
           "type": "win",
           "reason": "Best option on the card",
           "stars": 4
@@ -807,55 +807,55 @@
       "name": "Make The Move To Midnite Handicap (Class 6)",
       "tips": [
         {
-          "bot": "BloodlineBetty",
+          "bot": "FormFox",
           "horse": "Little Jaybee",
           "odds": 6.0,
-          "conf": 51,
+          "conf": 50,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Little Jaybee",
-          "odds": 6.0,
-          "conf": 51,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Little Jaybee",
-          "odds": 6.0,
-          "conf": 45,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Little Jaybee",
-          "odds": 6.0,
-          "conf": 45,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "stars": 3
         },
         {
           "bot": "PaceProphet",
           "horse": "Little Jaybee",
           "odds": 6.0,
-          "conf": 42,
+          "conf": 48,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 4
+          "stars": 3
         },
         {
-          "bot": "FormFox",
-          "horse": "Sheik Yerbouti",
-          "odds": 23.0,
-          "conf": 47,
+          "bot": "ValueHunter",
+          "horse": "Little Jaybee",
+          "odds": 6.0,
+          "conf": 44,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 3
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Davorge Nation",
+          "odds": 7.5,
+          "conf": 48,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 2
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Davorge Nation",
+          "odds": 7.5,
+          "conf": 48,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 2
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "One For Harvey",
+          "odds": 10.0,
+          "conf": 44,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 1
@@ -869,39 +869,12 @@
       "tips": [
         {
           "bot": "FormFox",
-          "horse": "Wellwhatshappenin",
-          "odds": 5.5,
-          "conf": 57,
+          "horse": "Manton Road",
+          "odds": 11.0,
+          "conf": 55,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Wellwhatshappenin",
-          "odds": 5.5,
-          "conf": 54,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Wellwhatshappenin",
-          "odds": 5.5,
-          "conf": 50,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Wellwhatshappenin",
-          "odds": 5.5,
-          "conf": 50,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "stars": 2
         },
         {
           "bot": "BloodlineBetty",
@@ -913,10 +886,37 @@
           "stars": 2
         },
         {
-          "bot": "ValueHunter",
+          "bot": "HotTrainer",
+          "horse": "Manton Road",
+          "odds": 11.0,
+          "conf": 50,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 2
+        },
+        {
+          "bot": "DevilAdvocate",
           "horse": "Electric Bass",
           "odds": 4.33,
-          "conf": 41,
+          "conf": 49,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 2
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Wellwhatshappenin",
+          "odds": 5.5,
+          "conf": 46,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 2
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Wellwhatshappenin",
+          "odds": 5.5,
+          "conf": 45,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 2
@@ -929,37 +929,10 @@
       "name": "Midnite Ain't Your Grandad's Bookie Handicap (Class 6)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Noble Grace",
-          "odds": 5.5,
-          "conf": 67,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Noble Grace",
-          "odds": 5.5,
-          "conf": 62,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
           "horse": "Noble Grace",
           "odds": 5.5,
-          "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Noble Grace",
-          "odds": 5.5,
-          "conf": 53,
+          "conf": 60,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -968,19 +941,46 @@
           "bot": "PaceProphet",
           "horse": "Noble Grace",
           "odds": 5.5,
-          "conf": 49,
+          "conf": 54,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
         },
         {
           "bot": "ValueHunter",
-          "horse": "In The Post",
-          "odds": 3.5,
-          "conf": 49,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 1
+          "horse": "Noble Grace",
+          "odds": 5.5,
+          "conf": 51,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Noble Grace",
+          "odds": 5.5,
+          "conf": 48,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Calshot Spit",
+          "odds": 17.0,
+          "conf": 59,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 2
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Calshot Spit",
+          "odds": 17.0,
+          "conf": 59,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 2
         }
       ]
     },
@@ -1002,7 +1002,7 @@
           "bot": "DevilAdvocate",
           "horse": "Stumptown",
           "odds": 1.5,
-          "conf": 82,
+          "conf": 84,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -1020,16 +1020,7 @@
           "bot": "ValueHunter",
           "horse": "Stumptown",
           "odds": 1.5,
-          "conf": 78,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Stumptown",
-          "odds": 1.5,
-          "conf": 74,
+          "conf": 80,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -1038,10 +1029,19 @@
           "bot": "PaceProphet",
           "horse": "Stumptown",
           "odds": 1.5,
-          "conf": 74,
+          "conf": 79,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Fountain House",
+          "odds": 4.5,
+          "conf": 65,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 1
         }
       ]
     },
@@ -1051,19 +1051,19 @@
       "name": "Irish Stallion Farms EBF Maiden Hurdle",
       "tips": [
         {
-          "bot": "DevilAdvocate",
+          "bot": "PaceProphet",
           "horse": "Theflyingking",
           "odds": 2.1,
-          "conf": 64,
+          "conf": 62,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
         },
         {
-          "bot": "FormFox",
+          "bot": "DevilAdvocate",
           "horse": "Theflyingking",
           "odds": 2.1,
-          "conf": 61,
+          "conf": 60,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -1072,13 +1072,13 @@
           "bot": "ValueHunter",
           "horse": "Theflyingking",
           "odds": 2.1,
-          "conf": 61,
+          "conf": 60,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
         },
         {
-          "bot": "PaceProphet",
+          "bot": "HotTrainer",
           "horse": "Theflyingking",
           "odds": 2.1,
           "conf": 59,
@@ -1087,7 +1087,7 @@
           "stars": 4
         },
         {
-          "bot": "BloodlineBetty",
+          "bot": "FormFox",
           "horse": "Theflyingking",
           "odds": 2.1,
           "conf": 58,
@@ -1096,13 +1096,13 @@
           "stars": 4
         },
         {
-          "bot": "HotTrainer",
-          "horse": "Sharp As Glass",
-          "odds": 51.0,
-          "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 1
+          "bot": "BloodlineBetty",
+          "horse": "Theflyingking",
+          "odds": 2.1,
+          "conf": 56,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
         }
       ]
     },
@@ -1112,55 +1112,55 @@
       "name": "Pertemps Network Group Handicap Hurdle (Qualifier)",
       "tips": [
         {
-          "bot": "DevilAdvocate",
-          "horse": "Santo Sospir",
-          "odds": 9.5,
-          "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Santo Sospir",
-          "odds": 9.5,
-          "conf": 51,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Santo Sospir",
-          "odds": 9.5,
-          "conf": 50,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Paul's Dream",
+          "bot": "FormFox",
+          "horse": "Staffordshire Knot",
           "odds": 17.0,
-          "conf": 66,
+          "conf": 70,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 2
         },
         {
           "bot": "BloodlineBetty",
-          "horse": "Paul's Dream",
-          "odds": 17.0,
-          "conf": 58,
+          "horse": "Santo Sospir",
+          "odds": 9.5,
+          "conf": 59,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 2
         },
         {
-          "bot": "FormFox",
+          "bot": "ValueHunter",
+          "horse": "Santo Sospir",
+          "odds": 9.5,
+          "conf": 52,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 2
+        },
+        {
+          "bot": "PaceProphet",
           "horse": "Staffordshire Knot",
           "odds": 17.0,
-          "conf": 62,
+          "conf": 51,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 2
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ragmans Corner",
+          "odds": 9.0,
+          "conf": 57,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 1
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Paul's Dream",
+          "odds": 17.0,
+          "conf": 56,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 1
@@ -1173,7 +1173,7 @@
       "name": "Colm Quinn BMW Novice Handicap Hurdle",
       "tips": [
         {
-          "bot": "HotTrainer",
+          "bot": "FormFox",
           "horse": "Gomez Addams",
           "odds": 3.0,
           "conf": 60,
@@ -1182,19 +1182,19 @@
           "stars": 4
         },
         {
-          "bot": "PaceProphet",
+          "bot": "DevilAdvocate",
           "horse": "Gomez Addams",
           "odds": 3.0,
-          "conf": 58,
+          "conf": 59,
           "type": "win",
           "reason": "Best option on the card",
           "stars": 4
         },
         {
-          "bot": "FormFox",
+          "bot": "HotTrainer",
           "horse": "Gomez Addams",
           "odds": 3.0,
-          "conf": 56,
+          "conf": 59,
           "type": "win",
           "reason": "Best option on the card",
           "stars": 4
@@ -1203,16 +1203,16 @@
           "bot": "BloodlineBetty",
           "horse": "Gomez Addams",
           "odds": 3.0,
-          "conf": 52,
+          "conf": 58,
           "type": "win",
           "reason": "Best option on the card",
           "stars": 4
         },
         {
-          "bot": "DevilAdvocate",
+          "bot": "PaceProphet",
           "horse": "Gomez Addams",
           "odds": 3.0,
-          "conf": 51,
+          "conf": 57,
           "type": "win",
           "reason": "Best option on the card",
           "stars": 4
@@ -1221,7 +1221,7 @@
           "bot": "ValueHunter",
           "horse": "Gomez Addams",
           "odds": 3.0,
-          "conf": 50,
+          "conf": 55,
           "type": "win",
           "reason": "Best option on the card",
           "stars": 4
@@ -1234,37 +1234,10 @@
       "name": "Frontline Security Grabel Mares Hurdle (Listed) (Class 1)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Oldschool Outlaw",
-          "odds": 1.62,
-          "conf": 81,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
           "bot": "PaceProphet",
           "horse": "Oldschool Outlaw",
           "odds": 1.62,
-          "conf": 76,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Oldschool Outlaw",
-          "odds": 1.62,
-          "conf": 75,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Oldschool Outlaw",
-          "odds": 1.62,
-          "conf": 71,
+          "conf": 79,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -1273,7 +1246,34 @@
           "bot": "DevilAdvocate",
           "horse": "Oldschool Outlaw",
           "odds": 1.62,
-          "conf": 70,
+          "conf": 78,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Oldschool Outlaw",
+          "odds": 1.62,
+          "conf": 77,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Oldschool Outlaw",
+          "odds": 1.62,
+          "conf": 73,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Oldschool Outlaw",
+          "odds": 1.62,
+          "conf": 71,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -1282,7 +1282,7 @@
           "bot": "BloodlineBetty",
           "horse": "Oldschool Outlaw",
           "odds": 1.62,
-          "conf": 63,
+          "conf": 64,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -1295,58 +1295,58 @@
       "name": "Matchbook Betting Exchange Craddockstown Novice Chase (Grade 2) (Class 1)",
       "tips": [
         {
-          "bot": "HotTrainer",
+          "bot": "FormFox",
           "horse": "Zanoosh",
           "odds": 5.0,
           "conf": 72,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 3
+          "stars": 4
         },
         {
-          "bot": "DevilAdvocate",
+          "bot": "HotTrainer",
           "horse": "Zanoosh",
           "odds": 5.0,
-          "conf": 67,
+          "conf": 66,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 3
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Zanoosh",
+          "odds": 5.0,
+          "conf": 57,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
         },
         {
           "bot": "ValueHunter",
           "horse": "Zanoosh",
           "odds": 5.0,
-          "conf": 55,
+          "conf": 57,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 3
+          "stars": 4
         },
         {
-          "bot": "FormFox",
-          "horse": "Lovely Hurling",
-          "odds": 4.5,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "bot": "DevilAdvocate",
+          "horse": "Ocastle Des Mottes",
+          "odds": 2.88,
+          "conf": 62,
+          "type": "win",
+          "reason": "Best option on the card",
           "stars": 2
         },
         {
           "bot": "PaceProphet",
-          "horse": "Lovely Hurling",
-          "odds": 4.5,
-          "conf": 58,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Frankie John",
-          "odds": 3.75,
-          "conf": 60,
+          "horse": "Ocastle Des Mottes",
+          "odds": 2.88,
+          "conf": 61,
           "type": "win",
           "reason": "Best option on the card",
-          "stars": 1
+          "stars": 2
         }
       ]
     },
@@ -1356,19 +1356,19 @@
       "name": "John Durkan Memorial Punchestown Chase (Grade 1) (Class 1)",
       "tips": [
         {
-          "bot": "FormFox",
+          "bot": "PaceProphet",
           "horse": "Gaelic Warrior",
           "odds": 1.91,
-          "conf": 78,
+          "conf": 77,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
         },
         {
-          "bot": "PaceProphet",
+          "bot": "FormFox",
           "horse": "Gaelic Warrior",
           "odds": 1.91,
-          "conf": 76,
+          "conf": 75,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -1377,7 +1377,7 @@
           "bot": "DevilAdvocate",
           "horse": "Gaelic Warrior",
           "odds": 1.91,
-          "conf": 72,
+          "conf": 73,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -1395,7 +1395,7 @@
           "bot": "ValueHunter",
           "horse": "Gaelic Warrior",
           "odds": 1.91,
-          "conf": 70,
+          "conf": 68,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -1404,7 +1404,7 @@
           "bot": "BloodlineBetty",
           "horse": "Gaelic Warrior",
           "odds": 1.91,
-          "conf": 67,
+          "conf": 63,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -1417,46 +1417,10 @@
       "name": "Keadeen Hotel (Pro/Am) Flat Race",
       "tips": [
         {
-          "bot": "DevilAdvocate",
-          "horse": "Ceasar's Ball",
-          "odds": 2.5,
-          "conf": 53,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Ceasar's Ball",
-          "odds": 2.5,
-          "conf": 53,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Ceasar's Ball",
-          "odds": 2.5,
-          "conf": 52,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Ceasar's Ball",
-          "odds": 2.5,
-          "conf": 50,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
           "bot": "ValueHunter",
           "horse": "Ceasar's Ball",
           "odds": 2.5,
-          "conf": 50,
+          "conf": 55,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -1465,9 +1429,45 @@
           "bot": "BloodlineBetty",
           "horse": "Ceasar's Ball",
           "odds": 2.5,
-          "conf": 45,
+          "conf": 54,
           "type": "win",
-          "reason": "Best option on the card",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ceasar's Ball",
+          "odds": 2.5,
+          "conf": 52,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ceasar's Ball",
+          "odds": 2.5,
+          "conf": 52,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ceasar's Ball",
+          "odds": 2.5,
+          "conf": 50,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ceasar's Ball",
+          "odds": 2.5,
+          "conf": 50,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
           "stars": 4
         }
       ]
@@ -1478,57 +1478,57 @@
       "name": "Irish Stallion Farms EBF Academy Hurdle",
       "tips": [
         {
-          "bot": "ValueHunter",
-          "horse": "Noon Blu Dodville",
-          "odds": 2.25,
-          "conf": 51,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
+          "bot": "BloodlineBetty",
+          "horse": "Green Heritage",
+          "odds": 4.0,
+          "conf": 45,
+          "type": "ew",
+          "reason": "Each-way value at the price",
           "stars": 4
         },
         {
           "bot": "PaceProphet",
-          "horse": "Noon Blu Dodville",
-          "odds": 2.25,
-          "conf": 48,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Noon Blu Dodville",
-          "odds": 2.25,
-          "conf": 46,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
+          "horse": "Green Heritage",
+          "odds": 4.0,
+          "conf": 45,
+          "type": "ew",
+          "reason": "Each-way value at the price",
           "stars": 4
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Noon Blu Dodville",
-          "odds": 2.25,
-          "conf": 44,
-          "type": "win",
-          "reason": "Preferred selection",
+          "horse": "Green Heritage",
+          "odds": 4.0,
+          "conf": 43,
+          "type": "ew",
+          "reason": "Each-way value at the price",
           "stars": 4
         },
         {
-          "bot": "BloodlineBetty",
+          "bot": "FormFox",
           "horse": "Green Heritage",
           "odds": 4.0,
-          "conf": 49,
+          "conf": 41,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 2
+          "stars": 4
         },
         {
           "bot": "HotTrainer",
-          "horse": "Green Heritage",
-          "odds": 4.0,
-          "conf": 46,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "horse": "Noon Blu Dodville",
+          "odds": 2.25,
+          "conf": 47,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 2
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Noon Blu Dodville",
+          "odds": 2.25,
+          "conf": 43,
+          "type": "win",
+          "reason": "Preferred selection",
           "stars": 2
         }
       ]
@@ -1557,10 +1557,10 @@
           "stars": 4
         },
         {
-          "bot": "FormFox",
+          "bot": "DevilAdvocate",
           "horse": "Personal Space",
           "odds": 2.2,
-          "conf": 52,
+          "conf": 53,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -1569,22 +1569,22 @@
           "bot": "BloodlineBetty",
           "horse": "Personal Space",
           "odds": 2.2,
-          "conf": 51,
+          "conf": 48,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
         },
         {
-          "bot": "HotTrainer",
+          "bot": "FormFox",
           "horse": "Maestro Des Pins",
           "odds": 3.0,
-          "conf": 54,
+          "conf": 51,
           "type": "win",
           "reason": "Best option on the card",
           "stars": 2
         },
         {
-          "bot": "DevilAdvocate",
+          "bot": "HotTrainer",
           "horse": "Maestro Des Pins",
           "odds": 3.0,
           "conf": 51,
@@ -1600,54 +1600,54 @@
       "name": "Irish Stallion Farms EBF Maiden Hurdle",
       "tips": [
         {
-          "bot": "BloodlineBetty",
-          "horse": "Moonverrin",
-          "odds": 5.5,
-          "conf": 58,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
           "bot": "FormFox",
-          "horse": "Moonverrin",
-          "odds": 5.5,
-          "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
+          "horse": "Look Me",
+          "odds": 2.25,
+          "conf": 63,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
         },
         {
           "bot": "PaceProphet",
           "horse": "Look Me",
           "odds": 2.25,
-          "conf": 55,
+          "conf": 61,
           "type": "win",
           "reason": "Strong favourite with high confidence",
-          "stars": 2
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Look Me",
+          "odds": 2.25,
+          "conf": 58,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
         },
         {
           "bot": "ValueHunter",
           "horse": "Look Me",
           "odds": 2.25,
-          "conf": 55,
+          "conf": 54,
           "type": "win",
           "reason": "Strong favourite with high confidence",
-          "stars": 2
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Soul Asylum",
-          "odds": 2.62,
-          "conf": 55,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 1
+          "stars": 4
         },
         {
           "bot": "HotTrainer",
           "horse": "Wilton Mills Trier",
           "odds": 7.0,
+          "conf": 59,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 1
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Moonverrin",
+          "odds": 5.5,
           "conf": 55,
           "type": "ew",
           "reason": "Each-way value at the price",
@@ -1662,57 +1662,57 @@
       "tips": [
         {
           "bot": "FormFox",
-          "horse": "Place De La Nation",
-          "odds": 3.0,
-          "conf": 75,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 3
+          "horse": "Bambino Fever",
+          "odds": 4.0,
+          "conf": 72,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
         },
         {
           "bot": "HotTrainer",
-          "horse": "Place De La Nation",
-          "odds": 3.0,
+          "horse": "Bambino Fever",
+          "odds": 4.0,
           "conf": 72,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 3
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 4
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Place De La Nation",
-          "odds": 3.0,
-          "conf": 68,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 3
-        },
-        {
-          "bot": "BloodlineBetty",
           "horse": "Bambino Fever",
           "odds": 4.0,
-          "conf": 64,
+          "conf": 67,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 3
+          "stars": 4
         },
         {
           "bot": "PaceProphet",
           "horse": "Bambino Fever",
           "odds": 4.0,
-          "conf": 62,
+          "conf": 65,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 3
+          "stars": 4
         },
         {
           "bot": "ValueHunter",
-          "horse": "Bambino Fever",
-          "odds": 4.0,
-          "conf": 61,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
+          "horse": "Place De La Nation",
+          "odds": 3.0,
+          "conf": 64,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 2
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Place De La Nation",
+          "odds": 3.0,
+          "conf": 62,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 2
         }
       ]
     },
@@ -1734,7 +1734,7 @@
           "bot": "BloodlineBetty",
           "horse": "Rockonliam",
           "odds": 8.5,
-          "conf": 60,
+          "conf": 62,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1743,7 +1743,7 @@
           "bot": "DevilAdvocate",
           "horse": "Rockonliam",
           "odds": 8.5,
-          "conf": 59,
+          "conf": 56,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1752,7 +1752,7 @@
           "bot": "ValueHunter",
           "horse": "Rockonliam",
           "odds": 8.5,
-          "conf": 54,
+          "conf": 52,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 4
@@ -1761,19 +1761,19 @@
           "bot": "FormFox",
           "horse": "Kobalt St Georges",
           "odds": 11.0,
-          "conf": 69,
+          "conf": 70,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 2
+          "stars": 1
         },
         {
           "bot": "PaceProphet",
-          "horse": "Kobalt St Georges",
-          "odds": 11.0,
-          "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
+          "horse": "Karl Des Tourelles",
+          "odds": 3.25,
+          "conf": 48,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 1
         }
       ]
     },
@@ -1784,57 +1784,57 @@
       "tips": [
         {
           "bot": "FormFox",
-          "horse": "Speculateur",
-          "odds": 5.5,
-          "conf": 63,
+          "horse": "Rosie's Wings",
+          "odds": 7.0,
+          "conf": 66,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Speculateur",
-          "odds": 5.5,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Speculateur",
-          "odds": 5.5,
-          "conf": 54,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Speculateur",
-          "odds": 5.5,
-          "conf": 54,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "stars": 2
         },
         {
           "bot": "PaceProphet",
           "horse": "Speculateur",
           "odds": 5.5,
-          "conf": 52,
+          "conf": 53,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 4
+          "stars": 2
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Rosie's Wings",
+          "odds": 7.0,
+          "conf": 51,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 2
         },
         {
           "bot": "ValueHunter",
           "horse": "Speculateur",
           "odds": 5.5,
-          "conf": 51,
+          "conf": 48,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 4
+          "stars": 2
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Polepatrick",
+          "odds": 12.0,
+          "conf": 55,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 1
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Chase The Moon",
+          "odds": 19.0,
+          "conf": 55,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 1
         }
       ]
     },
@@ -1844,57 +1844,57 @@
       "name": "Adare Manor Opportunity Handicap Hurdle",
       "tips": [
         {
-          "bot": "HotTrainer",
+          "bot": "FormFox",
           "horse": "Lanzhou",
           "odds": 4.5,
-          "conf": 56,
+          "conf": 59,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 4
+          "stars": 3
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Lanzhou",
           "odds": 4.5,
-          "conf": 53,
+          "conf": 56,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 4
+          "stars": 3
         },
         {
           "bot": "BloodlineBetty",
           "horse": "Lanzhou",
           "odds": 4.5,
-          "conf": 48,
+          "conf": 53,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 4
+          "stars": 3
         },
         {
-          "bot": "ValueHunter",
-          "horse": "Lanzhou",
-          "odds": 4.5,
-          "conf": 45,
+          "bot": "HotTrainer",
+          "horse": "Springboard",
+          "odds": 7.0,
+          "conf": 59,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Lenjoleur De Palma",
-          "odds": 9.5,
-          "conf": 60,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 1
+          "stars": 2
         },
         {
           "bot": "PaceProphet",
           "horse": "Springboard",
           "odds": 7.0,
-          "conf": 47,
+          "conf": 49,
           "type": "ew",
           "reason": "Each-way value at the price",
+          "stars": 2
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Theanniversary Man",
+          "odds": 3.25,
+          "conf": 51,
+          "type": "win",
+          "reason": "Best option on the card",
           "stars": 1
         }
       ]
@@ -1906,21 +1906,48 @@
       "tips": [
         {
           "bot": "FormFox",
-          "horse": "The Rebel Fox",
-          "odds": 10.0,
-          "conf": 55,
+          "horse": "King Of The Greys",
+          "odds": 4.0,
+          "conf": 56,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 3
+          "stars": 2
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Cock And Bull",
+          "odds": 3.25,
+          "conf": 52,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 2
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Cock And Bull",
+          "odds": 3.25,
+          "conf": 50,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 2
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "King Of The Greys",
+          "odds": 4.0,
+          "conf": 50,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 2
         },
         {
           "bot": "BloodlineBetty",
-          "horse": "The Rebel Fox",
-          "odds": 10.0,
-          "conf": 53,
+          "horse": "John The Diva",
+          "odds": 17.0,
+          "conf": 55,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 3
+          "stars": 1
         },
         {
           "bot": "DevilAdvocate",
@@ -1929,33 +1956,6 @@
           "conf": 46,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 3
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "King Of The Greys",
-          "odds": 4.0,
-          "conf": 53,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "King Of The Greys",
-          "odds": 4.0,
-          "conf": 46,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Cock And Bull",
-          "odds": 3.25,
-          "conf": 48,
-          "type": "win",
-          "reason": "Best option on the card",
           "stars": 1
         }
       ]
@@ -1969,25 +1969,34 @@
           "bot": "FormFox",
           "horse": "Hello Sweety",
           "odds": 5.5,
-          "conf": 69,
+          "conf": 71,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 3
         },
         {
           "bot": "HotTrainer",
-          "horse": "Hello Sweety",
-          "odds": 5.5,
+          "horse": "Our Peggy",
+          "odds": 3.0,
           "conf": 63,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "type": "win",
+          "reason": "Best option on the card",
           "stars": 3
         },
         {
           "bot": "BloodlineBetty",
+          "horse": "Our Peggy",
+          "odds": 3.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 3
+        },
+        {
+          "bot": "DevilAdvocate",
           "horse": "Hello Sweety",
           "odds": 5.5,
-          "conf": 55,
+          "conf": 57,
           "type": "ew",
           "reason": "Each-way value at the price",
           "stars": 3
@@ -1996,28 +2005,19 @@
           "bot": "PaceProphet",
           "horse": "Our Peggy",
           "odds": 3.0,
-          "conf": 60,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 2
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Our Peggy",
-          "odds": 3.0,
           "conf": 55,
           "type": "win",
           "reason": "Best option on the card",
-          "stars": 2
+          "stars": 3
         },
         {
-          "bot": "DevilAdvocate",
-          "horse": "Golden Falls",
-          "odds": 2.75,
-          "conf": 60,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 1
+          "bot": "ValueHunter",
+          "horse": "Hello Sweety",
+          "odds": 5.5,
+          "conf": 55,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 3
         }
       ]
     },
@@ -2027,10 +2027,10 @@
       "name": "Royal British Legion Poppy Appeal 2026 Handicap Chase (Class 5)",
       "tips": [
         {
-          "bot": "ValueHunter",
+          "bot": "FormFox",
           "horse": "Applejack Poet",
           "odds": 2.1,
-          "conf": 61,
+          "conf": 63,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -2039,16 +2039,16 @@
           "bot": "PaceProphet",
           "horse": "Applejack Poet",
           "odds": 2.1,
-          "conf": 60,
+          "conf": 63,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
         },
         {
-          "bot": "DevilAdvocate",
+          "bot": "ValueHunter",
           "horse": "Applejack Poet",
           "odds": 2.1,
-          "conf": 56,
+          "conf": 62,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -2057,28 +2057,28 @@
           "bot": "BloodlineBetty",
           "horse": "Applejack Poet",
           "odds": 2.1,
-          "conf": 51,
+          "conf": 55,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
         },
         {
-          "bot": "FormFox",
-          "horse": "Belle Montrose",
-          "odds": 3.5,
-          "conf": 66,
+          "bot": "HotTrainer",
+          "horse": "Applejack Poet",
+          "odds": 2.1,
+          "conf": 55,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 2
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
         },
         {
-          "bot": "HotTrainer",
+          "bot": "DevilAdvocate",
           "horse": "Belle Montrose",
           "odds": 3.5,
-          "conf": 59,
+          "conf": 57,
           "type": "win",
           "reason": "Best option on the card",
-          "stars": 2
+          "stars": 1
         }
       ]
     },
@@ -2097,25 +2097,7 @@
           "stars": 4
         },
         {
-          "bot": "PaceProphet",
-          "horse": "Scotto",
-          "odds": 2.0,
-          "conf": 67,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Scotto",
-          "odds": 2.0,
-          "conf": 66,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
+          "bot": "DevilAdvocate",
           "horse": "Scotto",
           "odds": 2.0,
           "conf": 63,
@@ -2124,10 +2106,28 @@
           "stars": 4
         },
         {
-          "bot": "DevilAdvocate",
+          "bot": "HotTrainer",
           "horse": "Scotto",
           "odds": 2.0,
-          "conf": 61,
+          "conf": 62,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Scotto",
+          "odds": 2.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Scotto",
+          "odds": 2.0,
+          "conf": 58,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -2136,7 +2136,7 @@
           "bot": "BloodlineBetty",
           "horse": "Scotto",
           "odds": 2.0,
-          "conf": 55,
+          "conf": 54,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -2152,34 +2152,7 @@
           "bot": "FormFox",
           "horse": "Gata Ban",
           "odds": 2.38,
-          "conf": 72,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Gata Ban",
-          "odds": 2.38,
-          "conf": 69,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Gata Ban",
-          "odds": 2.38,
-          "conf": 68,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Gata Ban",
-          "odds": 2.38,
-          "conf": 65,
+          "conf": 79,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -2188,7 +2161,34 @@
           "bot": "DevilAdvocate",
           "horse": "Gata Ban",
           "odds": 2.38,
-          "conf": 62,
+          "conf": 71,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Gata Ban",
+          "odds": 2.38,
+          "conf": 66,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Gata Ban",
+          "odds": 2.38,
+          "conf": 64,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Gata Ban",
+          "odds": 2.38,
+          "conf": 63,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -2197,7 +2197,7 @@
           "bot": "ValueHunter",
           "horse": "Gata Ban",
           "odds": 2.38,
-          "conf": 59,
+          "conf": 60,
           "type": "win",
           "reason": "Strong favourite with high confidence",
           "stars": 4
@@ -2210,12 +2210,30 @@
       "name": "Get A Free Trial At racingtv.com/freetrial Handicap Hurdle (Class 4)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "At Mangan Bridge",
-          "odds": 7.0,
-          "conf": 62,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "bot": "ValueHunter",
+          "horse": "Mr Mackay",
+          "odds": 2.5,
+          "conf": 57,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 3
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Mr Mackay",
+          "odds": 2.5,
+          "conf": 56,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 3
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Mr Mackay",
+          "odds": 2.5,
+          "conf": 54,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
           "stars": 3
         },
         {
@@ -2225,40 +2243,22 @@
           "conf": 59,
           "type": "ew",
           "reason": "Each-way value at the price",
-          "stars": 3
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "At Mangan Bridge",
-          "odds": 7.0,
-          "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Mr Mackay",
-          "odds": 2.5,
-          "conf": 55,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
           "stars": 2
         },
         {
-          "bot": "PaceProphet",
-          "horse": "Mr Mackay",
-          "odds": 2.5,
-          "conf": 54,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
+          "bot": "FormFox",
+          "horse": "At Mangan Bridge",
+          "odds": 7.0,
+          "conf": 57,
+          "type": "ew",
+          "reason": "Each-way value at the price",
           "stars": 2
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Everyonesgame",
           "odds": 3.25,
-          "conf": 56,
+          "conf": 54,
           "type": "win",
           "reason": "Best option on the card",
           "stars": 1
@@ -2270,15 +2270,6 @@
       "time": "15:13",
       "name": "31 Days Free Racing TV At racingtv.com/freetrial Novices' Handicap Chase (GBB Race) (Class 4)",
       "tips": [
-        {
-          "bot": "FormFox",
-          "horse": "Mr Mcwhinny",
-          "odds": 2.62,
-          "conf": 76,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
         {
           "bot": "HotTrainer",
           "horse": "Mr Mcwhinny",
@@ -2298,19 +2289,10 @@
           "stars": 4
         },
         {
-          "bot": "DevilAdvocate",
-          "horse": "Mr Mcwhinny",
-          "odds": 2.62,
-          "conf": 64,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
           "bot": "ValueHunter",
           "horse": "Mr Mcwhinny",
           "odds": 2.62,
-          "conf": 59,
+          "conf": 67,
           "type": "win",
           "reason": "Best option on the card",
           "stars": 4
@@ -2319,14 +2301,32 @@
           "bot": "PaceProphet",
           "horse": "Mr Mcwhinny",
           "odds": 2.62,
-          "conf": 58,
+          "conf": 61,
           "type": "win",
           "reason": "Best option on the card",
           "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Hawaii Du Mestivel",
+          "odds": 3.75,
+          "conf": 71,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 2
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Hawaii Du Mestivel",
+          "odds": 3.75,
+          "conf": 65,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 2
         }
       ]
     }
   ],
-  "generated_at": "2026-11-22T16:03:08.041252Z",
+  "generated_at": "2026-11-22T16:14:08.191565Z",
   "note": "Live scraped UK & Ireland racecards"
 }
