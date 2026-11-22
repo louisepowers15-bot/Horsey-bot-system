@@ -1,1 +1,39 @@
+name: Daily Racecards & Tips Update
+
+on:
+  schedule:
+    # Runs every day at 07:30 UTC
+    - cron: '30 7 * * *'
+  workflow_dispatch: # Allows you to click "Run workflow" manually
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run scraper and tip generator
+        run: |
+          python scrape_racecards.py
+          python generate_tips.py
+
+      - name: Commit and push updated JSON files
+        run: |
+          git config --local user.email "github-actions[bot]@://github.com"
+          git config --local user.name "github-actions[bot]"
+          git add *.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update racecards and tips" && git push)
 
