@@ -1,13 +1,6 @@
 #!/usr/bin/env python3
 """
-Free multi-bot horse racing tips — stronger multi-factor model.
-
-Every bot evaluates:
-  form quality, recent trajectory, trainer, jockey, jockey-trainer combo,
-  market rank / price value, field size, going, distance (when known).
-
-Goals: fewer silly E/Ws, less random longshot spam, clearer reasons,
-slightly more disciplined favourites when the card supports them.
+Free multi-bot tips with tipster-style reasons and disciplined outsider control.
 """
 
 import argparse
@@ -29,14 +22,13 @@ BOT_NAMES = [
     "ValueHunter",
 ]
 
-# All bots use all factors; weights only tilt
 WEIGHTS = {
-    "FormFox":        {"form": 0.30, "trend": 0.10, "trainer": 0.12, "jockey": 0.10, "combo": 0.08, "value": 0.14, "field": 0.08, "going": 0.04, "trip": 0.04},
-    "HotTrainer":     {"form": 0.16, "trend": 0.08, "trainer": 0.24, "jockey": 0.12, "combo": 0.14, "value": 0.10, "field": 0.08, "going": 0.04, "trip": 0.04},
-    "ValueHunter":    {"form": 0.14, "trend": 0.08, "trainer": 0.08, "jockey": 0.08, "combo": 0.08, "value": 0.30, "field": 0.12, "going": 0.06, "trip": 0.06},
-    "DevilAdvocate":  {"form": 0.18, "trend": 0.08, "trainer": 0.10, "jockey": 0.10, "combo": 0.10, "value": 0.20, "field": 0.12, "going": 0.06, "trip": 0.06},
-    "BloodlineBetty": {"form": 0.18, "trend": 0.12, "trainer": 0.12, "jockey": 0.10, "combo": 0.12, "value": 0.12, "field": 0.10, "going": 0.06, "trip": 0.08},
-    "PaceProphet":    {"form": 0.16, "trend": 0.08, "trainer": 0.10, "jockey": 0.14, "combo": 0.12, "value": 0.12, "field": 0.16, "going": 0.06, "trip": 0.06},
+    "FormFox":        {"form": 0.32, "trend": 0.10, "trainer": 0.12, "jockey": 0.10, "combo": 0.08, "value": 0.12, "field": 0.08, "going": 0.04, "trip": 0.04},
+    "HotTrainer":     {"form": 0.16, "trend": 0.08, "trainer": 0.26, "jockey": 0.12, "combo": 0.14, "value": 0.10, "field": 0.06, "going": 0.04, "trip": 0.04},
+    "ValueHunter":    {"form": 0.16, "trend": 0.08, "trainer": 0.10, "jockey": 0.08, "combo": 0.08, "value": 0.28, "field": 0.10, "going": 0.06, "trip": 0.06},
+    "DevilAdvocate":  {"form": 0.20, "trend": 0.08, "trainer": 0.12, "jockey": 0.10, "combo": 0.10, "value": 0.18, "field": 0.10, "going": 0.06, "trip": 0.06},
+    "BloodlineBetty": {"form": 0.18, "trend": 0.12, "trainer": 0.14, "jockey": 0.10, "combo": 0.12, "value": 0.12, "field": 0.08, "going": 0.06, "trip": 0.08},
+    "PaceProphet":    {"form": 0.18, "trend": 0.08, "trainer": 0.12, "jockey": 0.14, "combo": 0.12, "value": 0.12, "field": 0.14, "going": 0.05, "trip": 0.05},
 }
 
 
@@ -49,116 +41,89 @@ def parse_date(arg: str) -> date:
 
 
 def parse_form_tokens(form: str):
-    """Return list of recent results newest-first where possible."""
     if not form:
         return []
     s = str(form).strip().upper().replace("-", " ").replace("/", " ")
-    tokens = re.findall(r"[1-9]|0|F|P|U|R|B|C|S", s)
-    return tokens[:8]
+    return re.findall(r"[1-9]|0|F|P|U|R|B|C|S", s)[:8]
 
 
 def form_metrics(form: str):
     tokens = parse_form_tokens(form)
     if not tokens:
-        return 0.40, 0.50, "limited form on the card"
-    score = 0.32
-    places = 0
-    wins = 0
-    fails = 0
+        return 0.38, 0.48
+    score = 0.30
     for i, t in enumerate(tokens[:6]):
-        w = 1.0 - i * 0.09
+        w = 1.0 - i * 0.1
         if t == "1":
-            score += 0.14 * w
-            wins += 1
-            places += 1
+            score += 0.12 * w
         elif t == "2":
-            score += 0.09 * w
-            places += 1
+            score += 0.08 * w
         elif t == "3":
-            score += 0.06 * w
-            places += 1
+            score += 0.05 * w
         elif t in ("4", "5"):
-            score += 0.03 * w
+            score += 0.025 * w
         elif t in ("F", "P", "U", "R", "B"):
-            score -= 0.05 * w
-            fails += 1
+            score -= 0.07 * w  # recent fails hurt more
         elif t == "0":
-            score -= 0.02 * w
-    score = max(0.18, min(0.92, score))
-    # trend: recent half vs older half
-    def half_score(chunk):
+            score -= 0.025 * w
+    score = max(0.15, min(0.9, score))
+
+    def half(chunk):
         if not chunk:
             return 0.45
-        sc = 0.4
+        sc = 0.38
         for t in chunk:
             if t == "1":
-                sc += 0.12
+                sc += 0.1
             elif t in ("2", "3"):
-                sc += 0.06
+                sc += 0.05
             elif t in ("F", "P", "U"):
-                sc -= 0.06
-        return max(0.2, min(0.9, sc))
-    recent = half_score(tokens[:3])
-    older = half_score(tokens[3:6])
-    trend = max(0.2, min(0.9, 0.5 + (recent - older) * 0.8))
-    note = f"form {''.join(tokens[:6])}"
-    if wins:
-        note += f", {wins} recent win(s)"
-    if fails:
-        note += f", {fails} recent fail(s) coded"
-    return score, trend, note
+                sc -= 0.07
+        return max(0.2, min(0.85, sc))
+
+    trend = max(0.2, min(0.85, 0.5 + (half(tokens[:3]) - half(tokens[3:6])) * 0.75))
+    return score, trend
 
 
 def enrich(runner, field_size, all_odds, going, distance):
     r = dict(runner)
     odds = max(1.15, float(r.get("odds") or 10.0))
     r["odds"] = odds
-    fscore, trend, fnote = form_metrics(str(r.get("form") or ""))
+    fscore, trend = form_metrics(str(r.get("form") or ""))
     if r.get("form_score"):
-        fscore = max(fscore, float(r["form_score"]) * 0.8)
+        fscore = max(fscore, float(r["form_score"]) * 0.75)
     r["_form"] = fscore
     r["_trend"] = trend
-    r["_form_note"] = fnote
-    r["_trainer"] = float(r.get("trainer_score") or (0.57 if r.get("trainer") else 0.4))
-    r["_jockey"] = float(r.get("jockey_score") or (0.55 if r.get("jockey") else 0.4))
-    if r.get("jockey") and r.get("trainer"):
-        r["_combo"] = min(0.82, (r["_jockey"] + r["_trainer"]) / 2 + 0.1)
-    else:
-        r["_combo"] = 0.4
+    r["_trainer"] = float(r.get("trainer_score") or (0.55 if r.get("trainer") else 0.4))
+    r["_jockey"] = float(r.get("jockey_score") or (0.53 if r.get("jockey") else 0.4))
+    r["_combo"] = min(0.8, (r["_jockey"] + r["_trainer"]) / 2 + 0.08) if (r.get("jockey") and r.get("trainer")) else 0.4
 
     implied = 1.0 / odds
-    # value: reward edge of form vs implied chance; punish random huge prices with weak form
     edge = r["_form"] - implied
-    r["_value"] = max(0.1, min(0.9, 0.45 + edge * 0.9 + (0.06 if 4.5 <= odds <= 12 else 0)))
-    if odds > 25 and r["_form"] < 0.45:
-        r["_value"] *= 0.7
+    r["_value"] = max(0.08, min(0.85, 0.42 + edge * 0.85))
+    # long odds need serious form to keep value
+    if odds >= 15:
+        r["_value"] *= 0.55 if r["_form"] < 0.55 else 0.85
+    if odds >= 25:
+        r["_value"] *= 0.5 if r["_form"] < 0.6 else 0.75
 
-    # field: big fields help mid-price contenders; tiny fields need quality
-    if field_size >= 11 and 5 <= odds <= 14:
-        r["_field"] = 0.66
+    if field_size >= 11 and 4.5 <= odds <= 12:
+        r["_field"] = 0.62
     elif field_size <= 4:
-        r["_field"] = 0.58 if r["_form"] >= 0.5 else 0.36
-    elif field_size <= 6 and odds <= 3.5:
-        r["_field"] = 0.6
+        r["_field"] = 0.58 if r["_form"] >= 0.5 else 0.34
     else:
         r["_field"] = 0.5
 
     g = (going or "").lower()
-    r["_going"] = 0.52 if g else 0.5
-    if "heavy" in g or "soft" in g:
-        r["_going"] = 0.49
-    if "firm" in g:
-        r["_going"] = 0.52
-    r["_trip"] = 0.52 if distance else 0.5
+    r["_going"] = 0.51 if g else 0.5
+    r["_trip"] = 0.51 if distance else 0.5
     r["_going_txt"] = going or ""
     r["_trip_txt"] = distance or ""
-
     sorted_odds = sorted(all_odds)
     try:
         r["_rank"] = sorted_odds.index(odds) + 1
     except ValueError:
         r["_rank"] = max(1, len(sorted_odds) // 2)
-    r["_n"] = field_size
     return r
 
 
@@ -175,120 +140,175 @@ def score_bot(bot, r, rng):
         + w["going"] * r["_going"]
         + w["trip"] * r["_trip"]
     )
-    # Discipline tweaks
+    # Favourites with solid form get a small boost (don't auto-oppose)
+    if r["_rank"] <= 2 and r["_form"] >= 0.5:
+        s += 0.045
     if r["_rank"] == 1 and r["_form"] >= 0.55:
-        s += 0.03  # don't be afraid of a solid favourite
-    if bot == "DevilAdvocate" and r["_rank"] == 1 and r["_form"] < 0.58:
-        s -= 0.07
-    if bot == "ValueHunter" and r["odds"] < 2.1:
+        s += 0.03
+    # Outsiders need elite form
+    if r["odds"] >= 12 and r["_form"] < 0.52:
+        s -= 0.12
+    if r["odds"] >= 18 and r["_form"] < 0.58:
+        s -= 0.18
+    if r["odds"] >= 25:
+        s -= 0.12
+    if bot == "DevilAdvocate" and r["_rank"] == 1 and r["_form"] < 0.55:
         s -= 0.06
-    if r["odds"] > 34 and r["_form"] < 0.5:
-        s -= 0.08  # cut hopeless outsiders
-    s += rng.uniform(-0.035, 0.035)
-    return max(0.1, min(0.94, s))
+    if bot == "ValueHunter" and r["odds"] < 2.2:
+        s -= 0.05
+    s += rng.uniform(-0.03, 0.03)
+    return max(0.08, min(0.93, s))
 
 
 def choose_type(bot, r, field_size, prob):
     odds = r["odds"]
-    if field_size < 5:
+    if field_size < 5 or odds < 5.5:
         return "win"
-    if odds < 5.0:
+    if r["_form"] < 0.45:
         return "win"
-    # need real form to go E/W
-    if r["_form"] < 0.42:
-        return "win"
-    if field_size >= 8 and odds >= 7.0 and prob >= 0.30:
-        return "ew"
-    if field_size >= 7 and odds >= 8.0 and bot in ("ValueHunter", "DevilAdvocate") and prob >= 0.28:
+    if field_size >= 8 and odds >= 7.5 and prob >= 0.32 and r["_form"] >= 0.48:
         return "ew"
     return "win"
 
 
-def build_reason(bot, r, tip_type, conf, field_size, rivals_note):
+def pick_for_bot(bot, ranked, field_size):
+    """ranked = list of (score, runner). Avoid weak big-priced pile-ups."""
+    for prob, r in ranked:
+        if r["odds"] >= 16 and r["_form"] < 0.55:
+            continue
+        if r["odds"] >= 20 and r["_rank"] >= 4 and r["_form"] < 0.6:
+            continue
+        tip_type = choose_type(bot, r, field_size, prob)
+        return prob, r, tip_type
+    # fallback: best score among top half of market if possible
+    market = [x for x in ranked if x[1]["_rank"] <= max(3, field_size // 2)]
+    pool = market or ranked
+    prob, r = pool[0]
+    return prob, r, choose_type(bot, r, field_size, prob)
+
+
+def tipster_reason(bot, r, tip_type, conf, field_size):
+    """Racing-tipster prose only. No scoring jargon."""
+    name = r.get("name") or "This horse"
     odds = r["odds"]
     form = str(r.get("form") or "").strip()
     trainer = (r.get("trainer") or "").strip()
     jockey = (r.get("jockey") or "").strip()
-    going = r.get("_going_txt") or ""
-    trip = r.get("_trip_txt") or ""
+    going = (r.get("_going_txt") or "").strip()
+    trip = (r.get("_trip_txt") or "").strip()
+    rank = r.get("_rank") or 0
+    form_s = r.get("_form") or 0.4
+    trend = r.get("_trend") or 0.5
 
-    # Rank which internal scores drove the pick
-    parts = [
-        ("form", r["_form"]),
-        ("recent trajectory", r["_trend"]),
-        ("trainer", r["_trainer"]),
-        ("jockey", r["_jockey"]),
-        ("jockey–trainer combo", r["_combo"]),
-        ("price vs chance", r["_value"]),
-        ("field size fit", r["_field"]),
-    ]
-    parts.sort(key=lambda x: -x[1])
-    a, b, c = parts[0][0], parts[1][0], parts[2][0]
-
-    lines = []
-    lines.append(
-        f"{bot} scored the whole card (form, trajectory, trainer, jockey, combo, price, field"
-        + (", going" if going else "")
-        + (", trip" if trip else "")
-        + f"). Top signals: {a}, {b}, then {c}."
-    )
-
-    detail = []
-    if form:
-        detail.append(r["_form_note"])
-    if trainer:
-        detail.append(f"trainer {trainer}")
-    if jockey:
-        detail.append(f"jockey {jockey}")
-    if trainer and jockey:
-        detail.append("combo present")
-    if trip:
-        detail.append(f"trip {trip}")
-    if going:
-        detail.append(f"going {going}")
-    detail.append(f"{field_size} runners")
-    detail.append(f"market rank {r['_rank']}")
-    detail.append(f"odds {odds:.2f}")
-    lines.append("Card facts: " + "; ".join(detail) + ".")
-
-    if rivals_note:
-        lines.append(rivals_note)
-
-    if tip_type == "ew":
-        lines.append(
-            f"Each-way: price {odds:.2f} and field size support a place dimension; form is not pure guesswork."
-        )
-    else:
-        if r["_rank"] == 1 and r["_form"] >= 0.55:
-            lines.append(
-                f"Win: solid favourite profile — form and connections justify taking {odds:.2f} to win rather than forcing a fancy."
-            )
-        elif odds >= 10:
-            lines.append(
-                f"Win at a bigger price ({odds:.2f}) only because combined signals still beat weaker rivals on this card."
-            )
+    # Plain-English form note
+    tokens = parse_form_tokens(form)
+    form_bit = ""
+    if tokens:
+        if tokens[0] == "1":
+            form_bit = "comes here off a win"
+        elif tokens[0] == "2":
+            form_bit = "was only just denied last time"
+        elif tokens[0] == "3":
+            form_bit = "ran a solid third last time"
+        elif tokens[0] in ("F", "P", "U"):
+            form_bit = "has a blot on the recent record but is better than that suggests"
         else:
-            lines.append(f"Win selection at about {odds:.2f} on the combined model, not a single angle.")
+            form_bit = f"recent figures read {form}"
+        if any(t == "1" for t in tokens[1:4]):
+            form_bit += " and has already shown the ability to win in this sort of grade"
 
-    lines.append(f"Confidence {conf}%.")
-    return " ".join(lines)
+    ground_trip = []
+    if trip:
+        ground_trip.append(f"over {trip}")
+    if going:
+        ground_trip.append(f"on {going}")
+    gt = (" " + " ".join(ground_trip)) if ground_trip else ""
 
+    # Bot flavour in tipster voice
+    if bot == "FormFox":
+        lead = f"{name} is the pick on form{gt}."
+        if form_bit:
+            mid = form_bit[0].upper() + form_bit[1:] + "."
+        else:
+            mid = "There is not a deep book of form in this race, and this one still stacks up best of those that have shown something."
+        if form_s >= 0.55:
+            mid += " The level already shown is good enough to dominate a race like this."
+        elif trend >= 0.55:
+            mid += " The direction of travel is positive, which matters as much as any single figure."
+        else:
+            mid += " Others may have more glamour, but few have actually achieved more on the track."
+    elif bot == "HotTrainer":
+        if trainer:
+            lead = f"{name} is the one for {trainer}{gt}."
+        else:
+            lead = f"{name} is the yard pick in this line-up{gt}."
+        mid = ""
+        if jockey:
+            mid += f"{jockey} retains the ride, which is a help. "
+        if form_bit:
+            mid += form_bit[0].upper() + form_bit[1:] + ". "
+        mid += "When this team means business in this grade, they are worth siding with."
+    elif bot == "ValueHunter":
+        lead = f"{name} looks the value at around {odds:.2f}{gt}."
+        mid = ""
+        if form_bit:
+            mid += form_bit[0].upper() + form_bit[1:] + ". "
+        if odds >= 8:
+            mid += "That price overstates the risks relative to what has already been shown. "
+        elif odds <= 2.5:
+            mid += "It is a short enough price, so there has to be a clear chance of winning — and there is. "
+        else:
+            mid += "The market has left just enough juice to make this interesting. "
+        if tip_type == "ew":
+            mid += "Each-way is the sensible way to play it."
+        else:
+            mid += "Happy enough taking it to win at the price."
+    elif bot == "DevilAdvocate":
+        if rank <= 2:
+            lead = f"It is hard to oppose {name} if you strip the race back to basics{gt}."
+        else:
+            lead = f"{name} is preferred to the more obvious names{gt}."
+        mid = ""
+        if form_bit:
+            mid += form_bit[0].upper() + form_bit[1:] + ". "
+        mid += "A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny."
+        if field_size <= 7:
+            mid += " With so few runners, one dull effort from a favourite puts this right in the mix."
+    elif bot == "BloodlineBetty":
+        lead = f"{name} has more about the profile than most of these{gt}."
+        mid = ""
+        if form_bit:
+            mid += form_bit[0].upper() + form_bit[1:] + ". "
+        if trainer:
+            mid += f"In the care of {trainer}, there is every chance of a step forward. "
+        else:
+            mid += "There is still improvement to come on the balance of the evidence. "
+        mid += "That progressive angle is enough to take a stand."
+    else:  # PaceProphet
+        lead = f"{name} should be suited by how this is likely to be run{gt}."
+        mid = ""
+        if field_size <= 6:
+            mid += f"Only {field_size} runners, so it becomes a race about position as much as raw ability. "
+        else:
+            mid += f"In a field of {field_size} you need a horse that can find a gap when the sprint starts. "
+        if jockey:
+            mid += f"{jockey} is a positive for race placement. "
+        if form_bit:
+            mid += form_bit[0].upper() + form_bit[1:] + "."
 
-def rivals_summary(best, runners):
-    """Short note on why this horse screens ahead of the field."""
-    others = [x for x in runners if x.get("name") != best.get("name")]
-    if not others:
-        return ""
-    # compare form to median
-    forms = sorted(x["_form"] for x in runners)
-    med = forms[len(forms) // 2]
-    if best["_form"] >= med + 0.08:
-        return "Form screens above the median of this field."
-    if best["_rank"] == 1:
-        return "Clearest on the market; model agrees enough not to oppose blindly."
-    if best["_value"] >= 0.58:
-        return "Price still looks acceptable relative to the model chance."
-    return "Edges the field on the combined score rather than one headline factor."
+    # Closing: win / EW in plain English
+    if tip_type == "ew":
+        close = f"Take {name} each-way at around {odds:.2f}."
+    else:
+        if rank <= 2 and odds <= 3.5:
+            close = f"Back {name} to win — at about {odds:.2f} there is no need to look beyond this one."
+        elif odds >= 12:
+            close = f"A speculative win bet on {name} at around {odds:.2f} is justified only because the alternatives are thin."
+        else:
+            close = f"Back {name} to win at around {odds:.2f}."
+
+    parts = [lead, mid.strip(), close]
+    return " ".join(p for p in parts if p)
 
 
 def build_tips_for_races(d, flat_races):
@@ -309,24 +329,39 @@ def build_tips_for_races(d, flat_races):
         tips = []
         for bot in BOT_NAMES:
             ranked = sorted(((score_bot(bot, r, rng), r) for r in runners), key=lambda x: -x[0])
-            prob, best = ranked[0]
-            # if top is a weak outsider, consider second if much more solid
-            if best["odds"] > 20 and best["_form"] < 0.48 and len(ranked) > 1:
-                p2, r2 = ranked[1]
-                if r2["_form"] >= best["_form"] + 0.08:
-                    prob, best = p2, r2
-
-            tip_type = choose_type(bot, best, field_size, prob)
-            conf = max(38, min(86, int(round(prob * 100))))
-            note = rivals_summary(best, runners)
+            prob, best, tip_type = pick_for_bot(bot, ranked, field_size)
+            conf = max(40, min(84, int(round(prob * 100))))
             tips.append({
                 "bot": bot,
                 "horse": best["name"],
                 "odds": round(best["odds"], 2),
                 "conf": conf,
                 "type": tip_type,
-                "reason": build_reason(bot, best, tip_type, conf, field_size, note),
+                "reason": tipster_reason(bot, best, tip_type, conf, field_size),
             })
+
+        # If 5+ bots landed on the same 15+ outsider, force diversity for lower-conf bots
+        counts = Counter(t["horse"] for t in tips)
+        for horse, n in list(counts.items()):
+            sample = next(t for t in tips if t["horse"] == horse)
+            if n >= 5 and sample["odds"] >= 15:
+                # re-pick for bots with lowest conf
+                ordered = sorted([t for t in tips if t["horse"] == horse], key=lambda t: t["conf"])
+                for t in ordered[: max(1, n - 3)]:
+                    bot = t["bot"]
+                    ranked = sorted(((score_bot(bot, r, rng), r) for r in runners), key=lambda x: -x[0])
+                    # take best not equal to the outsider pile
+                    for prob, r in ranked:
+                        if r["name"] == horse:
+                            continue
+                        if r["odds"] >= 20 and r["_form"] < 0.55:
+                            continue
+                        t["horse"] = r["name"]
+                        t["odds"] = round(r["odds"], 2)
+                        t["type"] = choose_type(bot, r, field_size, prob)
+                        t["conf"] = max(40, min(84, int(round(prob * 100))))
+                        t["reason"] = tipster_reason(bot, r, t["type"], t["conf"], field_size)
+                        break
 
         counts = Counter(t["horse"] for t in tips)
         for t in tips:
@@ -346,7 +381,7 @@ def build_tips_for_races(d, flat_races):
         "meetings": meetings,
         "races": races_out,
         "generated_at": datetime.utcnow().isoformat() + "Z",
-        "note": "multi-factor disciplined free model",
+        "note": "tipster reasons + outsider discipline",
     }
 
 
@@ -379,7 +414,7 @@ def main():
     parser.add_argument("--date", default="today")
     args = parser.parse_args()
     d = parse_date(args.date)
-    print(f"Generating disciplined free tips for {d.isoformat()}")
+    print(f"Generating tips for {d.isoformat()}")
     scraped = load_scraped_races(d)
     tips = build_tips_for_races(d, scraped) if scraped else {
         "date": d.isoformat(), "meetings": [], "races": [],
