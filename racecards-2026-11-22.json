@@ -1,7 +1,7 @@
 {
   "date": "2026-11-22",
   "source": "sportinglife",
-  "scraped_at": "2026-11-22T11:09:51.009365Z",
+  "scraped_at": "2026-11-22T11:22:45.199056Z",
   "meetings": [
     {
       "course": "Exeter",
@@ -91,6 +91,98 @@
         {
           "time": "15:25",
           "name": "Midnite Ain't Your Grandad's Bookie Handicap (Class 6)",
+          "runners": []
+        }
+      ]
+    },
+    {
+      "course": "Punchestown",
+      "going": "Good (Good to Yielding in places)",
+      "races": [
+        {
+          "time": "12:00",
+          "name": "Donohue Marquees Risk Of Thunder Chase",
+          "runners": []
+        },
+        {
+          "time": "12:30",
+          "name": "Irish Stallion Farms EBF Maiden Hurdle",
+          "runners": []
+        },
+        {
+          "time": "13:00",
+          "name": "Pertemps Network Group Handicap Hurdle (Qualifier)",
+          "runners": []
+        },
+        {
+          "time": "13:30",
+          "name": "Colm Quinn BMW Novice Handicap Hurdle",
+          "runners": []
+        },
+        {
+          "time": "14:00",
+          "name": "Frontline Security Grabel Mares Hurdle (Listed) (Class 1)",
+          "runners": []
+        },
+        {
+          "time": "14:30",
+          "name": "Matchbook Betting Exchange Craddockstown Novice Chase (Grade 2) (Class 1)",
+          "runners": []
+        },
+        {
+          "time": "15:00",
+          "name": "John Durkan Memorial Punchestown Chase (Grade 1) (Class 1)",
+          "runners": []
+        },
+        {
+          "time": "15:30",
+          "name": "Keadeen Hotel (Pro/Am) Flat Race",
+          "runners": []
+        }
+      ]
+    },
+    {
+      "course": "Cork",
+      "going": "Soft (Yielding to Soft in places)",
+      "races": [
+        {
+          "time": "12:19",
+          "name": "Irish Stallion Farms EBF Academy Hurdle",
+          "runners": []
+        },
+        {
+          "time": "12:49",
+          "name": "Join Racing TV Now With A Free Trial Maiden Hurdle",
+          "runners": []
+        },
+        {
+          "time": "13:19",
+          "name": "Irish Stallion Farms EBF Maiden Hurdle",
+          "runners": []
+        },
+        {
+          "time": "13:49",
+          "name": "Irish Stallion Farms EBF Mares Beginners Chase",
+          "runners": []
+        },
+        {
+          "time": "14:19",
+          "name": "Kevin McManus Bookmaker Handicap Chase",
+          "runners": []
+        },
+        {
+          "time": "14:49",
+          "name": "William Hill Challenge Series Irish EBF Beginners Chase",
+          "runners": []
+        },
+        {
+          "time": "15:19",
+          "name": "Adare Manor Opportunity Handicap Hurdle",
+          "runners": []
+        },
+        {
+          "time": "15:49",
+          "name": "William Hill Challenge Series Handicap Hurdle",
           "runners": []
         }
       ]
