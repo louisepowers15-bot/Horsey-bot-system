@@ -2,8 +2,13 @@ name: Daily Racecards & Tips Update
 
 on:
   schedule:
-    - cron: '30 7 * * *'
+    - cron: '30 7 * * *'   # morning cards + tips
+    - cron: '15 21 * * *'  # evening results settle (approx after UK racing)
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'tips | results | both'
+        default: 'both'
 
 permissions:
   contents: write
@@ -12,30 +17,41 @@ jobs:
   update-data:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
+        run: pip install -r requirements.txt
 
-      - name: Scrape Today and Tomorrow & Generate Tips
+      - name: Morning scrape + tips
+        if: github.event_name == 'schedule' && github.event.schedule == '30 7 * * *' || github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'tips' || github.event.inputs.mode == 'both' || github.event.inputs.mode == '')
         run: |
           python scrape_racecards.py --date today
           python generate_tips.py --date today
           python scrape_racecards.py --date tomorrow
           python generate_tips.py --date tomorrow
 
-      - name: Commit and push updated JSON files
+      - name: Evening results + settle yesterday
+        if: github.event_name == 'schedule' && github.event.schedule == '15 21 * * *' || github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'results' || github.event.inputs.mode == 'both')
         run: |
-          git config --local user.email "github-actions[bot]@://github.com"
+          python scrape_results.py --date yesterday
+          python settle_tips.py --date yesterday
+          # also try today if weighed-in races exist
+          python scrape_results.py --date today || true
+          python settle_tips.py --date today || true
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add *.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update racecards and tips" && git push)
-
-
+          git add racecards-*.json tips-*.json results-*.json settled-*.json leaderboard.json || true
+          if git diff --staged --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "Auto-update tips/results/leaderboard"
+          git pull --rebase origin main
+          git push origin main

@@ -1,0 +1,108 @@
+{
+  "updated_at": null,
+  "bots": {
+    "BloodlineBetty": {
+      "tips": 0,
+      "wins": 0,
+      "places": 0,
+      "losses": 0,
+      "unknown": 0,
+      "stakes": 0,
+      "returns": 0,
+      "pnl": 0,
+      "avg_odds": 0,
+      "win_pct": 0,
+      "roi_pct": 0,
+      "style": {
+        "win": 0,
+        "ew": 0
+      }
+    },
+    "DevilAdvocate": {
+      "tips": 0,
+      "wins": 0,
+      "places": 0,
+      "losses": 0,
+      "unknown": 0,
+      "stakes": 0,
+      "returns": 0,
+      "pnl": 0,
+      "avg_odds": 0,
+      "win_pct": 0,
+      "roi_pct": 0,
+      "style": {
+        "win": 0,
+        "ew": 0
+      }
+    },
+    "FormFox": {
+      "tips": 0,
+      "wins": 0,
+      "places": 0,
+      "losses": 0,
+      "unknown": 0,
+      "stakes": 0,
+      "returns": 0,
+      "pnl": 0,
+      "avg_odds": 0,
+      "win_pct": 0,
+      "roi_pct": 0,
+      "style": {
+        "win": 0,
+        "ew": 0
+      }
+    },
+    "HotTrainer": {
+      "tips": 0,
+      "wins": 0,
+      "places": 0,
+      "losses": 0,
+      "unknown": 0,
+      "stakes": 0,
+      "returns": 0,
+      "pnl": 0,
+      "avg_odds": 0,
+      "win_pct": 0,
+      "roi_pct": 0,
+      "style": {
+        "win": 0,
+        "ew": 0
+      }
+    },
+    "PaceProphet": {
+      "tips": 0,
+      "wins": 0,
+      "places": 0,
+      "losses": 0,
+      "unknown": 0,
+      "stakes": 0,
+      "returns": 0,
+      "pnl": 0,
+      "avg_odds": 0,
+      "win_pct": 0,
+      "roi_pct": 0,
+      "style": {
+        "win": 0,
+        "ew": 0
+      }
+    },
+    "ValueHunter": {
+      "tips": 0,
+      "wins": 0,
+      "places": 0,
+      "losses": 0,
+      "unknown": 0,
+      "stakes": 0,
+      "returns": 0,
+      "pnl": 0,
+      "avg_odds": 0,
+      "win_pct": 0,
+      "roi_pct": 0,
+      "style": {
+        "win": 0,
+        "ew": 0
+      }
+    }
+  },
+  "history": []
+}
