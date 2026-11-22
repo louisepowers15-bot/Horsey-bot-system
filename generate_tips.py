@@ -1,18 +1,13 @@
 #!/usr/bin/env python3
 """
-Generate tips from the 6 bots for a given day's racecards.
-
-This version uses a lightweight, transparent scoring model so the bots
-can still decide freely between win / E/W / longshot based on edge and confidence.
-
-Usage:
-  python generate_tips.py
-  python generate_tips.py --date 2026-11-21
+Generate tips from the 6 bots for a given day's scraped racecards.
+Reads racecards-YYYY-MM-DD.json and writes tips-YYYY-MM-DD.json.
 """
 
 import argparse
 import json
 import random
+from collections import Counter
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
@@ -39,6 +34,7 @@ def parse_date(arg: str) -> date:
 
 def decide_type(prob: float, decimal_odds: float) -> tuple[str, int, str]:
     """Return (type, confidence, reason)"""
+    decimal_odds = max(1.1, float(decimal_odds or 5.0))
     implied = 1.0 / decimal_odds
     edge = prob - implied
     conf = int(round(prob * 100))
@@ -53,12 +49,12 @@ def decide_type(prob: float, decimal_odds: float) -> tuple[str, int, str]:
 
 
 def score_runner(bot_bias: dict, runner: dict) -> float:
-    """Very simple transparent score. Replace with richer features later."""
-    # Normalise available signals into 0-1
-    form = runner.get("form_score", random.uniform(0.3, 0.8))
-    pedigree = runner.get("pedigree_score", random.uniform(0.2, 0.7))
-    trainer = runner.get("trainer_score", random.uniform(0.25, 0.75))
-    value = runner.get("value_score", random.uniform(0.2, 0.8))
+    """Score a runner using form, pedigree, trainer, and value signals."""
+    odds = max(1.1, float(runner.get("odds") or 5.0))
+    form = runner.get("form_score", random.uniform(0.35, 0.80))
+    pedigree = runner.get("pedigree_score", random.uniform(0.30, 0.75))
+    trainer = runner.get("trainer_score", random.uniform(0.30, 0.75))
+    value = runner.get("value_score", max(0.1, min(0.85, (1.0 / odds) + random.uniform(-0.1, 0.2))))
 
     s = (
         bot_bias["form"] * form +
@@ -66,109 +62,43 @@ def score_runner(bot_bias: dict, runner: dict) -> float:
         bot_bias["trainer"] * trainer +
         bot_bias["value"] * value
     )
-    # Add a little noise so bots don't always agree
     s += random.uniform(-0.06, 0.06)
     return max(0.08, min(0.92, s))
 
 
-def generate_from_sample(d: date) -> dict:
-    """
-    Generate a realistic tip set for the big meetings of the day.
-    Used when we don't yet have a full scraped card.
-    """
-    # Hard-coded structure for 21 Nov 2026 style card (Betfair Chase day)
-    sample_races = [
-        {
-            "course": "Haydock",
-            "time": "15:00",
-            "name": "Betfair Chase (Grade 1)",
-            "runners": [
-                {"name": "Grey Dawning", "odds": 3.5},
-                {"name": "Ahoy Senor", "odds": 9.0},
-                {"name": "Bravemansgame", "odds": 6.5},
-                {"name": "Protektorat", "odds": 8.0},
-                {"name": "Royale Pagaille", "odds": 12.0},
-            ]
-        },
-        {
-            "course": "Ascot",
-            "time": "14:05",
-            "name": "1965 Chase (Grade 2)",
-            "runners": [
-                {"name": "Jonbon", "odds": 1.8},
-                {"name": "Edwardstone", "odds": 5.5},
-                {"name": "Energumene", "odds": 7.0},
-            ]
-        },
-        {
-            "course": "Ascot",
-            "time": "13:30",
-            "name": "Ascot Hurdle (Grade 2)",
-            "runners": [
-                {"name": "Lossiemouth", "odds": 2.2},
-                {"name": "Constitution Hill", "odds": 3.75},
-                {"name": "State Man", "odds": 6.0},
-            ]
-        },
-        {
-            "course": "Haydock",
-            "time": "13:15",
-            "name": "Newton Novices' Hurdle (Grade 2)",
-            "runners": [
-                {"name": "North Shore", "odds": 3.5},
-                {"name": "Cosmic Connection", "odds": 3.75},
-                {"name": "Wilde's Legacy", "odds": 7.0},
-            ]
-        },
-        {
-            "course": "Punchestown",
-            "time": "13:03",
-            "name": "Florida Pearl Novice Chase",
-            "runners": [
-                {"name": "Ballygunner Castle", "odds": 3.25},
-                {"name": "Kiss Will", "odds": 3.25},
-                {"name": "Its Bilbo", "odds": 4.5},
-            ]
-        },
-    ]
-
+def build_tips_for_races(d: date, flat_races: list, source_note: str) -> dict:
     races_out = []
-    for race in sample_races:
+    for race in flat_races:
+        runners = race.get("runners", [])
+        if not runners:
+            continue
+
         tips = []
         for bot_name, bias in BOTS.items():
-            # Score every runner
             scored = []
-            for r in race["runners"]:
-                # Invent plausible feature scores for the prototype
-                r2 = dict(r)
-                r2["form_score"] = random.uniform(0.35, 0.85)
-                r2["pedigree_score"] = random.uniform(0.25, 0.8)
-                r2["trainer_score"] = random.uniform(0.3, 0.8)
-                r2["value_score"] = max(0.1, 1.0 / r["odds"] + random.uniform(-0.15, 0.25))
-                prob = score_runner(bias, r2)
-                scored.append((prob, r2))
+            for r in runners:
+                prob = score_runner(bias, r)
+                scored.append((prob, r))
 
             scored.sort(key=lambda x: x[0], reverse=True)
             best_prob, best = scored[0]
-            tip_type, conf, reason = decide_type(best_prob, best["odds"])
+            odds_val = float(best.get("odds") or 5.0)
+            tip_type, conf, reason = decide_type(best_prob, odds_val)
 
             tips.append({
                 "bot": bot_name,
                 "horse": best["name"],
-                "odds": best["odds"],
+                "odds": odds_val,
                 "conf": conf,
                 "type": tip_type,
                 "reason": reason,
-                "stars": 1   # will be recalculated below
+                "stars": 1
             })
 
-        # Calculate agreement stars
-        from collections import Counter
         counts = Counter(t["horse"] for t in tips)
         for t in tips:
             t["stars"] = min(4, counts[t["horse"]])
 
-        # Sort tips by stars then confidence
         tips.sort(key=lambda t: (-t["stars"], -t["conf"]))
         races_out.append({
             "course": race["course"],
@@ -182,8 +112,31 @@ def generate_from_sample(d: date) -> dict:
         "meetings": sorted({r["course"] for r in races_out}),
         "races": races_out,
         "generated_at": datetime.utcnow().isoformat() + "Z",
-        "note": "Prototype tips using transparent scoring. Replace with richer model later."
+        "note": source_note
     }
+
+
+def load_scraped_races(d: date) -> list:
+    rc_path = DATA_DIR / f"racecards-{d.isoformat()}.json"
+    if not rc_path.exists():
+        return []
+    try:
+        data = json.loads(rc_path.read_text(encoding="utf-8"))
+        flat = []
+        for m in data.get("meetings", []):
+            course = m.get("course", "Unknown")
+            for r in m.get("races", []):
+                if r.get("runners"):
+                    flat.append({
+                        "course": course,
+                        "time": r.get("time", ""),
+                        "name": r.get("name", ""),
+                        "runners": r["runners"]
+                    })
+        return flat
+    except Exception as e:
+        print(f"Error reading {rc_path}: {e}")
+        return []
 
 
 def main():
@@ -193,10 +146,19 @@ def main():
     d = parse_date(args.date)
 
     print(f"Generating tips for {d.isoformat()}")
+    scraped_races = load_scraped_races(d)
 
-    # For now we always use the sample generator.
-    # Once scrape_racecards.py produces good structured data we can switch.
-    tips = generate_from_sample(d)
+    if scraped_races:
+        tips = build_tips_for_races(d, scraped_races, "Live scraped UK & Ireland racecards")
+    else:
+        print("Warning: No scraped runners found for this date.")
+        tips = {
+            "date": d.isoformat(),
+            "meetings": [],
+            "races": [],
+            "generated_at": datetime.utcnow().isoformat() + "Z",
+            "note": "No scraped racecards available."
+        }
 
     out_path = DATA_DIR / f"tips-{d.isoformat()}.json"
     out_path.write_text(json.dumps(tips, indent=2), encoding="utf-8")
