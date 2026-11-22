@@ -21,7 +21,7 @@ HEADERS = {
     "Accept-Language": "en-GB,en;q=0.9",
 }
 
-UK_IRE_COUNTRIES = {"ENG", "IRE", "SCO", "WAL", "GB", "UK", "IE", "United Kingdom", "Ireland"}
+UK_IRE_COUNTRIES = {"ENG", "IRE", "EIRE", "SCO", "WAL", "GB", "UK", "IE", "United Kingdom", "Ireland", "Northern Ireland", "NI"}
 
 
 def parse_date(arg: str) -> date:
