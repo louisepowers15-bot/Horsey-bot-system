@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 UK & Ireland Racecard Scraper (Sporting Life)
-Saves racecards-YYYY-MM-DD.json into the repo root.
+Saves racecards-YYYY-MM-DD.json with going, distance, runners.
 """
 
 import argparse
@@ -21,8 +21,10 @@ HEADERS = {
     "Accept-Language": "en-GB,en;q=0.9",
 }
 
-UK_IRE = {"ENG", "IRE", "EIRE", "SCO", "WAL", "GB", "UK", "IE", "NI",
-          "United Kingdom", "Ireland", "Northern Ireland", "England", "Scotland", "Wales"}
+UK_IRE = {
+    "ENG", "IRE", "EIRE", "SCO", "WAL", "GB", "UK", "IE", "NI",
+    "United Kingdom", "Ireland", "Northern Ireland", "England", "Scotland", "Wales",
+}
 
 
 def parse_date(arg: str) -> date:
@@ -85,83 +87,99 @@ def find_rides(node):
     return None
 
 
-def fetch_race_runners(date_str: str, course_name: str, race_id: str, race_name: str) -> list:
-    """Fetch full runner list from the individual race page."""
-    if not race_id:
-        return []
+def find_first(node, keys):
+    """Find first value for any of keys in nested structure."""
+    if isinstance(node, dict):
+        for k in keys:
+            if k in node and node[k] not in (None, "", []):
+                return node[k]
+        for v in node.values():
+            found = find_first(v, keys)
+            if found is not None:
+                return found
+    elif isinstance(node, list):
+        for item in node[:5]:
+            found = find_first(item, keys)
+            if found is not None:
+                return found
+    return None
 
+
+def fetch_race_detail(date_str, course_name, race_id, race_name):
+    """Return (runners, distance, going_override)."""
+    if not race_id:
+        return [], "", ""
     course_slug = slugify(course_name)
     race_slug = slugify(race_name)[:80] or "race"
-    url = f"https://www.sportinglife.com/racing/racecards/{date_str}/{course_slug}/racecard/{race_id}/{race_slug}"
-
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=15)
-        if r.status_code != 200:
-            # fallback: try without the long slug
-            url2 = f"https://www.sportinglife.com/racing/racecards/{date_str}/{course_slug}/racecard/{race_id}"
-            r = requests.get(url2, headers=HEADERS, timeout=15)
+    urls = [
+        f"https://www.sportinglife.com/racing/racecards/{date_str}/{course_slug}/racecard/{race_id}/{race_slug}",
+        f"https://www.sportinglife.com/racing/racecards/{date_str}/{course_slug}/racecard/{race_id}",
+    ]
+    for url in urls:
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=15)
             if r.status_code != 200:
-                return []
-
-        data = extract_next_data(r.text)
-        rides = find_rides(data) or []
-        runners = []
-
-        for ride in rides:
-            if str(ride.get("ride_status", "")).upper() in ("NON_RUNNER", "WITHDRAWN", "NR"):
                 continue
-            horse = ride.get("horse") or {}
-            name = horse.get("name") or ride.get("horse_name")
-            if not name:
-                continue
+            data = extract_next_data(r.text)
+            rides = find_rides(data) or []
+            distance = str(find_first(data, ["distance", "distance_text", "race_distance"]) or "")
+            going = str(find_first(data, ["going", "going_text"]) or "")
 
-            betting = ride.get("betting") or {}
-            odds_str = (
-                betting.get("current_odds")
-                or betting.get("forecast_odds")
-                or betting.get("decimal_odds")
-                or ""
-            )
-            # also try bookmakerOdds list
-            if not odds_str and isinstance(ride.get("bookmakerOdds"), list) and ride["bookmakerOdds"]:
-                odds_str = ride["bookmakerOdds"][0].get("odds") or ride["bookmakerOdds"][0].get("decimal") or ""
+            runners = []
+            for ride in rides:
+                if str(ride.get("ride_status", "")).upper() in ("NON_RUNNER", "WITHDRAWN", "NR"):
+                    continue
+                horse = ride.get("horse") or {}
+                name = horse.get("name") or ride.get("horse_name")
+                if not name:
+                    continue
 
-            dec = parse_odds(odds_str)
-            if dec <= 1.0:
-                dec = 5.0  # fallback so bots still have something to work with
+                betting = ride.get("betting") or {}
+                odds_str = (
+                    betting.get("current_odds")
+                    or betting.get("forecast_odds")
+                    or betting.get("decimal_odds")
+                    or ""
+                )
+                if not odds_str and isinstance(ride.get("bookmakerOdds"), list) and ride["bookmakerOdds"]:
+                    odds_str = ride["bookmakerOdds"][0].get("odds") or ride["bookmakerOdds"][0].get("decimal") or ""
 
-            form_figs = ""
-            try:
-                form_figs = str(horse.get("formsummary", {}).get("display_text", "") or "")
-            except Exception:
-                pass
+                dec = parse_odds(odds_str)
+                if dec <= 1.0:
+                    dec = 8.0
 
-            wins = form_figs.count("1")
-            places = form_figs.count("2") + form_figs.count("3")
-            form_score = min(0.9, 0.35 + wins * 0.15 + places * 0.07)
+                form_figs = ""
+                try:
+                    form_figs = str(horse.get("formsummary", {}).get("display_text", "") or "")
+                except Exception:
+                    pass
 
-            jockey = ""
-            if isinstance(ride.get("jockey"), dict):
-                jockey = ride["jockey"].get("name", "")
-            trainer = ""
-            if isinstance(ride.get("trainer"), dict):
-                trainer = ride["trainer"].get("name", "")
+                wins = form_figs.count("1")
+                places = form_figs.count("2") + form_figs.count("3")
+                form_score = min(0.9, 0.35 + wins * 0.15 + places * 0.07)
 
-            runners.append({
-                "name": name,
-                "odds": dec,
-                "jockey": jockey,
-                "trainer": trainer,
-                "form": form_figs,
-                "form_score": round(form_score, 2),
-                "trainer_score": round(min(0.85, 0.4 + wins * 0.1), 2),
-                "pedigree_score": 0.5,
-                "value_score": round(min(0.85, max(0.15, 1.0 / dec + 0.1)), 2),
-            })
-        return runners
-    except Exception as e:
-        print(f"  Runner fetch error ({race_id}): {e}", file=sys.stderr)
-        return []
+                jockey = ride.get("jockey", {}).get("name", "") if isinstance(ride.get("jockey"), dict) else ""
+                trainer = ride.get("trainer", {}).get("name", "") if isinstance(ride.get("trainer"), dict) else ""
+
+                # crude combo bonus if both present
+                combo = 0.55 if (jockey and trainer) else 0.45
+
+                runners.append({
+                    "name": name,
+                    "odds": dec,
+                    "jockey": jockey,
+                    "trainer": trainer,
+                    "form": form_figs,
+                    "form_score": round(form_score, 2),
+                    "trainer_score": round(min(0.85, 0.4 + wins * 0.08), 2),
+                    "jockey_score": round(combo, 2),
+                    "pedigree_score": 0.5,
+                    "value_score": round(min(0.85, max(0.15, 1.0 / dec + 0.1)), 2),
+                })
+            return runners, distance, going
+        except Exception as e:
+            print(f"  detail error {race_id}: {e}", file=sys.stderr)
+    return [], "", ""
 
 
 def fetch_meetings(d: date) -> list:
@@ -192,10 +210,10 @@ def fetch_meetings(d: date) -> list:
             or ""
         )
         course_name = course_info.get("name") or summary.get("course_name") or "Unknown"
-
         if country and country.upper() not in UK_IRE:
             continue
 
+        meeting_going = summary.get("going") or ""
         races = []
         for race in m.get("races") or []:
             ref = race.get("race_summary_reference") or {}
@@ -205,14 +223,18 @@ def fetch_meetings(d: date) -> list:
             race_class = race.get("race_class") or ""
             if race_class and f"Class {race_class}" not in race_name:
                 race_name = f"{race_name} (Class {race_class})"
+            # distance sometimes on list page
+            list_distance = str(race.get("distance") or race.get("distance_text") or "")
 
-            print(f"  {course_name} {race_time} – fetching runners…")
-            runners = fetch_race_runners(date_str, course_name, race_id, race_name)
-            time.sleep(0.4)  # be polite
+            print(f"  {course_name} {race_time} – fetching…")
+            runners, dist, going_ov = fetch_race_detail(date_str, course_name, race_id, race_name)
+            time.sleep(0.35)
 
             races.append({
                 "time": race_time,
                 "name": race_name,
+                "distance": dist or list_distance or "",
+                "going": going_ov or meeting_going or "",
                 "runners": runners,
                 "race_id": race_id,
             })
@@ -220,10 +242,9 @@ def fetch_meetings(d: date) -> list:
         if races:
             meetings.append({
                 "course": course_name,
-                "going": summary.get("going") or "",
+                "going": meeting_going,
                 "races": races,
             })
-
     return meetings
 
 
@@ -232,22 +253,19 @@ def main():
     parser.add_argument("--date", default="today")
     args = parser.parse_args()
     d = parse_date(args.date)
-
     print(f"Scraping UK & IRE racecards for {d.isoformat()}")
     meetings = fetch_meetings(d)
-
-    total_runners = sum(len(r["runners"]) for m in meetings for r in m["races"])
-    print(f"Found {len(meetings)} meetings, {total_runners} total runners")
-
+    total = sum(len(r["runners"]) for m in meetings for r in m["races"])
+    print(f"Found {len(meetings)} meetings, {total} runners")
     out = {
         "date": d.isoformat(),
         "source": "sportinglife",
         "scraped_at": datetime.utcnow().isoformat() + "Z",
         "meetings": meetings,
     }
-    out_path = ROOT_DIR / f"racecards-{d.isoformat()}.json"
-    out_path.write_text(json.dumps(out, indent=2), encoding="utf-8")
-    print(f"Wrote {out_path}")
+    path = ROOT_DIR / f"racecards-{d.isoformat()}.json"
+    path.write_text(json.dumps(out, indent=2), encoding="utf-8")
+    print(f"Wrote {path}")
 
 
 if __name__ == "__main__":
