@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Horse Racing Bot Chat</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>
+        <span style="font-size:1.6rem">🏇</span>
+        Horse Racing Bot Chat
+      </h1>
+      <div class="meta" id="header-meta">
+        UK & Ireland · Loading…
+      </div>
+    </header>
+
+    <div class="info-box">
+      <strong>Today’s meetings covered:</strong> <span id="meetings-list">…</span><br>
+      Click any tip for full reasoning · ★ = bots agreeing · E/W = each-way tip
+    </div>
+
+    <div class="tabs" id="main-tabs">
+      <button class="tab active" data-tab="today">📅 Today</button>
+      <button class="tab" data-tab="tomorrow">🌅 Tomorrow</button>
+      <button class="tab" data-tab="big">🏆 Big Races</button>
+      <button class="tab" data-tab="doubles">🎲 Doubles & Accas</button>
+      <button class="tab" data-tab="leaderboard">🏅 Leaderboard</button>
+    </div>
+
+    <div id="content">
+      <!-- Filled by JS -->
+      <p style="color:#94a3b8;text-align:center;padding:2rem">Loading tips…</p>
+    </div>
+
+    <div class="footer">
+      Free personal project · Data from public sources · Bet responsibly (18+)
+    </div>
+  </div>
+
+  <script src="js/bots.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,317 @@
+{
+  "date": "2026-11-21",
+  "meetings": [
+    "Ascot",
+    "Haydock",
+    "Punchestown"
+  ],
+  "races": [
+    {
+      "course": "Haydock",
+      "time": "15:00",
+      "name": "Betfair Chase (Grade 1)",
+      "tips": [
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Bravemansgame",
+          "odds": 6.5,
+          "conf": 56,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 3
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Bravemansgame",
+          "odds": 6.5,
+          "conf": 53,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 3
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Bravemansgame",
+          "odds": 6.5,
+          "conf": 53,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 3
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Grey Dawning",
+          "odds": 3.5,
+          "conf": 64,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 1
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Protektorat",
+          "odds": 8.0,
+          "conf": 52,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 1
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Royale Pagaille",
+          "odds": 12.0,
+          "conf": 50,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 1
+        }
+      ]
+    },
+    {
+      "course": "Ascot",
+      "time": "14:05",
+      "name": "1965 Chase (Grade 2)",
+      "tips": [
+        {
+          "bot": "HotTrainer",
+          "horse": "Jonbon",
+          "odds": 1.8,
+          "conf": 69,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Jonbon",
+          "odds": 1.8,
+          "conf": 65,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Jonbon",
+          "odds": 1.8,
+          "conf": 65,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Jonbon",
+          "odds": 1.8,
+          "conf": 49,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Edwardstone",
+          "odds": 5.5,
+          "conf": 61,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 1
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Energumene",
+          "odds": 7.0,
+          "conf": 56,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 1
+        }
+      ]
+    },
+    {
+      "course": "Ascot",
+      "time": "13:30",
+      "name": "Ascot Hurdle (Grade 2)",
+      "tips": [
+        {
+          "bot": "PaceProphet",
+          "horse": "Lossiemouth",
+          "odds": 2.2,
+          "conf": 68,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Lossiemouth",
+          "odds": 2.2,
+          "conf": 64,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Lossiemouth",
+          "odds": 2.2,
+          "conf": 61,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Lossiemouth",
+          "odds": 2.2,
+          "conf": 59,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Lossiemouth",
+          "odds": 2.2,
+          "conf": 56,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Lossiemouth",
+          "odds": 2.2,
+          "conf": 55,
+          "type": "win",
+          "reason": "Strong favourite with high confidence",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Haydock",
+      "time": "13:15",
+      "name": "Newton Novices' Hurdle (Grade 2)",
+      "tips": [
+        {
+          "bot": "HotTrainer",
+          "horse": "North Shore",
+          "odds": 3.5,
+          "conf": 60,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "North Shore",
+          "odds": 3.5,
+          "conf": 56,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "North Shore",
+          "odds": 3.5,
+          "conf": 43,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "North Shore",
+          "odds": 3.5,
+          "conf": 41,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Cosmic Connection",
+          "odds": 3.75,
+          "conf": 65,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 2
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Cosmic Connection",
+          "odds": 3.75,
+          "conf": 64,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 2
+        }
+      ]
+    },
+    {
+      "course": "Punchestown",
+      "time": "13:03",
+      "name": "Florida Pearl Novice Chase",
+      "tips": [
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ballygunner Castle",
+          "odds": 3.25,
+          "conf": 65,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ballygunner Castle",
+          "odds": 3.25,
+          "conf": 55,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ballygunner Castle",
+          "odds": 3.25,
+          "conf": 48,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ballygunner Castle",
+          "odds": 3.25,
+          "conf": 42,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Kiss Will",
+          "odds": 3.25,
+          "conf": 60,
+          "type": "win",
+          "reason": "Best option on the card",
+          "stars": 1
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Its Bilbo",
+          "odds": 4.5,
+          "conf": 54,
+          "type": "ew",
+          "reason": "Each-way value at the price",
+          "stars": 1
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-11-21T11:51:10.033916Z",
+  "note": "Prototype tips using transparent scoring. Replace with richer model later."
+}
