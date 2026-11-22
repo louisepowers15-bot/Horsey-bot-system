@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
-Generate tips from 6 neutral bots. Each bot scores every runner independently
-and freely chooses win / E/W / longshot — no fixed style is forced.
-Styles will emerge later from recorded results.
+Generate tips from 6 bots. Each bot freely chooses win/E/W/longshot
+and writes its own distinct reasoning (form, trainer, ground angles, price, field).
 """
 
 import argparse
@@ -22,14 +21,13 @@ BOT_NAMES = [
     "ValueHunter",
 ]
 
-# Soft lean only — not hard locks. Small random noise so they diverge naturally.
 SOFT_LEAN = {
     "BloodlineBetty": {"form": 0.28, "pedigree": 0.32, "trainer": 0.18, "value": 0.22},
     "DevilAdvocate":  {"form": 0.28, "pedigree": 0.12, "trainer": 0.22, "value": 0.38},
-    "FormFox":        {"form": 0.40, "pedigree": 0.12, "trainer": 0.20, "value": 0.28},
-    "HotTrainer":     {"form": 0.24, "pedigree": 0.12, "trainer": 0.40, "value": 0.24},
+    "FormFox":        {"form": 0.42, "pedigree": 0.12, "trainer": 0.18, "value": 0.28},
+    "HotTrainer":     {"form": 0.22, "pedigree": 0.12, "trainer": 0.42, "value": 0.24},
     "PaceProphet":    {"form": 0.30, "pedigree": 0.12, "trainer": 0.22, "value": 0.36},
-    "ValueHunter":    {"form": 0.24, "pedigree": 0.12, "trainer": 0.18, "value": 0.46},
+    "ValueHunter":    {"form": 0.22, "pedigree": 0.12, "trainer": 0.18, "value": 0.48},
 }
 
 
@@ -48,166 +46,211 @@ def score_runner(bot: str, runner: dict, rng: random.Random) -> float:
     pedigree = float(runner.get("pedigree_score") or 0.45)
     trainer = float(runner.get("trainer_score") or 0.4)
     value = float(runner.get("value_score") or min(0.75, 0.12 + 1.0 / odds))
-
     s = (
         lean["form"] * form
         + lean["pedigree"] * pedigree
         + lean["trainer"] * trainer
         + lean["value"] * value
+        + rng.uniform(-0.08, 0.08)
     )
-    # Natural divergence — each bot “sees” the race slightly differently
-    s += rng.uniform(-0.08, 0.08)
     return max(0.12, min(0.9, s))
 
 
 def choose_type(prob: float, odds: float, field_size: int, rng: random.Random) -> str:
-    """Free choice: win or E/W based on price + field, not bot identity."""
     odds = max(1.15, float(odds or 10.0))
-    # Longshot / value E/W when price is big enough and field supports place terms
     if field_size >= 8 and odds >= 7.0 and prob >= 0.26 and rng.random() < 0.55:
         return "ew"
     if 5 <= field_size <= 7 and odds >= 6.5 and prob >= 0.28 and rng.random() < 0.45:
         return "ew"
-    # Short or mid-price → usually win
     return "win"
 
 
-def build_reason(bot: str, runner: dict, tip_type: str, conf: int, field_size: int) -> str:
-    name = runner.get("name", "This horse")
-    odds = float(runner.get("odds") or 0)
-    form = str(runner.get("form") or "").strip()
-    jockey = (runner.get("jockey") or "").strip()
-    trainer = (runner.get("trainer") or "").strip()
-    form_score = float(runner.get("form_score") or 0)
-    trainer_score = float(runner.get("trainer_score") or 0)
-
-    bits = []
-
-    if form:
-        bits.append(f"Form figures: {form}.")
-    if form_score >= 0.55:
-        bits.append("Recent form looks competitive in this company.")
-    elif 0 < form_score < 0.4:
-        bits.append("Form is ordinary on the figures — other factors are carrying the case.")
-
-    if trainer:
-        if trainer_score >= 0.5:
-            bits.append(f"{trainer} is a positive in races of this type.")
-        else:
-            bits.append(f"Trained by {trainer}.")
-    if jockey:
-        bits.append(f"Jockey: {jockey}.")
-
-    if tip_type == "ew":
-        bits.append(
-            f"At about {odds:.1f} this is taken each-way — enough price to be interested "
-            f"if the principals underperform, without needing to force a win-only view."
-        )
+def reason_formfox(runner, tip_type, conf, field_size, odds):
+    form = str(runner.get("form") or "").strip() or "limited recent figures"
+    bits = [
+        f"The form book is the main driver here. Recent figures read {form}.",
+    ]
+    fs = float(runner.get("form_score") or 0)
+    if fs >= 0.55:
+        bits.append("That level of form is strong enough in this company to take a positive view.")
+    elif fs < 0.4:
+        bits.append("The figures aren’t sparkling, but relative to this field they still put this horse in the mix.")
     else:
-        if odds <= 2.6:
-            bits.append(f"Short enough ({odds:.2f}) to treat as a win selection if the profile holds.")
-        elif odds >= 9:
-            bits.append(
-                f"Bigger price ({odds:.1f}) but the combination of form/connections is enough "
-                f"to prefer it for a win interest rather than only the place."
-            )
-        else:
-            bits.append(f"Preferred as a win at around {odds:.2f}.")
-
-    # Light personality colour without locking behaviour
-    if bot == "FormFox":
-        bits.append("Reading leans on the form book.")
-    elif bot == "HotTrainer":
-        bits.append("Yard/connections angle is weighted in this view.")
-    elif bot == "ValueHunter":
-        bits.append("Price vs chance is the main filter here.")
-    elif bot == "DevilAdvocate":
-        bits.append("Looking past the most obvious market horse where the data allows.")
-    elif bot == "BloodlineBetty":
-        bits.append("Longer-term profile and breeding context factored in.")
-    elif bot == "PaceProphet":
-        bits.append("How the race may unfold is part of the assessment.")
-
+        bits.append("Solid enough form to be interested without needing to invent a story.")
+    if field_size and field_size <= 6:
+        bits.append(f"Only {field_size} runners — a weaker or thinner field can make ordinary form look better on the day.")
+    if tip_type == "ew":
+        bits.append(f"At around {odds:.1f} I’m happier each-way than forcing a win-only case.")
+    else:
+        bits.append(f"Taking it to win at about {odds:.2f} on the form edge.")
     bits.append(f"Confidence {conf}%.")
     return " ".join(bits)
 
 
+def reason_hottrainer(runner, tip_type, conf, field_size, odds):
+    trainer = (runner.get("trainer") or "this yard").strip()
+    jockey = (runner.get("jockey") or "").strip()
+    ts = float(runner.get("trainer_score") or 0)
+    bits = [f"Starting from the connections. {trainer} is the angle I’m prioritising."]
+    if ts >= 0.5:
+        bits.append("Yard stats for this sort of race are a genuine positive.")
+    else:
+        bits.append("Not the hottest yard on the numbers, but still a trainer I won’t ignore when the price is right.")
+    if jockey:
+        bits.append(f"{jockey} keeps the ride — that continuity matters.")
+    form = str(runner.get("form") or "").strip()
+    if form:
+        bits.append(f"Form figures ({form}) don’t argue against the yard view.")
+    if tip_type == "ew":
+        bits.append(f"Price around {odds:.1f} suits an each-way stance while the trainer angle plays out.")
+    else:
+        bits.append(f"Win selection at about {odds:.2f} on the strength of the yard/horse combination.")
+    bits.append(f"Confidence {conf}%.")
+    return " ".join(bits)
+
+
+def reason_valuehunter(runner, tip_type, conf, field_size, odds):
+    bits = [f"Price is the filter. Offered around {odds:.2f}."]
+    fs = float(runner.get("form_score") or 0)
+    if odds >= 8:
+        bits.append("That’s a big enough price that only a realistic chance of hitting the frame (or better) is needed to be interested.")
+    elif odds <= 2.5:
+        bits.append("Short, so there has to be a clear edge on chance vs price — I’m only here if the profile backs it up.")
+    else:
+        bits.append("Mid-range price; need the chance to look a bit better than the market implies.")
+    if fs >= 0.5:
+        bits.append("Form score supports taking that price.")
+    form = str(runner.get("form") or "").strip()
+    if form:
+        bits.append(f"Recent runs ({form}) are part of that calculation.")
+    if tip_type == "ew":
+        bits.append("Each-way is the sensible way to play the edge without over-committing to a win.")
+    else:
+        bits.append("Happy to take it win-only at this number.")
+    if field_size and field_size >= 10:
+        bits.append(f"Field of {field_size} helps the each-way math if you’re in that market.")
+    bits.append(f"Confidence {conf}%.")
+    return " ".join(bits)
+
+
+def reason_devil(runner, tip_type, conf, field_size, odds):
+    bits = [
+        "Not automatically following the tightest price in the market.",
+        f"This selection is the alternative that still makes sense on the data at about {odds:.2f}.",
+    ]
+    form = str(runner.get("form") or "").strip()
+    if form:
+        bits.append(f"Form line {form} is usable even if it isn’t the flashiest in the race.")
+    trainer = (runner.get("trainer") or "").strip()
+    if trainer:
+        bits.append(f"{trainer}’s runner is entitled to be in the argument.")
+    if field_size and field_size <= 7:
+        bits.append(f"Smallish field ({field_size}) — one or two underperformances change the result quickly.")
+    if tip_type == "ew":
+        bits.append("Each-way protects the case if the favourite proves solid but this one still places.")
+    else:
+        bits.append("Taking it to win as the best non-obvious option.")
+    bits.append(f"Confidence {conf}%.")
+    return " ".join(bits)
+
+
+def reason_betty(runner, tip_type, conf, field_size, odds):
+    bits = [
+        "Looking at the longer-term profile as much as the last run.",
+    ]
+    form = str(runner.get("form") or "").strip()
+    if form:
+        bits.append(f"Recent form ({form}) is the short-term check; pedigree and progression sit behind that.")
+    ps = float(runner.get("pedigree_score") or 0.45)
+    if ps >= 0.5:
+        bits.append("Breeding/profile scores well enough to stay interested beyond pure last-day form.")
+    trainer = (runner.get("trainer") or "").strip()
+    if trainer:
+        bits.append(f"In the care of {trainer}, which fits a progressive or well-bred type.")
+    if tip_type == "ew":
+        bits.append(f"At {odds:.1f} an each-way view matches a horse that may still be improving into the race.")
+    else:
+        bits.append(f"Win play at about {odds:.2f} on profile plus current form.")
+    bits.append(f"Confidence {conf}%.")
+    return " ".join(bits)
+
+
+def reason_pace(runner, tip_type, conf, field_size, odds):
+    bits = [
+        "Interested in how this race is likely to be run, not only the bare ratings.",
+    ]
+    if field_size:
+        if field_size <= 6:
+            bits.append(f"With only {field_size} runners, position and tempo matter more than a big-field scramble.")
+        else:
+            bits.append(f"Field of {field_size} — need a horse that can obtain a clear run or dictate if required.")
+    form = str(runner.get("form") or "").strip()
+    if form:
+        bits.append(f"Form figures {form} suggest this one can cope with a true or tactical race.")
+    jockey = (runner.get("jockey") or "").strip()
+    if jockey:
+        bits.append(f"{jockey} is a plus for race management.")
+    if tip_type == "ew":
+        bits.append(f"Price near {odds:.1f} makes each-way the practical expression of that view.")
+    else:
+        bits.append(f"Win selection around {odds:.2f} if the race unfolds as expected.")
+    bits.append(f"Confidence {conf}%.")
+    return " ".join(bits)
+
+
+REASONERS = {
+    "FormFox": reason_formfox,
+    "HotTrainer": reason_hottrainer,
+    "ValueHunter": reason_valuehunter,
+    "DevilAdvocate": reason_devil,
+    "BloodlineBetty": reason_betty,
+    "PaceProphet": reason_pace,
+}
+
+
+def build_reason(bot: str, runner: dict, tip_type: str, conf: int, field_size: int) -> str:
+    odds = float(runner.get("odds") or 0)
+    fn = REASONERS.get(bot, reason_formfox)
+    return fn(runner, tip_type, conf, field_size, odds)
+
+
 def build_chat(races_out: list, d: date) -> list:
-    """
-    Simple bot chat: they surface strong consensus horses and settle on
-    a shared double / treble / 6-fold. Distinct voices, shared conclusion.
-    """
-    # Aggregate agreement
     tally = {}
     for race in races_out:
         for t in race.get("tips") or []:
-            key = (t["horse"], race.get("course"), race.get("time"), t.get("odds"), t.get("type"))
+            key = (t["horse"], race.get("course"), race.get("time"))
             if key not in tally:
-                tally[key] = {"horse": t["horse"], "course": race.get("course"), "time": race.get("time"),
-                              "odds": t.get("odds"), "type": t.get("type"), "bots": [], "conf": 0}
+                tally[key] = {
+                    "horse": t["horse"], "course": race.get("course"), "time": race.get("time"),
+                    "odds": t.get("odds"), "type": t.get("type"), "bots": [], "conf": 0,
+                }
             tally[key]["bots"].append(t["bot"])
             tally[key]["conf"] += t.get("conf") or 0
-
     ranked = sorted(tally.values(), key=lambda x: (len(x["bots"]), x["conf"]), reverse=True)
-    top = ranked[:8] if ranked else []
-
+    top = ranked[:8]
     chat = []
     if not top:
-        chat.append({"bot": "FormFox", "text": "Thin card or incomplete data today — not forcing multiples."})
+        chat.append({"bot": "FormFox", "text": "Not enough solid data today to force multiples."})
         return chat
-
     h0 = top[0]
-    chat.append({
-        "bot": "FormFox",
-        "text": f"Strongest agreement I’m seeing is {h0['horse']} ({h0['course']} {h0['time']}) — {len(h0['bots'])} of us onside."
-    })
-    chat.append({
-        "bot": "ValueHunter",
-        "text": f"Price on that one is about {h0.get('odds')}. Fine as an anchor if we build a double, but I want at least one longer leg."
-    })
+    chat.append({"bot": "FormFox", "text": f"Clearest agreement for me is {h0['horse']} ({h0['course']} {h0['time']}) — {len(h0['bots'])} bots aligned."})
+    chat.append({"bot": "ValueHunter", "text": f"That one’s about {h0.get('odds')}. Fine as an anchor; I still want a longer-priced leg in any double."})
     if len(top) > 1:
         h1 = top[1]
-        chat.append({
-            "bot": "DevilAdvocate",
-            "text": f"I’d rather not just rubber-stamp the favourite cluster. {h1['horse']} at {h1.get('odds')} is the one I’d pair for a bit of value."
-        })
-    chat.append({
-        "bot": "HotTrainer",
-        "text": "As long as the yard angle isn’t fighting the form, I’m fine with a short-priced leg plus one each-way type."
-    })
-    chat.append({
-        "bot": "PaceProphet",
-        "text": "Race shape matters on the big-field handicaps — don’t load six legs that all need a perfect trip."
-    })
-    chat.append({
-        "bot": "BloodlineBetty",
-        "text": "I’m happy to go with the group double if we’re honest about confidence and not stacking six thin opinions."
-    })
-
-    # Collective picks
-    win_legs = [x for x in top if x.get("type") != "ew"][:3]
-    ew_legs = [x for x in top if x.get("type") == "ew"][:3]
-    mixed = top[:6]
+        chat.append({"bot": "DevilAdvocate", "text": f"I’d pair it with {h1['horse']} at {h1.get('odds')} rather than stacking two short ones."})
+    chat.append({"bot": "HotTrainer", "text": "As long as the yard angle doesn’t fight the form, short leg + one each-way type is fine."})
+    chat.append({"bot": "PaceProphet", "text": "Don’t build a six-fold where every leg needs a perfect trip in a big field."})
+    chat.append({"bot": "BloodlineBetty", "text": "Agreed — main money on the strong singles/doubles; tiny stakes only on long accas."})
 
     def fmt(legs):
         return " + ".join(f"{x['horse']} ({x['course']} {x['time']})" for x in legs) if legs else "—"
 
-    chat.append({
-        "bot": "FormFox",
-        "text": f"Proposed winners double: {fmt(win_legs[:2])}."
-    })
-    chat.append({
-        "bot": "ValueHunter",
-        "text": f"Each-way double idea: {fmt(ew_legs[:2] if len(ew_legs) >= 2 else mixed[:2])}."
-    })
-    chat.append({
-        "bot": "DevilAdvocate",
-        "text": f"If we’re doing a 6-fold for fun, keep stakes tiny: {fmt(mixed)}."
-    })
-    chat.append({
-        "bot": "HotTrainer",
-        "text": "Agreed — small stakes on the long accas. Main focus stays the single and double where agreement is highest."
-    })
+    win_legs = [x for x in top if x.get("type") != "ew"][:3] or top[:3]
+    ew_legs = [x for x in top if x.get("type") == "ew"][:3]
+    mixed = top[:6]
+    chat.append({"bot": "FormFox", "text": f"Winners double proposal: {fmt(win_legs[:2])}."})
+    chat.append({"bot": "ValueHunter", "text": f"Each-way double idea: {fmt(ew_legs[:2] if len(ew_legs) >= 2 else mixed[:2])}."})
+    chat.append({"bot": "DevilAdvocate", "text": f"Fun 6-fold only, tiny stake: {fmt(mixed)}."})
     return chat
 
 
@@ -219,7 +262,6 @@ def build_tips_for_races(d: date, flat_races: list) -> dict:
         runners = [r for r in (race.get("runners") or []) if r.get("name")]
         if not runners:
             continue
-
         field_size = len(runners)
         tips = []
         rng = random.Random(f"{d.isoformat()}|{race.get('course')}|{race.get('time')}|{idx}")
@@ -253,15 +295,13 @@ def build_tips_for_races(d: date, flat_races: list) -> dict:
             "tips": tips,
         })
 
-    chat = build_chat(races_out, d)
-
     return {
         "date": d.isoformat(),
         "meetings": meetings,
         "races": races_out,
-        "chat": chat,
+        "chat": build_chat(races_out, d),
         "generated_at": datetime.utcnow().isoformat() + "Z",
-        "note": "Free-choice tips; styles emerge from results over time",
+        "note": "Distinct per-bot reasoning; free win/E/W choice",
     }
 
 
@@ -296,7 +336,6 @@ def main():
     parser.add_argument("--date", default="today")
     args = parser.parse_args()
     d = parse_date(args.date)
-
     print(f"Generating tips for {d.isoformat()}")
     scraped = load_scraped_races(d)
     if scraped:
@@ -304,22 +343,17 @@ def main():
     else:
         print("Warning: No scraped runners found for this date.")
         tips = {
-            "date": d.isoformat(),
-            "meetings": [],
-            "races": [],
-            "chat": [],
+            "date": d.isoformat(), "meetings": [], "races": [], "chat": [],
             "generated_at": datetime.utcnow().isoformat() + "Z",
             "note": "No scraped racecards available.",
         }
-
     out_path = DATA_DIR / f"tips-{d.isoformat()}.json"
     out_path.write_text(json.dumps(tips, indent=2), encoding="utf-8")
     print(f"Wrote {out_path}")
-    print(f"Meetings: {', '.join(tips.get('meetings') or [])}")
     print(f"Races tipped: {len(tips.get('races') or [])}")
-    horses = {t.get("horse") for r in tips.get("races") or [] for t in r.get("tips") or []}
-    print(f"Unique horses tipped: {len(horses)}")
-    print(f"Chat lines: {len(tips.get('chat') or [])}")
+    if tips.get("races"):
+        sample = tips["races"][0]["tips"][0]
+        print("Sample reason:", sample["bot"], "→", sample["reason"][:120], "...")
 
 
 if __name__ == "__main__":
