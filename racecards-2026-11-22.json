@@ -1,7 +1,7 @@
 {
   "date": "2026-11-22",
   "source": "sportinglife",
-  "scraped_at": "2026-11-22T15:52:04.936958Z",
+  "scraped_at": "2026-11-22T16:03:07.995129Z",
   "meetings": [
     {
       "course": "Exeter",
@@ -10,37 +10,590 @@
         {
           "time": "12:37",
           "name": "Sunday At The Races With Greendale EBF Junior 'National Hunt' Hurdle (GBB Race) (Class 4)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Golden Dagger",
+              "odds": 4.0,
+              "jockey": "C Gethings",
+              "trainer": "Mrs J Williams",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.35
+            },
+            {
+              "name": "Naturaouse",
+              "odds": 2.62,
+              "jockey": "Caoilin Quinn",
+              "trainer": "W Greatrex",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.48
+            },
+            {
+              "name": "Nichoir",
+              "odds": 34.0,
+              "jockey": "Jack Tudor",
+              "trainer": "Christian Williams",
+              "form": "6",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Our Wee Horse",
+              "odds": 2.25,
+              "jockey": "Paul O'Brien",
+              "trainer": "Harry Derham",
+              "form": "25",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.54
+            },
+            {
+              "name": "Royal Castle",
+              "odds": 67.0,
+              "jockey": "David Noonan",
+              "trainer": "N J Hawke",
+              "form": "6",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            }
+          ],
+          "race_id": "949623"
         },
         {
           "time": "13:07",
           "name": "Elf Exeter Leukaemia Fund Mares' Novices' Hurdle (GBB Race) (Class 4)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Correen",
+              "odds": 5.5,
+              "jockey": "Paddy Hanlon",
+              "trainer": "J J Hanlon",
+              "form": "FP-2",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.28
+            },
+            {
+              "name": "Little Twig",
+              "odds": 8.0,
+              "jockey": "Harry Reed",
+              "trainer": "Nick Scholfield",
+              "form": "7-343",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.23
+            },
+            {
+              "name": "Poet's Muse",
+              "odds": 2.2,
+              "jockey": "C Gethings",
+              "trainer": "I Chanin",
+              "form": "02-7PF6",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.55
+            },
+            {
+              "name": "Seventeenothree",
+              "odds": 2.88,
+              "jockey": "Jack Tudor",
+              "trainer": "K Woollacott",
+              "form": "6/69452-",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.45
+            },
+            {
+              "name": "Stavanger Rose",
+              "odds": 13.0,
+              "jockey": "Tabitha Worsley",
+              "trainer": "B Lund",
+              "form": "F-6405F",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Winding Lake",
+              "odds": 21.0,
+              "jockey": "James Best",
+              "trainer": "H Dickin",
+              "form": "3P31-24",
+              "form_score": 0.71,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            }
+          ],
+          "race_id": "949624"
         },
         {
           "time": "13:37",
           "name": "Chris Down A Lifetime In Racing Novices' Limited Handicap Chase (GBB Race) (Class 3)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Red Dirt Road",
+              "odds": 7.0,
+              "jockey": "Jonjo O'Neill Jr.",
+              "trainer": "J & A O'Neill",
+              "form": "1P/P407-",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.24
+            },
+            {
+              "name": "Champagne Chic",
+              "odds": 3.5,
+              "jockey": "Lorcan Williams",
+              "trainer": "J Scott",
+              "form": "21100-8",
+              "form_score": 0.72,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.39
+            },
+            {
+              "name": "Rickety Bridge",
+              "odds": 7.0,
+              "jockey": "Freddie Gingell",
+              "trainer": "P F Nicholls",
+              "form": "04-1113",
+              "form_score": 0.87,
+              "trainer_score": 0.7,
+              "pedigree_score": 0.5,
+              "value_score": 0.24
+            },
+            {
+              "name": "Silver Hill",
+              "odds": 3.25,
+              "jockey": "G Sheehan",
+              "trainer": "Jamie Snowden",
+              "form": "51221-4",
+              "form_score": 0.79,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.41
+            },
+            {
+              "name": "Torrent",
+              "odds": 4.0,
+              "jockey": "Charlie Deutsch",
+              "trainer": "N J Hawke",
+              "form": "533321",
+              "form_score": 0.78,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.35
+            },
+            {
+              "name": "Solar System",
+              "odds": 9.5,
+              "jockey": "Callum Pritchard",
+              "trainer": "P Hobbs & J White",
+              "form": "54/5036-",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            }
+          ],
+          "race_id": "949625"
         },
         {
           "time": "14:07",
           "name": "Happy 70th David Clements Handicap Hurdle (Class 3)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Washington",
+              "odds": 5.0,
+              "jockey": "Paul O'Brien",
+              "trainer": "Harry Derham",
+              "form": "7580-71",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.3
+            },
+            {
+              "name": "Handlethekettle",
+              "odds": 3.75,
+              "jockey": "G Sheehan",
+              "trainer": "Jamie Snowden",
+              "form": "1/311-22",
+              "form_score": 0.9,
+              "trainer_score": 0.7,
+              "pedigree_score": 0.5,
+              "value_score": 0.37
+            },
+            {
+              "name": "Treasure Planet",
+              "odds": 3.0,
+              "jockey": "Sam Twiston-Davies",
+              "trainer": "P F Nicholls",
+              "form": "5232-17",
+              "form_score": 0.71,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.43
+            },
+            {
+              "name": "Mwabani",
+              "odds": 3.5,
+              "jockey": "C Gethings",
+              "trainer": "Mrs J Williams",
+              "form": "222-1",
+              "form_score": 0.71,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.39
+            },
+            {
+              "name": "Son Of Hypnos",
+              "odds": 29.0,
+              "jockey": "Jack Stenhouse",
+              "trainer": "R Chapman",
+              "form": "7-74164",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            }
+          ],
+          "race_id": "949626"
         },
         {
           "time": "14:37",
           "name": "Exminster Golf Club Supporting Elf Handicap Chase (GBB Race) (Class 4)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Koukeo",
+              "odds": 3.75,
+              "jockey": "Jonjo O'Neill Jr.",
+              "trainer": "J & A O'Neill",
+              "form": "375P-42",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.37
+            },
+            {
+              "name": "He Knows Better",
+              "odds": 6.5,
+              "jockey": "Caoilin Quinn",
+              "trainer": "W Greatrex",
+              "form": "F22132-",
+              "form_score": 0.78,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.25
+            },
+            {
+              "name": "Kel Du Large",
+              "odds": 3.5,
+              "jockey": "G Sheehan",
+              "trainer": "Jamie Snowden",
+              "form": "5712U-4",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.39
+            },
+            {
+              "name": "Start Again",
+              "odds": 11.0,
+              "jockey": "Jack Hogan",
+              "trainer": "F O'Brien",
+              "form": "3-P6511",
+              "form_score": 0.72,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.19
+            },
+            {
+              "name": "Sage Green",
+              "odds": 3.25,
+              "jockey": "Non Runner",
+              "trainer": "S Hosie",
+              "form": "24F33-1",
+              "form_score": 0.71,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.41
+            },
+            {
+              "name": "Bonza Boy",
+              "odds": 12.0,
+              "jockey": "Lorcan Williams",
+              "trainer": "J Scott",
+              "form": "P2/6124-",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "It's A Breeze",
+              "odds": 15.0,
+              "jockey": "Paddy Hanlon",
+              "trainer": "P F Nicholls",
+              "form": "411232",
+              "form_score": 0.86,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.17
+            },
+            {
+              "name": "Another Folly",
+              "odds": 6.5,
+              "jockey": "C Gethings",
+              "trainer": "Mrs J Williams",
+              "form": "444-442",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.25
+            },
+            {
+              "name": "Fight My Fire",
+              "odds": 11.0,
+              "jockey": "Freddie Gingell",
+              "trainer": "J Tizzard",
+              "form": "34P48-P",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.19
+            },
+            {
+              "name": "Kingcormac",
+              "odds": 13.0,
+              "jockey": "Callum Pritchard",
+              "trainer": "J Tickle",
+              "form": "173114-",
+              "form_score": 0.87,
+              "trainer_score": 0.7,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            }
+          ],
+          "race_id": "949627"
         },
         {
           "time": "15:07",
           "name": "Exe containers.com 'Four Years Old' Handicap Hurdle (Class 4)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Bandjo",
+              "odds": 3.0,
+              "jockey": "Isabelle Ryder",
+              "trainer": "G Nicholls",
+              "form": "F605-88",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.43
+            },
+            {
+              "name": "Mecene",
+              "odds": 2.5,
+              "jockey": "Non Runner",
+              "trainer": "Mrs J Williams",
+              "form": "231-2",
+              "form_score": 0.71,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.5
+            },
+            {
+              "name": "The Bellhop",
+              "odds": 3.25,
+              "jockey": "Caoilin Quinn",
+              "trainer": "Jamie & Josh Moore",
+              "form": "1345-55",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.41
+            },
+            {
+              "name": "Out Of Aces",
+              "odds": 29.0,
+              "jockey": "Ms E L Herbison",
+              "trainer": "Gordon Treacy",
+              "form": "40-4",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Arbitration",
+              "odds": 5.5,
+              "jockey": "Freddie Gingell",
+              "trainer": "J Tizzard",
+              "form": "2256",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.28
+            },
+            {
+              "name": "Modern Style",
+              "odds": 6.0,
+              "jockey": "James Best",
+              "trainer": "N J Hawke",
+              "form": "011-230",
+              "form_score": 0.79,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.27
+            },
+            {
+              "name": "One Island",
+              "odds": 10.0,
+              "jockey": "Sam Twiston-Davies",
+              "trainer": "P F Nicholls",
+              "form": "632-55",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.2
+            }
+          ],
+          "race_id": "949628"
         },
         {
           "time": "15:37",
           "name": "Exminster Golf Centre Richard Candy Memorial Handicap Hurdle (Class 5)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Can You Hear Me",
+              "odds": 4.5,
+              "jockey": "Jack Stenhouse",
+              "trainer": "P Hobbs & J White",
+              "form": "F2692-7",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.32
+            },
+            {
+              "name": "Saint Invictus",
+              "odds": 9.0,
+              "jockey": "James Best",
+              "trainer": "S Hosie",
+              "form": "257-076",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "Bertie Wooster",
+              "odds": 9.0,
+              "jockey": "Freddie Gingell",
+              "trainer": "J Tizzard",
+              "form": "72244-P",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "Romany Brown",
+              "odds": 4.33,
+              "jockey": "C Gethings",
+              "trainer": "B I Case",
+              "form": "9F-4453",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.33
+            },
+            {
+              "name": "Blue In The West",
+              "odds": 9.5,
+              "jockey": "Shane Quinlan",
+              "trainer": "B Lund",
+              "form": "2P12-37",
+              "form_score": 0.71,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "Hillsin",
+              "odds": 17.0,
+              "jockey": "James Turner",
+              "trainer": "A E Jones",
+              "form": "10P-P79",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.16
+            },
+            {
+              "name": "Bashful Boy",
+              "odds": 11.0,
+              "jockey": "Jack Tudor",
+              "trainer": "D Pipe",
+              "form": "P/0-3854",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.19
+            },
+            {
+              "name": "Locked Down Lad",
+              "odds": 4.33,
+              "jockey": "Callum Pritchard",
+              "trainer": "J Tickle",
+              "form": "68P-643",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.33
+            },
+            {
+              "name": "What A Dragon",
+              "odds": 7.0,
+              "jockey": "Harry Kimber",
+              "trainer": "R Walford",
+              "form": "P803-P",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.24
+            },
+            {
+              "name": "Deauville Lady",
+              "odds": 34.0,
+              "jockey": "David Noonan",
+              "trainer": "N J Hawke",
+              "form": "6/0760-9",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            }
+          ],
+          "race_id": "949629"
         }
       ]
     },
@@ -51,47 +604,1110 @@
         {
           "time": "11:25",
           "name": "All-Weather Championship Is Back 'Hands And Heels' Apprentice Handicap (Class 5)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Stenmark",
+              "odds": 5.0,
+              "jockey": "Oliver Hoodless",
+              "trainer": "Gihan Arnolda",
+              "form": "538260",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.3
+            },
+            {
+              "name": "Mister Mojito",
+              "odds": 4.5,
+              "jockey": "Joe Bradnam",
+              "trainer": "T Kent",
+              "form": "562131",
+              "form_score": 0.79,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.32
+            },
+            {
+              "name": "Handle With Care",
+              "odds": 8.0,
+              "jockey": "C R Lyons",
+              "trainer": "M Botti",
+              "form": "347136",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.23
+            },
+            {
+              "name": "Lady Mariko",
+              "odds": 7.0,
+              "jockey": "Hope Regan",
+              "trainer": "Dylan Cunha",
+              "form": "600461",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.24
+            },
+            {
+              "name": "H Key Lails",
+              "odds": 17.0,
+              "jockey": "Jude Fernandes",
+              "trainer": "M J Attwater",
+              "form": "317747",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.16
+            },
+            {
+              "name": "This Farh",
+              "odds": 11.0,
+              "jockey": "Jude Maher",
+              "trainer": "D Loughnane",
+              "form": "145666",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.19
+            },
+            {
+              "name": "Mr Ubiquitous",
+              "odds": 17.0,
+              "jockey": "Travis Ford",
+              "trainer": "Harry Eustace",
+              "form": "150548",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.16
+            },
+            {
+              "name": "Arantes Nascimento",
+              "odds": 6.5,
+              "jockey": "James Glennon",
+              "trainer": "M J Attwater",
+              "form": "226657",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.25
+            },
+            {
+              "name": "Mighty Vega",
+              "odds": 11.0,
+              "jockey": "Isobelle Chalmers",
+              "trainer": "S Dixon",
+              "form": "130750",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.19
+            },
+            {
+              "name": "Thankuappreciate",
+              "odds": 34.0,
+              "jockey": "Ben Pollard",
+              "trainer": "A W Carroll",
+              "form": "413457",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Viking Glory",
+              "odds": 23.0,
+              "jockey": "Lloyd Applegate",
+              "trainer": "Dr R Newland",
+              "form": "317471",
+              "form_score": 0.72,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            }
+          ],
+          "race_id": "950390"
         },
         {
           "time": "11:55",
           "name": "AWC Season 14 Has Begun EBF Novice Stakes (GBB/GBBPlus Race) (Div 1) (Class 3)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Arkat",
+              "odds": 2.38,
+              "jockey": "Callum Rodriguez",
+              "trainer": "R Varian",
+              "form": "3",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.52
+            },
+            {
+              "name": "Basics",
+              "odds": 23.0,
+              "jockey": "Harry Davies",
+              "trainer": "S Crisford",
+              "form": "5",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Dashing Digger",
+              "odds": 151.0,
+              "jockey": "Hollie Doyle",
+              "trainer": "W Stone",
+              "form": "66",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Frankenstyne",
+              "odds": 4.33,
+              "jockey": "George Bass",
+              "trainer": "J Channon",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.33
+            },
+            {
+              "name": "Medvedev",
+              "odds": 13.0,
+              "jockey": "Cieren Fallon",
+              "trainer": "W J Haggas",
+              "form": "8",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Ordnance",
+              "odds": 21.0,
+              "jockey": "Oisin Murphy",
+              "trainer": "A M Balding",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Reign Over All",
+              "odds": 4.5,
+              "jockey": "W Buick",
+              "trainer": "Owen Burrows",
+              "form": "5",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.32
+            },
+            {
+              "name": "Rey De Vega",
+              "odds": 9.5,
+              "jockey": "Billy Loughnane",
+              "trainer": "G Boughey",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "Rupertsbeenrumbled",
+              "odds": 251.0,
+              "jockey": "R P Downey",
+              "trainer": "P D Evans",
+              "form": "97",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Stellar Max",
+              "odds": 401.0,
+              "jockey": "L Morris",
+              "trainer": "Sir Mark Prescott",
+              "form": "079",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Toderby",
+              "odds": 29.0,
+              "jockey": "K Shoemark",
+              "trainer": "E Walker",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Hootie Frutti",
+              "odds": 26.0,
+              "jockey": "Non Runner",
+              "trainer": "R Hannon",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            }
+          ],
+          "race_id": "949635"
         },
         {
           "time": "12:25",
           "name": "AWC Season 14 Has Begun EBF Novice Stakes (GBB/GBBPlus Race) (Div 2) (Class 3)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Blue Odyssey",
+              "odds": 11.0,
+              "jockey": "George Bass",
+              "trainer": "D J Coakley",
+              "form": "6",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.19
+            },
+            {
+              "name": "Cinq Coins",
+              "odds": 201.0,
+              "jockey": "Joe Leavy",
+              "trainer": "R A Teal",
+              "form": "57",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Greenhurst",
+              "odds": 101.0,
+              "jockey": "Gina Mangan",
+              "trainer": "Dr R Newland",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Magari",
+              "odds": 29.0,
+              "jockey": "D Egan",
+              "trainer": "S Woods",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Quorum",
+              "odds": 4.5,
+              "jockey": "Cieren Fallon",
+              "trainer": "W J Haggas",
+              "form": "9",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.32
+            },
+            {
+              "name": "Sea Fortress",
+              "odds": 2.0,
+              "jockey": "W Buick",
+              "trainer": "J & T Gosden",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.6
+            },
+            {
+              "name": "Shareek",
+              "odds": 5.5,
+              "jockey": "Callum Rodriguez",
+              "trainer": "Owen Burrows",
+              "form": "5",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.28
+            },
+            {
+              "name": "Two Of A Kind",
+              "odds": 7.0,
+              "jockey": "Billy Loughnane",
+              "trainer": "Ollie Sangster",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.24
+            },
+            {
+              "name": "Victory Max",
+              "odds": 51.0,
+              "jockey": "George Wood",
+              "trainer": "Harry Eustace",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Wowaditaka",
+              "odds": 501.0,
+              "jockey": "L Morris",
+              "trainer": "Sir Mark Prescott",
+              "form": "00",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Lady's Mantle",
+              "odds": 12.0,
+              "jockey": "Oisin Murphy",
+              "trainer": "A M Balding",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            }
+          ],
+          "race_id": "949636"
         },
         {
           "time": "12:55",
           "name": "Midnite A Next Generation Betting App Novice Stakes (GBB/GBBPlus Race) (Class 3)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Olympic Charter",
+              "odds": 1.67,
+              "jockey": "W Buick",
+              "trainer": "C Appleby",
+              "form": "1",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.7
+            },
+            {
+              "name": "Anchor",
+              "odds": 501.0,
+              "jockey": "Jack Doughty",
+              "trainer": "C Hobson",
+              "form": "06",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Al Kairouan",
+              "odds": 11.0,
+              "jockey": "K Shoemark",
+              "trainer": "S bin Suroor",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.19
+            },
+            {
+              "name": "Aqeeq",
+              "odds": 5.5,
+              "jockey": "Oisin Murphy",
+              "trainer": "S bin Suroor",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.28
+            },
+            {
+              "name": "Jackabean",
+              "odds": 151.0,
+              "jockey": "Joe Leavy",
+              "trainer": "Jack Morland",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Medaali",
+              "odds": 12.0,
+              "jockey": "Callum Shepherd",
+              "trainer": "S Crisford",
+              "form": "53",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "A'ellie",
+              "odds": 81.0,
+              "jockey": "Rob Hornby",
+              "trainer": "J Keane",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Light Snowfall",
+              "odds": 34.0,
+              "jockey": "Billy Loughnane",
+              "trainer": "S bin Suroor",
+              "form": "4",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Maneuver",
+              "odds": 9.5,
+              "jockey": "R Havlin",
+              "trainer": "J & T Gosden",
+              "form": "23-U",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "Nada Two",
+              "odds": 12.0,
+              "jockey": "C Lee",
+              "trainer": "J Tate",
+              "form": "22-",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            }
+          ],
+          "race_id": "949637"
         },
         {
           "time": "13:25",
           "name": "Midnite It's Actually Pretty Good Handicap (GBBPlus Race) (Class 4)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Wyld Bill",
+              "odds": 15.0,
+              "jockey": "Jack Dace",
+              "trainer": "Gihan Arnolda",
+              "form": "1-13500",
+              "form_score": 0.72,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.17
+            },
+            {
+              "name": "Duke's Command",
+              "odds": 4.33,
+              "jockey": "Billy Loughnane",
+              "trainer": "D O'Meara",
+              "form": "508365",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.33
+            },
+            {
+              "name": "Crack On Boys",
+              "odds": 9.5,
+              "jockey": "D Egan",
+              "trainer": "Tom Clover",
+              "form": "156-898",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "Velvet Vega",
+              "odds": 9.0,
+              "jockey": "K Shoemark",
+              "trainer": "D Loughnane",
+              "form": "233",
+              "form_score": 0.56,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "Politely",
+              "odds": 3.25,
+              "jockey": "Callum Rodriguez",
+              "trainer": "Owen Burrows",
+              "form": "115952",
+              "form_score": 0.72,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.41
+            },
+            {
+              "name": "Merci Monsieur",
+              "odds": 3.5,
+              "jockey": "Oisin Murphy",
+              "trainer": "A M Balding",
+              "form": "35-1",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.39
+            },
+            {
+              "name": "Gilet",
+              "odds": 9.0,
+              "jockey": "Edward Greatrex",
+              "trainer": "W Greatrex",
+              "form": "24-3665",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "Francesi",
+              "odds": 41.0,
+              "jockey": "Myla Coppins",
+              "trainer": "A W Carroll",
+              "form": "573743",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Caledonian",
+              "odds": 26.0,
+              "jockey": "Callum Shepherd",
+              "trainer": "D M Simcock",
+              "form": "584551",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            }
+          ],
+          "race_id": "949638"
         },
         {
           "time": "13:55",
           "name": "AWC Finals Day At Newcastle 26th March Fillies' Handicap (Class 5)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Nakaaha",
+              "odds": 10.0,
+              "jockey": "D Egan",
+              "trainer": "G Harris",
+              "form": "020747",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.2
+            },
+            {
+              "name": "Eazy On The Eye",
+              "odds": 7.0,
+              "jockey": "George Wood",
+              "trainer": "H Main",
+              "form": "222712",
+              "form_score": 0.78,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.24
+            },
+            {
+              "name": "Aura Champagne",
+              "odds": 15.0,
+              "jockey": "Joe Leavy",
+              "trainer": "R Hannon",
+              "form": "3-3323",
+              "form_score": 0.7,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.17
+            },
+            {
+              "name": "Maria Da Silva",
+              "odds": 2.62,
+              "jockey": "Oisin Murphy",
+              "trainer": "A M Balding",
+              "form": "114451",
+              "form_score": 0.8,
+              "trainer_score": 0.7,
+              "pedigree_score": 0.5,
+              "value_score": 0.48
+            },
+            {
+              "name": "Madame De Sevigne",
+              "odds": 17.0,
+              "jockey": "Darragh Keenan",
+              "trainer": "D Donovan",
+              "form": "387904",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.16
+            },
+            {
+              "name": "Lady Milton",
+              "odds": 7.0,
+              "jockey": "Rob Hornby",
+              "trainer": "J G Portman",
+              "form": "123230",
+              "form_score": 0.78,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.24
+            },
+            {
+              "name": "Hamdania",
+              "odds": 10.0,
+              "jockey": "Callum Rodriguez",
+              "trainer": "James Horton",
+              "form": "1-2864",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.2
+            },
+            {
+              "name": "Al Ghariya",
+              "odds": 13.0,
+              "jockey": "Billy Loughnane",
+              "trainer": "Ian Williams",
+              "form": "071064",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Lahan Kingman",
+              "odds": 10.0,
+              "jockey": "Finley Marsh",
+              "trainer": "R Hughes",
+              "form": "244275",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.2
+            },
+            {
+              "name": "Cixi",
+              "odds": 15.0,
+              "jockey": "R Havlin",
+              "trainer": "J R Boyle",
+              "form": "407635",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.17
+            }
+          ],
+          "race_id": "949639"
         },
         {
           "time": "14:25",
           "name": "Make The Move To Midnite Handicap (Class 6)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Lazzar",
+              "odds": 3.75,
+              "jockey": "D Egan",
+              "trainer": "C Wallis",
+              "form": "464545",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.37
+            },
+            {
+              "name": "One For Harvey",
+              "odds": 10.0,
+              "jockey": "Jack Doughty",
+              "trainer": "C Hobson",
+              "form": "86-5413",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.2
+            },
+            {
+              "name": "Nuevo Slovo",
+              "odds": 12.0,
+              "jockey": "Paddy Bradley",
+              "trainer": "S Pearce",
+              "form": "046078",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Sheik Yerbouti",
+              "odds": 23.0,
+              "jockey": "Darragh Keenan",
+              "trainer": "G Harris",
+              "form": "037510",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Little Jaybee",
+              "odds": 6.0,
+              "jockey": "Billy Loughnane",
+              "trainer": "P D Evans",
+              "form": "221749",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.27
+            },
+            {
+              "name": "La Belle Forest",
+              "odds": 12.0,
+              "jockey": "Hollie Doyle",
+              "trainer": "A Watson",
+              "form": "664703",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Davorge Nation",
+              "odds": 7.5,
+              "jockey": "C Lee",
+              "trainer": "A W Carroll",
+              "form": "137-694",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.23
+            },
+            {
+              "name": "Diamond Dreamer",
+              "odds": 5.0,
+              "jockey": "K Shoemark",
+              "trainer": "P R Chamings",
+              "form": "760744",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.3
+            },
+            {
+              "name": "Express Train",
+              "odds": 13.0,
+              "jockey": "R Havlin",
+              "trainer": "R T Phillips",
+              "form": "907545",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Jane Of The Jungle",
+              "odds": 51.0,
+              "jockey": "K T O'Neill",
+              "trainer": "S Dixon",
+              "form": "268344",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            }
+          ],
+          "race_id": "949640"
         },
         {
           "time": "14:55",
           "name": "Midnite: Built For 2026 Not 2006 Handicap (Class 6)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Boston Run",
+              "odds": 11.0,
+              "jockey": "Paddy Bradley",
+              "trainer": "P Phelan",
+              "form": "642157",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.19
+            },
+            {
+              "name": "Manton Road",
+              "odds": 11.0,
+              "jockey": "Kieren Fox",
+              "trainer": "R T Phillips",
+              "form": "315433",
+              "form_score": 0.71,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.19
+            },
+            {
+              "name": "Wellwhatshappenin",
+              "odds": 5.5,
+              "jockey": "Hollie Doyle",
+              "trainer": "D Flood",
+              "form": "842162",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.28
+            },
+            {
+              "name": "Merapi",
+              "odds": 12.0,
+              "jockey": "Cieren Fallon",
+              "trainer": "Michael Keady",
+              "form": "222648",
+              "form_score": 0.56,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Fravanco",
+              "odds": 11.0,
+              "jockey": "Non Runner",
+              "trainer": "M Madgwick",
+              "form": "3522-48",
+              "form_score": 0.56,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.19
+            },
+            {
+              "name": "Poke The Bear",
+              "odds": 5.0,
+              "jockey": "Tyler Heard",
+              "trainer": "Hayley Burton",
+              "form": "607454",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.3
+            },
+            {
+              "name": "Electric Bass",
+              "odds": 4.33,
+              "jockey": "K Shoemark",
+              "trainer": "R A Teal",
+              "form": "225347",
+              "form_score": 0.56,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.33
+            },
+            {
+              "name": "Uzincso",
+              "odds": 23.0,
+              "jockey": "D Egan",
+              "trainer": "J Butler",
+              "form": "434689",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Muy Muy Loco",
+              "odds": 12.0,
+              "jockey": "L Morris",
+              "trainer": "S Dow",
+              "form": "605489",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Little Tiger",
+              "odds": 9.0,
+              "jockey": "Billy Loughnane",
+              "trainer": "W Stone",
+              "form": "0-46207",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "Kondratiev Wave",
+              "odds": 41.0,
+              "jockey": "C Lee",
+              "trainer": "A W Carroll",
+              "form": "624390",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Charencey",
+              "odds": 15.0,
+              "jockey": "Joe Leavy",
+              "trainer": "Ian Williams",
+              "form": "622335",
+              "form_score": 0.63,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.17
+            },
+            {
+              "name": "Shielas Well",
+              "odds": 19.0,
+              "jockey": "Ryan Kavanagh",
+              "trainer": "Ian Williams",
+              "form": "843300",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Far Ahead",
+              "odds": 13.0,
+              "jockey": "Ethan Tindall",
+              "trainer": "R A Fahey",
+              "form": "702227",
+              "form_score": 0.56,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            }
+          ],
+          "race_id": "949641"
         },
         {
           "time": "15:25",
           "name": "Midnite Ain't Your Grandad's Bookie Handicap (Class 6)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Little Peter",
+              "odds": 19.0,
+              "jockey": "Gina Mangan",
+              "trainer": "John Berry",
+              "form": "55/560-6",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Noble Grace",
+              "odds": 5.5,
+              "jockey": "Edward Greatrex",
+              "trainer": "W Greatrex",
+              "form": "413713",
+              "form_score": 0.79,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.28
+            },
+            {
+              "name": "Calshot Spit",
+              "odds": 17.0,
+              "jockey": "Rose Dawes",
+              "trainer": "Miss S West",
+              "form": "2118/92",
+              "form_score": 0.79,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.16
+            },
+            {
+              "name": "State Express",
+              "odds": 21.0,
+              "jockey": "Cieren Fallon",
+              "trainer": "S Woods",
+              "form": "45510",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "In The Post",
+              "odds": 3.5,
+              "jockey": "Marco Ghiani",
+              "trainer": "Dylan Cunha",
+              "form": "684333",
+              "form_score": 0.56,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.39
+            },
+            {
+              "name": "Chilli King",
+              "odds": 2.75,
+              "jockey": "Charles Bishop",
+              "trainer": "Miss E C Lavelle",
+              "form": "7605",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.46
+            },
+            {
+              "name": "Snapius",
+              "odds": 11.0,
+              "jockey": "Hollie Doyle",
+              "trainer": "James Owen",
+              "form": "99997/4-",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.19
+            },
+            {
+              "name": "Notable Charm",
+              "odds": 10.0,
+              "jockey": "Tyler Heard",
+              "trainer": "M P Tregoning",
+              "form": "464523",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.2
+            }
+          ],
+          "race_id": "949642"
         }
       ]
     },
@@ -102,42 +1718,1004 @@
         {
           "time": "12:00",
           "name": "Donohue Marquees Risk Of Thunder Chase",
-          "runners": []
+          "runners": [
+            {
+              "name": "Fountain House",
+              "odds": 4.5,
+              "jockey": "Mr E Mahon",
+              "trainer": "Ian McCarthy",
+              "form": "11111-5",
+              "form_score": 0.9,
+              "trainer_score": 0.85,
+              "pedigree_score": 0.5,
+              "value_score": 0.32
+            },
+            {
+              "name": "Fr Gilligansvoyge",
+              "odds": 251.0,
+              "jockey": "Sarah Kavanagh",
+              "trainer": "J G Carr",
+              "form": "206758",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Busselton",
+              "odds": 21.0,
+              "jockey": "J J Slevin",
+              "trainer": "E Bolger",
+              "form": "325951-",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Caesar Rock",
+              "odds": 81.0,
+              "jockey": "Josh Williamson",
+              "trainer": "M F Morris",
+              "form": "3422-2P",
+              "form_score": 0.63,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Desertmore House",
+              "odds": 19.0,
+              "jockey": "Mr J L Gleeson",
+              "trainer": "M Brassil",
+              "form": "11P86-P",
+              "form_score": 0.65,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Outside The Door",
+              "odds": 29.0,
+              "jockey": "Aidan Kelly",
+              "trainer": "P Roche",
+              "form": "1P072-6",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Stumptown",
+              "odds": 1.5,
+              "jockey": "Keith Donoghue",
+              "trainer": "G P Cromwell",
+              "form": "11P/14-1",
+              "form_score": 0.9,
+              "trainer_score": 0.8,
+              "pedigree_score": 0.5,
+              "value_score": 0.77
+            },
+            {
+              "name": "Fakir D'Oudairies",
+              "odds": 17.0,
+              "jockey": "Sean Flanagan",
+              "trainer": "E Bolger",
+              "form": "4602-95",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.16
+            },
+            {
+              "name": "Idy Wood",
+              "odds": 26.0,
+              "jockey": "Conor Stone-Walsh",
+              "trainer": "G P Cromwell",
+              "form": "4100P-9",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Thatildojon",
+              "odds": 101.0,
+              "jockey": "Daniel King",
+              "trainer": "E Bolger",
+              "form": "2U3P-5",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "The Gallan",
+              "odds": 151.0,
+              "jockey": "Eoghan Finegan",
+              "trainer": "P Flood",
+              "form": "3422-13",
+              "form_score": 0.78,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "The Goffer",
+              "odds": 11.0,
+              "jockey": "Jack Kennedy",
+              "trainer": "G Elliott",
+              "form": "272034-",
+              "form_score": 0.56,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.19
+            },
+            {
+              "name": "The Short Go",
+              "odds": 17.0,
+              "jockey": "Mike O'Connor",
+              "trainer": "H De Bromhead",
+              "form": "5P/430-7",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.16
+            },
+            {
+              "name": "Union Station",
+              "odds": 15.0,
+              "jockey": "Ben Harvey",
+              "trainer": "G P Cromwell",
+              "form": "2U446-3",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.17
+            },
+            {
+              "name": "Three By Two",
+              "odds": 51.0,
+              "jockey": "R Deegan",
+              "trainer": "D P Murphy",
+              "form": "P0476-0",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            }
+          ],
+          "race_id": "949785"
         },
         {
           "time": "12:30",
           "name": "Irish Stallion Farms EBF Maiden Hurdle",
-          "runners": []
+          "runners": [
+            {
+              "name": "Angelo Dundee",
+              "odds": 41.0,
+              "jockey": "Keith Donoghue",
+              "trainer": "Mark E McCrory",
+              "form": "44/23-34",
+              "form_score": 0.56,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Beechwood Road",
+              "odds": 17.0,
+              "jockey": "Sean Flanagan",
+              "trainer": "Peter Fahey",
+              "form": "54-",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.16
+            },
+            {
+              "name": "Border Lad",
+              "odds": 5.5,
+              "jockey": "Mike O'Connor",
+              "trainer": "H De Bromhead",
+              "form": "12-",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.28
+            },
+            {
+              "name": "Call Of Freedom",
+              "odds": 151.0,
+              "jockey": "Shane O'Callaghan",
+              "trainer": "P J Rothwell",
+              "form": "F1UF-",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "C'est Le Capri",
+              "odds": 51.0,
+              "jockey": "Ross Berry",
+              "trainer": "Colm Murphy",
+              "form": "P1-",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Excessivebehaviour",
+              "odds": 17.0,
+              "jockey": "Mark Walsh",
+              "trainer": "M Brassil",
+              "form": "0-6",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.16
+            },
+            {
+              "name": "Grey Balls Of Fire",
+              "odds": 67.0,
+              "jockey": "Brian Hayes",
+              "trainer": "Colm Murphy",
+              "form": "4F/319-5",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Highland Trail",
+              "odds": 201.0,
+              "jockey": "Harry Sexton",
+              "trainer": "P Stafford",
+              "form": "0",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Inthelineoffire",
+              "odds": 81.0,
+              "jockey": "Josh Williamson",
+              "trainer": "M F Morris",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Ravendark",
+              "odds": 15.0,
+              "jockey": "Kevin Healy",
+              "trainer": "G Elliott",
+              "form": "36-",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.17
+            },
+            {
+              "name": "Sharp As Glass",
+              "odds": 51.0,
+              "jockey": "Aidan Kelly",
+              "trainer": "S Curling",
+              "form": "21223-0",
+              "form_score": 0.78,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Sine Qua Non",
+              "odds": 13.0,
+              "jockey": "Harry Cobden",
+              "trainer": "P Roche",
+              "form": "13/3P-",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Sparkling Wit",
+              "odds": 4.33,
+              "jockey": "Paul Townend",
+              "trainer": "W P Mullins",
+              "form": "1-",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.33
+            },
+            {
+              "name": "Strange Ways",
+              "odds": 81.0,
+              "jockey": "Conor Stone-Walsh",
+              "trainer": "Colm Murphy",
+              "form": "2-",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Theflyingking",
+              "odds": 2.1,
+              "jockey": "Jack Kennedy",
+              "trainer": "G Elliott",
+              "form": "21/F2-52",
+              "form_score": 0.71,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.58
+            },
+            {
+              "name": "Any News For Me",
+              "odds": 201.0,
+              "jockey": "Eoghan Finegan",
+              "trainer": "V C Ward",
+              "form": "88-50",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            }
+          ],
+          "race_id": "949786"
         },
         {
           "time": "13:00",
           "name": "Pertemps Network Group Handicap Hurdle (Qualifier)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Staffordshire Knot",
+              "odds": 17.0,
+              "jockey": "Kevin Healy",
+              "trainer": "G Elliott",
+              "form": "1121P-6",
+              "form_score": 0.87,
+              "trainer_score": 0.7,
+              "pedigree_score": 0.5,
+              "value_score": 0.16
+            },
+            {
+              "name": "Paul's Dream",
+              "odds": 17.0,
+              "jockey": "J J Slevin",
+              "trainer": "A Mullins",
+              "form": "51131P",
+              "form_score": 0.87,
+              "trainer_score": 0.7,
+              "pedigree_score": 0.5,
+              "value_score": 0.16
+            },
+            {
+              "name": "Ragmans Corner",
+              "odds": 9.0,
+              "jockey": "Eoghan Finegan",
+              "trainer": "G Keane",
+              "form": "142-147",
+              "form_score": 0.72,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "Shoot First",
+              "odds": 8.0,
+              "jockey": "Philip Byrnes",
+              "trainer": "C Byrnes",
+              "form": "F/5F34-6",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.23
+            },
+            {
+              "name": "Timeless Treaty",
+              "odds": 26.0,
+              "jockey": "Harry Sexton",
+              "trainer": "R K Watson",
+              "form": "51324-2",
+              "form_score": 0.71,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Santo Sospir",
+              "odds": 9.5,
+              "jockey": "Jack Kennedy",
+              "trainer": "G Elliott",
+              "form": "1/41164-",
+              "form_score": 0.8,
+              "trainer_score": 0.7,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "Riskaway",
+              "odds": 5.0,
+              "jockey": "Josh Williamson",
+              "trainer": "G Elliott",
+              "form": "12404-0",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.3
+            },
+            {
+              "name": "Yeats Star",
+              "odds": 34.0,
+              "jockey": "Ethan O'Sullivan",
+              "trainer": "G Elliott",
+              "form": "C25P0P-",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "J'arrive De L'est",
+              "odds": 4.33,
+              "jockey": "Alan O'Sullivan",
+              "trainer": "E Mullins",
+              "form": "7/22PP-1",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.33
+            },
+            {
+              "name": "Hgranca De Thaix",
+              "odds": 8.0,
+              "jockey": "Daniel King",
+              "trainer": "B Connell",
+              "form": "02267-7",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.23
+            },
+            {
+              "name": "One Big Boum",
+              "odds": 34.0,
+              "jockey": "Non Runner",
+              "trainer": "P Fenton",
+              "form": "5115-69",
+              "form_score": 0.65,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Buachaillbocht",
+              "odds": 12.0,
+              "jockey": "Shane O'Callaghan",
+              "trainer": "T M Walsh",
+              "form": "1/360P3-",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "A Tipp For Gold",
+              "odds": 23.0,
+              "jockey": "Conor Stone-Walsh",
+              "trainer": "D Queally",
+              "form": "38P437/",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Feud",
+              "odds": 13.0,
+              "jockey": "Mike O'Connor",
+              "trainer": "Gerard O'Leary",
+              "form": "0F-503P",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            }
+          ],
+          "race_id": "949787"
         },
         {
           "time": "13:30",
           "name": "Colm Quinn BMW Novice Handicap Hurdle",
-          "runners": []
+          "runners": [
+            {
+              "name": "Bunker Buster",
+              "odds": 5.0,
+              "jockey": "Philip Byrnes",
+              "trainer": "C Byrnes",
+              "form": "23-U14",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.3
+            },
+            {
+              "name": "Gomez Addams",
+              "odds": 3.0,
+              "jockey": "Sean Flanagan",
+              "trainer": "H De Bromhead",
+              "form": "15-14",
+              "form_score": 0.65,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.43
+            },
+            {
+              "name": "Not Too Bad",
+              "odds": 8.0,
+              "jockey": "Mark Walsh",
+              "trainer": "M Brassil",
+              "form": "42F238/",
+              "form_score": 0.56,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.23
+            },
+            {
+              "name": "World As One",
+              "odds": 3.12,
+              "jockey": "Paul Townend",
+              "trainer": "W P Mullins",
+              "form": "4532B2",
+              "form_score": 0.56,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.42
+            },
+            {
+              "name": "Carrig Padraig",
+              "odds": 9.0,
+              "jockey": "Conor Stone-Walsh",
+              "trainer": "G P Cromwell",
+              "form": "10-F094",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "Maxfort",
+              "odds": 8.5,
+              "jockey": "Daniel King",
+              "trainer": "N Stokes",
+              "form": "345-7",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.22
+            },
+            {
+              "name": "Stepdance",
+              "odds": 41.0,
+              "jockey": "Kevin Healy",
+              "trainer": "D Queally",
+              "form": "558-P7F",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Crystabel",
+              "odds": 23.0,
+              "jockey": "Josh Williamson",
+              "trainer": "J P Ryan",
+              "form": "354557",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            }
+          ],
+          "race_id": "949788"
         },
         {
           "time": "14:00",
           "name": "Frontline Security Grabel Mares Hurdle (Listed) (Class 1)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Oldschool Outlaw",
+              "odds": 1.62,
+              "jockey": "Harry Cobden",
+              "trainer": "G Elliott",
+              "form": "7/11125-",
+              "form_score": 0.87,
+              "trainer_score": 0.7,
+              "pedigree_score": 0.5,
+              "value_score": 0.72
+            },
+            {
+              "name": "Daboya",
+              "odds": 6.0,
+              "jockey": "Daniel King",
+              "trainer": "R Donohoe",
+              "form": "041-120",
+              "form_score": 0.72,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.27
+            },
+            {
+              "name": "Ill Raise A Glass",
+              "odds": 15.0,
+              "jockey": "Sean O'Keeffe",
+              "trainer": "M P Fitzgerald",
+              "form": "481354-",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.17
+            },
+            {
+              "name": "Savante",
+              "odds": 8.0,
+              "jockey": "Brian Hayes",
+              "trainer": "Colm Murphy",
+              "form": "557215-",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.23
+            },
+            {
+              "name": "Alliteration",
+              "odds": 9.5,
+              "jockey": "Mark Walsh",
+              "trainer": "J P Dempsey",
+              "form": "33212-7",
+              "form_score": 0.78,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "Catchabird",
+              "odds": 26.0,
+              "jockey": "Aidan Kelly",
+              "trainer": "Ms S J Connell",
+              "form": "34115-0",
+              "form_score": 0.72,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Likealightswitch",
+              "odds": 34.0,
+              "jockey": "Harry Sexton",
+              "trainer": "A Sexton",
+              "form": "2210-40",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            }
+          ],
+          "race_id": "949789"
         },
         {
           "time": "14:30",
           "name": "Matchbook Betting Exchange Craddockstown Novice Chase (Grade 2) (Class 1)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Frankie John",
+              "odds": 3.75,
+              "jockey": "Daniel King",
+              "trainer": "D Hogan",
+              "form": "548-112",
+              "form_score": 0.72,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.37
+            },
+            {
+              "name": "Kainsbourg",
+              "odds": 13.0,
+              "jockey": "Jack Kennedy",
+              "trainer": "G Elliott",
+              "form": "124-P24",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Lovely Hurling",
+              "odds": 4.5,
+              "jockey": "Harry Cobden",
+              "trainer": "Colm Murphy",
+              "form": "112/222-",
+              "form_score": 0.9,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.32
+            },
+            {
+              "name": "Ocastle Des Mottes",
+              "odds": 2.88,
+              "jockey": "Paul Townend",
+              "trainer": "W P Mullins",
+              "form": "5/4-P211",
+              "form_score": 0.72,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.45
+            },
+            {
+              "name": "Soir De Garde",
+              "odds": 126.0,
+              "jockey": "Harry Sexton",
+              "trainer": "R K Watson",
+              "form": "2FP-133",
+              "form_score": 0.71,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Zanoosh",
+              "odds": 5.0,
+              "jockey": "Brian Hayes",
+              "trainer": "Colm Murphy",
+              "form": "111112-",
+              "form_score": 0.9,
+              "trainer_score": 0.85,
+              "pedigree_score": 0.5,
+              "value_score": 0.3
+            }
+          ],
+          "race_id": "949790"
         },
         {
           "time": "15:00",
           "name": "John Durkan Memorial Punchestown Chase (Grade 1) (Class 1)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Fact To File",
+              "odds": 4.0,
+              "jockey": "Harry Cobden",
+              "trainer": "W P Mullins",
+              "form": "14/2612-",
+              "form_score": 0.79,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.35
+            },
+            {
+              "name": "Final Demand",
+              "odds": 9.0,
+              "jockey": "Mr P W Mullins",
+              "trainer": "W P Mullins",
+              "form": "31/113D-",
+              "form_score": 0.9,
+              "trainer_score": 0.7,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "Gaelic Warrior",
+              "odds": 1.91,
+              "jockey": "Paul Townend",
+              "trainer": "W P Mullins",
+              "form": "1/13211-",
+              "form_score": 0.9,
+              "trainer_score": 0.8,
+              "pedigree_score": 0.5,
+              "value_score": 0.62
+            },
+            {
+              "name": "Grangeclare West",
+              "odds": 101.0,
+              "jockey": "Brian Hayes",
+              "trainer": "W P Mullins",
+              "form": "8481U3-",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "I Am Maximus",
+              "odds": 101.0,
+              "jockey": "Keith Donoghue",
+              "trainer": "W P Mullins",
+              "form": "82/9251-",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Impaire Et Passe",
+              "odds": 26.0,
+              "jockey": "J J Slevin",
+              "trainer": "W P Mullins",
+              "form": "31B/1PF-",
+              "form_score": 0.72,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Kaid D'authie",
+              "odds": 6.5,
+              "jockey": "Jack Kennedy",
+              "trainer": "W P Mullins",
+              "form": "P1/211F-",
+              "form_score": 0.87,
+              "trainer_score": 0.7,
+              "pedigree_score": 0.5,
+              "value_score": 0.25
+            },
+            {
+              "name": "Kitzbuhel",
+              "odds": 11.0,
+              "jockey": "Daniel King",
+              "trainer": "W P Mullins",
+              "form": "3/11U1P-",
+              "form_score": 0.87,
+              "trainer_score": 0.7,
+              "pedigree_score": 0.5,
+              "value_score": 0.19
+            },
+            {
+              "name": "Nick Rockett",
+              "odds": 151.0,
+              "jockey": "Sean O'Keeffe",
+              "trainer": "W P Mullins",
+              "form": "34111/3-",
+              "form_score": 0.9,
+              "trainer_score": 0.7,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "The Big Westerner",
+              "odds": 21.0,
+              "jockey": "Mike O'Connor",
+              "trainer": "H De Bromhead",
+              "form": "12P/21-1",
+              "form_score": 0.9,
+              "trainer_score": 0.7,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            }
+          ],
+          "race_id": "946926"
         },
         {
           "time": "15:30",
           "name": "Keadeen Hotel (Pro/Am) Flat Race",
-          "runners": []
+          "runners": [
+            {
+              "name": "Ballygambon Bobo",
+              "odds": 29.0,
+              "jockey": "Mr R W Barron",
+              "trainer": "Conor Houlihan",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Ceasar's Ball",
+              "odds": 2.5,
+              "jockey": "Mr P W Mullins",
+              "trainer": "W P Mullins",
+              "form": "1-",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.5
+            },
+            {
+              "name": "Doctor Grimwig",
+              "odds": 7.5,
+              "jockey": "Mr Finn Tegetmeier",
+              "trainer": "N Meade",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.23
+            },
+            {
+              "name": "Doyouhearmenow",
+              "odds": 5.5,
+              "jockey": "Mr J L Gleeson",
+              "trainer": "M Brassil",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.28
+            },
+            {
+              "name": "Jukebox Charlie",
+              "odds": 126.0,
+              "jockey": "Mr D O'Sullivan",
+              "trainer": "P A Fahy",
+              "form": "00-7",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Night Chaperone",
+              "odds": 6.5,
+              "jockey": "Mr B Doyle Murphy",
+              "trainer": "Liz Doyle",
+              "form": "2",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.25
+            },
+            {
+              "name": "Pillars Presence",
+              "odds": 81.0,
+              "jockey": "Mr J Conheady",
+              "trainer": "J Conheady",
+              "form": "94",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Some See Stars",
+              "odds": 19.0,
+              "jockey": "Miss H Ross",
+              "trainer": "A L T Moore",
+              "form": "267-P32",
+              "form_score": 0.56,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Water Mill",
+              "odds": 4.5,
+              "jockey": "Mr H C Swan",
+              "trainer": "G Elliott",
+              "form": "2-2",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.32
+            },
+            {
+              "name": "Quinta Dourada",
+              "odds": 401.0,
+              "jockey": "Kevin Healy",
+              "trainer": "Miss H McLoughlin",
+              "form": "0",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            }
+          ],
+          "race_id": "949791"
         }
       ]
     },
@@ -148,42 +2726,1477 @@
         {
           "time": "12:19",
           "name": "Irish Stallion Farms EBF Academy Hurdle",
-          "runners": []
+          "runners": [
+            {
+              "name": "Around The Hill",
+              "odds": 9.0,
+              "jockey": "Philip Donovan",
+              "trainer": "Jack Doyle",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "Dublinia",
+              "odds": 11.0,
+              "jockey": "Patrick M O'Brien",
+              "trainer": "M Mulvany",
+              "form": "5",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.19
+            },
+            {
+              "name": "Flip A Coin",
+              "odds": 41.0,
+              "jockey": "Shane Markey",
+              "trainer": "A McCann",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Galyyath",
+              "odds": 13.0,
+              "jockey": "Sam Ewing",
+              "trainer": "P J Gilligan",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Green Heritage",
+              "odds": 4.0,
+              "jockey": "Jordan Gainford",
+              "trainer": "C Collins",
+              "form": "3",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.35
+            },
+            {
+              "name": "Hansel The Purse",
+              "odds": 7.0,
+              "jockey": "Luke Carberry",
+              "trainer": "M Mulvany",
+              "form": "42",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.24
+            },
+            {
+              "name": "Klaus",
+              "odds": 101.0,
+              "jockey": "Eoin Walsh",
+              "trainer": "Ciaran Murphy",
+              "form": "9",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Noon Blu Dodville",
+              "odds": 2.25,
+              "jockey": "Donagh Meyler",
+              "trainer": "E Mullins",
+              "form": "F",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.54
+            },
+            {
+              "name": "Our Destiny",
+              "odds": 41.0,
+              "jockey": "James Smith",
+              "trainer": "C O'Connell",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Way Horn",
+              "odds": 26.0,
+              "jockey": "Mark McDonagh",
+              "trainer": "S O O'Brien",
+              "form": "6",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "One For Christy",
+              "odds": 51.0,
+              "jockey": "Luke Burke Ott",
+              "trainer": "L J Archdeacon",
+              "form": "P",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            }
+          ],
+          "race_id": "949799"
         },
         {
           "time": "12:49",
           "name": "Join Racing TV Now With A Free Trial Maiden Hurdle",
-          "runners": []
+          "runners": [
+            {
+              "name": "A Poets Day Out",
+              "odds": 301.0,
+              "jockey": "Phillip Enright",
+              "trainer": "R Tyner",
+              "form": "0",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Bergomi",
+              "odds": 13.0,
+              "jockey": "Eoin Staples",
+              "trainer": "P Nolan",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Darby O'gill",
+              "odds": 5.5,
+              "jockey": "Sam Ewing",
+              "trainer": "G Elliott",
+              "form": "25-4",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.28
+            },
+            {
+              "name": "Dark Summit",
+              "odds": 29.0,
+              "jockey": "Michael Kenneally",
+              "trainer": "P W Flynn",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Good Vibrations",
+              "odds": 251.0,
+              "jockey": "Eoin Sheehan",
+              "trainer": "W J Burke",
+              "form": "70-",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Hard Ball",
+              "odds": 41.0,
+              "jockey": "Kieren Buckley",
+              "trainer": "G Elliott",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Loadstone",
+              "odds": 81.0,
+              "jockey": "Cian Quirke",
+              "trainer": "J P O'Brien",
+              "form": "7",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Maestro Des Pins",
+              "odds": 3.0,
+              "jockey": "Danny Mullins",
+              "trainer": "W P Mullins",
+              "form": "1-4",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.43
+            },
+            {
+              "name": "Old Score",
+              "odds": 34.0,
+              "jockey": "James Smith",
+              "trainer": "G Elliott",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Poledriver",
+              "odds": 126.0,
+              "jockey": "Mark McDonagh",
+              "trainer": "C Byrnes",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Puck Out",
+              "odds": 17.0,
+              "jockey": "Simon Torrens",
+              "trainer": "E Bolger",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.16
+            },
+            {
+              "name": "Unfold",
+              "odds": 126.0,
+              "jockey": "Luke Carberry",
+              "trainer": "A McCann",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Miss Stargazer",
+              "odds": 201.0,
+              "jockey": "Rian Lane",
+              "trainer": "E Bolger",
+              "form": "0",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Personal Space",
+              "odds": 2.2,
+              "jockey": "Jordan Gainford",
+              "trainer": "H De Bromhead",
+              "form": "1-",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.55
+            },
+            {
+              "name": "Rickety Kate",
+              "odds": 34.0,
+              "jockey": "John Shinnick",
+              "trainer": "J P O'Brien",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Michael Frances",
+              "odds": 15.0,
+              "jockey": "Ricky Doyle",
+              "trainer": "M Hassett",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.17
+            },
+            {
+              "name": "Flooring Brandy",
+              "odds": 17.0,
+              "jockey": "Reserve 2",
+              "trainer": "G P Cromwell",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.16
+            },
+            {
+              "name": "Clean As A Whistle",
+              "odds": 26.0,
+              "jockey": "Reserve 3",
+              "trainer": "J Motherway",
+              "form": "P-",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            }
+          ],
+          "race_id": "949800"
         },
         {
           "time": "13:19",
           "name": "Irish Stallion Farms EBF Maiden Hurdle",
-          "runners": []
+          "runners": [
+            {
+              "name": "Berkshire Echo",
+              "odds": 201.0,
+              "jockey": "Liam McKenna",
+              "trainer": "M Hassett",
+              "form": "0/4-",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Cascando",
+              "odds": 151.0,
+              "jockey": "Phillip Enright",
+              "trainer": "R Tyner",
+              "form": "2P14-0",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Dusty Mills",
+              "odds": 151.0,
+              "jockey": "Cian Quirke",
+              "trainer": "Bernard Crowley",
+              "form": "S2-4",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Jessbers Wish",
+              "odds": 13.0,
+              "jockey": "Tiernan Power Roche",
+              "trainer": "P J Rothwell",
+              "form": "3/44-2",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Kaspar Des Bordes",
+              "odds": 81.0,
+              "jockey": "Gary Noonan",
+              "trainer": "E McCarthy",
+              "form": "34F-",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Look Me",
+              "odds": 2.25,
+              "jockey": "Danny Mullins",
+              "trainer": "W P Mullins",
+              "form": "2/12-",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.54
+            },
+            {
+              "name": "Moonquake",
+              "odds": 151.0,
+              "jockey": "Niall Moore",
+              "trainer": "W J Martin",
+              "form": "4P/9-P",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Nothingtodowithyou",
+              "odds": 201.0,
+              "jockey": "Luke Burke Ott",
+              "trainer": "A Ott",
+              "form": "P828U/9",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "River Ore",
+              "odds": 251.0,
+              "jockey": "Jordan Gainford",
+              "trainer": "J J Hanlon",
+              "form": "46808",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Soul Asylum",
+              "odds": 2.62,
+              "jockey": "Sam Ewing",
+              "trainer": "G Elliott",
+              "form": "216-3",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.48
+            },
+            {
+              "name": "Tommie K",
+              "odds": 151.0,
+              "jockey": "Simon Torrens",
+              "trainer": "R Tyner",
+              "form": "FP-",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Young Rebel",
+              "odds": 7.5,
+              "jockey": "Donagh Meyler",
+              "trainer": "E Mullins",
+              "form": "1-52",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.23
+            },
+            {
+              "name": "Daddy's Cupcake",
+              "odds": 126.0,
+              "jockey": "Brian Barry",
+              "trainer": "R Hackett",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Moonverrin",
+              "odds": 5.5,
+              "jockey": "Ricky Doyle",
+              "trainer": "M Hassett",
+              "form": "2110-",
+              "form_score": 0.72,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.28
+            },
+            {
+              "name": "Wilton Mills Trier",
+              "odds": 7.0,
+              "jockey": "Non Runner",
+              "trainer": "P M Pierce",
+              "form": "13-1",
+              "form_score": 0.72,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.24
+            },
+            {
+              "name": "Anunnaki",
+              "odds": 51.0,
+              "jockey": "Reserve 1",
+              "trainer": "P J Rothwell",
+              "form": "F/6",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Cross Of Moanrue",
+              "odds": 101.0,
+              "jockey": "Eoin Walsh",
+              "trainer": "P J Rothwell",
+              "form": "3U338-2",
+              "form_score": 0.63,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Cracker's Diamond",
+              "odds": 101.0,
+              "jockey": "Reserve 3",
+              "trainer": "R Hackett",
+              "form": "",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            }
+          ],
+          "race_id": "949801"
         },
         {
           "time": "13:49",
           "name": "Irish Stallion Farms EBF Mares Beginners Chase",
-          "runners": []
+          "runners": [
+            {
+              "name": "Bambino Fever",
+              "odds": 4.0,
+              "jockey": "Miss J Townend",
+              "trainer": "W P Mullins",
+              "form": "111/210-",
+              "form_score": 0.9,
+              "trainer_score": 0.8,
+              "pedigree_score": 0.5,
+              "value_score": 0.35
+            },
+            {
+              "name": "Blue Velvet",
+              "odds": 34.0,
+              "jockey": "Ricky Doyle",
+              "trainer": "W P Mullins",
+              "form": "73/210P-",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Carrigmoornaspruce",
+              "odds": 4.5,
+              "jockey": "Sean Cleary-Farrell",
+              "trainer": "W P Mullins",
+              "form": "21/1220-",
+              "form_score": 0.86,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.32
+            },
+            {
+              "name": "Carry On Heidi",
+              "odds": 101.0,
+              "jockey": "Michael Kenneally",
+              "trainer": "J P Patrick Baragry",
+              "form": "44333-5",
+              "form_score": 0.56,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Changeyourstars",
+              "odds": 81.0,
+              "jockey": "Phillip Enright",
+              "trainer": "Patrick King",
+              "form": "0/92126-",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Echoing Silence",
+              "odds": 4.5,
+              "jockey": "Jordan Gainford",
+              "trainer": "H De Bromhead",
+              "form": "1/1107-3",
+              "form_score": 0.87,
+              "trainer_score": 0.7,
+              "pedigree_score": 0.5,
+              "value_score": 0.32
+            },
+            {
+              "name": "Kelya",
+              "odds": 81.0,
+              "jockey": "Donagh Meyler",
+              "trainer": "E Mullins",
+              "form": "2137/53",
+              "form_score": 0.71,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Miss Georgina",
+              "odds": 251.0,
+              "jockey": "Tiernan Power Roche",
+              "trainer": "A Lee",
+              "form": "65443-7",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Miss Mini Bee",
+              "odds": 126.0,
+              "jockey": "Alex Harvey",
+              "trainer": "P T Foley",
+              "form": "9753P-3",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Mongibello",
+              "odds": 19.0,
+              "jockey": "Sam Ewing",
+              "trainer": "S R B Crawford",
+              "form": "12521/2",
+              "form_score": 0.86,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "My Forever Annie",
+              "odds": 151.0,
+              "jockey": "James Smith",
+              "trainer": "G Elliott",
+              "form": "1/6",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Place De La Nation",
+              "odds": 3.0,
+              "jockey": "Danny Mullins",
+              "trainer": "W P Mullins",
+              "form": "112321-",
+              "form_score": 0.9,
+              "trainer_score": 0.7,
+              "pedigree_score": 0.5,
+              "value_score": 0.43
+            },
+            {
+              "name": "Sainte Lucie",
+              "odds": 10.0,
+              "jockey": "Charlie O'Dwyer",
+              "trainer": "W P Mullins",
+              "form": "7/0071-1",
+              "form_score": 0.65,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.2
+            }
+          ],
+          "race_id": "949802"
         },
         {
           "time": "14:19",
           "name": "Kevin McManus Bookmaker Handicap Chase",
-          "runners": []
+          "runners": [
+            {
+              "name": "Karl Des Tourelles",
+              "odds": 3.25,
+              "jockey": "Niall Moore",
+              "trainer": "P Fenton",
+              "form": "6466-21",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.41
+            },
+            {
+              "name": "Rockonliam",
+              "odds": 8.5,
+              "jockey": "Patrick M O'Brien",
+              "trainer": "H De Bromhead",
+              "form": "34-1112",
+              "form_score": 0.9,
+              "trainer_score": 0.7,
+              "pedigree_score": 0.5,
+              "value_score": 0.22
+            },
+            {
+              "name": "I Am Lorenzo",
+              "odds": 13.0,
+              "jockey": "Eoin Staples",
+              "trainer": "P Nolan",
+              "form": "31339-8",
+              "form_score": 0.71,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Invictus Machin",
+              "odds": 34.0,
+              "jockey": "Kieren Buckley",
+              "trainer": "G P Cromwell",
+              "form": "9224-PP",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "On Your Way",
+              "odds": 17.0,
+              "jockey": "Philip Donovan",
+              "trainer": "C Byrnes",
+              "form": "641/12-3",
+              "form_score": 0.79,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.16
+            },
+            {
+              "name": "Harvard Guy",
+              "odds": 21.0,
+              "jockey": "Simon Torrens",
+              "trainer": "E & P Harty",
+              "form": "668755-",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Meet And Greet",
+              "odds": 17.0,
+              "jockey": "Phillip Enright",
+              "trainer": "O McKiernan",
+              "form": "824-F58",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.16
+            },
+            {
+              "name": "A Wave Of The Sea",
+              "odds": 29.0,
+              "jockey": "Charlie O'Dwyer",
+              "trainer": "J P Broderick",
+              "form": "00-5714",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Watch The Weather",
+              "odds": 9.5,
+              "jockey": "Michael Kenneally",
+              "trainer": "R P Cody",
+              "form": "533323",
+              "form_score": 0.7,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "Al Kalila",
+              "odds": 12.0,
+              "jockey": "Sam Ewing",
+              "trainer": "S R B Crawford",
+              "form": "4/23310-",
+              "form_score": 0.71,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Mystical Goddess",
+              "odds": 26.0,
+              "jockey": "Jordan Gainford",
+              "trainer": "H De Bromhead",
+              "form": "333P3P-",
+              "form_score": 0.63,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Hermino AA",
+              "odds": 34.0,
+              "jockey": "Gearoid Brouder",
+              "trainer": "E McNamara",
+              "form": "6-61086",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "El Champo",
+              "odds": 13.0,
+              "jockey": "Conor Smithers",
+              "trainer": "P J Rothwell",
+              "form": "PP9-462",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Kings Jet",
+              "odds": 6.0,
+              "jockey": "Ricky Doyle",
+              "trainer": "C W J Farrell",
+              "form": "U023F1",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.27
+            },
+            {
+              "name": "Happy Dreams",
+              "odds": 34.0,
+              "jockey": "Cian Quirke",
+              "trainer": "M J McDonagh",
+              "form": "121660-",
+              "form_score": 0.72,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Jupiter Du Gite",
+              "odds": 15.0,
+              "jockey": "Donagh Meyler",
+              "trainer": "T Hogan",
+              "form": "46-2298",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.17
+            },
+            {
+              "name": "Rusheen",
+              "odds": 13.0,
+              "jockey": "Cian Quirke",
+              "trainer": "T O'Brien",
+              "form": "U/1UP3-7",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Kobalt St Georges",
+              "odds": 11.0,
+              "jockey": "Reserve 2",
+              "trainer": "R Tyner",
+              "form": "11145-2",
+              "form_score": 0.87,
+              "trainer_score": 0.7,
+              "pedigree_score": 0.5,
+              "value_score": 0.19
+            }
+          ],
+          "race_id": "949803"
         },
         {
           "time": "14:49",
           "name": "William Hill Challenge Series Irish EBF Beginners Chase",
-          "runners": []
+          "runners": [
+            {
+              "name": "Chase The Moon",
+              "odds": 19.0,
+              "jockey": "Tiernan Power Roche",
+              "trainer": "P J Rothwell",
+              "form": "14619-7",
+              "form_score": 0.65,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Dubhain",
+              "odds": 21.0,
+              "jockey": "Danny Mullins",
+              "trainer": "S R B Crawford",
+              "form": "33550-1",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Found A Diamond",
+              "odds": 17.0,
+              "jockey": "Shane Markey",
+              "trainer": "R O'Sullivan",
+              "form": "151334-",
+              "form_score": 0.79,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.16
+            },
+            {
+              "name": "Gin Tonic",
+              "odds": 17.0,
+              "jockey": "Philip Donovan",
+              "trainer": "P Nolan",
+              "form": "2/12PP-P",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.16
+            },
+            {
+              "name": "Kaiser De Chanay",
+              "odds": 8.0,
+              "jockey": "Ricky Doyle",
+              "trainer": "M Brassil",
+              "form": "2/6571-",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.23
+            },
+            {
+              "name": "Long Branch",
+              "odds": 9.0,
+              "jockey": "Michael Kenneally",
+              "trainer": "S Neville",
+              "form": "3U24-44",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "Maidenstreetprince",
+              "odds": 19.0,
+              "jockey": "Eoin Staples",
+              "trainer": "C Byrnes",
+              "form": "3F32-76",
+              "form_score": 0.56,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Mojoe",
+              "odds": 26.0,
+              "jockey": "Simon Torrens",
+              "trainer": "P T Foley",
+              "form": "7131P-5",
+              "form_score": 0.72,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "No Looking Back",
+              "odds": 29.0,
+              "jockey": "Phillip Enright",
+              "trainer": "O McKiernan",
+              "form": "30-7P2P",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Polepatrick",
+              "odds": 12.0,
+              "jockey": "Kieren Buckley",
+              "trainer": "D A McLoughlin",
+              "form": "5/31-234",
+              "form_score": 0.71,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Rosie's Wings",
+              "odds": 7.0,
+              "jockey": "Donagh Meyler",
+              "trainer": "R O'Sullivan",
+              "form": "313332",
+              "form_score": 0.85,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.24
+            },
+            {
+              "name": "Some Song",
+              "odds": 4.5,
+              "jockey": "Jordan Gainford",
+              "trainer": "H De Bromhead",
+              "form": "1P6-443",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.32
+            },
+            {
+              "name": "Speculateur",
+              "odds": 5.5,
+              "jockey": "Sam Ewing",
+              "trainer": "G Elliott",
+              "form": "3333-14",
+              "form_score": 0.78,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.28
+            },
+            {
+              "name": "Affinity Rock",
+              "odds": 9.0,
+              "jockey": "Carl Millar",
+              "trainer": "C Collins",
+              "form": "0-22342",
+              "form_score": 0.63,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "Between Friends",
+              "odds": 51.0,
+              "jockey": "Charlie O'Dwyer",
+              "trainer": "E Bolger",
+              "form": "025/6P-1",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Take The Free",
+              "odds": 26.0,
+              "jockey": "Peter Smithers",
+              "trainer": "E Bolger",
+              "form": "6210R5",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "King In Love",
+              "odds": 201.0,
+              "jockey": "Reserve 1",
+              "trainer": "S Aherne",
+              "form": "5350-78",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Mossy Way",
+              "odds": 21.0,
+              "jockey": "Reserve 2",
+              "trainer": "E Buckley",
+              "form": "4743-96",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Market Ready",
+              "odds": 126.0,
+              "jockey": "Anna McGuinness",
+              "trainer": "S Aherne",
+              "form": "3-4P237",
+              "form_score": 0.56,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            }
+          ],
+          "race_id": "949804"
         },
         {
           "time": "15:19",
           "name": "Adare Manor Opportunity Handicap Hurdle",
-          "runners": []
+          "runners": [
+            {
+              "name": "St Lawrence's Well",
+              "odds": 8.0,
+              "jockey": "Eoin Staples",
+              "trainer": "D Queally",
+              "form": "5F5-934",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.23
+            },
+            {
+              "name": "River Vale",
+              "odds": 12.0,
+              "jockey": "Kevin A Murphy",
+              "trainer": "M Winters",
+              "form": "8DF41-P",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Lenjoleur De Palma",
+              "odds": 9.5,
+              "jockey": "Patrick M O'Brien",
+              "trainer": "E McNamara",
+              "form": "3123-64",
+              "form_score": 0.71,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "Royal Belief",
+              "odds": 19.0,
+              "jockey": "Carl Millar",
+              "trainer": "C Collins",
+              "form": "5901-",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Lar Na Pairce",
+              "odds": 51.0,
+              "jockey": "Rian Lane",
+              "trainer": "E Bolger",
+              "form": "790-",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Saporetti",
+              "odds": 19.0,
+              "jockey": "James Smith",
+              "trainer": "B McMahon",
+              "form": "5-335",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Lanzhou",
+              "odds": 4.5,
+              "jockey": "Jordan Canavan",
+              "trainer": "J P Flavin",
+              "form": "9-07211",
+              "form_score": 0.72,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.32
+            },
+            {
+              "name": "Mister Loolah",
+              "odds": 9.5,
+              "jockey": "Luke Burke Ott",
+              "trainer": "A Ott",
+              "form": "6PB-4F3",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "Kaligo",
+              "odds": 51.0,
+              "jockey": "Liam McKenna",
+              "trainer": "Colm Murphy",
+              "form": "000/",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "You Lift Me Up",
+              "odds": 29.0,
+              "jockey": "Shane Markey",
+              "trainer": "P J Rothwell",
+              "form": "07043",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Theanniversary Man",
+              "odds": 3.25,
+              "jockey": "Conor Smithers",
+              "trainer": "J Barcoe",
+              "form": "P47671",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.41
+            },
+            {
+              "name": "Springboard",
+              "odds": 7.0,
+              "jockey": "Michael Kenneally",
+              "trainer": "M J McDonagh",
+              "form": "1-95196",
+              "form_score": 0.65,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.24
+            },
+            {
+              "name": "Issy's Lad",
+              "odds": 126.0,
+              "jockey": "Peter Smithers",
+              "trainer": "W J Austin",
+              "form": "007",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            }
+          ],
+          "race_id": "949805"
         },
         {
           "time": "15:49",
           "name": "William Hill Challenge Series Handicap Hurdle",
-          "runners": []
+          "runners": [
+            {
+              "name": "The Rebel Fox",
+              "odds": 10.0,
+              "jockey": "Ricky Doyle",
+              "trainer": "R O'Sullivan",
+              "form": "3225-23",
+              "form_score": 0.7,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.2
+            },
+            {
+              "name": "West Of Bally",
+              "odds": 51.0,
+              "jockey": "Gearoid Brouder",
+              "trainer": "E McNamara",
+              "form": "75138-0",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Big Debates",
+              "odds": 29.0,
+              "jockey": "Anna McGuinness",
+              "trainer": "R Tyner",
+              "form": "P32P/12-",
+              "form_score": 0.71,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Born Bright",
+              "odds": 67.0,
+              "jockey": "James Smith",
+              "trainer": "C O'Connell",
+              "form": "14-34PP",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Custers Mistake",
+              "odds": 17.0,
+              "jockey": "Conor Smithers",
+              "trainer": "P McCreery",
+              "form": "5/821-PP",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.16
+            },
+            {
+              "name": "Jackmoon",
+              "odds": 9.5,
+              "jockey": "Jordan Canavan",
+              "trainer": "J P Flavin",
+              "form": "P522-33",
+              "form_score": 0.63,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "King Of The Greys",
+              "odds": 4.0,
+              "jockey": "Sam Ewing",
+              "trainer": "Peter Fahey",
+              "form": "8PPP31",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.35
+            },
+            {
+              "name": "Ney",
+              "odds": 34.0,
+              "jockey": "Kieren Buckley",
+              "trainer": "E Buckley",
+              "form": "1/55627-",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Toor Khov",
+              "odds": 23.0,
+              "jockey": "Liam Quinlan",
+              "trainer": "Ms M Flynn",
+              "form": "1F24-0P",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Tiger Twins",
+              "odds": 13.0,
+              "jockey": "Thomas O'Connor",
+              "trainer": "E McCarthy",
+              "form": "7540-5F",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Bergamasquo",
+              "odds": 13.0,
+              "jockey": "Eoin Staples",
+              "trainer": "G P Cromwell",
+              "form": "2944F-P",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Cock And Bull",
+              "odds": 3.25,
+              "jockey": "Donagh Meyler",
+              "trainer": "E Mullins",
+              "form": "8570-1",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.41
+            },
+            {
+              "name": "John The Diva",
+              "odds": 17.0,
+              "jockey": "Paddy Cody",
+              "trainer": "M A Cahill",
+              "form": "13/2523-",
+              "form_score": 0.78,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.16
+            },
+            {
+              "name": "The Miracle Man",
+              "odds": 26.0,
+              "jockey": "Patrick M O'Brien",
+              "trainer": "G Elliott",
+              "form": "2433-9P",
+              "form_score": 0.56,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Strange Currency",
+              "odds": 21.0,
+              "jockey": "Evan Nugent",
+              "trainer": "B McMahon",
+              "form": "U5-6774",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Drumconnor Hill",
+              "odds": 11.0,
+              "jockey": "Jordan Gainford",
+              "trainer": "C Collins",
+              "form": "470P03",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.19
+            },
+            {
+              "name": "Scotty Joe",
+              "odds": 41.0,
+              "jockey": "Tiernan Power Roche",
+              "trainer": "P J Rothwell",
+              "form": "4/P1-608",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Political Stance",
+              "odds": 11.0,
+              "jockey": "Reserve 2",
+              "trainer": "C Byrnes",
+              "form": "P-0051P",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.19
+            },
+            {
+              "name": "Its Not Over Yet",
+              "odds": 21.0,
+              "jockey": "Conor Smithers",
+              "trainer": "O McKiernan",
+              "form": "5-38385",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            }
+          ],
+          "race_id": "949806"
         }
       ]
     },
@@ -194,32 +4207,396 @@
         {
           "time": "12:43",
           "name": "racingtv.com/freetrial - Last Day Mares' Handicap Hurdle (Class 4)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Golden Falls",
+              "odds": 2.75,
+              "jockey": "Tom Cannon",
+              "trainer": "L Wadham",
+              "form": "127741-",
+              "form_score": 0.72,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.46
+            },
+            {
+              "name": "Hello Sweety",
+              "odds": 5.5,
+              "jockey": "Charlie Hammond",
+              "trainer": "S Edmunds",
+              "form": "1231P3",
+              "form_score": 0.86,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.28
+            },
+            {
+              "name": "Our Peggy",
+              "odds": 3.0,
+              "jockey": "Dylan Johnston",
+              "trainer": "J Tizzard",
+              "form": "1642P-1",
+              "form_score": 0.72,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.43
+            },
+            {
+              "name": "Dancing Dame",
+              "odds": 6.0,
+              "jockey": "J J Burke",
+              "trainer": "James Owen",
+              "form": "86-2514",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.27
+            },
+            {
+              "name": "Mc'flo",
+              "odds": 17.0,
+              "jockey": "J M Quinlan",
+              "trainer": "A Carson",
+              "form": "4P5842",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.16
+            }
+          ],
+          "race_id": "949605"
         },
         {
           "time": "13:13",
           "name": "Royal British Legion Poppy Appeal 2026 Handicap Chase (Class 5)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Belle Montrose",
+              "odds": 3.5,
+              "jockey": "K Brogan",
+              "trainer": "S Drinkwater",
+              "form": "61223-2",
+              "form_score": 0.78,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.39
+            },
+            {
+              "name": "Applejack Poet",
+              "odds": 2.1,
+              "jockey": "Rian Corcoran",
+              "trainer": "B J Murphy",
+              "form": "P8F321",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.58
+            },
+            {
+              "name": "Gambie Tiep",
+              "odds": 5.0,
+              "jockey": "S Bowen",
+              "trainer": "O Murphy",
+              "form": "6543P/5",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.3
+            },
+            {
+              "name": "Getaway Jewel",
+              "odds": 8.0,
+              "jockey": "Alice Stevens",
+              "trainer": "Micky Hammond",
+              "form": "221447",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.23
+            }
+          ],
+          "race_id": "949606"
         },
         {
           "time": "13:43",
           "name": "Get A Free Trial Of Racing TV Now Maiden Hurdle (GBB Race) (Class 4)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Claim The Throne",
+              "odds": 8.5,
+              "jockey": "Dylan Johnston",
+              "trainer": "J Tizzard",
+              "form": "B2561/P-",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.22
+            },
+            {
+              "name": "Eustace Grenier",
+              "odds": 6.0,
+              "jockey": "S Bowen",
+              "trainer": "O Murphy",
+              "form": "343-450",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.27
+            },
+            {
+              "name": "Scotto",
+              "odds": 2.0,
+              "jockey": "J J Burke",
+              "trainer": "James Owen",
+              "form": "113",
+              "form_score": 0.72,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.6
+            },
+            {
+              "name": "Tommy Tipa",
+              "odds": 21.0,
+              "jockey": "Charlie Hammond",
+              "trainer": "S Bradstock",
+              "form": "55",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "Mister Realistic",
+              "odds": 8.0,
+              "jockey": "Tom Cannon",
+              "trainer": "L Wadham",
+              "form": "2-8",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.23
+            },
+            {
+              "name": "Yanka Blue",
+              "odds": 26.0,
+              "jockey": "R T Dunne",
+              "trainer": "B J Murphy",
+              "form": "P44394",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.15
+            },
+            {
+              "name": "La Trinite",
+              "odds": 6.5,
+              "jockey": "J M Quinlan",
+              "trainer": "N B King",
+              "form": "36",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.25
+            }
+          ],
+          "race_id": "949607"
         },
         {
           "time": "14:13",
           "name": "Jumps Looks Better On Racing TV Mares' Handicap Chase (Class 5)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Miss Kassiopi",
+              "odds": 11.0,
+              "jockey": "Benjamin Poste",
+              "trainer": "M Young",
+              "form": "3-721P6",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.19
+            },
+            {
+              "name": "Gata Ban",
+              "odds": 2.38,
+              "jockey": "Dylan Johnston",
+              "trainer": "N P Mulholland",
+              "form": "211431",
+              "form_score": 0.9,
+              "trainer_score": 0.7,
+              "pedigree_score": 0.5,
+              "value_score": 0.52
+            },
+            {
+              "name": "I Am The Moon",
+              "odds": 13.0,
+              "jockey": "Toby McCain-Mitchell",
+              "trainer": "N & W Twiston-Davies",
+              "form": "1P4-248",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.18
+            },
+            {
+              "name": "Eastern Shores",
+              "odds": 9.0,
+              "jockey": "Kielan Woods",
+              "trainer": "F O'Brien",
+              "form": "256-7P4",
+              "form_score": 0.42,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.21
+            },
+            {
+              "name": "Chosen Hero",
+              "odds": 2.88,
+              "jockey": "J J Burke",
+              "trainer": "James Owen",
+              "form": "9PPP-15",
+              "form_score": 0.5,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.45
+            },
+            {
+              "name": "Sweet Nightingale",
+              "odds": 11.0,
+              "jockey": "Tristan Durrell",
+              "trainer": "P Gundry",
+              "form": "3133-54",
+              "form_score": 0.71,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.19
+            }
+          ],
+          "race_id": "949608"
         },
         {
           "time": "14:43",
           "name": "Get A Free Trial At racingtv.com/freetrial Handicap Hurdle (Class 4)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Mr Mackay",
+              "odds": 2.5,
+              "jockey": "Toby McCain-Mitchell",
+              "trainer": "N & W Twiston-Davies",
+              "form": "42551/2",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.5
+            },
+            {
+              "name": "King Jon Oliver",
+              "odds": 6.0,
+              "jockey": "R T Dunne",
+              "trainer": "O Murphy",
+              "form": "21P4P-P",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.27
+            },
+            {
+              "name": "Greatness Awaits",
+              "odds": 11.0,
+              "jockey": "Tom Cannon",
+              "trainer": "Mrs S J Humphrey",
+              "form": "045740-",
+              "form_score": 0.35,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.19
+            },
+            {
+              "name": "Everyonesgame",
+              "odds": 3.25,
+              "jockey": "Chad Bament",
+              "trainer": "A Irvine",
+              "form": "1765-22",
+              "form_score": 0.64,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.41
+            },
+            {
+              "name": "At Mangan Bridge",
+              "odds": 7.0,
+              "jockey": "Charlie Hammond",
+              "trainer": "S Edmunds",
+              "form": "4/3511-0",
+              "form_score": 0.72,
+              "trainer_score": 0.6,
+              "pedigree_score": 0.5,
+              "value_score": 0.24
+            }
+          ],
+          "race_id": "949609"
         },
         {
           "time": "15:13",
           "name": "31 Days Free Racing TV At racingtv.com/freetrial Novices' Handicap Chase (GBB Race) (Class 4)",
-          "runners": []
+          "runners": [
+            {
+              "name": "Mr Mcwhinny",
+              "odds": 2.62,
+              "jockey": "Finn Lambert",
+              "trainer": "T Ellis",
+              "form": "41112F",
+              "form_score": 0.87,
+              "trainer_score": 0.7,
+              "pedigree_score": 0.5,
+              "value_score": 0.48
+            },
+            {
+              "name": "Hawaii Du Mestivel",
+              "odds": 3.75,
+              "jockey": "C O'Farrell",
+              "trainer": "N P Mulholland",
+              "form": "111/PP2-",
+              "form_score": 0.87,
+              "trainer_score": 0.7,
+              "pedigree_score": 0.5,
+              "value_score": 0.37
+            },
+            {
+              "name": "Painted Wolf",
+              "odds": 8.0,
+              "jockey": "J J Burke",
+              "trainer": "B I Case",
+              "form": "P5P21-4",
+              "form_score": 0.57,
+              "trainer_score": 0.5,
+              "pedigree_score": 0.5,
+              "value_score": 0.23
+            },
+            {
+              "name": "Breezethroughlife",
+              "odds": 7.5,
+              "jockey": "J M Quinlan",
+              "trainer": "N B King",
+              "form": "53-8344",
+              "form_score": 0.49,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.23
+            },
+            {
+              "name": "Bahtiyar",
+              "odds": 5.0,
+              "jockey": "Benjamin Poste",
+              "trainer": "M Young",
+              "form": "634523",
+              "form_score": 0.56,
+              "trainer_score": 0.4,
+              "pedigree_score": 0.5,
+              "value_score": 0.3
+            }
+          ],
+          "race_id": "949610"
         }
       ]
     }
