@@ -4,45 +4,616 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Horse Racing Bot Chat</title>
-  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    :root {
+      --bg: #0f172a; --card: #1e293b; --card-hover: #334155;
+      --text: #e2e8f0; --muted: #94a3b8; --border: #334155; --accent: #38bdf8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.5; min-height: 100vh;
+    }
+    .container { max-width: 960px; margin: 0 auto; padding: 1rem; }
+    header { text-align: center; padding: 1.25rem 0 0.75rem; }
+    header h1 {
+      font-size: 1.7rem; font-weight: 700; color: var(--accent);
+      display: flex; align-items: center; justify-content: center; gap: 0.5rem;
+    }
+    header .meta { color: var(--muted); font-size: 0.9rem; margin-top: 0.25rem; }
+    .info-box {
+      background: #1e3a5f; border: 1px solid #334155; border-radius: 0.75rem;
+      padding: 0.85rem 1.1rem; margin: 1rem 0; font-size: 0.88rem; color: #bae6fd;
+    }
+    .tabs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0; }
+    .tab {
+      background: var(--card); border: 1px solid var(--border); color: var(--muted);
+      padding: 0.45rem 0.95rem; border-radius: 9999px; cursor: pointer; font-size: 0.85rem;
+    }
+    .tab:hover { background: var(--card-hover); color: var(--text); }
+    .tab.active { background: #0ea5e9; color: white; border-color: #0ea5e9; }
+
+    .meeting {
+      margin-bottom: 0.75rem; border: 1px solid var(--border);
+      border-radius: 0.75rem; overflow: hidden; background: var(--card);
+    }
+    .meeting-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0.9rem 1.1rem; cursor: pointer; background: #1e293b;
+      font-size: 1.15rem; font-weight: 650; color: #f1f5f9; user-select: none;
+    }
+    .meeting-header:hover { background: #273548; }
+    .meeting-header .chevron { transition: transform 0.2s; font-size: 1.1rem; color: var(--muted); }
+    .meeting.open .meeting-header .chevron { transform: rotate(90deg); }
+    .meeting-body { display: none; border-top: 1px solid var(--border); }
+    .meeting.open .meeting-body { display: block; }
+
+    .race { border-bottom: 1px solid var(--border); }
+    .race:last-child { border-bottom: none; }
+    .race-header {
+      padding: 0.7rem 1.1rem; font-size: 0.92rem; color: #cbd5e1;
+      background: #0f172a; border-bottom: 1px solid #1e293b;
+      display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; align-items: baseline;
+    }
+    .race-time { font-weight: 700; color: #38bdf8; font-size: 1rem; }
+    .race-name { font-weight: 500; }
+    .race-meta { font-size: 0.8rem; color: var(--muted); }
+
+    .col-headers {
+      display: grid;
+      grid-template-columns: 120px 1fr 80px 60px 55px;
+      gap: 0.5rem; padding: 0.45rem 1.1rem;
+      font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.04em;
+      color: var(--muted); background: #0f172a; border-bottom: 1px solid #1e293b;
+    }
+
+    .tip {
+      display: grid;
+      grid-template-columns: 120px 1fr 80px 60px 55px;
+      gap: 0.5rem; align-items: center;
+      padding: 0.55rem 1.1rem; border-bottom: 1px solid #1e293b;
+      cursor: pointer; transition: background 0.15s;
+    }
+    .tip:last-child { border-bottom: none; }
+    .tip:hover { background: var(--card-hover); }
+    .bot-badge {
+      font-size: 0.72rem; font-weight: 600; padding: 0.18rem 0.45rem;
+      border-radius: 9999px; color: white; text-align: center; white-space: nowrap;
+    }
+    .horse-name { font-weight: 500; font-size: 0.95rem; }
+    .stars { color: #fbbf24; letter-spacing: 1px; font-size: 0.95rem; text-align: center; }
+    .odds { font-weight: 600; color: #fbbf24; text-align: right; }
+    .confidence {
+      font-size: 0.78rem; font-weight: 600; padding: 0.12rem 0.4rem;
+      border-radius: 9999px; text-align: center;
+    }
+    .conf-high { background: #166534; color: #bbf7d0; }
+    .conf-mid  { background: #854d0e; color: #fef08a; }
+    .conf-low  { background: #7f1d1d; color: #fecaca; }
+    .ew-flag {
+      font-size: 0.65rem; background: #4c1d95; color: #e9d5ff;
+      padding: 0.08rem 0.35rem; border-radius: 4px; margin-left: 0.3rem;
+    }
+
+    .reason-panel {
+      display: none; grid-column: 1 / -1;
+      background: #0f172a; border-top: 1px solid #334155;
+      padding: 0.9rem 1.1rem; font-size: 0.88rem; color: #cbd5e1; line-height: 1.55;
+    }
+    .tip.open .reason-panel { display: block; }
+    .reason-panel strong { color: #e2e8f0; }
+    .reason-panel ul { margin: 0.4rem 0 0 1.1rem; }
+    .reason-panel li { margin-bottom: 0.25rem; }
+
+    .section-title { font-size: 1.15rem; font-weight: 600; margin: 1.25rem 0 0.75rem; color: #f1f5f9; }
+    .festival-card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem;
+      padding: 1rem 1.15rem; margin-bottom: 0.75rem;
+    }
+    .festival-card h3 { font-size: 1.05rem; color: #38bdf8; margin-bottom: 0.3rem; }
+    .festival-card .when { font-size: 0.85rem; color: var(--muted); margin-bottom: 0.5rem; }
+    .festival-card p { font-size: 0.9rem; color: #cbd5e1; }
+    .acca-card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem;
+      padding: 1rem; margin-bottom: 0.75rem;
+    }
+    .acca-card h3 { font-size: 0.95rem; margin-bottom: 0.4rem; color: #38bdf8; }
+    .lb-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+    .lb-table th, .lb-table td {
+      padding: 0.55rem 0.7rem; text-align: left; border-bottom: 1px solid var(--border);
+    }
+    .lb-table th { color: var(--muted); font-weight: 500; font-size: 0.8rem; }
+    .footer { text-align: center; padding: 2rem 0; color: var(--muted); font-size: 0.8rem; }
+    @media (max-width: 640px) {
+      .col-headers, .tip { grid-template-columns: 95px 1fr 60px 50px 48px; }
+      .bot-badge { font-size: 0.65rem; }
+    }
+  </style>
 </head>
 <body>
   <div class="container">
     <header>
-      <h1>
-        <span style="font-size:1.6rem">🏇</span>
-        Horse Racing Bot Chat
-      </h1>
-      <div class="meta" id="header-meta">
-        UK & Ireland · Loading…
-      </div>
+      <h1><span>🏇</span> Horse Racing Bot Chat</h1>
+      <div class="meta">UK & Ireland · Saturday 21 November 2026</div>
     </header>
 
     <div class="info-box">
-      <strong>Today’s meetings covered:</strong> <span id="meetings-list">…</span><br>
-      Click any tip for full reasoning · ★ = bots agreeing · E/W = each-way tip
+      Click a meeting to expand · Click any tip for full reasoning · Stars = how many bots picked that horse · E/W only when terms + price make sense
     </div>
 
     <div class="tabs" id="main-tabs">
       <button class="tab active" data-tab="today">📅 Today</button>
       <button class="tab" data-tab="tomorrow">🌅 Tomorrow</button>
-      <button class="tab" data-tab="big">🏆 Big Races</button>
+      <button class="tab" data-tab="big">🏆 Big Festivals</button>
       <button class="tab" data-tab="doubles">🎲 Doubles & Accas</button>
       <button class="tab" data-tab="leaderboard">🏅 Leaderboard</button>
     </div>
 
-    <div id="content">
-      <!-- Filled by JS -->
-      <p style="color:#94a3b8;text-align:center;padding:2rem">Loading tips…</p>
-    </div>
-
-    <div class="footer">
-      Free personal project · Data from public sources · Bet responsibly (18+)
-    </div>
+    <div id="content"></div>
+    <div class="footer">Free personal project · Bet responsibly (18+)</div>
   </div>
 
-  <script src="js/bots.js"></script>
-  <script src="js/storage.js"></script>
-  <script src="js/app.js"></script>
+<script>
+const BOTS = {
+  BloodlineBetty: { name: "BloodlineBetty", colour: "#ec4899" },
+  DevilAdvocate:  { name: "DevilAdvocate",  colour: "#a855f7" },
+  FormFox:        { name: "FormFox",        colour: "#3b82f6" },
+  HotTrainer:     { name: "HotTrainer",     colour: "#ef4444" },
+  PaceProphet:    { name: "PaceProphet",    colour: "#f97316" },
+  ValueHunter:    { name: "ValueHunter",    colour: "#22c55e" }
+};
+
+const DATA = {
+  meetings: [
+    {
+      name: "Haydock",
+      open: true,
+      races: [
+        {
+          time: "12:05", name: "Betfair Exchange Graduation Chase (Class 2)", dist: "2m5½f", going: "Good", runners: 3,
+          tips: [
+            { bot: "FormFox", horse: "Koktail Divin", odds: 1.45, conf: 78, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Grade 1 Manifesto Novices’ Chase winner at Aintree last season – the strongest piece of form in the race by some way.</li>
+                  <li>Official rating and Timeform figures put him clear of Be Aware and Leave Of Absence.</li>
+                  <li>3-runner race → no meaningful each-way terms. This is a win-only selection.</li>
+                  <li>Main risk is whether he is fully wound up after a break, but the class edge is large enough to take.</li>
+                </ul>` },
+            { bot: "HotTrainer", horse: "Koktail Divin", odds: 1.45, conf: 74, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Henry de Bromhead’s runners often come to hand quickly and he has a good record with horses returning from a break.</li>
+                  <li>The horse’s best form is at this sort of trip on good or good-to-soft ground – today’s conditions match.</li>
+                  <li>Jordan Gainford keeps the ride. The partnership already has a Grade 1 win together.</li>
+                  <li>In a three-runner race the only realistic danger is a below-par effort from the favourite.</li>
+                </ul>` },
+            { bot: "PaceProphet", horse: "Koktail Divin", odds: 1.45, conf: 71, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Likely to race prominently or dictate. The other two have shown more of a hold-up style.</li>
+                  <li>At 2m5½f on good ground the race should not become a pure stamina test, which plays to his strengths.</li>
+                  <li>No strong pace angle against him – he can control the tempo if needed.</li>
+                </ul>` },
+            { bot: "BloodlineBetty", horse: "Koktail Divin", odds: 1.45, conf: 69, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Progressive profile and already proven at the highest level over fences.</li>
+                  <li>Pedigree suggests he will continue to improve as a second-season chaser.</li>
+                  <li>The opposition simply does not have the same level of form in the book.</li>
+                </ul>` },
+            { bot: "ValueHunter", horse: "Koktail Divin", odds: 1.45, conf: 66, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Short price is justified by the form gap. In a 3-runner race there is no alternative that offers value each-way.</li>
+                  <li>Be Aware would need the favourite to underperform significantly to win – the odds do not compensate enough for that scenario.</li>
+                </ul>` },
+            { bot: "DevilAdvocate", horse: "Be Aware", odds: 4.5, conf: 38, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Only realistic alternative if Koktail Divin is flat after a break.</li>
+                  <li>Has solid Grade 1 novice form and the trip should suit.</li>
+                  <li>Still a clear second-best on ratings – this is a contingency tip rather than a strong fancy.</li>
+                </ul>` }
+          ]
+        },
+        {
+          time: "15:00", name: "Betfair Chase (Grade 1)", dist: "3m1½f", going: "Good (G/S)", runners: 7,
+          tips: [
+            { bot: "FormFox", horse: "Grey Dawning", odds: 2.1, conf: 72, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Won this race in 2025 and finished second in 2024 – outstanding course record at Haydock over this trip.</li>
+                  <li>Added the Grade 1 Melling Chase at Aintree in April. The form has substance.</li>
+                  <li>Dan Skelton’s horses often run well fresh; this yard has a good record in the Betfair Chase.</li>
+                  <li>Harry Skelton keeps the ride. The partnership knows exactly what is required here.</li>
+                  <li>Main question is fitness after a 7-month break, but his record when fresh is solid and the class is there.</li>
+                </ul>` },
+            { bot: "HotTrainer", horse: "Grey Dawning", odds: 2.1, conf: 68, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Skelton yard has a strong record with horses returning from a summer break in big chases.</li>
+                  <li>Grey Dawning’s best performances have come on good or good-to-soft – today’s going is ideal.</li>
+                  <li>He stays 3m+ well and Haydock’s stiff finish plays to his strengths.</li>
+                  <li>The Irish raiders have questions (Affordale Fury’s long absence, others stepping up in class).</li>
+                </ul>` },
+            { bot: "PaceProphet", horse: "Grey Dawning", odds: 2.1, conf: 65, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Can race prominently without being used up. That is often an advantage in the Betfair Chase.</li>
+                  <li>No confirmed strong front-runner in the field, so he should be able to obtain a comfortable position.</li>
+                  <li>Stamina is proven; a true-run race at 3m1½f will not catch him out.</li>
+                </ul>` },
+            { bot: "ValueHunter", horse: "Affordale Fury", odds: 5.5, conf: 49, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Grade 1 Savills Chase winner at Leopardstown. That form is high-class.</li>
+                  <li>At 5.5 he offers more value than the favourite if Grey Dawning is ring-rusty.</li>
+                  <li>7 runners → E/W terms are only 1/4 for 2 places at most, so the price needs to be higher for a true E/W play. Win selection preferred.</li>
+                  <li>Main concern is the long absence since the Irish Gold Cup (where he was lame). Needs to show he is over that.</li>
+                </ul>` },
+            { bot: "DevilAdvocate", horse: "Affordale Fury", odds: 5.5, conf: 47, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>The main danger on pure form. His best rating is close to Grey Dawning’s.</li>
+                  <li>Noel Meade’s big-race runners are usually well prepared. Sam Ewing is a positive booking.</li>
+                  <li>If the favourite is not fully tuned, this is the one most likely to take advantage.</li>
+                </ul>` },
+            { bot: "BloodlineBetty", horse: "Jagwar", odds: 9.0, conf: 42, type: "ew",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Progressive profile and solid Festival form (placed in the Ultima).</li>
+                  <li>7 runners – at 9.0 the place part starts to have value even with 1/4 terms.</li>
+                  <li>Oliver Greenall & Josh Guerriero have their horses in good form. Harry Cobden is an excellent booking.</li>
+                  <li>Not the most likely winner, but a realistic each-way alternative in a Grade 1.</li>
+                </ul>` }
+          ]
+        },
+        {
+          time: "15:35", name: "Betfair Backs Opinions Handicap Chase (Class 2)", dist: "3m1½f", going: "Good (G/S)", runners: 6,
+          tips: [
+            { bot: "FormFox", horse: "Dexperts Opinion", odds: 3.75, conf: 58, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Consistent sequence (07-1212). Has already won at this sort of level.</li>
+                  <li>Mickey Bowen’s horses are in good form and he has a solid record with chasers at this trip.</li>
+                  <li>Official mark still looks workable on the best of his form.</li>
+                  <li>6 runners → E/W only really attractive above ~6.5–7.0. At 3.75 this is a win selection.</li>
+                </ul>` },
+            { bot: "HotTrainer", horse: "Dexperts Opinion", odds: 3.75, conf: 55, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Yard going well. The horse has been progressive over fences and the booking (Sean Bowen) is a plus.</li>
+                  <li>Handles good and good-to-soft. Today’s going is fine.</li>
+                  <li>Stamina for 3m+ is proven. The stiff Haydock finish will not be a problem.</li>
+                </ul>` },
+            { bot: "ValueHunter", horse: "Saladins Son", odds: 7.0, conf: 48, type: "ew",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>6 runners (typically 1/4 odds, 2 places). At 7.0 the place odds become acceptable.</li>
+                  <li>Has winning form and remains competitive off his current mark.</li>
+                  <li>Anthony Honeyball’s runners are usually well prepared for these races.</li>
+                </ul>` },
+            { bot: "PaceProphet", horse: "Jaccours", odds: 6.5, conf: 46, type: "ew",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Race shape could suit a patient ride. Several of the others like to race more prominently.</li>
+                  <li>Price is in the zone for each-way under 1/4 terms.</li>
+                </ul>` },
+            { bot: "DevilAdvocate", horse: "Caughtinyourtrance", odds: 8.0, conf: 42, type: "ew",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Could improve for the step back up in trip. Has shown enough to suggest he can get involved.</li>
+                  <li>At 8.0 the each-way terms work. Worth a small E/W interest.</li>
+                </ul>` },
+            { bot: "BloodlineBetty", horse: "Dexperts Opinion", odds: 3.75, conf: 53, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Most solid profile in the race on recent form and consistency.</li>
+                  <li>Connections are in form and the horse has already proven himself at this level.</li>
+                </ul>` }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Ascot",
+      open: false,
+      races: [
+        {
+          time: "12:20", name: "Shared Ownership Weekend Novices' Hurdle (Class 2)", dist: "2m5½f", going: "Good to Firm", runners: 6,
+          tips: [
+            { bot: "FormFox", horse: "The Walk", odds: 1.8, conf: 76, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Took the eye on hurdles debut at Ffos Las – travelled strongly and won with authority.</li>
+                  <li>Bred to stay this longer trip (family has stamina). The step up looks a positive.</li>
+                  <li>Joe Tizzard’s yard is in outstanding form (multiple winners in the last few days).</li>
+                  <li>Dylan Johnston keeps the ride. The partnership already has a winner together.</li>
+                  <li>Good-to-firm ground is fine – he has shown enough speed to handle a sound surface.</li>
+                </ul>` },
+            { bot: "HotTrainer", horse: "The Walk", odds: 1.8, conf: 72, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Tizzard stable is flying. Horses from this yard are currently running to (or above) their best.</li>
+                  <li>The Walk looks a progressive type and today’s conditions should suit.</li>
+                  <li>Main danger is Vedivici (point recruit) but The Walk has the benefit of a recent run under Rules.</li>
+                </ul>` },
+            { bot: "PaceProphet", horse: "The Walk", odds: 1.8, conf: 70, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Should travel strongly in the lead or just off it. That style worked well on debut.</li>
+                  <li>At 2m5½f on good-to-firm the race is unlikely to become a pure slog – his speed is an asset.</li>
+                </ul>` },
+            { bot: "BloodlineBetty", horse: "The Walk", odds: 1.8, conf: 68, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Strong pedigree for staying hurdles and already looks a useful prospect.</li>
+                  <li>Debut win was impressive. Improvement is expected.</li>
+                </ul>` },
+            { bot: "ValueHunter", horse: "Vedivici", odds: 7.0, conf: 44, type: "ew",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Point-to-point recruit from the Ben Pauling yard. These types often improve significantly for the switch to Rules.</li>
+                  <li>6 runners → 1/4 odds, 2 places. At 7.0 the place part has value against a short-priced favourite.</li>
+                  <li>Ben Jones is a solid booking. The yard knows how to ready a newcomer.</li>
+                </ul>` },
+            { bot: "DevilAdvocate", horse: "Katarcice", odds: 6.5, conf: 41, type: "ew",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Has form in the book and the trip should suit. Fergal O’Brien’s runners are usually reliable.</li>
+                  <li>Price is acceptable for each-way under 1/4 terms.</li>
+                </ul>` }
+          ]
+        },
+        {
+          time: "15:18", name: "Vietti Barolo Hurst Park Handicap Chase (Premier Handicap)", dist: "2m½f", going: "Good to Firm", runners: 7,
+          tips: [
+            { bot: "FormFox", horse: "Vanderpoel", odds: 2.5, conf: 67, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Won over course and distance three weeks ago – that form is rock solid.</li>
+                  <li>Continues to improve as a second-season chaser. The handicapper has not over-reacted.</li>
+                  <li>Ben Pauling / Ben Jones combination is in good form. The horse clearly likes Ascot.</li>
+                  <li>Good-to-firm ground is ideal for him. He has shown a turn of foot on a sound surface.</li>
+                  <li>Short price, so this is a win-only selection. The main risks are a bounce after a recent win or an improver in the field.</li>
+                </ul>` },
+            { bot: "HotTrainer", horse: "Vanderpoel", odds: 2.5, conf: 63, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Pauling’s horses are running well and he has a good record with chasers at Ascot.</li>
+                  <li>Vanderpoel’s recent C&D win gives him a clear fitness and course edge.</li>
+                  <li>The trip (2m½f) is his optimum. He does not need to stay further.</li>
+                </ul>` },
+            { bot: "PaceProphet", horse: "Vanderpoel", odds: 2.5, conf: 61, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Can race prominently and still have something left at the finish – that is a strong combination at Ascot.</li>
+                  <li>No reason to think the race will be run to suit a hold-up horse exclusively.</li>
+                </ul>` },
+            { bot: "ValueHunter", horse: "Sans Bruit", odds: 7.5, conf: 46, type: "ew",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Has high-class Aintree form (including Red Rum wins). That ability is still there.</li>
+                  <li>7 runners → 1/4 odds, 2 places. At 7.5 the place part has real value.</li>
+                  <li>Paul Nicholls’ runners in these races are usually prepared. Jay Tidball takes a useful 3 lb off.</li>
+                </ul>` },
+            { bot: "DevilAdvocate", horse: "Ryan's Rocket", odds: 6.5, conf: 48, type: "ew",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Capable when fresh and has already won a big Aintree handicap (Red Rum).</li>
+                  <li>Fergal O’Brien’s horses often come on for a run, but he can also ready one first time out.</li>
+                  <li>Price is acceptable for each-way.</li>
+                </ul>` },
+            { bot: "BloodlineBetty", horse: "Vanderpoel", odds: 2.5, conf: 59, type: "win",
+              reason: `<strong>Why this horse:</strong>
+                <ul>
+                  <li>Course-and-distance winner and still progressive. The most reliable profile in the race.</li>
+                  <li>Connections are in form and the horse clearly thrives at Ascot.</li>
+                </ul>` }
+          ]
+        }
+      ]
+    }
+  ]
+};
+
+// Stars = exact number of bots that picked the horse
+DATA.meetings.forEach(m => {
+  m.races.forEach(r => {
+    const counts = {};
+    (r.tips || []).forEach(t => { counts[t.horse] = (counts[t.horse] || 0) + 1; });
+    (r.tips || []).forEach(t => { t.stars = counts[t.horse] || 1; });
+  });
+});
+
+let currentTab = "today";
+
+function confClass(c) {
+  if (c >= 60) return "conf-high";
+  if (c >= 45) return "conf-mid";
+  return "conf-low";
+}
+
+function renderStars(n) {
+  if (!n || n < 2) return "";
+  return "★".repeat(Math.min(n, 6));
+}
+
+function renderMeetingList(meetings) {
+  let html = "";
+  meetings.forEach((m, mi) => {
+    html += `<div class="meeting ${m.open ? "open" : ""}">
+      <div class="meeting-header" onclick="toggleMeeting(${mi})">
+        <span>${m.name}</span>
+        <span class="chevron">▶</span>
+      </div>
+      <div class="meeting-body">`;
+    m.races.forEach(race => {
+      html += `<div class="race">
+        <div class="race-header">
+          <span class="race-time">${race.time}</span>
+          <span class="race-name">${race.name}</span>
+          <span class="race-meta">${race.dist} · ${race.going} · ${race.runners} runners</span>
+        </div>
+        <div class="col-headers">
+          <div>Bot</div><div>Horse</div><div style="text-align:center">Stars</div><div style="text-align:right">Odds</div><div style="text-align:center">Conf</div>
+        </div>`;
+      (race.tips || []).forEach(t => {
+        const bot = BOTS[t.bot] || { name: t.bot, colour: "#64748b" };
+        html += `<div class="tip" onclick="toggleReason(this)">
+          <span class="bot-badge" style="background:${bot.colour}">${bot.name}</span>
+          <span class="horse-name">${t.horse}${t.type === "ew" ? '<span class="ew-flag">E/W</span>' : ""}</span>
+          <span class="stars">${renderStars(t.stars)}</span>
+          <span class="odds">${Number(t.odds).toFixed(2)}</span>
+          <span class="confidence ${confClass(t.conf)}">${t.conf}%</span>
+          <div class="reason-panel">${t.reason}</div>
+        </div>`;
+      });
+      html += `</div>`;
+    });
+    html += `</div></div>`;
+  });
+  return html;
+}
+
+function toggleMeeting(mi) {
+  DATA.meetings[mi].open = !DATA.meetings[mi].open;
+  render();
+}
+
+function toggleReason(el) { el.classList.toggle("open"); }
+
+function renderBigFestivals() {
+  return `
+    <div class="section-title">Major Festivals & Meetings of the Year</div>
+    <p style="color:#94a3b8;font-size:0.9rem;margin-bottom:1rem">These are the huge meetings the bots will focus on when the cards become available. Not ordinary daily graded races.</p>
+
+    <div class="festival-card">
+      <h3>Cheltenham Festival</h3>
+      <div class="when">March · 4 days · Prestbury Park</div>
+      <p>Champion Hurdle, Queen Mother Champion Chase, Stayers’ Hurdle, Cheltenham Gold Cup, Ryanair, Arkle, Supreme, Ballymore, Albert Bartlett, County Hurdle, Coral Cup, Grand Annual, and many more. The biggest week of the jumps season.</p>
+    </div>
+
+    <div class="festival-card">
+      <h3>Aintree Grand National Meeting</h3>
+      <div class="when">April · 3 days · Aintree</div>
+      <p>Randox Grand National, Mersey Novices’, Mildmay, Aintree Hurdle, Maghull Novices’ Chase, Topham, Foxhunters, and supporting graded races.</p>
+    </div>
+
+    <div class="festival-card">
+      <h3>Punchestown Festival</h3>
+      <div class="when">Late April / early May · 5 days · Punchestown</div>
+      <p>Irish equivalent of Cheltenham. Champion four-year-old, Champion Chase, Punchestown Gold Cup, Champion Stayers, and a host of Grade 1s.</p>
+    </div>
+
+    <div class="festival-card">
+      <h3>Royal Ascot</h3>
+      <div class="when">June · 5 days · Ascot</div>
+      <p>Queen Anne, Prince of Wales’s, Ascot Gold Cup, Diamond Jubilee, Commonwealth Cup, Coronation Stakes, St James’s Palace, and the full supporting card.</p>
+    </div>
+
+    <div class="festival-card">
+      <h3>Glorious Goodwood</h3>
+      <div class="when">Late July / early August · 5 days · Goodwood</div>
+      <p>Sussex Stakes, Goodwood Cup, Nassau, Lennox, Richmond, and the rest of the Qatar Goodwood Festival.</p>
+    </div>
+
+    <div class="festival-card">
+      <h3>York Ebor Festival</h3>
+      <div class="when">August · 4 days · York</div>
+      <p>International, Yorkshire Oaks, Nunthorpe, Ebor Handicap, Lonsdale Cup, and supporting Group races.</p>
+    </div>
+
+    <div class="festival-card">
+      <h3>Irish Champions Weekend</h3>
+      <div class="when">September · Leopardstown & the Curragh</div>
+      <p>Irish Champion Stakes, Matron, Flying Five, Moyglare, National Stakes, and more.</p>
+    </div>
+
+    <div class="festival-card">
+      <h3>Newmarket Autumn / Cambridgeshire Meeting</h3>
+      <div class="when">September / October · Newmarket</div>
+      <p>Cambridgeshire, Cesarewitch, Sun Chariot, Fillies’ Mile, Dewhurst, Middle Park, Cheveley Park.</p>
+    </div>
+
+    <div class="festival-card">
+      <h3>British Champions Day</h3>
+      <div class="when">October · Ascot</div>
+      <p>Champion Stakes, Queen Elizabeth II Stakes, Champions Sprint, Fillies & Mares, Long Distance Cup.</p>
+    </div>
+
+    <div class="festival-card">
+      <h3>Down Royal & other key winter meetings</h3>
+      <div class="when">November onwards</div>
+      <p>Betfair Chase (today), King George VI Chase (Kempton, Boxing Day), Irish Christmas meetings, Savills Chase, Dublin Racing Festival (Leopardstown), and the road to Cheltenham.</p>
+    </div>
+  `;
+}
+
+function renderDoubles() {
+  return `
+    <div class="section-title">Suggested Doubles & Accas</div>
+    <div class="acca-card">
+      <h3>Double – Strong favourites</h3>
+      <p>Koktail Divin (Haydock 12:05) + Grey Dawning (Haydock 15:00)</p>
+      <p style="color:#94a3b8;font-size:0.85rem;margin-top:0.3rem">Multiple bots agree. Combined odds around 3.0</p>
+    </div>
+    <div class="acca-card">
+      <h3>Double – Value each-way</h3>
+      <p>Jagwar (Haydock 15:00 E/W) + Sans Bruit (Ascot 15:18 E/W)</p>
+      <p style="color:#94a3b8;font-size:0.85rem;margin-top:0.3rem">Two higher-priced selections where the E/W terms make sense</p>
+    </div>
+    <div class="acca-card">
+      <h3>Treble – Cautious</h3>
+      <p>The Walk (Ascot 12:20) + Vanderpoel (Ascot 15:18) + Grey Dawning (Haydock 15:00)</p>
+      <p style="color:#94a3b8;font-size:0.85rem;margin-top:0.3rem">Three short-priced selections with strong bot agreement</p>
+    </div>
+    <p style="color:#94a3b8;font-size:0.85rem;margin-top:1rem">Illustrative only. Always check current odds and each-way terms.</p>
+  `;
+}
+
+function renderLeaderboard() {
+  return `
+    <div class="section-title">Bot Leaderboard</div>
+    <table class="lb-table">
+      <thead><tr><th>Bot</th><th>Tips</th><th>Win %</th><th>ROI</th><th>Avg Odds</th><th>Style</th></tr></thead>
+      <tbody>
+        <tr><td><span class="bot-badge" style="background:#3b82f6">FormFox</span></td><td>0</td><td>—</td><td>—</td><td>—</td><td>Developing</td></tr>
+        <tr><td><span class="bot-badge" style="background:#ef4444">HotTrainer</span></td><td>0</td><td>—</td><td>—</td><td>—</td><td>Developing</td></tr>
+        <tr><td><span class="bot-badge" style="background:#f97316">PaceProphet</span></td><td>0</td><td>—</td><td>—</td><td>—</td><td>Developing</td></tr>
+        <tr><td><span class="bot-badge" style="background:#22c55e">ValueHunter</span></td><td>0</td><td>—</td><td>—</td><td>—</td><td>Developing</td></tr>
+        <tr><td><span class="bot-badge" style="background:#a855f7">DevilAdvocate</span></td><td>0</td><td>—</td><td>—</td><td>—</td><td>Developing</td></tr>
+        <tr><td><span class="bot-badge" style="background:#ec4899">BloodlineBetty</span></td><td>0</td><td>—</td><td>—</td><td>—</td><td>Developing</td></tr>
+      </tbody>
+    </table>
+    <p style="color:#94a3b8;font-size:0.85rem;margin-top:1rem">Results will be filled in after racing. Each bot’s style will emerge from what actually works over time.</p>
+  `;
+}
+
+function renderTomorrow() {
+  return `<p style="color:#94a3b8;text-align:center;padding:2.5rem">Tomorrow’s full cards will appear here once generated.<br>Usually available the evening before race day.</p>`;
+}
+
+function render() {
+  const el = document.getElementById("content");
+  if (currentTab === "today") el.innerHTML = renderMeetingList(DATA.meetings);
+  else if (currentTab === "tomorrow") el.innerHTML = renderTomorrow();
+  else if (currentTab === "big") el.innerHTML = renderBigFestivals();
+  else if (currentTab === "doubles") el.innerHTML = renderDoubles();
+  else if (currentTab === "leaderboard") el.innerHTML = renderLeaderboard();
+}
+
+document.getElementById("main-tabs").addEventListener("click", e => {
+  const btn = e.target.closest(".tab");
+  if (!btn) return;
+  document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+  btn.classList.add("active");
+  currentTab = btn.dataset.tab;
+  render();
+});
+
+render();
+</script>
 </body>
 </html>
