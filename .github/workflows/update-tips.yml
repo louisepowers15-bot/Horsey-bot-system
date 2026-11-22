@@ -2,9 +2,8 @@ name: Daily Racecards & Tips Update
 
 on:
   schedule:
-    # Runs every day at 07:30 UTC
     - cron: '30 7 * * *'
-  workflow_dispatch: # Allows you to click "Run workflow" manually
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -25,10 +24,12 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Run scraper and tip generator
+      - name: Scrape Today and Tomorrow & Generate Tips
         run: |
-          python scrape_racecards.py
-          python generate_tips.py
+          python scrape_racecards.py --date today
+          python generate_tips.py --date today
+          python scrape_racecards.py --date tomorrow
+          python generate_tips.py --date tomorrow
 
       - name: Commit and push updated JSON files
         run: |
@@ -36,4 +37,5 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add *.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update racecards and tips" && git push)
+
 
