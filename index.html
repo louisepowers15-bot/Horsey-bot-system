@@ -105,6 +105,9 @@
     .card h3 { font-size: 0.95rem; color: #38bdf8; margin-bottom: 0.35rem; }
     .card p { font-size: 0.9rem; color: #cbd5e1; }
     .hot-pick { border-color: #38bdf8; }
+    .chat-line { display: flex; gap: 0.6rem; margin-bottom: 0.7rem; align-items: flex-start; }
+    .chat-bubble { background: #1e293b; border: 1px solid #334155; border-radius: 0.75rem; padding: 0.55rem 0.8rem; font-size: 0.9rem; color: #cbd5e1; flex: 1; }
+    .chat-bubble strong { color: #e2e8f0; }
     .footer { text-align: center; padding: 2rem 0; color: var(--muted); font-size: 0.8rem; }
     @media (max-width: 640px) {
       .col-headers, .tip { grid-template-columns: 100px 1fr 55px 50px 48px; }
@@ -129,6 +132,7 @@
       <button class="tab" data-tab="hot">🔥 Hot Pick</button>
       <button class="tab" data-tab="big">🏆 Big Festivals</button>
       <button class="tab" data-tab="doubles">🎲 Doubles & Accas</button>
+      <button class="tab" data-tab="chat">💬 Bot Chat</button>
       <button class="tab" data-tab="leaderboard">🏅 Leaderboard</button>
     </div>
 
@@ -349,9 +353,27 @@ function renderBigFestivals() {
       '<p style="color:#94a3b8;font-size:0.85rem;margin-bottom:0.3rem">' + f[1] + '</p><p>' + f[2] + '</p></div>').join("");
 }
 
+function renderChat() {
+  const data = todayData;
+  const lines = (data && data.chat) || [];
+  if (!lines.length) {
+    return '<div class="section-title">Bot Chat Room</div>' +
+      '<p style="color:#94a3b8;text-align:center;padding:1.5rem">No chat generated yet for today. Re-run tip generation after uploading the new generate_tips.py.</p>';
+  }
+  let html = '<div class="section-title">Bot Chat Room</div>' +
+    '<p style="color:#94a3b8;font-size:0.88rem;margin-bottom:1rem">The bots discuss the card, challenge each other, and settle on shared doubles / longer multiples. They stay distinct but can align where the data is strong.</p>';
+  lines.forEach(line => {
+    const bot = BOTS[line.bot] || { name: line.bot, colour: "#64748b" };
+    html += '<div class="chat-line">' +
+      '<span class="bot-badge" style="background:' + bot.colour + '">' + bot.name + '</span>' +
+      '<div class="chat-bubble">' + (line.text || "") + '</div></div>';
+  });
+  return html;
+}
+
 function renderLeaderboard() {
   return '<div class="section-title">Bot Leaderboard</div>' +
-    '<p style="color:#94a3b8;text-align:center;padding:1.5rem">Results tracking will appear here once daily outcomes are recorded.</p>';
+    '<p style="color:#94a3b8;text-align:center;padding:1.5rem">Results tracking will appear here once daily outcomes are recorded. Over time each bot\'s natural style (short / E/W / longshot mix) will show up from real results — nothing is forced up front.</p>';
 }
 
 function renderContent() {
@@ -370,6 +392,8 @@ function renderContent() {
     el.innerHTML = renderBigFestivals();
   } else if (currentTab === "doubles") {
     el.innerHTML = renderDoubles();
+  } else if (currentTab === "chat") {
+    el.innerHTML = renderChat();
   } else if (currentTab === "leaderboard") {
     el.innerHTML = renderLeaderboard();
   }
