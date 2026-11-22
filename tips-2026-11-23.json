@@ -14,58 +14,58 @@
       "name": "Sunday At The Races With Greendale EBF Junior 'National Hunt' Hurdle (GBB Race) (Class 4)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 59,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 66,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Longer-term profile and breeding context factored in. Confidence 66%.",
           "stars": 4
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 54,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Looking past the most obvious market horse where the data allows. Confidence 54%.",
           "stars": 4
         },
         {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 45,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 59,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Reading leans on the form book. Confidence 59%.",
           "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 67,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Yard/connections angle is weighted in this view. Confidence 67%.",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Persiana",
+          "odds": 2.38,
+          "conf": 54,
+          "type": "win",
+          "reason": "Form figures: 548662. Trained by Mme M Scandella-Lacaille. Jockey: A Orani. Short enough (2.38) to treat as a win selection if the profile holds. How the race may unfold is part of the assessment. Confidence 54%.",
+          "stars": 1
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Lovatree Paris",
+          "odds": 2.5,
+          "conf": 45,
+          "type": "win",
+          "reason": "Form figures: 404484. Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by Mme S Gavilan. Jockey: T Blanchouin. Short enough (2.50) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 45%.",
+          "stars": 1
         }
       ]
     },
@@ -75,58 +75,58 @@
       "name": "Elf Exeter Leukaemia Fund Mares' Novices' Hurdle (GBB Race) (Class 4)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 64,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 66,
           "type": "ew",
-          "reason": "Each-way value at the price",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 66%.",
           "stars": 4
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 61,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 57,
           "type": "ew",
-          "reason": "Each-way value at the price",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Looking past the most obvious market horse where the data allows. Confidence 57%.",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 59,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Reading leans on the form book. Confidence 59%.",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 54,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 54%.",
           "stars": 4
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 54,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Persiana",
+          "odds": 2.38,
+          "conf": 50,
+          "type": "win",
+          "reason": "Form figures: 548662. Trained by Mme M Scandella-Lacaille. Jockey: A Orani. Short enough (2.38) to treat as a win selection if the profile holds. How the race may unfold is part of the assessment. Confidence 50%.",
+          "stars": 1
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 46,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Lovatree Paris",
+          "odds": 2.5,
+          "conf": 51,
+          "type": "win",
+          "reason": "Form figures: 404484. Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by Mme S Gavilan. Jockey: T Blanchouin. Short enough (2.50) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 51%.",
+          "stars": 1
         }
       ]
     },
@@ -136,58 +136,58 @@
       "name": "Chris Down A Lifetime In Racing Novices' Limited Handicap Chase (GBB Race) (Class 3)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 67,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 64,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 61,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 66,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 66%.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 53,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 50,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Looking past the most obvious market horse where the data allows. Confidence 50%.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 61,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 61%.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 66,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 66%.",
+          "stars": 6
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 53,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 54,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. How the race may unfold is part of the assessment. Confidence 54%.",
+          "stars": 6
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 47,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 57,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Price vs chance is the main filter here. Confidence 57%.",
+          "stars": 6
         }
       ]
     },
@@ -197,58 +197,58 @@
       "name": "Happy 70th David Clements Handicap Hurdle (Class 3)",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 69,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 57,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 58,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 58%.",
+          "stars": 5
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 53,
+          "horse": "Persiana",
+          "odds": 2.38,
+          "conf": 50,
+          "type": "win",
+          "reason": "Form figures: 548662. Trained by Mme M Scandella-Lacaille. Jockey: A Orani. Short enough (2.38) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 50%.",
+          "stars": 1
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 61,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 61%.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 54,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 54%.",
+          "stars": 5
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 49,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 51,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 51%.",
+          "stars": 5
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 49,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 51,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Price vs chance is the main filter here. Confidence 51%.",
+          "stars": 5
         }
       ]
     },
@@ -258,58 +258,58 @@
       "name": "Exminster Golf Club Supporting Elf Handicap Chase (GBB Race) (Class 4)",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 69,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 62,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 65,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 65%.",
+          "stars": 5
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 59,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 48,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Looking past the most obvious market horse where the data allows. Confidence 48%.",
+          "stars": 5
         },
         {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 56,
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 68,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 68%.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 59,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Yard/connections angle is weighted in this view. Confidence 59%.",
+          "stars": 5
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 50,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 59,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. How the race may unfold is part of the assessment. Confidence 59%.",
+          "stars": 5
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Persiana",
+          "odds": 2.38,
+          "conf": 49,
+          "type": "win",
+          "reason": "Form figures: 548662. Trained by Mme M Scandella-Lacaille. Jockey: A Orani. Short enough (2.38) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 49%.",
+          "stars": 1
         }
       ]
     },
@@ -319,58 +319,58 @@
       "name": "Exe containers.com 'Four Years Old' Handicap Hurdle (Class 4)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 64,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 60,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 59,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 56,
           "type": "ew",
-          "reason": "Each-way value at the price",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 56%.",
           "stars": 4
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 58,
+          "horse": "Persiana",
+          "odds": 2.38,
+          "conf": 52,
+          "type": "win",
+          "reason": "Form figures: 548662. Trained by Mme M Scandella-Lacaille. Jockey: A Orani. Short enough (2.38) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 52%.",
+          "stars": 2
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 56,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Reading leans on the form book. Confidence 56%.",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 65,
           "type": "ew",
-          "reason": "Each-way value at the price",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 65%.",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 59,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 59%.",
           "stars": 4
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 47,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Persiana",
+          "odds": 2.38,
+          "conf": 53,
+          "type": "win",
+          "reason": "Form figures: 548662. Trained by Mme M Scandella-Lacaille. Jockey: A Orani. Short enough (2.38) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 53%.",
+          "stars": 2
         }
       ]
     },
@@ -380,58 +380,58 @@
       "name": "Exminster Golf Centre Richard Candy Memorial Handicap Hurdle (Class 5)",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 67,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 65,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 60,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 62,
           "type": "ew",
-          "reason": "Each-way value at the price",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 62%.",
           "stars": 4
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 56,
+          "horse": "Lovatree Paris",
+          "odds": 2.5,
+          "conf": 51,
+          "type": "win",
+          "reason": "Form figures: 404484. Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by Mme S Gavilan. Jockey: T Blanchouin. Short enough (2.50) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 51%.",
+          "stars": 1
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 65,
           "type": "ew",
-          "reason": "Each-way value at the price",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 65%.",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 62,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 62%.",
           "stars": 4
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
+          "horse": "Frejulfe",
+          "odds": 7.5,
           "conf": 53,
           "type": "ew",
-          "reason": "Each-way value at the price",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 53%.",
           "stars": 4
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 52,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Persiana",
+          "odds": 2.38,
+          "conf": 50,
+          "type": "win",
+          "reason": "Form figures: 548662. Trained by Mme M Scandella-Lacaille. Jockey: A Orani. Short enough (2.38) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 50%.",
+          "stars": 1
         }
       ]
     },
@@ -441,58 +441,58 @@
       "name": "All-Weather Championship Is Back 'Hands And Heels' Apprentice Handicap (Class 5)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 69,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 65,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 56,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 65,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 56%.",
+          "stars": 5
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 61,
+          "horse": "Persiana",
+          "odds": 2.38,
+          "conf": 49,
+          "type": "win",
+          "reason": "Form figures: 548662. Trained by Mme M Scandella-Lacaille. Jockey: A Orani. Short enough (2.38) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 49%.",
+          "stars": 1
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 57,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 57%.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 59,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Yard/connections angle is weighted in this view. Confidence 59%.",
+          "stars": 5
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
+          "horse": "Frejulfe",
+          "odds": 7.5,
           "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. How the race may unfold is part of the assessment. Confidence 56%.",
+          "stars": 5
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 49,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 47,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Price vs chance is the main filter here. Confidence 47%.",
+          "stars": 5
         }
       ]
     },
@@ -502,58 +502,58 @@
       "name": "AWC Season 14 Has Begun EBF Novice Stakes (GBB/GBBPlus Race) (Div 1) (Class 3)",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 71,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "bot": "BloodlineBetty",
+          "horse": "Persiana",
+          "odds": 2.38,
+          "conf": 52,
+          "type": "win",
+          "reason": "Form figures: 548662. Trained by Mme M Scandella-Lacaille. Jockey: A Orani. Short enough (2.38) to treat as a win selection if the profile holds. Longer-term profile and breeding context factored in. Confidence 52%.",
+          "stars": 1
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 58,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 60,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Looking past the most obvious market horse where the data allows. Confidence 60%.",
+          "stars": 5
         },
         {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 57,
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 62,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 62%.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 68,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 68%.",
+          "stars": 5
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 52,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 54,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 54%.",
+          "stars": 5
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 52,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 53,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Price vs chance is the main filter here. Confidence 53%.",
+          "stars": 5
         }
       ]
     },
@@ -563,58 +563,58 @@
       "name": "AWC Season 14 Has Begun EBF Novice Stakes (GBB/GBBPlus Race) (Div 2) (Class 3)",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 70,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 64,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 60,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 58,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 58%.",
+          "stars": 5
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 60,
+          "horse": "Lovatree Paris",
+          "odds": 2.5,
+          "conf": 50,
+          "type": "win",
+          "reason": "Form figures: 404484. Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by Mme S Gavilan. Jockey: T Blanchouin. Short enough (2.50) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 50%.",
+          "stars": 1
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 68,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 68%.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 68,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Yard/connections angle is weighted in this view. Confidence 68%.",
+          "stars": 5
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 59,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 51,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 51%.",
+          "stars": 5
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
+          "horse": "Frejulfe",
+          "odds": 7.5,
           "conf": 47,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Price vs chance is the main filter here. Confidence 47%.",
+          "stars": 5
         }
       ]
     },
@@ -624,58 +624,58 @@
       "name": "Midnite A Next Generation Betting App Novice Stakes (GBB/GBBPlus Race) (Class 3)",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 68,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
+          "horse": "Frejulfe",
+          "odds": 7.5,
           "conf": 60,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 54,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 60%.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 53,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Looking past the most obvious market horse where the data allows. Confidence 53%.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 60,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Reading leans on the form book. Confidence 60%.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 62,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Yard/connections angle is weighted in this view. Confidence 62%.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Frejulfe",
+          "odds": 7.5,
           "conf": 52,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 52%.",
+          "stars": 6
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 50,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 51,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Price vs chance is the main filter here. Confidence 51%.",
+          "stars": 6
         }
       ]
     },
@@ -685,58 +685,58 @@
       "name": "Midnite It's Actually Pretty Good Handicap (GBBPlus Race) (Class 4)",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 69,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 67,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 60,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
+          "horse": "Frejulfe",
+          "odds": 7.5,
           "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Longer-term profile and breeding context factored in. Confidence 55%.",
+          "stars": 5
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 52,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 54,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Looking past the most obvious market horse where the data allows. Confidence 54%.",
+          "stars": 5
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 60,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 60%.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 60,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 60%.",
+          "stars": 5
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 55,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. How the race may unfold is part of the assessment. Confidence 55%.",
+          "stars": 5
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Persiana",
+          "odds": 2.38,
+          "conf": 48,
+          "type": "win",
+          "reason": "Form figures: 548662. Trained by Mme M Scandella-Lacaille. Jockey: A Orani. Short enough (2.38) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 48%.",
+          "stars": 1
         }
       ]
     },
@@ -746,58 +746,58 @@
       "name": "AWC Finals Day At Newcastle 26th March Fillies' Handicap (Class 5)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 68,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 67,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 62,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 61,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 61%.",
+          "stars": 5
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 61,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 49,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Looking past the most obvious market horse where the data allows. Confidence 49%.",
+          "stars": 5
         },
         {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 55,
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 68,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 68%.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 55,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Yard/connections angle is weighted in this view. Confidence 55%.",
+          "stars": 5
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 51,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 62,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. How the race may unfold is part of the assessment. Confidence 62%.",
+          "stars": 5
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Lovatree Paris",
+          "odds": 2.5,
+          "conf": 52,
+          "type": "win",
+          "reason": "Form figures: 404484. Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by Mme S Gavilan. Jockey: T Blanchouin. Short enough (2.50) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 52%.",
+          "stars": 1
         }
       ]
     },
@@ -807,58 +807,58 @@
       "name": "Make The Move To Midnite Handicap (Class 6)",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 71,
+          "bot": "BloodlineBetty",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 55,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 70,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 55%.",
+          "stars": 5
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 62,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 55,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Looking past the most obvious market horse where the data allows. Confidence 55%.",
+          "stars": 5
         },
         {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 61,
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 57,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Reading leans on the form book. Confidence 57%.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 62,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 62%.",
+          "stars": 5
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 54,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 56,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 56%.",
+          "stars": 5
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
+          "horse": "Lovatree Paris",
+          "odds": 2.5,
           "conf": 47,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "type": "win",
+          "reason": "Form figures: 404484. Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by Mme S Gavilan. Jockey: T Blanchouin. Short enough (2.50) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 47%.",
+          "stars": 1
         }
       ]
     },
@@ -868,58 +868,58 @@
       "name": "Midnite: Built For 2026 Not 2006 Handicap (Class 6)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 68,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 67,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 56,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 53,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 53%.",
+          "stars": 5
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 53,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 60,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Looking past the most obvious market horse where the data allows. Confidence 60%.",
+          "stars": 5
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 67,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 67%.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 58,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 58%.",
+          "stars": 5
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 58,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. How the race may unfold is part of the assessment. Confidence 58%.",
+          "stars": 5
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 49,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Lovatree Paris",
+          "odds": 2.5,
+          "conf": 46,
+          "type": "win",
+          "reason": "Form figures: 404484. Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by Mme S Gavilan. Jockey: T Blanchouin. Short enough (2.50) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 46%.",
+          "stars": 1
         }
       ]
     },
@@ -929,58 +929,58 @@
       "name": "Midnite Ain't Your Grandad's Bookie Handicap (Class 6)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 63,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 65,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 60,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 65%.",
+          "stars": 5
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 58,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 55,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Looking past the most obvious market horse where the data allows. Confidence 55%.",
+          "stars": 5
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 63,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 63%.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 62,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 62%.",
+          "stars": 5
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 50,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. How the race may unfold is part of the assessment. Confidence 50%.",
+          "stars": 5
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 52,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Persiana",
+          "odds": 2.38,
+          "conf": 53,
+          "type": "win",
+          "reason": "Form figures: 548662. Trained by Mme M Scandella-Lacaille. Jockey: A Orani. Short enough (2.38) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 53%.",
+          "stars": 1
         }
       ]
     },
@@ -990,58 +990,58 @@
       "name": "Donohue Marquees Risk Of Thunder Chase",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 67,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 60,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 54,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Longer-term profile and breeding context factored in. Confidence 54%.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 52,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 49,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Looking past the most obvious market horse where the data allows. Confidence 49%.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 61,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 61%.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 62,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 62%.",
+          "stars": 6
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 49,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 60,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. How the race may unfold is part of the assessment. Confidence 60%.",
+          "stars": 6
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 49,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 53,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Price vs chance is the main filter here. Confidence 53%.",
+          "stars": 6
         }
       ]
     },
@@ -1051,58 +1051,58 @@
       "name": "Irish Stallion Farms EBF Maiden Hurdle",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 71,
+          "bot": "BloodlineBetty",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 55,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 64,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 55%.",
           "stars": 4
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 60,
+          "horse": "Persiana",
+          "odds": 2.38,
+          "conf": 51,
+          "type": "win",
+          "reason": "Form figures: 548662. Trained by Mme M Scandella-Lacaille. Jockey: A Orani. Short enough (2.38) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 51%.",
+          "stars": 2
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 59,
           "type": "ew",
-          "reason": "Each-way value at the price",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 59%.",
           "stars": 4
         },
         {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 58,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 61,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Yard/connections angle is weighted in this view. Confidence 61%.",
           "stars": 4
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 58,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 48,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. How the race may unfold is part of the assessment. Confidence 48%.",
           "stars": 4
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 48,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Persiana",
+          "odds": 2.38,
+          "conf": 50,
+          "type": "win",
+          "reason": "Form figures: 548662. Trained by Mme M Scandella-Lacaille. Jockey: A Orani. Short enough (2.38) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 50%.",
+          "stars": 2
         }
       ]
     },
@@ -1112,58 +1112,58 @@
       "name": "Pertemps Network Group Handicap Hurdle (Qualifier)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 67,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "bot": "BloodlineBetty",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 64,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Longer-term profile and breeding context factored in. Confidence 64%.",
+          "stars": 5
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 59,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 62,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Looking past the most obvious market horse where the data allows. Confidence 62%.",
+          "stars": 5
         },
         {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 56,
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 62,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 62%.",
+          "stars": 5
         },
         {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 53,
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 60,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 60%.",
+          "stars": 5
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 52,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 56,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 56%.",
+          "stars": 5
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Lovatree Paris",
+          "odds": 2.5,
+          "conf": 52,
+          "type": "win",
+          "reason": "Form figures: 404484. Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by Mme S Gavilan. Jockey: T Blanchouin. Short enough (2.50) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 52%.",
+          "stars": 1
         }
       ]
     },
@@ -1173,58 +1173,58 @@
       "name": "Colm Quinn BMW Novice Handicap Hurdle",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 68,
+          "bot": "BloodlineBetty",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 56,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 67,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 56%.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 60,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 52,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Looking past the most obvious market horse where the data allows. Confidence 52%.",
+          "stars": 6
         },
         {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
           "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Reading leans on the form book. Confidence 56%.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 57,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Yard/connections angle is weighted in this view. Confidence 57%.",
+          "stars": 6
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 63,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. How the race may unfold is part of the assessment. Confidence 63%.",
+          "stars": 6
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
+          "horse": "Frejulfe",
+          "odds": 7.5,
           "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Price vs chance is the main filter here. Confidence 55%.",
+          "stars": 6
         }
       ]
     },
@@ -1234,58 +1234,58 @@
       "name": "Frontline Security Grabel Mares Hurdle (Listed) (Class 1)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 66,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "bot": "BloodlineBetty",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 52,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Longer-term profile and breeding context factored in. Confidence 52%.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 61,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 59,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Looking past the most obvious market horse where the data allows. Confidence 59%.",
+          "stars": 6
         },
         {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 62,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Reading leans on the form book. Confidence 62%.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
           "conf": 59,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Yard/connections angle is weighted in this view. Confidence 59%.",
+          "stars": 6
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
+          "horse": "Frejulfe",
+          "odds": 7.5,
           "conf": 56,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 56%.",
+          "stars": 6
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 47,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 53,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Price vs chance is the main filter here. Confidence 53%.",
+          "stars": 6
         }
       ]
     },
@@ -1295,58 +1295,58 @@
       "name": "Matchbook Betting Exchange Craddockstown Novice Chase (Grade 2) (Class 1)",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 71,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 63,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 58,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Longer-term profile and breeding context factored in. Confidence 58%.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 55,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 50,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Looking past the most obvious market horse where the data allows. Confidence 50%.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 61,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 61%.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 63,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 63%.",
+          "stars": 6
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 52,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 51,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. How the race may unfold is part of the assessment. Confidence 51%.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 51,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Price vs chance is the main filter here. Confidence 51%.",
+          "stars": 6
         }
       ]
     },
@@ -1356,58 +1356,58 @@
       "name": "John Durkan Memorial Punchestown Chase (Grade 1) (Class 1)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 69,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
+          "bot": "BloodlineBetty",
+          "horse": "Frejulfe",
+          "odds": 7.5,
           "conf": 64,
           "type": "ew",
-          "reason": "Each-way value at the price",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 64%.",
           "stars": 4
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 62,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "horse": "Persiana",
+          "odds": 2.38,
+          "conf": 54,
+          "type": "win",
+          "reason": "Form figures: 548662. Trained by Mme M Scandella-Lacaille. Jockey: A Orani. Short enough (2.38) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 54%.",
+          "stars": 1
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 57,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Reading leans on the form book. Confidence 57%.",
           "stars": 4
         },
         {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
           "conf": 61,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 53,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Yard/connections angle is weighted in this view. Confidence 61%.",
           "stars": 4
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 51,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 55,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. How the race may unfold is part of the assessment. Confidence 55%.",
           "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Lovatree Paris",
+          "odds": 2.5,
+          "conf": 49,
+          "type": "win",
+          "reason": "Form figures: 404484. Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by Mme S Gavilan. Jockey: T Blanchouin. Short enough (2.50) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 49%.",
+          "stars": 1
         }
       ]
     },
@@ -1417,58 +1417,58 @@
       "name": "Keadeen Hotel (Pro/Am) Flat Race",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 71,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 59,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 52,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 52%.",
+          "stars": 5
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 56,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 54,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Looking past the most obvious market horse where the data allows. Confidence 54%.",
+          "stars": 5
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 66,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 66%.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 54,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Yard/connections angle is weighted in this view. Confidence 54%.",
+          "stars": 5
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 61,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. How the race may unfold is part of the assessment. Confidence 61%.",
+          "stars": 5
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 47,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Persiana",
+          "odds": 2.38,
+          "conf": 53,
+          "type": "win",
+          "reason": "Form figures: 548662. Trained by Mme M Scandella-Lacaille. Jockey: A Orani. Short enough (2.38) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 53%.",
+          "stars": 1
         }
       ]
     },
@@ -1478,58 +1478,58 @@
       "name": "Irish Stallion Farms EBF Academy Hurdle",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 66,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 64,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 64,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 59,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Longer-term profile and breeding context factored in. Confidence 59%.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 48,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Looking past the most obvious market horse where the data allows. Confidence 48%.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 57,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 57%.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
           "conf": 61,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 61%.",
+          "stars": 6
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 58,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. How the race may unfold is part of the assessment. Confidence 58%.",
+          "stars": 6
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 47,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 55,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Price vs chance is the main filter here. Confidence 55%.",
+          "stars": 6
         }
       ]
     },
@@ -1539,58 +1539,58 @@
       "name": "Join Racing TV Now With A Free Trial Maiden Hurdle",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 71,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 69,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 59,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 54,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 54%.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 55,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 57,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Looking past the most obvious market horse where the data allows. Confidence 57%.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 67,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 67%.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 67,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 67%.",
+          "stars": 6
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 49,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 55,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 55%.",
+          "stars": 6
         },
         {
           "bot": "ValueHunter",
-          "horse": "Zanobia",
-          "odds": 5.0,
-          "conf": 45,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 48,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 1
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Price vs chance is the main filter here. Confidence 48%.",
+          "stars": 6
         }
       ]
     },
@@ -1600,58 +1600,58 @@
       "name": "Irish Stallion Farms EBF Maiden Hurdle",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 71,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 60,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "bot": "BloodlineBetty",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 63,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Longer-term profile and breeding context factored in. Confidence 63%.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 59,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 47,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Looking past the most obvious market horse where the data allows. Confidence 47%.",
+          "stars": 6
         },
         {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 54,
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 65,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 65%.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 65,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Yard/connections angle is weighted in this view. Confidence 65%.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 53,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. How the race may unfold is part of the assessment. Confidence 53%.",
+          "stars": 6
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 52,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 57,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Price vs chance is the main filter here. Confidence 57%.",
+          "stars": 6
         }
       ]
     },
@@ -1661,58 +1661,58 @@
       "name": "Irish Stallion Farms EBF Mares Beginners Chase",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 67,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 62,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 52,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Longer-term profile and breeding context factored in. Confidence 52%.",
+          "stars": 5
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 61,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 60,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Looking past the most obvious market horse where the data allows. Confidence 60%.",
+          "stars": 5
         },
         {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 52,
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 63,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Reading leans on the form book. Confidence 63%.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 57,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 57%.",
+          "stars": 5
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 50,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 59,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 59%.",
+          "stars": 5
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Lovatree Paris",
+          "odds": 2.5,
+          "conf": 52,
+          "type": "win",
+          "reason": "Form figures: 404484. Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by Mme S Gavilan. Jockey: T Blanchouin. Short enough (2.50) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 52%.",
+          "stars": 1
         }
       ]
     },
@@ -1722,58 +1722,58 @@
       "name": "Kevin McManus Bookmaker Handicap Chase",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 67,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 54,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 60,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Longer-term profile and breeding context factored in. Confidence 60%.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 52,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 49,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Looking past the most obvious market horse where the data allows. Confidence 49%.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 66,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Reading leans on the form book. Confidence 66%.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 67,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Yard/connections angle is weighted in this view. Confidence 67%.",
+          "stars": 6
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 50,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 52,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 52%.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 56,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Price vs chance is the main filter here. Confidence 56%.",
+          "stars": 6
         }
       ]
     },
@@ -1783,58 +1783,58 @@
       "name": "William Hill Challenge Series Irish EBF Beginners Chase",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 67,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 65,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 62,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 61,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 61%.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 57,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Looking past the most obvious market horse where the data allows. Confidence 57%.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
           "conf": 60,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 60%.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 65,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 65%.",
+          "stars": 6
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 52,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 64,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 64%.",
+          "stars": 6
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 48,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 58,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Price vs chance is the main filter here. Confidence 58%.",
+          "stars": 6
         }
       ]
     },
@@ -1844,58 +1844,58 @@
       "name": "Adare Manor Opportunity Handicap Hurdle",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 71,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 65,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 61,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 65,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 61%.",
+          "stars": 5
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 57,
+          "horse": "Persiana",
+          "odds": 2.38,
+          "conf": 52,
+          "type": "win",
+          "reason": "Form figures: 548662. Trained by Mme M Scandella-Lacaille. Jockey: A Orani. Short enough (2.38) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 52%.",
+          "stars": 1
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 54,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 54%.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 62,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Yard/connections angle is weighted in this view. Confidence 62%.",
+          "stars": 5
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 51,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 58,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 58%.",
+          "stars": 5
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 50,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 55,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Price vs chance is the main filter here. Confidence 55%.",
+          "stars": 5
         }
       ]
     },
@@ -1905,58 +1905,58 @@
       "name": "William Hill Challenge Series Handicap Hurdle",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 67,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 55,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 63,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 63%.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 55,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 61,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Looking past the most obvious market horse where the data allows. Confidence 61%.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 68,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 68%.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 68,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Yard/connections angle is weighted in this view. Confidence 68%.",
+          "stars": 6
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
+          "horse": "Frejulfe",
+          "odds": 7.5,
           "conf": 54,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. How the race may unfold is part of the assessment. Confidence 54%.",
+          "stars": 6
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 45,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 52,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Price vs chance is the main filter here. Confidence 52%.",
+          "stars": 6
         }
       ]
     },
@@ -1966,58 +1966,58 @@
       "name": "racingtv.com/freetrial - Last Day Mares' Handicap Hurdle (Class 4)",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 68,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 65,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 54,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Longer-term profile and breeding context factored in. Confidence 54%.",
+          "stars": 5
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 61,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Looking past the most obvious market horse where the data allows. Confidence 61%.",
+          "stars": 5
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 65,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Reading leans on the form book. Confidence 65%.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 54,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Yard/connections angle is weighted in this view. Confidence 54%.",
+          "stars": 5
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
+          "horse": "Frejulfe",
+          "odds": 7.5,
           "conf": 54,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 54%.",
+          "stars": 5
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 51,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Persiana",
+          "odds": 2.38,
+          "conf": 47,
+          "type": "win",
+          "reason": "Form figures: 548662. Trained by Mme M Scandella-Lacaille. Jockey: A Orani. Short enough (2.38) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 47%.",
+          "stars": 1
         }
       ]
     },
@@ -2027,58 +2027,58 @@
       "name": "Royal British Legion Poppy Appeal 2026 Handicap Chase (Class 5)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 69,
+          "bot": "BloodlineBetty",
+          "horse": "Persiana",
+          "odds": 2.38,
+          "conf": 54,
+          "type": "win",
+          "reason": "Form figures: 548662. Trained by Mme M Scandella-Lacaille. Jockey: A Orani. Short enough (2.38) to treat as a win selection if the profile holds. Longer-term profile and breeding context factored in. Confidence 54%.",
+          "stars": 2
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 52,
           "type": "ew",
-          "reason": "Each-way value at the price",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Looking past the most obvious market horse where the data allows. Confidence 52%.",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 64,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Reading leans on the form book. Confidence 64%.",
           "stars": 4
         },
         {
           "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 65,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 62,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 58,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 54,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Yard/connections angle is weighted in this view. Confidence 54%.",
           "stars": 4
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 53,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 54,
           "type": "ew",
-          "reason": "Each-way value at the price",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 54%.",
           "stars": 4
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 48,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Persiana",
+          "odds": 2.38,
+          "conf": 51,
+          "type": "win",
+          "reason": "Form figures: 548662. Trained by Mme M Scandella-Lacaille. Jockey: A Orani. Short enough (2.38) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 51%.",
+          "stars": 2
         }
       ]
     },
@@ -2088,58 +2088,58 @@
       "name": "Get A Free Trial Of Racing TV Now Maiden Hurdle (GBB Race) (Class 4)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 69,
+          "bot": "BloodlineBetty",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 54,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 66,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 54%.",
+          "stars": 5
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 61,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 55,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Looking past the most obvious market horse where the data allows. Confidence 55%.",
+          "stars": 5
         },
         {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 57,
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 60,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 60%.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 67,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 67%.",
+          "stars": 5
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Persiana",
+          "odds": 2.38,
+          "conf": 54,
+          "type": "win",
+          "reason": "Form figures: 548662. Trained by Mme M Scandella-Lacaille. Jockey: A Orani. Short enough (2.38) to treat as a win selection if the profile holds. How the race may unfold is part of the assessment. Confidence 54%.",
+          "stars": 1
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 53,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 51,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Price vs chance is the main filter here. Confidence 51%.",
+          "stars": 5
         }
       ]
     },
@@ -2149,58 +2149,58 @@
       "name": "Jumps Looks Better On Racing TV Mares' Handicap Chase (Class 5)",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 70,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 65,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 65,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 58,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Longer-term profile and breeding context factored in. Confidence 58%.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 52,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 51,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Looking past the most obvious market horse where the data allows. Confidence 51%.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 66,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 66%.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 67,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Yard/connections angle is weighted in this view. Confidence 67%.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 57,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 57%.",
+          "stars": 6
         },
         {
           "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 48,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 53,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Price vs chance is the main filter here. Confidence 53%.",
+          "stars": 6
         }
       ]
     },
@@ -2210,58 +2210,58 @@
       "name": "Get A Free Trial At racingtv.com/freetrial Handicap Hurdle (Class 4)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 71,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 64,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "bot": "BloodlineBetty",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 52,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Longer-term profile and breeding context factored in. Confidence 52%.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 61,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 57,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Looking past the most obvious market horse where the data allows. Confidence 57%.",
+          "stars": 6
         },
         {
-          "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
           "conf": 60,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Reading leans on the form book. Confidence 60%.",
+          "stars": 6
         },
         {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 56,
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 53,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 53%.",
+          "stars": 6
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 48,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 63,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. How the race may unfold is part of the assessment. Confidence 63%.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 55,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Price vs chance is the main filter here. Confidence 55%.",
+          "stars": 6
         }
       ]
     },
@@ -2271,62 +2271,104 @@
       "name": "31 Days Free Racing TV At racingtv.com/freetrial Novices' Handicap Chase (GBB Race) (Class 4)",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 67,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 62,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 63,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Longer-term profile and breeding context factored in. Confidence 63%.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 61,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 59,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. Looking past the most obvious market horse where the data allows. Confidence 59%.",
+          "stars": 6
         },
         {
-          "bot": "ValueHunter",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 55,
+          "bot": "FormFox",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 56,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 56%.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 65,
+          "type": "ew",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 65%.",
+          "stars": 6
         },
         {
           "bot": "PaceProphet",
-          "horse": "Idoloditrexenta",
-          "odds": 9.0,
-          "conf": 50,
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 56,
+          "type": "win",
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. Preferred as a win at around 7.50. How the race may unfold is part of the assessment. Confidence 56%.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Frejulfe",
+          "odds": 7.5,
+          "conf": 56,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 128115. Recent form looks competitive in this company. R Montenegro is a positive in races of this type. Jockey: M Foulon. At about 7.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Price vs chance is the main filter here. Confidence 56%.",
+          "stars": 6
         }
       ]
     }
   ],
-  "generated_at": "2026-11-22T16:14:32.488837Z",
-  "note": "Live scraped UK & Ireland racecards"
+  "chat": [
+    {
+      "bot": "FormFox",
+      "text": "Strongest agreement I\u2019m seeing is Frejulfe (Cork 12:49) \u2014 6 of us onside."
+    },
+    {
+      "bot": "ValueHunter",
+      "text": "Price on that one is about 7.5. Fine as an anchor if we build a double, but I want at least one longer leg."
+    },
+    {
+      "bot": "DevilAdvocate",
+      "text": "I\u2019d rather not just rubber-stamp the favourite cluster. Frejulfe at 7.5 is the one I\u2019d pair for a bit of value."
+    },
+    {
+      "bot": "HotTrainer",
+      "text": "As long as the yard angle isn\u2019t fighting the form, I\u2019m fine with a short-priced leg plus one each-way type."
+    },
+    {
+      "bot": "PaceProphet",
+      "text": "Race shape matters on the big-field handicaps \u2014 don\u2019t load six legs that all need a perfect trip."
+    },
+    {
+      "bot": "BloodlineBetty",
+      "text": "I\u2019m happy to go with the group double if we\u2019re honest about confidence and not stacking six thin opinions."
+    },
+    {
+      "bot": "FormFox",
+      "text": "Proposed winners double: Frejulfe (Punchestown 13:30) + Frejulfe (Exeter 12:37)."
+    },
+    {
+      "bot": "ValueHunter",
+      "text": "Each-way double idea: Frejulfe (Cork 12:49) + Frejulfe (Cork 14:49)."
+    },
+    {
+      "bot": "DevilAdvocate",
+      "text": "If we\u2019re doing a 6-fold for fun, keep stakes tiny: Frejulfe (Cork 12:49) + Frejulfe (Cork 14:49) + Frejulfe (Exeter 13:37) + Frejulfe (Punchestown 13:30) + Frejulfe (Exeter 12:37) + Frejulfe (Cork 15:49)."
+    },
+    {
+      "bot": "HotTrainer",
+      "text": "Agreed \u2014 small stakes on the long accas. Main focus stays the single and double where agreement is highest."
+    }
+  ],
+  "generated_at": "2026-11-22T17:22:41.503390Z",
+  "note": "Free-choice tips; styles emerge from results over time"
 }

@@ -14,58 +14,58 @@
       "name": "Sunday At The Races With Greendale EBF Junior 'National Hunt' Hurdle (GBB Race) (Class 4)",
       "tips": [
         {
-          "bot": "ValueHunter",
-          "horse": "Our Wee Horse",
-          "odds": 2.25,
-          "conf": 53,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Our Wee Horse",
-          "odds": 2.25,
-          "conf": 50,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Our Wee Horse",
-          "odds": 2.25,
-          "conf": 49,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
           "horse": "Our Wee Horse",
           "odds": 2.25,
+          "conf": 40,
+          "type": "win",
+          "reason": "Form figures: 25. Trained by Harry Derham. Jockey: Paul O'Brien. Short enough (2.25) to treat as a win selection if the profile holds. Longer-term profile and breeding context factored in. Confidence 40%.",
+          "stars": 3
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Naturaouse",
+          "odds": 2.62,
           "conf": 47,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by W Greatrex. Jockey: Caoilin Quinn. Preferred as a win at around 2.62. Looking past the most obvious market horse where the data allows. Confidence 47%.",
+          "stars": 3
         },
         {
           "bot": "FormFox",
           "horse": "Our Wee Horse",
           "odds": 2.25,
-          "conf": 46,
+          "conf": 44,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 25. Trained by Harry Derham. Jockey: Paul O'Brien. Short enough (2.25) to treat as a win selection if the profile holds. Reading leans on the form book. Confidence 44%.",
+          "stars": 3
         },
         {
           "bot": "HotTrainer",
           "horse": "Our Wee Horse",
           "odds": 2.25,
+          "conf": 50,
+          "type": "win",
+          "reason": "Form figures: 25. Trained by Harry Derham. Jockey: Paul O'Brien. Short enough (2.25) to treat as a win selection if the profile holds. Yard/connections angle is weighted in this view. Confidence 50%.",
+          "stars": 3
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Naturaouse",
+          "odds": 2.62,
+          "conf": 48,
+          "type": "win",
+          "reason": "Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by W Greatrex. Jockey: Caoilin Quinn. Preferred as a win at around 2.62. How the race may unfold is part of the assessment. Confidence 48%.",
+          "stars": 3
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Naturaouse",
+          "odds": 2.62,
           "conf": 44,
           "type": "win",
-          "reason": "Preferred selection",
-          "stars": 4
+          "reason": "Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by W Greatrex. Jockey: Caoilin Quinn. Preferred as a win at around 2.62. Price vs chance is the main filter here. Confidence 44%.",
+          "stars": 3
         }
       ]
     },
@@ -75,12 +75,48 @@
       "name": "Elf Exeter Leukaemia Fund Mares' Novices' Hurdle (GBB Race) (Class 4)",
       "tips": [
         {
+          "bot": "BloodlineBetty",
+          "horse": "Poet's Muse",
+          "odds": 2.2,
+          "conf": 51,
+          "type": "win",
+          "reason": "Form figures: 02-7PF6. Trained by I Chanin. Jockey: C Gethings. Short enough (2.20) to treat as a win selection if the profile holds. Longer-term profile and breeding context factored in. Confidence 51%.",
+          "stars": 3
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Winding Lake",
+          "odds": 21.0,
+          "conf": 50,
+          "type": "win",
+          "reason": "Form figures: 3P31-24. Recent form looks competitive in this company. H Dickin is a positive in races of this type. Jockey: James Best. Bigger price (21.0) but the combination of form/connections is enough to prefer it for a win interest rather than only the place. Looking past the most obvious market horse where the data allows. Confidence 50%.",
+          "stars": 3
+        },
+        {
           "bot": "FormFox",
           "horse": "Winding Lake",
           "odds": 21.0,
-          "conf": 57,
+          "conf": 50,
           "type": "ew",
-          "reason": "Each-way value at the price",
+          "reason": "Form figures: 3P31-24. Recent form looks competitive in this company. H Dickin is a positive in races of this type. Jockey: James Best. At about 21.0 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 50%.",
+          "stars": 3
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Winding Lake",
+          "odds": 21.0,
+          "conf": 51,
+          "type": "ew",
+          "reason": "Form figures: 3P31-24. Recent form looks competitive in this company. H Dickin is a positive in races of this type. Jockey: James Best. At about 21.0 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 51%.",
+          "stars": 3
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Poet's Muse",
+          "odds": 2.2,
+          "conf": 52,
+          "type": "win",
+          "reason": "Form figures: 02-7PF6. Trained by I Chanin. Jockey: C Gethings. Short enough (2.20) to treat as a win selection if the profile holds. How the race may unfold is part of the assessment. Confidence 52%.",
           "stars": 3
         },
         {
@@ -89,43 +125,7 @@
           "odds": 2.2,
           "conf": 54,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 3
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Winding Lake",
-          "odds": 21.0,
-          "conf": 53,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Winding Lake",
-          "odds": 21.0,
-          "conf": 50,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Poet's Muse",
-          "odds": 2.2,
-          "conf": 47,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 3
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Poet's Muse",
-          "odds": 2.2,
-          "conf": 44,
-          "type": "win",
-          "reason": "Preferred selection",
+          "reason": "Form figures: 02-7PF6. Trained by I Chanin. Jockey: C Gethings. Short enough (2.20) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 54%.",
           "stars": 3
         }
       ]
@@ -136,57 +136,57 @@
       "name": "Chris Down A Lifetime In Racing Novices' Limited Handicap Chase (GBB Race) (Class 3)",
       "tips": [
         {
-          "bot": "HotTrainer",
+          "bot": "BloodlineBetty",
           "horse": "Silver Hill",
           "odds": 3.25,
-          "conf": 63,
+          "conf": 66,
           "type": "win",
-          "reason": "Best option on the card",
+          "reason": "Form figures: 51221-4. Recent form looks competitive in this company. Jamie Snowden is a positive in races of this type. Jockey: G Sheehan. Preferred as a win at around 3.25. Longer-term profile and breeding context factored in. Confidence 66%.",
           "stars": 2
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Rickety Bridge",
           "odds": 7.0,
-          "conf": 61,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Silver Hill",
-          "odds": 3.25,
-          "conf": 61,
+          "conf": 59,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 2
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Rickety Bridge",
-          "odds": 7.0,
-          "conf": 60,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "reason": "Form figures: 04-1113. Recent form looks competitive in this company. P F Nicholls is a positive in races of this type. Jockey: Freddie Gingell. Preferred as a win at around 7.00. Looking past the most obvious market horse where the data allows. Confidence 59%.",
           "stars": 2
         },
         {
           "bot": "FormFox",
-          "horse": "Torrent",
-          "odds": 4.0,
+          "horse": "Rickety Bridge",
+          "odds": 7.0,
           "conf": 67,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "type": "win",
+          "reason": "Form figures: 04-1113. Recent form looks competitive in this company. P F Nicholls is a positive in races of this type. Jockey: Freddie Gingell. Preferred as a win at around 7.00. Reading leans on the form book. Confidence 67%.",
+          "stars": 2
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Silver Hill",
+          "odds": 3.25,
+          "conf": 62,
+          "type": "win",
+          "reason": "Form figures: 51221-4. Recent form looks competitive in this company. Jamie Snowden is a positive in races of this type. Jockey: G Sheehan. Preferred as a win at around 3.25. Yard/connections angle is weighted in this view. Confidence 62%.",
+          "stars": 2
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Champagne Chic",
+          "odds": 3.5,
+          "conf": 62,
+          "type": "win",
+          "reason": "Form figures: 21100-8. Recent form looks competitive in this company. J Scott is a positive in races of this type. Jockey: Lorcan Williams. Preferred as a win at around 3.50. How the race may unfold is part of the assessment. Confidence 62%.",
           "stars": 1
         },
         {
           "bot": "ValueHunter",
-          "horse": "Champagne Chic",
-          "odds": 3.5,
-          "conf": 55,
+          "horse": "Torrent",
+          "odds": 4.0,
+          "conf": 57,
           "type": "win",
-          "reason": "Best option on the card",
+          "reason": "Form figures: 533321. Recent form looks competitive in this company. N J Hawke is a positive in races of this type. Jockey: Charlie Deutsch. Preferred as a win at around 4.00. Price vs chance is the main filter here. Confidence 57%.",
           "stars": 1
         }
       ]
@@ -197,58 +197,58 @@
       "name": "Happy 70th David Clements Handicap Hurdle (Class 3)",
       "tips": [
         {
-          "bot": "FormFox",
+          "bot": "BloodlineBetty",
           "horse": "Handlethekettle",
           "odds": 3.75,
-          "conf": 73,
+          "conf": 69,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Handlethekettle",
-          "odds": 3.75,
-          "conf": 68,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Handlethekettle",
-          "odds": 3.75,
-          "conf": 63,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
+          "reason": "Form figures: 1/311-22. Recent form looks competitive in this company. Jamie Snowden is a positive in races of this type. Jockey: G Sheehan. Preferred as a win at around 3.75. Longer-term profile and breeding context factored in. Confidence 69%.",
+          "stars": 5
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Handlethekettle",
           "odds": 3.75,
-          "conf": 58,
+          "conf": 64,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
+          "reason": "Form figures: 1/311-22. Recent form looks competitive in this company. Jamie Snowden is a positive in races of this type. Jockey: G Sheehan. Preferred as a win at around 3.75. Looking past the most obvious market horse where the data allows. Confidence 64%.",
+          "stars": 5
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Handlethekettle",
+          "odds": 3.75,
+          "conf": 71,
+          "type": "win",
+          "reason": "Form figures: 1/311-22. Recent form looks competitive in this company. Jamie Snowden is a positive in races of this type. Jockey: G Sheehan. Preferred as a win at around 3.75. Reading leans on the form book. Confidence 71%.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Handlethekettle",
+          "odds": 3.75,
+          "conf": 64,
+          "type": "win",
+          "reason": "Form figures: 1/311-22. Recent form looks competitive in this company. Jamie Snowden is a positive in races of this type. Jockey: G Sheehan. Preferred as a win at around 3.75. Yard/connections angle is weighted in this view. Confidence 64%.",
+          "stars": 5
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Handlethekettle",
+          "odds": 3.75,
+          "conf": 56,
+          "type": "win",
+          "reason": "Form figures: 1/311-22. Recent form looks competitive in this company. Jamie Snowden is a positive in races of this type. Jockey: G Sheehan. Preferred as a win at around 3.75. How the race may unfold is part of the assessment. Confidence 56%.",
+          "stars": 5
         },
         {
           "bot": "ValueHunter",
-          "horse": "Handlethekettle",
-          "odds": 3.75,
-          "conf": 57,
+          "horse": "Mwabani",
+          "odds": 3.5,
+          "conf": 56,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Handlethekettle",
-          "odds": 3.75,
-          "conf": 55,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
+          "reason": "Form figures: 222-1. Recent form looks competitive in this company. Mrs J Williams is a positive in races of this type. Jockey: C Gethings. Preferred as a win at around 3.50. Price vs chance is the main filter here. Confidence 56%.",
+          "stars": 1
         }
       ]
     },
@@ -258,58 +258,58 @@
       "name": "Exminster Golf Club Supporting Elf Handicap Chase (GBB Race) (Class 4)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Kingcormac",
-          "odds": 13.0,
-          "conf": 70,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
+          "bot": "BloodlineBetty",
+          "horse": "It's A Breeze",
+          "odds": 15.0,
+          "conf": 54,
+          "type": "win",
+          "reason": "Form figures: 411232. Recent form looks competitive in this company. P F Nicholls is a positive in races of this type. Jockey: Paddy Hanlon. Bigger price (15.0) but the combination of form/connections is enough to prefer it for a win interest rather than only the place. Longer-term profile and breeding context factored in. Confidence 54%.",
+          "stars": 2
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Kingcormac",
           "odds": 13.0,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
+          "conf": 56,
+          "type": "win",
+          "reason": "Form figures: 173114-. Recent form looks competitive in this company. J Tickle is a positive in races of this type. Jockey: Callum Pritchard. Bigger price (13.0) but the combination of form/connections is enough to prefer it for a win interest rather than only the place. Looking past the most obvious market horse where the data allows. Confidence 56%.",
+          "stars": 2
+        },
+        {
+          "bot": "FormFox",
+          "horse": "It's A Breeze",
+          "odds": 15.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "Form figures: 411232. Recent form looks competitive in this company. P F Nicholls is a positive in races of this type. Jockey: Paddy Hanlon. Bigger price (15.0) but the combination of form/connections is enough to prefer it for a win interest rather than only the place. Reading leans on the form book. Confidence 61%.",
+          "stars": 2
         },
         {
           "bot": "HotTrainer",
           "horse": "Kingcormac",
           "odds": 13.0,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
+          "conf": 63,
+          "type": "win",
+          "reason": "Form figures: 173114-. Recent form looks competitive in this company. J Tickle is a positive in races of this type. Jockey: Callum Pritchard. Bigger price (13.0) but the combination of form/connections is enough to prefer it for a win interest rather than only the place. Yard/connections angle is weighted in this view. Confidence 63%.",
+          "stars": 2
         },
         {
-          "bot": "BloodlineBetty",
+          "bot": "PaceProphet",
           "horse": "Sage Green",
           "odds": 3.25,
-          "conf": 58,
+          "conf": 61,
           "type": "win",
-          "reason": "Best option on the card",
+          "reason": "Form figures: 24F33-1. Recent form looks competitive in this company. S Hosie is a positive in races of this type. Jockey: Non Runner. Preferred as a win at around 3.25. How the race may unfold is part of the assessment. Confidence 61%.",
           "stars": 2
         },
         {
           "bot": "ValueHunter",
           "horse": "Sage Green",
           "odds": 3.25,
-          "conf": 56,
+          "conf": 52,
           "type": "win",
-          "reason": "Best option on the card",
+          "reason": "Form figures: 24F33-1. Recent form looks competitive in this company. S Hosie is a positive in races of this type. Jockey: Non Runner. Preferred as a win at around 3.25. Price vs chance is the main filter here. Confidence 52%.",
           "stars": 2
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "It's A Breeze",
-          "odds": 15.0,
-          "conf": 51,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 1
         }
       ]
     },
@@ -319,58 +319,58 @@
       "name": "Exe containers.com 'Four Years Old' Handicap Hurdle (Class 4)",
       "tips": [
         {
+          "bot": "BloodlineBetty",
+          "horse": "Mecene",
+          "odds": 2.5,
+          "conf": 59,
+          "type": "win",
+          "reason": "Form figures: 231-2. Recent form looks competitive in this company. Mrs J Williams is a positive in races of this type. Jockey: Non Runner. Short enough (2.50) to treat as a win selection if the profile holds. Longer-term profile and breeding context factored in. Confidence 59%.",
+          "stars": 5
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Mecene",
+          "odds": 2.5,
+          "conf": 60,
+          "type": "win",
+          "reason": "Form figures: 231-2. Recent form looks competitive in this company. Mrs J Williams is a positive in races of this type. Jockey: Non Runner. Short enough (2.50) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 60%.",
+          "stars": 5
+        },
+        {
           "bot": "FormFox",
-          "horse": "Modern Style",
-          "odds": 6.0,
-          "conf": 62,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
+          "horse": "Mecene",
+          "odds": 2.5,
+          "conf": 61,
+          "type": "win",
+          "reason": "Form figures: 231-2. Recent form looks competitive in this company. Mrs J Williams is a positive in races of this type. Jockey: Non Runner. Short enough (2.50) to treat as a win selection if the profile holds. Reading leans on the form book. Confidence 61%.",
+          "stars": 5
         },
         {
           "bot": "HotTrainer",
           "horse": "Modern Style",
           "odds": 6.0,
-          "conf": 61,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Modern Style",
-          "odds": 6.0,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Mecene",
-          "odds": 2.5,
-          "conf": 55,
+          "conf": 63,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 3
+          "reason": "Form figures: 011-230. Recent form looks competitive in this company. N J Hawke is a positive in races of this type. Jockey: James Best. Preferred as a win at around 6.00. Yard/connections angle is weighted in this view. Confidence 63%.",
+          "stars": 1
         },
         {
           "bot": "PaceProphet",
           "horse": "Mecene",
           "odds": 2.5,
-          "conf": 55,
+          "conf": 58,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 3
+          "reason": "Form figures: 231-2. Recent form looks competitive in this company. Mrs J Williams is a positive in races of this type. Jockey: Non Runner. Short enough (2.50) to treat as a win selection if the profile holds. How the race may unfold is part of the assessment. Confidence 58%.",
+          "stars": 5
         },
         {
           "bot": "ValueHunter",
           "horse": "Mecene",
           "odds": 2.5,
-          "conf": 53,
+          "conf": 59,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 3
+          "reason": "Form figures: 231-2. Recent form looks competitive in this company. Mrs J Williams is a positive in races of this type. Jockey: Non Runner. Short enough (2.50) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 59%.",
+          "stars": 5
         }
       ]
     },
@@ -383,55 +383,55 @@
           "bot": "BloodlineBetty",
           "horse": "Blue In The West",
           "odds": 9.5,
-          "conf": 54,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Blue In The West",
-          "odds": 9.5,
-          "conf": 54,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Blue In The West",
-          "odds": 9.5,
-          "conf": 50,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "conf": 48,
+          "type": "win",
+          "reason": "Form figures: 2P12-37. Recent form looks competitive in this company. B Lund is a positive in races of this type. Jockey: Shane Quinlan. Bigger price (9.5) but the combination of form/connections is enough to prefer it for a win interest rather than only the place. Longer-term profile and breeding context factored in. Confidence 48%.",
+          "stars": 3
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Blue In The West",
-          "odds": 9.5,
-          "conf": 42,
+          "horse": "Locked Down Lad",
+          "odds": 4.33,
+          "conf": 44,
+          "type": "win",
+          "reason": "Form figures: 68P-643. Trained by J Tickle. Jockey: Callum Pritchard. Preferred as a win at around 4.33. Looking past the most obvious market horse where the data allows. Confidence 44%.",
+          "stars": 1
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Romany Brown",
+          "odds": 4.33,
+          "conf": 47,
+          "type": "win",
+          "reason": "Form figures: 9F-4453. Trained by B I Case. Jockey: C Gethings. Preferred as a win at around 4.33. Reading leans on the form book. Confidence 47%.",
+          "stars": 1
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Hillsin",
+          "odds": 17.0,
+          "conf": 46,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 10P-P79. A E Jones is a positive in races of this type. Jockey: James Turner. At about 17.0 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 46%.",
+          "stars": 1
         },
         {
           "bot": "PaceProphet",
           "horse": "Blue In The West",
           "odds": 9.5,
-          "conf": 42,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "conf": 49,
+          "type": "win",
+          "reason": "Form figures: 2P12-37. Recent form looks competitive in this company. B Lund is a positive in races of this type. Jockey: Shane Quinlan. Bigger price (9.5) but the combination of form/connections is enough to prefer it for a win interest rather than only the place. How the race may unfold is part of the assessment. Confidence 49%.",
+          "stars": 3
         },
         {
           "bot": "ValueHunter",
           "horse": "Blue In The West",
           "odds": 9.5,
-          "conf": 42,
+          "conf": 44,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "reason": "Form figures: 2P12-37. Recent form looks competitive in this company. B Lund is a positive in races of this type. Jockey: Shane Quinlan. At about 9.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Price vs chance is the main filter here. Confidence 44%.",
+          "stars": 3
         }
       ]
     },
@@ -441,58 +441,58 @@
       "name": "All-Weather Championship Is Back 'Hands And Heels' Apprentice Handicap (Class 5)",
       "tips": [
         {
-          "bot": "HotTrainer",
+          "bot": "BloodlineBetty",
           "horse": "Mister Mojito",
           "odds": 4.5,
-          "conf": 58,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "conf": 60,
+          "type": "win",
+          "reason": "Form figures: 562131. Recent form looks competitive in this company. T Kent is a positive in races of this type. Jockey: Joe Bradnam. Preferred as a win at around 4.50. Longer-term profile and breeding context factored in. Confidence 60%.",
           "stars": 4
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Mister Mojito",
           "odds": 4.5,
-          "conf": 53,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "conf": 55,
+          "type": "win",
+          "reason": "Form figures: 562131. Recent form looks competitive in this company. T Kent is a positive in races of this type. Jockey: Joe Bradnam. Preferred as a win at around 4.50. Looking past the most obvious market horse where the data allows. Confidence 55%.",
           "stars": 4
         },
         {
-          "bot": "PaceProphet",
+          "bot": "FormFox",
           "horse": "Mister Mojito",
           "odds": 4.5,
-          "conf": 53,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "conf": 63,
+          "type": "win",
+          "reason": "Form figures: 562131. Recent form looks competitive in this company. T Kent is a positive in races of this type. Jockey: Joe Bradnam. Preferred as a win at around 4.50. Reading leans on the form book. Confidence 63%.",
           "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Handle With Care",
+          "odds": 8.0,
+          "conf": 52,
+          "type": "win",
+          "reason": "Form figures: 347136. Recent form looks competitive in this company. M Botti is a positive in races of this type. Jockey: C R Lyons. Preferred as a win at around 8.00. Yard/connections angle is weighted in this view. Confidence 52%.",
+          "stars": 1
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Viking Glory",
+          "odds": 23.0,
+          "conf": 54,
+          "type": "ew",
+          "reason": "Form figures: 317471. Recent form looks competitive in this company. Dr R Newland is a positive in races of this type. Jockey: Lloyd Applegate. At about 23.0 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 54%.",
+          "stars": 1
         },
         {
           "bot": "ValueHunter",
           "horse": "Mister Mojito",
           "odds": 4.5,
-          "conf": 53,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "conf": 47,
+          "type": "win",
+          "reason": "Form figures: 562131. Recent form looks competitive in this company. T Kent is a positive in races of this type. Jockey: Joe Bradnam. Preferred as a win at around 4.50. Price vs chance is the main filter here. Confidence 47%.",
           "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Viking Glory",
-          "odds": 23.0,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Viking Glory",
-          "odds": 23.0,
-          "conf": 54,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
         }
       ]
     },
@@ -502,58 +502,58 @@
       "name": "AWC Season 14 Has Begun EBF Novice Stakes (GBB/GBBPlus Race) (Div 1) (Class 3)",
       "tips": [
         {
-          "bot": "ValueHunter",
-          "horse": "Arkat",
-          "odds": 2.38,
-          "conf": 52,
+          "bot": "BloodlineBetty",
+          "horse": "Medvedev",
+          "odds": 13.0,
+          "conf": 44,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Arkat",
-          "odds": 2.38,
-          "conf": 50,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Arkat",
-          "odds": 2.38,
-          "conf": 49,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Arkat",
-          "odds": 2.38,
-          "conf": 49,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 8. Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by W J Haggas. Jockey: Cieren Fallon. Bigger price (13.0) but the combination of form/connections is enough to prefer it for a win interest rather than only the place. Longer-term profile and breeding context factored in. Confidence 44%.",
+          "stars": 1
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Arkat",
           "odds": 2.38,
-          "conf": 43,
+          "conf": 45,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
+          "reason": "Form figures: 3. Trained by R Varian. Jockey: Callum Rodriguez. Short enough (2.38) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 45%.",
+          "stars": 3
         },
         {
-          "bot": "BloodlineBetty",
+          "bot": "FormFox",
           "horse": "Frankenstyne",
           "odds": 4.33,
-          "conf": 47,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "conf": 43,
+          "type": "win",
+          "reason": "Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by J Channon. Jockey: George Bass. Preferred as a win at around 4.33. Reading leans on the form book. Confidence 43%.",
           "stars": 1
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Arkat",
+          "odds": 2.38,
+          "conf": 50,
+          "type": "win",
+          "reason": "Form figures: 3. Trained by R Varian. Jockey: Callum Rodriguez. Short enough (2.38) to treat as a win selection if the profile holds. Yard/connections angle is weighted in this view. Confidence 50%.",
+          "stars": 3
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Rey De Vega",
+          "odds": 9.5,
+          "conf": 40,
+          "type": "ew",
+          "reason": "Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by G Boughey. Jockey: Billy Loughnane. At about 9.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 40%.",
+          "stars": 1
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Arkat",
+          "odds": 2.38,
+          "conf": 46,
+          "type": "win",
+          "reason": "Form figures: 3. Trained by R Varian. Jockey: Callum Rodriguez. Short enough (2.38) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 46%.",
+          "stars": 3
         }
       ]
     },
@@ -563,58 +563,58 @@
       "name": "AWC Season 14 Has Begun EBF Novice Stakes (GBB/GBBPlus Race) (Div 2) (Class 3)",
       "tips": [
         {
-          "bot": "PaceProphet",
-          "horse": "Sea Fortress",
-          "odds": 2.0,
-          "conf": 51,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Sea Fortress",
-          "odds": 2.0,
-          "conf": 50,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Sea Fortress",
-          "odds": 2.0,
-          "conf": 50,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Sea Fortress",
-          "odds": 2.0,
-          "conf": 46,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Sea Fortress",
-          "odds": 2.0,
+          "horse": "Blue Odyssey",
+          "odds": 11.0,
           "conf": 45,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "type": "ew",
+          "reason": "Form figures: 6. Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by D J Coakley. Jockey: George Bass. At about 11.0 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 45%.",
+          "stars": 1
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Sea Fortress",
           "odds": 2.0,
+          "conf": 51,
+          "type": "win",
+          "reason": "Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by J & T Gosden. Jockey: W Buick. Short enough (2.00) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 51%.",
+          "stars": 3
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Quorum",
+          "odds": 4.5,
+          "conf": 44,
+          "type": "win",
+          "reason": "Form figures: 9. Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by W J Haggas. Jockey: Cieren Fallon. Preferred as a win at around 4.50. Reading leans on the form book. Confidence 44%.",
+          "stars": 2
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Sea Fortress",
+          "odds": 2.0,
+          "conf": 45,
+          "type": "win",
+          "reason": "Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by J & T Gosden. Jockey: W Buick. Short enough (2.00) to treat as a win selection if the profile holds. Yard/connections angle is weighted in this view. Confidence 45%.",
+          "stars": 3
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Quorum",
+          "odds": 4.5,
           "conf": 43,
           "type": "win",
-          "reason": "Preferred selection",
-          "stars": 4
+          "reason": "Form figures: 9. Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by W J Haggas. Jockey: Cieren Fallon. Preferred as a win at around 4.50. How the race may unfold is part of the assessment. Confidence 43%.",
+          "stars": 2
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Sea Fortress",
+          "odds": 2.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by J & T Gosden. Jockey: W Buick. Short enough (2.00) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 56%.",
+          "stars": 3
         }
       ]
     },
@@ -624,58 +624,58 @@
       "name": "Midnite A Next Generation Betting App Novice Stakes (GBB/GBBPlus Race) (Class 3)",
       "tips": [
         {
-          "bot": "ValueHunter",
+          "bot": "BloodlineBetty",
           "horse": "Olympic Charter",
           "odds": 1.67,
-          "conf": 65,
+          "conf": 49,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Olympic Charter",
-          "odds": 1.67,
-          "conf": 61,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Olympic Charter",
-          "odds": 1.67,
-          "conf": 59,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 1. C Appleby is a positive in races of this type. Jockey: W Buick. Short enough (1.67) to treat as a win selection if the profile holds. Longer-term profile and breeding context factored in. Confidence 49%.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Olympic Charter",
           "odds": 1.67,
-          "conf": 57,
+          "conf": 55,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 1. C Appleby is a positive in races of this type. Jockey: W Buick. Short enough (1.67) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 55%.",
+          "stars": 6
         },
         {
           "bot": "FormFox",
           "horse": "Olympic Charter",
           "odds": 1.67,
-          "conf": 57,
+          "conf": 61,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 1. C Appleby is a positive in races of this type. Jockey: W Buick. Short enough (1.67) to treat as a win selection if the profile holds. Reading leans on the form book. Confidence 61%.",
+          "stars": 6
         },
         {
-          "bot": "BloodlineBetty",
+          "bot": "HotTrainer",
           "horse": "Olympic Charter",
           "odds": 1.67,
-          "conf": 53,
+          "conf": 62,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 1. C Appleby is a positive in races of this type. Jockey: W Buick. Short enough (1.67) to treat as a win selection if the profile holds. Yard/connections angle is weighted in this view. Confidence 62%.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Olympic Charter",
+          "odds": 1.67,
+          "conf": 58,
+          "type": "win",
+          "reason": "Form figures: 1. C Appleby is a positive in races of this type. Jockey: W Buick. Short enough (1.67) to treat as a win selection if the profile holds. How the race may unfold is part of the assessment. Confidence 58%.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Olympic Charter",
+          "odds": 1.67,
+          "conf": 66,
+          "type": "win",
+          "reason": "Form figures: 1. C Appleby is a positive in races of this type. Jockey: W Buick. Short enough (1.67) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 66%.",
+          "stars": 6
         }
       ]
     },
@@ -685,58 +685,58 @@
       "name": "Midnite It's Actually Pretty Good Handicap (GBBPlus Race) (Class 4)",
       "tips": [
         {
+          "bot": "BloodlineBetty",
+          "horse": "Politely",
+          "odds": 3.25,
+          "conf": 56,
+          "type": "win",
+          "reason": "Form figures: 115952. Recent form looks competitive in this company. Owen Burrows is a positive in races of this type. Jockey: Callum Rodriguez. Preferred as a win at around 3.25. Longer-term profile and breeding context factored in. Confidence 56%.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Politely",
+          "odds": 3.25,
+          "conf": 60,
+          "type": "win",
+          "reason": "Form figures: 115952. Recent form looks competitive in this company. Owen Burrows is a positive in races of this type. Jockey: Callum Rodriguez. Preferred as a win at around 3.25. Looking past the most obvious market horse where the data allows. Confidence 60%.",
+          "stars": 6
+        },
+        {
           "bot": "FormFox",
           "horse": "Politely",
           "odds": 3.25,
-          "conf": 67,
+          "conf": 64,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 3
+          "reason": "Form figures: 115952. Recent form looks competitive in this company. Owen Burrows is a positive in races of this type. Jockey: Callum Rodriguez. Preferred as a win at around 3.25. Reading leans on the form book. Confidence 64%.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Politely",
+          "odds": 3.25,
+          "conf": 64,
+          "type": "win",
+          "reason": "Form figures: 115952. Recent form looks competitive in this company. Owen Burrows is a positive in races of this type. Jockey: Callum Rodriguez. Preferred as a win at around 3.25. Yard/connections angle is weighted in this view. Confidence 64%.",
+          "stars": 6
         },
         {
           "bot": "PaceProphet",
           "horse": "Politely",
           "odds": 3.25,
-          "conf": 51,
+          "conf": 50,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 3
+          "reason": "Form figures: 115952. Recent form looks competitive in this company. Owen Burrows is a positive in races of this type. Jockey: Callum Rodriguez. Preferred as a win at around 3.25. How the race may unfold is part of the assessment. Confidence 50%.",
+          "stars": 6
         },
         {
           "bot": "ValueHunter",
           "horse": "Politely",
           "odds": 3.25,
-          "conf": 51,
+          "conf": 55,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 3
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Wyld Bill",
-          "odds": 15.0,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Wyld Bill",
-          "odds": 15.0,
-          "conf": 51,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Merci Monsieur",
-          "odds": 3.5,
-          "conf": 51,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 1
+          "reason": "Form figures: 115952. Recent form looks competitive in this company. Owen Burrows is a positive in races of this type. Jockey: Callum Rodriguez. Preferred as a win at around 3.25. Price vs chance is the main filter here. Confidence 55%.",
+          "stars": 6
         }
       ]
     },
@@ -746,58 +746,58 @@
       "name": "AWC Finals Day At Newcastle 26th March Fillies' Handicap (Class 5)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Maria Da Silva",
-          "odds": 2.62,
-          "conf": 69,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
           "horse": "Maria Da Silva",
           "odds": 2.62,
-          "conf": 61,
+          "conf": 66,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Maria Da Silva",
-          "odds": 2.62,
-          "conf": 61,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Maria Da Silva",
-          "odds": 2.62,
-          "conf": 60,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Maria Da Silva",
-          "odds": 2.62,
-          "conf": 60,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
+          "reason": "Form figures: 114451. Recent form looks competitive in this company. A M Balding is a positive in races of this type. Jockey: Oisin Murphy. Preferred as a win at around 2.62. Longer-term profile and breeding context factored in. Confidence 66%.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Maria Da Silva",
           "odds": 2.62,
+          "conf": 55,
+          "type": "win",
+          "reason": "Form figures: 114451. Recent form looks competitive in this company. A M Balding is a positive in races of this type. Jockey: Oisin Murphy. Preferred as a win at around 2.62. Looking past the most obvious market horse where the data allows. Confidence 55%.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Maria Da Silva",
+          "odds": 2.62,
+          "conf": 61,
+          "type": "win",
+          "reason": "Form figures: 114451. Recent form looks competitive in this company. A M Balding is a positive in races of this type. Jockey: Oisin Murphy. Preferred as a win at around 2.62. Reading leans on the form book. Confidence 61%.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Maria Da Silva",
+          "odds": 2.62,
+          "conf": 72,
+          "type": "win",
+          "reason": "Form figures: 114451. Recent form looks competitive in this company. A M Balding is a positive in races of this type. Jockey: Oisin Murphy. Preferred as a win at around 2.62. Yard/connections angle is weighted in this view. Confidence 72%.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Maria Da Silva",
+          "odds": 2.62,
           "conf": 58,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
+          "reason": "Form figures: 114451. Recent form looks competitive in this company. A M Balding is a positive in races of this type. Jockey: Oisin Murphy. Preferred as a win at around 2.62. How the race may unfold is part of the assessment. Confidence 58%.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Maria Da Silva",
+          "odds": 2.62,
+          "conf": 56,
+          "type": "win",
+          "reason": "Form figures: 114451. Recent form looks competitive in this company. A M Balding is a positive in races of this type. Jockey: Oisin Murphy. Preferred as a win at around 2.62. Price vs chance is the main filter here. Confidence 56%.",
+          "stars": 6
         }
       ]
     },
@@ -807,58 +807,58 @@
       "name": "Make The Move To Midnite Handicap (Class 6)",
       "tips": [
         {
+          "bot": "BloodlineBetty",
+          "horse": "Davorge Nation",
+          "odds": 7.5,
+          "conf": 48,
+          "type": "win",
+          "reason": "Form figures: 137-694. Recent form looks competitive in this company. A W Carroll is a positive in races of this type. Jockey: C Lee. Preferred as a win at around 7.50. Longer-term profile and breeding context factored in. Confidence 48%.",
+          "stars": 1
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Little Jaybee",
+          "odds": 6.0,
+          "conf": 49,
+          "type": "win",
+          "reason": "Form figures: 221749. Recent form looks competitive in this company. P D Evans is a positive in races of this type. Jockey: Billy Loughnane. Preferred as a win at around 6.00. Looking past the most obvious market horse where the data allows. Confidence 49%.",
+          "stars": 5
+        },
+        {
           "bot": "FormFox",
           "horse": "Little Jaybee",
           "odds": 6.0,
-          "conf": 50,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
+          "conf": 56,
+          "type": "win",
+          "reason": "Form figures: 221749. Recent form looks competitive in this company. P D Evans is a positive in races of this type. Jockey: Billy Loughnane. Preferred as a win at around 6.00. Reading leans on the form book. Confidence 56%.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Little Jaybee",
+          "odds": 6.0,
+          "conf": 52,
+          "type": "win",
+          "reason": "Form figures: 221749. Recent form looks competitive in this company. P D Evans is a positive in races of this type. Jockey: Billy Loughnane. Preferred as a win at around 6.00. Yard/connections angle is weighted in this view. Confidence 52%.",
+          "stars": 5
         },
         {
           "bot": "PaceProphet",
           "horse": "Little Jaybee",
           "odds": 6.0,
-          "conf": 48,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
+          "conf": 46,
+          "type": "win",
+          "reason": "Form figures: 221749. Recent form looks competitive in this company. P D Evans is a positive in races of this type. Jockey: Billy Loughnane. Preferred as a win at around 6.00. How the race may unfold is part of the assessment. Confidence 46%.",
+          "stars": 5
         },
         {
           "bot": "ValueHunter",
           "horse": "Little Jaybee",
           "odds": 6.0,
-          "conf": 44,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Davorge Nation",
-          "odds": 7.5,
-          "conf": 48,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Davorge Nation",
-          "odds": 7.5,
-          "conf": 48,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "One For Harvey",
-          "odds": 10.0,
-          "conf": 44,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 1
+          "conf": 49,
+          "type": "win",
+          "reason": "Form figures: 221749. Recent form looks competitive in this company. P D Evans is a positive in races of this type. Jockey: Billy Loughnane. Preferred as a win at around 6.00. Price vs chance is the main filter here. Confidence 49%.",
+          "stars": 5
         }
       ]
     },
@@ -868,57 +868,57 @@
       "name": "Midnite: Built For 2026 Not 2006 Handicap (Class 6)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Manton Road",
-          "odds": 11.0,
-          "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
+          "bot": "BloodlineBetty",
+          "horse": "Wellwhatshappenin",
+          "odds": 5.5,
+          "conf": 51,
+          "type": "win",
+          "reason": "Form figures: 842162. Recent form looks competitive in this company. D Flood is a positive in races of this type. Jockey: Hollie Doyle. Preferred as a win at around 5.50. Longer-term profile and breeding context factored in. Confidence 51%.",
+          "stars": 1
         },
         {
-          "bot": "BloodlineBetty",
+          "bot": "DevilAdvocate",
+          "horse": "Boston Run",
+          "odds": 11.0,
+          "conf": 43,
+          "type": "ew",
+          "reason": "Form figures: 642157. Recent form looks competitive in this company. P Phelan is a positive in races of this type. Jockey: Paddy Bradley. At about 11.0 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Looking past the most obvious market horse where the data allows. Confidence 43%.",
+          "stars": 1
+        },
+        {
+          "bot": "FormFox",
           "horse": "Electric Bass",
           "odds": 4.33,
-          "conf": 51,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "conf": 50,
+          "type": "win",
+          "reason": "Form figures: 225347. Recent form looks competitive in this company. Trained by R A Teal. Jockey: K Shoemark. Preferred as a win at around 4.33. Reading leans on the form book. Confidence 50%.",
           "stars": 2
         },
         {
           "bot": "HotTrainer",
-          "horse": "Manton Road",
-          "odds": 11.0,
-          "conf": 50,
+          "horse": "Far Ahead",
+          "odds": 13.0,
+          "conf": 46,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Electric Bass",
-          "odds": 4.33,
-          "conf": 49,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
+          "reason": "Form figures: 702227. Recent form looks competitive in this company. Trained by R A Fahey. Jockey: Ethan Tindall. At about 13.0 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 46%.",
+          "stars": 1
         },
         {
           "bot": "PaceProphet",
-          "horse": "Wellwhatshappenin",
-          "odds": 5.5,
-          "conf": 46,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
+          "horse": "Manton Road",
+          "odds": 11.0,
+          "conf": 48,
+          "type": "win",
+          "reason": "Form figures: 315433. Recent form looks competitive in this company. R T Phillips is a positive in races of this type. Jockey: Kieren Fox. Bigger price (11.0) but the combination of form/connections is enough to prefer it for a win interest rather than only the place. How the race may unfold is part of the assessment. Confidence 48%.",
+          "stars": 1
         },
         {
           "bot": "ValueHunter",
-          "horse": "Wellwhatshappenin",
-          "odds": 5.5,
-          "conf": 45,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "horse": "Electric Bass",
+          "odds": 4.33,
+          "conf": 50,
+          "type": "win",
+          "reason": "Form figures: 225347. Recent form looks competitive in this company. Trained by R A Teal. Jockey: K Shoemark. Preferred as a win at around 4.33. Price vs chance is the main filter here. Confidence 50%.",
           "stars": 2
         }
       ]
@@ -932,55 +932,55 @@
           "bot": "BloodlineBetty",
           "horse": "Noble Grace",
           "odds": 5.5,
-          "conf": 60,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "conf": 55,
+          "type": "win",
+          "reason": "Form figures: 413713. Recent form looks competitive in this company. W Greatrex is a positive in races of this type. Jockey: Edward Greatrex. Preferred as a win at around 5.50. Longer-term profile and breeding context factored in. Confidence 55%.",
+          "stars": 5
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "In The Post",
+          "odds": 3.5,
+          "conf": 48,
+          "type": "win",
+          "reason": "Form figures: 684333. Recent form looks competitive in this company. Trained by Dylan Cunha. Jockey: Marco Ghiani. Preferred as a win at around 3.50. Looking past the most obvious market horse where the data allows. Confidence 48%.",
+          "stars": 1
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Noble Grace",
+          "odds": 5.5,
+          "conf": 64,
+          "type": "win",
+          "reason": "Form figures: 413713. Recent form looks competitive in this company. W Greatrex is a positive in races of this type. Jockey: Edward Greatrex. Preferred as a win at around 5.50. Reading leans on the form book. Confidence 64%.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Noble Grace",
+          "odds": 5.5,
+          "conf": 58,
+          "type": "win",
+          "reason": "Form figures: 413713. Recent form looks competitive in this company. W Greatrex is a positive in races of this type. Jockey: Edward Greatrex. Preferred as a win at around 5.50. Yard/connections angle is weighted in this view. Confidence 58%.",
+          "stars": 5
         },
         {
           "bot": "PaceProphet",
           "horse": "Noble Grace",
           "odds": 5.5,
-          "conf": 54,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "conf": 60,
+          "type": "win",
+          "reason": "Form figures: 413713. Recent form looks competitive in this company. W Greatrex is a positive in races of this type. Jockey: Edward Greatrex. Preferred as a win at around 5.50. How the race may unfold is part of the assessment. Confidence 60%.",
+          "stars": 5
         },
         {
           "bot": "ValueHunter",
           "horse": "Noble Grace",
           "odds": 5.5,
-          "conf": 51,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Noble Grace",
-          "odds": 5.5,
-          "conf": 48,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Calshot Spit",
-          "odds": 17.0,
-          "conf": 59,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Calshot Spit",
-          "odds": 17.0,
-          "conf": 59,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
+          "conf": 54,
+          "type": "win",
+          "reason": "Form figures: 413713. Recent form looks competitive in this company. W Greatrex is a positive in races of this type. Jockey: Edward Greatrex. Preferred as a win at around 5.50. Price vs chance is the main filter here. Confidence 54%.",
+          "stars": 5
         }
       ]
     },
@@ -990,58 +990,58 @@
       "name": "Donohue Marquees Risk Of Thunder Chase",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Stumptown",
-          "odds": 1.5,
-          "conf": 85,
+          "bot": "BloodlineBetty",
+          "horse": "Fountain House",
+          "odds": 4.5,
+          "conf": 70,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 11111-5. Recent form looks competitive in this company. Ian McCarthy is a positive in races of this type. Jockey: Mr E Mahon. Preferred as a win at around 4.50. Longer-term profile and breeding context factored in. Confidence 70%.",
+          "stars": 1
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Stumptown",
           "odds": 1.5,
-          "conf": 84,
+          "conf": 77,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 11P/14-1. Recent form looks competitive in this company. G P Cromwell is a positive in races of this type. Jockey: Keith Donoghue. Short enough (1.50) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 77%.",
+          "stars": 5
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Stumptown",
+          "odds": 1.5,
+          "conf": 83,
+          "type": "win",
+          "reason": "Form figures: 11P/14-1. Recent form looks competitive in this company. G P Cromwell is a positive in races of this type. Jockey: Keith Donoghue. Short enough (1.50) to treat as a win selection if the profile holds. Reading leans on the form book. Confidence 83%.",
+          "stars": 5
         },
         {
           "bot": "HotTrainer",
           "horse": "Stumptown",
           "odds": 1.5,
-          "conf": 80,
+          "conf": 84,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Stumptown",
-          "odds": 1.5,
-          "conf": 80,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 11P/14-1. Recent form looks competitive in this company. G P Cromwell is a positive in races of this type. Jockey: Keith Donoghue. Short enough (1.50) to treat as a win selection if the profile holds. Yard/connections angle is weighted in this view. Confidence 84%.",
+          "stars": 5
         },
         {
           "bot": "PaceProphet",
           "horse": "Stumptown",
           "odds": 1.5,
-          "conf": 79,
+          "conf": 84,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 11P/14-1. Recent form looks competitive in this company. G P Cromwell is a positive in races of this type. Jockey: Keith Donoghue. Short enough (1.50) to treat as a win selection if the profile holds. How the race may unfold is part of the assessment. Confidence 84%.",
+          "stars": 5
         },
         {
-          "bot": "BloodlineBetty",
-          "horse": "Fountain House",
-          "odds": 4.5,
-          "conf": 65,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 1
+          "bot": "ValueHunter",
+          "horse": "Stumptown",
+          "odds": 1.5,
+          "conf": 71,
+          "type": "win",
+          "reason": "Form figures: 11P/14-1. Recent form looks competitive in this company. G P Cromwell is a positive in races of this type. Jockey: Keith Donoghue. Short enough (1.50) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 71%.",
+          "stars": 5
         }
       ]
     },
@@ -1051,58 +1051,58 @@
       "name": "Irish Stallion Farms EBF Maiden Hurdle",
       "tips": [
         {
-          "bot": "PaceProphet",
+          "bot": "BloodlineBetty",
           "horse": "Theflyingking",
           "odds": 2.1,
-          "conf": 62,
+          "conf": 60,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 21/F2-52. Recent form looks competitive in this company. G Elliott is a positive in races of this type. Jockey: Jack Kennedy. Short enough (2.10) to treat as a win selection if the profile holds. Longer-term profile and breeding context factored in. Confidence 60%.",
+          "stars": 5
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Theflyingking",
           "odds": 2.1,
-          "conf": 60,
+          "conf": 54,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 21/F2-52. Recent form looks competitive in this company. G Elliott is a positive in races of this type. Jockey: Jack Kennedy. Short enough (2.10) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 54%.",
+          "stars": 5
         },
         {
-          "bot": "ValueHunter",
-          "horse": "Theflyingking",
-          "odds": 2.1,
-          "conf": 60,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "bot": "FormFox",
+          "horse": "Sharp As Glass",
+          "odds": 51.0,
+          "conf": 57,
+          "type": "ew",
+          "reason": "Form figures: 21223-0. Recent form looks competitive in this company. S Curling is a positive in races of this type. Jockey: Aidan Kelly. At about 51.0 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 57%.",
+          "stars": 1
         },
         {
           "bot": "HotTrainer",
           "horse": "Theflyingking",
           "odds": 2.1,
-          "conf": 59,
+          "conf": 55,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 21/F2-52. Recent form looks competitive in this company. G Elliott is a positive in races of this type. Jockey: Jack Kennedy. Short enough (2.10) to treat as a win selection if the profile holds. Yard/connections angle is weighted in this view. Confidence 55%.",
+          "stars": 5
         },
         {
-          "bot": "FormFox",
+          "bot": "PaceProphet",
           "horse": "Theflyingking",
           "odds": 2.1,
-          "conf": 58,
+          "conf": 54,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 21/F2-52. Recent form looks competitive in this company. G Elliott is a positive in races of this type. Jockey: Jack Kennedy. Short enough (2.10) to treat as a win selection if the profile holds. How the race may unfold is part of the assessment. Confidence 54%.",
+          "stars": 5
         },
         {
-          "bot": "BloodlineBetty",
+          "bot": "ValueHunter",
           "horse": "Theflyingking",
           "odds": 2.1,
-          "conf": 56,
+          "conf": 53,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 21/F2-52. Recent form looks competitive in this company. G Elliott is a positive in races of this type. Jockey: Jack Kennedy. Short enough (2.10) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 53%.",
+          "stars": 5
         }
       ]
     },
@@ -1112,58 +1112,58 @@
       "name": "Pertemps Network Group Handicap Hurdle (Qualifier)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Staffordshire Knot",
-          "odds": 17.0,
-          "conf": 70,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
           "bot": "BloodlineBetty",
           "horse": "Santo Sospir",
           "odds": 9.5,
-          "conf": 59,
+          "conf": 62,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
+          "reason": "Form figures: 1/41164-. Recent form looks competitive in this company. G Elliott is a positive in races of this type. Jockey: Jack Kennedy. At about 9.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 62%.",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ragmans Corner",
+          "odds": 9.0,
+          "conf": 50,
+          "type": "ew",
+          "reason": "Form figures: 142-147. Recent form looks competitive in this company. G Keane is a positive in races of this type. Jockey: Eoghan Finegan. At about 9.0 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Looking past the most obvious market horse where the data allows. Confidence 50%.",
+          "stars": 1
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Staffordshire Knot",
+          "odds": 17.0,
+          "conf": 66,
+          "type": "win",
+          "reason": "Form figures: 1121P-6. Recent form looks competitive in this company. G Elliott is a positive in races of this type. Jockey: Kevin Healy. Bigger price (17.0) but the combination of form/connections is enough to prefer it for a win interest rather than only the place. Reading leans on the form book. Confidence 66%.",
+          "stars": 1
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Santo Sospir",
+          "odds": 9.5,
+          "conf": 59,
+          "type": "win",
+          "reason": "Form figures: 1/41164-. Recent form looks competitive in this company. G Elliott is a positive in races of this type. Jockey: Jack Kennedy. Bigger price (9.5) but the combination of form/connections is enough to prefer it for a win interest rather than only the place. Yard/connections angle is weighted in this view. Confidence 59%.",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Santo Sospir",
+          "odds": 9.5,
+          "conf": 58,
+          "type": "ew",
+          "reason": "Form figures: 1/41164-. Recent form looks competitive in this company. G Elliott is a positive in races of this type. Jockey: Jack Kennedy. At about 9.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 58%.",
+          "stars": 4
         },
         {
           "bot": "ValueHunter",
           "horse": "Santo Sospir",
           "odds": 9.5,
-          "conf": 52,
+          "conf": 50,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Staffordshire Knot",
-          "odds": 17.0,
-          "conf": 51,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Ragmans Corner",
-          "odds": 9.0,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 1
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Paul's Dream",
-          "odds": 17.0,
-          "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 1
+          "reason": "Form figures: 1/41164-. Recent form looks competitive in this company. G Elliott is a positive in races of this type. Jockey: Jack Kennedy. At about 9.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Price vs chance is the main filter here. Confidence 50%.",
+          "stars": 4
         }
       ]
     },
@@ -1173,58 +1173,58 @@
       "name": "Colm Quinn BMW Novice Handicap Hurdle",
       "tips": [
         {
-          "bot": "FormFox",
+          "bot": "BloodlineBetty",
           "horse": "Gomez Addams",
           "odds": 3.0,
           "conf": 60,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
+          "reason": "Form figures: 15-14. Recent form looks competitive in this company. H De Bromhead is a positive in races of this type. Jockey: Sean Flanagan. Preferred as a win at around 3.00. Longer-term profile and breeding context factored in. Confidence 60%.",
+          "stars": 5
         },
         {
           "bot": "DevilAdvocate",
+          "horse": "Bunker Buster",
+          "odds": 5.0,
+          "conf": 53,
+          "type": "win",
+          "reason": "Form figures: 23-U14. Recent form looks competitive in this company. C Byrnes is a positive in races of this type. Jockey: Philip Byrnes. Preferred as a win at around 5.00. Looking past the most obvious market horse where the data allows. Confidence 53%.",
+          "stars": 1
+        },
+        {
+          "bot": "FormFox",
           "horse": "Gomez Addams",
           "odds": 3.0,
-          "conf": 59,
+          "conf": 53,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
+          "reason": "Form figures: 15-14. Recent form looks competitive in this company. H De Bromhead is a positive in races of this type. Jockey: Sean Flanagan. Preferred as a win at around 3.00. Reading leans on the form book. Confidence 53%.",
+          "stars": 5
         },
         {
           "bot": "HotTrainer",
           "horse": "Gomez Addams",
           "odds": 3.0,
-          "conf": 59,
+          "conf": 57,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Gomez Addams",
-          "odds": 3.0,
-          "conf": 58,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
+          "reason": "Form figures: 15-14. Recent form looks competitive in this company. H De Bromhead is a positive in races of this type. Jockey: Sean Flanagan. Preferred as a win at around 3.00. Yard/connections angle is weighted in this view. Confidence 57%.",
+          "stars": 5
         },
         {
           "bot": "PaceProphet",
           "horse": "Gomez Addams",
           "odds": 3.0,
-          "conf": 57,
+          "conf": 60,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
+          "reason": "Form figures: 15-14. Recent form looks competitive in this company. H De Bromhead is a positive in races of this type. Jockey: Sean Flanagan. Preferred as a win at around 3.00. How the race may unfold is part of the assessment. Confidence 60%.",
+          "stars": 5
         },
         {
           "bot": "ValueHunter",
           "horse": "Gomez Addams",
           "odds": 3.0,
-          "conf": 55,
+          "conf": 46,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
+          "reason": "Form figures: 15-14. Recent form looks competitive in this company. H De Bromhead is a positive in races of this type. Jockey: Sean Flanagan. Preferred as a win at around 3.00. Price vs chance is the main filter here. Confidence 46%.",
+          "stars": 5
         }
       ]
     },
@@ -1234,22 +1234,22 @@
       "name": "Frontline Security Grabel Mares Hurdle (Listed) (Class 1)",
       "tips": [
         {
-          "bot": "PaceProphet",
+          "bot": "BloodlineBetty",
           "horse": "Oldschool Outlaw",
           "odds": 1.62,
-          "conf": 79,
+          "conf": 72,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 7/11125-. Recent form looks competitive in this company. G Elliott is a positive in races of this type. Jockey: Harry Cobden. Short enough (1.62) to treat as a win selection if the profile holds. Longer-term profile and breeding context factored in. Confidence 72%.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Oldschool Outlaw",
           "odds": 1.62,
-          "conf": 78,
+          "conf": 74,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 7/11125-. Recent form looks competitive in this company. G Elliott is a positive in races of this type. Jockey: Harry Cobden. Short enough (1.62) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 74%.",
+          "stars": 6
         },
         {
           "bot": "FormFox",
@@ -1257,35 +1257,35 @@
           "odds": 1.62,
           "conf": 77,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Oldschool Outlaw",
-          "odds": 1.62,
-          "conf": 73,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 7/11125-. Recent form looks competitive in this company. G Elliott is a positive in races of this type. Jockey: Harry Cobden. Short enough (1.62) to treat as a win selection if the profile holds. Reading leans on the form book. Confidence 77%.",
+          "stars": 6
         },
         {
           "bot": "HotTrainer",
           "horse": "Oldschool Outlaw",
           "odds": 1.62,
-          "conf": 71,
+          "conf": 66,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 7/11125-. Recent form looks competitive in this company. G Elliott is a positive in races of this type. Jockey: Harry Cobden. Short enough (1.62) to treat as a win selection if the profile holds. Yard/connections angle is weighted in this view. Confidence 66%.",
+          "stars": 6
         },
         {
-          "bot": "BloodlineBetty",
+          "bot": "PaceProphet",
           "horse": "Oldschool Outlaw",
           "odds": 1.62,
-          "conf": 64,
+          "conf": 78,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 7/11125-. Recent form looks competitive in this company. G Elliott is a positive in races of this type. Jockey: Harry Cobden. Short enough (1.62) to treat as a win selection if the profile holds. How the race may unfold is part of the assessment. Confidence 78%.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Oldschool Outlaw",
+          "odds": 1.62,
+          "conf": 76,
+          "type": "win",
+          "reason": "Form figures: 7/11125-. Recent form looks competitive in this company. G Elliott is a positive in races of this type. Jockey: Harry Cobden. Short enough (1.62) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 76%.",
+          "stars": 6
         }
       ]
     },
@@ -1295,58 +1295,58 @@
       "name": "Matchbook Betting Exchange Craddockstown Novice Chase (Grade 2) (Class 1)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Zanoosh",
-          "odds": 5.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Zanoosh",
-          "odds": 5.0,
-          "conf": 66,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
           "horse": "Zanoosh",
           "odds": 5.0,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Zanoosh",
-          "odds": 5.0,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "conf": 67,
+          "type": "win",
+          "reason": "Form figures: 111112-. Recent form looks competitive in this company. Colm Murphy is a positive in races of this type. Jockey: Brian Hayes. Preferred as a win at around 5.00. Longer-term profile and breeding context factored in. Confidence 67%.",
+          "stars": 2
         },
         {
           "bot": "DevilAdvocate",
+          "horse": "Lovely Hurling",
+          "odds": 4.5,
+          "conf": 65,
+          "type": "win",
+          "reason": "Form figures: 112/222-. Recent form looks competitive in this company. Colm Murphy is a positive in races of this type. Jockey: Harry Cobden. Preferred as a win at around 4.50. Looking past the most obvious market horse where the data allows. Confidence 65%.",
+          "stars": 3
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Lovely Hurling",
+          "odds": 4.5,
+          "conf": 65,
+          "type": "win",
+          "reason": "Form figures: 112/222-. Recent form looks competitive in this company. Colm Murphy is a positive in races of this type. Jockey: Harry Cobden. Preferred as a win at around 4.50. Reading leans on the form book. Confidence 65%.",
+          "stars": 3
+        },
+        {
+          "bot": "HotTrainer",
           "horse": "Ocastle Des Mottes",
           "odds": 2.88,
-          "conf": 62,
+          "conf": 65,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 2
+          "reason": "Form figures: 5/4-P211. Recent form looks competitive in this company. W P Mullins is a positive in races of this type. Jockey: Paul Townend. Preferred as a win at around 2.88. Yard/connections angle is weighted in this view. Confidence 65%.",
+          "stars": 1
         },
         {
           "bot": "PaceProphet",
-          "horse": "Ocastle Des Mottes",
-          "odds": 2.88,
-          "conf": 61,
+          "horse": "Zanoosh",
+          "odds": 5.0,
+          "conf": 70,
           "type": "win",
-          "reason": "Best option on the card",
+          "reason": "Form figures: 111112-. Recent form looks competitive in this company. Colm Murphy is a positive in races of this type. Jockey: Brian Hayes. Preferred as a win at around 5.00. How the race may unfold is part of the assessment. Confidence 70%.",
           "stars": 2
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Lovely Hurling",
+          "odds": 4.5,
+          "conf": 58,
+          "type": "win",
+          "reason": "Form figures: 112/222-. Recent form looks competitive in this company. Colm Murphy is a positive in races of this type. Jockey: Harry Cobden. Preferred as a win at around 4.50. Price vs chance is the main filter here. Confidence 58%.",
+          "stars": 3
         }
       ]
     },
@@ -1356,58 +1356,58 @@
       "name": "John Durkan Memorial Punchestown Chase (Grade 1) (Class 1)",
       "tips": [
         {
-          "bot": "PaceProphet",
+          "bot": "BloodlineBetty",
           "horse": "Gaelic Warrior",
           "odds": 1.91,
-          "conf": 77,
+          "conf": 68,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Gaelic Warrior",
-          "odds": 1.91,
-          "conf": 75,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 1/13211-. Recent form looks competitive in this company. W P Mullins is a positive in races of this type. Jockey: Paul Townend. Short enough (1.91) to treat as a win selection if the profile holds. Longer-term profile and breeding context factored in. Confidence 68%.",
+          "stars": 5
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Gaelic Warrior",
           "odds": 1.91,
-          "conf": 73,
+          "conf": 75,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 1/13211-. Recent form looks competitive in this company. W P Mullins is a positive in races of this type. Jockey: Paul Townend. Short enough (1.91) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 75%.",
+          "stars": 5
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Kaid D'authie",
+          "odds": 6.5,
+          "conf": 68,
+          "type": "win",
+          "reason": "Form figures: P1/211F-. Recent form looks competitive in this company. W P Mullins is a positive in races of this type. Jockey: Jack Kennedy. Preferred as a win at around 6.50. Reading leans on the form book. Confidence 68%.",
+          "stars": 1
         },
         {
           "bot": "HotTrainer",
           "horse": "Gaelic Warrior",
           "odds": 1.91,
-          "conf": 70,
+          "conf": 71,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 1/13211-. Recent form looks competitive in this company. W P Mullins is a positive in races of this type. Jockey: Paul Townend. Short enough (1.91) to treat as a win selection if the profile holds. Yard/connections angle is weighted in this view. Confidence 71%.",
+          "stars": 5
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Gaelic Warrior",
+          "odds": 1.91,
+          "conf": 68,
+          "type": "win",
+          "reason": "Form figures: 1/13211-. Recent form looks competitive in this company. W P Mullins is a positive in races of this type. Jockey: Paul Townend. Short enough (1.91) to treat as a win selection if the profile holds. How the race may unfold is part of the assessment. Confidence 68%.",
+          "stars": 5
         },
         {
           "bot": "ValueHunter",
           "horse": "Gaelic Warrior",
           "odds": 1.91,
-          "conf": 68,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Gaelic Warrior",
-          "odds": 1.91,
           "conf": 63,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 1/13211-. Recent form looks competitive in this company. W P Mullins is a positive in races of this type. Jockey: Paul Townend. Short enough (1.91) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 63%.",
+          "stars": 5
         }
       ]
     },
@@ -1417,22 +1417,22 @@
       "name": "Keadeen Hotel (Pro/Am) Flat Race",
       "tips": [
         {
-          "bot": "ValueHunter",
-          "horse": "Ceasar's Ball",
-          "odds": 2.5,
-          "conf": 55,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
           "horse": "Ceasar's Ball",
           "odds": 2.5,
-          "conf": 54,
+          "conf": 49,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 1-. W P Mullins is a positive in races of this type. Jockey: Mr P W Mullins. Short enough (2.50) to treat as a win selection if the profile holds. Longer-term profile and breeding context factored in. Confidence 49%.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ceasar's Ball",
+          "odds": 2.5,
+          "conf": 52,
+          "type": "win",
+          "reason": "Form figures: 1-. W P Mullins is a positive in races of this type. Jockey: Mr P W Mullins. Short enough (2.50) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 52%.",
+          "stars": 6
         },
         {
           "bot": "FormFox",
@@ -1440,35 +1440,35 @@
           "odds": 2.5,
           "conf": 52,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 1-. W P Mullins is a positive in races of this type. Jockey: Mr P W Mullins. Short enough (2.50) to treat as a win selection if the profile holds. Reading leans on the form book. Confidence 52%.",
+          "stars": 6
         },
         {
           "bot": "HotTrainer",
           "horse": "Ceasar's Ball",
           "odds": 2.5,
-          "conf": 52,
+          "conf": 57,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Ceasar's Ball",
-          "odds": 2.5,
-          "conf": 50,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 1-. W P Mullins is a positive in races of this type. Jockey: Mr P W Mullins. Short enough (2.50) to treat as a win selection if the profile holds. Yard/connections angle is weighted in this view. Confidence 57%.",
+          "stars": 6
         },
         {
           "bot": "PaceProphet",
           "horse": "Ceasar's Ball",
           "odds": 2.5,
-          "conf": 50,
+          "conf": 53,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 1-. W P Mullins is a positive in races of this type. Jockey: Mr P W Mullins. Short enough (2.50) to treat as a win selection if the profile holds. How the race may unfold is part of the assessment. Confidence 53%.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ceasar's Ball",
+          "odds": 2.5,
+          "conf": 46,
+          "type": "win",
+          "reason": "Form figures: 1-. W P Mullins is a positive in races of this type. Jockey: Mr P W Mullins. Short enough (2.50) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 46%.",
+          "stars": 6
         }
       ]
     },
@@ -1479,56 +1479,56 @@
       "tips": [
         {
           "bot": "BloodlineBetty",
-          "horse": "Green Heritage",
-          "odds": 4.0,
-          "conf": 45,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Green Heritage",
-          "odds": 4.0,
-          "conf": 45,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "horse": "Noon Blu Dodville",
+          "odds": 2.25,
+          "conf": 48,
+          "type": "win",
+          "reason": "Form figures: F. Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by E Mullins. Jockey: Donagh Meyler. Short enough (2.25) to treat as a win selection if the profile holds. Longer-term profile and breeding context factored in. Confidence 48%.",
           "stars": 4
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Green Heritage",
-          "odds": 4.0,
-          "conf": 43,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Green Heritage",
-          "odds": 4.0,
-          "conf": 41,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
           "horse": "Noon Blu Dodville",
           "odds": 2.25,
           "conf": 47,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
+          "reason": "Form figures: F. Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by E Mullins. Jockey: Donagh Meyler. Short enough (2.25) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 47%.",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Noon Blu Dodville",
+          "odds": 2.25,
+          "conf": 51,
+          "type": "win",
+          "reason": "Form figures: F. Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by E Mullins. Jockey: Donagh Meyler. Short enough (2.25) to treat as a win selection if the profile holds. Reading leans on the form book. Confidence 51%.",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Green Heritage",
+          "odds": 4.0,
+          "conf": 41,
+          "type": "win",
+          "reason": "Form figures: 3. Trained by C Collins. Jockey: Jordan Gainford. Preferred as a win at around 4.00. Yard/connections angle is weighted in this view. Confidence 41%.",
           "stars": 2
         },
         {
-          "bot": "ValueHunter",
+          "bot": "PaceProphet",
           "horse": "Noon Blu Dodville",
           "odds": 2.25,
-          "conf": 43,
+          "conf": 48,
           "type": "win",
-          "reason": "Preferred selection",
+          "reason": "Form figures: F. Form is ordinary on the figures \u2014 other factors are carrying the case. Trained by E Mullins. Jockey: Donagh Meyler. Short enough (2.25) to treat as a win selection if the profile holds. How the race may unfold is part of the assessment. Confidence 48%.",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Green Heritage",
+          "odds": 4.0,
+          "conf": 46,
+          "type": "win",
+          "reason": "Form figures: 3. Trained by C Collins. Jockey: Jordan Gainford. Preferred as a win at around 4.00. Price vs chance is the main filter here. Confidence 46%.",
           "stars": 2
         }
       ]
@@ -1539,58 +1539,58 @@
       "name": "Join Racing TV Now With A Free Trial Maiden Hurdle",
       "tips": [
         {
-          "bot": "ValueHunter",
+          "bot": "BloodlineBetty",
           "horse": "Personal Space",
           "odds": 2.2,
-          "conf": 58,
+          "conf": 46,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Personal Space",
-          "odds": 2.2,
-          "conf": 56,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 1-. H De Bromhead is a positive in races of this type. Jockey: Jordan Gainford. Short enough (2.20) to treat as a win selection if the profile holds. Longer-term profile and breeding context factored in. Confidence 46%.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Personal Space",
           "odds": 2.2,
-          "conf": 53,
+          "conf": 55,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Personal Space",
-          "odds": 2.2,
-          "conf": 48,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 1-. H De Bromhead is a positive in races of this type. Jockey: Jordan Gainford. Short enough (2.20) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 55%.",
+          "stars": 6
         },
         {
           "bot": "FormFox",
-          "horse": "Maestro Des Pins",
-          "odds": 3.0,
-          "conf": 51,
+          "horse": "Personal Space",
+          "odds": 2.2,
+          "conf": 49,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 2
+          "reason": "Form figures: 1-. H De Bromhead is a positive in races of this type. Jockey: Jordan Gainford. Short enough (2.20) to treat as a win selection if the profile holds. Reading leans on the form book. Confidence 49%.",
+          "stars": 6
         },
         {
           "bot": "HotTrainer",
-          "horse": "Maestro Des Pins",
-          "odds": 3.0,
-          "conf": 51,
+          "horse": "Personal Space",
+          "odds": 2.2,
+          "conf": 57,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 2
+          "reason": "Form figures: 1-. H De Bromhead is a positive in races of this type. Jockey: Jordan Gainford. Short enough (2.20) to treat as a win selection if the profile holds. Yard/connections angle is weighted in this view. Confidence 57%.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Personal Space",
+          "odds": 2.2,
+          "conf": 59,
+          "type": "win",
+          "reason": "Form figures: 1-. H De Bromhead is a positive in races of this type. Jockey: Jordan Gainford. Short enough (2.20) to treat as a win selection if the profile holds. How the race may unfold is part of the assessment. Confidence 59%.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Personal Space",
+          "odds": 2.2,
+          "conf": 58,
+          "type": "win",
+          "reason": "Form figures: 1-. H De Bromhead is a positive in races of this type. Jockey: Jordan Gainford. Short enough (2.20) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 58%.",
+          "stars": 6
         }
       ]
     },
@@ -1600,58 +1600,58 @@
       "name": "Irish Stallion Farms EBF Maiden Hurdle",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Look Me",
-          "odds": 2.25,
-          "conf": 63,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Look Me",
-          "odds": 2.25,
+          "bot": "BloodlineBetty",
+          "horse": "Moonverrin",
+          "odds": 5.5,
           "conf": 61,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 2110-. Recent form looks competitive in this company. M Hassett is a positive in races of this type. Jockey: Ricky Doyle. Preferred as a win at around 5.50. Longer-term profile and breeding context factored in. Confidence 61%.",
+          "stars": 1
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Look Me",
           "odds": 2.25,
-          "conf": 58,
+          "conf": 62,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 2/12-. Recent form looks competitive in this company. W P Mullins is a positive in races of this type. Jockey: Danny Mullins. Short enough (2.25) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 62%.",
+          "stars": 5
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Look Me",
+          "odds": 2.25,
+          "conf": 55,
+          "type": "win",
+          "reason": "Form figures: 2/12-. Recent form looks competitive in this company. W P Mullins is a positive in races of this type. Jockey: Danny Mullins. Short enough (2.25) to treat as a win selection if the profile holds. Reading leans on the form book. Confidence 55%.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Look Me",
+          "odds": 2.25,
+          "conf": 62,
+          "type": "win",
+          "reason": "Form figures: 2/12-. Recent form looks competitive in this company. W P Mullins is a positive in races of this type. Jockey: Danny Mullins. Short enough (2.25) to treat as a win selection if the profile holds. Yard/connections angle is weighted in this view. Confidence 62%.",
+          "stars": 5
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Look Me",
+          "odds": 2.25,
+          "conf": 60,
+          "type": "win",
+          "reason": "Form figures: 2/12-. Recent form looks competitive in this company. W P Mullins is a positive in races of this type. Jockey: Danny Mullins. Short enough (2.25) to treat as a win selection if the profile holds. How the race may unfold is part of the assessment. Confidence 60%.",
+          "stars": 5
         },
         {
           "bot": "ValueHunter",
           "horse": "Look Me",
           "odds": 2.25,
-          "conf": 54,
+          "conf": 56,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Wilton Mills Trier",
-          "odds": 7.0,
-          "conf": 59,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 1
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Moonverrin",
-          "odds": 5.5,
-          "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 1
+          "reason": "Form figures: 2/12-. Recent form looks competitive in this company. W P Mullins is a positive in races of this type. Jockey: Danny Mullins. Short enough (2.25) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 56%.",
+          "stars": 5
         }
       ]
     },
@@ -1661,57 +1661,57 @@
       "name": "Irish Stallion Farms EBF Mares Beginners Chase",
       "tips": [
         {
-          "bot": "FormFox",
+          "bot": "BloodlineBetty",
           "horse": "Bambino Fever",
           "odds": 4.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Bambino Fever",
-          "odds": 4.0,
-          "conf": 72,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "conf": 63,
+          "type": "win",
+          "reason": "Form figures: 111/210-. Recent form looks competitive in this company. W P Mullins is a positive in races of this type. Jockey: Miss J Townend. Preferred as a win at around 4.00. Longer-term profile and breeding context factored in. Confidence 63%.",
           "stars": 4
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Bambino Fever",
           "odds": 4.0,
-          "conf": 67,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "conf": 64,
+          "type": "win",
+          "reason": "Form figures: 111/210-. Recent form looks competitive in this company. W P Mullins is a positive in races of this type. Jockey: Miss J Townend. Preferred as a win at around 4.00. Looking past the most obvious market horse where the data allows. Confidence 64%.",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Bambino Fever",
+          "odds": 4.0,
+          "conf": 76,
+          "type": "win",
+          "reason": "Form figures: 111/210-. Recent form looks competitive in this company. W P Mullins is a positive in races of this type. Jockey: Miss J Townend. Preferred as a win at around 4.00. Reading leans on the form book. Confidence 76%.",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Bambino Fever",
+          "odds": 4.0,
+          "conf": 75,
+          "type": "win",
+          "reason": "Form figures: 111/210-. Recent form looks competitive in this company. W P Mullins is a positive in races of this type. Jockey: Miss J Townend. Preferred as a win at around 4.00. Yard/connections angle is weighted in this view. Confidence 75%.",
           "stars": 4
         },
         {
           "bot": "PaceProphet",
-          "horse": "Bambino Fever",
-          "odds": 4.0,
-          "conf": 65,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
+          "horse": "Place De La Nation",
+          "odds": 3.0,
+          "conf": 62,
+          "type": "win",
+          "reason": "Form figures: 112321-. Recent form looks competitive in this company. W P Mullins is a positive in races of this type. Jockey: Danny Mullins. Preferred as a win at around 3.00. How the race may unfold is part of the assessment. Confidence 62%.",
+          "stars": 2
         },
         {
           "bot": "ValueHunter",
           "horse": "Place De La Nation",
           "odds": 3.0,
-          "conf": 64,
+          "conf": 67,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 2
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Place De La Nation",
-          "odds": 3.0,
-          "conf": 62,
-          "type": "win",
-          "reason": "Best option on the card",
+          "reason": "Form figures: 112321-. Recent form looks competitive in this company. W P Mullins is a positive in races of this type. Jockey: Danny Mullins. Preferred as a win at around 3.00. Price vs chance is the main filter here. Confidence 67%.",
           "stars": 2
         }
       ]
@@ -1722,57 +1722,57 @@
       "name": "Kevin McManus Bookmaker Handicap Chase",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Rockonliam",
-          "odds": 8.5,
-          "conf": 68,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Rockonliam",
-          "odds": 8.5,
-          "conf": 62,
+          "horse": "Happy Dreams",
+          "odds": 34.0,
+          "conf": 58,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "Rockonliam",
-          "odds": 8.5,
-          "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Rockonliam",
-          "odds": 8.5,
-          "conf": 52,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
-          "horse": "Kobalt St Georges",
-          "odds": 11.0,
-          "conf": 70,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "reason": "Form figures: 121660-. Recent form looks competitive in this company. M J McDonagh is a positive in races of this type. Jockey: Cian Quirke. At about 34.0 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 58%.",
           "stars": 1
         },
         {
+          "bot": "DevilAdvocate",
+          "horse": "Kobalt St Georges",
+          "odds": 11.0,
+          "conf": 60,
+          "type": "ew",
+          "reason": "Form figures: 11145-2. Recent form looks competitive in this company. R Tyner is a positive in races of this type. Jockey: Reserve 2. At about 11.0 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Looking past the most obvious market horse where the data allows. Confidence 60%.",
+          "stars": 2
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Rockonliam",
+          "odds": 8.5,
+          "conf": 66,
+          "type": "win",
+          "reason": "Form figures: 34-1112. Recent form looks competitive in this company. H De Bromhead is a positive in races of this type. Jockey: Patrick M O'Brien. Preferred as a win at around 8.50. Reading leans on the form book. Confidence 66%.",
+          "stars": 2
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Rockonliam",
+          "odds": 8.5,
+          "conf": 60,
+          "type": "ew",
+          "reason": "Form figures: 34-1112. Recent form looks competitive in this company. H De Bromhead is a positive in races of this type. Jockey: Patrick M O'Brien. At about 8.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 60%.",
+          "stars": 2
+        },
+        {
           "bot": "PaceProphet",
+          "horse": "Kobalt St Georges",
+          "odds": 11.0,
+          "conf": 61,
+          "type": "ew",
+          "reason": "Form figures: 11145-2. Recent form looks competitive in this company. R Tyner is a positive in races of this type. Jockey: Reserve 2. At about 11.0 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 61%.",
+          "stars": 2
+        },
+        {
+          "bot": "ValueHunter",
           "horse": "Karl Des Tourelles",
           "odds": 3.25,
-          "conf": 48,
+          "conf": 55,
           "type": "win",
-          "reason": "Best option on the card",
+          "reason": "Form figures: 6466-21. Recent form looks competitive in this company. P Fenton is a positive in races of this type. Jockey: Niall Moore. Preferred as a win at around 3.25. Price vs chance is the main filter here. Confidence 55%.",
           "stars": 1
         }
       ]
@@ -1783,57 +1783,57 @@
       "name": "William Hill Challenge Series Irish EBF Beginners Chase",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Rosie's Wings",
-          "odds": 7.0,
-          "conf": 66,
+          "bot": "BloodlineBetty",
+          "horse": "Gin Tonic",
+          "odds": 17.0,
+          "conf": 54,
           "type": "ew",
-          "reason": "Each-way value at the price",
+          "reason": "Form figures: 2/12PP-P. Recent form looks competitive in this company. P Nolan is a positive in races of this type. Jockey: Philip Donovan. At about 17.0 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Longer-term profile and breeding context factored in. Confidence 54%.",
+          "stars": 1
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Mojoe",
+          "odds": 26.0,
+          "conf": 47,
+          "type": "ew",
+          "reason": "Form figures: 7131P-5. Recent form looks competitive in this company. P T Foley is a positive in races of this type. Jockey: Simon Torrens. At about 26.0 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Looking past the most obvious market horse where the data allows. Confidence 47%.",
+          "stars": 2
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Found A Diamond",
+          "odds": 17.0,
+          "conf": 61,
+          "type": "ew",
+          "reason": "Form figures: 151334-. Recent form looks competitive in this company. R O'Sullivan is a positive in races of this type. Jockey: Shane Markey. At about 17.0 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 61%.",
+          "stars": 1
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Mojoe",
+          "odds": 26.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Form figures: 7131P-5. Recent form looks competitive in this company. P T Foley is a positive in races of this type. Jockey: Simon Torrens. Bigger price (26.0) but the combination of form/connections is enough to prefer it for a win interest rather than only the place. Yard/connections angle is weighted in this view. Confidence 58%.",
           "stars": 2
         },
         {
           "bot": "PaceProphet",
-          "horse": "Speculateur",
-          "odds": 5.5,
-          "conf": 53,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
-          "bot": "DevilAdvocate",
           "horse": "Rosie's Wings",
           "odds": 7.0,
-          "conf": 51,
+          "conf": 55,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
+          "reason": "Form figures: 313332. Recent form looks competitive in this company. R O'Sullivan is a positive in races of this type. Jockey: Donagh Meyler. At about 7.0 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. How the race may unfold is part of the assessment. Confidence 55%.",
+          "stars": 1
         },
         {
           "bot": "ValueHunter",
           "horse": "Speculateur",
           "odds": 5.5,
-          "conf": 48,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Polepatrick",
-          "odds": 12.0,
-          "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 1
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Chase The Moon",
-          "odds": 19.0,
-          "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "conf": 54,
+          "type": "win",
+          "reason": "Form figures: 3333-14. Recent form looks competitive in this company. G Elliott is a positive in races of this type. Jockey: Sam Ewing. Preferred as a win at around 5.50. Price vs chance is the main filter here. Confidence 54%.",
           "stars": 1
         }
       ]
@@ -1844,58 +1844,58 @@
       "name": "Adare Manor Opportunity Handicap Hurdle",
       "tips": [
         {
-          "bot": "FormFox",
+          "bot": "BloodlineBetty",
           "horse": "Lanzhou",
           "odds": 4.5,
           "conf": 59,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
+          "type": "win",
+          "reason": "Form figures: 9-07211. Recent form looks competitive in this company. J P Flavin is a positive in races of this type. Jockey: Jordan Canavan. Preferred as a win at around 4.50. Longer-term profile and breeding context factored in. Confidence 59%.",
+          "stars": 4
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Lanzhou",
           "odds": 4.5,
-          "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
+          "conf": 47,
+          "type": "win",
+          "reason": "Form figures: 9-07211. Recent form looks competitive in this company. J P Flavin is a positive in races of this type. Jockey: Jordan Canavan. Preferred as a win at around 4.50. Looking past the most obvious market horse where the data allows. Confidence 47%.",
+          "stars": 4
         },
         {
-          "bot": "BloodlineBetty",
-          "horse": "Lanzhou",
-          "odds": 4.5,
-          "conf": 53,
+          "bot": "FormFox",
+          "horse": "Lenjoleur De Palma",
+          "odds": 9.5,
+          "conf": 58,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
+          "reason": "Form figures: 3123-64. Recent form looks competitive in this company. E McNamara is a positive in races of this type. Jockey: Patrick M O'Brien. At about 9.5 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Reading leans on the form book. Confidence 58%.",
+          "stars": 1
         },
         {
           "bot": "HotTrainer",
           "horse": "Springboard",
           "odds": 7.0,
-          "conf": 59,
+          "conf": 58,
           "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
+          "reason": "Form figures: 1-95196. Recent form looks competitive in this company. M J McDonagh is a positive in races of this type. Jockey: Michael Kenneally. At about 7.0 this is taken each-way \u2014 enough price to be interested if the principals underperform, without needing to force a win-only view. Yard/connections angle is weighted in this view. Confidence 58%.",
+          "stars": 1
         },
         {
           "bot": "PaceProphet",
-          "horse": "Springboard",
-          "odds": 7.0,
-          "conf": 49,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
+          "horse": "Lanzhou",
+          "odds": 4.5,
+          "conf": 59,
+          "type": "win",
+          "reason": "Form figures: 9-07211. Recent form looks competitive in this company. J P Flavin is a positive in races of this type. Jockey: Jordan Canavan. Preferred as a win at around 4.50. How the race may unfold is part of the assessment. Confidence 59%.",
+          "stars": 4
         },
         {
           "bot": "ValueHunter",
-          "horse": "Theanniversary Man",
-          "odds": 3.25,
-          "conf": 51,
+          "horse": "Lanzhou",
+          "odds": 4.5,
+          "conf": 52,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 1
+          "reason": "Form figures: 9-07211. Recent form looks competitive in this company. J P Flavin is a positive in races of this type. Jockey: Jordan Canavan. Preferred as a win at around 4.50. Price vs chance is the main filter here. Confidence 52%.",
+          "stars": 4
         }
       ]
     },
@@ -1905,57 +1905,57 @@
       "name": "William Hill Challenge Series Handicap Hurdle",
       "tips": [
         {
-          "bot": "FormFox",
+          "bot": "BloodlineBetty",
           "horse": "King Of The Greys",
           "odds": 4.0,
-          "conf": 56,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "conf": 54,
+          "type": "win",
+          "reason": "Form figures: 8PPP31. Recent form looks competitive in this company. Peter Fahey is a positive in races of this type. Jockey: Sam Ewing. Preferred as a win at around 4.00. Longer-term profile and breeding context factored in. Confidence 54%.",
+          "stars": 3
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "King Of The Greys",
+          "odds": 4.0,
+          "conf": 53,
+          "type": "win",
+          "reason": "Form figures: 8PPP31. Recent form looks competitive in this company. Peter Fahey is a positive in races of this type. Jockey: Sam Ewing. Preferred as a win at around 4.00. Looking past the most obvious market horse where the data allows. Confidence 53%.",
+          "stars": 3
+        },
+        {
+          "bot": "FormFox",
+          "horse": "John The Diva",
+          "odds": 17.0,
+          "conf": 52,
+          "type": "win",
+          "reason": "Form figures: 13/2523-. Recent form looks competitive in this company. M A Cahill is a positive in races of this type. Jockey: Paddy Cody. Bigger price (17.0) but the combination of form/connections is enough to prefer it for a win interest rather than only the place. Reading leans on the form book. Confidence 52%.",
           "stars": 2
         },
         {
           "bot": "HotTrainer",
-          "horse": "Cock And Bull",
-          "odds": 3.25,
-          "conf": 52,
+          "horse": "John The Diva",
+          "odds": 17.0,
+          "conf": 54,
           "type": "win",
-          "reason": "Best option on the card",
+          "reason": "Form figures: 13/2523-. Recent form looks competitive in this company. M A Cahill is a positive in races of this type. Jockey: Paddy Cody. Bigger price (17.0) but the combination of form/connections is enough to prefer it for a win interest rather than only the place. Yard/connections angle is weighted in this view. Confidence 54%.",
           "stars": 2
         },
         {
           "bot": "PaceProphet",
-          "horse": "Cock And Bull",
-          "odds": 3.25,
-          "conf": 50,
+          "horse": "King Of The Greys",
+          "odds": 4.0,
+          "conf": 53,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 2
+          "reason": "Form figures: 8PPP31. Recent form looks competitive in this company. Peter Fahey is a positive in races of this type. Jockey: Sam Ewing. Preferred as a win at around 4.00. How the race may unfold is part of the assessment. Confidence 53%.",
+          "stars": 3
         },
         {
           "bot": "ValueHunter",
-          "horse": "King Of The Greys",
-          "odds": 4.0,
-          "conf": 50,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "John The Diva",
-          "odds": 17.0,
-          "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 1
-        },
-        {
-          "bot": "DevilAdvocate",
-          "horse": "The Rebel Fox",
-          "odds": 10.0,
-          "conf": 46,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "horse": "Cock And Bull",
+          "odds": 3.25,
+          "conf": 48,
+          "type": "win",
+          "reason": "Form figures: 8570-1. E Mullins is a positive in races of this type. Jockey: Donagh Meyler. Preferred as a win at around 3.25. Price vs chance is the main filter here. Confidence 48%.",
           "stars": 1
         }
       ]
@@ -1966,58 +1966,58 @@
       "name": "racingtv.com/freetrial - Last Day Mares' Handicap Hurdle (Class 4)",
       "tips": [
         {
-          "bot": "FormFox",
+          "bot": "BloodlineBetty",
           "horse": "Hello Sweety",
           "odds": 5.5,
-          "conf": 71,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Our Peggy",
-          "odds": 3.0,
-          "conf": 63,
+          "conf": 62,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 3
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Our Peggy",
-          "odds": 3.0,
-          "conf": 58,
-          "type": "win",
-          "reason": "Best option on the card",
+          "reason": "Form figures: 1231P3. Recent form looks competitive in this company. S Edmunds is a positive in races of this type. Jockey: Charlie Hammond. Preferred as a win at around 5.50. Longer-term profile and breeding context factored in. Confidence 62%.",
           "stars": 3
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Hello Sweety",
           "odds": 5.5,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
+          "conf": 62,
+          "type": "win",
+          "reason": "Form figures: 1231P3. Recent form looks competitive in this company. S Edmunds is a positive in races of this type. Jockey: Charlie Hammond. Preferred as a win at around 5.50. Looking past the most obvious market horse where the data allows. Confidence 62%.",
+          "stars": 3
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Our Peggy",
+          "odds": 3.0,
+          "conf": 66,
+          "type": "win",
+          "reason": "Form figures: 1642P-1. Recent form looks competitive in this company. J Tizzard is a positive in races of this type. Jockey: Dylan Johnston. Preferred as a win at around 3.00. Reading leans on the form book. Confidence 66%.",
+          "stars": 2
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Hello Sweety",
+          "odds": 5.5,
+          "conf": 64,
+          "type": "win",
+          "reason": "Form figures: 1231P3. Recent form looks competitive in this company. S Edmunds is a positive in races of this type. Jockey: Charlie Hammond. Preferred as a win at around 5.50. Yard/connections angle is weighted in this view. Confidence 64%.",
           "stars": 3
         },
         {
           "bot": "PaceProphet",
-          "horse": "Our Peggy",
-          "odds": 3.0,
-          "conf": 55,
+          "horse": "Golden Falls",
+          "odds": 2.75,
+          "conf": 57,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 3
+          "reason": "Form figures: 127741-. Recent form looks competitive in this company. L Wadham is a positive in races of this type. Jockey: Tom Cannon. Preferred as a win at around 2.75. How the race may unfold is part of the assessment. Confidence 57%.",
+          "stars": 1
         },
         {
           "bot": "ValueHunter",
-          "horse": "Hello Sweety",
-          "odds": 5.5,
-          "conf": 55,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 3
+          "horse": "Our Peggy",
+          "odds": 3.0,
+          "conf": 62,
+          "type": "win",
+          "reason": "Form figures: 1642P-1. Recent form looks competitive in this company. J Tizzard is a positive in races of this type. Jockey: Dylan Johnston. Preferred as a win at around 3.00. Price vs chance is the main filter here. Confidence 62%.",
+          "stars": 2
         }
       ]
     },
@@ -2027,58 +2027,58 @@
       "name": "Royal British Legion Poppy Appeal 2026 Handicap Chase (Class 5)",
       "tips": [
         {
-          "bot": "FormFox",
-          "horse": "Applejack Poet",
-          "odds": 2.1,
-          "conf": 63,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Applejack Poet",
-          "odds": 2.1,
-          "conf": 63,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
+          "bot": "BloodlineBetty",
           "horse": "Applejack Poet",
           "odds": 2.1,
           "conf": 62,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Applejack Poet",
-          "odds": 2.1,
-          "conf": 55,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "HotTrainer",
-          "horse": "Applejack Poet",
-          "odds": 2.1,
-          "conf": 55,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: P8F321. Recent form looks competitive in this company. B J Murphy is a positive in races of this type. Jockey: Rian Corcoran. Short enough (2.10) to treat as a win selection if the profile holds. Longer-term profile and breeding context factored in. Confidence 62%.",
+          "stars": 3
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Belle Montrose",
           "odds": 3.5,
+          "conf": 59,
+          "type": "win",
+          "reason": "Form figures: 61223-2. Recent form looks competitive in this company. S Drinkwater is a positive in races of this type. Jockey: K Brogan. Preferred as a win at around 3.50. Looking past the most obvious market horse where the data allows. Confidence 59%.",
+          "stars": 3
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Applejack Poet",
+          "odds": 2.1,
           "conf": 57,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 1
+          "reason": "Form figures: P8F321. Recent form looks competitive in this company. B J Murphy is a positive in races of this type. Jockey: Rian Corcoran. Short enough (2.10) to treat as a win selection if the profile holds. Reading leans on the form book. Confidence 57%.",
+          "stars": 3
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Applejack Poet",
+          "odds": 2.1,
+          "conf": 62,
+          "type": "win",
+          "reason": "Form figures: P8F321. Recent form looks competitive in this company. B J Murphy is a positive in races of this type. Jockey: Rian Corcoran. Short enough (2.10) to treat as a win selection if the profile holds. Yard/connections angle is weighted in this view. Confidence 62%.",
+          "stars": 3
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Belle Montrose",
+          "odds": 3.5,
+          "conf": 61,
+          "type": "win",
+          "reason": "Form figures: 61223-2. Recent form looks competitive in this company. S Drinkwater is a positive in races of this type. Jockey: K Brogan. Preferred as a win at around 3.50. How the race may unfold is part of the assessment. Confidence 61%.",
+          "stars": 3
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Belle Montrose",
+          "odds": 3.5,
+          "conf": 52,
+          "type": "win",
+          "reason": "Form figures: 61223-2. Recent form looks competitive in this company. S Drinkwater is a positive in races of this type. Jockey: K Brogan. Preferred as a win at around 3.50. Price vs chance is the main filter here. Confidence 52%.",
+          "stars": 3
         }
       ]
     },
@@ -2088,58 +2088,58 @@
       "name": "Get A Free Trial Of Racing TV Now Maiden Hurdle (GBB Race) (Class 4)",
       "tips": [
         {
-          "bot": "FormFox",
+          "bot": "BloodlineBetty",
           "horse": "Scotto",
           "odds": 2.0,
-          "conf": 69,
+          "conf": 60,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 113. Recent form looks competitive in this company. James Owen is a positive in races of this type. Jockey: J J Burke. Short enough (2.00) to treat as a win selection if the profile holds. Longer-term profile and breeding context factored in. Confidence 60%.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Scotto",
           "odds": 2.0,
-          "conf": 63,
+          "conf": 65,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 113. Recent form looks competitive in this company. James Owen is a positive in races of this type. Jockey: J J Burke. Short enough (2.00) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 65%.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Scotto",
+          "odds": 2.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "Form figures: 113. Recent form looks competitive in this company. James Owen is a positive in races of this type. Jockey: J J Burke. Short enough (2.00) to treat as a win selection if the profile holds. Reading leans on the form book. Confidence 61%.",
+          "stars": 6
         },
         {
           "bot": "HotTrainer",
           "horse": "Scotto",
           "odds": 2.0,
-          "conf": 62,
+          "conf": 59,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Scotto",
-          "odds": 2.0,
-          "conf": 60,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 113. Recent form looks competitive in this company. James Owen is a positive in races of this type. Jockey: J J Burke. Short enough (2.00) to treat as a win selection if the profile holds. Yard/connections angle is weighted in this view. Confidence 59%.",
+          "stars": 6
         },
         {
           "bot": "PaceProphet",
           "horse": "Scotto",
           "odds": 2.0,
-          "conf": 58,
+          "conf": 64,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 113. Recent form looks competitive in this company. James Owen is a positive in races of this type. Jockey: J J Burke. Short enough (2.00) to treat as a win selection if the profile holds. How the race may unfold is part of the assessment. Confidence 64%.",
+          "stars": 6
         },
         {
-          "bot": "BloodlineBetty",
+          "bot": "ValueHunter",
           "horse": "Scotto",
           "odds": 2.0,
-          "conf": 54,
+          "conf": 57,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 113. Recent form looks competitive in this company. James Owen is a positive in races of this type. Jockey: J J Burke. Short enough (2.00) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 57%.",
+          "stars": 6
         }
       ]
     },
@@ -2149,58 +2149,58 @@
       "name": "Jumps Looks Better On Racing TV Mares' Handicap Chase (Class 5)",
       "tips": [
         {
-          "bot": "FormFox",
+          "bot": "BloodlineBetty",
           "horse": "Gata Ban",
           "odds": 2.38,
-          "conf": 79,
+          "conf": 72,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 211431. Recent form looks competitive in this company. N P Mulholland is a positive in races of this type. Jockey: Dylan Johnston. Short enough (2.38) to treat as a win selection if the profile holds. Longer-term profile and breeding context factored in. Confidence 72%.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Gata Ban",
           "odds": 2.38,
-          "conf": 71,
+          "conf": 62,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 211431. Recent form looks competitive in this company. N P Mulholland is a positive in races of this type. Jockey: Dylan Johnston. Short enough (2.38) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 62%.",
+          "stars": 6
         },
         {
-          "bot": "PaceProphet",
+          "bot": "FormFox",
           "horse": "Gata Ban",
           "odds": 2.38,
-          "conf": 66,
+          "conf": 76,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 211431. Recent form looks competitive in this company. N P Mulholland is a positive in races of this type. Jockey: Dylan Johnston. Short enough (2.38) to treat as a win selection if the profile holds. Reading leans on the form book. Confidence 76%.",
+          "stars": 6
         },
         {
           "bot": "HotTrainer",
           "horse": "Gata Ban",
           "odds": 2.38,
-          "conf": 64,
-          "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
-        },
-        {
-          "bot": "BloodlineBetty",
-          "horse": "Gata Ban",
-          "odds": 2.38,
           "conf": 63,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 211431. Recent form looks competitive in this company. N P Mulholland is a positive in races of this type. Jockey: Dylan Johnston. Short enough (2.38) to treat as a win selection if the profile holds. Yard/connections angle is weighted in this view. Confidence 63%.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Gata Ban",
+          "odds": 2.38,
+          "conf": 68,
+          "type": "win",
+          "reason": "Form figures: 211431. Recent form looks competitive in this company. N P Mulholland is a positive in races of this type. Jockey: Dylan Johnston. Short enough (2.38) to treat as a win selection if the profile holds. How the race may unfold is part of the assessment. Confidence 68%.",
+          "stars": 6
         },
         {
           "bot": "ValueHunter",
           "horse": "Gata Ban",
           "odds": 2.38,
-          "conf": 60,
+          "conf": 71,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 4
+          "reason": "Form figures: 211431. Recent form looks competitive in this company. N P Mulholland is a positive in races of this type. Jockey: Dylan Johnston. Short enough (2.38) to treat as a win selection if the profile holds. Price vs chance is the main filter here. Confidence 71%.",
+          "stars": 6
         }
       ]
     },
@@ -2210,58 +2210,58 @@
       "name": "Get A Free Trial At racingtv.com/freetrial Handicap Hurdle (Class 4)",
       "tips": [
         {
-          "bot": "ValueHunter",
+          "bot": "BloodlineBetty",
+          "horse": "Mr Mackay",
+          "odds": 2.5,
+          "conf": 60,
+          "type": "win",
+          "reason": "Form figures: 42551/2. Recent form looks competitive in this company. N & W Twiston-Davies is a positive in races of this type. Jockey: Toby McCain-Mitchell. Short enough (2.50) to treat as a win selection if the profile holds. Longer-term profile and breeding context factored in. Confidence 60%.",
+          "stars": 3
+        },
+        {
+          "bot": "DevilAdvocate",
           "horse": "Mr Mackay",
           "odds": 2.5,
           "conf": 57,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
+          "reason": "Form figures: 42551/2. Recent form looks competitive in this company. N & W Twiston-Davies is a positive in races of this type. Jockey: Toby McCain-Mitchell. Short enough (2.50) to treat as a win selection if the profile holds. Looking past the most obvious market horse where the data allows. Confidence 57%.",
           "stars": 3
         },
         {
-          "bot": "BloodlineBetty",
+          "bot": "FormFox",
+          "horse": "Everyonesgame",
+          "odds": 3.25,
+          "conf": 61,
+          "type": "win",
+          "reason": "Form figures: 1765-22. Recent form looks competitive in this company. A Irvine is a positive in races of this type. Jockey: Chad Bament. Preferred as a win at around 3.25. Reading leans on the form book. Confidence 61%.",
+          "stars": 2
+        },
+        {
+          "bot": "HotTrainer",
           "horse": "Mr Mackay",
           "odds": 2.5,
-          "conf": 56,
+          "conf": 58,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
+          "reason": "Form figures: 42551/2. Recent form looks competitive in this company. N & W Twiston-Davies is a positive in races of this type. Jockey: Toby McCain-Mitchell. Short enough (2.50) to treat as a win selection if the profile holds. Yard/connections angle is weighted in this view. Confidence 58%.",
           "stars": 3
         },
         {
           "bot": "PaceProphet",
-          "horse": "Mr Mackay",
-          "odds": 2.5,
-          "conf": 54,
+          "horse": "At Mangan Bridge",
+          "odds": 7.0,
+          "conf": 49,
           "type": "win",
-          "reason": "Strong favourite with high confidence",
-          "stars": 3
+          "reason": "Form figures: 4/3511-0. Recent form looks competitive in this company. S Edmunds is a positive in races of this type. Jockey: Charlie Hammond. Preferred as a win at around 7.00. How the race may unfold is part of the assessment. Confidence 49%.",
+          "stars": 1
         },
         {
-          "bot": "HotTrainer",
-          "horse": "At Mangan Bridge",
-          "odds": 7.0,
-          "conf": 59,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
-          "bot": "FormFox",
-          "horse": "At Mangan Bridge",
-          "odds": 7.0,
-          "conf": 57,
-          "type": "ew",
-          "reason": "Each-way value at the price",
-          "stars": 2
-        },
-        {
-          "bot": "DevilAdvocate",
+          "bot": "ValueHunter",
           "horse": "Everyonesgame",
           "odds": 3.25,
-          "conf": 54,
+          "conf": 56,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 1
+          "reason": "Form figures: 1765-22. Recent form looks competitive in this company. A Irvine is a positive in races of this type. Jockey: Chad Bament. Preferred as a win at around 3.25. Price vs chance is the main filter here. Confidence 56%.",
+          "stars": 2
         }
       ]
     },
@@ -2271,62 +2271,104 @@
       "name": "31 Days Free Racing TV At racingtv.com/freetrial Novices' Handicap Chase (GBB Race) (Class 4)",
       "tips": [
         {
-          "bot": "HotTrainer",
-          "horse": "Mr Mcwhinny",
-          "odds": 2.62,
-          "conf": 71,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
           "bot": "BloodlineBetty",
-          "horse": "Mr Mcwhinny",
-          "odds": 2.62,
-          "conf": 68,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Mr Mcwhinny",
-          "odds": 2.62,
-          "conf": 67,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
-          "bot": "PaceProphet",
-          "horse": "Mr Mcwhinny",
-          "odds": 2.62,
-          "conf": 61,
-          "type": "win",
-          "reason": "Best option on the card",
-          "stars": 4
-        },
-        {
-          "bot": "FormFox",
           "horse": "Hawaii Du Mestivel",
           "odds": 3.75,
-          "conf": 71,
+          "conf": 69,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 2
+          "reason": "Form figures: 111/PP2-. Recent form looks competitive in this company. N P Mulholland is a positive in races of this type. Jockey: C O'Farrell. Preferred as a win at around 3.75. Longer-term profile and breeding context factored in. Confidence 69%.",
+          "stars": 5
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Hawaii Du Mestivel",
           "odds": 3.75,
-          "conf": 65,
+          "conf": 67,
           "type": "win",
-          "reason": "Best option on the card",
-          "stars": 2
+          "reason": "Form figures: 111/PP2-. Recent form looks competitive in this company. N P Mulholland is a positive in races of this type. Jockey: C O'Farrell. Preferred as a win at around 3.75. Looking past the most obvious market horse where the data allows. Confidence 67%.",
+          "stars": 5
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Hawaii Du Mestivel",
+          "odds": 3.75,
+          "conf": 63,
+          "type": "win",
+          "reason": "Form figures: 111/PP2-. Recent form looks competitive in this company. N P Mulholland is a positive in races of this type. Jockey: C O'Farrell. Preferred as a win at around 3.75. Reading leans on the form book. Confidence 63%.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Hawaii Du Mestivel",
+          "odds": 3.75,
+          "conf": 71,
+          "type": "win",
+          "reason": "Form figures: 111/PP2-. Recent form looks competitive in this company. N P Mulholland is a positive in races of this type. Jockey: C O'Farrell. Preferred as a win at around 3.75. Yard/connections angle is weighted in this view. Confidence 71%.",
+          "stars": 5
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Hawaii Du Mestivel",
+          "odds": 3.75,
+          "conf": 68,
+          "type": "win",
+          "reason": "Form figures: 111/PP2-. Recent form looks competitive in this company. N P Mulholland is a positive in races of this type. Jockey: C O'Farrell. Preferred as a win at around 3.75. How the race may unfold is part of the assessment. Confidence 68%.",
+          "stars": 5
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Mr Mcwhinny",
+          "odds": 2.62,
+          "conf": 59,
+          "type": "win",
+          "reason": "Form figures: 41112F. Recent form looks competitive in this company. T Ellis is a positive in races of this type. Jockey: Finn Lambert. Preferred as a win at around 2.62. Price vs chance is the main filter here. Confidence 59%.",
+          "stars": 1
         }
       ]
     }
   ],
-  "generated_at": "2026-11-22T16:14:08.191565Z",
-  "note": "Live scraped UK & Ireland racecards"
+  "chat": [
+    {
+      "bot": "FormFox",
+      "text": "Strongest agreement I\u2019m seeing is Oldschool Outlaw (Punchestown 14:00) \u2014 6 of us onside."
+    },
+    {
+      "bot": "ValueHunter",
+      "text": "Price on that one is about 1.62. Fine as an anchor if we build a double, but I want at least one longer leg."
+    },
+    {
+      "bot": "DevilAdvocate",
+      "text": "I\u2019d rather not just rubber-stamp the favourite cluster. Gata Ban at 2.38 is the one I\u2019d pair for a bit of value."
+    },
+    {
+      "bot": "HotTrainer",
+      "text": "As long as the yard angle isn\u2019t fighting the form, I\u2019m fine with a short-priced leg plus one each-way type."
+    },
+    {
+      "bot": "PaceProphet",
+      "text": "Race shape matters on the big-field handicaps \u2014 don\u2019t load six legs that all need a perfect trip."
+    },
+    {
+      "bot": "BloodlineBetty",
+      "text": "I\u2019m happy to go with the group double if we\u2019re honest about confidence and not stacking six thin opinions."
+    },
+    {
+      "bot": "FormFox",
+      "text": "Proposed winners double: Oldschool Outlaw (Punchestown 14:00) + Gata Ban (Fakenham 14:13)."
+    },
+    {
+      "bot": "ValueHunter",
+      "text": "Each-way double idea: Oldschool Outlaw (Punchestown 14:00) + Gata Ban (Fakenham 14:13)."
+    },
+    {
+      "bot": "DevilAdvocate",
+      "text": "If we\u2019re doing a 6-fold for fun, keep stakes tiny: Oldschool Outlaw (Punchestown 14:00) + Gata Ban (Fakenham 14:13) + Maria Da Silva (Lingfield 13:55) + Scotto (Fakenham 13:43) + Olympic Charter (Lingfield 12:55) + Politely (Lingfield 13:25)."
+    },
+    {
+      "bot": "HotTrainer",
+      "text": "Agreed \u2014 small stakes on the long accas. Main focus stays the single and double where agreement is highest."
+    }
+  ],
+  "generated_at": "2026-11-22T17:22:13.724707Z",
+  "note": "Free-choice tips; styles emerge from results over time"
 }
