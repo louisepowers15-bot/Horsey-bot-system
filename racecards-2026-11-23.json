@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-23",
+  "source": "sportinglife",
+  "scraped_at": "2026-11-22T11:09:52.455887Z",
+  "meetings": [
+    {
+      "course": "Exeter",
+      "going": "Good (Good to Firm in places)",
+      "races": [
+        {
+          "time": "12:37",
+          "name": "Sunday At The Races With Greendale EBF Junior 'National Hunt' Hurdle (GBB Race) (Class 4)",
+          "runners": []
+        },
+        {
+          "time": "13:07",
+          "name": "Elf Exeter Leukaemia Fund Mares' Novices' Hurdle (GBB Race) (Class 4)",
+          "runners": []
+        },
+        {
+          "time": "13:37",
+          "name": "Chris Down A Lifetime In Racing Novices' Limited Handicap Chase (GBB Race) (Class 3)",
+          "runners": []
+        },
+        {
+          "time": "14:07",
+          "name": "Happy 70th David Clements Handicap Hurdle (Class 3)",
+          "runners": []
+        },
+        {
+          "time": "14:37",
+          "name": "Exminster Golf Club Supporting Elf Handicap Chase (GBB Race) (Class 4)",
+          "runners": []
+        },
+        {
+          "time": "15:07",
+          "name": "Exe containers.com 'Four Years Old' Handicap Hurdle (Class 4)",
+          "runners": []
+        },
+        {
+          "time": "15:37",
+          "name": "Exminster Golf Centre Richard Candy Memorial Handicap Hurdle (Class 5)",
+          "runners": []
+        }
+      ]
+    },
+    {
+      "course": "Lingfield",
+      "going": "Standard",
+      "races": [
+        {
+          "time": "11:25",
+          "name": "All-Weather Championship Is Back 'Hands And Heels' Apprentice Handicap (Class 5)",
+          "runners": []
+        },
+        {
+          "time": "11:55",
+          "name": "AWC Season 14 Has Begun EBF Novice Stakes (GBB/GBBPlus Race) (Div 1) (Class 3)",
+          "runners": []
+        },
+        {
+          "time": "12:25",
+          "name": "AWC Season 14 Has Begun EBF Novice Stakes (GBB/GBBPlus Race) (Div 2) (Class 3)",
+          "runners": []
+        },
+        {
+          "time": "12:55",
+          "name": "Midnite A Next Generation Betting App Novice Stakes (GBB/GBBPlus Race) (Class 3)",
+          "runners": []
+        },
+        {
+          "time": "13:25",
+          "name": "Midnite It's Actually Pretty Good Handicap (GBBPlus Race) (Class 4)",
+          "runners": []
+        },
+        {
+          "time": "13:55",
+          "name": "AWC Finals Day At Newcastle 26th March Fillies' Handicap (Class 5)",
+          "runners": []
+        },
+        {
+          "time": "14:25",
+          "name": "Make The Move To Midnite Handicap (Class 6)",
+          "runners": []
+        },
+        {
+          "time": "14:55",
+          "name": "Midnite: Built For 2026 Not 2006 Handicap (Class 6)",
+          "runners": []
+        },
+        {
+          "time": "15:25",
+          "name": "Midnite Ain't Your Grandad's Bookie Handicap (Class 6)",
+          "runners": []
+        }
+      ]
+    },
+    {
+      "course": "Fakenham",
+      "going": "Good",
+      "races": [
+        {
+          "time": "12:43",
+          "name": "racingtv.com/freetrial - Last Day Mares' Handicap Hurdle (Class 4)",
+          "runners": []
+        },
+        {
+          "time": "13:13",
+          "name": "Royal British Legion Poppy Appeal 2026 Handicap Chase (Class 5)",
+          "runners": []
+        },
+        {
+          "time": "13:43",
+          "name": "Get A Free Trial Of Racing TV Now Maiden Hurdle (GBB Race) (Class 4)",
+          "runners": []
+        },
+        {
+          "time": "14:13",
+          "name": "Jumps Looks Better On Racing TV Mares' Handicap Chase (Class 5)",
+          "runners": []
+        },
+        {
+          "time": "14:43",
+          "name": "Get A Free Trial At racingtv.com/freetrial Handicap Hurdle (Class 4)",
+          "runners": []
+        },
+        {
+          "time": "15:13",
+          "name": "31 Days Free Racing TV At racingtv.com/freetrial Novices' Handicap Chase (GBB Race) (Class 4)",
+          "runners": []
+        }
+      ]
+    }
+  ]
+}
