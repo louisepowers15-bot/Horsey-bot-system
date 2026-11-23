@@ -200,13 +200,65 @@ def settle_one_day(d: date) -> dict | None:
     return settled
 
 
+def _finalise_bot_stats(stats: dict) -> dict:
+    tips_n = stats.get("tips") or 0
+    if tips_n:
+        stats["avg_odds"] = round(stats.get("_odds_sum", 0) / tips_n, 2)
+        stats["win_pct"] = round(100.0 * (stats.get("wins") or 0) / tips_n, 1)
+    else:
+        stats["avg_odds"] = 0.0
+        stats["win_pct"] = 0.0
+    stats.pop("_odds_sum", None)
+    st = max(0.01, stats.get("stakes") or 0)
+    stats["roi_pct"] = round(100.0 * (stats.get("pnl") or 0) / st, 1) if (stats.get("stakes") or 0) else 0.0
+    stats["pnl"] = round(stats.get("pnl") or 0, 2)
+    stats["stakes"] = round(stats.get("stakes") or 0, 2)
+    stats["returns"] = round(stats.get("returns") or 0, 2)
+    return stats
+
+
+def _apply_tip(bucket: dict, tip: dict) -> None:
+    bot = tip.get("bot")
+    if not bot:
+        return
+    if bot not in bucket:
+        bucket[bot] = empty_bot()
+    b = bucket[bot]
+    outcome = tip.get("outcome") or "unknown"
+    if outcome == "unknown":
+        b["unknown"] += 1
+        return
+    b["tips"] += 1
+    b["stakes"] += float(tip.get("stake") or 0)
+    b["returns"] += float(tip.get("return") or 0)
+    b["pnl"] += float(tip.get("pnl") or 0)
+    b["_odds_sum"] += float(tip.get("odds") or 0)
+    ttype = (tip.get("type") or "win").lower()
+    if ttype not in ("win", "ew"):
+        ttype = "win"
+    b["style"][ttype] = b["style"].get(ttype, 0) + 1
+    if outcome == "win":
+        b["wins"] += 1
+    elif outcome == "place":
+        b["places"] += 1
+    else:
+        b["losses"] += 1
+
+
 def rebuild_leaderboard_from_settled() -> dict:
-    """Rebuild leaderboard from every settled-*.json (idempotent)."""
-    lb = {
-        "updated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "bots": {b: empty_bot() for b in BOTS},
-        "history": [],
+    """Rebuild leaderboard from every settled-*.json (idempotent).
+
+    Also builds period slices: week (last 7 calendar days), month (last 30),
+    year (last 365), and all-time. UI can switch between them.
+    """
+    today = date.today()
+    periods = {
+        "all": {"bots": {b: empty_bot() for b in BOTS}},
+        "week": {"bots": {b: empty_bot() for b in BOTS}},
+        "month": {"bots": {b: empty_bot() for b in BOTS}},
+        "year": {"bots": {b: empty_bot() for b in BOTS}},
     }
+    history = []
     files = sorted(ROOT.glob("settled-*.json"))
     for path in files:
         data = load_json(path)
@@ -214,8 +266,13 @@ def rebuild_leaderboard_from_settled() -> dict:
             continue
         summary = data.get("summary") or {}
         ds = data.get("date") or summary.get("date")
+        day = None
         if ds:
-            lb["history"].append({
+            try:
+                day = datetime.strptime(ds, "%Y-%m-%d").date()
+            except ValueError:
+                day = None
+            history.append({
                 "date": ds,
                 "tips": summary.get("tips") or 0,
                 "settled": summary.get("settled") or 0,
@@ -224,47 +281,48 @@ def rebuild_leaderboard_from_settled() -> dict:
             })
         for race in data.get("races") or []:
             for tip in race.get("tips") or []:
-                bot = tip.get("bot")
-                if bot not in lb["bots"]:
-                    lb["bots"][bot] = empty_bot()
-                b = lb["bots"][bot]
-                outcome = tip.get("outcome") or "unknown"
-                if outcome == "unknown":
-                    b["unknown"] += 1
+                _apply_tip(periods["all"]["bots"], tip)
+                if day is None:
                     continue
-                b["tips"] += 1
-                stake = float(tip.get("stake") or 0)
-                ret = float(tip.get("return") or 0)
-                b["stakes"] += stake
-                b["returns"] += ret
-                b["pnl"] += float(tip.get("pnl") or 0)
-                b["_odds_sum"] += float(tip.get("odds") or 0)
-                ttype = (tip.get("type") or "win").lower()
-                if ttype not in b["style"]:
-                    ttype = "win"
-                b["style"][ttype] = b["style"].get(ttype, 0) + 1
-                if outcome == "win":
-                    b["wins"] += 1
-                elif outcome == "place":
-                    b["places"] += 1
-                else:
-                    b["losses"] += 1
+                age = (today - day).days
+                if age <= 7:
+                    _apply_tip(periods["week"]["bots"], tip)
+                if age <= 30:
+                    _apply_tip(periods["month"]["bots"], tip)
+                if age <= 365:
+                    _apply_tip(periods["year"]["bots"], tip)
 
-    lb["history"] = sorted(lb["history"], key=lambda x: x.get("date") or "")[-90:]
-    for b, stats in lb["bots"].items():
-        tips_n = max(1, stats.get("tips") or 0)
-        stats["avg_odds"] = round(stats.get("_odds_sum", 0) / tips_n, 2) if stats.get("tips") else 0.0
-        stats.pop("_odds_sum", None)
-        st = max(0.01, stats.get("stakes") or 0)
-        stats["roi_pct"] = round(100.0 * (stats.get("pnl") or 0) / st, 1)
-        stats["win_pct"] = round(100.0 * (stats.get("wins") or 0) / tips_n, 1)
-        stats["pnl"] = round(stats.get("pnl") or 0, 2)
-        stats["stakes"] = round(stats.get("stakes") or 0, 2)
-        stats["returns"] = round(stats.get("returns") or 0, 2)
+    for period in periods.values():
+        for bot, stats in period["bots"].items():
+            _finalise_bot_stats(stats)
+
+    # Best tipster per period (by ROI, min 5 settled tips)
+    for key, period in periods.items():
+        ranked = [
+            (bid, s) for bid, s in period["bots"].items()
+            if (s.get("tips") or 0) >= 5
+        ]
+        ranked.sort(key=lambda x: (x[1].get("roi_pct") or -999), reverse=True)
+        period["best_roi"] = ranked[0][0] if ranked else None
+        ranked_w = sorted(
+            [(bid, s) for bid, s in period["bots"].items() if (s.get("tips") or 0) >= 5],
+            key=lambda x: (x[1].get("win_pct") or -1),
+            reverse=True,
+        )
+        period["best_win"] = ranked_w[0][0] if ranked_w else None
+
+    lb = {
+        "updated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "bots": periods["all"]["bots"],  # back-compat for older UI
+        "periods": periods,
+        "best_roi": periods["all"]["best_roi"],
+        "best_win": periods["all"]["best_win"],
+        "history": sorted(history, key=lambda x: x.get("date") or "")[-90:],
+    }
 
     path = ROOT / "leaderboard.json"
     path.write_text(json.dumps(lb, indent=2), encoding="utf-8")
-    print(f"Rebuilt {path} from {len(files)} settled day file(s)")
+    print(f"Rebuilt {path} from {len(files)} settled day file(s); best ROI={lb['best_roi']}")
     return lb
 
 

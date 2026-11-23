@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T17:35:50.843523Z",
+  "updated_at": "2026-11-23T17:41:43.202647Z",
   "bots": {
     "BloodlineBetty": {
       "tips": 51,
@@ -15,8 +15,8 @@
         "win": 44,
         "ew": 7
       },
-      "roi_pct": -9.3,
-      "win_pct": 25.5
+      "win_pct": 25.5,
+      "roi_pct": -9.3
     },
     "DevilAdvocate": {
       "tips": 51,
@@ -32,8 +32,8 @@
         "win": 43,
         "ew": 8
       },
-      "roi_pct": 9.1,
-      "win_pct": 23.5
+      "win_pct": 23.5,
+      "roi_pct": 9.1
     },
     "FormFox": {
       "tips": 51,
@@ -49,8 +49,8 @@
         "win": 44,
         "ew": 7
       },
-      "roi_pct": -19.1,
-      "win_pct": 21.6
+      "win_pct": 21.6,
+      "roi_pct": -19.1
     },
     "HotTrainer": {
       "tips": 51,
@@ -66,8 +66,8 @@
         "win": 46,
         "ew": 5
       },
-      "roi_pct": -25.6,
-      "win_pct": 23.5
+      "win_pct": 23.5,
+      "roi_pct": -25.6
     },
     "PaceProphet": {
       "tips": 51,
@@ -83,8 +83,8 @@
         "win": 44,
         "ew": 7
       },
-      "roi_pct": -1.7,
-      "win_pct": 27.5
+      "win_pct": 27.5,
+      "roi_pct": -1.7
     },
     "ValueHunter": {
       "tips": 51,
@@ -100,10 +100,446 @@
         "win": 43,
         "ew": 8
       },
-      "roi_pct": 16.2,
-      "win_pct": 27.5
+      "win_pct": 27.5,
+      "roi_pct": 16.2
     }
   },
+  "periods": {
+    "all": {
+      "bots": {
+        "BloodlineBetty": {
+          "tips": 51,
+          "wins": 13,
+          "places": 3,
+          "losses": 35,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 46.27,
+          "pnl": -4.73,
+          "avg_odds": 5.46,
+          "style": {
+            "win": 44,
+            "ew": 7
+          },
+          "win_pct": 25.5,
+          "roi_pct": -9.3
+        },
+        "DevilAdvocate": {
+          "tips": 51,
+          "wins": 12,
+          "places": 4,
+          "losses": 35,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 55.64,
+          "pnl": 4.64,
+          "avg_odds": 5.61,
+          "style": {
+            "win": 43,
+            "ew": 8
+          },
+          "win_pct": 23.5,
+          "roi_pct": 9.1
+        },
+        "FormFox": {
+          "tips": 51,
+          "wins": 11,
+          "places": 3,
+          "losses": 37,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 41.23,
+          "pnl": -9.77,
+          "avg_odds": 5.33,
+          "style": {
+            "win": 44,
+            "ew": 7
+          },
+          "win_pct": 21.6,
+          "roi_pct": -19.1
+        },
+        "HotTrainer": {
+          "tips": 51,
+          "wins": 12,
+          "places": 2,
+          "losses": 37,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 37.94,
+          "pnl": -13.06,
+          "avg_odds": 4.56,
+          "style": {
+            "win": 46,
+            "ew": 5
+          },
+          "win_pct": 23.5,
+          "roi_pct": -25.6
+        },
+        "PaceProphet": {
+          "tips": 51,
+          "wins": 14,
+          "places": 4,
+          "losses": 33,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 50.13,
+          "pnl": -0.87,
+          "avg_odds": 5.0,
+          "style": {
+            "win": 44,
+            "ew": 7
+          },
+          "win_pct": 27.5,
+          "roi_pct": -1.7
+        },
+        "ValueHunter": {
+          "tips": 51,
+          "wins": 14,
+          "places": 3,
+          "losses": 34,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 59.29,
+          "pnl": 8.29,
+          "avg_odds": 5.7,
+          "style": {
+            "win": 43,
+            "ew": 8
+          },
+          "win_pct": 27.5,
+          "roi_pct": 16.2
+        }
+      },
+      "best_roi": "ValueHunter",
+      "best_win": "PaceProphet"
+    },
+    "week": {
+      "bots": {
+        "BloodlineBetty": {
+          "tips": 51,
+          "wins": 13,
+          "places": 3,
+          "losses": 35,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 46.27,
+          "pnl": -4.73,
+          "avg_odds": 5.46,
+          "style": {
+            "win": 44,
+            "ew": 7
+          },
+          "win_pct": 25.5,
+          "roi_pct": -9.3
+        },
+        "DevilAdvocate": {
+          "tips": 51,
+          "wins": 12,
+          "places": 4,
+          "losses": 35,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 55.64,
+          "pnl": 4.64,
+          "avg_odds": 5.61,
+          "style": {
+            "win": 43,
+            "ew": 8
+          },
+          "win_pct": 23.5,
+          "roi_pct": 9.1
+        },
+        "FormFox": {
+          "tips": 51,
+          "wins": 11,
+          "places": 3,
+          "losses": 37,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 41.23,
+          "pnl": -9.77,
+          "avg_odds": 5.33,
+          "style": {
+            "win": 44,
+            "ew": 7
+          },
+          "win_pct": 21.6,
+          "roi_pct": -19.1
+        },
+        "HotTrainer": {
+          "tips": 51,
+          "wins": 12,
+          "places": 2,
+          "losses": 37,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 37.94,
+          "pnl": -13.06,
+          "avg_odds": 4.56,
+          "style": {
+            "win": 46,
+            "ew": 5
+          },
+          "win_pct": 23.5,
+          "roi_pct": -25.6
+        },
+        "PaceProphet": {
+          "tips": 51,
+          "wins": 14,
+          "places": 4,
+          "losses": 33,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 50.13,
+          "pnl": -0.87,
+          "avg_odds": 5.0,
+          "style": {
+            "win": 44,
+            "ew": 7
+          },
+          "win_pct": 27.5,
+          "roi_pct": -1.7
+        },
+        "ValueHunter": {
+          "tips": 51,
+          "wins": 14,
+          "places": 3,
+          "losses": 34,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 59.29,
+          "pnl": 8.29,
+          "avg_odds": 5.7,
+          "style": {
+            "win": 43,
+            "ew": 8
+          },
+          "win_pct": 27.5,
+          "roi_pct": 16.2
+        }
+      },
+      "best_roi": "ValueHunter",
+      "best_win": "PaceProphet"
+    },
+    "month": {
+      "bots": {
+        "BloodlineBetty": {
+          "tips": 51,
+          "wins": 13,
+          "places": 3,
+          "losses": 35,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 46.27,
+          "pnl": -4.73,
+          "avg_odds": 5.46,
+          "style": {
+            "win": 44,
+            "ew": 7
+          },
+          "win_pct": 25.5,
+          "roi_pct": -9.3
+        },
+        "DevilAdvocate": {
+          "tips": 51,
+          "wins": 12,
+          "places": 4,
+          "losses": 35,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 55.64,
+          "pnl": 4.64,
+          "avg_odds": 5.61,
+          "style": {
+            "win": 43,
+            "ew": 8
+          },
+          "win_pct": 23.5,
+          "roi_pct": 9.1
+        },
+        "FormFox": {
+          "tips": 51,
+          "wins": 11,
+          "places": 3,
+          "losses": 37,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 41.23,
+          "pnl": -9.77,
+          "avg_odds": 5.33,
+          "style": {
+            "win": 44,
+            "ew": 7
+          },
+          "win_pct": 21.6,
+          "roi_pct": -19.1
+        },
+        "HotTrainer": {
+          "tips": 51,
+          "wins": 12,
+          "places": 2,
+          "losses": 37,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 37.94,
+          "pnl": -13.06,
+          "avg_odds": 4.56,
+          "style": {
+            "win": 46,
+            "ew": 5
+          },
+          "win_pct": 23.5,
+          "roi_pct": -25.6
+        },
+        "PaceProphet": {
+          "tips": 51,
+          "wins": 14,
+          "places": 4,
+          "losses": 33,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 50.13,
+          "pnl": -0.87,
+          "avg_odds": 5.0,
+          "style": {
+            "win": 44,
+            "ew": 7
+          },
+          "win_pct": 27.5,
+          "roi_pct": -1.7
+        },
+        "ValueHunter": {
+          "tips": 51,
+          "wins": 14,
+          "places": 3,
+          "losses": 34,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 59.29,
+          "pnl": 8.29,
+          "avg_odds": 5.7,
+          "style": {
+            "win": 43,
+            "ew": 8
+          },
+          "win_pct": 27.5,
+          "roi_pct": 16.2
+        }
+      },
+      "best_roi": "ValueHunter",
+      "best_win": "PaceProphet"
+    },
+    "year": {
+      "bots": {
+        "BloodlineBetty": {
+          "tips": 51,
+          "wins": 13,
+          "places": 3,
+          "losses": 35,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 46.27,
+          "pnl": -4.73,
+          "avg_odds": 5.46,
+          "style": {
+            "win": 44,
+            "ew": 7
+          },
+          "win_pct": 25.5,
+          "roi_pct": -9.3
+        },
+        "DevilAdvocate": {
+          "tips": 51,
+          "wins": 12,
+          "places": 4,
+          "losses": 35,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 55.64,
+          "pnl": 4.64,
+          "avg_odds": 5.61,
+          "style": {
+            "win": 43,
+            "ew": 8
+          },
+          "win_pct": 23.5,
+          "roi_pct": 9.1
+        },
+        "FormFox": {
+          "tips": 51,
+          "wins": 11,
+          "places": 3,
+          "losses": 37,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 41.23,
+          "pnl": -9.77,
+          "avg_odds": 5.33,
+          "style": {
+            "win": 44,
+            "ew": 7
+          },
+          "win_pct": 21.6,
+          "roi_pct": -19.1
+        },
+        "HotTrainer": {
+          "tips": 51,
+          "wins": 12,
+          "places": 2,
+          "losses": 37,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 37.94,
+          "pnl": -13.06,
+          "avg_odds": 4.56,
+          "style": {
+            "win": 46,
+            "ew": 5
+          },
+          "win_pct": 23.5,
+          "roi_pct": -25.6
+        },
+        "PaceProphet": {
+          "tips": 51,
+          "wins": 14,
+          "places": 4,
+          "losses": 33,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 50.13,
+          "pnl": -0.87,
+          "avg_odds": 5.0,
+          "style": {
+            "win": 44,
+            "ew": 7
+          },
+          "win_pct": 27.5,
+          "roi_pct": -1.7
+        },
+        "ValueHunter": {
+          "tips": 51,
+          "wins": 14,
+          "places": 3,
+          "losses": 34,
+          "unknown": 25,
+          "stakes": 51.0,
+          "returns": 59.29,
+          "pnl": 8.29,
+          "avg_odds": 5.7,
+          "style": {
+            "win": 43,
+            "ew": 8
+          },
+          "win_pct": 27.5,
+          "roi_pct": 16.2
+        }
+      },
+      "best_roi": "ValueHunter",
+      "best_win": "PaceProphet"
+    }
+  },
+  "best_roi": "ValueHunter",
+  "best_win": "PaceProphet",
   "history": [
     {
       "date": "2026-11-22",

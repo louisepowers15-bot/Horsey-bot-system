@@ -118,7 +118,37 @@
     background: #3d2914; border: 1px solid #c47b2c; color: #f0d9b5;
     padding: 12px 16px; border-radius: 10px; margin: 12px 0; font-size: 0.95rem; line-height: 1.45;
   }
-</style>
+
+    .lb-period-tabs { display:flex; flex-wrap:wrap; gap:0.4rem; margin:0.75rem 0 1rem; }
+    .lb-period-tabs button {
+      background: var(--card); border: 1px solid var(--border); color: var(--muted);
+      padding: 0.35rem 0.85rem; border-radius: 9999px; cursor: pointer; font-size: 0.8rem;
+    }
+    .lb-period-tabs button.active { background:#0ea5e9; color:#fff; border-color:#0ea5e9; }
+    .lb-table th, .lb-table td { padding: 0.55rem 0.5rem; border-bottom: 1px solid var(--border); }
+    .lb-table tr.lb-best-roi { background: linear-gradient(90deg, rgba(234,179,8,0.18), transparent); }
+    .lb-table tr.lb-best-win { box-shadow: inset 3px 0 0 #38bdf8; }
+    .lb-crown { margin-left: 0.35rem; font-size: 0.95rem; }
+    .lb-pill {
+      display:inline-block; font-size:0.7rem; font-weight:700; padding:0.1rem 0.45rem;
+      border-radius:9999px; margin-left:0.35rem; vertical-align:middle;
+    }
+    .lb-pill-gold { background:#854d0e; color:#fef08a; }
+    .lb-pill-blue { background:#0c4a6e; color:#bae6fd; }
+    .lb-roi-pos { color:#4ade80; font-weight:600; }
+    .lb-roi-neg { color:#f87171; font-weight:600; }
+    .lb-podium {
+      display:grid; grid-template-columns:1fr; gap:0.5rem; margin:0.75rem 0 1rem;
+    }
+    @media (min-width:640px){ .lb-podium { grid-template-columns:1fr 1fr; } }
+    .lb-podium-card {
+      background: var(--card); border:1px solid var(--border); border-radius:0.75rem;
+      padding:0.85rem 1rem;
+    }
+    .lb-podium-card h3 { font-size:0.8rem; color:var(--muted); font-weight:600; margin-bottom:0.35rem; }
+    .lb-podium-card .val { font-size:1.15rem; font-weight:700; }
+
+  </style>
 
 </head>
 <body>
@@ -394,47 +424,135 @@ function renderChat() {
 }
 
 function renderLeaderboard() {
-  return '<div class="section-title">Bot Leaderboard</div><p style="color:#94a3b8;text-align:center;padding:1rem" id="lb-loading">Loading leaderboard…</p><div id="lb-root"></div>';
+  return '<div class="section-title">Bot Leaderboard</div>' +
+    '<div class="lb-period-tabs" id="lb-period-tabs">' +
+      '<button type="button" data-period="all" class="active">All time</button>' +
+      '<button type="button" data-period="week">This week</button>' +
+      '<button type="button" data-period="month">This month</button>' +
+      '<button type="button" data-period="year">This year</button>' +
+    '</div>' +
+    '<p style="color:#94a3b8;text-align:center;padding:1rem" id="lb-loading">Loading leaderboard…</p>' +
+    '<div id="lb-root"></div>';
 }
 
-async function fillLeaderboard() {
+async function fillLeaderboard(period) {
   const root = document.getElementById("lb-root");
   const loading = document.getElementById("lb-loading");
   if (!root) {
     console.warn("fillLeaderboard: #lb-root missing");
     return;
   }
-  let data = null;
-  try {
-    const res = await fetch("./leaderboard.json?t=" + Date.now());
-    if (!res.ok) throw new Error("HTTP " + res.status);
-    data = await res.json();
-  } catch (e) {
-    console.error("fillLeaderboard fetch failed", e);
-    if (loading) loading.remove();
-    root.innerHTML = '<p style="color:#f87171;text-align:center;padding:1.5rem">Could not load leaderboard.json (' + e.message + ').</p>';
-    return;
+  period = period || window._lbPeriod || "all";
+  window._lbPeriod = period;
+
+  let data = window._lbData || null;
+  if (!data) {
+    try {
+      const res = await fetch("./leaderboard.json?t=" + Date.now());
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      data = await res.json();
+      window._lbData = data;
+    } catch (e) {
+      console.error("fillLeaderboard fetch failed", e);
+      if (loading) loading.remove();
+      root.innerHTML = '<p style="color:#f87171;text-align:center;padding:1.5rem">Could not load leaderboard.json (' + e.message + ').</p>';
+      return;
+    }
   }
   if (loading) loading.remove();
-  if (!data || !data.bots) {
-    root.innerHTML = '<p style="color:#94a3b8;text-align:center;padding:1.5rem">No settled results yet. Leaderboard fills after the evening results job runs.</p>';
+
+  // Resolve period slice (back-compat if periods missing)
+  let slice = null;
+  if (data.periods && data.periods[period]) {
+    slice = data.periods[period];
+  } else if (period === "all" && data.bots) {
+    slice = { bots: data.bots, best_roi: data.best_roi, best_win: data.best_win };
+  }
+  if (!slice || !slice.bots) {
+    root.innerHTML = '<p style="color:#94a3b8;text-align:center;padding:1.5rem">No settled results yet for this period.</p>';
     return;
   }
-  const rows = Object.keys(data.bots).map(id => {
-    const b = data.bots[id];
-    const bot = BOTS[id] || { name: id, colour: "#64748b" };
-    const roi = b.roi_pct != null ? b.roi_pct : 0;
-    return '<tr><td><span class="bot-badge" style="background:' + bot.colour + '">' + bot.name + '</span></td>' +
+
+  const bots = slice.bots;
+  const ranked = Object.keys(bots).map(id => {
+    const b = bots[id];
+    return { id: id, b: b, roi: b.roi_pct != null ? b.roi_pct : 0, win: b.win_pct != null ? b.win_pct : 0, tips: b.tips || 0 };
+  }).sort((a, c) => c.roi - a.roi);
+
+  const bestRoi = slice.best_roi || (ranked.filter(x => x.tips >= 5)[0] || ranked[0] || {}).id;
+  let bestWin = slice.best_win;
+  if (!bestWin) {
+    const byWin = ranked.slice().filter(x => x.tips >= 5).sort((a, c) => c.win - a.win);
+    bestWin = (byWin[0] || ranked[0] || {}).id;
+  }
+
+  const bestRoiBot = BOTS[bestRoi] || { name: bestRoi || "—", colour: "#64748b" };
+  const bestWinBot = BOTS[bestWin] || { name: bestWin || "—", colour: "#64748b" };
+  const bestRoiStats = bestRoi && bots[bestRoi] ? bots[bestRoi] : null;
+  const bestWinStats = bestWin && bots[bestWin] ? bots[bestWin] : null;
+
+  const podium =
+    '<div class="lb-podium">' +
+      '<div class="lb-podium-card">' +
+        '<h3>🏆 Best ROI</h3>' +
+        '<div class="val"><span class="bot-badge" style="background:' + bestRoiBot.colour + '">' + bestRoiBot.name + '</span> ' +
+        (bestRoiStats ? '<span class="lb-roi-pos">+' + (bestRoiStats.roi_pct || 0) + '%</span>' : '—') + '</div>' +
+        (bestRoiStats ? '<div style="color:#94a3b8;font-size:0.8rem;margin-top:0.25rem">' + (bestRoiStats.tips || 0) + ' tips · Win ' + (bestRoiStats.win_pct || 0) + '%</div>' : '') +
+      '</div>' +
+      '<div class="lb-podium-card">' +
+        '<h3>🎯 Best strike rate</h3>' +
+        '<div class="val"><span class="bot-badge" style="background:' + bestWinBot.colour + '">' + bestWinBot.name + '</span> ' +
+        (bestWinStats ? (bestWinStats.win_pct || 0) + '%' : '—') + '</div>' +
+        (bestWinStats ? '<div style="color:#94a3b8;font-size:0.8rem;margin-top:0.25rem">' + (bestWinStats.tips || 0) + ' tips · ROI ' + ((bestWinStats.roi_pct || 0) >= 0 ? '+' : '') + (bestWinStats.roi_pct || 0) + '%</div>' : '') +
+      '</div>' +
+    '</div>';
+
+  const rows = ranked.map((row, idx) => {
+    const b = row.b;
+    const bot = BOTS[row.id] || { name: row.id, colour: "#64748b" };
+    const roi = row.roi;
+    const cls = [];
+    if (row.id === bestRoi) cls.push("lb-best-roi");
+    if (row.id === bestWin) cls.push("lb-best-win");
+    let pills = "";
+    if (row.id === bestRoi) pills += '<span class="lb-pill lb-pill-gold">BEST ROI</span>';
+    if (row.id === bestWin) pills += '<span class="lb-pill lb-pill-blue">BEST WIN%</span>';
+    if (idx === 0) pills += '<span class="lb-crown">👑</span>';
+    const roiCls = roi >= 0 ? "lb-roi-pos" : "lb-roi-neg";
+    return '<tr class="' + cls.join(" ") + '">' +
+      '<td><span class="bot-badge" style="background:' + bot.colour + '">' + bot.name + '</span>' + pills + '</td>' +
       '<td>' + (b.tips || 0) + '</td>' +
       '<td>' + (b.win_pct != null ? b.win_pct : 0) + '%</td>' +
-      '<td>' + (roi >= 0 ? '+' : '') + roi + '%</td>' +
+      '<td class="' + roiCls + '">' + (roi >= 0 ? "+" : "") + roi + '%</td>' +
       '<td>' + (b.avg_odds || 0) + '</td>' +
       '<td>W ' + (b.style && b.style.win || 0) + ' / EW ' + (b.style && b.style.ew || 0) + '</td></tr>';
   }).join("");
-  root.innerHTML = '<p style="color:#94a3b8;font-size:0.85rem;margin-bottom:0.75rem">Updated: ' + (data.updated_at || '—') + ' · Level £1 stakes · E/W place terms by field size</p>' +
+
+  const periodLabel = { all: "All time", week: "Last 7 days", month: "Last 30 days", year: "Last 365 days" }[period] || period;
+  root.innerHTML =
+    podium +
+    '<p style="color:#94a3b8;font-size:0.85rem;margin-bottom:0.75rem">Showing: <strong style="color:#e2e8f0">' + periodLabel + '</strong> · Updated: ' + (data.updated_at || "—") + ' · Level £1 stakes</p>' +
     '<table class="lb-table" style="width:100%;border-collapse:collapse;font-size:0.9rem">' +
     '<thead><tr style="color:#94a3b8;text-align:left"><th>Bot</th><th>Tips</th><th>Win%</th><th>ROI</th><th>Avg odds</th><th>Style</th></tr></thead>' +
     '<tbody>' + rows + '</tbody></table>';
+
+  // Wire period tabs
+  const tabs = document.getElementById("lb-period-tabs");
+  if (tabs && !tabs._wired) {
+    tabs._wired = true;
+    tabs.addEventListener("click", function(e) {
+      const btn = e.target.closest("button[data-period]");
+      if (!btn) return;
+      tabs.querySelectorAll("button").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      fillLeaderboard(btn.dataset.period);
+    });
+  }
+  if (tabs) {
+    tabs.querySelectorAll("button").forEach(b => {
+      b.classList.toggle("active", b.dataset.period === period);
+    });
+  }
 }
 
 function renderContent() {
