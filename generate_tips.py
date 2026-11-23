@@ -557,7 +557,7 @@ def tipster_reason(bot, r, tip_type, conf, field_size, rivals: list[dict] | None
         if trip_lab:
             sentences.append(_pick(seed + "t", [
                 f"The {trip_lab} looks a natural fit.",
-                f"Happy enough with this horse tackling {trip or "today's trip"}.",
+                f"Happy enough with this horse tackling {trip or 'this trip'}.",
             ]))
         if surface == "AW":
             sentences.append(f"AW specialist tracks like {course or 'this'} often suit this type once they learn the surface.")
