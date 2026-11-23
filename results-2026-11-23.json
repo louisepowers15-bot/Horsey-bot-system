@@ -1,7 +1,7 @@
 {
   "date": "2026-11-23",
   "source": "sportinglife",
-  "scraped_at": "2026-11-23T13:10:24.096224Z",
+  "scraped_at": "2026-11-23T13:33:50.298220Z",
   "meetings": [
     {
       "course": "Huntingdon",
@@ -61,6 +61,88 @@
               "position": 0,
               "status": "RUNNER",
               "sp": 126.0
+            }
+          ]
+        },
+        {
+          "time": "13:15",
+          "name": "Christmas Parties At Huntingdon Racecourse Handicap Hurdle",
+          "course": "Huntingdon",
+          "distance": "1m 7f 171y",
+          "going": "Good",
+          "field_size": 12,
+          "runners": [
+            {
+              "name": "Tazman Dan",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 4.0
+            },
+            {
+              "name": "Chico Magnifica",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 3.0
+            },
+            {
+              "name": "Imperial Trooper",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 19.0
+            },
+            {
+              "name": "Uncle Remus",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 4.5
+            },
+            {
+              "name": "Papa Oscar",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 12.0
+            },
+            {
+              "name": "Zucayan",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Dotties Star",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 9.0
+            },
+            {
+              "name": "Callero",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Mr Zee",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Amalfina",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Saucats",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 15.0
+            },
+            {
+              "name": "Master Dunraven",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 17.0
             }
           ]
         }
@@ -170,6 +252,34 @@
               "position": 0,
               "status": "NONRUNNER",
               "sp": 1.14
+            }
+          ]
+        },
+        {
+          "time": "13:25",
+          "name": "CopyBet Pay First Past The Post Novices' Limited Handicap Chase (GBB Race)",
+          "course": "Kempton",
+          "distance": "2m 2f",
+          "going": "Good",
+          "field_size": 3,
+          "runners": [
+            {
+              "name": "Cinquenta",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 2.5
+            },
+            {
+              "name": "Bond Broker",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 4.0
+            },
+            {
+              "name": "Dance And Glance",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 2.38
             }
           ]
         }

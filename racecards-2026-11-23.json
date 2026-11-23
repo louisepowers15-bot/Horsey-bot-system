@@ -1,7 +1,7 @@
 {
   "date": "2026-11-23",
   "source": "sportinglife",
-  "scraped_at": "2026-11-23T13:09:35.924348Z",
+  "scraped_at": "2026-11-23T13:32:59.078545Z",
   "race_id_fingerprint": [
     "949814",
     "949815",
@@ -42,6 +42,7 @@
     "950461",
     "950462"
   ],
+  "published": true,
   "note": null,
   "meetings": [
     {
@@ -146,7 +147,11 @@
                   "race_name": "Watch Live Racing At Betway Handicap",
                   "odds": "66/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 7}",
+              "days_off": 42,
+              "age": 4,
+              "official_rating": null
             },
             {
               "name": "Big Win",
@@ -238,7 +243,11 @@
                   "race_name": "High Gosforth Park Golf Club Handicap",
                   "odds": "5/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 42,
+              "age": 4,
+              "official_rating": null
             },
             {
               "name": "Donegal",
@@ -330,7 +339,11 @@
                   "race_name": "J. Bollard Stakes",
                   "odds": "9/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 315,
+              "age": 4,
+              "official_rating": null
             },
             {
               "name": "Double The Dance",
@@ -398,7 +411,11 @@
                   "race_name": "Ladbrokes Get Rewarded With Ladbucks Open NH Flat Race (GBB Race)",
                   "odds": "17/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 252,
+              "age": 5,
+              "official_rating": null
             },
             {
               "name": "My Mate Aj",
@@ -478,7 +495,11 @@
                   "race_name": "Own A Share With Owners Group Open NH Flat Race (GBB Race)",
                   "odds": "2/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 27,
+              "age": 5,
+              "official_rating": null
             },
             {
               "name": "Talladale",
@@ -534,7 +555,11 @@
                   "race_name": "QuinnBet Open NH Flat Race (GBB Race)",
                   "odds": "9/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 90,
+              "age": 4,
+              "official_rating": null
             },
             {
               "name": "Trapper John",
@@ -626,7 +651,11 @@
                   "race_name": "Sky Sports Racing Virgin 519 Maiden Hurdle (GBB Race)",
                   "odds": "66/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 16,
+              "age": 5,
+              "official_rating": null
             },
             {
               "name": "Vinne",
@@ -670,7 +699,11 @@
                   "race_name": "Download The Matchbook App Mares' Open NH Flat Race (GBB Race)",
                   "odds": "100/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 16,
+              "age": 4,
+              "official_rating": null
             }
           ],
           "race_id": "949814"
@@ -685,13 +718,13 @@
           "runners": [
             {
               "name": "Imperial Trooper",
-              "odds": 21.0,
+              "odds": 19.0,
               "jockey": "Ian Power",
               "trainer": "J Candlish",
-              "form": "383560",
+              "form": "338356",
               "form_source": "previous_results",
               "form_summary_raw": "533",
-              "form_score": 0.47,
+              "form_score": 0.53,
               "trainer_score": 0.4,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
@@ -701,6 +734,18 @@
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Huntingdon",
+                  "distance": "1m 7f 171y",
+                  "weight": "12-0",
+                  "weight_lbs": 168,
+                  "position": 3,
+                  "going": "Good",
+                  "run_type": "HURDLE",
+                  "race_name": "Christmas Parties At Huntingdon Racecourse Handicap Hurdle",
+                  "odds": "18/1"
+                },
                 {
                   "date": "2026-10-07",
                   "course": "Sedgefield",
@@ -760,39 +805,43 @@
                   "run_type": "FLAT",
                   "race_name": "Oakmere Homes Racing For Macmillan Handicap",
                   "odds": "18/5"
-                },
-                {
-                  "date": "2026-05-08",
-                  "course": "Chester",
-                  "distance": "1m 4f 63y",
-                  "weight": "9-3",
-                  "weight_lbs": 129,
-                  "position": 15,
-                  "going": "Good (Good to Soft in places)",
-                  "run_type": "FLAT",
-                  "race_name": "Chester Roman Day On 30th May Apprentice Handicap (GBBPlus Race)",
-                  "odds": "18/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 47,
+              "age": 4,
+              "official_rating": 100
             },
             {
               "name": "Tazman Dan",
-              "odds": 8.0,
+              "odds": 4.0,
               "jockey": "Charlie Hammond",
               "trainer": "S Edmunds",
-              "form": "344756",
+              "form": "134475",
               "form_source": "previous_results",
               "form_summary_raw": "657-443",
-              "form_score": 0.41,
-              "trainer_score": 0.4,
+              "form_score": 0.58,
+              "trainer_score": 0.48,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
-              "value_score": 0.23,
+              "value_score": 0.35,
               "weight": "11-11",
               "weight_lbs": 165,
-              "last_win_weight_lbs": null,
-              "weight_delta_lbs": null,
+              "last_win_weight_lbs": 165,
+              "weight_delta_lbs": 0,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Huntingdon",
+                  "distance": "1m 7f 171y",
+                  "weight": "11-11",
+                  "weight_lbs": 165,
+                  "position": 1,
+                  "going": "Good",
+                  "run_type": "HURDLE",
+                  "race_name": "Christmas Parties At Huntingdon Racecourse Handicap Hurdle",
+                  "odds": "3/1"
+                },
                 {
                   "date": "2026-10-28",
                   "course": "Huntingdon",
@@ -852,39 +901,43 @@
                   "run_type": "N_H_FLAT",
                   "race_name": "Wexfordraces.ie (Pro/Am) Flat Race",
                   "odds": "40/1"
-                },
-                {
-                  "date": "2025-12-28",
-                  "course": "Limerick",
-                  "distance": "2m 2f",
-                  "weight": "12-0",
-                  "weight_lbs": 168,
-                  "position": 6,
-                  "going": "Soft to Heavy",
-                  "run_type": "N_H_FLAT",
-                  "race_name": "Prestige Tarmacadam Flat Race",
-                  "odds": "33/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 26,
+              "age": 5,
+              "official_rating": 97
             },
             {
               "name": "Uncle Remus",
-              "odds": 6.5,
+              "odds": 4.5,
               "jockey": "Jonjo O'Neill Jr.",
               "trainer": "Miss H C Knight",
-              "form": "41215",
+              "form": "441215",
               "form_source": "previous_results",
               "form_summary_raw": "P51214",
               "form_score": 0.65,
               "trainer_score": 0.56,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
-              "value_score": 0.25,
+              "value_score": 0.32,
               "weight": "11-10",
               "weight_lbs": 164,
               "last_win_weight_lbs": 162,
               "weight_delta_lbs": 2,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Huntingdon",
+                  "distance": "1m 7f 171y",
+                  "weight": "11-10",
+                  "weight_lbs": 164,
+                  "position": 4,
+                  "going": "Good",
+                  "run_type": "HURDLE",
+                  "race_name": "Christmas Parties At Huntingdon Racecourse Handicap Hurdle",
+                  "odds": "7/2"
+                },
                 {
                   "date": "2026-11-02",
                   "course": "Plumpton",
@@ -944,30 +997,22 @@
                   "run_type": "HURDLE",
                   "race_name": "Mercedes-Benz Of Chichester Novices' Limited Handicap Hurdle",
                   "odds": "14/1"
-                },
-                {
-                  "date": "2026-08-22",
-                  "course": "Newton Abbot",
-                  "distance": "2m 2f 110y",
-                  "weight": "11-5",
-                  "weight_lbs": 159,
-                  "position": null,
-                  "going": "Good to Firm (Good in places)",
-                  "run_type": "HURDLE",
-                  "race_name": "Torbay Weekly Handicap Hurdle",
-                  "odds": "13/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 21,
+              "age": 5,
+              "official_rating": 96
             },
             {
               "name": "Zucayan",
-              "odds": 51.0,
+              "odds": 23.0,
               "jockey": "Nick Slatter",
               "trainer": "F O'Brien",
-              "form": "88752",
+              "form": "68875",
               "form_source": "previous_results",
               "form_summary_raw": "2-2F788",
-              "form_score": 0.33,
+              "form_score": 0.27,
               "trainer_score": 0.4,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
@@ -977,6 +1022,18 @@
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Huntingdon",
+                  "distance": "1m 7f 171y",
+                  "weight": "11-9",
+                  "weight_lbs": 163,
+                  "position": 6,
+                  "going": "Good",
+                  "run_type": "HURDLE",
+                  "race_name": "Christmas Parties At Huntingdon Racecourse Handicap Hurdle",
+                  "odds": "22/1"
+                },
                 {
                   "date": "2026-10-04",
                   "course": "Uttoxeter",
@@ -1036,39 +1093,43 @@
                   "run_type": "HURDLE",
                   "race_name": "QuinnBet Handicap Hurdle",
                   "odds": "8/1"
-                },
-                {
-                  "date": "2026-05-10",
-                  "course": "Ludlow",
-                  "distance": "1m 7f 169y",
-                  "weight": "11-5",
-                  "weight_lbs": 159,
-                  "position": 2,
-                  "going": "Good (Good to Firm in places)",
-                  "run_type": "HURDLE",
-                  "race_name": "Welsh Guards Association Handicap Hurdle",
-                  "odds": "11/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 30}",
+              "days_off": 50,
+              "age": 9,
+              "official_rating": 95
             },
             {
               "name": "Chico Magnifica",
-              "odds": 2.25,
+              "odds": 3.0,
               "jockey": "S Bowen",
               "trainer": "O Murphy",
-              "form": "132998",
+              "form": "213299",
               "form_source": "previous_results",
               "form_summary_raw": "899-231",
-              "form_score": 0.64,
+              "form_score": 0.65,
               "trainer_score": 0.48,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
-              "value_score": 0.54,
+              "value_score": 0.43,
               "weight": "11-9",
               "weight_lbs": 163,
               "last_win_weight_lbs": 156,
               "weight_delta_lbs": 7,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Huntingdon",
+                  "distance": "1m 7f 171y",
+                  "weight": "11-9",
+                  "weight_lbs": 163,
+                  "position": 2,
+                  "going": "Good",
+                  "run_type": "HURDLE",
+                  "race_name": "Christmas Parties At Huntingdon Racecourse Handicap Hurdle",
+                  "odds": "2/1"
+                },
                 {
                   "date": "2026-10-30",
                   "course": "Uttoxeter",
@@ -1128,30 +1189,22 @@
                   "run_type": "HURDLE",
                   "race_name": "wearahatday Supporting Brain Tumour Awareness Month Maiden Hurdle (GBB Race)",
                   "odds": "12/1"
-                },
-                {
-                  "date": "2026-03-08",
-                  "course": "Warwick",
-                  "distance": "2m",
-                  "weight": "10-9",
-                  "weight_lbs": 149,
-                  "position": 8,
-                  "going": "Good to Soft (Good in places)",
-                  "run_type": "HURDLE",
-                  "race_name": "Oddschecker Free Bets Novices' Hurdle (GBB Race) (Div 1)",
-                  "odds": "33/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 24,
+              "age": 4,
+              "official_rating": 95
             },
             {
               "name": "Dotties Star",
               "odds": 9.0,
               "jockey": "C Gethings",
               "trainer": "P Phelan",
-              "form": "150507",
+              "form": "715050",
               "form_source": "previous_results",
               "form_summary_raw": "8P42-51",
-              "form_score": 0.52,
+              "form_score": 0.39,
               "trainer_score": 0.48,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
@@ -1161,6 +1214,18 @@
               "last_win_weight_lbs": 163,
               "weight_delta_lbs": -2,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Huntingdon",
+                  "distance": "1m 7f 171y",
+                  "weight": "11-7",
+                  "weight_lbs": 161,
+                  "position": 7,
+                  "going": "Good",
+                  "run_type": "HURDLE",
+                  "race_name": "Christmas Parties At Huntingdon Racecourse Handicap Hurdle",
+                  "odds": "8/1"
+                },
                 {
                   "date": "2026-11-10",
                   "course": "Lingfield",
@@ -1220,27 +1285,19 @@
                   "run_type": "FLAT",
                   "race_name": "Bet 20 Get 20 With Unibet Handicap",
                   "odds": "17/2"
-                },
-                {
-                  "date": "2026-04-08",
-                  "course": "Kempton",
-                  "distance": "1m 3f 219y",
-                  "weight": "8-10",
-                  "weight_lbs": 122,
-                  "position": 7,
-                  "going": "Standard / Slow",
-                  "run_type": "FLAT",
-                  "race_name": "Virgin Bet Supports Safe Gambling Handicap",
-                  "odds": "12/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 13,
+              "age": 7,
+              "official_rating": 93
             },
             {
               "name": "Amalfina",
-              "odds": 34.0,
+              "odds": 51.0,
               "jockey": "Harry Atkins",
               "trainer": "D J Jeffreys",
-              "form": "737345",
+              "form": "073734",
               "form_source": "previous_results",
               "form_summary_raw": "737V",
               "form_score": 0.39,
@@ -1253,6 +1310,18 @@
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Huntingdon",
+                  "distance": "1m 7f 171y",
+                  "weight": "11-6",
+                  "weight_lbs": 160,
+                  "position": 10,
+                  "going": "Good",
+                  "run_type": "HURDLE",
+                  "race_name": "Christmas Parties At Huntingdon Racecourse Handicap Hurdle",
+                  "odds": "50/1"
+                },
                 {
                   "date": "2026-07-24",
                   "course": "Uttoxeter",
@@ -1312,39 +1381,43 @@
                   "run_type": "FLAT",
                   "race_name": "Visit Sri Lanka Fillies' Handicap",
                   "odds": "13/2"
-                },
-                {
-                  "date": "2025-07-21",
-                  "course": "Beverley",
-                  "distance": "1m 1f 207y",
-                  "weight": "9-2",
-                  "weight_lbs": 128,
-                  "position": 5,
-                  "going": "Soft (Heavy in places)",
-                  "run_type": "FLAT",
-                  "race_name": "Racing Again Next Tuesday Handicap",
-                  "odds": "18/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 13,
+              "age": 4,
+              "official_rating": 92
             },
             {
               "name": "Saucats",
-              "odds": 21.0,
+              "odds": 15.0,
               "jockey": "Callum Pritchard",
               "trainer": "S Hosie",
-              "form": "417373",
+              "form": "041737",
               "form_source": "previous_results",
               "form_summary_raw": "373714",
-              "form_score": 0.59,
+              "form_score": 0.45,
               "trainer_score": 0.48,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
-              "value_score": 0.15,
+              "value_score": 0.17,
               "weight": "10-13",
               "weight_lbs": 153,
               "last_win_weight_lbs": 142,
               "weight_delta_lbs": 11,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Huntingdon",
+                  "distance": "1m 7f 171y",
+                  "weight": "10-13",
+                  "weight_lbs": 153,
+                  "position": 11,
+                  "going": "Good",
+                  "run_type": "HURDLE",
+                  "race_name": "Christmas Parties At Huntingdon Racecourse Handicap Hurdle",
+                  "odds": "14/1"
+                },
                 {
                   "date": "2026-10-06",
                   "course": "Huntingdon",
@@ -1404,39 +1477,43 @@
                   "run_type": "HURDLE",
                   "race_name": "Torbay Weekly Handicap Hurdle",
                   "odds": "7/1"
-                },
-                {
-                  "date": "2026-07-19",
-                  "course": "Newton Abbot",
-                  "distance": "2m 2f 110y",
-                  "weight": "10-13",
-                  "weight_lbs": 153,
-                  "position": 3,
-                  "going": "Good to Firm (Good in places)",
-                  "run_type": "HURDLE",
-                  "race_name": "Brendon Soper Memorial Handicap Hurdle",
-                  "odds": "10/3"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'b', 'name': 'Blinkers', 'count': 1}, {'symbol': 't', 'name': 'Tongue strap', 'count': 24}",
+              "days_off": 48,
+              "age": 5,
+              "official_rating": 85
             },
             {
               "name": "Papa Oscar",
-              "odds": 26.0,
+              "odds": 12.0,
               "jockey": "R T Dunne",
               "trainer": "C Hobson",
-              "form": "42656",
+              "form": "542656",
               "form_source": "previous_results",
               "form_summary_raw": "P6-5624",
-              "form_score": 0.41,
+              "form_score": 0.33,
               "trainer_score": 0.4,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
-              "value_score": 0.15,
+              "value_score": 0.18,
               "weight": "10-8",
               "weight_lbs": 148,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Huntingdon",
+                  "distance": "1m 7f 171y",
+                  "weight": "10-8",
+                  "weight_lbs": 148,
+                  "position": 5,
+                  "going": "Good",
+                  "run_type": "HURDLE",
+                  "race_name": "Christmas Parties At Huntingdon Racecourse Handicap Hurdle",
+                  "odds": "11/1"
+                },
                 {
                   "date": "2026-11-13",
                   "course": "Southwell",
@@ -1496,39 +1573,43 @@
                   "run_type": "HURDLE",
                   "race_name": "Join Our Syndicate At Brownsbarn Thoroughbreds Novices' Hurdle (GBB Race)",
                   "odds": "250/1"
-                },
-                {
-                  "date": "2026-01-22",
-                  "course": "Huntingdon",
-                  "distance": "1m 7f 171y",
-                  "weight": "10-9",
-                  "weight_lbs": 149,
-                  "position": null,
-                  "going": "Soft",
-                  "run_type": "HURDLE",
-                  "race_name": "Pertemps Network Maiden Hurdle (GBB Race)",
-                  "odds": "400/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 9}",
+              "days_off": 10,
+              "age": 4,
+              "official_rating": 80
             },
             {
               "name": "Mr Zee",
-              "odds": 7.0,
+              "odds": 41.0,
               "jockey": "Bradley Harris",
               "trainer": "M Blake",
-              "form": "214707",
+              "form": "921470",
               "form_source": "previous_results",
               "form_summary_raw": "3/77412-",
-              "form_score": 0.53,
+              "form_score": 0.45,
               "trainer_score": 0.48,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
-              "value_score": 0.24,
+              "value_score": 0.15,
               "weight": "10-8",
               "weight_lbs": 148,
               "last_win_weight_lbs": 142,
               "weight_delta_lbs": 6,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Huntingdon",
+                  "distance": "1m 7f 171y",
+                  "weight": "10-8",
+                  "weight_lbs": 148,
+                  "position": 9,
+                  "going": "Good",
+                  "run_type": "HURDLE",
+                  "race_name": "Christmas Parties At Huntingdon Racecourse Handicap Hurdle",
+                  "odds": "40/1"
+                },
                 {
                   "date": "2026-02-01",
                   "course": "Market Rasen",
@@ -1588,20 +1669,12 @@
                   "run_type": "FLAT",
                   "race_name": "racingtv.com Handicap",
                   "odds": "50/1"
-                },
-                {
-                  "date": "2025-05-14",
-                  "course": "Newton Abbot",
-                  "distance": "2m 2f 110y",
-                  "weight": "10-2",
-                  "weight_lbs": 142,
-                  "position": 7,
-                  "going": "Good (Good to Firm in places)",
-                  "run_type": "HURDLE",
-                  "race_name": "Terry Wheeler Birthday Novices' Handicap Hurdle",
-                  "odds": "11/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 18}",
+              "days_off": 295,
+              "age": 9,
+              "official_rating": 80
             },
             {
               "name": "Master Dunraven",
@@ -1693,17 +1766,21 @@
                   "race_name": "Remembering Tommy Williams Handicap Hurdle",
                   "odds": "15/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 2}",
+              "days_off": 159,
+              "age": 6,
+              "official_rating": 79
             },
             {
               "name": "Callero",
-              "odds": 34.0,
+              "odds": 41.0,
               "jockey": "Freddie Mitchell",
               "trainer": "Jamie & Josh Moore",
-              "form": "45998",
+              "form": "84599",
               "form_source": "previous_results",
               "form_summary_raw": "P67-5P4",
-              "form_score": 0.35,
+              "form_score": 0.27,
               "trainer_score": 0.4,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
@@ -1713,6 +1790,18 @@
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Huntingdon",
+                  "distance": "1m 7f 171y",
+                  "weight": "10-2",
+                  "weight_lbs": 142,
+                  "position": 8,
+                  "going": "Good",
+                  "run_type": "HURDLE",
+                  "race_name": "Christmas Parties At Huntingdon Racecourse Handicap Hurdle",
+                  "odds": "40/1"
+                },
                 {
                   "date": "2026-11-06",
                   "course": "Fontwell",
@@ -1772,20 +1861,12 @@
                   "run_type": "FLAT",
                   "race_name": "For The Love Of Horses Restricted Novice Stakes (GBB Race)",
                   "odds": "500/1"
-                },
-                {
-                  "date": "2026-02-11",
-                  "course": "Kempton",
-                  "distance": "1m",
-                  "weight": "10-2",
-                  "weight_lbs": 142,
-                  "position": 8,
-                  "going": "Standard / Slow",
-                  "run_type": "FLAT",
-                  "race_name": "Unibet More Extra Place Races Maiden Stakes (GBB Race) (Div 2)",
-                  "odds": "200/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'b', 'name': 'Blinkers', 'count': 1}",
+              "days_off": 17,
+              "age": 4,
+              "official_rating": 72
             }
           ],
           "race_id": "949815"
@@ -1840,7 +1921,11 @@
                   "race_name": "Howden Maiden Hurdle (GBB Race)",
                   "odds": "3/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 216,
+              "age": 5,
+              "official_rating": 133
             },
             {
               "name": "Huffin An A Puffin",
@@ -1908,7 +1993,11 @@
                   "race_name": "Bet In-Play On Racing At BetVictor Novices' Hurdle (GBB Race)",
                   "odds": "10/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 1}",
+              "days_off": 222,
+              "age": 7,
+              "official_rating": 121
             },
             {
               "name": "John Barbour",
@@ -2000,7 +2089,11 @@
                   "race_name": "Leicester Racecourse Handicap Hurdle",
                   "odds": "11/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 15}",
+              "days_off": 31,
+              "age": 7,
+              "official_rating": null
             },
             {
               "name": "Reckless Spending",
@@ -2092,7 +2185,11 @@
                   "race_name": "DragonBet Born From The Betting Ring Open NH Flat Race (GBB Race) (Div 1)",
                   "odds": "9/4"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 219,
+              "age": 6,
+              "official_rating": 134
             },
             {
               "name": "Stone's Throw",
@@ -2184,7 +2281,11 @@
                   "race_name": "Connor Hagans Maiden Hurdle (GBB Race)",
                   "odds": "5/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 255,
+              "age": 6,
+              "official_rating": 119
             }
           ],
           "race_id": "949816"
@@ -2287,7 +2388,11 @@
                   "race_name": "Wynchwood Handicap Chase (GBB Race)",
                   "odds": "5/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 19,
+              "age": 8,
+              "official_rating": 120
             },
             {
               "name": "Inside Man",
@@ -2379,7 +2484,11 @@
                   "race_name": "Jim Swales Memorial Handicap Hurdle",
                   "odds": "6/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 19,
+              "age": 6,
+              "official_rating": 117
             },
             {
               "name": "Homme D'Un Soir",
@@ -2471,7 +2580,11 @@
                   "race_name": "Tanners Champagne Handicap Chase (GBB Race)",
                   "odds": "4/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 30}, {'symbol': 'v', 'name': 'Visor', 'count': 15}",
+              "days_off": 18,
+              "age": 10,
+              "official_rating": 115
             },
             {
               "name": "Yes Indeed",
@@ -2563,7 +2676,11 @@
                   "race_name": "CopyBet Handicap Chase (GBB Race)",
                   "odds": "12/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 172,
+              "age": 9,
+              "official_rating": 112
             },
             {
               "name": "Granny Hawkins",
@@ -2655,7 +2772,11 @@
                   "race_name": "Aramstone Mares' Handicap Hurdle",
                   "odds": "7/4"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 37,
+              "age": 7,
+              "official_rating": 108
             },
             {
               "name": "Sweeper System",
@@ -2747,7 +2868,11 @@
                   "race_name": "Download The At The Races App Maiden Hurdle (GBB Race)",
                   "odds": "125/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 22,
+              "age": 6,
+              "official_rating": 108
             },
             {
               "name": "Jamada",
@@ -2839,7 +2964,11 @@
                   "race_name": "Racehorse Sanctuary & Rehoming Centre Maiden Hurdle (GBB Race)",
                   "odds": "1/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 33,
+              "age": 6,
+              "official_rating": 107
             }
           ],
           "race_id": "949817"
@@ -2906,7 +3035,11 @@
                   "race_name": "Classic Car Show On 9th June Novices' Hurdle (GBB Race)",
                   "odds": "100/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 164,
+              "age": 7,
+              "official_rating": 94
             },
             {
               "name": "Polkaface",
@@ -2998,7 +3131,11 @@
                   "race_name": "Wetherby Mares' Open NH Flat Race (GBB Race)",
                   "odds": "66/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 1}, {'symbol': 't', 'name': 'Tongue strap', 'count': 4}",
+              "days_off": 225,
+              "age": 6,
+              "official_rating": 93
             },
             {
               "name": "Palma Springs",
@@ -3066,7 +3203,11 @@
                   "race_name": "Book Now For The Peterborough Chase Fillies' 'Junior' NH Flat Race (GBB Race)",
                   "odds": "13/8"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 3}",
+              "days_off": 159,
+              "age": 4,
+              "official_rating": 91
             },
             {
               "name": "Midnight Pass",
@@ -3158,7 +3299,11 @@
                   "race_name": "KSR Lighting Novices' Hurdle (GBB Race)",
                   "odds": "17/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 19,
+              "age": 5,
+              "official_rating": 89
             },
             {
               "name": "Zaraquelle",
@@ -3250,7 +3395,11 @@
                   "race_name": "Haven Handicap",
                   "odds": "2/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 10}",
+              "days_off": 13,
+              "age": 4,
+              "official_rating": 89
             },
             {
               "name": "Lady Showtime",
@@ -3342,7 +3491,11 @@
                   "race_name": "Sky Sports Racing Sky 415 Mares' Open NH Flat Race (GBB Race)",
                   "odds": "66/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 626,
+              "age": 7,
+              "official_rating": 84
             },
             {
               "name": "Mistress Fox",
@@ -3434,7 +3587,11 @@
                   "race_name": "Visit Irish Bloodstock Sales With ITM Maiden Hurdle (GBB Race)",
                   "odds": "250/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 9}, {'symbol': 't', 'name': 'Tongue strap', 'count': 10}",
+              "days_off": 166,
+              "age": 6,
+              "official_rating": 84
             },
             {
               "name": "Lets Go Mo",
@@ -3526,7 +3683,11 @@
                   "race_name": "Charlotte Cole And Becky Rowland Memorial Fillies' 'Junior' NH Flat Race (GBB Ra",
                   "odds": "11/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 20,
+              "age": 4,
+              "official_rating": 84
             },
             {
               "name": "Conniemak",
@@ -3618,7 +3779,11 @@
                   "race_name": "Tip Top Duel Flush Novices' Hurdle (GBB Race)",
                   "odds": "66/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 261,
+              "age": 5,
+              "official_rating": 79
             }
           ],
           "race_id": "949818"
@@ -3721,7 +3886,11 @@
                   "race_name": "Fitzdares Bumper Open NH Flat Race (GBB Race)",
                   "odds": "14/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 232,
+              "age": 6,
+              "official_rating": 120
             },
             {
               "name": "Lewisham Grove",
@@ -3813,7 +3982,11 @@
                   "race_name": "Le Dorney Villas Cornwall Walking Holidays Novices' Hurdle (GBB Race)",
                   "odds": "50/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 13,
+              "age": 5,
+              "official_rating": 118
             },
             {
               "name": "Fidendum",
@@ -3905,7 +4078,11 @@
                   "race_name": "Richard Layton Maiden Hurdle (GBB Race)",
                   "odds": "15/8"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 12}, {'symbol': 't', 'name': 'Tongue strap', 'count': 12}",
+              "days_off": 23,
+              "age": 7,
+              "official_rating": 118
             },
             {
               "name": "Beau Quali",
@@ -3997,7 +4174,11 @@
                   "race_name": "Coneleys Theme Park Fun Fair Handicap Hurdle",
                   "odds": "33/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 4}",
+              "days_off": 23,
+              "age": 6,
+              "official_rating": 114
             },
             {
               "name": "Dirty Den",
@@ -4089,7 +4270,11 @@
                   "race_name": "Download The PricedUp App Handicap Hurdle",
                   "odds": "11/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 4}, {'symbol': 't', 'name': 'Tongue strap', 'count': 1}",
+              "days_off": 215,
+              "age": 6,
+              "official_rating": 111
             },
             {
               "name": "Kentucky River",
@@ -4181,7 +4366,11 @@
                   "race_name": "DragonBet The Roar Before Cheltenham Infernoboosts Handicap Hurdle",
                   "odds": "8/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 4}",
+              "days_off": 20,
+              "age": 4,
+              "official_rating": 111
             },
             {
               "name": "Moab",
@@ -4273,7 +4462,11 @@
                   "race_name": "Albert Bartlett Triple Crown Series Final Handicap Hurdle",
                   "odds": "20/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 15,
+              "age": 6,
+              "official_rating": 109
             },
             {
               "name": "Vivid Pink",
@@ -4365,7 +4558,11 @@
                   "race_name": "JCB Mini-Excavator Handicap Hurdle (Div 2)",
                   "odds": "11/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 13}",
+              "days_off": 128,
+              "age": 7,
+              "official_rating": 108
             },
             {
               "name": "Devon Skies",
@@ -4457,7 +4654,11 @@
                   "race_name": "Thank You And Good Luck Michael Novices' Limited Handicap Hurdle",
                   "odds": "1/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 233,
+              "age": 7,
+              "official_rating": 103
             },
             {
               "name": "Lyrical Choice",
@@ -4537,7 +4738,11 @@
                   "race_name": "DragonBet Born From The Betting Ring Open NH Flat Race (GBB Race) (Div 2)",
                   "odds": "13/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 274,
+              "age": 5,
+              "official_rating": 101
             },
             {
               "name": "Faded Fantasy",
@@ -4629,7 +4834,11 @@
                   "race_name": "QuinnBet Handicap Hurdle",
                   "odds": "33/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 37,
+              "age": 7,
+              "official_rating": 95
             }
           ],
           "race_id": "949819"
@@ -4738,7 +4947,11 @@
                   "race_name": "Virgin Bet Every Saturday Money Back Maiden Hurdle (GBB Race)",
                   "odds": "8/11"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 24,
+              "age": 6,
+              "official_rating": 123
             },
             {
               "name": "Fiercely Proud",
@@ -4830,7 +5043,11 @@
                   "race_name": "Unibet Greatwood Handicap Hurdle (Premier Handicap) (GBB Race)",
                   "odds": "16/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 227,
+              "age": 7,
+              "official_rating": 136
             },
             {
               "name": "Le Beau Madrik",
@@ -4922,7 +5139,11 @@
                   "race_name": "bet365 Premier Novices' Hurdle (Grade 2) (GBB Race)",
                   "odds": "7/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 9,
+              "age": 5,
+              "official_rating": 134
             },
             {
               "name": "Starmount",
@@ -5002,7 +5223,11 @@
                   "race_name": "racingtv.com Novices' Hurdle (GBB Race)",
                   "odds": "10/11"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 268,
+              "age": 6,
+              "official_rating": 134
             }
           ],
           "race_id": "949979"
@@ -5105,7 +5330,11 @@
                   "race_name": "Download The Rhino.Bet App Juvenile Hurdle (GBB Race)",
                   "odds": "2/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 7}",
+              "days_off": 22,
+              "age": 6,
+              "official_rating": 108
             },
             {
               "name": "Jhentong Enki",
@@ -5197,7 +5426,11 @@
                   "race_name": "Mercia Power 10 Year Celebration Handicap Hurdle",
                   "odds": "7/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 27,
+              "age": 7,
+              "official_rating": 107
             },
             {
               "name": "Kiwi Rush",
@@ -5289,7 +5522,11 @@
                   "race_name": "Enquire About The Cheltenham Bloodstock Club Maiden Hurdle (GBB Race)",
                   "odds": "7/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 2}, {'symbol': 't', 'name': 'Tongue strap', 'count': 10}",
+              "days_off": 22,
+              "age": 6,
+              "official_rating": 107
             },
             {
               "name": "Gustapof",
@@ -5381,7 +5618,11 @@
                   "race_name": "William Hill Extra Place Races Daily Handicap Hurdle",
                   "odds": "66/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 32,
+              "age": 5,
+              "official_rating": 106
             },
             {
               "name": "Air Apparent",
@@ -5473,7 +5714,11 @@
                   "race_name": "William Hill Racing Epic Boosts Novices' Hurdle (GBB Race)",
                   "odds": "50/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 6,
+              "age": 6,
+              "official_rating": 105
             },
             {
               "name": "Cobbler's Boy",
@@ -5565,7 +5810,11 @@
                   "race_name": "Welcoming Newton Abbot Business Club Members Handicap Chase (GBB Race)",
                   "odds": "5/6"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 16,
+              "age": 6,
+              "official_rating": 105
             },
             {
               "name": "Jasmin De Cotte",
@@ -5657,7 +5906,11 @@
                   "race_name": "Grace And Dotty Fedora's And Feathers Handicap Chase (GBB Race)",
                   "odds": "11/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 42,
+              "age": 7,
+              "official_rating": 103
             },
             {
               "name": "Falco Des Pins",
@@ -5749,7 +6002,11 @@
                   "race_name": "24 March Behind The Scenes Raceday Novices' Handicap Chase",
                   "odds": "15/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 27,
+              "age": 6,
+              "official_rating": 102
             }
           ],
           "race_id": "949980"
@@ -5767,19 +6024,31 @@
               "odds": 4.0,
               "jockey": "Ben Jones",
               "trainer": "B Pauling",
-              "form": "15622",
+              "form": "115622",
               "form_source": "previous_results",
               "form_summary_raw": "2/22651-",
-              "form_score": 0.64,
-              "trainer_score": 0.48,
+              "form_score": 0.76,
+              "trainer_score": 0.56,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
               "value_score": 0.35,
               "weight": "12-1",
               "weight_lbs": 169,
-              "last_win_weight_lbs": 154,
-              "weight_delta_lbs": 15,
+              "last_win_weight_lbs": 169,
+              "weight_delta_lbs": 0,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Bangor-on-Dee",
+                  "distance": "2m 4f 72y",
+                  "weight": "12-1",
+                  "weight_lbs": 169,
+                  "position": 1,
+                  "going": "Good to Soft",
+                  "run_type": "CHASE",
+                  "race_name": "Bangor-On-Dee Memberships Now On Sale Novices' Handicap Chase (GBB Race)",
+                  "odds": "3/1"
+                },
                 {
                   "date": "2026-03-14",
                   "course": "Uttoxeter",
@@ -5840,18 +6109,22 @@
                   "race_name": "DragonBet Supporting British Racing Maiden Hurdle (GBB Race) (Div 2)",
                   "odds": "15/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 254,
+              "age": 5,
+              "official_rating": 121
             },
             {
               "name": "French Emperor",
               "odds": 15.0,
               "jockey": "Sean Houlihan",
               "trainer": "Nicky Martin",
-              "form": "183711",
+              "form": "18371",
               "form_source": "previous_results",
               "form_summary_raw": "117381-",
-              "form_score": 0.82,
-              "trainer_score": 0.64,
+              "form_score": 0.7,
+              "trainer_score": 0.56,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
               "value_score": 0.17,
@@ -5860,6 +6133,18 @@
               "last_win_weight_lbs": 162,
               "weight_delta_lbs": 6,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Bangor-on-Dee",
+                  "distance": "2m 4f 72y",
+                  "weight": "12-0",
+                  "weight_lbs": 168,
+                  "position": null,
+                  "going": "Good to Soft",
+                  "run_type": "CHASE",
+                  "race_name": "Bangor-On-Dee Memberships Now On Sale Novices' Handicap Chase (GBB Race)",
+                  "odds": "14/1"
+                },
                 {
                   "date": "2026-03-21",
                   "course": "Bangor-on-Dee",
@@ -5919,27 +6204,19 @@
                   "run_type": "HURDLE",
                   "race_name": "Valda Energy Novices' Handicap Hurdle (GBB Race)",
                   "odds": "5/1"
-                },
-                {
-                  "date": "2025-10-22",
-                  "course": "Worcester",
-                  "distance": "2m",
-                  "weight": "12-0",
-                  "weight_lbs": 168,
-                  "position": 1,
-                  "going": "Good (Good to Soft in places)",
-                  "run_type": "HURDLE",
-                  "race_name": "Vellacotts & Smiths Go Racing Handicap Hurdle",
-                  "odds": "4/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 247,
+              "age": 6,
+              "official_rating": 120
             },
             {
               "name": "Hard Dealt",
               "odds": 3.0,
               "jockey": "Stan Sheppard",
               "trainer": "H D Daly",
-              "form": "154227",
+              "form": "15422",
               "form_source": "previous_results",
               "form_summary_raw": "7224-51",
               "form_score": 0.64,
@@ -5952,6 +6229,18 @@
               "last_win_weight_lbs": 162,
               "weight_delta_lbs": 6,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Bangor-on-Dee",
+                  "distance": "2m 4f 72y",
+                  "weight": "12-0",
+                  "weight_lbs": 168,
+                  "position": null,
+                  "going": "Good to Soft",
+                  "run_type": "CHASE",
+                  "race_name": "Bangor-On-Dee Memberships Now On Sale Novices' Handicap Chase (GBB Race)",
+                  "odds": "2/1"
+                },
                 {
                   "date": "2026-11-19",
                   "course": "Warwick",
@@ -6011,20 +6300,12 @@
                   "run_type": "HURDLE",
                   "race_name": "Live Racing Streaming At CopyBet Handicap Hurdle",
                   "odds": "7/4"
-                },
-                {
-                  "date": "2026-02-04",
-                  "course": "Ludlow",
-                  "distance": "2m 5f 55y",
-                  "weight": "11-2",
-                  "weight_lbs": 156,
-                  "position": 7,
-                  "going": "Soft",
-                  "run_type": "HURDLE",
-                  "race_name": "Late Roy Kneller 85th Birthday Mares' Handicap Hurdle",
-                  "odds": "15/8"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 4,
+              "age": 6,
+              "official_rating": 113
             },
             {
               "name": "Kingbel Du Lion",
@@ -6044,6 +6325,18 @@
               "last_win_weight_lbs": 160,
               "weight_delta_lbs": 7,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Bangor-on-Dee",
+                  "distance": "2m 4f 72y",
+                  "weight": "11-13",
+                  "weight_lbs": 167,
+                  "position": null,
+                  "going": "Good to Soft",
+                  "run_type": "CHASE",
+                  "race_name": "Bangor-On-Dee Memberships Now On Sale Novices' Handicap Chase (GBB Race)",
+                  "odds": "11/1"
+                },
                 {
                   "date": "2025-02-26",
                   "course": "Bangor-on-Dee",
@@ -6080,17 +6373,21 @@
                   "race_name": "Emilius Hurdle",
                   "odds": "40/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 635,
+              "age": 6,
+              "official_rating": 119
             },
             {
               "name": "Chasing Glance",
               "odds": 23.0,
               "jockey": "Finn Lambert",
               "trainer": "T Ellis",
-              "form": "425",
+              "form": "5425",
               "form_source": "previous_results",
               "form_summary_raw": "1/524-",
-              "form_score": 0.41,
+              "form_score": 0.33,
               "trainer_score": 0.4,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
@@ -6100,6 +6397,18 @@
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Bangor-on-Dee",
+                  "distance": "2m 4f 72y",
+                  "weight": "11-13",
+                  "weight_lbs": 167,
+                  "position": 5,
+                  "going": "Good to Soft",
+                  "run_type": "CHASE",
+                  "race_name": "Bangor-On-Dee Memberships Now On Sale Novices' Handicap Chase (GBB Race)",
+                  "odds": "22/1"
+                },
                 {
                   "date": "2026-03-07",
                   "course": "Hereford",
@@ -6136,26 +6445,42 @@
                   "race_name": "Aztec Aerosols Contract Filling Maiden Hurdle (GBB Race)",
                   "odds": "20/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 4}",
+              "days_off": 261,
+              "age": 8,
+              "official_rating": 119
             },
             {
               "name": "They Want Me",
               "odds": 5.5,
               "jockey": "Kielan Woods",
               "trainer": "D McCain Jnr",
-              "form": "115312",
+              "form": "111531",
               "form_source": "previous_results",
               "form_summary_raw": "21351-1",
-              "form_score": 0.88,
-              "trainer_score": 0.64,
+              "form_score": 0.9,
+              "trainer_score": 0.72,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
               "value_score": 0.28,
               "weight": "11-12",
               "weight_lbs": 166,
-              "last_win_weight_lbs": 164,
-              "weight_delta_lbs": 2,
+              "last_win_weight_lbs": 166,
+              "weight_delta_lbs": 0,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Bangor-on-Dee",
+                  "distance": "2m 4f 72y",
+                  "weight": "11-12",
+                  "weight_lbs": 166,
+                  "position": 1,
+                  "going": "Good to Soft",
+                  "run_type": "CHASE",
+                  "race_name": "Bangor-On-Dee Memberships Now On Sale Novices' Handicap Chase (GBB Race)",
+                  "odds": "9/2"
+                },
                 {
                   "date": "2026-10-27",
                   "course": "Bangor-on-Dee",
@@ -6215,30 +6540,22 @@
                   "run_type": "HURDLE",
                   "race_name": "Save 50% On Racing TV Maiden Hurdle (GBB Race) (Div 1)",
                   "odds": "5/2"
-                },
-                {
-                  "date": "2025-11-29",
-                  "course": "Bangor-on-Dee",
-                  "distance": "2m 145y",
-                  "weight": "11-0",
-                  "weight_lbs": 154,
-                  "position": 2,
-                  "going": "Soft (Heavy in places)",
-                  "run_type": "HURDLE",
-                  "race_name": "Remembering Sally Anne Malam Novices' Hurdle (GBB Race)",
-                  "odds": "16/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 3}",
+              "days_off": 27,
+              "age": 6,
+              "official_rating": 118
             },
             {
               "name": "Berkenshtaaap",
               "odds": 19.0,
               "jockey": "K Brogan",
               "trainer": "O Murphy",
-              "form": "114048",
+              "form": "411404",
               "form_source": "previous_results",
               "form_summary_raw": "8/4041-1",
-              "form_score": 0.64,
+              "form_score": 0.59,
               "trainer_score": 0.56,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
@@ -6248,6 +6565,18 @@
               "last_win_weight_lbs": 156,
               "weight_delta_lbs": 7,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Bangor-on-Dee",
+                  "distance": "2m 4f 72y",
+                  "weight": "11-9",
+                  "weight_lbs": 163,
+                  "position": 4,
+                  "going": "Good to Soft",
+                  "run_type": "CHASE",
+                  "race_name": "Bangor-On-Dee Memberships Now On Sale Novices' Handicap Chase (GBB Race)",
+                  "odds": "18/1"
+                },
                 {
                   "date": "2026-10-15",
                   "course": "Perth",
@@ -6307,27 +6636,19 @@
                   "run_type": "HURDLE",
                   "race_name": "Chris, Sue And Gail Birthday Celebration Novices' Hurdle (GBB Race)",
                   "odds": "6/1"
-                },
-                {
-                  "date": "2025-04-17",
-                  "course": "Ffos Las",
-                  "distance": "1m 7f 182y",
-                  "weight": "11-5",
-                  "weight_lbs": 159,
-                  "position": 8,
-                  "going": "Good to Soft (Soft in places)",
-                  "run_type": "HURDLE",
-                  "race_name": "Merched Y Mor Maiden Hurdle (GBB Race)",
-                  "odds": "3/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 39,
+              "age": 6,
+              "official_rating": 115
             },
             {
               "name": "The Burren Man",
               "odds": 17.0,
               "jockey": "Paul O'Brien",
               "trainer": "Harry Derham",
-              "form": "041",
+              "form": "6041",
               "form_source": "previous_results",
               "form_summary_raw": "2/14-0",
               "form_score": 0.39,
@@ -6340,6 +6661,18 @@
               "last_win_weight_lbs": 153,
               "weight_delta_lbs": 10,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Bangor-on-Dee",
+                  "distance": "2m 4f 72y",
+                  "weight": "11-9",
+                  "weight_lbs": 163,
+                  "position": 6,
+                  "going": "Good to Soft",
+                  "run_type": "CHASE",
+                  "race_name": "Bangor-On-Dee Memberships Now On Sale Novices' Handicap Chase (GBB Race)",
+                  "odds": "16/1"
+                },
                 {
                   "date": "2026-11-01",
                   "course": "Worcester",
@@ -6376,17 +6709,21 @@
                   "race_name": "John Budden Memorial British EBF 'National Hunt' Novices' Hurdle (GBB Race)",
                   "odds": "4/6"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 2}, {'symbol': 't', 'name': 'Tongue strap', 'count': 4}",
+              "days_off": 22,
+              "age": 5,
+              "official_rating": 115
             },
             {
               "name": "Roi Du Risk",
               "odds": 7.5,
               "jockey": "R P McLernon",
               "trainer": "Miss H C Knight",
-              "form": "393125",
+              "form": "339312",
               "form_source": "previous_results",
               "form_summary_raw": "5/2139-3",
-              "form_score": 0.65,
+              "form_score": 0.71,
               "trainer_score": 0.48,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
@@ -6396,6 +6733,18 @@
               "last_win_weight_lbs": 154,
               "weight_delta_lbs": 8,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Bangor-on-Dee",
+                  "distance": "2m 4f 72y",
+                  "weight": "11-8",
+                  "weight_lbs": 162,
+                  "position": 3,
+                  "going": "Good to Soft",
+                  "run_type": "CHASE",
+                  "race_name": "Bangor-On-Dee Memberships Now On Sale Novices' Handicap Chase (GBB Race)",
+                  "odds": "13/2"
+                },
                 {
                   "date": "2026-10-15",
                   "course": "Fontwell",
@@ -6455,30 +6804,22 @@
                   "run_type": "HURDLE",
                   "race_name": "V2 Radio Maiden Hurdle (GBB Race)",
                   "odds": "33/1"
-                },
-                {
-                  "date": "2025-04-21",
-                  "course": "Plumpton",
-                  "distance": "2m 1f 164y",
-                  "weight": "10-13",
-                  "weight_lbs": 153,
-                  "position": 5,
-                  "going": "Good (Good to Soft in places)",
-                  "run_type": "N_H_FLAT",
-                  "race_name": "BetGoodwin Free Bet On Nose Losers Open NH Flat Race (GBB Race)",
-                  "odds": "14/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 39,
+              "age": 5,
+              "official_rating": 114
             },
             {
               "name": "Lord Roco",
               "odds": 126.0,
               "jockey": "James Best",
               "trainer": "B J Murphy",
-              "form": "322",
+              "form": "32",
               "form_source": "previous_results",
               "form_summary_raw": "2PP23U/",
-              "form_score": 0.53,
+              "form_score": 0.47,
               "trainer_score": 0.4,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
@@ -6488,6 +6829,18 @@
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Bangor-on-Dee",
+                  "distance": "2m 4f 72y",
+                  "weight": "11-2",
+                  "weight_lbs": 156,
+                  "position": null,
+                  "going": "Good to Soft",
+                  "run_type": "CHASE",
+                  "race_name": "Bangor-On-Dee Memberships Now On Sale Novices' Handicap Chase (GBB Race)",
+                  "odds": "125/1"
+                },
                 {
                   "date": "2025-02-22",
                   "course": "Newcastle",
@@ -6547,20 +6900,12 @@
                   "run_type": "CHASE",
                   "race_name": "Andrew Fairley Retirement Handicap Chase",
                   "odds": "10/1"
-                },
-                {
-                  "date": "2022-12-22",
-                  "course": "Ayr",
-                  "distance": "3m 20y",
-                  "weight": "11-8",
-                  "weight_lbs": 162,
-                  "position": 2,
-                  "going": "Good to Soft",
-                  "run_type": "CHASE",
-                  "race_name": "Coral Committed To Safer Gambling Handicap Chase",
-                  "odds": "3/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 639,
+              "age": 10,
+              "official_rating": 108
             },
             {
               "name": "Cedar Row",
@@ -6580,6 +6925,18 @@
               "last_win_weight_lbs": 169,
               "weight_delta_lbs": -14,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Bangor-on-Dee",
+                  "distance": "2m 4f 72y",
+                  "weight": "11-1",
+                  "weight_lbs": 155,
+                  "position": null,
+                  "going": "Good to Soft",
+                  "run_type": "CHASE",
+                  "race_name": "Bangor-On-Dee Memberships Now On Sale Novices' Handicap Chase (GBB Race)",
+                  "odds": "40/1"
+                },
                 {
                   "date": "2024-05-22",
                   "course": "Southwell",
@@ -6639,20 +6996,12 @@
                   "run_type": "HURDLE",
                   "race_name": "Follow At starsports_bet EBF Novices' Hurdle (GBB Race)",
                   "odds": "50/1"
-                },
-                {
-                  "date": "2022-10-30",
-                  "course": "Carlisle",
-                  "distance": "2m 4f 8y",
-                  "weight": "11-0",
-                  "weight_lbs": 154,
-                  "position": null,
-                  "going": "Heavy (Soft in places)",
-                  "run_type": "HURDLE",
-                  "race_name": "Join Racing TV Now Novices' Hurdle (GBB Race)",
-                  "odds": "11/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 915,
+              "age": 9,
+              "official_rating": 107
             }
           ],
           "race_id": "949981"
@@ -6743,7 +7092,11 @@
                   "race_name": "Brightwells Ltd Novices' Hurdle (GBB Race)",
                   "odds": "10/3"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 3}",
+              "days_off": 225,
+              "age": 6,
+              "official_rating": 122
             },
             {
               "name": "Skuna Bay",
@@ -6835,7 +7188,11 @@
                   "race_name": "Virgin Bet Daily Extra Places Maiden Hurdle (GBB Race)",
                   "odds": "5/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 270,
+              "age": 7,
+              "official_rating": 119
             },
             {
               "name": "Joltin N Jiving",
@@ -6927,7 +7284,11 @@
                   "race_name": "31 Days Free On RacingTV Handicap Hurdle",
                   "odds": "5/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 22,
+              "age": 6,
+              "official_rating": 116
             },
             {
               "name": "Top Guy",
@@ -7019,7 +7380,11 @@
                   "race_name": "Betfair Handicap Hurdle",
                   "odds": "6/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 27,
+              "age": 6,
+              "official_rating": 114
             },
             {
               "name": "De Kingpin",
@@ -7111,7 +7476,11 @@
                   "race_name": "Get Home Safe With Thistle Cabs Handicap Hurdle",
                   "odds": "22/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 248,
+              "age": 7,
+              "official_rating": 112
             },
             {
               "name": "Patrick's Wells",
@@ -7179,7 +7548,11 @@
                   "race_name": "6 Horses Challenge At bet365 Novices' Hurdle (GBB Race)",
                   "odds": "25/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 1}",
+              "days_off": 22,
+              "age": 7,
+              "official_rating": 112
             },
             {
               "name": "Escort'kheops",
@@ -7271,7 +7644,11 @@
                   "race_name": "Sky Bet Extra Places Handicap Hurdle",
                   "odds": "10/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 27,
+              "age": 6,
+              "official_rating": 112
             },
             {
               "name": "Outer Banks",
@@ -7363,12 +7740,16 @@
                   "race_name": "Lin Sargeant Memorial Maiden Hurdle (GBB Race) (Div 1)",
                   "odds": "7/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 263,
+              "age": 6,
+              "official_rating": 112
             },
             {
               "name": "Sole Solution",
               "odds": 11.0,
-              "jockey": "Charlie Deutsch",
+              "jockey": "Stan Sheppard",
               "trainer": "Miss V Williams",
               "form": "555311",
               "form_source": "previous_results",
@@ -7455,7 +7836,11 @@
                   "race_name": "DragonBet Oncourse Values Online Novices' Hurdle (GBB Race)",
                   "odds": "11/10"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 296,
+              "age": 8,
+              "official_rating": 112
             },
             {
               "name": "Douglas Hyde",
@@ -7547,7 +7932,11 @@
                   "race_name": "Dean Stonehouse Memorial Open Maiden NH Flat Race (GBB Race)",
                   "odds": "9/4"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 248,
+              "age": 6,
+              "official_rating": 108
             },
             {
               "name": "Leading Choice",
@@ -7639,7 +8028,11 @@
                   "race_name": "Citipost Novices' Hurdle (GBB Race)",
                   "odds": "16/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 37,
+              "age": 9,
+              "official_rating": 108
             },
             {
               "name": "Crystello",
@@ -7731,7 +8124,11 @@
                   "race_name": "V2 Radio Maiden Hurdle (GBB Race)",
                   "odds": "40/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 5}",
+              "days_off": 32,
+              "age": 5,
+              "official_rating": 103
             }
           ],
           "race_id": "949982"
@@ -7786,7 +8183,11 @@
                   "race_name": "Gleeds Data Center Derby Maiden Hurdle (GBB Race)",
                   "odds": "10/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 255,
+              "age": 6,
+              "official_rating": null
             },
             {
               "name": "Dukeboxrock",
@@ -7830,7 +8231,11 @@
                   "race_name": "Virgin Bet Open NH Flat Race (GBB Race)",
                   "odds": "15/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 242,
+              "age": 5,
+              "official_rating": null
             },
             {
               "name": "Dylans Moon",
@@ -7874,7 +8279,11 @@
                   "race_name": "JenningsBet 'National Hunt' Novices' Hurdle (GBB Race)",
                   "odds": "20/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 216,
+              "age": 6,
+              "official_rating": null
             },
             {
               "name": "George's Maze",
@@ -7893,7 +8302,11 @@
               "weight_lbs": 159,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 6,
+              "official_rating": null
             },
             {
               "name": "Grande J",
@@ -7912,7 +8325,11 @@
               "weight_lbs": 159,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": 289,
+              "age": 5,
+              "official_rating": null
             },
             {
               "name": "Hunting Call",
@@ -7931,7 +8348,11 @@
               "weight_lbs": 159,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": 203,
+              "age": 5,
+              "official_rating": null
             },
             {
               "name": "Looking For Eight",
@@ -7975,7 +8396,11 @@
                   "race_name": "Prestige Tarmacadam Flat Race",
                   "odds": "5/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 263,
+              "age": 5,
+              "official_rating": null
             },
             {
               "name": "Lord Des Fresnes",
@@ -7994,7 +8419,11 @@
               "weight_lbs": 159,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": 303,
+              "age": 5,
+              "official_rating": null
             },
             {
               "name": "Seeyasunday",
@@ -8013,7 +8442,11 @@
               "weight_lbs": 159,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": 328,
+              "age": 5,
+              "official_rating": null
             },
             {
               "name": "Soldiers Trick",
@@ -8045,7 +8478,11 @@
                   "race_name": "PricedUp Bet Open NH Flat Race (GBB Race)",
                   "odds": "9/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 22,
+              "age": 5,
+              "official_rating": null
             },
             {
               "name": "The Gift Shop",
@@ -8077,7 +8514,11 @@
                   "race_name": "Thank You & Farewell Dr. Tim Tilsley Open Maiden NH Flat Race (GBB Race)",
                   "odds": "9/4"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 26,
+              "age": 5,
+              "official_rating": null
             },
             {
               "name": "Good Times Roll",
@@ -8096,7 +8537,11 @@
               "weight_lbs": 158,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": 246,
+              "age": 4,
+              "official_rating": null
             },
             {
               "name": "Jetzet",
@@ -8152,7 +8597,11 @@
                   "race_name": "Virgin Bet 'Junior' NH Flat Race (GBB Race)",
                   "odds": "5/6"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 4}",
+              "days_off": 21,
+              "age": 4,
+              "official_rating": null
             },
             {
               "name": "Upweitjack",
@@ -8184,7 +8633,11 @@
                   "race_name": "Family Funday On 16th May 'Junior' NH Flat Race (GBB Race)",
                   "odds": "33/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 219,
+              "age": 4,
+              "official_rating": null
             }
           ],
           "race_id": "949983"
@@ -8227,7 +8680,11 @@
                   "race_name": "Richard And Ann Hitchings Memorial Mares' Novices' Hurdle (GBB Race) (Div 2)",
                   "odds": "2/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 33,
+              "age": 4,
+              "official_rating": null
             },
             {
               "name": "Another Vega",
@@ -8271,7 +8728,11 @@
                   "race_name": "Support The Royal British Legion Poppy Appeal Mares' Maiden Hurdle (GBB Race)",
                   "odds": "50/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 10,
+              "age": 4,
+              "official_rating": null
             },
             {
               "name": "Crazy Alice",
@@ -8303,7 +8764,11 @@
                   "race_name": "Support The Royal British Legion Poppy Appeal Mares' Maiden Hurdle (GBB Race)",
                   "odds": "9/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 24,
+              "age": 4,
+              "official_rating": null
             },
             {
               "name": "Gaelic Heather",
@@ -8347,7 +8812,11 @@
                   "race_name": "carpetgallop.co.uk Pro Fibre Surface Setting Standards Open NH Flat Race (GBB Ra",
                   "odds": "11/8"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 18,
+              "age": 5,
+              "official_rating": null
             },
             {
               "name": "Lady Boujee",
@@ -8427,7 +8896,11 @@
                   "race_name": "pricedup.bet Open Maiden NH Flat Race (GBB Race)",
                   "odds": "4/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 3}",
+              "days_off": 20,
+              "age": 5,
+              "official_rating": null
             },
             {
               "name": "Madam To You",
@@ -8446,7 +8919,11 @@
               "weight_lbs": 156,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": 267,
+              "age": 4,
+              "official_rating": null
             },
             {
               "name": "Mille Et Une Vies",
@@ -8514,7 +8991,11 @@
                   "race_name": "Geographie Juvenile Hurdle",
                   "odds": "2/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 256,
+              "age": 4,
+              "official_rating": 135
             },
             {
               "name": "Mysteriosa",
@@ -8570,7 +9051,11 @@
                   "race_name": "Wincanton Fillies' 'Junior' NH Flat Race (GBB Race)",
                   "odds": "22/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 3}",
+              "days_off": 28,
+              "age": 4,
+              "official_rating": null
             },
             {
               "name": "Mysti Meadow",
@@ -8614,7 +9099,11 @@
                   "race_name": "Rowles Gallery Mares' Open NH Flat Race (GBB Race)",
                   "odds": "14/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 215,
+              "age": 5,
+              "official_rating": null
             },
             {
               "name": "Perfect Package",
@@ -8633,7 +9122,11 @@
               "weight_lbs": 156,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": 624,
+              "age": 5,
+              "official_rating": null
             },
             {
               "name": "Play It Again",
@@ -8701,7 +9194,11 @@
                   "race_name": "Des Citronniers Juvenile Hurdle",
                   "odds": "6/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 2}",
+              "days_off": 583,
+              "age": 5,
+              "official_rating": 108
             },
             {
               "name": "Shadow Love",
@@ -8745,7 +9242,11 @@
                   "race_name": "Richard And Ann Hitchings Memorial Mares' Novices' Hurdle (GBB Race) (Div 1)",
                   "odds": "66/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 10,
+              "age": 4,
+              "official_rating": null
             },
             {
               "name": "Vale Of Tears",
@@ -8777,7 +9278,11 @@
                   "race_name": "Wynnstay Mares' 'National Hunt' Maiden Hurdle (GBB Race)",
                   "odds": "66/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 271,
+              "age": 5,
+              "official_rating": null
             },
             {
               "name": "Yawl",
@@ -8796,7 +9301,11 @@
               "weight_lbs": 156,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 5,
+              "official_rating": null
             }
           ],
           "race_id": "949984"
@@ -8826,7 +9335,11 @@
               "weight_lbs": 156,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 4,
+              "official_rating": null
             },
             {
               "name": "Caveman",
@@ -8845,7 +9358,11 @@
               "weight_lbs": 156,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 4,
+              "official_rating": null
             },
             {
               "name": "Cross Allegation",
@@ -8864,7 +9381,11 @@
               "weight_lbs": 156,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 4,
+              "official_rating": null
             },
             {
               "name": "Ghost Face",
@@ -8883,7 +9404,11 @@
               "weight_lbs": 156,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 5,
+              "official_rating": null
             },
             {
               "name": "Kit Carson",
@@ -8902,7 +9427,11 @@
               "weight_lbs": 156,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 4,
+              "official_rating": null
             },
             {
               "name": "Pelegro",
@@ -8921,7 +9450,11 @@
               "weight_lbs": 156,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 4,
+              "official_rating": null
             },
             {
               "name": "Pether's Angel",
@@ -8940,7 +9473,11 @@
               "weight_lbs": 149,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 4,
+              "official_rating": null
             }
           ],
           "race_id": "949985"
@@ -9049,7 +9586,11 @@
                   "race_name": "Unibet Supporting Safer Gambling Handicap",
                   "odds": "12/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 20,
+              "age": 3,
+              "official_rating": null
             },
             {
               "name": "Barbury Boy",
@@ -9141,7 +9682,11 @@
                   "race_name": "Watch RacingTV Handicap (GBBPlus Race)",
                   "odds": "9/4"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 18,
+              "age": 3,
+              "official_rating": null
             },
             {
               "name": "James Choice",
@@ -9233,7 +9778,11 @@
                   "race_name": "Free Race Replays On attheraces.com EBF Maiden Stakes (GBB Race)",
                   "odds": "11/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 72,
+              "age": 3,
+              "official_rating": null
             },
             {
               "name": "John Harrison",
@@ -9325,7 +9874,11 @@
                   "race_name": "Molson Coors Handicap",
                   "odds": "10/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 34,
+              "age": 3,
+              "official_rating": null
             },
             {
               "name": "Kiss For An Angel",
@@ -9417,7 +9970,11 @@
                   "race_name": "Wear Your Poppy With Pride Nursery",
                   "odds": "5/4"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 35,
+              "age": 3,
+              "official_rating": null
             },
             {
               "name": "Pantile's Gift",
@@ -9509,7 +10066,11 @@
                   "race_name": "David Cole Memorial EBF Restricted Novice Stakes (GBB/GBBPlus Race)",
                   "odds": "9/4"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 18,
+              "age": 3,
+              "official_rating": null
             },
             {
               "name": "Stepanov",
@@ -9601,7 +10162,11 @@
                   "race_name": "Book The Bistro In Sherwood Restaurant Maiden Stakes (GBB/GBBPlus Race)",
                   "odds": "25/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 28,
+              "age": 3,
+              "official_rating": null
             },
             {
               "name": "Temple",
@@ -9693,7 +10258,11 @@
                   "race_name": "EBF Stallions Golden Horn Maiden Stakes",
                   "odds": "14/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 19,
+              "age": 3,
+              "official_rating": null
             },
             {
               "name": "Aukus",
@@ -9785,7 +10354,11 @@
                   "race_name": "Al Basti Equiworld, Dubai Fillies' Novice Stakes (GBB Race)",
                   "odds": "100/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 28,
+              "age": 3,
+              "official_rating": null
             },
             {
               "name": "Mathoura",
@@ -9877,7 +10450,11 @@
                   "race_name": "Irish Stallion Farms EBF Fillies Maiden",
                   "odds": "5/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 46,
+              "age": 3,
+              "official_rating": null
             }
           ],
           "race_id": "949836"
@@ -9956,7 +10533,11 @@
                   "race_name": "Bet 10 Get 30 At Betano 'Junior' NH Flat Race (GBB Race)",
                   "odds": "9/4"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 17,
+              "age": 4,
+              "official_rating": null
             },
             {
               "name": "Stars Aligning",
@@ -9988,7 +10569,11 @@
                   "race_name": "Virgin Bet 'Junior' NH Flat Race (GBB Race)",
                   "odds": "4/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 2}",
+              "days_off": 254,
+              "age": 4,
+              "official_rating": null
             },
             {
               "name": "Storm Dudley",
@@ -10044,7 +10629,11 @@
                   "race_name": "Manby Not Mandy Open NH Flat Race (GBB Race)",
                   "odds": "10/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 13,
+              "age": 4,
+              "official_rating": null
             },
             {
               "name": "Thatsnotmyname",
@@ -10124,7 +10713,11 @@
                   "race_name": "Powell & Company Construction Agricultural Buildings Mares' Open Maiden NH Flat ",
                   "odds": "9/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 28,
+              "age": 5,
+              "official_rating": null
             }
           ],
           "race_id": "949837"
@@ -10139,22 +10732,34 @@
           "runners": [
             {
               "name": "Dance And Glance",
-              "odds": 4.33,
+              "odds": 2.38,
               "jockey": "Rex Dingle",
               "trainer": "A J Honeyball",
-              "form": "331521",
+              "form": "33152",
               "form_source": "previous_results",
               "form_summary_raw": "1251-33",
-              "form_score": 0.77,
-              "trainer_score": 0.56,
+              "form_score": 0.65,
+              "trainer_score": 0.48,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
-              "value_score": 0.33,
+              "value_score": 0.52,
               "weight": "11-4",
               "weight_lbs": 158,
               "last_win_weight_lbs": 152,
               "weight_delta_lbs": 6,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Kempton",
+                  "distance": "2m 2f",
+                  "weight": "11-4",
+                  "weight_lbs": 158,
+                  "position": null,
+                  "going": "Good",
+                  "run_type": "CHASE",
+                  "race_name": "CopyBet Pay First Past The Post Novices' Limited Handicap Chase (GBB Race)",
+                  "odds": "11/8"
+                },
                 {
                   "date": "2026-10-31",
                   "course": "Ascot",
@@ -10214,39 +10819,43 @@
                   "run_type": "HURDLE",
                   "race_name": "Read Nicky Henderson's Unibet Blog Handicap Hurdle",
                   "odds": "3/1"
-                },
-                {
-                  "date": "2025-12-19",
-                  "course": "Ascot",
-                  "distance": "1m 7f 157y",
-                  "weight": "11-10",
-                  "weight_lbs": 164,
-                  "position": 1,
-                  "going": "Soft (Good to Soft in places)",
-                  "run_type": "HURDLE",
-                  "race_name": "Ascot Shop Handicap Hurdle",
-                  "odds": "5/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 16}",
+              "days_off": 23,
+              "age": 6,
+              "official_rating": 126
             },
             {
               "name": "Bond Broker",
-              "odds": 2.0,
+              "odds": 4.0,
               "jockey": "Jay Tidball",
               "trainer": "P F Nicholls",
-              "form": "131242",
+              "form": "213124",
               "form_source": "previous_results",
               "form_summary_raw": "24213-1",
-              "form_score": 0.82,
+              "form_score": 0.77,
               "trainer_score": 0.56,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
-              "value_score": 0.6,
+              "value_score": 0.35,
               "weight": "11-4",
               "weight_lbs": 158,
               "last_win_weight_lbs": 162,
               "weight_delta_lbs": -4,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Kempton",
+                  "distance": "2m 2f",
+                  "weight": "11-4",
+                  "weight_lbs": 158,
+                  "position": 2,
+                  "going": "Good",
+                  "run_type": "CHASE",
+                  "race_name": "CopyBet Pay First Past The Post Novices' Limited Handicap Chase (GBB Race)",
+                  "odds": "3/1"
+                },
                 {
                   "date": "2026-11-05",
                   "course": "Plumpton",
@@ -10306,39 +10915,43 @@
                   "run_type": "CHASE",
                   "race_name": "Arc Supports Charlotte Savill Memorial Foundation Handicap Chase (GBB Race)",
                   "odds": "7/2"
-                },
-                {
-                  "date": "2025-10-29",
-                  "course": "Newton Abbot",
-                  "distance": "2m 75y",
-                  "weight": "11-13",
-                  "weight_lbs": 167,
-                  "position": 2,
-                  "going": "Good to Soft",
-                  "run_type": "CHASE",
-                  "race_name": "South West Rail Solutions Ltd. Handicap Chase (GBB Race)",
-                  "odds": "11/4"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 12}",
+              "days_off": 18,
+              "age": 7,
+              "official_rating": 126
             },
             {
               "name": "Cinquenta",
-              "odds": 3.0,
+              "odds": 2.5,
               "jockey": "G Sheehan",
               "trainer": "Jamie Snowden",
-              "form": "16122",
+              "form": "11612",
               "form_source": "previous_results",
               "form_summary_raw": "22161-U",
-              "form_score": 0.76,
-              "trainer_score": 0.56,
+              "form_score": 0.82,
+              "trainer_score": 0.64,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
-              "value_score": 0.43,
+              "value_score": 0.5,
               "weight": "11-2",
               "weight_lbs": 156,
-              "last_win_weight_lbs": 164,
-              "weight_delta_lbs": -8,
+              "last_win_weight_lbs": 156,
+              "weight_delta_lbs": 0,
               "previous_results": [
+                {
+                  "date": "2026-11-23",
+                  "course": "Kempton",
+                  "distance": "2m 2f",
+                  "weight": "11-2",
+                  "weight_lbs": 156,
+                  "position": 1,
+                  "going": "Good",
+                  "run_type": "CHASE",
+                  "race_name": "CopyBet Pay First Past The Post Novices' Limited Handicap Chase (GBB Race)",
+                  "odds": "6/4"
+                },
                 {
                   "date": "2026-11-07",
                   "course": "Uttoxeter",
@@ -10398,20 +11011,12 @@
                   "run_type": "HURDLE",
                   "race_name": "Free Bets On attheraces.com Maiden Hurdle (GBB Race)",
                   "odds": "5/6"
-                },
-                {
-                  "date": "2025-11-18",
-                  "course": "Lingfield",
-                  "distance": "2m 3f 110y",
-                  "weight": "11-4",
-                  "weight_lbs": 158,
-                  "position": 2,
-                  "going": "Good to Soft",
-                  "run_type": "HURDLE",
-                  "race_name": "Weatherbys & Birdie Calendars Maiden Hurdle (GBB Race)",
-                  "odds": "11/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 16,
+              "age": 6,
+              "official_rating": 124
             }
           ],
           "race_id": "949838"
@@ -10514,7 +11119,11 @@
                   "race_name": "Pertemps Network Handicap Hurdle (GBB Race)",
                   "odds": "7/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 31,
+              "age": 7,
+              "official_rating": 137
             },
             {
               "name": "Ikarak",
@@ -10606,7 +11215,11 @@
                   "race_name": "John Sillett Memorial Handicap Hurdle",
                   "odds": "2/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 226,
+              "age": 8,
+              "official_rating": 134
             },
             {
               "name": "Road To Wembley",
@@ -10698,7 +11311,11 @@
                   "race_name": "Oddschecker Free Bets Novices' Hurdle (GBB Race) (Div 2)",
                   "odds": "15/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 4}",
+              "days_off": 30,
+              "age": 5,
+              "official_rating": 126
             },
             {
               "name": "Ernest Gray",
@@ -10790,7 +11407,11 @@
                   "race_name": "Butterworth Spengler Conditional Jockeys' Handicap Hurdle",
                   "odds": "11/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 10}",
+              "days_off": 80,
+              "age": 9,
+              "official_rating": 126
             },
             {
               "name": "Marsiac",
@@ -10882,7 +11503,11 @@
                   "race_name": "Boots Opticians Uttoxeter Maiden Hurdle (GBB Race) (Div 1)",
                   "odds": "18/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 60,
+              "age": 5,
+              "official_rating": 125
             },
             {
               "name": "Idaho Fire",
@@ -10974,7 +11599,11 @@
                   "race_name": "CLH Premier Print Maiden Hurdle (GBB Race) (Div 1)",
                   "odds": "18/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 30,
+              "age": 5,
+              "official_rating": 119
             }
           ],
           "race_id": "949839"
@@ -11077,7 +11706,11 @@
                   "race_name": "Ryanair Mares' Novices' Hurdle (Grade 2) (Registered As The Dawn Run Mares' Novi",
                   "odds": "22/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 247,
+              "age": 6,
+              "official_rating": 140
             },
             {
               "name": "St Irene",
@@ -11169,7 +11802,11 @@
                   "race_name": "Goffs Nickel Coin Mares' Standard Open NH Flat Race (Grade 2) (GBB Race)",
                   "odds": "28/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 23,
+              "age": 6,
+              "official_rating": 127
             },
             {
               "name": "Jackie Hobbs",
@@ -11261,7 +11898,11 @@
                   "race_name": "Goffs Nickel Coin Mares' Standard Open NH Flat Race (Grade 2) (GBB Race)",
                   "odds": "9/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 232,
+              "age": 6,
+              "official_rating": 130
             },
             {
               "name": "La Pinsonniere",
@@ -11353,7 +11994,11 @@
                   "race_name": "Virgin Bet A Good Bet Handicap Hurdle (GBB Race)",
                   "odds": "6/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'b', 'name': 'Blinkers', 'count': 1}",
+              "days_off": 31,
+              "age": 6,
+              "official_rating": 126
             },
             {
               "name": "Take No Chances",
@@ -11445,7 +12090,11 @@
                   "race_name": "Coral Long Distance Hurdle (Grade 2) (GBB Race)",
                   "odds": "7/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 23,
+              "age": 8,
+              "official_rating": 146
             }
           ],
           "race_id": "949840"
@@ -11548,7 +12197,11 @@
                   "race_name": "Bet At Your Best With Betfair Handicap Hurdle (GBB Race)",
                   "odds": "7/4"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 23,
+              "age": 6,
+              "official_rating": 134
             },
             {
               "name": "El Rio",
@@ -11640,7 +12293,11 @@
                   "race_name": "My Pension Expert Handicap Chase",
                   "odds": "5/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 61,
+              "age": 9,
+              "official_rating": 130
             },
             {
               "name": "Tapley",
@@ -11732,7 +12389,11 @@
                   "race_name": "Happy 70th Birthday Steve Parsons Handicap Chase (GBB Race)",
                   "odds": "5/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 12}",
+              "days_off": 23,
+              "age": 9,
+              "official_rating": 127
             },
             {
               "name": "Fierce Warrior",
@@ -11824,7 +12485,11 @@
                   "race_name": "Ladbrokes Go North Brindisi Breeze Hurdle Series Final (Handicap Hurdle) (GBB Ra",
                   "odds": "9/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 4}",
+              "days_off": 222,
+              "age": 7,
+              "official_rating": 123
             },
             {
               "name": "King Califet",
@@ -11916,7 +12581,11 @@
                   "race_name": "Watch Weekend Winners Powered By BetVictor Maiden Hurdle (GBB Race)",
                   "odds": "11/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 248,
+              "age": 7,
+              "official_rating": 114
             }
           ],
           "race_id": "949841"
@@ -12019,7 +12688,11 @@
                   "race_name": "Sodexo Live! Juvenile Handicap Hurdle (GBB Race)",
                   "odds": "5/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 2}, {'symbol': 't', 'name': 'Tongue strap', 'count': 14}",
+              "days_off": 13,
+              "age": 4,
+              "official_rating": 109
             },
             {
               "name": "Dambuster",
@@ -12111,7 +12784,11 @@
                   "race_name": "Dubai Duty Free Shergar Cup Classic (Handicap)",
                   "odds": "12/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 581,
+              "age": 5,
+              "official_rating": 108
             },
             {
               "name": "Royal Approval",
@@ -12203,7 +12880,11 @@
                   "race_name": "JenningsBet In Belmont Handicap (GBBPlus Race)",
                   "odds": "17/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 25,
+              "age": 5,
+              "official_rating": 107
             },
             {
               "name": "Woodstock City",
@@ -12295,7 +12976,11 @@
                   "race_name": "Unibet Supports Safer Gambling Handicap",
                   "odds": "8/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 2}",
+              "days_off": 20,
+              "age": 6,
+              "official_rating": 106
             },
             {
               "name": "Not At That Price",
@@ -12387,7 +13072,11 @@
                   "race_name": "Suzuki 'King Of Quads' Open NH Flat Race (GBB Race)",
                   "odds": "5/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 47,
+              "age": 6,
+              "official_rating": 103
             },
             {
               "name": "Gordon Grey",
@@ -12479,7 +13168,11 @@
                   "race_name": "BAPCO Energies Cup Handicap",
                   "odds": "13/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 23}",
+              "days_off": 57,
+              "age": 6,
+              "official_rating": 101
             },
             {
               "name": "A Good Yomp",
@@ -12571,7 +13264,11 @@
                   "race_name": "pricedup.bet Novices' Handicap Hurdle",
                   "odds": "15/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 8}",
+              "days_off": 20,
+              "age": 7,
+              "official_rating": 98
             },
             {
               "name": "Savant Du Mesnil",
@@ -12663,7 +13360,11 @@
                   "race_name": "I.N.H. Stallion Owners EBF Maiden Hurdle",
                   "odds": "80/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 1}, {'symbol': 't', 'name': 'Tongue strap', 'count': 7}",
+              "days_off": 33,
+              "age": 6,
+              "official_rating": 96
             },
             {
               "name": "Graffiti",
@@ -12755,7 +13456,11 @@
                   "race_name": "Dance Through The Decades 80s Handicap",
                   "odds": "9/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 10}",
+              "days_off": 18,
+              "age": 7,
+              "official_rating": 96
             }
           ],
           "race_id": "949842"
@@ -12864,7 +13569,11 @@
                   "race_name": "Amroth Bay Caravan Park Static Sales Handicap",
                   "odds": "8/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 390,
+              "age": 8,
+              "official_rating": 70
             },
             {
               "name": "Project Geofin",
@@ -12956,7 +13665,11 @@
                   "race_name": "Racing TV Free Trial Handicap (GBBPlus Race)",
                   "odds": "5/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 24,
+              "age": 5,
+              "official_rating": 69
             },
             {
               "name": "West Tyrone",
@@ -13048,7 +13761,11 @@
                   "race_name": "Join Racing TV Now Handicap",
                   "odds": "33/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'v', 'name': 'Visor', 'count': 2}",
+              "days_off": 2,
+              "age": 4,
+              "official_rating": 67
             },
             {
               "name": "Golspie",
@@ -13140,7 +13857,11 @@
                   "race_name": "Download The At The Races App Handicap",
                   "odds": "4/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 39}",
+              "days_off": 24,
+              "age": 6,
+              "official_rating": 66
             },
             {
               "name": "Koko Blue",
@@ -13232,7 +13953,11 @@
                   "race_name": "Best Odds Guaranteed At greatbet.co.uk Handicap",
                   "odds": "11/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 52,
+              "age": 4,
+              "official_rating": 66
             },
             {
               "name": "Lone Piper",
@@ -13324,7 +14049,11 @@
                   "race_name": "Dubai Duty Free Millennium Millionaire Handicap (GBBPlus Race)",
                   "odds": "15/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 3}",
+              "days_off": 24,
+              "age": 5,
+              "official_rating": 65
             },
             {
               "name": "Rory's Gold",
@@ -13416,7 +14145,11 @@
                   "race_name": "Racing Again Wednesday 9th Sept Handicap (Div 2)",
                   "odds": "20/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 2,
+              "age": 4,
+              "official_rating": 65
             },
             {
               "name": "Titian",
@@ -13508,7 +14241,11 @@
                   "race_name": "Event Traffic Control Handicap (GBBPlus Race)",
                   "odds": "33/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'b', 'name': 'Blinkers', 'count': 1}",
+              "days_off": 24,
+              "age": 8,
+              "official_rating": 63
             },
             {
               "name": "Jaminoz",
@@ -13600,7 +14337,11 @@
                   "race_name": "Hampton By Hilton Hamilton Park Handicap",
                   "odds": "10/3"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'b', 'name': 'Blinkers', 'count': 37}, {'symbol': 't', 'name': 'Tongue strap', 'count': 19}",
+              "days_off": 167,
+              "age": 7,
+              "official_rating": 63
             },
             {
               "name": "Jodhpur Blue",
@@ -13692,7 +14433,11 @@
                   "race_name": "Race & Rest - Wolverhampton Holiday Inn Handicap",
                   "odds": "28/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 4}, {'symbol': 't', 'name': 'Tongue strap', 'count': 22}",
+              "days_off": 20,
+              "age": 5,
+              "official_rating": 62
             },
             {
               "name": "Royal Blaze",
@@ -13784,7 +14529,11 @@
                   "race_name": "JenningsBet In Newcastle Amateur Jockeys' Handicap",
                   "odds": "4/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 18}, {'symbol': 't', 'name': 'Tongue strap', 'count': 16}",
+              "days_off": 2,
+              "age": 5,
+              "official_rating": 62
             },
             {
               "name": "Alpine Sierra",
@@ -13876,7 +14625,11 @@
                   "race_name": "Helen Stewart Appreciation Handicap (For Pro-Am Female Jockeys)",
                   "odds": "5/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 19,
+              "age": 8,
+              "official_rating": 60
             },
             {
               "name": "Tommo's Ginjaninja",
@@ -13968,7 +14721,11 @@
                   "race_name": "Frank Whittle Partnership Handicap (GBBPlus Race)",
                   "odds": "50/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 31,
+              "age": 3,
+              "official_rating": 62
             },
             {
               "name": "Uncle Liam",
@@ -14060,7 +14817,11 @@
                   "race_name": "Hampton By Hilton Hamilton Park Handicap",
                   "odds": "5/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 56,
+              "age": 4,
+              "official_rating": 57
             }
           ],
           "race_id": "949828"
@@ -14115,7 +14876,11 @@
                   "race_name": "British Stallion Studs EBF Restricted Novice Stakes (GBB Race)",
                   "odds": "28/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 51,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Rogue Inferno",
@@ -14159,7 +14924,11 @@
                   "race_name": "Weekend Winners On At The Races Maiden Stakes (GBB/GBBPlus Race)",
                   "odds": "14/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 18,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Old Compton",
@@ -14191,7 +14960,11 @@
                   "race_name": "German G1 Racecourses Thank World Pool British EBF Novice Stakes (C & G) (Div 2)",
                   "odds": "14/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 24,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Raguel",
@@ -14223,7 +14996,11 @@
                   "race_name": "racingtv.com/freetrial British EBF Novice Stakes (GBB Race)",
                   "odds": "28/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 28,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Good Bye Girl",
@@ -14242,7 +15019,11 @@
               "weight_lbs": 128,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Luma Nyota",
@@ -14261,7 +15042,11 @@
               "weight_lbs": 128,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Granite Force",
@@ -14280,7 +15065,11 @@
               "weight_lbs": 127,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Pushing The Limits",
@@ -14324,7 +15113,11 @@
                   "race_name": "United Infrastructure EBF Restricted Novice Stakes (GBB Race)",
                   "odds": "11/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 38,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Radio Braga",
@@ -14343,7 +15136,11 @@
               "weight_lbs": 127,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Annayalla",
@@ -14362,7 +15159,11 @@
               "weight_lbs": 122,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Another Festival",
@@ -14394,7 +15195,11 @@
                   "race_name": "AW Trials Day - Lingfield 2nd Jan 2027 EBF Maiden Fillies' Stakes (GBB Race)",
                   "odds": "50/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 17,
+              "age": 2,
+              "official_rating": null
             }
           ],
           "race_id": "949829"
@@ -14497,7 +15302,11 @@
                   "race_name": "Pourou Garhigh Anniversary EBF Restricted Novice Stakes (GBB Race) (Div 2)",
                   "odds": "11/10"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 7}",
+              "days_off": 6,
+              "age": 2,
+              "official_rating": 74
             },
             {
               "name": "Big Hitter",
@@ -14577,7 +15386,11 @@
                   "race_name": "LSL Racing Horse Sales Syndication Leasing / EBF Restricted Maiden Fillies' Stak",
                   "odds": "12/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 3}",
+              "days_off": 30,
+              "age": 2,
+              "official_rating": 75
             },
             {
               "name": "American Psycho",
@@ -14645,7 +15458,11 @@
                   "race_name": "Al Basti Equiworld, Dubai EBF Maiden Stakes (GBB Race)",
                   "odds": "11/4"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 83,
+              "age": 2,
+              "official_rating": 73
             },
             {
               "name": "The Stony Baker",
@@ -14701,7 +15518,11 @@
                   "race_name": "Neaves & Co EBF Restricted Novice Stakes (GBB Race)",
                   "odds": "200/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 3}",
+              "days_off": 27,
+              "age": 2,
+              "official_rating": 73
             },
             {
               "name": "Jolly Good Fellows",
@@ -14769,7 +15590,11 @@
                   "race_name": "Get The Inside Track With raceday-ready.com Restricted Maiden Stakes (GBB Race)",
                   "odds": "17/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 195,
+              "age": 2,
+              "official_rating": 70
             },
             {
               "name": "Cyberspace",
@@ -14837,7 +15662,11 @@
                   "race_name": "Admiral Race To Riches Novice Stakes (GBB Race)",
                   "odds": "20/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 27,
+              "age": 2,
+              "official_rating": 70
             },
             {
               "name": "Sultan Darius",
@@ -14929,7 +15758,11 @@
                   "race_name": "British Stallion Studs EBF Newcomers' 'Confined' Maiden Stakes (GBB Race)",
                   "odds": "15/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 4}",
+              "days_off": 49,
+              "age": 2,
+              "official_rating": 69
             },
             {
               "name": "Eleven Eighty Two",
@@ -15009,7 +15842,11 @@
                   "race_name": "Vauxhall Knaresborough British EBF Fillies' Restricted Novice Stakes (GBB Race) ",
                   "odds": "40/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 85,
+              "age": 2,
+              "official_rating": 67
             }
           ],
           "race_id": "949830"
@@ -15039,7 +15876,11 @@
               "weight_lbs": 128,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Aunty Patsy",
@@ -15071,7 +15912,11 @@
                   "race_name": "Weatherbys Racing Bank Fillies' Novice Stakes (GBB Race)",
                   "odds": "16/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 144,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Banner Babe",
@@ -15090,7 +15935,11 @@
               "weight_lbs": 128,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Bintbossom",
@@ -15109,7 +15958,11 @@
               "weight_lbs": 128,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Cant Bear The Heat",
@@ -15141,7 +15994,11 @@
                   "race_name": "AW Trials Day - Lingfield 2nd Jan 2027 EBF Maiden Fillies' Stakes (GBB Race)",
                   "odds": "33/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 17,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Faithful",
@@ -15173,7 +16030,11 @@
                   "race_name": "SPP Digital 'Confined' EBF Maiden Fillies' Stakes (GBB Race)",
                   "odds": "5/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 49,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Love Dubai",
@@ -15192,7 +16053,11 @@
               "weight_lbs": 128,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Ruby Sands",
@@ -15260,7 +16125,11 @@
                   "race_name": "Pump Technology Services Jung Training Day EBF Fillies' Novice Stakes (GBB Race)",
                   "odds": "7/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 23,
+              "age": 2,
+              "official_rating": 77
             },
             {
               "name": "Sea Of Serenity",
@@ -15279,7 +16148,11 @@
               "weight_lbs": 128,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 2,
+              "official_rating": null
             }
           ],
           "race_id": "949831"
@@ -15370,7 +16243,11 @@
                   "race_name": "Unibet Supporting Safer Gambling Novice Stakes (GBB Race)",
                   "odds": "17/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 28,
+              "age": 4,
+              "official_rating": 70
             },
             {
               "name": "Mythical Phoenix",
@@ -15462,7 +16339,11 @@
                   "race_name": "Midnite: Built For 2025 Not 2005 Handicap",
                   "odds": "12/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 6}",
+              "days_off": 31,
+              "age": 6,
+              "official_rating": 69
             },
             {
               "name": "Jersey Maverick",
@@ -15554,7 +16435,11 @@
                   "race_name": "William Hill Boosts Every Day Handicap",
                   "odds": "25/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 4}",
+              "days_off": 46,
+              "age": 4,
+              "official_rating": 68
             },
             {
               "name": "Storm Esme",
@@ -15646,7 +16531,11 @@
                   "race_name": "Talk To Thompsons Handicap",
                   "odds": "17/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 5}",
+              "days_off": 24,
+              "age": 3,
+              "official_rating": 68
             },
             {
               "name": "Wise Crack",
@@ -15738,7 +16627,11 @@
                   "race_name": "Southwell Racecourse Conference & Events Handicap (Div 2)",
                   "odds": "10/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'v', 'name': 'Visor', 'count': 6}",
+              "days_off": 17,
+              "age": 3,
+              "official_rating": 67
             },
             {
               "name": "Noelies Dream",
@@ -15830,7 +16723,11 @@
                   "race_name": "PricedUp Nursery",
                   "odds": "20/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 5}",
+              "days_off": 17,
+              "age": 3,
+              "official_rating": 67
             },
             {
               "name": "Moonstone Boy",
@@ -15922,7 +16819,11 @@
                   "race_name": "Make The Move To Midnite Handicap (Rider Restricted Race)",
                   "odds": "8/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'v', 'name': 'Visor', 'count': 1}",
+              "days_off": 38,
+              "age": 5,
+              "official_rating": 67
             },
             {
               "name": "The Green Man",
@@ -16014,7 +16915,11 @@
                   "race_name": "Newcastle Tapeta Enabling Champions Since 2016 Handicap",
                   "odds": "7/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 25}, {'symbol': 'v', 'name': 'Visor', 'count': 22}",
+              "days_off": 24,
+              "age": 7,
+              "official_rating": 66
             },
             {
               "name": "Lumenbourg",
@@ -16106,7 +17011,11 @@
                   "race_name": "Download The At The Races App Handicap",
                   "odds": "4/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'b', 'name': 'Blinkers', 'count': 1}",
+              "days_off": 28,
+              "age": 5,
+              "official_rating": 62
             },
             {
               "name": "Spun To Gold",
@@ -16198,7 +17107,11 @@
                   "race_name": "Always Gamble Responsibly At BetMGM Handicap (Div 1)",
                   "odds": "5/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 2,
+              "age": 5,
+              "official_rating": 50
             }
           ],
           "race_id": "949832"
@@ -16301,7 +17214,11 @@
                   "race_name": "Peroni Nastro Azzurro 0.0% Blue Handicap",
                   "odds": "18/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 27,
+              "age": 4,
+              "official_rating": 70
             },
             {
               "name": "Raatea",
@@ -16393,7 +17310,11 @@
                   "race_name": "Bet Responsibly With SBK Handicap",
                   "odds": "12/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 17}, {'symbol': 'h', 'name': 'Hood', 'count': 27}",
+              "days_off": 16,
+              "age": 9,
+              "official_rating": 69
             },
             {
               "name": "Sugar Baby",
@@ -16485,7 +17406,11 @@
                   "race_name": "Bet With Jayne - Your Local Bookmaker Handicap",
                   "odds": "28/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 17,
+              "age": 8,
+              "official_rating": 68
             },
             {
               "name": "Come On Eibhlin",
@@ -16577,7 +17502,11 @@
                   "race_name": "Heineken 0.0 Fillies' Handicap",
                   "odds": "11/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 77,
+              "age": 3,
+              "official_rating": 67
             },
             {
               "name": "Kings Merchant",
@@ -16669,7 +17598,11 @@
                   "race_name": "Sky Bet For The Fans Handicap",
                   "odds": "11/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 10}",
+              "days_off": 17,
+              "age": 5,
+              "official_rating": 67
             },
             {
               "name": "Brave Traveller",
@@ -16761,7 +17694,11 @@
                   "race_name": "Book Say When Ladies Day Tickets Handicap",
                   "odds": "8/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 24,
+              "age": 3,
+              "official_rating": 67
             },
             {
               "name": "Mr Dreamseller",
@@ -16853,7 +17790,11 @@
                   "race_name": "Midnite: Built For 2026 Not 2006 Novice Stakes (GBB Race)",
                   "odds": "20/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 18,
+              "age": 4,
+              "official_rating": 67
             },
             {
               "name": "Go Victor",
@@ -16945,7 +17886,11 @@
                   "race_name": "Roy Winstanley Memorial Raising Encephalitis Awareness Handicap",
                   "odds": "28/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 4}",
+              "days_off": 17,
+              "age": 3,
+              "official_rating": 66
             },
             {
               "name": "Winter Crown",
@@ -17037,7 +17982,11 @@
                   "race_name": "Best Odds Guaranteed At BetMGM Handicap",
                   "odds": "28/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 17,
+              "age": 6,
+              "official_rating": 56
             }
           ],
           "race_id": "949833"
@@ -17116,7 +18065,11 @@
                   "race_name": "Win 250,000 With BetMGM's Golden Goals Novice Stakes",
                   "odds": "12/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 95,
+              "age": 4,
+              "official_rating": 55
             },
             {
               "name": "Triple P",
@@ -17196,7 +18149,11 @@
                   "race_name": "Luke Jobson Restricted Maiden Stakes (GBB Race)",
                   "odds": "33/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 38,
+              "age": 3,
+              "official_rating": 55
             },
             {
               "name": "Believe In Lies",
@@ -17288,7 +18245,11 @@
                   "race_name": "Ray Hawthorne Memorial Amateur Jockeys' Handicap",
                   "odds": "8/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 273,
+              "age": 5,
+              "official_rating": 55
             },
             {
               "name": "Kilfrush Blue",
@@ -17344,7 +18305,11 @@
                   "race_name": "Home-Start West Berkshire Maiden Stakes (GBB Race)",
                   "odds": "15/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 159,
+              "age": 3,
+              "official_rating": 55
             },
             {
               "name": "Snuggle",
@@ -17436,7 +18401,11 @@
                   "race_name": "Tips For Every Race At raceday-ready.com Handicap",
                   "odds": "16/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 28,
+              "age": 6,
+              "official_rating": 55
             },
             {
               "name": "Teardrops",
@@ -17528,7 +18497,11 @@
                   "race_name": "Virgin Bet Handicap",
                   "odds": "15/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'b', 'name': 'Blinkers', 'count': 12}",
+              "days_off": 16,
+              "age": 4,
+              "official_rating": 53
             },
             {
               "name": "Reenie's Dream",
@@ -17620,7 +18593,11 @@
                   "race_name": "Daily Profit Boosts At betmgm.co.uk Handicap",
                   "odds": "11/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 5}",
+              "days_off": 42,
+              "age": 4,
+              "official_rating": 53
             },
             {
               "name": "Tomorrow Day",
@@ -17712,7 +18689,11 @@
                   "race_name": "Make The Move To Midnite Handicap",
                   "odds": "20/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 26}, {'symbol': 'v', 'name': 'Visor', 'count': 25}",
+              "days_off": 24,
+              "age": 5,
+              "official_rating": 53
             },
             {
               "name": "Teddy Shaw",
@@ -17780,7 +18761,11 @@
                   "race_name": "Midnite Ain't Your Grandad's Bookie Maiden Stakes (GBB Race)",
                   "odds": "14/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 171,
+              "age": 5,
+              "official_rating": 53
             },
             {
               "name": "Lord Abama",
@@ -17872,7 +18857,11 @@
                   "race_name": "Ladbrokes 'Insure Your Acca On Football' Handicap",
                   "odds": "4/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'b', 'name': 'Blinkers', 'count': 32}",
+              "days_off": 17,
+              "age": 7,
+              "official_rating": 52
             },
             {
               "name": "Ramon Di Loria",
@@ -17964,7 +18953,11 @@
                   "race_name": "Max Recycle Handicap",
                   "odds": "11/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 11}",
+              "days_off": 16,
+              "age": 8,
+              "official_rating": 52
             },
             {
               "name": "Orbital Chime",
@@ -18056,7 +19049,11 @@
                   "race_name": "Conference & Events At Southwell Racecourse Handicap",
                   "odds": "10/3"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'v', 'name': 'Visor', 'count': 8}",
+              "days_off": 38,
+              "age": 6,
+              "official_rating": 52
             },
             {
               "name": "Henriette Ronner",
@@ -18148,7 +19145,11 @@
                   "race_name": "Bet 10 Get 40 With BetMGM Handicap (Div 1)",
                   "odds": "9/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 116,
+              "age": 3,
+              "official_rating": 52
             },
             {
               "name": "Yaaser",
@@ -18240,7 +19241,11 @@
                   "race_name": "Ladbrokes 'Big Daily Boosts On Racing' Handicap",
                   "odds": "11/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 17,
+              "age": 8,
+              "official_rating": 51
             }
           ],
           "race_id": "949834"
@@ -18343,7 +19348,11 @@
                   "race_name": "Join The Midnite Movement Handicap",
                   "odds": "13/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 17,
+              "age": 6,
+              "official_rating": 65
             },
             {
               "name": "Believeinmenow",
@@ -18435,7 +19444,11 @@
                   "race_name": "Morley Glass And Glazing Supports The YCC Handicap",
                   "odds": "16/5"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 1}, {'symbol': 'v', 'name': 'Visor', 'count': 1}",
+              "days_off": 24,
+              "age": 3,
+              "official_rating": 65
             },
             {
               "name": "Hi Lord",
@@ -18527,7 +19540,11 @@
                   "race_name": "25% Off Lunch At Western House Hotel Handicap",
                   "odds": "12/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 46,
+              "age": 4,
+              "official_rating": 64
             },
             {
               "name": "Simba's Pride",
@@ -18619,7 +19636,11 @@
                   "race_name": "Nation Radio Yorkshire Handicap",
                   "odds": "7/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 4}",
+              "days_off": 17,
+              "age": 3,
+              "official_rating": 62
             },
             {
               "name": "Toptime",
@@ -18711,7 +19732,11 @@
                   "race_name": "Events At Nottingham Racecourse Handicap",
                   "odds": "5/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 44,
+              "age": 8,
+              "official_rating": 62
             },
             {
               "name": "Miss Rainbow",
@@ -18803,7 +19828,11 @@
                   "race_name": "NRFC Leading Roof Excellence Fillies' Handicap",
                   "odds": "5/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'v', 'name': 'Visor', 'count': 20}",
+              "days_off": 2,
+              "age": 5,
+              "official_rating": 61
             },
             {
               "name": "Cast No Shadow",
@@ -18895,7 +19924,11 @@
                   "race_name": "30 In Free Bets With BetUK Handicap",
                   "odds": "25/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'b', 'name': 'Blinkers', 'count': 5}",
+              "days_off": 305,
+              "age": 5,
+              "official_rating": 61
             },
             {
               "name": "Too Much",
@@ -18987,7 +20020,11 @@
                   "race_name": "Knox Hydrate Handicap",
                   "odds": "28/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 26}",
+              "days_off": 2,
+              "age": 6,
+              "official_rating": 61
             },
             {
               "name": "Sunday River",
@@ -19055,7 +20092,11 @@
                   "race_name": "Irish Stallion Farms EBF Fillies Maiden",
                   "odds": "6/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 1}",
+              "days_off": 28,
+              "age": 3,
+              "official_rating": 60
             },
             {
               "name": "Justmyluck",
@@ -19147,7 +20188,11 @@
                   "race_name": "Hamilton Park Celebrates 100 Years Of Racing Handicap",
                   "odds": "40/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 7}",
+              "days_off": 19,
+              "age": 3,
+              "official_rating": 60
             },
             {
               "name": "Fordham Flyer",
@@ -19239,7 +20284,11 @@
                   "race_name": "EBF Restricted Maiden Stakes (GBB Race)",
                   "odds": "200/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 28,
+              "age": 3,
+              "official_rating": 59
             },
             {
               "name": "Water Of Leith",
@@ -19331,7 +20380,11 @@
                   "race_name": "Hibernian Community Foundation Handicap",
                   "odds": "15/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 107,
+              "age": 8,
+              "official_rating": 59
             },
             {
               "name": "The Tunguska Event",
@@ -19423,7 +20476,11 @@
                   "race_name": "Download The Raceday Ready App Apprentice Handicap",
                   "odds": "10/3"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 17,
+              "age": 3,
+              "official_rating": 59
             },
             {
               "name": "Contorno",
@@ -19515,7 +20572,11 @@
                   "race_name": "Bet 10 Get 40 With BetMGM Handicap",
                   "odds": "6/4"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 151,
+              "age": 3,
+              "official_rating": 53
             }
           ],
           "race_id": "949835"
@@ -19618,7 +20679,11 @@
                   "race_name": "Try Racing TV For Free Now Handicap",
                   "odds": "50/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'b', 'name': 'Blinkers', 'count': 37}",
+              "days_off": 2,
+              "age": 6,
+              "official_rating": 55
             },
             {
               "name": "Barleybrown",
@@ -19710,7 +20775,11 @@
                   "race_name": "Fraser Plus Designer Outlet East Midlands Handicap",
                   "odds": "8/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'b', 'name': 'Blinkers', 'count': 4}",
+              "days_off": 17,
+              "age": 6,
+              "official_rating": 54
             },
             {
               "name": "Oilisa",
@@ -19802,7 +20871,11 @@
                   "race_name": "PricedUp.Bet Handicap",
                   "odds": "9/4"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 75,
+              "age": 4,
+              "official_rating": 53
             },
             {
               "name": "Infantry Officer",
@@ -19894,7 +20967,11 @@
                   "race_name": "Download The Fitzdares App Now Handicap",
                   "odds": "7/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 16,
+              "age": 4,
+              "official_rating": 53
             },
             {
               "name": "Ana Emaraaty",
@@ -19986,7 +21063,11 @@
                   "race_name": "Win 250,000 With BetMGM's Golden Goals Handicap",
                   "odds": "3/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'b', 'name': 'Blinkers', 'count': 22}",
+              "days_off": 17,
+              "age": 6,
+              "official_rating": 53
             },
             {
               "name": "African Spirit",
@@ -20078,7 +21159,11 @@
                   "race_name": "Bill Carrigill Memorial Handicap",
                   "odds": "50/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 6}, {'symbol': 't', 'name': 'Tongue strap', 'count': 6}",
+              "days_off": 30,
+              "age": 5,
+              "official_rating": 53
             },
             {
               "name": "Boy Star",
@@ -20146,7 +21231,11 @@
                   "race_name": "William Hill Best Odds Guaranteed EBF Novice Stakes (GBB Race)",
                   "odds": "33/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 27,
+              "age": 3,
+              "official_rating": 55
             },
             {
               "name": "Kelpie Grey",
@@ -20238,7 +21327,11 @@
                   "race_name": "Ladbrokes 'Get Racing Bet Builder Winnings Boosts' Handicap",
                   "odds": "15/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'v', 'name': 'Visor', 'count': 7}",
+              "days_off": 17,
+              "age": 6,
+              "official_rating": 52
             },
             {
               "name": "Haltonwood",
@@ -20330,7 +21423,11 @@
                   "race_name": "Thomas Lord Dine & View Restaurant Great Value Maiden Stakes (GBB Race)",
                   "odds": "125/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'v', 'name': 'Visor', 'count': 1}",
+              "days_off": 17,
+              "age": 3,
+              "official_rating": 53
             },
             {
               "name": "Misemerald",
@@ -20422,7 +21519,11 @@
                   "race_name": "Meijer Celebration Cup Handicap",
                   "odds": "10/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 9}",
+              "days_off": 54,
+              "age": 5,
+              "official_rating": 51
             },
             {
               "name": "Walk On Walk On",
@@ -20514,7 +21615,11 @@
                   "race_name": "Outcider Handicap",
                   "odds": "40/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 8}",
+              "days_off": 17,
+              "age": 3,
+              "official_rating": 53
             },
             {
               "name": "Penny Mountain",
@@ -20606,7 +21711,11 @@
                   "race_name": "Penny Hotels Handicap",
                   "odds": "12/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 17,
+              "age": 5,
+              "official_rating": 50
             },
             {
               "name": "Ravenswell",
@@ -20698,7 +21807,11 @@
                   "race_name": "Book Your Christmas Party Hamilton Park Handicap",
                   "odds": "6/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 1}",
+              "days_off": 28,
+              "age": 5,
+              "official_rating": 49
             },
             {
               "name": "Pallas Lord",
@@ -20790,7 +21903,11 @@
                   "race_name": "Hoover - Performance That Lasts Handicap (Div 1)",
                   "odds": "14/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 39}",
+              "days_off": 17,
+              "age": 8,
+              "official_rating": 49
             }
           ],
           "race_id": "950461"
@@ -20899,7 +22016,11 @@
                   "race_name": "Book Your Autumn Hospitality Packages Now Handicap",
                   "odds": "33/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 5}",
+              "days_off": 27,
+              "age": 4,
+              "official_rating": 60
             },
             {
               "name": "Beachborough Girl",
@@ -20991,7 +22112,11 @@
                   "race_name": "bettingsites.co.uk UK Betting Sites Amateur Jockeys' Handicap",
                   "odds": "3/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 8}, {'symbol': 't', 'name': 'Tongue strap', 'count': 19}",
+              "days_off": 19,
+              "age": 4,
+              "official_rating": 60
             },
             {
               "name": "Imola",
@@ -21083,7 +22208,11 @@
                   "race_name": "Download The At The Races App Handicap",
                   "odds": "13/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'v', 'name': 'Visor', 'count': 1}",
+              "days_off": 21,
+              "age": 5,
+              "official_rating": 59
             },
             {
               "name": "Law Of Design",
@@ -21175,7 +22304,11 @@
                   "race_name": "Trade Centre Wales Handicap",
                   "odds": "11/4"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'b', 'name': 'Blinkers', 'count': 4}",
+              "days_off": 19,
+              "age": 4,
+              "official_rating": 59
             },
             {
               "name": "Boogie Inthejungle",
@@ -21267,7 +22400,11 @@
                   "race_name": "Bar One Racing 'Play Casino Online' 3-Y-O Maiden Hurdle",
                   "odds": "300/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 171,
+              "age": 4,
+              "official_rating": 58
             },
             {
               "name": "Riyadh Gem",
@@ -21359,7 +22496,11 @@
                   "race_name": "Best Odds Guaranteed At BetMGM Handicap",
                   "odds": "16/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 25,
+              "age": 4,
+              "official_rating": 58
             },
             {
               "name": "Glitter Code",
@@ -21451,7 +22592,11 @@
                   "race_name": "Download The At The Races App Amateur Jockeys' Handicap",
                   "odds": "14/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 13}",
+              "days_off": 28,
+              "age": 4,
+              "official_rating": 58
             },
             {
               "name": "She's Ideal",
@@ -21543,7 +22688,11 @@
                   "race_name": "1XBET IRISH SPIRIT Handicap (0-60) (Div 1)",
                   "odds": "11/4"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 7}",
+              "days_off": 35,
+              "age": 4,
+              "official_rating": 58
             },
             {
               "name": "Token Love",
@@ -21635,7 +22784,11 @@
                   "race_name": "9 Pound Racedays At Nottingham Racecourse Handicap",
                   "odds": "20/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 14}",
+              "days_off": 21,
+              "age": 4,
+              "official_rating": 57
             },
             {
               "name": "Eighty Eight",
@@ -21727,7 +22880,11 @@
                   "race_name": "Happy Christmas From All At Dundalk Stadium Handicap (0-60) (Div 1)",
                   "odds": "11/4"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 18,
+              "age": 7,
+              "official_rating": 57
             },
             {
               "name": "Miss Guinevere",
@@ -21819,7 +22976,11 @@
                   "race_name": "Fitzdares Apprentice Fillies' Restricted Novice Stakes (GBB Race)",
                   "odds": "18/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 6}",
+              "days_off": 31,
+              "age": 3,
+              "official_rating": 58
             },
             {
               "name": "Ceinture D'orion",
@@ -21911,7 +23072,11 @@
                   "race_name": "Construction Day 14th October Handicap",
                   "odds": "7/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 2}",
+              "days_off": 16,
+              "age": 3,
+              "official_rating": 57
             },
             {
               "name": "Create",
@@ -22003,7 +23168,11 @@
                   "race_name": "Cymru Bet/Alan Bushell Racing Classified Stakes",
                   "odds": "6/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 30}",
+              "days_off": 20,
+              "age": 6,
+              "official_rating": 49
             }
           ],
           "race_id": "950462"
@@ -22058,7 +23227,11 @@
                   "race_name": "Watch Live On Racing TV EBF Fillies' Novice Stakes (GBB Race)",
                   "odds": "14/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 17,
+              "age": 2,
+              "official_rating": 74
             },
             {
               "name": "Princess Lottie",
@@ -22138,7 +23311,11 @@
                   "race_name": "Zyn In-The-Moment Fillies' Novice Stakes (GBB Race)",
                   "odds": "100/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 23,
+              "age": 2,
+              "official_rating": 73
             },
             {
               "name": "Aquila D'oro",
@@ -22194,7 +23371,11 @@
                   "race_name": "Blandford Bloodstock 25th Anniversary EBF Maiden Fillies' Stakes (GBB Race)",
                   "odds": "14/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 19,
+              "age": 2,
+              "official_rating": 68
             },
             {
               "name": "Orchard Hatches",
@@ -22262,7 +23443,11 @@
                   "race_name": "Tatler British EBF Maiden Fillies' Stakes (GBB Race)",
                   "odds": "125/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 35,
+              "age": 2,
+              "official_rating": 67
             },
             {
               "name": "Hello You Ten",
@@ -22354,7 +23539,11 @@
                   "race_name": "Knight Frank Woodbridge EBF Restricted Novice Stakes (GBB Race)",
                   "odds": "5/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 5}",
+              "days_off": 35,
+              "age": 2,
+              "official_rating": 62
             },
             {
               "name": "Distant Sun",
@@ -22422,7 +23611,11 @@
                   "race_name": "Juddmonte EBF Restricted Novice Stakes (GBB/GBBPlus Race)",
                   "odds": "50/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 35,
+              "age": 2,
+              "official_rating": 55
             }
           ],
           "race_id": "949820"
@@ -22452,7 +23645,11 @@
               "weight_lbs": 133,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Frontier Run",
@@ -22471,7 +23668,11 @@
               "weight_lbs": 133,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Geometric",
@@ -22490,7 +23691,11 @@
               "weight_lbs": 133,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 1}",
+              "days_off": null,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Incandescence",
@@ -22509,7 +23714,11 @@
               "weight_lbs": 133,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Kodi Morse",
@@ -22541,7 +23750,11 @@
                   "race_name": "All Weather Championship Is Back EBF Maiden Stakes (GBB Race)",
                   "odds": "13/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 1}",
+              "days_off": 20,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Maggie's Faith",
@@ -22560,7 +23773,11 @@
               "weight_lbs": 133,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Tarragindi",
@@ -22579,7 +23796,11 @@
               "weight_lbs": 133,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Casting Coach",
@@ -22635,7 +23856,11 @@
                   "race_name": "Celebrating The Life Of Bobby Howard EBF Maiden Fillies' Stakes (GBB Race)",
                   "odds": "28/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 20,
+              "age": 2,
+              "official_rating": 71
             },
             {
               "name": "Girl From Havana",
@@ -22654,7 +23879,11 @@
               "weight_lbs": 128,
               "last_win_weight_lbs": null,
               "weight_delta_lbs": null,
-              "previous_results": []
+              "previous_results": [],
+              "headgear": "",
+              "days_off": null,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Lady Skipworth",
@@ -22686,7 +23915,11 @@
                   "race_name": "Marion Gibson Brown Memorial - Irish EBF Restricted Maiden Fillies' Stakes (GBB ",
                   "odds": "7/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 191,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Purist",
@@ -22718,7 +23951,11 @@
                   "race_name": "British EBF Fillies' Novice Stakes (GBB Race)",
                   "odds": "12/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 2}",
+              "days_off": 28,
+              "age": 2,
+              "official_rating": null
             },
             {
               "name": "Queen Of Christmas",
@@ -22762,7 +23999,11 @@
                   "race_name": "British Stallion Studs EBF Maiden Fillies' Stakes (GBB Race)",
                   "odds": "7/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 152,
+              "age": 2,
+              "official_rating": null
             }
           ],
           "race_id": "949821"
@@ -22865,7 +24106,11 @@
                   "race_name": "Keep Your Raceday Positive Handicap",
                   "odds": "22/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 10}",
+              "days_off": 3,
+              "age": 4,
+              "official_rating": 54
             },
             {
               "name": "Gustav Graves",
@@ -22957,7 +24202,11 @@
                   "race_name": "Midnite A Next Generation Betting App Handicap",
                   "odds": "10/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 27,
+              "age": 8,
+              "official_rating": 55
             },
             {
               "name": "Kiss Don't Tell",
@@ -23049,7 +24298,11 @@
                   "race_name": "Irish Stallion Farms EBF Fillies Maiden",
                   "odds": "66/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 27,
+              "age": 3,
+              "official_rating": 54
             },
             {
               "name": "Bessie Wallis",
@@ -23141,7 +24394,11 @@
                   "race_name": "Racing Partnership Celebrating 10 Years Handicap",
                   "odds": "100/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 20,
+              "age": 3,
+              "official_rating": 53
             },
             {
               "name": "Bold Return",
@@ -23233,7 +24490,11 @@
                   "race_name": "British Stallion Studs EBF Restricted Maiden Stakes (GBB Race)",
                   "odds": "22/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 27,
+              "age": 3,
+              "official_rating": 52
             },
             {
               "name": "Black Cab",
@@ -23325,7 +24586,11 @@
                   "race_name": "Join The Midnite Movement Apprentice Handicap",
                   "odds": "28/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 52,
+              "age": 5,
+              "official_rating": 52
             },
             {
               "name": "Fancy Dancer",
@@ -23417,7 +24682,11 @@
                   "race_name": "Betway Grey Horse Handicap",
                   "odds": "200/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'b', 'name': 'Blinkers', 'count': 3}",
+              "days_off": 20,
+              "age": 4,
+              "official_rating": 52
             },
             {
               "name": "Cabeza De Llave",
@@ -23509,7 +24778,11 @@
                   "race_name": "Distro Design Handicap",
                   "odds": "8/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 27,
+              "age": 7,
+              "official_rating": 51
             },
             {
               "name": "Stash The Cash",
@@ -23601,7 +24874,11 @@
                   "race_name": "Make The Move To Midnite Handicap",
                   "odds": "16/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'b', 'name': 'Blinkers', 'count': 6}, {'symbol': 't', 'name': 'Tongue strap', 'count': 12}",
+              "days_off": 20,
+              "age": 5,
+              "official_rating": 51
             },
             {
               "name": "Beach Partee",
@@ -23693,7 +24970,11 @@
                   "race_name": "Free Race Replays On attheraces.com Handicap",
                   "odds": "17/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'v', 'name': 'Visor', 'count': 23}",
+              "days_off": 20,
+              "age": 3,
+              "official_rating": 50
             },
             {
               "name": "Piperstown",
@@ -23785,7 +25066,11 @@
                   "race_name": "Make The Move To Midnite Handicap (Div 1)",
                   "odds": "7/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 2}",
+              "days_off": 16,
+              "age": 5,
+              "official_rating": 50
             }
           ],
           "race_id": "949822"
@@ -23888,7 +25173,11 @@
                   "race_name": "Pertemps Network Industrial Handicap (GBBPlus Race)",
                   "odds": "7/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'v', 'name': 'Visor', 'count': 1}",
+              "days_off": 48,
+              "age": 4,
+              "official_rating": 75
             },
             {
               "name": "Kaaranah",
@@ -23980,7 +25269,11 @@
                   "race_name": "attheraces.com/marketmovers Handicap",
                   "odds": "11/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 27,
+              "age": 8,
+              "official_rating": 75
             },
             {
               "name": "Charlie's Choice",
@@ -24072,7 +25365,11 @@
                   "race_name": "Midnite: Built For 2026 Not 2006 Handicap (GBBPlus Race)",
                   "odds": "9/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 27,
+              "age": 6,
+              "official_rating": 72
             },
             {
               "name": "Seventy",
@@ -24164,7 +25461,11 @@
                   "race_name": "Midnite AWC Apprentice Handicap",
                   "odds": "9/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 150,
+              "age": 4,
+              "official_rating": 70
             },
             {
               "name": "Dance Time",
@@ -24256,7 +25557,11 @@
                   "race_name": "Chester Roman Day On 30th May Apprentice Handicap (GBBPlus Race)",
                   "odds": "9/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 80,
+              "age": 6,
+              "official_rating": 70
             },
             {
               "name": "Saxophonist",
@@ -24348,7 +25653,11 @@
                   "race_name": "Grantley Hall Handicap",
                   "odds": "18/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 31,
+              "age": 3,
+              "official_rating": 74
             },
             {
               "name": "Helga",
@@ -24416,7 +25725,11 @@
                   "race_name": "Always Gamble Responsibly At BetMGM EBF Fillies' Novice Stakes (GBB Race)",
                   "odds": "28/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 25,
+              "age": 3,
+              "official_rating": 74
             },
             {
               "name": "Melody De Vega",
@@ -24508,7 +25821,11 @@
                   "race_name": "Symonds Event Catering 'Confined' Handicap",
                   "odds": "12/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 44,
+              "age": 3,
+              "official_rating": 73
             },
             {
               "name": "Barachiel",
@@ -24600,7 +25917,11 @@
                   "race_name": "Weatherbys nhstallions.co.uk Standard Open NH Flat Race (Grade 2) (GBB Race)",
                   "odds": "150/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 20,
+              "age": 5,
+              "official_rating": 68
             },
             {
               "name": "Aleen",
@@ -24692,7 +26013,11 @@
                   "race_name": "Muckle Maiden Fillies' Stakes (GBB Race)",
                   "odds": "10/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 368,
+              "age": 3,
+              "official_rating": 72
             },
             {
               "name": "Three Dons",
@@ -24784,7 +26109,11 @@
                   "race_name": "Bet At racingtv.com Handicap (GBBPlus Race)",
                   "odds": "4/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 240,
+              "age": 7,
+              "official_rating": 67
             },
             {
               "name": "Magician of Riga",
@@ -24876,7 +26205,11 @@
                   "race_name": "Free Bets On attheraces.com Handicap",
                   "odds": "3/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 21,
+              "age": 3,
+              "official_rating": 71
             }
           ],
           "race_id": "949823"
@@ -24979,7 +26312,11 @@
                   "race_name": "Virgin Bet A Good Bet Handicap",
                   "odds": "7/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 23}, {'symbol': 't', 'name': 'Tongue strap', 'count': 33}",
+              "days_off": 2,
+              "age": 5,
+              "official_rating": 64
             },
             {
               "name": "State Of Madness",
@@ -25071,7 +26408,11 @@
                   "race_name": "Follow AtTheRaces On X Handicap",
                   "odds": "12/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 95,
+              "age": 5,
+              "official_rating": 65
             },
             {
               "name": "Because We Can",
@@ -25163,7 +26504,11 @@
                   "race_name": "Unibet/British Stallion Studs EBF Restricted Novice Stakes (GBB Race)",
                   "odds": "15/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'b', 'name': 'Blinkers', 'count': 1}",
+              "days_off": 47,
+              "age": 3,
+              "official_rating": 65
             },
             {
               "name": "Chifa",
@@ -25255,7 +26600,11 @@
                   "race_name": "Bet 10 Get 40 With BetMGM Handicap",
                   "odds": "17/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 162,
+              "age": 9,
+              "official_rating": 63
             },
             {
               "name": "Dark Mandate",
@@ -25347,7 +26696,11 @@
                   "race_name": "Unibet More Extra Place Races Nursery",
                   "odds": "20/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 1}",
+              "days_off": 21,
+              "age": 3,
+              "official_rating": 63
             },
             {
               "name": "Spirit Of Jenny",
@@ -25439,7 +26792,11 @@
                   "race_name": "Sky Sports Racing Sky 415 Handicap",
                   "odds": "5/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 18,
+              "age": 4,
+              "official_rating": 62
             },
             {
               "name": "Ridger",
@@ -25531,7 +26888,11 @@
                   "race_name": "CJCH Solicitors Classified Stakes",
                   "odds": "5/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 7}",
+              "days_off": 16,
+              "age": 3,
+              "official_rating": 62
             },
             {
               "name": "Lessay",
@@ -25623,7 +26984,11 @@
                   "race_name": "attheraces.com/marketmovers Handicap",
                   "odds": "13/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 19}",
+              "days_off": 7,
+              "age": 5,
+              "official_rating": 60
             },
             {
               "name": "Crown The Future",
@@ -25715,7 +27080,11 @@
                   "race_name": "Sky Sports Racing Sky 415 Classified Stakes (Div 2)",
                   "odds": "9/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 16,
+              "age": 3,
+              "official_rating": 61
             },
             {
               "name": "Punchbowl Flyer",
@@ -25807,7 +27176,11 @@
                   "race_name": "South Wales Medical Event Cover Handicap",
                   "odds": "12/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'b', 'name': 'Blinkers', 'count': 64}",
+              "days_off": 25,
+              "age": 9,
+              "official_rating": 60
             },
             {
               "name": "On Key",
@@ -25899,7 +27272,11 @@
                   "race_name": "Download The Raceday Ready App Handicap (Div 2)",
                   "odds": "9/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 20}",
+              "days_off": 27,
+              "age": 4,
+              "official_rating": 57
             },
             {
               "name": "Montpellier Green",
@@ -25991,7 +27368,11 @@
                   "race_name": "Unibet Supports Safer Gambling Handicap (GBBPlus Race)",
                   "odds": "80/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 4}",
+              "days_off": 17,
+              "age": 4,
+              "official_rating": 49
             }
           ],
           "race_id": "949824"
@@ -26094,7 +27475,11 @@
                   "race_name": "In Remembrance Of Aggrey Burke Apprentice Handicap",
                   "odds": "10/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'b', 'name': 'Blinkers', 'count': 8}, {'symbol': 'e/s', 'name': 'Eye Shield', 'count': 7}, {'symbol': 't', 'name': 'Tongue strap', 'count': 19}",
+              "days_off": 7,
+              "age": 4,
+              "official_rating": 65
             },
             {
               "name": "Monsieur Patat",
@@ -26186,7 +27571,11 @@
                   "race_name": "Jebel Ali Racecourse Handicap",
                   "odds": "9/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 19,
+              "age": 9,
+              "official_rating": 64
             },
             {
               "name": "Beauzon",
@@ -26278,7 +27667,11 @@
                   "race_name": "bettingsites.co.uk Handicap",
                   "odds": "125/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 26,
+              "age": 7,
+              "official_rating": 64
             },
             {
               "name": "Profit Street",
@@ -26370,7 +27763,11 @@
                   "race_name": "Win 250,000 With BetMGM's Golden Goals Handicap",
                   "odds": "2/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 44,
+              "age": 5,
+              "official_rating": 63
             },
             {
               "name": "Jamie Sommers",
@@ -26462,7 +27859,11 @@
                   "race_name": "Dine In Sherwoods Restaurant Fillies' Handicap",
                   "odds": "10/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 21,
+              "age": 3,
+              "official_rating": 63
             },
             {
               "name": "Chapman's Peak",
@@ -26554,7 +27955,11 @@
                   "race_name": "Bet 20 Get 20 With Unibet Handicap",
                   "odds": "15/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 61,
+              "age": 3,
+              "official_rating": 62
             },
             {
               "name": "Girls Allowed",
@@ -26646,7 +28051,11 @@
                   "race_name": "attheraces.com/ascot Classified Stakes",
                   "odds": "9/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 26,
+              "age": 3,
+              "official_rating": 62
             },
             {
               "name": "Mr Tony",
@@ -26738,7 +28147,11 @@
                   "race_name": "Golf At Gowran Park Nursery Handicap (0-60)",
                   "odds": "11/4"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 31,
+              "age": 3,
+              "official_rating": 61
             },
             {
               "name": "Bomb Squad",
@@ -26830,7 +28243,11 @@
                   "race_name": "Ladies Day Sunday 16th August Handicap",
                   "odds": "3/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 81}",
+              "days_off": 4,
+              "age": 8,
+              "official_rating": 60
             },
             {
               "name": "Good Karma",
@@ -26922,7 +28339,11 @@
                   "race_name": "Sky Bet For The Fans Handicap",
                   "odds": "7/2"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 11}",
+              "days_off": 16,
+              "age": 6,
+              "official_rating": 59
             },
             {
               "name": "Romanovich",
@@ -27014,7 +28435,11 @@
                   "race_name": "Lee Shaughnessy 60th Birthday Amateur Jockeys' Handicap",
                   "odds": "10/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'b', 'name': 'Blinkers', 'count': 24}",
+              "days_off": 20,
+              "age": 7,
+              "official_rating": 49
             },
             {
               "name": "Lhebayeb",
@@ -27106,7 +28531,11 @@
                   "race_name": "Always Gamble Responsibly At BetMGM Classified Stakes",
                   "odds": "6/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 41,
+              "age": 8,
+              "official_rating": 46
             }
           ],
           "race_id": "949825"
@@ -27197,7 +28626,11 @@
                   "race_name": "Irish Stallion Farms EBF Novice Stakes (GBB Race)",
                   "odds": "8/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 1}",
+              "days_off": 191,
+              "age": 4,
+              "official_rating": 87
             },
             {
               "name": "The Watcher",
@@ -27253,7 +28686,11 @@
                   "race_name": "BetMGM: It's Showtime Irish EBF Novice Stakes (GBB Race)",
                   "odds": "1/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 586,
+              "age": 4,
+              "official_rating": 86
             },
             {
               "name": "Monarch's Gold",
@@ -27345,7 +28782,11 @@
                   "race_name": "Xenon Workplace Handicap",
                   "odds": "6/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 52,
+              "age": 3,
+              "official_rating": 87
             },
             {
               "name": "Treasure Time",
@@ -27437,7 +28878,11 @@
                   "race_name": "Coral Challenge (Handicap)",
                   "odds": "5/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 47,
+              "age": 5,
+              "official_rating": 82
             },
             {
               "name": "Drifts Away",
@@ -27529,7 +28974,11 @@
                   "race_name": "Zyn Pole Position Handicap (Div 2)",
                   "odds": "18/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'b', 'name': 'Blinkers', 'count': 3}",
+              "days_off": 28,
+              "age": 5,
+              "official_rating": 81
             },
             {
               "name": "Pietro",
@@ -27621,7 +29070,11 @@
                   "race_name": "SBK Betting Podcast Handicap",
                   "odds": "9/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 1}",
+              "days_off": 34,
+              "age": 4,
+              "official_rating": 80
             },
             {
               "name": "Jez Bomb",
@@ -27713,7 +29166,11 @@
                   "race_name": "Pontefract And District Golf Club Ltd Handicap (GBBPlus Race)",
                   "odds": "1/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 28,
+              "age": 5,
+              "official_rating": 77
             },
             {
               "name": "Reciprocated",
@@ -27805,7 +29262,11 @@
                   "race_name": "Churchill Tyres Supporting Macmillan Sprint Handicap",
                   "odds": "28/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 4}",
+              "days_off": 21,
+              "age": 3,
+              "official_rating": 77
             },
             {
               "name": "City Cyclone",
@@ -27897,7 +29358,11 @@
                   "race_name": "Unibet More Extra Place Races Handicap",
                   "odds": "13/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 28,
+              "age": 6,
+              "official_rating": 76
             },
             {
               "name": "King's Vanity",
@@ -27989,7 +29454,11 @@
                   "race_name": "Borders Ltd 2024 Handicap",
                   "odds": "11/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 210,
+              "age": 6,
+              "official_rating": 75
             },
             {
               "name": "Follow Your Heart",
@@ -28081,7 +29550,11 @@
                   "race_name": "Unibet Support Safer Gambling Handicap",
                   "odds": "11/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 't', 'name': 'Tongue strap', 'count': 61}",
+              "days_off": 21,
+              "age": 8,
+              "official_rating": 75
             }
           ],
           "race_id": "949826"
@@ -28184,7 +29657,11 @@
                   "race_name": "Spillers Winners Handicap",
                   "odds": "11/8"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 7,
+              "age": 3,
+              "official_rating": 69
             },
             {
               "name": "Hitched",
@@ -28276,7 +29753,11 @@
                   "race_name": "Midnite All-Weather Vase Middle Distance Handicap (GBBPlus Race)",
                   "odds": "18/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 47}",
+              "days_off": 3,
+              "age": 6,
+              "official_rating": 69
             },
             {
               "name": "He's A Gentleman",
@@ -28368,7 +29849,11 @@
                   "race_name": "Always Gamble Responsibly At BetMGM Handicap",
                   "odds": "9/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 21,
+              "age": 7,
+              "official_rating": 68
             },
             {
               "name": "Law Supreme",
@@ -28460,7 +29945,11 @@
                   "race_name": "Tipping Tom On SBK Bet Feed Handicap (Div 1)",
                   "odds": "14/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 13}, {'symbol': 't', 'name': 'Tongue strap', 'count': 17}",
+              "days_off": 163,
+              "age": 7,
+              "official_rating": 68
             },
             {
               "name": "Ecclefechan",
@@ -28552,7 +30041,11 @@
                   "race_name": "Bet 20 Get 40 In Free Bets At matchbook.com Handicap",
                   "odds": "5/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 2}",
+              "days_off": 34,
+              "age": 3,
+              "official_rating": 70
             },
             {
               "name": "Sovereign Bay",
@@ -28644,7 +30137,11 @@
                   "race_name": "Bet 10 Get 40 With BetMGM Novice Stakes (GBB Race)",
                   "odds": "11/4"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'h', 'name': 'Hood', 'count': 5}, {'symbol': 't', 'name': 'Tongue strap', 'count': 3}",
+              "days_off": 21,
+              "age": 3,
+              "official_rating": 68
             },
             {
               "name": "Shadowmere",
@@ -28724,7 +30221,11 @@
                   "race_name": "Chasemore Farm EBF Maiden Stakes",
                   "odds": "100/1"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 105,
+              "age": 3,
+              "official_rating": 68
             },
             {
               "name": "Galileo Island",
@@ -28816,7 +30317,11 @@
                   "race_name": "Best Odds Guaranteed At BetMGM Handicap",
                   "odds": "9/2"
                 }
-              ]
+              ],
+              "headgear": "",
+              "days_off": 25,
+              "age": 3,
+              "official_rating": 67
             },
             {
               "name": "Clatford",
@@ -28884,7 +30389,11 @@
                   "race_name": "Daily Profit Boosts At betmgm.co.uk Maiden Stakes (GBB Race)",
                   "odds": "25/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 1}",
+              "days_off": 38,
+              "age": 3,
+              "official_rating": 65
             },
             {
               "name": "Pipily",
@@ -28976,7 +30485,11 @@
                   "race_name": "Download The At The Races App Amateur Jockeys' Handicap",
                   "odds": "28/1"
                 }
-              ]
+              ],
+              "headgear": "{'symbol': 'p', 'name': 'Cheek pieces', 'count': 7}",
+              "days_off": 41,
+              "age": 3,
+              "official_rating": 62
             }
           ],
           "race_id": "949827"
