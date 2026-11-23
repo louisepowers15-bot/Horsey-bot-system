@@ -1,18 +1,18 @@
 {
-  "updated_at": null,
+  "updated_at": "2026-11-23T10:08:36.047684Z",
   "bots": {
     "BloodlineBetty": {
       "tips": 0,
       "wins": 0,
       "places": 0,
       "losses": 0,
-      "unknown": 0,
+      "unknown": 31,
       "stakes": 0,
       "returns": 0,
       "pnl": 0,
       "avg_odds": 0,
-      "win_pct": 0,
-      "roi_pct": 0,
+      "win_pct": 0.0,
+      "roi_pct": 0.0,
       "style": {
         "win": 0,
         "ew": 0
@@ -23,13 +23,13 @@
       "wins": 0,
       "places": 0,
       "losses": 0,
-      "unknown": 0,
+      "unknown": 31,
       "stakes": 0,
       "returns": 0,
       "pnl": 0,
       "avg_odds": 0,
-      "win_pct": 0,
-      "roi_pct": 0,
+      "win_pct": 0.0,
+      "roi_pct": 0.0,
       "style": {
         "win": 0,
         "ew": 0
@@ -40,13 +40,13 @@
       "wins": 0,
       "places": 0,
       "losses": 0,
-      "unknown": 0,
+      "unknown": 31,
       "stakes": 0,
       "returns": 0,
       "pnl": 0,
       "avg_odds": 0,
-      "win_pct": 0,
-      "roi_pct": 0,
+      "win_pct": 0.0,
+      "roi_pct": 0.0,
       "style": {
         "win": 0,
         "ew": 0
@@ -57,13 +57,13 @@
       "wins": 0,
       "places": 0,
       "losses": 0,
-      "unknown": 0,
+      "unknown": 31,
       "stakes": 0,
       "returns": 0,
       "pnl": 0,
       "avg_odds": 0,
-      "win_pct": 0,
-      "roi_pct": 0,
+      "win_pct": 0.0,
+      "roi_pct": 0.0,
       "style": {
         "win": 0,
         "ew": 0
@@ -74,13 +74,13 @@
       "wins": 0,
       "places": 0,
       "losses": 0,
-      "unknown": 0,
+      "unknown": 31,
       "stakes": 0,
       "returns": 0,
       "pnl": 0,
       "avg_odds": 0,
-      "win_pct": 0,
-      "roi_pct": 0,
+      "win_pct": 0.0,
+      "roi_pct": 0.0,
       "style": {
         "win": 0,
         "ew": 0
@@ -91,18 +91,25 @@
       "wins": 0,
       "places": 0,
       "losses": 0,
-      "unknown": 0,
+      "unknown": 31,
       "stakes": 0,
       "returns": 0,
       "pnl": 0,
       "avg_odds": 0,
-      "win_pct": 0,
-      "roi_pct": 0,
+      "win_pct": 0.0,
+      "roi_pct": 0.0,
       "style": {
         "win": 0,
         "ew": 0
       }
     }
   },
-  "history": []
+  "history": [
+    {
+      "date": "2026-11-23",
+      "tips": 186,
+      "settled": 0,
+      "pnl": 0.0
+    }
+  ]
 }
