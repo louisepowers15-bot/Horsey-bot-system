@@ -182,6 +182,48 @@ def find_first(node, keys):
     return None
 
 
+
+def weight_to_lbs(w) -> float | None:
+    """Parse '11-4' or '9-9' stone-lbs into total pounds."""
+    if w is None:
+        return None
+    s = str(w).strip()
+    if not s:
+        return None
+    if "-" in s:
+        try:
+            st, lb = s.split("-", 1)
+            return int(st) * 14 + int(lb)
+        except Exception:
+            return None
+    try:
+        return float(s)
+    except Exception:
+        return None
+
+
+def summarise_previous_results(horse_obj: dict, limit: int = 6) -> list[dict]:
+    """Compact previous runs for weight/surface/code analysis."""
+    prev = horse_obj.get("previous_results") or []
+    out = []
+    for p in prev[:limit]:
+        if not isinstance(p, dict):
+            continue
+        out.append({
+            "date": p.get("date") or "",
+            "course": p.get("course_name") or p.get("course_shortcode") or "",
+            "distance": str(p.get("distance") or ""),
+            "weight": p.get("weight") or "",
+            "weight_lbs": weight_to_lbs(p.get("weight")),
+            "position": p.get("position"),
+            "going": p.get("going") or p.get("going_shortcode") or "",
+            "run_type": str(p.get("run_type") or ""),
+            "race_name": str(p.get("race_name") or "")[:80],
+            "odds": p.get("odds"),
+        })
+    return out
+
+
 def fetch_race_detail(date_str, course_name, race_id, race_name):
     """Return (runners, distance, going_override)."""
     if not race_id:
@@ -241,6 +283,22 @@ def fetch_race_detail(date_str, course_name, race_id, race_name):
                 # crude combo bonus if both present
                 combo = 0.55 if (jockey and trainer) else 0.45
 
+                # Today's carried weight (e.g. "11-4")
+                weight_raw = ride.get("handicap") or ride.get("weight") or ""
+                if isinstance(weight_raw, dict):
+                    weight_raw = weight_raw.get("display") or weight_raw.get("value") or ""
+                weight_raw = str(weight_raw).strip()
+                weight_lbs = weight_to_lbs(weight_raw)
+
+                prev = summarise_previous_results(horse if isinstance(horse, dict) else {})
+                # Weight when last won (position == 1)
+                win_weights = [p["weight_lbs"] for p in prev
+                               if p.get("position") in (1, "1", 1.0) and p.get("weight_lbs")]
+                last_win_weight_lbs = win_weights[0] if win_weights else None
+                weight_delta = None
+                if weight_lbs and last_win_weight_lbs:
+                    weight_delta = round(weight_lbs - last_win_weight_lbs, 1)
+
                 runners.append({
                     "name": name,
                     "odds": dec,
@@ -252,6 +310,11 @@ def fetch_race_detail(date_str, course_name, race_id, race_name):
                     "jockey_score": round(combo, 2),
                     "pedigree_score": 0.5,
                     "value_score": round(min(0.85, max(0.15, 1.0 / dec + 0.1)), 2),
+                    "weight": weight_raw,
+                    "weight_lbs": weight_lbs,
+                    "last_win_weight_lbs": last_win_weight_lbs,
+                    "weight_delta_lbs": weight_delta,
+                    "previous_results": prev,
                 })
             return runners, distance, going
         except Exception as e:
@@ -343,10 +406,44 @@ def main():
     meetings = fetch_meetings(d)
     total = sum(len(r["runners"]) for m in meetings for r in m["races"])
     print(f"Found {len(meetings)} meetings, {total} runners")
+
+    # Fingerprint race ids — helps detect "tomorrow" pages that still show today's card
+    race_ids = []
+    for m in meetings:
+        for r in m.get("races") or []:
+            if r.get("race_id"):
+                race_ids.append(str(r["race_id"]))
+    race_ids = sorted(set(race_ids))
+
+    # Compare to yesterday file if present
+    yday = (d - timedelta(days=1)).isoformat()
+    ypath = ROOT_DIR / f"racecards-{yday}.json"
+    note = None
+    if ypath.exists() and race_ids:
+        try:
+            ydata = json.loads(ypath.read_text(encoding="utf-8"))
+            y_ids = sorted({
+                str(r.get("race_id"))
+                for m in ydata.get("meetings") or []
+                for r in m.get("races") or []
+                if r.get("race_id")
+            })
+            if y_ids and y_ids == race_ids:
+                note = (
+                    f"WARNING: race ids for {d.isoformat()} are identical to {yday}. "
+                    "Sporting Life may not have published the next day's card yet — "
+                    "this file may still be the previous day's meetings."
+                )
+                print(note)
+        except Exception:
+            pass
+
     out = {
         "date": d.isoformat(),
         "source": "sportinglife",
         "scraped_at": datetime.utcnow().isoformat() + "Z",
+        "race_id_fingerprint": race_ids[:40],
+        "note": note,
         "meetings": meetings,
     }
     path = ROOT_DIR / f"racecards-{d.isoformat()}.json"

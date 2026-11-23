@@ -262,6 +262,26 @@ def enrich(runner, field_size, all_odds, going, distance, course, day_books):
     r["_trend"] = trend
     r["_form_raw"] = form
 
+    # Weight (today vs last win when available)
+    r["_weight"] = str(r.get("weight") or "").strip()
+    try:
+        r["_weight_lbs"] = float(r["weight_lbs"]) if r.get("weight_lbs") is not None else None
+    except Exception:
+        r["_weight_lbs"] = None
+    try:
+        r["_last_win_weight_lbs"] = float(r["last_win_weight_lbs"]) if r.get("last_win_weight_lbs") is not None else None
+    except Exception:
+        r["_last_win_weight_lbs"] = None
+    try:
+        r["_weight_delta_lbs"] = float(r["weight_delta_lbs"]) if r.get("weight_delta_lbs") is not None else None
+    except Exception:
+        r["_weight_delta_lbs"] = None
+    r["_previous_results"] = r.get("previous_results") or []
+
+    # Carrying more than last winning weight is a real negative, especially over longer trips
+    delta = r["_weight_delta_lbs"]
+    furlongs = r.get("_furlongs")  # may not be set yet
+
     trainer = (r.get("trainer") or "").strip()
     jockey = (r.get("jockey") or "").strip()
     tn, jn = norm_name(trainer), norm_name(jockey)
@@ -318,6 +338,32 @@ def enrich(runner, field_size, all_odds, going, distance, course, day_books):
     r["_trip_label"] = trip_label(distance) if distance else ""
     r["_course"] = course or ""
     r["_furlongs"] = distance_furlongs(distance)
+
+    # Apply weight penalty/bonus once we know trip length
+    delta = r.get("_weight_delta_lbs")
+    fur = r.get("_furlongs")
+    if delta is not None:
+        # +7lb over a staying trip hurts more than over a sprint
+        scale = 0.012
+        if fur and fur >= 16:
+            scale = 0.02
+        elif fur and fur >= 12:
+            scale = 0.016
+        elif fur and fur < 8:
+            scale = 0.008
+        # delta positive = carries more than last win
+        r["_form"] = max(0.12, min(0.92, r["_form"] - delta * scale))
+        if delta <= -3:
+            r["_form"] = min(0.92, r["_form"] + 0.03)  # nice drop in weight
+
+    # Past runs surface/code hints from previous_results on the card
+    prev = r.get("_previous_results") or []
+    aw_runs = sum(1 for p in prev if any(x in str(p.get("going") or "").lower() for x in ("st", "standard", "aw"))
+                  or "aw" in str(p.get("course") or "").lower())
+    turf_runs = sum(1 for p in prev if p.get("going") and not any(
+        x in str(p.get("going") or "").lower() for x in ("st", "standard", "aw")))
+    r["_prev_aw_runs"] = aw_runs
+    r["_prev_turf_runs"] = turf_runs
 
     sorted_odds = sorted(all_odds)
     try:
@@ -457,6 +503,38 @@ def tipster_reason(bot, r, tip_type, conf, field_size, rivals: list | None = Non
 
     ff = _form_facts(form)
     gshort = going.split("(")[0].strip() if going else ""
+    weight = (r.get("_weight") or r.get("weight") or "").strip()
+    wdelta = r.get("_weight_delta_lbs")
+    wlast = r.get("_last_win_weight_lbs")
+    prev_aw = int(r.get("_prev_aw_runs") or 0)
+    prev_turf = int(r.get("_prev_turf_runs") or 0)
+
+    def weight_sentences():
+        out = []
+        if weight:
+            out.append(f"It carries {weight} today.")
+        if wdelta is not None and wlast is not None:
+            # wlast is lbs total; present roughly as stone if useful
+            if wdelta >= 5:
+                out.append(
+                    f"That is about {wdelta:.0f}lb more than when it last won — a real rise in the weights"
+                    + (" over this longer trip." if (r.get("_furlongs") or 0) >= 14 else ".")
+                )
+            elif wdelta >= 3:
+                out.append(f"It is up about {wdelta:.0f}lb on its last winning weight, which asks a bit more of it.")
+            elif wdelta <= -4:
+                out.append(f"It is down about {abs(wdelta):.0f}lb on its last winning weight, which is a help.")
+            elif wdelta <= -2:
+                out.append(f"It gets a small weight drop compared with its last win ({abs(wdelta):.0f}lb).")
+        if surface == "AW" and prev_turf >= 2 and prev_aw == 0:
+            out.append(
+                "Recent runs on the card look more turf-based than all-weather, so treat AW form as unproven from those lines."
+            )
+        elif surface == "turf" and prev_aw >= 2 and prev_turf == 0:
+            out.append(
+                "Recent runs on the card look all-weather based; turf form is not proven from those same lines."
+            )
+        return out
 
     fav = None
     if rivals:
@@ -687,6 +765,12 @@ def tipster_reason(bot, r, tip_type, conf, field_size, rivals: list | None = Non
             f"So the reason is practical, not mystical: race shape + booking + enough form. "
             f"{'Each-way' if tip_type == 'ew' else 'Win'} {name} around {odds:.2f}."
         )
+
+    # Weight / past-run surface notes (real card fields only)
+    for ws in weight_sentences():
+        # Avoid duplicating if already mentioned
+        if ws not in lines:
+            lines.append(ws)
 
     text = " ".join(x.strip() for x in lines if x and x.strip())
     text = " ".join(text.split())
