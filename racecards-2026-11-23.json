@@ -1,7 +1,7 @@
 {
   "date": "2026-11-23",
   "source": "sportinglife",
-  "scraped_at": "2026-11-23T11:31:00.585527Z",
+  "scraped_at": "2026-11-23T11:39:22.531411Z",
   "meetings": [
     {
       "course": "Huntingdon",
@@ -12,6 +12,8 @@
           "name": "Annual Members At Huntingdon Maiden Hurdle (GBB Race) (Class 4)",
           "distance": "1m 7f 171y",
           "going": "Good",
+          "surface": "turf",
+          "code": "unknown",
           "runners": [
             {
               "name": "Aspull",
@@ -117,6 +119,8 @@
           "name": "Christmas Parties At Huntingdon Racecourse Handicap Hurdle (Class 5)",
           "distance": "1m 7f 171y",
           "going": "Good",
+          "surface": "turf",
+          "code": "unknown",
           "runners": [
             {
               "name": "Imperial Trooper",
@@ -270,6 +274,8 @@
           "name": "Conferences At Huntingdon 'Chasing Excellence' Beginners' Chase (GBB Race) (Class 3)",
           "distance": "1m 7f 171y",
           "going": "Good",
+          "surface": "turf",
+          "code": "unknown",
           "runners": [
             {
               "name": "Crystal Island",
@@ -339,6 +345,8 @@
           "name": "Book Hospitality At Huntingdon Handicap Chase (GBB Race) (Class 4)",
           "distance": "1m 7f 171y",
           "going": "Good",
+          "surface": "turf",
+          "code": "unknown",
           "runners": [
             {
               "name": "Black Hawk Eagle",
@@ -432,6 +440,8 @@
           "name": "Festive Fiver Raceday 21 December Mares' Novices' Handicap Hurdle (Class 5)",
           "distance": "1m 7f 171y",
           "going": "Good",
+          "surface": "turf",
+          "code": "unknown",
           "runners": [
             {
               "name": "Bontessony Doll",
@@ -549,6 +559,8 @@
           "name": "Come Racing At Huntingdon Handicap Hurdle (Class 4)",
           "distance": "1m 7f 171y",
           "going": "Good",
+          "surface": "turf",
+          "code": "unknown",
           "runners": [
             {
               "name": "Emerald Breeze",
@@ -696,6 +708,8 @@
           "name": "Bangor-On-Dee 'Chasing Excellence' Beginners' Chase (GBB Race) (Class 3)",
           "distance": "2m 1f 77y",
           "going": "Good to soft-soft in places on chase course (prec inspection 8am)",
+          "surface": "turf",
+          "code": "unknown",
           "runners": [
             {
               "name": "Count Of Vendome",
@@ -753,6 +767,8 @@
           "name": "Boat At Erbistock Handicap Chase (GBB Race) (Class 4)",
           "distance": "2m 1f 77y",
           "going": "Good to soft-soft in places on chase course (prec inspection 8am)",
+          "surface": "turf",
+          "code": "unknown",
           "runners": [
             {
               "name": "Kartoon And Co",
@@ -858,6 +874,8 @@
           "name": "Bangor-On-Dee Memberships Now On Sale Novices' Handicap Chase (GBB Race) (Class 4)",
           "distance": "2m 1f 77y",
           "going": "Good to soft-soft in places on chase course (prec inspection 8am)",
+          "surface": "turf",
+          "code": "unknown",
           "runners": [
             {
               "name": "Dig Deep",
@@ -999,6 +1017,8 @@
           "name": "Wrexham Lager Novices' Handicap Chase (GBB Race) (Class 4)",
           "distance": "2m 1f 77y",
           "going": "Good to soft-soft in places on chase course (prec inspection 8am)",
+          "surface": "turf",
+          "code": "unknown",
           "runners": [
             {
               "name": "Knead A Win",
@@ -1152,6 +1172,8 @@
           "name": "Outerspace Group 'National Hunt' Maiden Hurdle (GBB Race) (Class 4)",
           "distance": "2m 1f 77y",
           "going": "Good to soft-soft in places on chase course (prec inspection 8am)",
+          "surface": "turf",
+          "code": "unknown",
           "runners": [
             {
               "name": "Always Stronger",
@@ -1329,6 +1351,8 @@
           "name": "Mount Vines Mares' Maiden Hurdle (GBB Race) (Class 4)",
           "distance": "2m 1f 77y",
           "going": "Good to soft-soft in places on chase course (prec inspection 8am)",
+          "surface": "turf",
+          "code": "unknown",
           "runners": [
             {
               "name": "Aeropress",
@@ -1506,6 +1530,8 @@
           "name": "Festive Meeting Saturday 28th November 'Newcomers' NH Flat Race (GBB Race) (Class 4)",
           "distance": "2m 1f 77y",
           "going": "Good to soft-soft in places on chase course (prec inspection 8am)",
+          "surface": "turf",
+          "code": "unknown",
           "runners": [
             {
               "name": "Bellshill Boy",
@@ -1605,6 +1631,8 @@
           "name": "CopyBet For Champions League Profit Boosts Juvenile Hurdle (GBB Race) (Class 4)",
           "distance": "2m",
           "going": "Good",
+          "surface": "turf",
+          "code": "unknown",
           "runners": [
             {
               "name": "Thisonesforyou",
@@ -1734,6 +1762,8 @@
           "name": "CopyBet Support Safer Gambling/EBF Stallions 'National Hunt' Novices' Hurdle (GBB Race) (Class 4)",
           "distance": "2m",
           "going": "Good",
+          "surface": "turf",
+          "code": "unknown",
           "runners": [
             {
               "name": "Padel Whacker",
@@ -1791,6 +1821,8 @@
           "name": "CopyBet Pay First Past The Post Novices' Limited Handicap Chase (GBB Race) (Class 3)",
           "distance": "2m",
           "going": "Good",
+          "surface": "turf",
+          "code": "unknown",
           "runners": [
             {
               "name": "Dance And Glance",
@@ -1836,6 +1868,8 @@
           "name": "Pertemps Network Handicap Hurdle (GBB Race) (Class 2)",
           "distance": "2m",
           "going": "Good",
+          "surface": "turf",
+          "code": "unknown",
           "runners": [
             {
               "name": "East India Express",
@@ -1917,6 +1951,8 @@
           "name": "CopyBet Follow Us On X Lilies Mares' Hurdle (Listed) (GBB Race) (Class 1)",
           "distance": "2m",
           "going": "Good",
+          "surface": "turf",
+          "code": "unknown",
           "runners": [
             {
               "name": "Hollygrove Cha Cha",
@@ -1986,6 +2022,8 @@
           "name": "CopyBet Supporting UK Horse Racing Handicap Chase (GBB Race) (Class 3)",
           "distance": "2m",
           "going": "Good",
+          "surface": "turf",
+          "code": "unknown",
           "runners": [
             {
               "name": "Glynn Brae",
@@ -2055,6 +2093,8 @@
           "name": "CopyBet Overnight Best Odds Guaranteed Conditional Jockeys' Handicap Hurdle (Class 4)",
           "distance": "2m",
           "going": "Good",
+          "surface": "turf",
+          "code": "unknown",
           "runners": [
             {
               "name": "Gallivanted",
@@ -2178,6 +2218,8 @@
           "name": "Midnite A Next Generation Betting App Apprentice Handicap (Class 5)",
           "distance": "1m 2f 42y",
           "going": "Standard",
+          "surface": "AW",
+          "code": "unknown",
           "runners": [
             {
               "name": "Alpine Stroll",
@@ -2355,6 +2397,8 @@
           "name": "All-Weather Championship Is Back EBF Restricted Maiden Stakes (GBB Race) (Class 4)",
           "distance": "1m 2f 42y",
           "going": "Standard",
+          "surface": "AW",
+          "code": "unknown",
           "runners": [
             {
               "name": "Pippy Boy",
@@ -2496,6 +2540,8 @@
           "name": "AWC Finals Day At Newcastle 26th March Nursery (Class 5)",
           "distance": "1m 2f 42y",
           "going": "Standard",
+          "surface": "AW",
+          "code": "unknown",
           "runners": [
             {
               "name": "Dowman",
@@ -2601,6 +2647,8 @@
           "name": "AWC Season 14 Has Begun Fillies' Novice Stakes (GBB Race) (Class 3)",
           "distance": "1m 2f 42y",
           "going": "Standard",
+          "surface": "AW",
+          "code": "unknown",
           "runners": [
             {
               "name": "Angelcatcher",
@@ -2718,6 +2766,8 @@
           "name": "Midnite It's Actually Pretty Good Handicap (Div 1) (Class 5)",
           "distance": "1m 2f 42y",
           "going": "Standard",
+          "surface": "AW",
+          "code": "unknown",
           "runners": [
             {
               "name": "Encore",
@@ -2847,6 +2897,8 @@
           "name": "Midnite It's Actually Pretty Good Handicap (Div 2) (Class 5)",
           "distance": "1m 2f 42y",
           "going": "Standard",
+          "surface": "AW",
+          "code": "unknown",
           "runners": [
             {
               "name": "Azure Zain",
@@ -2964,6 +3016,8 @@
           "name": "Midnite: Built For 2026 Not 2006 Handicap (Class 6)",
           "distance": "1m 2f 42y",
           "going": "Standard",
+          "surface": "AW",
+          "code": "unknown",
           "runners": [
             {
               "name": "Multaneighttothree",
@@ -3141,6 +3195,8 @@
           "name": "Make The Move To Midnite Handicap (Class 6)",
           "distance": "1m 2f 42y",
           "going": "Standard",
+          "surface": "AW",
+          "code": "unknown",
           "runners": [
             {
               "name": "Herakles",
@@ -3318,6 +3374,8 @@
           "name": "AW Trials Day - Lingfield 2nd Jan 2027 Handicap (Class 6)",
           "distance": "1m 2f 42y",
           "going": "Standard",
+          "surface": "AW",
+          "code": "unknown",
           "runners": [
             {
               "name": "Concert Boy",
@@ -3501,6 +3559,8 @@
           "name": "Midnight A Next Generation Betting App Handicap (Class 6)",
           "distance": "1m 1f 104y",
           "going": "Standard",
+          "surface": "AW",
+          "code": "unknown",
           "runners": [
             {
               "name": "Symphony Of Joy",
@@ -3666,6 +3726,8 @@
           "name": "All Weather Championship Is Back Nursery (Class 5)",
           "distance": "1m 1f 104y",
           "going": "Standard",
+          "surface": "AW",
+          "code": "unknown",
           "runners": [
             {
               "name": "Capricious Star",
@@ -3747,6 +3809,8 @@
           "name": "AWC Finals Day At Newcastle - 26th March EBF Maiden Stakes (GBB Race) (Class 4)",
           "distance": "1m 1f 104y",
           "going": "Standard",
+          "surface": "AW",
+          "code": "unknown",
           "runners": [
             {
               "name": "Deshaies",
@@ -3900,6 +3964,8 @@
           "name": "Make The Move To Midnite Handicap (Class 6)",
           "distance": "1m 1f 104y",
           "going": "Standard",
+          "surface": "AW",
+          "code": "unknown",
           "runners": [
             {
               "name": "Our Planet",
@@ -4041,6 +4107,8 @@
           "name": "Make The Move To Midnite Handicap (Class 5)",
           "distance": "1m 1f 104y",
           "going": "Standard",
+          "surface": "AW",
+          "code": "unknown",
           "runners": [
             {
               "name": "Spirit Of Jura",
@@ -4194,6 +4262,8 @@
           "name": "AWC Season 14 Has Begun Handicap (Div 1) (Class 6)",
           "distance": "1m 1f 104y",
           "going": "Standard",
+          "surface": "AW",
+          "code": "unknown",
           "runners": [
             {
               "name": "Giorgio M",
@@ -4347,6 +4417,8 @@
           "name": "AWC Season 14 Has Begun Handicap (Div 2) (Class 6)",
           "distance": "1m 1f 104y",
           "going": "Standard",
+          "surface": "AW",
+          "code": "unknown",
           "runners": [
             {
               "name": "Yehudi",
@@ -4500,6 +4572,8 @@
           "name": "AWC Trials Day - Lingfield 2nd January 2027 Handicap (Class 4)",
           "distance": "1m 1f 104y",
           "going": "Standard",
+          "surface": "AW",
+          "code": "unknown",
           "runners": [
             {
               "name": "Shah",
@@ -4641,6 +4715,8 @@
           "name": "AWC Season 14 Handicap (Class 5)",
           "distance": "1m 1f 104y",
           "going": "Standard",
+          "surface": "AW",
+          "code": "unknown",
           "runners": [
             {
               "name": "Galba",
