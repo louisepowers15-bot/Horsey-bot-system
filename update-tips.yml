@@ -2,13 +2,19 @@ name: Daily Racecards & Tips Update
 
 on:
   schedule:
-    - cron: '30 7 * * *'   # morning cards + tips
-    - cron: '15 21 * * *'  # evening results settle (approx after UK racing)
+    - cron: "30 7 * * *"    # 07:30 UTC morning cards + tips
+    - cron: "15 21 * * *"   # 21:15 UTC results + history + settle
   workflow_dispatch:
     inputs:
       mode:
-        description: 'tips | results | both'
-        default: 'both'
+        description: "tips | results | both"
+        required: true
+        default: "both"
+        type: choice
+        options:
+          - both
+          - tips
+          - results
 
 permissions:
   contents: write
@@ -21,37 +27,53 @@ jobs:
 
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Morning scrape + tips
-        if: github.event_name == 'schedule' && github.event.schedule == '30 7 * * *' || github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'tips' || github.event.inputs.mode == 'both' || github.event.inputs.mode == '')
+      - name: Decide mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ github.event.inputs.mode }}" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event.schedule }}" = "30 7 * * *" ]; then
+            echo "mode=tips" >> $GITHUB_OUTPUT
+          else
+            echo "mode=results" >> $GITHUB_OUTPUT
+          fi
+          echo "UTC now: $(date -u)"
+
+      - name: Morning – scrape + tips
+        if: steps.mode.outputs.mode == 'tips' || steps.mode.outputs.mode == 'both'
         run: |
           python scrape_racecards.py --date today
           python generate_tips.py --date today
           python scrape_racecards.py --date tomorrow
           python generate_tips.py --date tomorrow
 
-      - name: Evening results + settle yesterday
-        if: github.event_name == 'schedule' && github.event.schedule == '15 21 * * *' || github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'results' || github.event.inputs.mode == 'both')
+      - name: Evening – results, settle, history, archive
+        if: steps.mode.outputs.mode == 'results' || steps.mode.outputs.mode == 'both'
         run: |
-          python scrape_results.py --date yesterday
-          python settle_tips.py --date yesterday
-          # also try today if weighed-in races exist
+          python scrape_results.py --date yesterday || true
+          python settle_tips.py --date yesterday || true
           python scrape_results.py --date today || true
           python settle_tips.py --date today || true
+          # Build long-term history the bots can query
+          python history_store.py --rebuild-day yesterday || true
+          python history_store.py --rebuild-day today || true
+          # Keep only last 3 days of day-files in repo root; older → history/archive/
+          python history_store.py --archive --keep-days 3
 
       - name: Commit and push
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add racecards-*.json tips-*.json results-*.json settled-*.json leaderboard.json || true
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add racecards-*.json tips-*.json results-*.json settled-*.json leaderboard.json history/ 2>/dev/null || true
           if git diff --staged --quiet; then
-            echo "No changes"
+            echo "No file changes"
             exit 0
           fi
-          git commit -m "Auto-update tips/results/leaderboard"
+          git commit -m "Auto-update data $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase origin main
           git push origin main

@@ -23,6 +23,18 @@ from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parent
 
+try:
+    from history_store import load_index, lookup, horse_history_bits
+    HAS_HISTORY = True
+except Exception:
+    HAS_HISTORY = False
+    def load_index():
+        return {"runs": 0}
+    def lookup(table, *parts, default=0.12):
+        return default, 0
+    def horse_history_bits(*a, **k):
+        return []
+
 BOT_NAMES = [
     "BloodlineBetty",
     "DevilAdvocate",
@@ -677,6 +689,11 @@ def tipster_reason(bot, r, tip_type, conf, field_size, rivals: list | None = Non
     if surface == "AW" or code in ("hurdle", "chase", "nh_flat", "flat"):
         paras.append(honesty)
 
+    # Saved history facts (only real past results we stored)
+    hist_bits = r.get("_hist_bits") or []
+    if hist_bits:
+        paras.append("From our saved results history: " + " ".join(hist_bits[:3]) + ".")
+
     # Clear recommendation
     if tip_type == "ew":
         paras.append(
@@ -715,6 +732,8 @@ def build_tips_for_races(d, flat_races):
     races_out = []
     meetings = sorted({r.get("course") or "Unknown" for r in flat_races})
     day_books = build_day_books(flat_races)
+    hist_index = load_index()
+    print(f"History index: {int(hist_index.get('runs') or 0)} past runs")
 
     for idx, race in enumerate(flat_races):
         raw = [x for x in (race.get("runners") or []) if x.get("name")]
@@ -730,13 +749,33 @@ def build_tips_for_races(d, flat_races):
         runners = []
         for x in raw:
             er = enrich(x, field_size, all_odds, going, distance, course, day_books)
-            # Prefer scraper-provided surface/code when present
             if race_surface:
                 er["_surface"] = race_surface
             if race_code:
                 er["_code"] = race_code
             else:
                 er["_code"] = er.get("_code") or "unknown"
+            # History pattern hints (neutral when empty)
+            er["_hist_bits"] = []
+            if HAS_HISTORY and int(hist_index.get("runs") or 0) > 0:
+                er["_hist_bits"] = horse_history_bits(
+                    hist_index,
+                    er.get("name") or "",
+                    course,
+                    er.get("_surface") or "",
+                    er.get("_code") or "",
+                    going,
+                    distance,
+                )
+                # Mild score nudges when we have real samples
+                hs = hist_index.get("horse_surface") or {}
+                hc = hist_index.get("horse_code") or {}
+                rate_s, n_s = lookup(hs, er.get("name") or "", er.get("_surface") or "unknown")
+                rate_c, n_c = lookup(hc, er.get("name") or "", er.get("_code") or "unknown")
+                if n_s >= 3:
+                    er["_form"] = min(0.9, er["_form"] + (rate_s - 0.12) * 0.15)
+                if n_c >= 3:
+                    er["_form"] = min(0.9, er["_form"] + (rate_c - 0.12) * 0.12)
             runners.append(er)
         rng = random.Random(f"{d.isoformat()}|{course}|{race.get('time')}|{idx}")
 
