@@ -400,12 +400,21 @@ function renderLeaderboard() {
 async function fillLeaderboard() {
   const root = document.getElementById("lb-root");
   const loading = document.getElementById("lb-loading");
-  if (!root) return;
+  if (!root) {
+    console.warn("fillLeaderboard: #lb-root missing");
+    return;
+  }
   let data = null;
   try {
     const res = await fetch("./leaderboard.json?t=" + Date.now());
-    if (res.ok) data = await res.json();
-  } catch (e) {}
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    data = await res.json();
+  } catch (e) {
+    console.error("fillLeaderboard fetch failed", e);
+    if (loading) loading.remove();
+    root.innerHTML = '<p style="color:#f87171;text-align:center;padding:1.5rem">Could not load leaderboard.json (' + e.message + ').</p>';
+    return;
+  }
   if (loading) loading.remove();
   if (!data || !data.bots) {
     root.innerHTML = '<p style="color:#94a3b8;text-align:center;padding:1.5rem">No settled results yet. Leaderboard fills after the evening results job runs.</p>';
@@ -446,6 +455,8 @@ function renderContent() {
     el.innerHTML = renderDoubles();
   } else if (currentTab === "leaderboard") {
     el.innerHTML = renderLeaderboard();
+    // must run after DOM nodes exist
+    setTimeout(fillLeaderboard, 0);
   }
 }
 
