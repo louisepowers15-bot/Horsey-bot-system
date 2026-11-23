@@ -361,6 +361,31 @@ def fetch_race_detail(date_str, course_name, race_id, race_name):
                 if weight_lbs is not None and last_win_weight_lbs is not None:
                     weight_delta = round(weight_lbs - last_win_weight_lbs, 1)
 
+                # Headgear (list or string)
+                hg = ride.get("headgear") or []
+                if isinstance(hg, list):
+                    headgear = ", ".join(str(x) for x in hg if x)
+                else:
+                    headgear = str(hg).strip() if hg else ""
+
+                # Days since last run + age + official rating
+                try:
+                    days_off = horse.get("last_ran_days")
+                    days_off = int(days_off) if days_off is not None else None
+                except Exception:
+                    days_off = None
+                try:
+                    age = int(horse.get("age")) if horse.get("age") is not None else None
+                except Exception:
+                    age = None
+                official_rating = ride.get("official_rating")
+                if official_rating is None:
+                    official_rating = horse.get("official_rating") or horse.get("rating")
+                try:
+                    official_rating = int(official_rating) if official_rating is not None else None
+                except Exception:
+                    official_rating = None
+
                 runners.append({
                     "name": name,
                     "odds": dec,
@@ -368,7 +393,7 @@ def fetch_race_detail(date_str, course_name, race_id, race_name):
                     "trainer": trainer,
                     "form": form_figs,
                     "form_source": form_source,
-                    "form_summary_raw": form_summary,  # kept for debug only
+                    "form_summary_raw": form_summary,
                     "form_score": round(form_score, 2),
                     "trainer_score": round(min(0.85, 0.4 + wins * 0.08), 2),
                     "jockey_score": round(combo, 2),
@@ -379,6 +404,10 @@ def fetch_race_detail(date_str, course_name, race_id, race_name):
                     "last_win_weight_lbs": last_win_weight_lbs,
                     "weight_delta_lbs": weight_delta,
                     "previous_results": prev,
+                    "headgear": headgear,
+                    "days_off": days_off,
+                    "age": age,
+                    "official_rating": official_rating,
                 })
             if runners:
                 return runners, distance, going
@@ -473,7 +502,7 @@ def main():
     total = sum(len(r["runners"]) for m in meetings for r in m["races"])
     print(f"Found {len(meetings)} meetings, {total} runners")
 
-    # Fingerprint race ids — helps detect "tomorrow" pages that still show today's card
+    # Fingerprint race ids — detect when SL still serves an older day's card
     race_ids = []
     for m in meetings:
         for r in m.get("races") or []:
@@ -481,34 +510,55 @@ def main():
                 race_ids.append(str(r["race_id"]))
     race_ids = sorted(set(race_ids))
 
-    # Compare to yesterday file if present
-    yday = (d - timedelta(days=1)).isoformat()
-    ypath = ROOT_DIR / f"racecards-{yday}.json"
     note = None
-    if ypath.exists() and race_ids:
+    unpublished = False
+
+    # Compare against any recent day files (1–3 days back)
+    for back in (1, 2, 3):
+        other = (d - timedelta(days=back)).isoformat()
+        opath = ROOT_DIR / f"racecards-{other}.json"
+        if not opath.exists() or not race_ids:
+            continue
         try:
-            ydata = json.loads(ypath.read_text(encoding="utf-8"))
-            y_ids = sorted({
+            odata = json.loads(opath.read_text(encoding="utf-8"))
+            o_ids = sorted({
                 str(r.get("race_id"))
-                for m in ydata.get("meetings") or []
+                for m in odata.get("meetings") or []
                 for r in m.get("races") or []
                 if r.get("race_id")
             })
-            if y_ids and y_ids == race_ids:
+            if o_ids and o_ids == race_ids:
+                unpublished = True
                 note = (
-                    f"WARNING: race ids for {d.isoformat()} are identical to {yday}. "
-                    "Sporting Life may not have published the next day's card yet — "
-                    "this file may still be the previous day's meetings."
+                    f"Cards for {d.isoformat()} are not published yet on Sporting Life. "
+                    f"The feed still returns the same race ids as {other}. "
+                    "No meetings stored — will fill in once the real card appears."
                 )
                 print(note)
+                break
         except Exception:
             pass
+
+    # Also refuse empty-looking future cards with zero runners
+    if not unpublished and total == 0 and d > date.today():
+        unpublished = True
+        note = (
+            f"No runners found for {d.isoformat()}. "
+            "Card may not be published yet."
+        )
+        print(note)
+
+    if unpublished:
+        meetings = []
+        race_ids = []
+        total = 0
 
     out = {
         "date": d.isoformat(),
         "source": "sportinglife",
         "scraped_at": datetime.utcnow().isoformat() + "Z",
         "race_id_fingerprint": race_ids[:40],
+        "published": not unpublished,
         "note": note,
         "meetings": meetings,
     }

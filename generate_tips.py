@@ -277,6 +277,19 @@ def enrich(runner, field_size, all_odds, going, distance, course, day_books):
     except Exception:
         r["_weight_delta_lbs"] = None
     r["_previous_results"] = r.get("previous_results") or []
+    r["_headgear"] = str(r.get("headgear") or "").strip()
+    try:
+        r["_days_off"] = int(r["days_off"]) if r.get("days_off") is not None else None
+    except Exception:
+        r["_days_off"] = None
+    try:
+        r["_age"] = int(r["age"]) if r.get("age") is not None else None
+    except Exception:
+        r["_age"] = None
+    try:
+        r["_or"] = int(r["official_rating"]) if r.get("official_rating") is not None else None
+    except Exception:
+        r["_or"] = None
 
     # Carrying more than last winning weight is a real negative, especially over longer trips
     delta = r["_weight_delta_lbs"]
@@ -364,6 +377,25 @@ def enrich(runner, field_size, all_odds, going, distance, course, day_books):
         x in str(p.get("going") or "").lower() for x in ("st", "standard", "aw")))
     r["_prev_aw_runs"] = aw_runs
     r["_prev_turf_runs"] = turf_runs
+
+    # Freshness / absence
+    days = r.get("_days_off")
+    if days is not None:
+        if 14 <= days <= 45:
+            r["_form"] = min(0.92, r["_form"] + 0.02)  # typical spacing
+        elif days > 180:
+            r["_form"] = max(0.12, r["_form"] - 0.06)  # long absence caution
+        elif days > 100:
+            r["_form"] = max(0.12, r["_form"] - 0.03)
+        elif days < 7:
+            r["_form"] = max(0.12, r["_form"] - 0.02)  # very quick reappearance
+
+    # First-time headgear is information, not automatically good
+    hg = (r.get("_headgear") or "").lower()
+    if hg and any(x in hg for x in ("blinker", "hood", "visor", "tongue", "cheek")):
+        r["_has_headgear"] = True
+    else:
+        r["_has_headgear"] = False
 
     sorted_odds = sorted(all_odds)
     try:
@@ -514,7 +546,6 @@ def tipster_reason(bot, r, tip_type, conf, field_size, rivals: list | None = Non
         if weight:
             out.append(f"It carries {weight} today.")
         if wdelta is not None and wlast is not None:
-            # wlast is lbs total; present roughly as stone if useful
             if wdelta >= 5:
                 out.append(
                     f"That is about {wdelta:.0f}lb more than when it last won — a real rise in the weights"
@@ -526,6 +557,19 @@ def tipster_reason(bot, r, tip_type, conf, field_size, rivals: list | None = Non
                 out.append(f"It is down about {abs(wdelta):.0f}lb on its last winning weight, which is a help.")
             elif wdelta <= -2:
                 out.append(f"It gets a small weight drop compared with its last win ({abs(wdelta):.0f}lb).")
+        days = r.get("_days_off")
+        if days is not None:
+            if days > 180:
+                out.append(f"It has been off for about {days} days — a long absence, so fitness is a question.")
+            elif days > 100:
+                out.append(f"It has had {days} days off, which is a break rather than a quick turnaround.")
+            elif days < 8:
+                out.append(f"It is back very quickly ({days} days since last run).")
+        hg = r.get("_headgear") or ""
+        if hg:
+            out.append(f"Headgear on the card: {hg}.")
+        if r.get("_or"):
+            out.append(f"Official rating: {r['_or']}.")
         if surface == "AW" and prev_turf >= 2 and prev_aw == 0:
             out.append(
                 "Recent runs on the card look more turf-based than all-weather, so treat AW form as unproven from those lines."
@@ -863,19 +907,37 @@ def build_tips_for_races(d, flat_races):
                 "reason": tipster_reason(bot, best, tip_type, conf, field_size, rivals=runners),
             })
 
-        # Diversity pass: if all six on same horse, allow second choice for weakest conf
+        # Diversity: avoid 4+ bots on the same horse when the field has alternatives
         counts = Counter(t["horse"] for t in tips)
-        if len(counts) == 1 and field_size >= 4:
-            weakest = min(range(len(tips)), key=lambda i: tips[i]["conf"])
-            bot = tips[weakest]["bot"]
-            ranked = sorted(((score_bot(bot, r, rng), r) for r in runners), key=lambda x: -x[0])
-            for prob, r in ranked[1:3]:
-                if r["name"] != tips[weakest]["horse"]:
+        if field_size >= 4:
+            # Reassign lowest-conf tips off the most popular horse until max 3 on one name
+            for _ in range(6):
+                counts = Counter(t["horse"] for t in tips)
+                popular, n = counts.most_common(1)[0]
+                if n <= 3:
+                    break
+                # weakest tip still on popular horse
+                candidates = [i for i, t in enumerate(tips) if t["horse"] == popular]
+                weakest = min(candidates, key=lambda i: tips[i]["conf"])
+                bot = tips[weakest]["bot"]
+                ranked = sorted(((score_bot(bot, r, rng), r) for r in runners), key=lambda x: -x[0])
+                moved = False
+                for prob, r in ranked:
+                    if r["name"] == popular:
+                        continue
+                    # don't create a new pile-up worse than 3
+                    if counts.get(r["name"], 0) >= 3:
+                        continue
                     tips[weakest]["horse"] = r["name"]
                     tips[weakest]["odds"] = round(r["odds"], 2)
                     tips[weakest]["type"] = choose_type(bot, r, field_size, prob)
                     tips[weakest]["conf"] = max(40, min(84, int(round(prob * 100))))
-                    tips[weakest]["reason"] = tipster_reason(bot, r, tips[weakest]["type"], tips[weakest]["conf"], field_size, rivals=runners)
+                    tips[weakest]["reason"] = tipster_reason(
+                        bot, r, tips[weakest]["type"], tips[weakest]["conf"], field_size, rivals=runners
+                    )
+                    moved = True
+                    break
+                if not moved:
                     break
 
         counts = Counter(t["horse"] for t in tips)
@@ -936,11 +998,31 @@ def main():
     d = parse_date(args.date)
     print(f"Generating tips for {d.isoformat()}")
     scraped = load_scraped_races(d)
-    tips = build_tips_for_races(d, scraped) if scraped else {
-        "date": d.isoformat(), "meetings": [], "races": [],
-        "generated_at": datetime.utcnow().isoformat() + "Z",
-        "note": "No scraped racecards available.",
-    }
+    # Detect unpublished card note from racecards file
+    rc_path = DATA_DIR / f"racecards-{d.isoformat()}.json"
+    rc_note = None
+    rc_published = True
+    if rc_path.exists():
+        try:
+            rc = json.loads(rc_path.read_text(encoding="utf-8"))
+            rc_note = rc.get("note")
+            if rc.get("published") is False:
+                rc_published = False
+        except Exception:
+            pass
+
+    if not scraped or not rc_published:
+        tips = {
+            "date": d.isoformat(),
+            "meetings": [],
+            "races": [],
+            "generated_at": datetime.utcnow().isoformat() + "Z",
+            "published": False,
+            "note": rc_note or "No scraped racecards available — card may not be published yet.",
+        }
+    else:
+        tips = build_tips_for_races(d, scraped)
+        tips["published"] = True
     out = DATA_DIR / f"tips-{d.isoformat()}.json"
     out.write_text(json.dumps(tips, indent=2), encoding="utf-8")
     print(f"Wrote {out} races={len(tips.get('races') or [])}")

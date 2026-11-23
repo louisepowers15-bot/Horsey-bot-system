@@ -113,7 +113,13 @@
       .col-headers, .tip { grid-template-columns: 100px 1fr 55px 50px 48px; }
       .bot-badge { font-size: 0.65rem; }
     }
-  </style>
+  
+  .data-warn {
+    background: #3d2914; border: 1px solid #c47b2c; color: #f0d9b5;
+    padding: 12px 16px; border-radius: 10px; margin: 12px 0; font-size: 0.95rem; line-height: 1.45;
+  }
+</style>
+
 </head>
 <body>
   <div class="container">
@@ -224,10 +230,20 @@ function groupByMeeting(races) {
 
 function renderRacecards(dataSet) {
   if (!dataSet || !dataSet.races || dataSet.races.length === 0) {
+    const note = (dataSet && dataSet.note) ? dataSet.note : "";
+    const unpublished = dataSet && dataSet.published === false;
+    if (unpublished || note) {
+      return '<div class="data-warn"><strong>' + (unpublished ? "Card not published yet" : "Notice") +
+        "</strong><br>" + (note || "Racecards for this date are not available from the feed yet. Check back later — tips will appear once real runners are published.") +
+        "</div>";
+    }
     return '<p style="color:#94a3b8;text-align:center;padding:2.5rem">No tips available for this date yet.</p>';
   }
   const meetings = groupByMeeting(dataSet.races);
   let html = "";
+  if (dataSet.note) {
+    html += '<div class="data-warn">' + dataSet.note + "</div>";
+  }
   Object.keys(meetings).sort().forEach(course => {
     html += '<div class="meeting">' +
       '<div class="meeting-header" onclick="this.parentElement.classList.toggle(\'open\')">' +
