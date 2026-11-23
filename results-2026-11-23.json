@@ -1,7 +1,7 @@
 {
   "date": "2026-11-23",
   "source": "sportinglife",
-  "scraped_at": "2026-11-23T17:14:15.930273Z",
+  "scraped_at": "2026-11-23T17:35:50.794640Z",
   "meetings": [
     {
       "course": "Huntingdon",
@@ -935,6 +935,70 @@
               "position": 0,
               "status": "NONRUNNER",
               "sp": 9.0
+            }
+          ]
+        },
+        {
+          "time": "17:15",
+          "name": "AWC Season 14 Has Begun Fillies' Novice Stakes (GBB Race)",
+          "course": "Newcastle",
+          "distance": "7f 14y",
+          "going": "Standard",
+          "field_size": 9,
+          "runners": [
+            {
+              "name": "Bintbossom",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 8.5
+            },
+            {
+              "name": "Ruby Sands",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 3.5
+            },
+            {
+              "name": "Angelcatcher",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Sea Of Serenity",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Cant Bear The Heat",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Faithful",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 2.5
+            },
+            {
+              "name": "Love Dubai",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 19.0
+            },
+            {
+              "name": "Banner Babe",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 9.0
+            },
+            {
+              "name": "Aunty Patsy",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 29.0
             }
           ]
         }

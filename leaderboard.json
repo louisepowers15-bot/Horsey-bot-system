@@ -1,107 +1,107 @@
 {
-  "updated_at": "2026-11-23T17:14:15.987917Z",
+  "updated_at": "2026-11-23T17:35:50.843523Z",
   "bots": {
     "BloodlineBetty": {
-      "tips": 50,
+      "tips": 51,
       "wins": 13,
       "places": 3,
-      "losses": 34,
-      "unknown": 26,
-      "stakes": 50.0,
+      "losses": 35,
+      "unknown": 25,
+      "stakes": 51.0,
       "returns": 46.27,
-      "pnl": -3.73,
-      "avg_odds": 5.5,
+      "pnl": -4.73,
+      "avg_odds": 5.46,
       "style": {
-        "win": 43,
+        "win": 44,
         "ew": 7
       },
-      "roi_pct": -7.5,
-      "win_pct": 26.0
+      "roi_pct": -9.3,
+      "win_pct": 25.5
     },
     "DevilAdvocate": {
-      "tips": 50,
+      "tips": 51,
       "wins": 12,
       "places": 4,
-      "losses": 34,
-      "unknown": 26,
-      "stakes": 50.0,
+      "losses": 35,
+      "unknown": 25,
+      "stakes": 51.0,
       "returns": 55.64,
-      "pnl": 5.64,
-      "avg_odds": 5.66,
+      "pnl": 4.64,
+      "avg_odds": 5.61,
       "style": {
-        "win": 42,
+        "win": 43,
         "ew": 8
       },
-      "roi_pct": 11.3,
-      "win_pct": 24.0
+      "roi_pct": 9.1,
+      "win_pct": 23.5
     },
     "FormFox": {
-      "tips": 50,
+      "tips": 51,
       "wins": 11,
       "places": 3,
-      "losses": 36,
-      "unknown": 26,
-      "stakes": 50.0,
+      "losses": 37,
+      "unknown": 25,
+      "stakes": 51.0,
       "returns": 41.23,
-      "pnl": -8.77,
-      "avg_odds": 5.36,
+      "pnl": -9.77,
+      "avg_odds": 5.33,
       "style": {
-        "win": 43,
+        "win": 44,
         "ew": 7
       },
-      "roi_pct": -17.5,
-      "win_pct": 22.0
+      "roi_pct": -19.1,
+      "win_pct": 21.6
     },
     "HotTrainer": {
-      "tips": 50,
+      "tips": 51,
       "wins": 12,
       "places": 2,
-      "losses": 36,
-      "unknown": 26,
-      "stakes": 50.0,
+      "losses": 37,
+      "unknown": 25,
+      "stakes": 51.0,
       "returns": 37.94,
-      "pnl": -12.06,
-      "avg_odds": 4.58,
+      "pnl": -13.06,
+      "avg_odds": 4.56,
       "style": {
-        "win": 45,
+        "win": 46,
         "ew": 5
       },
-      "roi_pct": -24.1,
-      "win_pct": 24.0
+      "roi_pct": -25.6,
+      "win_pct": 23.5
     },
     "PaceProphet": {
-      "tips": 50,
+      "tips": 51,
       "wins": 14,
       "places": 4,
-      "losses": 32,
-      "unknown": 26,
-      "stakes": 50.0,
+      "losses": 33,
+      "unknown": 25,
+      "stakes": 51.0,
       "returns": 50.13,
-      "pnl": 0.13,
-      "avg_odds": 5.03,
+      "pnl": -0.87,
+      "avg_odds": 5.0,
       "style": {
-        "win": 43,
+        "win": 44,
         "ew": 7
       },
-      "roi_pct": 0.3,
-      "win_pct": 28.0
+      "roi_pct": -1.7,
+      "win_pct": 27.5
     },
     "ValueHunter": {
-      "tips": 50,
+      "tips": 51,
       "wins": 14,
       "places": 3,
-      "losses": 33,
-      "unknown": 26,
-      "stakes": 50.0,
+      "losses": 34,
+      "unknown": 25,
+      "stakes": 51.0,
       "returns": 59.29,
-      "pnl": 9.29,
-      "avg_odds": 5.74,
+      "pnl": 8.29,
+      "avg_odds": 5.7,
       "style": {
-        "win": 42,
+        "win": 43,
         "ew": 8
       },
-      "roi_pct": 18.6,
-      "win_pct": 28.0
+      "roi_pct": 16.2,
+      "win_pct": 27.5
     }
   },
   "history": [
@@ -115,9 +115,9 @@
     {
       "date": "2026-11-23",
       "tips": 228,
-      "settled": 108,
-      "unknown": 120,
-      "pnl": -3.13
+      "settled": 114,
+      "unknown": 114,
+      "pnl": -9.13
     }
   ]
 }
