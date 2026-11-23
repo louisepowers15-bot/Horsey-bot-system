@@ -389,6 +389,7 @@ def pick_for_bot(bot, ranked, field_size):
 
 
 
+
 def _h(seed: str, *opts: str) -> str:
     opts = [o for o in opts if o]
     if not opts:
@@ -396,45 +397,44 @@ def _h(seed: str, *opts: str) -> str:
     return opts[sum(ord(c) for c in seed) % len(opts)]
 
 
-def _plain_form(form: str) -> tuple[str, list[str]]:
-    """Turn a form string into plain-English facts a novice can follow."""
+def _form_facts(form: str) -> list[str]:
     tokens = parse_form_tokens(form)
-    if not form or not tokens:
-        return "", []
+    if not tokens:
+        return []
     facts = []
     last = tokens[0]
     last_map = {
-        "1": "It won its most recent race.",
-        "2": "It finished second last time out — only just beaten.",
-        "3": "It finished third last time, so it was still involved at the finish.",
-        "0": "It did not finish in the first three last time.",
-        "F": "It fell last time, so that run is best treated with caution.",
-        "P": "It was pulled up last time and did not finish the race.",
-        "U": "The jockey was unseated last time, so that run is hard to judge.",
-        "R": "It refused or failed to complete last time.",
-        "B": "It was brought down or failed to complete last time.",
+        "1": "won last time",
+        "2": "finished second last time",
+        "3": "finished third last time",
+        "0": "was out of the first three last time",
+        "F": "fell last time",
+        "P": "was pulled up last time",
+        "U": "unseated last time",
+        "R": "failed to complete last time",
+        "B": "failed to complete last time",
     }
     if last in last_map:
         facts.append(last_map[last])
     wins = sum(1 for t in tokens[:6] if t == "1")
     places = sum(1 for t in tokens[:6] if t in ("1", "2", "3"))
     if wins >= 2:
-        facts.append(f"Looking at its recent runs, it has won {wins} of them.")
+        facts.append(f"has {wins} recent wins in the figures")
     elif places >= 3:
-        facts.append(f"It has finished in the top three {places} times in its recent runs.")
+        facts.append(f"has been top-three {places} times recently")
     elif wins == 1:
-        facts.append("It has a win among its recent runs.")
-    return form, facts
+        facts.append("has a win in the recent figures")
+    return facts
 
 
-def _wc(text: str) -> int:
-    return len([w for w in text.replace(".", " ").split() if w])
+def _wc(t: str) -> int:
+    return len(t.split())
 
 
 def tipster_reason(bot, r, tip_type, conf, field_size, rivals: list | None = None):
     """
-    Clear, novice-friendly explanation of why this horse can win.
-    Minimum ~50 words. Only uses real card data — no invented stats.
+    Distinct voice per bot. Built only from card/history facts.
+    Avoids shared template paragraphs so bots do not sound the same.
     """
     name = (r.get("name") or "This horse").strip()
     odds = float(r.get("odds") or 10)
@@ -445,15 +445,18 @@ def tipster_reason(bot, r, tip_type, conf, field_size, rivals: list | None = Non
     going = (r.get("_going_txt") or "").strip()
     trip = (r.get("_trip_txt") or "").strip()
     surface = r.get("_surface") or "unknown"
+    code = (r.get("_code") or "unknown").lower()
     rank = int(r.get("_rank") or 0)
     form_s = float(r.get("_form") or 0.4)
     trend = float(r.get("_trend") or 0.5)
     t_day = int(r.get("_t_day_n") or 0)
     j_day = int(r.get("_j_day_n") or 0)
     c_day = int(r.get("_c_day_n") or 0)
-    seed = f"{bot}|{name}|{form}|{course}|{odds:.2f}|{rank}"
+    hist_bits = list(r.get("_hist_bits") or [])
+    seed = f"{bot}|{name}|{form}|{course}|{odds:.2f}|{rank}|{tip_type}"
 
-    form_raw, form_facts = _plain_form(form)
+    ff = _form_facts(form)
+    gshort = going.split("(")[0].strip() if going else ""
 
     fav = None
     if rivals:
@@ -461,267 +464,250 @@ def tipster_reason(bot, r, tip_type, conf, field_size, rivals: list | None = Non
         if (fav.get("name") or "") == name:
             fav = None
 
-    # Shared plain pieces
-    code = (r.get("_code") or "unknown").strip().lower()
-    code_txt = {
-        "flat": "a flat race",
-        "hurdle": "a hurdle race",
-        "chase": "a chase (fences)",
-        "nh_flat": "a National Hunt flat / bumper race",
+    code_word = {
+        "hurdle": "hurdles", "chase": "fences", "flat": "the flat",
+        "nh_flat": "a bumper",
     }.get(code, "")
 
-    where = []
-    if course:
-        where.append(f"at {course}")
-    if code_txt:
-        where.append(f"in {code_txt}")
-    if trip:
-        where.append(f"over {trip}")
-    if surface == "AW":
-        where.append("on the all-weather (synthetic) surface")
-    elif going:
-        gshort = going.split("(")[0].strip()
-        where.append(f"on turf, ground described as {gshort}" if surface == "turf" else f"on ground described as {gshort}")
-    elif surface == "turf":
-        where.append("on turf")
-    where_txt = ", ".join(where) if where else "in this race"
+    lines: list[str] = []
 
-    # Honesty note: form figures do not tell us surface/code of past runs
-    honesty = (
-        "Important: the form figures only show finishing positions. "
-        "They do not tell us whether those past runs were on all-weather or turf, "
-        "or whether they were flat, hurdles or chases. "
-        "So good numbers should be treated with care if this race type or surface is different."
-    )
-
-    field_txt = ""
-    if field_size >= 12:
-        field_txt = f"There are {field_size} horses in the race, so it is competitive and a clear run matters."
-    elif field_size <= 5:
-        field_txt = f"There are only {field_size} horses in the race, so every runner has a real chance if things fall right."
-    elif field_size:
-        field_txt = f"There are {field_size} horses lined up."
-
-    paras: list[str] = []
-
+    # ========== FORM FOX — form nerd ==========
     if bot == "FormFox":
-        paras.append(
-            f"I am picking {name} because of what it has already done on the track {where_txt}."
-        )
-        if form_facts:
-            paras.append(" ".join(form_facts))
-            if form_raw:
-                paras.append(f"Its recent form figures are {form_raw}.")
-        elif form_raw:
-            paras.append(f"Its recent form figures are {form_raw}, which still look usable in this company.")
-        else:
-            paras.append(
-                "There is not much form written up for this horse, so this is a thinner form case than usual."
+        if ff:
+            lines.append(
+                _h(seed,
+                   f"Start with the form: {name} {ff[0]}.",
+                   f"The form is the reason I am on {name} — it {ff[0]}.",
+                   f"{name} gets in on the figures. It {ff[0]}.")
             )
-        if trend >= 0.58 and form_facts:
-            paras.append("The newer runs look better than the older ones, which is a good sign.")
-        if field_txt:
-            paras.append(field_txt)
-        if form_s >= 0.5:
-            paras.append(
-                "If it runs to the same level again, it has a strong chance of winning or being right there at the finish."
-            )
+            for fact in ff[1:3]:
+                lines.append(fact[0].upper() + fact[1:] + ".")
+            if form:
+                lines.append(f"The string on the card is {form}.")
         else:
-            paras.append(
-                "The form is not perfect, but compared with the others it still looks one of the more reliable options."
+            lines.append(
+                f"Form is thin on the page for {name}, so this is not a deep form bet — more a case of least risk in a murky race."
+            )
+        if trend >= 0.58 and ff:
+            lines.append("The newer runs are better than the older ones, which is what you want to see.")
+        if trip:
+            lines.append(
+                _h(seed + "t",
+                   f"Today is {trip}" + (f" over {code_word}" if code_word else "") + ".",
+                   f"Distance today: {trip}. That matches the sort of test these figures were earned over well enough.")
+            )
+        if surface == "AW":
+            lines.append(
+                "It is all-weather today. Remember the form figures alone do not say whether those past runs were on sand or turf — treat a pure number line with a little caution."
+            )
+        elif gshort:
+            lines.append(f"Ground is {gshort}. Nothing in the card says that is a hard stop.")
+        if field_size >= 12:
+            lines.append(f"Big field ({field_size}) — form horses still need a clean trip.")
+        elif field_size and field_size <= 6:
+            lines.append(f"Only {field_size} runners, so the form order should have every chance to hold up.")
+        if tip_type == "ew":
+            lines.append(f"Each-way at about {odds:.2f} is the sensible way to use the form case.")
+        else:
+            lines.append(
+                _h(seed + "c",
+                   f"I would back {name} to win around {odds:.2f}.",
+                   f"Win bet: {name}, about {odds:.2f}.")
             )
 
+    # ========== HOT TRAINER — yard / booking ==========
     elif bot == "HotTrainer":
-        if trainer:
-            paras.append(
-                f"I am with {name} mainly because of the trainer, {trainer}, and how this horse is being placed today {where_txt}."
+        if trainer and t_day >= 4:
+            lines.append(
+                f"{trainer} has turned up with {t_day} runners today. When a yard saturates a meeting like that, I pay attention — and {name} is the one I want from them in this race."
+            )
+        elif trainer:
+            lines.append(
+                _h(seed,
+                   f"{name} is the {trainer} horse I am interested in.",
+                   f"I am siding with the stable: {name} for {trainer}.",
+                   f"Trainer angle: {trainer}'s {name}.")
             )
         else:
-            paras.append(f"I am with {name} on connections and how the horse is placed today.")
-        if t_day >= 3 and trainer:
-            paras.append(
-                f"{trainer} has {t_day} horses running today, which usually means the yard is serious about this meeting."
+            lines.append(f"{name} is the connections pick in a race where the form is not clear-cut.")
+
+        if jockey and c_day >= 2:
+            lines.append(
+                f"{jockey} is on more than one for the same yard today. That is a deliberate booking, not a spare ride."
             )
-        if jockey:
-            if c_day >= 2:
-                paras.append(
-                    f"{jockey} is riding for the same trainer more than once today, so the partnership is intentional."
-                )
-            elif j_day >= 3:
-                paras.append(
-                    f"{jockey} has {j_day} rides on the card, so this is not a one-off booking."
-                )
-            else:
-                paras.append(f"{jockey} is in the saddle.")
-        if form_facts:
-            paras.append(" ".join(form_facts[:2]))
-        elif form_raw:
-            paras.append(f"Recent form reads {form_raw}.")
-        if field_txt:
-            paras.append(field_txt)
-        paras.append(
-            "A capable yard, a sensible jockey booking, and enough form on the page is a straightforward reason to think this horse can win."
+        elif jockey and j_day >= 4:
+            lines.append(f"{jockey} has a full book ({j_day} rides). This is one of the mounts they bothered to keep.")
+        elif jockey:
+            lines.append(f"{jockey} rides.")
+
+        if ff:
+            lines.append("Form check: " + ff[0] + (f"; {ff[1]}" if len(ff) > 1 else "") + ".")
+        if course and trip:
+            lines.append(f"It is {course}, {trip}" + (f", {code_word}" if code_word else "") + ".")
+        if t_day >= 3:
+            lines.append(
+                "A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive."
+            )
+        lines.append(
+            _h(seed + "c",
+               f"I would rather be with this yard's runner at {odds:.2f} than chase a random outsider.",
+               f"Back {name} — win around {odds:.2f}." + (" Each-way if you prefer." if tip_type == "ew" else ""))
         )
 
+    # ========== VALUE HUNTER — price first ==========
     elif bot == "ValueHunter":
-        paras.append(
-            f"At around {odds:.2f}, {name} looks a fair price to me for what it has shown, racing {where_txt}."
-        )
-        if form_facts:
-            paras.append(" ".join(form_facts[:2]))
-            if form_raw:
-                paras.append(f"Form figures: {form_raw}.")
-        elif form_raw:
-            paras.append(f"Form figures: {form_raw}.")
+        if odds >= 10:
+            lines.append(
+                f"The number is the hook: {odds:.0f}-1 {name}. That only interests me if the form is not a write-off."
+            )
+        elif rank >= 4:
+            lines.append(
+                f"{name} is drifting around {odds:.2f} while others are shorter. I am not convinced those shorter prices are earned."
+            )
         else:
-            paras.append("Form on the card is light, so the price has to do more of the work.")
+            lines.append(
+                f"At about {odds:.2f}, {name} is not a crazy price for what is on the card."
+            )
+        if ff:
+            lines.append("What has it done? " + "; ".join(ff[:2]) + ".")
+            if form:
+                lines.append(f"Figures: {form}.")
+        else:
+            lines.append("Form on the page is light, so this is a price-led idea rather than a form napkin job.")
         if trainer and t_day >= 2:
-            paras.append(
-                f"{trainer} has {t_day} runners today, so this is unlikely to be a complete afterthought from the yard."
-            )
-        if rank >= 4:
-            paras.append(
-                "Several horses are shorter in the betting, but the form does not clearly prove they should be."
-            )
-        if field_txt:
-            paras.append(field_txt)
-        paras.append(
-            "I would rather take this price on a horse with solid enough form than back a shorter one that is not clearly better on what we can see."
-        )
+            lines.append(f"{trainer} has {t_day} today — not a total blind runner from a quiet yard.")
+        if surface == "AW":
+            lines.append("AW race: form numbers do not spell out past surfaces, so leave a little room for error.")
+        elif code_word:
+            lines.append(f"This is over {code_word}. Same caveat: the form string is positions only.")
+        if tip_type == "ew":
+            lines.append(f"Take it each-way at {odds:.2f} and let the place part do some work.")
+        else:
+            lines.append(f"I am happy enough winning at {odds:.2f} if the race falls right.")
 
+    # ========== DEVIL ADVOCATE — against the obvious ==========
     elif bot == "DevilAdvocate":
         if fav and fav.get("name"):
             fname = fav["name"]
             fform = (fav.get("_form_raw") or fav.get("form") or "").strip()
             fo = float(fav.get("odds") or 0)
             if fform:
-                paras.append(
-                    f"The favourite is {fname} at about {fo:.2f}, with form {fform}. That is respectable, but it is not so strong that everything else should be ignored."
+                lines.append(
+                    f"People will jump on {fname} at about {fo:.2f} because the name is obvious. Its form is {fform} — fine, not frightening."
                 )
             else:
-                paras.append(
-                    f"The favourite is {fname} at about {fo:.2f}, without a big form line on the card."
+                lines.append(
+                    f"{fname} is short enough at about {fo:.2f} without a big form line on the card. That bothers me."
                 )
-        paras.append(
-            f"I prefer {name} {where_txt}, because the case for the shorter-priced horses is not as clear as the odds suggest."
-        )
-        if form_facts:
-            paras.append(" ".join(form_facts[:2]))
-            if form_raw:
-                paras.append(f"Its own form figures are {form_raw}.")
-        elif form_raw:
-            paras.append(f"Its own form figures are {form_raw}.")
+            lines.append(f"I would rather be on {name}.")
+        else:
+            lines.append(f"I am against the crowd in this one and on {name}.")
+
+        if ff:
+            lines.append(f"{name} {ff[0]}" + (f" and {ff[1]}" if len(ff) > 1 else "") + ".")
+            if form:
+                lines.append(f"Its figures read {form}.")
         if field_size and field_size <= 7:
-            paras.append(
-                f"With only {field_size} runners, if the favourite has an off day this horse is immediately in the mix."
+            lines.append(
+                f"Only {field_size} in the field. One messy jump from the jolly and the race is blown open."
             )
-        elif field_txt:
-            paras.append(field_txt)
         if jockey:
-            paras.append(f"{jockey} rides.")
-        paras.append(
-            "In plain terms: I am not convinced the favourite is a good thing, and this horse’s form is good enough to take advantage."
+            lines.append(f"{jockey} is booked — that does not look like a no-hoper booking.")
+        if course:
+            lines.append(f"{course}" + (f", {trip}" if trip else "") + ".")
+        lines.append(
+            "Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up."
+        )
+        lines.append(
+            f"{'Each-way' if tip_type == 'ew' else 'Win'} at about {odds:.2f}."
         )
 
+    # ========== BLOODLINE BETTY — progression / setup ==========
     elif bot == "BloodlineBetty":
-        paras.append(
-            f"{name} looks open to running well {where_txt}, based on the pattern of its recent results rather than any private information."
-        )
-        if form_facts:
-            paras.append(" ".join(form_facts[:2]))
-            if form_raw:
-                paras.append(f"Form figures: {form_raw}.")
-        if trend >= 0.55 and form_raw:
-            paras.append(
-                "The more recent runs are at least as good as, or better than, the older ones — a sign things may be coming together."
+        if trend >= 0.58 and ff:
+            lines.append(
+                f"What I like about {name} is the direction of travel. The recent form is moving the right way, not the wrong way."
             )
-        if trip:
-            paras.append(f"The distance ({trip}) looks a reasonable match for what it has been doing.")
-        if surface == "AW":
-            paras.append(
-                "This is on the all-weather. We can only go on the form shown; nothing on the card says the surface is a clear negative."
-            )
-        elif going:
-            gshort = going.split("(")[0].strip()
-            paras.append(f"The ground ({gshort}) does not look an obvious problem from the information we have.")
-        if trainer:
-            paras.append(f"It is trained by {trainer}.")
-        if field_txt:
-            paras.append(field_txt)
-        paras.append(
-            "Putting that together, there is a clear, simple case that this horse can be involved in the finish and has a real chance to win."
-        )
-
-    else:  # PaceProphet
-        paras.append(
-            f"My angle on {name} is how the race is likely to unfold {where_txt}."
-        )
-        if field_size >= 12:
-            paras.append(
-                f"With {field_size} runners it can get messy in the pack. You want a horse that can travel comfortably and still have a say at the finish — this one fits that job on the form we have."
-            )
-        elif field_size <= 5:
-            paras.append(
-                f"Only {field_size} runners means tactics and position matter a lot; a small mistake from a rival can hand the race over."
+        elif ff and any("win" in x for x in ff):
+            lines.append(
+                f"{name} has already shown it can win. The question is whether today's setup lets it do it again."
             )
         else:
-            paras.append(
-                f"There are {field_size} runners, enough for the shape of the race to matter as well as pure ability."
+            lines.append(
+                f"{name} is not the flashiest name in the race, but the setup looks workable for another solid run."
             )
-        if jockey:
-            if j_day >= 3:
-                paras.append(
-                    f"{jockey} rides and has {j_day} mounts today, so they will know how hard to go and when to wait."
-                )
-            else:
-                paras.append(f"{jockey} is a sensible booking for getting a horse into the right place.")
-        if form_facts:
-            paras.append(" ".join(form_facts[:2]))
-        elif form_raw:
-            paras.append(f"Form figures: {form_raw}.")
+        if ff:
+            lines.append("; ".join(ff[:2]).capitalize() + ".")
+        if form:
+            lines.append(f"Form on the card: {form}.")
         if trip:
-            paras.append(f"Over {trip}, how fast they go early will decide who has energy left.")
-        paras.append(
-            "So the reason to back it is practical: the setup of the race gives this horse a fair chance to show its form and win."
+            lines.append(f"Trip is {trip}" + (f" ({code_word})" if code_word else "") + ". That does not look an obvious mismatch.")
+        if surface == "AW":
+            lines.append(
+                "All-weather today. We cannot see from the form string alone whether past runs were on this surface, so do not over-claim."
+            )
+        elif gshort:
+            lines.append(f"Ground: {gshort}. Usable on the information we have.")
+        if trainer:
+            lines.append(f"Trained by {trainer}.")
+        if hist_bits:
+            lines.append("From results we have already stored: " + hist_bits[0] + ".")
+        lines.append(
+            f"Put together, there is a clean case for {name} to be involved — and at {odds:.2f} I would "
+            + ("play each-way." if tip_type == "ew" else "take it to win.")
         )
 
-    # Surface / code honesty (only when we know today is AW or jumps, or code known)
-    if surface == "AW" or code in ("hurdle", "chase", "nh_flat", "flat"):
-        paras.append(honesty)
-
-    # Saved history facts (only real past results we stored)
-    hist_bits = r.get("_hist_bits") or []
-    if hist_bits:
-        paras.append("From our saved results history: " + " ".join(hist_bits[:3]) + ".")
-
-    # Clear recommendation
-    if tip_type == "ew":
-        paras.append(
-            f"Suggestion: back {name} each-way at around {odds:.2f} (you win if it finishes first, and you still get a return if it places under the usual each-way rules for a field of this size)."
-        )
+    # ========== PACE PROPHET — shape / tactics ==========
     else:
-        paras.append(
-            f"Suggestion: back {name} to win at around {odds:.2f}."
+        if field_size >= 12:
+            lines.append(
+                f"This is a big field ({field_size}). Ability is not enough if the horse is stuck on the inside or flat-footed when the pace lifts. {name} is the type I want for that job on the form we have."
+            )
+        elif field_size <= 5:
+            lines.append(
+                f"Tiny field ({field_size}). This becomes a tactics race. Position and nerve matter as much as the form book, which is why {name} interests me."
+            )
+        else:
+            lines.append(
+                f"With {field_size} runners the shape of the race still matters. {name} looks suited to how this should be run."
+            )
+        if jockey and j_day >= 3:
+            lines.append(
+                f"{jockey} has {j_day} rides on the card. Busy jockeys who keep a mount usually know how to place one."
+            )
+        elif jockey:
+            lines.append(f"{jockey} is a good booking if you care about where the horse sits in the run.")
+        if ff:
+            lines.append("Form snapshot: " + ff[0] + (f"; {ff[1]}" if len(ff) > 1 else "") + ".")
+        if course and trip:
+            lines.append(f"{course} over {trip}" + (f" — {code_word}" if code_word else "") + ". Early speed will decide who has fuel left.")
+        if surface == "AW":
+            lines.append("On the AW the tempo can change quickly; a horse that travels is gold.")
+        lines.append(
+            f"So the reason is practical, not mystical: race shape + booking + enough form. "
+            f"{'Each-way' if tip_type == 'ew' else 'Win'} {name} around {odds:.2f}."
         )
 
-    text = " ".join(p.strip() for p in paras if p and p.strip())
+    text = " ".join(x.strip() for x in lines if x and x.strip())
     text = " ".join(text.split())
 
-    # Pad to 50+ words using only real leftover facts
+    # Ensure 50+ words using only real leftover facts (no fiction)
     if _wc(text) < 50:
-        extra = []
-        if form_raw and form_raw not in text:
-            extra.append(f"The form string on the card is {form_raw}.")
+        pad = []
+        if form and form not in text:
+            pad.append(f"The form figures are {form}.")
         if trainer and trainer not in text:
-            extra.append(f"Trainer: {trainer}.")
+            pad.append(f"Trainer: {trainer}.")
         if jockey and jockey not in text:
-            extra.append(f"Jockey: {jockey}.")
+            pad.append(f"Jockey: {jockey}.")
         if course and course not in text:
-            extra.append(f"Course: {course}.")
-        extra.append(
-            "Every point above comes from today’s racecard (form, trainer, jockey, distance, ground, field size and price) — nothing extra is assumed."
+            pad.append(f"Course: {course}.")
+        if field_size and str(field_size) not in text:
+            pad.append(f"Field size: {field_size}.")
+        pad.append(
+            "All of this is taken from the racecard and any results history we have stored — nothing is guessed beyond that."
         )
-        text = " ".join([text] + extra)
+        text = " ".join([text] + pad)
         text = " ".join(text.split())
 
     return text
