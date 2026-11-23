@@ -1,6 +1,82 @@
 {
   "date": "2026-11-23",
   "source": "sportinglife",
-  "scraped_at": "2026-11-23T12:01:52.263029Z",
-  "meetings": []
+  "scraped_at": "2026-11-23T12:26:54.143351Z",
+  "meetings": [
+    {
+      "course": "Kempton",
+      "races": [
+        {
+          "time": "12:25",
+          "name": "CopyBet For Champions League Profit Boosts Juvenile Hurdle (GBB Race)",
+          "course": "Kempton",
+          "distance": "2m",
+          "going": "Good",
+          "field_size": 10,
+          "runners": [
+            {
+              "name": "Barbury Boy",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 4.0
+            },
+            {
+              "name": "John Harrison",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Kiss For An Angel",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 301.0
+            },
+            {
+              "name": "Stepanov",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 21.0
+            },
+            {
+              "name": "Thisonesforyou",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 4.0
+            },
+            {
+              "name": "Pantile's Gift",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 21.0
+            },
+            {
+              "name": "Temple",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "James Choice",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Aukus",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 7.0
+            },
+            {
+              "name": "Mathoura",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 41.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
