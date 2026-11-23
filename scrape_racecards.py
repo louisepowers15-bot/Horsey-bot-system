@@ -22,9 +22,39 @@ HEADERS = {
 }
 
 UK_IRE = {
-    "ENG", "IRE", "EIRE", "SCO", "WAL", "GB", "UK", "IE", "NI",
+    "ENG", "IRE", "EIRE", "SCO", "WAL", "WALE", "GB", "UK", "IE", "NI",
     "United Kingdom", "Ireland", "Northern Ireland", "England", "Scotland", "Wales",
+    # Sporting Life sometimes truncates country short_name (e.g. "Wale" for Wales)
+    "Wale",
 }
+
+def is_uk_ire_country(country) -> bool:
+    """Accept UK/Ireland meetings even when country codes are truncated/odd."""
+    if country is None:
+        return True  # unknown → keep (better than dropping Bangor etc.)
+    if isinstance(country, dict):
+        short = str(country.get("short_name") or country.get("code") or "").strip()
+        long = str(country.get("long_name") or country.get("name") or "").strip()
+    else:
+        short = str(country).strip()
+        long = ""
+    if not short and not long:
+        return True
+    u_short = short.upper()
+    u_long = long.upper()
+    if short in UK_IRE or long in UK_IRE:
+        return True
+    if u_short in {x.upper() for x in UK_IRE}:
+        return True
+    # prefix / contains for truncations: Wale→Wales, Scot→Scotland
+    for token in ("ENG", "IRE", "SCOT", "WAL", "WALE", "GB", "UK", "NI", "EIRE"):
+        if u_short.startswith(token) or token.startswith(u_short[:3]) and len(u_short) >= 3:
+            return True
+    for token in ("ENGLAND", "IRELAND", "SCOTLAND", "WALES", "BRITAIN"):
+        if token in u_long or token in u_short:
+            return True
+    return False
+
 
 
 def parse_date(arg: str) -> date:
@@ -210,7 +240,12 @@ def fetch_meetings(d: date) -> list:
             or ""
         )
         course_name = course_info.get("name") or summary.get("course_name") or "Unknown"
-        if country and country.upper() not in UK_IRE:
+        # Also pass full country object when available for robust matching
+        country_obj = course_info.get("country")
+        if country_obj:
+            if not is_uk_ire_country(country_obj):
+                continue
+        elif country and not is_uk_ire_country(country):
             continue
 
         meeting_going = summary.get("going") or ""
