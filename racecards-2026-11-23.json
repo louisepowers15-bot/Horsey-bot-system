@@ -1,7 +1,7 @@
 {
   "date": "2026-11-23",
   "source": "sportinglife",
-  "scraped_at": "2026-11-23T13:32:59.078545Z",
+  "scraped_at": "2026-11-23T13:39:59.545556Z",
   "race_id_fingerprint": [
     "949814",
     "949815",
@@ -4847,7 +4847,7 @@
     },
     {
       "course": "Bangor-on-Dee",
-      "going": "Good to Soft",
+      "going": "Good to Soft (Good in places)",
       "races": [
         {
           "time": "12:05",
