@@ -1,7 +1,7 @@
 {
   "date": "2026-11-23",
   "source": "sportinglife",
-  "scraped_at": "2026-11-23T13:40:59.465574Z",
+  "scraped_at": "2026-11-23T17:08:15.581137Z",
   "meetings": [
     {
       "course": "Huntingdon",
@@ -145,6 +145,238 @@
               "sp": 17.0
             }
           ]
+        },
+        {
+          "time": "13:45",
+          "name": "Conferences At Huntingdon 'Chasing Excellence' Beginners' Chase (GBB Race)",
+          "course": "Huntingdon",
+          "distance": "2m 7f 129y",
+          "going": "Good",
+          "field_size": 5,
+          "runners": [
+            {
+              "name": "Crystal Island",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 1.91
+            },
+            {
+              "name": "Reckless Spending",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 3.25
+            },
+            {
+              "name": "John Barbour",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 8.5
+            },
+            {
+              "name": "Huffin An A Puffin",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 8.0
+            },
+            {
+              "name": "Stone's Throw",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 26.0
+            }
+          ]
+        },
+        {
+          "time": "14:18",
+          "name": "Book Hospitality At Huntingdon Handicap Chase (GBB Race)",
+          "course": "Huntingdon",
+          "distance": "2m 104y",
+          "going": "Good",
+          "field_size": 7,
+          "runners": [
+            {
+              "name": "Sweeper System",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Jamada",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 2.5
+            },
+            {
+              "name": "Granny Hawkins",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 19.0
+            },
+            {
+              "name": "Homme D'Un Soir",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 21.0
+            },
+            {
+              "name": "Inside Man",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 3.5
+            },
+            {
+              "name": "Yes Indeed",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "Black Hawk Eagle",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 12.0
+            }
+          ]
+        },
+        {
+          "time": "14:53",
+          "name": "Festive Fiver Raceday 21 December Mares' Novices' Handicap Hurdle",
+          "course": "Huntingdon",
+          "distance": "2m 4f 145y",
+          "going": "Good",
+          "field_size": 9,
+          "runners": [
+            {
+              "name": "Conniemak",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Zaraquelle",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 4.0
+            },
+            {
+              "name": "Bontessony Doll",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Palma Springs",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 6.0
+            },
+            {
+              "name": "Polkaface",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 15.0
+            },
+            {
+              "name": "Lady Showtime",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 34.0
+            },
+            {
+              "name": "Mistress Fox",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 9.0
+            },
+            {
+              "name": "Midnight Pass",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Lets Go Mo",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 3.25
+            }
+          ]
+        },
+        {
+          "time": "15:23",
+          "name": "Come Racing At Huntingdon Handicap Hurdle",
+          "course": "Huntingdon",
+          "distance": "2m 3f 137y",
+          "going": "Good",
+          "field_size": 11,
+          "runners": [
+            {
+              "name": "Lyrical Choice",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 3.75
+            },
+            {
+              "name": "Fidendum",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 4.5
+            },
+            {
+              "name": "Dirty Den",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 9.5
+            },
+            {
+              "name": "Beau Quali",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "Faded Fantasy",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 15.0
+            },
+            {
+              "name": "Lewisham Grove",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Kentucky River",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "Vivid Pink",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 8.5
+            },
+            {
+              "name": "Emerald Breeze",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Moab",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 4.33
+            },
+            {
+              "name": "Devon Skies",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 51.0
+            }
+          ]
         }
       ]
     },
@@ -280,6 +512,568 @@
               "position": 0,
               "status": "RUNNER",
               "sp": 2.38
+            }
+          ]
+        },
+        {
+          "time": "13:55",
+          "name": "Pertemps Network Handicap Hurdle (GBB Race)",
+          "course": "Kempton",
+          "distance": "3m 121y",
+          "going": "Good",
+          "field_size": 6,
+          "runners": [
+            {
+              "name": "Marsiac",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 3.0
+            },
+            {
+              "name": "Road To Wembley",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 3.0
+            },
+            {
+              "name": "Idaho Fire",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 4.33
+            },
+            {
+              "name": "Ikarak",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 9.0
+            },
+            {
+              "name": "Ernest Gray",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "East India Express",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 3.75
+            }
+          ]
+        },
+        {
+          "time": "14:30",
+          "name": "CopyBet Follow Us On X Lilies Mares' Hurdle (Listed) (GBB Race)",
+          "course": "Kempton",
+          "distance": "2m 5f",
+          "going": "Good",
+          "field_size": 5,
+          "runners": [
+            {
+              "name": "Hollygrove Cha Cha",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 3.75
+            },
+            {
+              "name": "Take No Chances",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 2.62
+            },
+            {
+              "name": "Jackie Hobbs",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 3.25
+            },
+            {
+              "name": "La Pinsonniere",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 10.0
+            },
+            {
+              "name": "St Irene",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 17.0
+            }
+          ]
+        },
+        {
+          "time": "15:05",
+          "name": "CopyBet Supporting UK Horse Racing Handicap Chase (GBB Race)",
+          "course": "Kempton",
+          "distance": "3m",
+          "going": "Good",
+          "field_size": 5,
+          "runners": [
+            {
+              "name": "Tapley",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 2.75
+            },
+            {
+              "name": "King Califet",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 3.5
+            },
+            {
+              "name": "Glynn Brae",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Fierce Warrior",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 6.5
+            },
+            {
+              "name": "El Rio",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 9.5
+            }
+          ]
+        },
+        {
+          "time": "15:40",
+          "name": "CopyBet Overnight Best Odds Guaranteed Conditional Jockeys' Handicap Hurdle",
+          "course": "Kempton",
+          "distance": "2m",
+          "going": "Good",
+          "field_size": 9,
+          "runners": [
+            {
+              "name": "Woodstock City",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 3.0
+            },
+            {
+              "name": "Gordon Grey",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 3.25
+            },
+            {
+              "name": "Gallivanted",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 4.0
+            },
+            {
+              "name": "A Good Yomp",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 8.5
+            },
+            {
+              "name": "Graffiti",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Not At That Price",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Royal Approval",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 126.0
+            },
+            {
+              "name": "Dambuster",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Savant Du Mesnil",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 34.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course": "Newcastle",
+      "races": [
+        {
+          "time": "15:30",
+          "name": "Midnite A Next Generation Betting App Apprentice Handicap",
+          "course": "Newcastle",
+          "distance": "1m 2f 42y",
+          "going": "Standard",
+          "field_size": 14,
+          "runners": [
+            {
+              "name": "Tommo's Ginjaninja",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 8.5
+            },
+            {
+              "name": "Golspie",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Titian",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 10.0
+            },
+            {
+              "name": "Rory's Gold",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 3.25
+            },
+            {
+              "name": "Project Geofin",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Koko Blue",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 4.5
+            },
+            {
+              "name": "Alpine Sierra",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Jaminoz",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Lone Piper",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Uncle Liam",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 15.0
+            },
+            {
+              "name": "Alpine Stroll",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Royal Blaze",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 26.0
+            },
+            {
+              "name": "West Tyrone",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 9.0
+            },
+            {
+              "name": "Jodhpur Blue",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 13.0
+            }
+          ]
+        },
+        {
+          "time": "16:05",
+          "name": "All-Weather Championship Is Back EBF Restricted Maiden Stakes (GBB Race)",
+          "course": "Newcastle",
+          "distance": "7f 14y",
+          "going": "Standard",
+          "field_size": 11,
+          "runners": [
+            {
+              "name": "Pippy Boy",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Raguel",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 7.0
+            },
+            {
+              "name": "Pushing The Limits",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Old Compton",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 1.67
+            },
+            {
+              "name": "Good Bye Girl",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 6.0
+            },
+            {
+              "name": "Rogue Inferno",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "Radio Braga",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 151.0
+            },
+            {
+              "name": "Another Festival",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 126.0
+            },
+            {
+              "name": "Annayalla",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 151.0
+            },
+            {
+              "name": "Granite Force",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 26.0
+            },
+            {
+              "name": "Luma Nyota",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 51.0
+            }
+          ]
+        },
+        {
+          "time": "16:40",
+          "name": "AWC Finals Day At Newcastle 26th March Nursery",
+          "course": "Newcastle",
+          "distance": "5f",
+          "going": "Standard",
+          "field_size": 8,
+          "runners": [
+            {
+              "name": "Dowman",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 2.0
+            },
+            {
+              "name": "Cyberspace",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 4.5
+            },
+            {
+              "name": "Big Hitter",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 3.5
+            },
+            {
+              "name": "Eleven Eighty Two",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 26.0
+            },
+            {
+              "name": "The Stony Baker",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Jolly Good Fellows",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "American Psycho",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Sultan Darius",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 9.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course": "Wolverhampton",
+      "races": [
+        {
+          "time": "16:30",
+          "name": "Midnight A Next Generation Betting App Handicap",
+          "course": "Wolverhampton",
+          "distance": "1m 1f 104y",
+          "going": "Standard",
+          "field_size": 13,
+          "runners": [
+            {
+              "name": "Law Of Design",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 4.33
+            },
+            {
+              "name": "Imola",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 8.5
+            },
+            {
+              "name": "Eighty Eight",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 3.0
+            },
+            {
+              "name": "Glitter Code",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Miss Guinevere",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 19.0
+            },
+            {
+              "name": "She's Ideal",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 34.0
+            },
+            {
+              "name": "Token Love",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 6.0
+            },
+            {
+              "name": "Ceinture D'orion",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 19.0
+            },
+            {
+              "name": "Symphony Of Joy",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Boogie Inthejungle",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Riyadh Gem",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 26.0
+            },
+            {
+              "name": "Beachborough Girl",
+              "position": 12,
+              "status": "RUNNER",
+              "sp": 12.0
+            },
+            {
+              "name": "Create",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 11.0
+            }
+          ]
+        },
+        {
+          "time": "17:00",
+          "name": "All Weather Championship Is Back Nursery",
+          "course": "Wolverhampton",
+          "distance": "1m 1f 104y",
+          "going": "Standard",
+          "field_size": 6,
+          "runners": [
+            {
+              "name": "Orchard Hatches",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 3.5
+            },
+            {
+              "name": "Capricious Star",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 1.83
+            },
+            {
+              "name": "Aquila D'oro",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "Hello You Ten",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 15.0
+            },
+            {
+              "name": "Distant Sun",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 6.5
+            },
+            {
+              "name": "Princess Lottie",
+              "position": 0,
+              "status": "WITHDRAWN",
+              "sp": 13.0
             }
           ]
         }

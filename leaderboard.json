@@ -1,115 +1,123 @@
 {
-  "updated_at": "2026-11-23T12:01:52.316092Z",
+  "updated_at": "2026-11-23T17:08:15.635495Z",
   "bots": {
     "BloodlineBetty": {
-      "tips": 0,
-      "wins": 0,
-      "places": 0,
-      "losses": 0,
-      "unknown": 214,
-      "stakes": 0,
-      "returns": 0,
-      "pnl": 0,
-      "avg_odds": 0,
-      "win_pct": 0.0,
-      "roi_pct": 0.0,
+      "tips": 50,
+      "wins": 13,
+      "places": 3,
+      "losses": 34,
+      "unknown": 26,
+      "stakes": 50.0,
+      "returns": 46.27,
+      "pnl": -3.73,
+      "avg_odds": 5.5,
       "style": {
-        "win": 0,
-        "ew": 0
-      }
+        "win": 43,
+        "ew": 7
+      },
+      "roi_pct": -7.5,
+      "win_pct": 26.0
     },
     "DevilAdvocate": {
-      "tips": 0,
-      "wins": 0,
-      "places": 0,
-      "losses": 0,
-      "unknown": 214,
-      "stakes": 0,
-      "returns": 0,
-      "pnl": 0,
-      "avg_odds": 0,
-      "win_pct": 0.0,
-      "roi_pct": 0.0,
+      "tips": 50,
+      "wins": 12,
+      "places": 4,
+      "losses": 34,
+      "unknown": 26,
+      "stakes": 50.0,
+      "returns": 55.64,
+      "pnl": 5.64,
+      "avg_odds": 5.66,
       "style": {
-        "win": 0,
-        "ew": 0
-      }
+        "win": 42,
+        "ew": 8
+      },
+      "roi_pct": 11.3,
+      "win_pct": 24.0
     },
     "FormFox": {
-      "tips": 0,
-      "wins": 0,
-      "places": 0,
-      "losses": 0,
-      "unknown": 214,
-      "stakes": 0,
-      "returns": 0,
-      "pnl": 0,
-      "avg_odds": 0,
-      "win_pct": 0.0,
-      "roi_pct": 0.0,
+      "tips": 50,
+      "wins": 11,
+      "places": 3,
+      "losses": 36,
+      "unknown": 26,
+      "stakes": 50.0,
+      "returns": 41.23,
+      "pnl": -8.77,
+      "avg_odds": 5.36,
       "style": {
-        "win": 0,
-        "ew": 0
-      }
+        "win": 43,
+        "ew": 7
+      },
+      "roi_pct": -17.5,
+      "win_pct": 22.0
     },
     "HotTrainer": {
-      "tips": 0,
-      "wins": 0,
-      "places": 0,
-      "losses": 0,
-      "unknown": 214,
-      "stakes": 0,
-      "returns": 0,
-      "pnl": 0,
-      "avg_odds": 0,
-      "win_pct": 0.0,
-      "roi_pct": 0.0,
+      "tips": 50,
+      "wins": 12,
+      "places": 2,
+      "losses": 36,
+      "unknown": 26,
+      "stakes": 50.0,
+      "returns": 37.94,
+      "pnl": -12.06,
+      "avg_odds": 4.58,
       "style": {
-        "win": 0,
-        "ew": 0
-      }
+        "win": 45,
+        "ew": 5
+      },
+      "roi_pct": -24.1,
+      "win_pct": 24.0
     },
     "PaceProphet": {
-      "tips": 0,
-      "wins": 0,
-      "places": 0,
-      "losses": 0,
-      "unknown": 214,
-      "stakes": 0,
-      "returns": 0,
-      "pnl": 0,
-      "avg_odds": 0,
-      "win_pct": 0.0,
-      "roi_pct": 0.0,
+      "tips": 50,
+      "wins": 14,
+      "places": 4,
+      "losses": 32,
+      "unknown": 26,
+      "stakes": 50.0,
+      "returns": 50.13,
+      "pnl": 0.13,
+      "avg_odds": 5.03,
       "style": {
-        "win": 0,
-        "ew": 0
-      }
+        "win": 43,
+        "ew": 7
+      },
+      "roi_pct": 0.3,
+      "win_pct": 28.0
     },
     "ValueHunter": {
-      "tips": 0,
-      "wins": 0,
-      "places": 0,
-      "losses": 0,
-      "unknown": 214,
-      "stakes": 0,
-      "returns": 0,
-      "pnl": 0,
-      "avg_odds": 0,
-      "win_pct": 0.0,
-      "roi_pct": 0.0,
+      "tips": 50,
+      "wins": 14,
+      "places": 3,
+      "losses": 33,
+      "unknown": 26,
+      "stakes": 50.0,
+      "returns": 59.29,
+      "pnl": 9.29,
+      "avg_odds": 5.74,
       "style": {
-        "win": 0,
-        "ew": 0
-      }
+        "win": 42,
+        "ew": 8
+      },
+      "roi_pct": 18.6,
+      "win_pct": 28.0
     }
   },
   "history": [
     {
+      "date": "2026-11-22",
+      "tips": 228,
+      "settled": 192,
+      "unknown": 36,
+      "pnl": -6.38
+    },
+    {
       "date": "2026-11-23",
       "tips": 228,
-      "settled": 0,
-      "pnl": 0.0
+      "settled": 108,
+      "unknown": 120,
+      "pnl": -3.13
     }
   ]
 }
