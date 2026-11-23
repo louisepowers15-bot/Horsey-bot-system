@@ -907,39 +907,7 @@ def build_tips_for_races(d, flat_races):
                 "reason": tipster_reason(bot, best, tip_type, conf, field_size, rivals=runners),
             })
 
-        # Diversity: avoid 4+ bots on the same horse when the field has alternatives
-        counts = Counter(t["horse"] for t in tips)
-        if field_size >= 4:
-            # Reassign lowest-conf tips off the most popular horse until max 3 on one name
-            for _ in range(6):
-                counts = Counter(t["horse"] for t in tips)
-                popular, n = counts.most_common(1)[0]
-                if n <= 3:
-                    break
-                # weakest tip still on popular horse
-                candidates = [i for i, t in enumerate(tips) if t["horse"] == popular]
-                weakest = min(candidates, key=lambda i: tips[i]["conf"])
-                bot = tips[weakest]["bot"]
-                ranked = sorted(((score_bot(bot, r, rng), r) for r in runners), key=lambda x: -x[0])
-                moved = False
-                for prob, r in ranked:
-                    if r["name"] == popular:
-                        continue
-                    # don't create a new pile-up worse than 3
-                    if counts.get(r["name"], 0) >= 3:
-                        continue
-                    tips[weakest]["horse"] = r["name"]
-                    tips[weakest]["odds"] = round(r["odds"], 2)
-                    tips[weakest]["type"] = choose_type(bot, r, field_size, prob)
-                    tips[weakest]["conf"] = max(40, min(84, int(round(prob * 100))))
-                    tips[weakest]["reason"] = tipster_reason(
-                        bot, r, tips[weakest]["type"], tips[weakest]["conf"], field_size, rivals=runners
-                    )
-                    moved = True
-                    break
-                if not moved:
-                    break
-
+        # Stars = how many bots independently chose this horse (agreement is allowed)
         counts = Counter(t["horse"] for t in tips)
         for t in tips:
             t["stars"] = counts[t["horse"]]
