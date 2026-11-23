@@ -1,0 +1,1966 @@
+{
+  "date": "2026-11-24",
+  "meetings": [
+    "Huntingdon",
+    "Kempton",
+    "Newcastle",
+    "Wolverhampton"
+  ],
+  "races": [
+    {
+      "course": "Huntingdon",
+      "time": "12:45",
+      "name": "Annual Members At Huntingdon Maiden Hurdle (GBB Race) (Class 4)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 55,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Huntingdon",
+      "time": "13:15",
+      "name": "Christmas Parties At Huntingdon Racecourse Handicap Hurdle (Class 5)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 55,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Huntingdon",
+      "time": "13:45",
+      "name": "Conferences At Huntingdon 'Chasing Excellence' Beginners' Chase (GBB Race) (Class 3)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 54,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Huntingdon",
+      "time": "14:18",
+      "name": "Book Hospitality At Huntingdon Handicap Chase (GBB Race) (Class 4)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 62,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Huntingdon",
+      "time": "14:53",
+      "name": "Festive Fiver Raceday 21 December Mares' Novices' Handicap Hurdle (Class 5)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 55,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 62,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 55,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 63,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Huntingdon",
+      "time": "15:23",
+      "name": "Come Racing At Huntingdon Handicap Hurdle (Class 4)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 62,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Kempton",
+      "time": "12:25",
+      "name": "CopyBet For Champions League Profit Boosts Juvenile Hurdle (GBB Race) (Class 4)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 63,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Kempton",
+      "time": "12:55",
+      "name": "CopyBet Support Safer Gambling/EBF Stallions 'National Hunt' Novices' Hurdle (GBB Race) (Class 4)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 63,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Kempton",
+      "time": "13:25",
+      "name": "CopyBet Pay First Past The Post Novices' Limited Handicap Chase (GBB Race) (Class 3)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Kempton",
+      "time": "13:55",
+      "name": "Pertemps Network Handicap Hurdle (GBB Race) (Class 2)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Kempton",
+      "time": "14:30",
+      "name": "CopyBet Follow Us On X Lilies Mares' Hurdle (Listed) (GBB Race) (Class 1)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 54,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Kempton",
+      "time": "15:05",
+      "name": "CopyBet Supporting UK Horse Racing Handicap Chase (GBB Race) (Class 3)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 62,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Kempton",
+      "time": "15:40",
+      "name": "CopyBet Overnight Best Odds Guaranteed Conditional Jockeys' Handicap Hurdle (Class 4)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 54,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 63,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Newcastle",
+      "time": "15:30",
+      "name": "Midnite A Next Generation Betting App Apprentice Handicap (Class 5)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 63,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Newcastle",
+      "time": "16:05",
+      "name": "All-Weather Championship Is Back EBF Restricted Maiden Stakes (GBB Race) (Class 4)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 55,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Newcastle",
+      "time": "16:40",
+      "name": "AWC Finals Day At Newcastle 26th March Nursery (Class 5)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Newcastle",
+      "time": "17:15",
+      "name": "AWC Season 14 Has Begun Fillies' Novice Stakes (GBB Race) (Class 3)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 53,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 62,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Newcastle",
+      "time": "17:45",
+      "name": "Midnite It's Actually Pretty Good Handicap (Div 1) (Class 5)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 64,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Newcastle",
+      "time": "18:15",
+      "name": "Midnite It's Actually Pretty Good Handicap (Div 2) (Class 5)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 62,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Newcastle",
+      "time": "18:45",
+      "name": "Midnite: Built For 2026 Not 2006 Handicap (Class 6)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 55,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 63,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Newcastle",
+      "time": "19:15",
+      "name": "Make The Move To Midnite Handicap (Class 6)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 54,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Newcastle",
+      "time": "19:45",
+      "name": "AW Trials Day - Lingfield 2nd Jan 2027 Handicap (Class 6)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 62,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Wolverhampton",
+      "time": "16:30",
+      "name": "Midnight A Next Generation Betting App Handicap (Class 6)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 55,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Wolverhampton",
+      "time": "17:00",
+      "name": "All Weather Championship Is Back Nursery (Class 5)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 62,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Wolverhampton",
+      "time": "17:30",
+      "name": "AWC Finals Day At Newcastle - 26th March EBF Maiden Stakes (GBB Race) (Class 4)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 54,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Wolverhampton",
+      "time": "18:00",
+      "name": "Make The Move To Midnite Handicap (Class 6)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 62,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Wolverhampton",
+      "time": "18:30",
+      "name": "Make The Move To Midnite Handicap (Class 5)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 54,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Wolverhampton",
+      "time": "19:00",
+      "name": "AWC Season 14 Has Begun Handicap (Div 1) (Class 6)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 62,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Wolverhampton",
+      "time": "19:30",
+      "name": "AWC Season 14 Has Begun Handicap (Div 2) (Class 6)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 63,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Wolverhampton",
+      "time": "20:00",
+      "name": "AWC Trials Day - Lingfield 2nd January 2027 Handicap (Class 4)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 63,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Wolverhampton",
+      "time": "20:30",
+      "name": "AWC Season 14 Handicap (Class 5)",
+      "going": "Good",
+      "distance": "1m 7f 171y",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo has more about the profile than most of these over 1m 7f 171y on Good. Ran a solid third last time. In the care of Joel Boisnard, there is every chance of a step forward. That progressive angle is enough to take a stand. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "It is hard to oppose Ritano Guapo if you strip the race back to basics over 1m 7f 171y on Good. Ran a solid third last time. A few of the shorter ones are open to attack on what they have actually done, and this profile holds up better under scrutiny. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "Ritano Guapo is the pick on form over 1m 7f 171y on Good. Ran a solid third last time. The direction of travel is positive, which matters as much as any single figure. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 55,
+          "type": "win",
+          "reason": "Ritano Guapo is the one for Joel Boisnard over 1m 7f 171y on Good. V Morin retains the ride, which is a help. Ran a solid third last time. When this team means business in this grade, they are worth siding with. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "Ritano Guapo should be suited by how this is likely to be run over 1m 7f 171y on Good. In a field of 9 you need a horse that can find a gap when the sprint starts. V Morin is a positive for race placement. Ran a solid third last time. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Ritano Guapo",
+          "odds": 6.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Ritano Guapo looks the value at around 6.00 over 1m 7f 171y on Good. Ran a solid third last time. The market has left just enough juice to make this interesting. Happy enough taking it to win at the price. Back Ritano Guapo to win at around 6.00.",
+          "stars": 6
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-11-23T09:01:05.886773Z",
+  "note": "tipster reasons + outsider discipline"
+}
