@@ -224,8 +224,49 @@ def summarise_previous_results(horse_obj: dict, limit: int = 6) -> list[dict]:
     return out
 
 
+
+def _position_char(pos, casualty="") -> str:
+    cas = str(casualty or "").upper()
+    if cas in ("F", "FELL", "FALL", "FEL"):
+        return "F"
+    if cas in ("P", "PU", "PULLED UP", "PULLED_UP"):
+        return "P"
+    if cas in ("U", "UR", "UNSEATED", "UNSEATED RIDER"):
+        return "U"
+    if cas in ("R", "REF", "REFUSED"):
+        return "R"
+    if cas in ("B", "BD", "BROUGHT DOWN"):
+        return "B"
+    if pos is None or pos == "":
+        return ""
+    try:
+        pi = int(pos)
+        if pi <= 0:
+            return "0"
+        if pi >= 10:
+            return "0"
+        return str(pi)
+    except Exception:
+        s = str(pos).strip().upper()
+        if s[:1] in "1234567890FPURB":
+            return s[:1]
+        return ""
+
+
+def form_from_previous_results(previous_results: list, limit: int = 8) -> str:
+    """Most-recent-first form string from structured previous_results only."""
+    chars = []
+    for p in (previous_results or [])[:limit]:
+        if not isinstance(p, dict):
+            continue
+        ch = _position_char(p.get("position"), p.get("casualty"))
+        if ch:
+            chars.append(ch)
+    return "".join(chars)
+
+
 def fetch_race_detail(date_str, course_name, race_id, race_name):
-    """Return (runners, distance, going_override)."""
+    """Return (runners, distance, going_override). Form always prefers previous_results."""
     if not race_id:
         return [], "", ""
     course_slug = slugify(course_name)
@@ -241,6 +282,8 @@ def fetch_race_detail(date_str, course_name, race_id, race_name):
                 continue
             data = extract_next_data(r.text)
             rides = find_rides(data) or []
+            if not rides:
+                continue
             distance = str(find_first(data, ["distance", "distance_text", "race_distance"]) or "")
             going = str(find_first(data, ["going", "going_text"]) or "")
 
@@ -249,6 +292,8 @@ def fetch_race_detail(date_str, course_name, race_id, race_name):
                 if str(ride.get("ride_status", "")).upper() in ("NON_RUNNER", "WITHDRAWN", "NR"):
                     continue
                 horse = ride.get("horse") or {}
+                if not isinstance(horse, dict):
+                    horse = {}
                 name = horse.get("name") or ride.get("horse_name")
                 if not name:
                     continue
@@ -267,36 +312,53 @@ def fetch_race_detail(date_str, course_name, race_id, race_name):
                 if dec <= 1.0:
                     dec = 8.0
 
-                form_figs = ""
+                # --- form: ALWAYS prefer previous_results over formsummary ---
+                prev_raw = horse.get("previous_results") or []
+                if not isinstance(prev_raw, list):
+                    prev_raw = []
+                form_figs = form_from_previous_results(prev_raw, limit=8)
+                form_summary = ""
                 try:
-                    form_figs = str(horse.get("formsummary", {}).get("display_text", "") or "")
+                    form_summary = str((horse.get("formsummary") or {}).get("display_text") or "")
                 except Exception:
-                    pass
+                    form_summary = ""
+                if not form_figs and form_summary:
+                    # last resort only — mark as summary-sourced
+                    form_figs = form_summary.replace(" ", "")
+                form_source = "previous_results" if form_from_previous_results(prev_raw) else (
+                    "formsummary" if form_summary else "none"
+                )
 
                 wins = form_figs.count("1")
                 places = form_figs.count("2") + form_figs.count("3")
-                form_score = min(0.9, 0.35 + wins * 0.15 + places * 0.07)
+                form_score = min(0.9, 0.35 + wins * 0.12 + places * 0.06)
+                if form_figs[:1] == "1":
+                    form_score = min(0.9, form_score + 0.05)
+                elif form_figs[:1] in ("0", "5", "6", "7", "8", "9", "F", "P", "U", "R", "B"):
+                    form_score = max(0.15, form_score - 0.08)
 
-                jockey = ride.get("jockey", {}).get("name", "") if isinstance(ride.get("jockey"), dict) else ""
-                trainer = ride.get("trainer", {}).get("name", "") if isinstance(ride.get("trainer"), dict) else ""
-
-                # crude combo bonus if both present
+                jockey = ""
+                if isinstance(ride.get("jockey"), dict):
+                    jockey = ride.get("jockey", {}).get("name", "") or ""
+                trainer = ""
+                if isinstance(ride.get("trainer"), dict):
+                    trainer = ride.get("trainer", {}).get("name", "") or ""
                 combo = 0.55 if (jockey and trainer) else 0.45
 
-                # Today's carried weight (e.g. "11-4")
                 weight_raw = ride.get("handicap") or ride.get("weight") or ""
                 if isinstance(weight_raw, dict):
                     weight_raw = weight_raw.get("display") or weight_raw.get("value") or ""
                 weight_raw = str(weight_raw).strip()
                 weight_lbs = weight_to_lbs(weight_raw)
 
-                prev = summarise_previous_results(horse if isinstance(horse, dict) else {})
-                # Weight when last won (position == 1)
-                win_weights = [p["weight_lbs"] for p in prev
-                               if p.get("position") in (1, "1", 1.0) and p.get("weight_lbs")]
+                prev = summarise_previous_results(horse, limit=8)
+                win_weights = [
+                    p["weight_lbs"] for p in prev
+                    if p.get("position") in (1, "1", 1.0) and p.get("weight_lbs")
+                ]
                 last_win_weight_lbs = win_weights[0] if win_weights else None
                 weight_delta = None
-                if weight_lbs and last_win_weight_lbs:
+                if weight_lbs is not None and last_win_weight_lbs is not None:
                     weight_delta = round(weight_lbs - last_win_weight_lbs, 1)
 
                 runners.append({
@@ -305,6 +367,8 @@ def fetch_race_detail(date_str, course_name, race_id, race_name):
                     "jockey": jockey,
                     "trainer": trainer,
                     "form": form_figs,
+                    "form_source": form_source,
+                    "form_summary_raw": form_summary,  # kept for debug only
                     "form_score": round(form_score, 2),
                     "trainer_score": round(min(0.85, 0.4 + wins * 0.08), 2),
                     "jockey_score": round(combo, 2),
@@ -316,10 +380,12 @@ def fetch_race_detail(date_str, course_name, race_id, race_name):
                     "weight_delta_lbs": weight_delta,
                     "previous_results": prev,
                 })
-            return runners, distance, going
+            if runners:
+                return runners, distance, going
         except Exception as e:
             print(f"  detail error {race_id}: {e}", file=sys.stderr)
     return [], "", ""
+
 
 
 def fetch_meetings(d: date) -> list:
