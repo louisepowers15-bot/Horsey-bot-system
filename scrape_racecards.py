@@ -82,6 +82,53 @@ def slugify(text: str) -> str:
     return text.strip("-")
 
 
+
+def detect_race_code(race_name: str, distance: str = "", course: str = "") -> str:
+    """
+    Classify race as flat | hurdle | chase | nh_flat | unknown from title text.
+    Free-card heuristic only — based on race name wording.
+    """
+    n = f"{race_name or ''} {distance or ''}".lower()
+    # Order matters: chase before hurdle (some titles mention both rarely)
+    if re.search(r"chase|steeplechase|beginners'? chase|novice(?:s)? chase", n):
+        return "chase"
+    if re.search(r"hurdle|hurdles|novice(?:s)? hurdle|maiden hurdle", n):
+        return "hurdle"
+    if re.search(r"n\.?h\.?\s*flat|bumper|national hunt flat", n):
+        return "nh_flat"
+    if re.search(r"flat|handicap|maiden|stakes|nursery|listed|group", n):
+        # Handicap/maiden alone are ambiguous (can be jumps), so require non-jumps context
+        if re.search(r"(hurdle|chase|bumper)", n):
+            pass
+        elif re.search(r"(flat|nursery|group\s*[123]|listed|sprint)", n):
+            return "flat"
+    # Course-level hint: known AW flat tracks often flat when not jumps meeting
+    # Leave unknown if unclear rather than guess wrong
+    if re.search(r"(handicap|maiden|stakes)", n) and not re.search(r"(hurdle|chase|bumper)", n):
+        # Many UK winter "handicap" on AW are flat; on turf winter often jumps — leave unknown if mixed
+        return "unknown"
+    return "unknown"
+
+
+def detect_surface(course: str, going: str) -> str:
+    """turf | AW | unknown"""
+    g = (going or "").lower()
+    c = (course or "").lower().strip()
+    aw_courses = {
+        "newcastle", "wolverhampton", "lingfield", "chelmsford", "chelmsford city",
+        "southwell", "kempton", "dundalk",
+    }
+    if any(x in g for x in ("standard", "polytrack", "tapeta", "fibresand", "dirt", "all weather", "all-weather")):
+        return "AW"
+    if c in aw_courses:
+        if g and any(x in g for x in ("good", "soft", "firm", "heavy", "yielding")) and "standard" not in g:
+            return "turf"
+        return "AW"
+    if g:
+        return "turf"
+    return "unknown"
+
+
 def parse_odds(odds_str) -> float:
     if not odds_str:
         return 0.0
@@ -265,11 +312,15 @@ def fetch_meetings(d: date) -> list:
             runners, dist, going_ov = fetch_race_detail(date_str, course_name, race_id, race_name)
             time.sleep(0.35)
 
+            dist_final = dist or list_distance or ""
+            going_final = going_ov or meeting_going or ""
             races.append({
                 "time": race_time,
                 "name": race_name,
-                "distance": dist or list_distance or "",
-                "going": going_ov or meeting_going or "",
+                "distance": dist_final,
+                "going": going_final,
+                "surface": detect_surface(course_name, going_final),
+                "code": detect_race_code(race_name, dist_final, course_name),
                 "runners": runners,
                 "race_id": race_id,
             })

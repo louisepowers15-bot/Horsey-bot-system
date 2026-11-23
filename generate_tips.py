@@ -135,6 +135,20 @@ def trip_label(dist: str) -> str:
     return f"marathon trip ({dist.strip()})"
 
 
+
+def race_code_from_name(race_name: str) -> str:
+    n = (race_name or "").lower()
+    if re.search(r"\bchase\b|\bsteeplechase\b", n):
+        return "chase"
+    if re.search(r"\bhurdle\b|\bhurdles\b", n):
+        return "hurdle"
+    if re.search(r"\bbumper\b|\bn\.?h\.?\s*flat\b|\bnational hunt flat\b", n):
+        return "nh_flat"
+    if re.search(r"\b(nursery|group\s*[123]|listed stake)\b", n):
+        return "flat"
+    return "unknown"
+
+
 def surface_from(course: str, going: str) -> str:
     g = (going or "").lower()
     c = (course or "").lower().strip()
@@ -283,6 +297,7 @@ def enrich(runner, field_size, all_odds, going, distance, course, day_books):
     gf = going_family(going)
     # Soft preference signals from surface match — free proxy only
     r["_surface"] = surface
+    r["_code"] = "unknown"
     r["_going_family"] = gf
     r["_going"] = 0.56 if gf in ("good", "AW") else (0.53 if gf else 0.5)
     r["_trip"] = 0.54 if distance else 0.5
@@ -435,18 +450,37 @@ def tipster_reason(bot, r, tip_type, conf, field_size, rivals: list | None = Non
             fav = None
 
     # Shared plain pieces
+    code = (r.get("_code") or "unknown").strip().lower()
+    code_txt = {
+        "flat": "a flat race",
+        "hurdle": "a hurdle race",
+        "chase": "a chase (fences)",
+        "nh_flat": "a National Hunt flat / bumper race",
+    }.get(code, "")
+
     where = []
     if course:
         where.append(f"at {course}")
+    if code_txt:
+        where.append(f"in {code_txt}")
     if trip:
         where.append(f"over {trip}")
     if surface == "AW":
         where.append("on the all-weather (synthetic) surface")
     elif going:
-        # simplify long going strings
         gshort = going.split("(")[0].strip()
-        where.append(f"on ground described as {gshort}")
+        where.append(f"on turf, ground described as {gshort}" if surface == "turf" else f"on ground described as {gshort}")
+    elif surface == "turf":
+        where.append("on turf")
     where_txt = ", ".join(where) if where else "in this race"
+
+    # Honesty note: form figures do not tell us surface/code of past runs
+    honesty = (
+        "Important: the form figures only show finishing positions. "
+        "They do not tell us whether those past runs were on all-weather or turf, "
+        "or whether they were flat, hurdles or chases. "
+        "So good numbers should be treated with care if this race type or surface is different."
+    )
 
     field_txt = ""
     if field_size >= 12:
@@ -639,6 +673,10 @@ def tipster_reason(bot, r, tip_type, conf, field_size, rivals: list | None = Non
             "So the reason to back it is practical: the setup of the race gives this horse a fair chance to show its form and win."
         )
 
+    # Surface / code honesty (only when we know today is AW or jumps, or code known)
+    if surface == "AW" or code in ("hurdle", "chase", "nh_flat", "flat"):
+        paras.append(honesty)
+
     # Clear recommendation
     if tip_type == "ew":
         paras.append(
@@ -687,10 +725,19 @@ def build_tips_for_races(d, flat_races):
         going = race.get("going") or ""
         distance = race.get("distance") or ""
         course = race.get("course") or ""
-        runners = [
-            enrich(x, field_size, all_odds, going, distance, course, day_books)
-            for x in raw
-        ]
+        race_surface = race.get("surface") or ""
+        race_code = race.get("code") or race_code_from_name(race.get("name") or "")
+        runners = []
+        for x in raw:
+            er = enrich(x, field_size, all_odds, going, distance, course, day_books)
+            # Prefer scraper-provided surface/code when present
+            if race_surface:
+                er["_surface"] = race_surface
+            if race_code:
+                er["_code"] = race_code
+            else:
+                er["_code"] = er.get("_code") or "unknown"
+            runners.append(er)
         rng = random.Random(f"{d.isoformat()}|{course}|{race.get('time')}|{idx}")
 
         tips = []
@@ -732,7 +779,8 @@ def build_tips_for_races(d, flat_races):
             "name": race.get("name") or "",
             "going": going,
             "distance": distance,
-            "surface": surface_from(course, going),
+            "surface": race.get("surface") or surface_from(course, going),
+            "code": race.get("code") or "unknown",
             "tips": tips,
         })
 
@@ -758,12 +806,15 @@ def load_scraped_races(d):
         for r in m.get("races") or []:
             if not r.get("runners"):
                 continue
+            going = r.get("going") or m_going
             flat.append({
                 "course": course,
                 "time": r.get("time") or "",
                 "name": r.get("name") or "",
-                "going": r.get("going") or m_going,
+                "going": going,
                 "distance": r.get("distance") or "",
+                "surface": r.get("surface") or "",
+                "code": r.get("code") or "",
                 "runners": r["runners"],
             })
     return flat
