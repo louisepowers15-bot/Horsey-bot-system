@@ -2,10 +2,8 @@ name: Daily Racecards & Tips Update
 
 on:
   schedule:
-    # 07:30 UTC – today’s (and tomorrow’s) cards + tips
-    - cron: "30 7 * * *"
-    # 21:15 UTC – results + settle leaderboard
-    - cron: "15 21 * * *"
+    - cron: "30 7 * * *"    # 07:30 UTC morning cards + tips
+    - cron: "15 21 * * *"   # 21:15 UTC results + history + settle
   workflow_dispatch:
     inputs:
       mode:
@@ -54,19 +52,24 @@ jobs:
           python scrape_racecards.py --date tomorrow
           python generate_tips.py --date tomorrow
 
-      - name: Evening – results + settle
+      - name: Evening – results, settle, history, archive
         if: steps.mode.outputs.mode == 'results' || steps.mode.outputs.mode == 'both'
         run: |
           python scrape_results.py --date yesterday || true
           python settle_tips.py --date yesterday || true
           python scrape_results.py --date today || true
           python settle_tips.py --date today || true
+          # Build long-term history the bots can query
+          python history_store.py --rebuild-day yesterday || true
+          python history_store.py --rebuild-day today || true
+          # Keep only last 3 days of day-files in repo root; older → history/archive/
+          python history_store.py --archive --keep-days 3
 
       - name: Commit and push
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git add racecards-*.json tips-*.json results-*.json settled-*.json leaderboard.json 2>/dev/null || true
+          git add racecards-*.json tips-*.json results-*.json settled-*.json leaderboard.json history/ 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No file changes"
             exit 0
@@ -74,5 +77,3 @@ jobs:
           git commit -m "Auto-update data $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase origin main
           git push origin main
-
-
