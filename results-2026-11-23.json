@@ -1,8 +1,71 @@
 {
   "date": "2026-11-23",
   "source": "sportinglife",
-  "scraped_at": "2026-11-23T12:26:54.143351Z",
+  "scraped_at": "2026-11-23T13:10:24.096224Z",
   "meetings": [
+    {
+      "course": "Huntingdon",
+      "races": [
+        {
+          "time": "12:45",
+          "name": "Annual Members At Huntingdon Maiden Hurdle (GBB Race)",
+          "course": "Huntingdon",
+          "distance": "1m 7f 171y",
+          "going": "Good",
+          "field_size": 8,
+          "runners": [
+            {
+              "name": "Double The Dance",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 4.33
+            },
+            {
+              "name": "Big Win",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 3.75
+            },
+            {
+              "name": "My Mate Aj",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 2.5
+            },
+            {
+              "name": "Donegal",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 7.5
+            },
+            {
+              "name": "Trapper John",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Talladale",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Vinne",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 251.0
+            },
+            {
+              "name": "Aspull",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 126.0
+            }
+          ]
+        }
+      ]
+    },
     {
       "course": "Kempton",
       "races": [
@@ -15,64 +78,98 @@
           "field_size": 10,
           "runners": [
             {
-              "name": "Barbury Boy",
-              "position": 0,
+              "name": "Temple",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Aukus",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 7.0
+            },
+            {
+              "name": "Pantile's Gift",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 21.0
+            },
+            {
+              "name": "Mathoura",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Stepanov",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 21.0
+            },
+            {
+              "name": "James Choice",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Thisonesforyou",
+              "position": 7,
               "status": "RUNNER",
               "sp": 4.0
             },
             {
               "name": "John Harrison",
-              "position": 0,
+              "position": 8,
               "status": "RUNNER",
               "sp": 51.0
             },
             {
               "name": "Kiss For An Angel",
-              "position": 0,
+              "position": 9,
               "status": "RUNNER",
               "sp": 301.0
             },
             {
-              "name": "Stepanov",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 21.0
-            },
-            {
-              "name": "Thisonesforyou",
+              "name": "Barbury Boy",
               "position": 0,
               "status": "RUNNER",
               "sp": 4.0
+            }
+          ]
+        },
+        {
+          "time": "12:55",
+          "name": "CopyBet Support Safer Gambling/EBF Stallions 'National Hunt' Novices' Hurdle (GBB Race)",
+          "course": "Kempton",
+          "distance": "2m",
+          "going": "Good",
+          "field_size": 4,
+          "runners": [
+            {
+              "name": "Thatsnotmyname",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 1.73
             },
             {
-              "name": "Pantile's Gift",
-              "position": 0,
+              "name": "Padel Whacker",
+              "position": 2,
               "status": "RUNNER",
-              "sp": 21.0
+              "sp": 2.38
             },
             {
-              "name": "Temple",
-              "position": 0,
+              "name": "Storm Dudley",
+              "position": 3,
               "status": "RUNNER",
-              "sp": 5.0
+              "sp": 13.0
             },
             {
-              "name": "James Choice",
+              "name": "Stars Aligning",
               "position": 0,
-              "status": "RUNNER",
-              "sp": 5.5
-            },
-            {
-              "name": "Aukus",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 7.0
-            },
-            {
-              "name": "Mathoura",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 41.0
+              "status": "NONRUNNER",
+              "sp": 1.14
             }
           ]
         }
