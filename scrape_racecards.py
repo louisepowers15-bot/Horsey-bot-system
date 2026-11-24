@@ -460,10 +460,32 @@ def fetch_race_detail(date_str, course_name, race_id, race_name):
                         weight_delta = None
                         last_win_weight_lbs = None  # don't advertise a bad comparison
 
-                # Headgear (list or string)
+                # Headgear: list of dicts {symbol,name,count} or strings
                 hg = ride.get("headgear") or []
-                if isinstance(hg, list):
-                    headgear = ", ".join(str(x) for x in hg if x)
+                headgear = ""
+                headgear_first_time = False
+                if isinstance(hg, list) and hg:
+                    names = []
+                    for item in hg:
+                        if isinstance(item, dict):
+                            nm = str(item.get("name") or item.get("symbol") or "").strip()
+                            if nm:
+                                names.append(nm)
+                            try:
+                                c = int(item.get("count") or 0)
+                            except (TypeError, ValueError):
+                                c = 0
+                            if c == 1:
+                                headgear_first_time = True
+                        elif item:
+                            names.append(str(item))
+                    headgear = ", ".join(names)
+                elif isinstance(hg, dict):
+                    headgear = str(hg.get("name") or hg.get("symbol") or "").strip()
+                    try:
+                        headgear_first_time = int(hg.get("count") or 0) == 1
+                    except (TypeError, ValueError):
+                        headgear_first_time = False
                 else:
                     headgear = str(hg).strip() if hg else ""
 
