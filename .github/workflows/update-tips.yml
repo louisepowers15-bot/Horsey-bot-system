@@ -1,23 +1,27 @@
-name: Daily Racecards & Tips Update
+name: Update tips and results
 
 on:
   schedule:
-    - cron: "30 7 * * *"    # 07:30 UTC morning cards + tips
-    - cron: "0 10 * * *"    # 10:00 UTC quick refresh (cards/odds drift)
-    - cron: "0 16 * * *"    # 16:00 UTC mid-afternoon partial results settle
-    - cron: "15 21 * * *"   # 21:15 UTC full results + history + settle
-    - cron: "0 23 * * *"    # 23:00 UTC late re-settle (catch late results)
+    # Morning full cards + tips (UK ~07:30)
+    - cron: "30 7 * * *"
+    # Odds-aware tips refresh only
+    - cron: "0 10 * * *"
+    # Results + settle windows
+    - cron: "0 16 * * *"
+    - cron: "15 21 * * *"
+    - cron: "0 23 * * *"
   workflow_dispatch:
     inputs:
       mode:
-        description: "tips | results | both"
+        description: "tips | results | both | odds"
         required: true
-        default: "both"
+        default: both
         type: choice
         options:
-          - both
           - tips
           - results
+          - both
+          - odds
 
 permissions:
   contents: write
@@ -40,21 +44,56 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "mode=${{ github.event.inputs.mode }}" >> $GITHUB_OUTPUT
-          elif [ "${{ github.event.schedule }}" = "30 7 * * *" ] || [ "${{ github.event.schedule }}" = "0 10 * * *" ]; then
+          elif [ "${{ github.event.schedule }}" = "0 10 * * *" ]; then
+            echo "mode=odds" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event.schedule }}" = "30 7 * * *" ]; then
             echo "mode=tips" >> $GITHUB_OUTPUT
           else
-            # 16:00 / 21:15 / 23:00 → results + settle (idempotent)
             echo "mode=results" >> $GITHUB_OUTPUT
           fi
           echo "UTC now: $(date -u)"
 
-      - name: Morning – scrape + tips
+      - name: Morning – full scrape + tips
         if: steps.mode.outputs.mode == 'tips' || steps.mode.outputs.mode == 'both'
         run: |
           python scrape_racecards.py --date today
           python generate_tips.py --date today
-          python scrape_racecards.py --date tomorrow
-          python generate_tips.py --date tomorrow
+          # Health: today must have races
+          python - <<'PY'
+          import json, pathlib, sys
+          p = pathlib.Path("racecards-"+__import__("datetime").date.today().isoformat()+".json")
+          if not p.exists():
+              print("FAIL: no racecards file"); sys.exit(1)
+          d = json.loads(p.read_text())
+          n = sum(len(m.get("races") or []) for m in d.get("meetings") or [])
+          print(f"Health: {n} races")
+          if n < 1:
+              print("FAIL: zero races"); sys.exit(1)
+          t = pathlib.Path("tips-"+__import__("datetime").date.today().isoformat()+".json")
+          if not t.exists():
+              print("FAIL: no tips file"); sys.exit(1)
+          td = json.loads(t.read_text())
+          if not td.get("races"):
+              print("FAIL: empty tips"); sys.exit(1)
+          print("Health OK")
+          PY
+          python scrape_racecards.py --date tomorrow || true
+          python generate_tips.py --date tomorrow || true
+
+      - name: Mid-morning – odds refresh + tips only
+        if: steps.mode.outputs.mode == 'odds'
+        run: |
+          # Re-scrape cards (prices) and regenerate tips; form comes from same feed
+          python scrape_racecards.py --date today
+          python generate_tips.py --date today
+          python - <<'PY'
+          import json, pathlib, sys
+          from datetime import date
+          t = pathlib.Path(f"tips-{date.today().isoformat()}.json")
+          if not t.exists() or not json.loads(t.read_text()).get("races"):
+              print("FAIL: odds refresh produced empty tips"); sys.exit(1)
+          print("Odds refresh OK")
+          PY
 
       - name: Evening – results, settle, history, archive
         if: steps.mode.outputs.mode == 'results' || steps.mode.outputs.mode == 'both'
@@ -63,17 +102,22 @@ jobs:
           python settle_tips.py --date yesterday || true
           python scrape_results.py --date today || true
           python settle_tips.py --date today || true
-          # Build long-term history the bots can query
           python history_store.py --rebuild-day yesterday || true
           python history_store.py --rebuild-day today || true
-          # Keep only last 3 days of day-files in repo root; older → history/archive/
-          python history_store.py --archive --keep-days 3
+          python history_store.py --archive --keep-days 14 || true
+          # Status must exist after settle
+          test -f leaderboard.json
+          python - <<'PY'
+          import json, pathlib
+          lb = json.loads(pathlib.Path("leaderboard.json").read_text())
+          print("last_settled=", lb.get("last_settled"), "updated_at=", lb.get("updated_at"))
+          PY
 
       - name: Commit and push
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git add racecards-*.json tips-*.json results-*.json settled-*.json leaderboard.json history/ 2>/dev/null || true
+          git add racecards-*.json tips-*.json results-*.json settled-*.json leaderboard.json status.json history/ 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No file changes"
             exit 0
