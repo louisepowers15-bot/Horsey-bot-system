@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
   "source": "sportinglife",
-  "scraped_at": "2026-11-24T12:16:05.211664Z",
+  "scraped_at": "2026-11-24T13:03:51.140954Z",
   "meetings": [
     {
       "course": "Lingfield",
@@ -145,6 +145,82 @@
               "sp": 7.5
             }
           ]
+        },
+        {
+          "time": "12:38",
+          "name": "AWC Finals Day At Newcastle 26th March EBF Maiden Stakes (GBB Race)",
+          "course": "Lingfield",
+          "distance": "6f 1y",
+          "going": "Standard",
+          "field_size": 11,
+          "runners": [
+            {
+              "name": "Uomo Valeroso",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 4.5
+            },
+            {
+              "name": "Sand On The Run",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Green Spain",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 2.62
+            },
+            {
+              "name": "Yellow Mission",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 8.0
+            },
+            {
+              "name": "Rhythm Runner",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 7.5
+            },
+            {
+              "name": "My Boy Ronnie",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Nia Miss",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 15.0
+            },
+            {
+              "name": "Mystical Magical",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 151.0
+            },
+            {
+              "name": "Stepney Blue",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Al Mhalhel",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 126.0
+            },
+            {
+              "name": "Gilded Outlaw",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 9.0
+            }
+          ]
         }
       ]
     },
@@ -215,6 +291,275 @@
             },
             {
               "name": "Colby Mayfield",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 4.0
+            }
+          ]
+        },
+        {
+          "time": "12:26",
+          "name": "Dance Through The Decades Christmas Parties Novices' Handicap Chase",
+          "course": "Southwell",
+          "distance": "3m 60y",
+          "going": "Good",
+          "field_size": 9,
+          "runners": [
+            {
+              "name": "Sledgehammer",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 4.0
+            },
+            {
+              "name": "Peckforton Hills",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Could Be You",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 4.33
+            },
+            {
+              "name": "Bells Of Ufford",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 9.5
+            },
+            {
+              "name": "Scoro",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Danger Nap",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 9.0
+            },
+            {
+              "name": "Vicomte Le Brave",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 81.0
+            },
+            {
+              "name": "Illico De Montave",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 81.0
+            },
+            {
+              "name": "Kastellion",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 4.0
+            }
+          ]
+        },
+        {
+          "time": "12:56",
+          "name": "Winter Ladies Night Saturday 28th November Maiden Hurdle (GBB Race) (Div 1)",
+          "course": "Southwell",
+          "distance": "1m 7f 182y",
+          "going": "Good",
+          "field_size": 12,
+          "runners": [
+            {
+              "name": "Delusionofgrandeur",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 8.5
+            },
+            {
+              "name": "Tandy's Bridge",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 12.0
+            },
+            {
+              "name": "Popton Point",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 3.75
+            },
+            {
+              "name": "Beau De Maine",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 4.5
+            },
+            {
+              "name": "Ballyboy Prince",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 7.0
+            },
+            {
+              "name": "Who's The Goat",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 101.0
+            },
+            {
+              "name": "Uda Man Dan",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 4.33
+            },
+            {
+              "name": "Dressforsuccess",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 101.0
+            },
+            {
+              "name": "Grandorado",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "Imperial Sea",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 81.0
+            },
+            {
+              "name": "Shah",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 126.0
+            },
+            {
+              "name": "Lady Tara",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 126.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course": "Tramore",
+      "races": [
+        {
+          "time": "12:45",
+          "name": "2027 Annual Badge At Tramore Racecourse Maiden Hurdle",
+          "course": "Tramore",
+          "distance": "2m 50y",
+          "going": "Soft to Heavy",
+          "field_size": 18,
+          "runners": [
+            {
+              "name": "Forty Fifty",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 1.22
+            },
+            {
+              "name": "Flooring Brandy",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "Lake Isle",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Eamon's Dream",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 101.0
+            },
+            {
+              "name": "Irish Chieftain",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Baldilou",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Rickety Kate",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 101.0
+            },
+            {
+              "name": "Loadstone",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 67.0
+            },
+            {
+              "name": "Kiltinan",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 101.0
+            },
+            {
+              "name": "Sapphire Jewel",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 21.0
+            },
+            {
+              "name": "Jetson Jane",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 81.0
+            },
+            {
+              "name": "Pink Sheet Pony",
+              "position": 12,
+              "status": "RUNNER",
+              "sp": 201.0
+            },
+            {
+              "name": "Well Eliot",
+              "position": 13,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Years Of Guessing",
+              "position": 14,
+              "status": "RUNNER",
+              "sp": 67.0
+            },
+            {
+              "name": "It's Good To Talk",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Blue Rebel",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 6.0
+            },
+            {
+              "name": "Pros And Cons",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 101.0
+            },
+            {
+              "name": "Global Submission",
               "position": 0,
               "status": "RUNNER",
               "sp": 4.0
