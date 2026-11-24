@@ -593,7 +593,11 @@ def choose_type(bot, r, field_size, prob):
 
 
 def pick_for_bot(bot, ranked, field_size, used_names=None, force_diversity=True):
-    """Pick a horse for this bot. Prefer unique picks unless one horse dominates scores."""
+    """
+    Pick for this bot. Prefer the best horse on its model.
+    Only diversify when the top choice is already taken AND a close second exists
+    (within 0.04) — otherwise consensus is allowed and desired for the user.
+    """
     used_names = used_names or set()
     candidates = []
     for prob, r in ranked:
@@ -601,38 +605,33 @@ def pick_for_bot(bot, ranked, field_size, used_names=None, force_diversity=True)
             continue
         if r["odds"] >= 20 and r["_rank"] >= 4 and r["_form"] < 0.6:
             continue
-        # blank form: only allow if score still high after debut penalty
         if not (r.get("_form_raw") or r.get("form") or "").strip() and prob < 0.45:
+            continue
+        if bot == "ValueHunter" and r.get("_edge") is not None and r["_edge"] < -0.03 and r["odds"] < 8:
             continue
         candidates.append((prob, r))
     if not candidates:
         candidates = list(ranked)
 
-    # If best is clearly clear of second, allow consensus
-    best_p = candidates[0][0] if candidates else 0
-    second_p = candidates[1][0] if len(candidates) > 1 else 0
-    clear_leader = (best_p - second_p) >= 0.08
+    best_p, best_r = candidates[0]
+    best_name = (best_r.get("name") or "").strip()
 
-    def take(pool):
-        for prob, r in pool:
-            name = (r.get("name") or "").strip()
-            if force_diversity and name in used_names and not clear_leader:
-                continue
-            tip_type = choose_type(bot, r, field_size, prob)
-            # ValueHunter: need non-negative edge unless short field
-            if bot == "ValueHunter" and r.get("_edge") is not None and r["_edge"] < -0.03 and r["odds"] < 8:
-                continue
-            return prob, r, tip_type
-        return None
+    # Default: take the model best (consensus OK)
+    if not force_diversity or best_name not in used_names:
+        return best_p, best_r, choose_type(bot, best_r, field_size, best_p)
 
-    got = take(candidates)
-    if got:
-        return got
-    # fallback: ignore diversity
-    market = [x for x in candidates if x[1]["_rank"] <= max(3, field_size // 2)]
-    pool = market or candidates or ranked
-    prob, r = pool[0]
-    return prob, r, choose_type(bot, r, field_size, prob)
+    # Top already used: only switch if a near-equal alternative exists
+    for prob, r in candidates[1:]:
+        if best_p - prob > 0.04:
+            break  # drop-off too big — stick with consensus horse
+        name = (r.get("name") or "").strip()
+        if name not in used_names:
+            return prob, r, choose_type(bot, r, field_size, prob)
+
+    # No close alternative — allow duplicate (user sees agreement)
+    return best_p, best_r, choose_type(bot, best_r, field_size, best_p)
+
+
 
 
 
@@ -1144,6 +1143,40 @@ def build_tips_for_races(d, flat_races):
         for t in tips:
             t["stars"] = counts[t["horse"]]
 
+        # Race consensus = horse with most bots; tie-break by avg conf then shorter odds
+        by_horse = {}
+        for t in tips:
+            h = t["horse"]
+            by_horse.setdefault(h, {"horse": h, "bots": [], "confs": [], "odds": t["odds"], "types": []})
+            by_horse[h]["bots"].append(t["bot"])
+            by_horse[h]["confs"].append(int(t.get("conf") or 0))
+            by_horse[h]["odds"] = t.get("odds")
+            by_horse[h]["types"].append(t.get("type") or "win")
+        consensus = None
+        if by_horse:
+            ranked_h = sorted(
+                by_horse.values(),
+                key=lambda v: (
+                    -len(v["bots"]),
+                    -sum(v["confs"]) / max(1, len(v["confs"])),
+                    float(v.get("odds") or 99),
+                ),
+            )
+            top = ranked_h[0]
+            n = len(top["bots"])
+            avg_c = sum(top["confs"]) / max(1, n)
+            tip_type = "ew" if top["types"].count("ew") > top["types"].count("win") else "win"
+            strength = "strong" if n >= 4 else ("solid" if n >= 3 else ("lean" if n >= 2 else "split"))
+            consensus = {
+                "horse": top["horse"],
+                "odds": top["odds"],
+                "bot_count": n,
+                "avg_conf": round(avg_c, 1),
+                "bots": top["bots"],
+                "type": tip_type,
+                "strength": strength,  # strong | solid | lean | split
+            }
+
         races_out.append({
             "course": course or "Unknown",
             "time": race.get("time") or "",
@@ -1153,6 +1186,7 @@ def build_tips_for_races(d, flat_races):
             "surface": race.get("surface") or surface_from(course, going),
             "code": race.get("code") or "unknown",
             "race_class": race.get("race_class"),
+            "consensus": consensus,
             "tips": tips,
         })
 
@@ -1179,11 +1213,13 @@ def build_tips_for_races(d, flat_races):
     hot = []
     for key, v in horse_agg.items():
         n = len(v["bots"])
-        if n < 3:
+        if n < 2:
             continue
         avg_conf = sum(v["confs"]) / max(1, n)
-        if avg_conf < 55:
+        if avg_conf < 52:
             continue
+        if n == 2 and avg_conf < 58:
+            continue  # pair needs higher conf
         odds = float(v.get("odds") or 99)
         if odds >= 21 and n < 4:
             continue  # need strong agreement on big prices

@@ -105,6 +105,20 @@
     .card h3 { font-size: 0.95rem; color: #38bdf8; margin-bottom: 0.35rem; }
     .card p { font-size: 0.9rem; color: #cbd5e1; }
     .hot-pick { border-color: #38bdf8; }
+    .consensus-bar {
+      background: linear-gradient(90deg, #0c4a6e 0%, #164e63 100%);
+      border: 1px solid #38bdf8; border-radius: 10px;
+      padding: 0.75rem 1rem; margin: 0.5rem 0 0.75rem;
+      display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1rem;
+    }
+    .consensus-bar .c-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.04em; color: #7dd3fc; font-weight: 700; }
+    .consensus-bar .c-horse { font-size: 1.05rem; font-weight: 700; color: #f8fafc; }
+    .consensus-bar .c-meta { font-size: 0.85rem; color: #cbd5e1; }
+    .consensus-bar.strong { border-color: #4ade80; background: linear-gradient(90deg, #14532d 0%, #164e63 100%); }
+    .consensus-bar.solid { border-color: #38bdf8; }
+    .consensus-bar.lean { border-color: #fbbf24; }
+    .consensus-bar.split { border-color: #64748b; }
+
     .chat-line { display: flex; gap: 0.6rem; margin-bottom: 0.7rem; align-items: flex-start; }
     .chat-bubble { background: #1e293b; border: 1px solid #334155; border-radius: 0.75rem; padding: 0.55rem 0.8rem; font-size: 0.9rem; color: #cbd5e1; flex: 1; }
     .chat-bubble strong { color: #e2e8f0; }
@@ -198,7 +212,7 @@
     </header>
 
     <div class="info-box">
-      Meetings start collapsed — click a meeting to expand · Click a tip to read the reasoning · Stars = number of bots on that horse
+      Blue/green bar on each race = what to back (most bots agree) · Stars = bots on that horse · Hot Pick tab = best of the day · Click a tip for reasoning
     </div>
 
     <div class="tabs" id="main-tabs">
@@ -336,8 +350,26 @@ function renderRacecards(dataSet) {
       const extra = [rg, dist].filter(Boolean).join(" · ");
       html += '<div class="race"><div class="race-header">' +
         '<span class="race-time">' + (race.time || "") + '</span>' +
-        '<span class="race-name">' + (race.name || "") + (extra ? ' <span style="color:#94a3b8;font-weight:400;font-size:0.85em">· ' + extra + '</span>' : '') + '</span></div>' +
-        '<div class="col-headers"><div>Bot</div><div>Horse</div>' +
+        '<span class="race-name">' + (race.name || "") + (extra ? ' <span style="color:#94a3b8;font-weight:400;font-size:0.85em">· ' + extra + '</span>' : '') + '</span></div>';
+      // WHAT TO BACK — race consensus
+      const cons = race.consensus;
+      if (cons && cons.horse) {
+        const strength = cons.strength || (cons.bot_count >= 4 ? "strong" : cons.bot_count >= 3 ? "solid" : cons.bot_count >= 2 ? "lean" : "split");
+        const label = strength === "strong" ? "BACK THIS · Strong consensus"
+          : strength === "solid" ? "BACK THIS · Solid consensus"
+          : strength === "lean" ? "Lean tip · 2 bots agree"
+          : "Slight edge · bots split";
+        html += '<div class="consensus-bar ' + strength + '">' +
+          '<div><div class="c-label">' + label + '</div>' +
+          '<div class="c-horse">' + cons.horse +
+          (cons.type === "ew" ? ' <span class="ew-flag">E/W</span>' : '') +
+          '</div></div>' +
+          '<div class="c-meta"><b>' + (cons.bot_count || 0) + ' bots</b> · conf ' + (cons.avg_conf || "?") +
+          ' · ' + (cons.type || "win") + ' @ ' + (cons.odds || "?") + '</div>' +
+          '<div class="c-meta" style="width:100%;font-size:0.8rem">' + (cons.bots || []).join(", ") + '</div>' +
+          '</div>';
+      }
+      html += '<div class="col-headers"><div>Bot</div><div>Horse</div>' +
         '<div style="text-align:center">Stars</div><div style="text-align:right">Odds</div>' +
         '<div style="text-align:center">Conf</div></div>';
       (race.tips || []).forEach(t => {
