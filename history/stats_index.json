@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-24T13:03:51.314852+00:00",
-  "runs": 376,
+  "updated_at": "2026-11-24T13:14:30.715181+00:00",
+  "runs": 386,
   "trainer_course": {
     "celongsdon|huntingdon": {
       "wins": 0,
@@ -1074,8 +1074,8 @@
     },
     "gboughey|lingfield": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "jtate|lingfield": {
       "wins": 0,
@@ -1089,8 +1089,8 @@
     },
     "adamkirby|lingfield": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "spearce|lingfield": {
       "wins": 0,
@@ -1253,6 +1253,31 @@
       "rate": 0.1067
     },
     "mmmcniff|tramore": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "scwilliams|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "dylancunha|lingfield": {
+      "wins": 0,
+      "n": 4,
+      "rate": 0.08
+    },
+    "mdiusher|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "tlacey|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "jgportman|lingfield": {
       "wins": 0,
       "n": 1,
       "rate": 0.1067
@@ -2118,8 +2143,8 @@
     },
     "gboughey|AW": {
       "wins": 1,
-      "n": 4,
-      "rate": 0.1633
+      "n": 5,
+      "rate": 0.1508
     },
     "olliepears|AW": {
       "wins": 0,
@@ -2233,8 +2258,8 @@
     },
     "dylancunha|AW": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 5,
+      "rate": 0.0738
     },
     "kscott|AW": {
       "wins": 0,
@@ -2278,8 +2303,8 @@
     },
     "mdiusher|AW": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "tfaulkner|AW": {
       "wins": 0,
@@ -2473,8 +2498,8 @@
     },
     "adamkirby|AW": {
       "wins": 0,
-      "n": 2,
-      "rate": 0.096
+      "n": 3,
+      "rate": 0.0873
     },
     "mjattwater|AW": {
       "wins": 0,
@@ -2857,6 +2882,21 @@
       "rate": 0.1067
     },
     "mmmcniff|turf": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "scwilliams|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "tlacey|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "jgportman|AW": {
       "wins": 0,
       "n": 1,
       "rate": 0.1067
@@ -3820,8 +3860,8 @@
     },
     "charlesbishop|adamkirby": {
       "wins": 0,
-      "n": 2,
-      "rate": 0.096
+      "n": 3,
+      "rate": 0.0873
     },
     "alistairrawlinson|mjattwater": {
       "wins": 0,
@@ -4215,8 +4255,8 @@
     },
     "jackcallan|gboughey": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "jasonwatson|jtate": {
       "wins": 0,
@@ -4399,6 +4439,46 @@
       "rate": 0.1067
     },
     "phillipenright|mmmcniff": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "jackdace|scwilliams": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "marcoghiani|dylancunha": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "tylerheard|mdiusher": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "ktoneill|tlacey": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "smlevey|dylancunha": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "jfegan|dylancunha": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "connorplanas|dylancunha": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "oliviatubb|jgportman": {
       "wins": 0,
       "n": 1,
       "rate": 0.1067
@@ -6284,6 +6364,56 @@
       "wins": 0,
       "n": 1,
       "rate": 0.1067
+    },
+    "lastdandelion|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "fanciedangel|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "navalcop|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "venturapower|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "defiantdream|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "courseyoudo|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "cestlui|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "luckylarry|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "dancingonthestars|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "pastpassion|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "horse_surface": {
@@ -8163,6 +8293,56 @@
       "rate": 0.1067
     },
     "baldilou|turf": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "lastdandelion|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "fanciedangel|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "navalcop|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "venturapower|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "defiantdream|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "courseyoudo|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "cestlui|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "luckylarry|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "dancingonthestars|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "pastpassion|AW": {
       "wins": 0,
       "n": 1,
       "rate": 0.1067
@@ -10765,6 +10945,56 @@
       "wins": 0,
       "n": 1,
       "rate": 0.1067
+    },
+    "lastdandelion|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "fanciedangel|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "navalcop|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "venturapower|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "defiantdream|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "courseyoudo|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "cestlui|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "luckylarry|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "dancingonthestars|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "pastpassion|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "horse_distance": {
@@ -12647,6 +12877,56 @@
       "wins": 0,
       "n": 1,
       "rate": 0.1067
+    },
+    "lastdandelion|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "fanciedangel|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "navalcop|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "venturapower|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "defiantdream|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "courseyoudo|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "cestlui|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "luckylarry|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "dancingonthestars|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "pastpassion|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "horse_place_surface": {
@@ -14526,6 +14806,56 @@
       "rate": 0.24
     },
     "baldilou|turf": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "lastdandelion|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "fanciedangel|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "navalcop|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "venturapower|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "defiantdream|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "courseyoudo|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "cestlui|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "luckylarry|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "dancingonthestars|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "pastpassion|AW": {
       "places": 0,
       "n": 1,
       "rate": 0.24

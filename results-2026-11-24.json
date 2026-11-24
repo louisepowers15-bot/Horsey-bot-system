@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
   "source": "sportinglife",
-  "scraped_at": "2026-11-24T13:03:51.140954Z",
+  "scraped_at": "2026-11-24T13:14:30.571759Z",
   "meetings": [
     {
       "course": "Lingfield",
@@ -221,6 +221,76 @@
               "sp": 9.0
             }
           ]
+        },
+        {
+          "time": "13:08",
+          "name": "All-Weather Championship Is Back Nursery",
+          "course": "Lingfield",
+          "distance": "5f 6y",
+          "going": "Standard",
+          "field_size": 10,
+          "runners": [
+            {
+              "name": "Last Dandelion",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 6.0
+            },
+            {
+              "name": "C'est Lui",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 3.75
+            },
+            {
+              "name": "Fancied Angel",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "Lucky Larry",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 34.0
+            },
+            {
+              "name": "Defiant Dream",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 8.5
+            },
+            {
+              "name": "Ventura Power",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Dancingonthestars",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 6.0
+            },
+            {
+              "name": "Naval Cop",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 7.5
+            },
+            {
+              "name": "Courseyoudo",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 26.0
+            },
+            {
+              "name": "Past Passion",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 6.0
+            }
+          ]
         }
       ]
     },
@@ -348,16 +418,16 @@
               "sp": 81.0
             },
             {
-              "name": "Illico De Montave",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 81.0
-            },
-            {
               "name": "Kastellion",
               "position": 0,
               "status": "RUNNER",
               "sp": 4.0
+            },
+            {
+              "name": "Illico De Montave",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 81.0
             }
           ]
         },
@@ -394,52 +464,52 @@
               "sp": 4.5
             },
             {
+              "name": "Uda Man Dan",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 4.33
+            },
+            {
               "name": "Ballyboy Prince",
-              "position": 0,
+              "position": 6,
               "status": "RUNNER",
               "sp": 7.0
+            },
+            {
+              "name": "Shah",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 126.0
+            },
+            {
+              "name": "Grandorado",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "Lady Tara",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 126.0
+            },
+            {
+              "name": "Imperial Sea",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 81.0
+            },
+            {
+              "name": "Dressforsuccess",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 101.0
             },
             {
               "name": "Who's The Goat",
               "position": 0,
               "status": "RUNNER",
               "sp": 101.0
-            },
-            {
-              "name": "Uda Man Dan",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 4.33
-            },
-            {
-              "name": "Dressforsuccess",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 101.0
-            },
-            {
-              "name": "Grandorado",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 11.0
-            },
-            {
-              "name": "Imperial Sea",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 81.0
-            },
-            {
-              "name": "Shah",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 126.0
-            },
-            {
-              "name": "Lady Tara",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 126.0
             }
           ]
         }
