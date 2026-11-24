@@ -291,6 +291,19 @@ def enrich(runner, field_size, all_odds, going, distance, course, day_books):
     except Exception:
         r["_or"] = None
 
+    # Race class today vs recent runs (1 = top, 7 = bottom)
+    today_class = r.get("_race_class")
+    if today_class is None:
+        today_class = parse_race_class(r.get("race_class"), str(r.get("_race_name") or ""))
+    try:
+        today_class = int(today_class) if today_class is not None else None
+    except (TypeError, ValueError):
+        today_class = None
+    tc, recent_c, move = class_move(today_class, r.get("_previous_results") or [])
+    r["_race_class"] = tc
+    r["_recent_class"] = recent_c
+    r["_class_move"] = move  # up | down | similar | ""
+
     # Carrying more than last winning weight is a real negative, especially over longer trips
     delta = r["_weight_delta_lbs"]
     furlongs = r.get("_furlongs")  # may not be set yet
@@ -405,6 +418,59 @@ def enrich(runner, field_size, all_odds, going, distance, course, day_books):
     return r
 
 
+
+def parse_race_class(value, race_name: str = "") -> int | None:
+    """UK/IRE class 1 (top) .. 7 (bottom). Group/Listed -> 1."""
+    if value is not None and str(value).strip() != "":
+        s = str(value).strip()
+        try:
+            n = int(re.sub(r"[^0-9]", "", str(s)) or 0)
+            if 1 <= n <= 7:
+                return n
+        except ValueError:
+            pass
+        low = s.lower()
+        if any(x in low for x in ("group 1", "group 2", "group 3", "grade 1", "grade 2", "grade 3", "listed")):
+            return 1
+    n = race_name or ""
+    m = re.search(r"\bclass\s*([1-7])\b", n, re.I)
+    if m:
+        return int(m.group(1))
+    low = n.lower()
+    if re.search(r"\b(group|grade)\s*[123]\b|\blisted\b", low):
+        return 1
+    return None
+
+
+def class_move(today: int | None, previous: list) -> tuple:
+    """(today_class, typical_recent_class, label) label in up|down|similar|''."""
+    if today is None:
+        return None, None, ""
+    recent = []
+    for p in previous or []:
+        if not isinstance(p, dict):
+            continue
+        c = p.get("race_class")
+        if c is None:
+            c = parse_race_class(None, str(p.get("race_name") or ""))
+        try:
+            c = int(c) if c is not None else None
+        except (TypeError, ValueError):
+            c = None
+        if c is not None and 1 <= c <= 7:
+            recent.append(c)
+    if not recent:
+        return today, None, ""
+    sample = recent[:4]
+    mid = sorted(sample)[len(sample) // 2]
+    delta = mid - today  # +ve => tougher today
+    if delta >= 2:
+        return today, mid, "up"
+    if delta <= -2:
+        return today, mid, "down"
+    return today, mid, "similar"
+
+
 def score_bot(bot, r, rng):
     w = WEIGHTS[bot]
     s = (
@@ -435,6 +501,22 @@ def score_bot(bot, r, rng):
     # Surface specialists lean
     if bot in ("BloodlineBetty", "FormFox") and r.get("_surface") == "AW":
         s += 0.015
+    # Class rise/drop: Class 5 -> Class 3 is a real step up in grade
+    move = r.get("_class_move") or ""
+    if move == "up":
+        # Stepping up 2+ class bands — often struggle unless progressive
+        s -= 0.06
+        if r.get("_race_class") is not None and r.get("_recent_class") is not None:
+            gap = int(r["_recent_class"]) - int(r["_race_class"])
+            if gap >= 3:
+                s -= 0.05  # steep rise e.g. 6 -> 3
+        if r.get("_form") is not None and r["_form"] < 0.5:
+            s -= 0.03  # weak form + class rise
+    elif move == "down":
+        s += 0.04  # eased in grade can help
+        if r.get("_form") is not None and r["_form"] >= 0.55:
+            s += 0.02
+
     s += rng.uniform(-0.025, 0.025)
     return max(0.08, min(0.93, s))
 
@@ -614,6 +696,23 @@ def tipster_reason(bot, r, tip_type, conf, field_size, rivals: list | None = Non
         angles.append(f"{name} fell last time out, so any support has to allow for that risk.")
     elif last_code == "U":
         angles.append(f"{name} unseated last time; the complete-the-race question is real.")
+
+    # Class rise / drop (only when we have numbers)
+    move = r.get("_class_move") or ""
+    tc = r.get("_race_class")
+    recent_c = r.get("_recent_class")
+    if move == "up" and tc is not None and recent_c is not None:
+        angles.append(
+            f"This is a step up in grade — Class {tc} today against recent Class {recent_c} form — so improvement is required, not assumed."
+        )
+    elif move == "down" and tc is not None and recent_c is not None:
+        angles.append(
+            f"Eased in class (Class {tc} today vs recent Class {recent_c}), which can help if the ability is still there."
+        )
+    elif tc is not None and not move and recent_c is None:
+        # today known but no past classes — still mention lightly if Class 1-2
+        if int(tc) <= 2:
+            angles.append(f"Operating in Class {tc} company today.")
 
     # Course / C&D style
     if best_course and not angles:
@@ -804,6 +903,17 @@ def build_tips_for_races(d, flat_races):
                 er["_code"] = race_code
             else:
                 er["_code"] = er.get("_code") or "unknown"
+            # Attach today's race class (from meeting list / race name)
+            rc_today = race.get("race_class")
+            if rc_today is None:
+                rc_today = parse_race_class(None, race.get("name") or "")
+            er["_race_class"] = rc_today
+            er["_race_name"] = race.get("name") or ""
+            # Recompute class move now that today class is known
+            tc, recent_c, move = class_move(rc_today, er.get("_previous_results") or [])
+            er["_race_class"] = tc
+            er["_recent_class"] = recent_c
+            er["_class_move"] = move
             # History pattern hints (neutral when empty)
             er["_hist_bits"] = []
             er["_hist_used"] = False

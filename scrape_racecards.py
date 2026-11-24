@@ -202,6 +202,45 @@ def weight_to_lbs(w) -> float | None:
         return None
 
 
+
+def parse_race_class(value, race_name: str = "") -> int | None:
+    """
+    UK/IRE class as int (1 = highest, 7 = lowest).
+    Group/Listed map to 1. Returns None if unknown.
+    """
+    if value is not None and str(value).strip() != "":
+        s = str(value).strip()
+        try:
+            n = int(re.sub(r"[^0-9]", "", s) or "")
+            if 1 <= n <= 7:
+                return n
+        except ValueError:
+            pass
+        low = s.lower()
+        if "group 1" in low or "grade 1" in low:
+            return 1
+        if "group 2" in low or "grade 2" in low:
+            return 1
+        if "group 3" in low or "grade 3" in low:
+            return 1
+        if "listed" in low:
+            return 1
+    n = race_name or ""
+    m = re.search(r"\bclass\s*([1-7])\b", n, re.I)
+    if m:
+        return int(m.group(1))
+    low = n.lower()
+    if re.search(r"\bgroup\s*1\b|\bgrade\s*1\b", low):
+        return 1
+    if re.search(r"\bgroup\s*2\b|\bgrade\s*2\b", low):
+        return 1
+    if re.search(r"\bgroup\s*3\b|\bgrade\s*3\b", low):
+        return 1
+    if re.search(r"\blisted\b", low):
+        return 1
+    return None
+
+
 def summarise_previous_results(horse_obj: dict, limit: int = 6) -> list[dict]:
     """Compact previous runs for weight/surface/code analysis."""
     prev = horse_obj.get("previous_results") or []
@@ -210,6 +249,8 @@ def summarise_previous_results(horse_obj: dict, limit: int = 6) -> list[dict]:
         if not isinstance(p, dict):
             continue
         cas = _casualty_reason(p.get("casualty"))
+        rn = str(p.get("race_name") or "")[:80]
+        rc = parse_race_class(p.get("race_class") or p.get("class"), rn)
         out.append({
             "date": p.get("date") or "",
             "course": p.get("course_name") or p.get("course_shortcode") or "",
@@ -220,7 +261,8 @@ def summarise_previous_results(horse_obj: dict, limit: int = 6) -> list[dict]:
             "casualty": cas,
             "going": p.get("going") or p.get("going_shortcode") or "",
             "run_type": str(p.get("run_type") or ""),
-            "race_name": str(p.get("race_name") or "")[:80],
+            "race_name": rn,
+            "race_class": rc,
             "odds": p.get("odds"),
         })
     return out
@@ -609,6 +651,7 @@ def fetch_meetings(d: date) -> list:
 
             dist_final = dist or list_distance or ""
             going_final = going_ov or meeting_going or ""
+            rc_today = parse_race_class(race_class, race_name)
             races.append({
                 "time": race_time,
                 "name": race_name,
@@ -616,6 +659,7 @@ def fetch_meetings(d: date) -> list:
                 "going": going_final,
                 "surface": detect_surface(course_name, going_final),
                 "code": detect_race_code(race_name, dist_final, course_name),
+                "race_class": rc_today,
                 "runners": runners,
                 "race_id": race_id,
             })

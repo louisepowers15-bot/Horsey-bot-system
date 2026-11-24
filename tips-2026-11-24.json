@@ -21,7 +21,7 @@
           "bot": "BloodlineBetty",
           "horse": "Kashooda",
           "odds": 5.0,
-          "conf": 64,
+          "conf": 63,
           "type": "win",
           "reason": "Kashooda has already won at Lingfield over 1m 7f 170y (2026-11-24), so the track holds no mysteries. Rated 70 for this. A M Balding is busy today (5 on the card), and Jason Watson keeps the mount among 6 rides. Worth a win bet at around 5.00.",
           "stars": 5
@@ -39,7 +39,7 @@
           "bot": "FormFox",
           "horse": "Kashooda",
           "odds": 5.0,
-          "conf": 66,
+          "conf": 65,
           "type": "win",
           "reason": "Kashooda has already won at Lingfield over 1m 7f 170y (2026-11-24), so the track holds no mysteries. Rated 70 for this. A M Balding is busy today (5 on the card), and Jason Watson keeps the mount among 6 rides. Worth a win bet at around 5.00.",
           "stars": 5
@@ -48,7 +48,7 @@
           "bot": "HotTrainer",
           "horse": "Kashooda",
           "odds": 5.0,
-          "conf": 64,
+          "conf": 63,
           "type": "win",
           "reason": "Kashooda has already won at Lingfield over 1m 7f 170y (2026-11-24), so the track holds no mysteries. Rated 70 for this. A M Balding is busy today (5 on the card), and Jason Watson keeps the mount among 6 rides. Worth a win bet at around 5.00.",
           "stars": 5
@@ -85,56 +85,56 @@
         {
           "bot": "BloodlineBetty",
           "horse": "Rocsane",
-          "odds": 4.33,
-          "conf": 56,
+          "odds": 4.5,
+          "conf": 57,
           "type": "win",
-          "reason": "Rocsane has solid course form at Lingfield \u2014 3rd over 6f 1y, which matters more than a cold form string. Rated 64 for this. Trained by G G Margarson, and D Egan keeps the mount among 8 rides. Worth a win bet at around 4.33.",
-          "stars": 4
+          "reason": "Rocsane has solid course form at Lingfield \u2014 3rd over 6f 1y, which matters more than a cold form string. Rated 64 for this. Trained by G G Margarson, and D Egan keeps the mount among 8 rides. Worth a win bet at around 4.50.",
+          "stars": 6
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Rocsane",
-          "odds": 4.33,
-          "conf": 57,
+          "odds": 4.5,
+          "conf": 58,
           "type": "win",
-          "reason": "Rocsane has solid course form at Lingfield \u2014 3rd over 6f 1y, which matters more than a cold form string. Rated 64 for this. Trained by G G Margarson, and D Egan keeps the mount among 8 rides. Worth a win bet at around 4.33.",
-          "stars": 4
+          "reason": "Rocsane has solid course form at Lingfield \u2014 3rd over 6f 1y, which matters more than a cold form string. Rated 64 for this. Trained by G G Margarson, and D Egan keeps the mount among 8 rides. Worth a win bet at around 4.50.",
+          "stars": 6
         },
         {
           "bot": "FormFox",
           "horse": "Rocsane",
-          "odds": 4.33,
+          "odds": 4.5,
           "conf": 61,
           "type": "win",
-          "reason": "Rocsane has solid course form at Lingfield \u2014 3rd over 6f 1y, which matters more than a cold form string. Rated 64 for this. Trained by G G Margarson, and D Egan keeps the mount among 8 rides. Worth a win bet at around 4.33.",
-          "stars": 4
+          "reason": "Rocsane has solid course form at Lingfield \u2014 3rd over 6f 1y, which matters more than a cold form string. Rated 64 for this. Trained by G G Margarson, and D Egan keeps the mount among 8 rides. Worth a win bet at around 4.50.",
+          "stars": 6
         },
         {
           "bot": "HotTrainer",
           "horse": "Rocsane",
-          "odds": 4.33,
-          "conf": 57,
+          "odds": 4.5,
+          "conf": 58,
           "type": "win",
-          "reason": "Rocsane has solid course form at Lingfield \u2014 3rd over 6f 1y, which matters more than a cold form string. Rated 64 for this. Trained by G G Margarson, and D Egan keeps the mount among 8 rides. Worth a win bet at around 4.33.",
-          "stars": 4
+          "reason": "Rocsane has solid course form at Lingfield \u2014 3rd over 6f 1y, which matters more than a cold form string. Rated 64 for this. Trained by G G Margarson, and D Egan keeps the mount among 8 rides. Worth a win bet at around 4.50.",
+          "stars": 6
         },
         {
           "bot": "PaceProphet",
-          "horse": "Pride's Queen",
-          "odds": 4.5,
-          "conf": 56,
-          "type": "win",
-          "reason": "Pride's Queen for how this race should be run. Rated 57 for this. M Botti is busy today (3 on the card), and Marco Ghiani keeps the mount among 8 rides. Has all-weather experience on the card already, so the surface itself is not a complete unknown. Worth a win bet at around 4.50.",
-          "stars": 2
-        },
-        {
-          "bot": "ValueHunter",
-          "horse": "Pride's Queen",
+          "horse": "Rocsane",
           "odds": 4.5,
           "conf": 57,
           "type": "win",
-          "reason": "Pride's Queen is the price that interests me. Rated 57 for this. M Botti is busy today (3 on the card), and Marco Ghiani keeps the mount among 8 rides. Has all-weather experience on the card already, so the surface itself is not a complete unknown. Worth a win bet at around 4.50.",
-          "stars": 2
+          "reason": "Rocsane has solid course form at Lingfield \u2014 3rd over 6f 1y, which matters more than a cold form string. Rated 64 for this. Trained by G G Margarson, and D Egan keeps the mount among 8 rides. Worth a win bet at around 4.50.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Rocsane",
+          "odds": 4.5,
+          "conf": 58,
+          "type": "win",
+          "reason": "Rocsane has solid course form at Lingfield \u2014 3rd over 6f 1y, which matters more than a cold form string. Rated 64 for this. Trained by G G Margarson, and D Egan keeps the mount among 8 rides. Worth a win bet at around 4.50.",
+          "stars": 6
         }
       ]
     },
@@ -186,10 +186,10 @@
         {
           "bot": "PaceProphet",
           "horse": "Rhythm Runner",
-          "odds": 9.0,
+          "odds": 8.5,
           "conf": 55,
           "type": "win",
-          "reason": "Rhythm Runner for how this race should be run. Ollie Sangster is busy today (3 on the card), and Marco Ghiani keeps the mount among 8 rides. Worth a win bet at around 9.00.",
+          "reason": "Rhythm Runner for how this race should be run. Ollie Sangster is busy today (3 on the card), and Marco Ghiani keeps the mount among 8 rides. Worth a win bet at around 8.50.",
           "stars": 1
         },
         {
@@ -214,11 +214,11 @@
       "tips": [
         {
           "bot": "BloodlineBetty",
-          "horse": "Defiant Dream",
-          "odds": 8.0,
+          "horse": "Dancingonthestars",
+          "odds": 9.0,
           "conf": 55,
           "type": "win",
-          "reason": "Defiant Dream fits the conditions better than most. Rated 54 for this. Runs in cheek pieces. Trained by M D I Usher, and Tyler Heard rides. Worth a win bet at around 8.00.",
+          "reason": "Dancingonthestars fits the conditions better than most. Eased in class (Class 6 today vs recent Class 4), which can help if the ability is still there. Dylan Cunha is busy today (4 on the card), and Connor Planas rides. Worth a win bet at around 9.00.",
           "stars": 1
         },
         {
@@ -541,19 +541,19 @@
           "bot": "BloodlineBetty",
           "horse": "Far Far Out",
           "odds": 3.5,
-          "conf": 57,
+          "conf": 56,
           "type": "win",
-          "reason": "Far Far Out fits the conditions better than most. Rated 55 for this. A W Carroll is busy today (6 on the card), and William Carson rides. Up about 6lb on a comparable winning weight from the card. Worth a win bet at around 3.50.",
+          "reason": "Far Far Out fits the conditions better than most. Rated 55 for this. A W Carroll is busy today (6 on the card), and William Carson rides. A W Carroll is 8% (n=4) at Lingfield in our results store. Worth a win bet at around 3.50.",
           "stars": 2
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Bennyworth",
-          "odds": 9.5,
-          "conf": 52,
+          "horse": "Herstmonceux",
+          "odds": 5.0,
+          "conf": 55,
           "type": "win",
-          "reason": "I prefer Bennyworth to the more obvious horses. Runs in blinkers. J R Boyle is busy today (3 on the card), and D Egan keeps the mount among 8 rides. Has all-weather experience on the card already, so the surface itself is not a complete unknown. Worth a win bet at around 9.50.",
-          "stars": 4
+          "reason": "I prefer Herstmonceux to the more obvious horses. Eased in class (Class 6 today vs recent Class 4), which can help if the ability is still there. Trained by W Muir & C Grassick, and Jack Doughty rides. Has all-weather experience on the card already, so the surface itself is not a complete unknown. Worth a win bet at around 5.00.",
+          "stars": 2
         },
         {
           "bot": "FormFox",
@@ -562,7 +562,7 @@
           "conf": 52,
           "type": "win",
           "reason": "Bennyworth is the form angle for me. Runs in blinkers. J R Boyle is busy today (3 on the card), and D Egan keeps the mount among 8 rides. Has all-weather experience on the card already, so the surface itself is not a complete unknown. Worth a win bet at around 9.50.",
-          "stars": 4
+          "stars": 2
         },
         {
           "bot": "HotTrainer",
@@ -571,16 +571,16 @@
           "conf": 53,
           "type": "win",
           "reason": "Connections lean me toward Bennyworth. Runs in blinkers. J R Boyle is busy today (3 on the card), and D Egan keeps the mount among 8 rides. Has all-weather experience on the card already, so the surface itself is not a complete unknown. Worth a win bet at around 9.50.",
-          "stars": 4
+          "stars": 2
         },
         {
           "bot": "PaceProphet",
-          "horse": "Bennyworth",
-          "odds": 9.5,
-          "conf": 54,
+          "horse": "Herstmonceux",
+          "odds": 5.0,
+          "conf": 55,
           "type": "win",
-          "reason": "Bennyworth for how this race should be run. Runs in blinkers. J R Boyle is busy today (3 on the card), and D Egan keeps the mount among 8 rides. Has all-weather experience on the card already, so the surface itself is not a complete unknown. Worth a win bet at around 9.50.",
-          "stars": 4
+          "reason": "Herstmonceux for how this race should be run. Eased in class (Class 6 today vs recent Class 4), which can help if the ability is still there. Trained by W Muir & C Grassick, and Jack Doughty rides. Has all-weather experience on the card already, so the surface itself is not a complete unknown. Worth a win bet at around 5.00.",
+          "stars": 2
         },
         {
           "bot": "ValueHunter",
@@ -588,7 +588,7 @@
           "odds": 3.5,
           "conf": 53,
           "type": "win",
-          "reason": "Far Far Out is the price that interests me. Rated 55 for this. A W Carroll is busy today (6 on the card), and William Carson rides. Up about 6lb on a comparable winning weight from the card. Worth a win bet at around 3.50.",
+          "reason": "Far Far Out is the price that interests me. Rated 55 for this. A W Carroll is busy today (6 on the card), and William Carson rides. A W Carroll is 8% (n=4) at Lingfield in our results store. Worth a win bet at around 3.50.",
           "stars": 2
         }
       ]
@@ -604,56 +604,56 @@
       "tips": [
         {
           "bot": "BloodlineBetty",
-          "horse": "Rap Soul",
-          "odds": 9.0,
-          "conf": 54,
+          "horse": "Imperial Bede",
+          "odds": 2.75,
+          "conf": 61,
           "type": "win",
-          "reason": "Rap Soul pulled up last time (PulledUp) \u2014 that has to be respected, so this is only of interest if the price overstates the risk. Rated 98 for this. Trained by R Bandey, and J M Quinlan keeps the mount among 3 rides. Worth a win bet at around 9.00.",
+          "reason": "Imperial Bede has already won at Southwell over 2m 4f 88y (2026-11-24), so the track holds no mysteries. Rated 94 for this. Runs in cheek pieces. Worth a win bet at around 2.75.",
           "stars": 6
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Rap Soul",
-          "odds": 9.0,
+          "horse": "Imperial Bede",
+          "odds": 2.75,
           "conf": 55,
           "type": "win",
-          "reason": "Rap Soul pulled up last time (PulledUp) \u2014 that has to be respected, so this is only of interest if the price overstates the risk. Rated 98 for this. Trained by R Bandey, and J M Quinlan keeps the mount among 3 rides. Worth a win bet at around 9.00.",
+          "reason": "Imperial Bede has already won at Southwell over 2m 4f 88y (2026-11-24), so the track holds no mysteries. Rated 94 for this. Runs in cheek pieces. Worth a win bet at around 2.75.",
           "stars": 6
         },
         {
           "bot": "FormFox",
-          "horse": "Rap Soul",
-          "odds": 9.0,
-          "conf": 52,
+          "horse": "Imperial Bede",
+          "odds": 2.75,
+          "conf": 60,
           "type": "win",
-          "reason": "Rap Soul pulled up last time (PulledUp) \u2014 that has to be respected, so this is only of interest if the price overstates the risk. Rated 98 for this. Trained by R Bandey, and J M Quinlan keeps the mount among 3 rides. Worth a win bet at around 9.00.",
+          "reason": "Imperial Bede has already won at Southwell over 2m 4f 88y (2026-11-24), so the track holds no mysteries. Rated 94 for this. Runs in cheek pieces. Worth a win bet at around 2.75.",
           "stars": 6
         },
         {
           "bot": "HotTrainer",
-          "horse": "Rap Soul",
-          "odds": 9.0,
-          "conf": 54,
+          "horse": "Imperial Bede",
+          "odds": 2.75,
+          "conf": 61,
           "type": "win",
-          "reason": "Rap Soul pulled up last time (PulledUp) \u2014 that has to be respected, so this is only of interest if the price overstates the risk. Rated 98 for this. Trained by R Bandey, and J M Quinlan keeps the mount among 3 rides. Worth a win bet at around 9.00.",
+          "reason": "Imperial Bede has already won at Southwell over 2m 4f 88y (2026-11-24), so the track holds no mysteries. Rated 94 for this. Runs in cheek pieces. Worth a win bet at around 2.75.",
           "stars": 6
         },
         {
           "bot": "PaceProphet",
-          "horse": "Rap Soul",
-          "odds": 9.0,
-          "conf": 58,
+          "horse": "Imperial Bede",
+          "odds": 2.75,
+          "conf": 62,
           "type": "win",
-          "reason": "Rap Soul pulled up last time (PulledUp) \u2014 that has to be respected, so this is only of interest if the price overstates the risk. Rated 98 for this. Trained by R Bandey, and J M Quinlan keeps the mount among 3 rides. Worth a win bet at around 9.00.",
+          "reason": "Imperial Bede has already won at Southwell over 2m 4f 88y (2026-11-24), so the track holds no mysteries. Rated 94 for this. Runs in cheek pieces. Worth a win bet at around 2.75.",
           "stars": 6
         },
         {
           "bot": "ValueHunter",
-          "horse": "Rap Soul",
-          "odds": 9.0,
+          "horse": "Imperial Bede",
+          "odds": 2.75,
           "conf": 58,
           "type": "win",
-          "reason": "Rap Soul pulled up last time (PulledUp) \u2014 that has to be respected, so this is only of interest if the price overstates the risk. Rated 98 for this. Trained by R Bandey, and J M Quinlan keeps the mount among 3 rides. Worth a win bet at around 9.00.",
+          "reason": "Imperial Bede has already won at Southwell over 2m 4f 88y (2026-11-24), so the track holds no mysteries. Rated 94 for this. Runs in cheek pieces. Worth a win bet at around 2.75.",
           "stars": 6
         }
       ]
@@ -800,55 +800,55 @@
         {
           "bot": "BloodlineBetty",
           "horse": "Goodbye Earl",
-          "odds": 8.0,
+          "odds": 8.5,
           "conf": 58,
           "type": "ew",
-          "reason": "Goodbye Earl fits the conditions better than most. D Pipe is busy today (6 on the card), and Rian Corcoran rides. Latest start: 3rd at Ffos Las over 1m 7f 182y. Conditions (Good-good to soft in places) look testing; horses that handle this ground get preferred. Each-way at around 8.00 looks the sensible way to play it.",
+          "reason": "Goodbye Earl fits the conditions better than most. D Pipe is busy today (6 on the card), and Rian Corcoran rides. Latest start: 3rd at Ffos Las over 1m 7f 182y. Conditions (Good-good to soft in places) look testing; horses that handle this ground get preferred. Each-way at around 8.50 looks the sensible way to play it.",
           "stars": 6
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Goodbye Earl",
-          "odds": 8.0,
+          "odds": 8.5,
           "conf": 58,
           "type": "ew",
-          "reason": "I prefer Goodbye Earl to the more obvious horses. D Pipe is busy today (6 on the card), and Rian Corcoran rides. Latest start: 3rd at Ffos Las over 1m 7f 182y. Conditions (Good-good to soft in places) look testing; horses that handle this ground get preferred. Each-way at around 8.00 looks the sensible way to play it.",
+          "reason": "I prefer Goodbye Earl to the more obvious horses. D Pipe is busy today (6 on the card), and Rian Corcoran rides. Latest start: 3rd at Ffos Las over 1m 7f 182y. Conditions (Good-good to soft in places) look testing; horses that handle this ground get preferred. Each-way at around 8.50 looks the sensible way to play it.",
           "stars": 6
         },
         {
           "bot": "FormFox",
           "horse": "Goodbye Earl",
-          "odds": 8.0,
+          "odds": 8.5,
           "conf": 59,
           "type": "ew",
-          "reason": "Goodbye Earl is the form angle for me. D Pipe is busy today (6 on the card), and Rian Corcoran rides. Latest start: 3rd at Ffos Las over 1m 7f 182y. Conditions (Good-good to soft in places) look testing; horses that handle this ground get preferred. Each-way at around 8.00 looks the sensible way to play it.",
+          "reason": "Goodbye Earl is the form angle for me. D Pipe is busy today (6 on the card), and Rian Corcoran rides. Latest start: 3rd at Ffos Las over 1m 7f 182y. Conditions (Good-good to soft in places) look testing; horses that handle this ground get preferred. Each-way at around 8.50 looks the sensible way to play it.",
           "stars": 6
         },
         {
           "bot": "HotTrainer",
           "horse": "Goodbye Earl",
-          "odds": 8.0,
+          "odds": 8.5,
           "conf": 58,
           "type": "ew",
-          "reason": "Connections lean me toward Goodbye Earl. D Pipe is busy today (6 on the card), and Rian Corcoran rides. Latest start: 3rd at Ffos Las over 1m 7f 182y. Conditions (Good-good to soft in places) look testing; horses that handle this ground get preferred. Each-way at around 8.00 looks the sensible way to play it.",
+          "reason": "Connections lean me toward Goodbye Earl. D Pipe is busy today (6 on the card), and Rian Corcoran rides. Latest start: 3rd at Ffos Las over 1m 7f 182y. Conditions (Good-good to soft in places) look testing; horses that handle this ground get preferred. Each-way at around 8.50 looks the sensible way to play it.",
           "stars": 6
         },
         {
           "bot": "PaceProphet",
           "horse": "Goodbye Earl",
-          "odds": 8.0,
+          "odds": 8.5,
           "conf": 60,
           "type": "ew",
-          "reason": "Goodbye Earl for how this race should be run. D Pipe is busy today (6 on the card), and Rian Corcoran rides. Latest start: 3rd at Ffos Las over 1m 7f 182y. Conditions (Good-good to soft in places) look testing; horses that handle this ground get preferred. Each-way at around 8.00 looks the sensible way to play it.",
+          "reason": "Goodbye Earl for how this race should be run. D Pipe is busy today (6 on the card), and Rian Corcoran rides. Latest start: 3rd at Ffos Las over 1m 7f 182y. Conditions (Good-good to soft in places) look testing; horses that handle this ground get preferred. Each-way at around 8.50 looks the sensible way to play it.",
           "stars": 6
         },
         {
           "bot": "ValueHunter",
           "horse": "Goodbye Earl",
-          "odds": 8.0,
+          "odds": 8.5,
           "conf": 63,
           "type": "ew",
-          "reason": "Goodbye Earl is the price that interests me. D Pipe is busy today (6 on the card), and Rian Corcoran rides. Latest start: 3rd at Ffos Las over 1m 7f 182y. Conditions (Good-good to soft in places) look testing; horses that handle this ground get preferred. Each-way at around 8.00 looks the sensible way to play it.",
+          "reason": "Goodbye Earl is the price that interests me. D Pipe is busy today (6 on the card), and Rian Corcoran rides. Latest start: 3rd at Ffos Las over 1m 7f 182y. Conditions (Good-good to soft in places) look testing; horses that handle this ground get preferred. Each-way at around 8.50 looks the sensible way to play it.",
           "stars": 6
         }
       ]
@@ -1105,10 +1105,10 @@
         {
           "bot": "ValueHunter",
           "horse": "Klitschko",
-          "odds": 11.0,
+          "odds": 12.0,
           "conf": 67,
           "type": "ew",
-          "reason": "Klitschko is the price that interests me. Rated 117 for this. Runs in tongue strap. Trained by Lucinda Hughes, and B S Hughes keeps the mount among 3 rides. Each-way at around 11.00 looks the sensible way to play it.",
+          "reason": "Klitschko is the price that interests me. Rated 117 for this. Runs in tongue strap. Trained by Lucinda Hughes, and B S Hughes keeps the mount among 3 rides. Each-way at around 12.00 looks the sensible way to play it.",
           "stars": 1
         }
       ]
@@ -1551,10 +1551,10 @@
         {
           "bot": "PaceProphet",
           "horse": "Maldevious",
-          "odds": 17.0,
+          "odds": 21.0,
           "conf": 60,
           "type": "ew",
-          "reason": "Maldevious for how this race should be run. Off a mark of 66 there is room to be competitive if the handicapper has been kind. Runs in cheek pieces, tongue strap. Trained by B Ellison, and Harry Russell rides. Each-way at around 17.00 looks the sensible way to play it.",
+          "reason": "Maldevious for how this race should be run. Off a mark of 66 there is room to be competitive if the handicapper has been kind. Runs in cheek pieces, tongue strap. Trained by B Ellison, and Harry Russell rides. Each-way at around 21.00 looks the sensible way to play it.",
           "stars": 1
         },
         {
@@ -2544,7 +2544,7 @@
       ]
     }
   ],
-  "generated_at": "2026-11-24T11:55:29.526940Z",
+  "generated_at": "2026-11-24T12:10:23.449406Z",
   "note": "Human-style reasons; day trainer/jockey books; surface + trip aware",
   "published": true
 }
