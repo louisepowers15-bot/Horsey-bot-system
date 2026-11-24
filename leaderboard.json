@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026-11-24T15:30:06.397979+00:00",
+  "updated_at": "2026-11-24T16:16:54.053206+00:00",
   "bots": {
     "BloodlineBetty": {
-      "tips": 85,
-      "wins": 25,
+      "tips": 88,
+      "wins": 20,
       "places": 4,
-      "losses": 56,
-      "unknown": 30,
-      "stakes": 85.0,
-      "returns": 112.52,
-      "pnl": 27.52,
+      "losses": 64,
+      "unknown": 27,
+      "stakes": 88.0,
+      "returns": 72.12,
+      "pnl": -15.88,
       "avg_odds": 5.81,
       "style": {
-        "win": 70,
-        "ew": 15
+        "win": 75,
+        "ew": 13
       },
       "conf": {
         "low": {
-          "n": 15,
-          "wins": 2,
-          "win_pct": 13.3
+          "n": 18,
+          "wins": 3,
+          "win_pct": 16.7
         },
         "mid": {
           "n": 61,
-          "wins": 19,
-          "win_pct": 31.1
+          "wins": 13,
+          "win_pct": 21.3
         },
         "high": {
           "n": 9,
@@ -32,33 +32,33 @@
           "win_pct": 44.4
         }
       },
-      "win_pct": 29.4,
-      "roi_pct": 32.4
+      "win_pct": 22.7,
+      "roi_pct": -18.0
     },
     "DevilAdvocate": {
-      "tips": 85,
-      "wins": 19,
-      "places": 6,
-      "losses": 60,
-      "unknown": 30,
-      "stakes": 85.0,
-      "returns": 92.89,
-      "pnl": 7.89,
-      "avg_odds": 6.02,
+      "tips": 87,
+      "wins": 17,
+      "places": 5,
+      "losses": 65,
+      "unknown": 28,
+      "stakes": 87.0,
+      "returns": 76.97,
+      "pnl": -10.03,
+      "avg_odds": 6.0,
       "style": {
-        "win": 71,
-        "ew": 14
+        "win": 72,
+        "ew": 15
       },
       "conf": {
         "low": {
-          "n": 14,
+          "n": 17,
           "wins": 1,
-          "win_pct": 7.1
+          "win_pct": 5.9
         },
         "mid": {
-          "n": 65,
-          "wins": 15,
-          "win_pct": 23.1
+          "n": 64,
+          "wins": 13,
+          "win_pct": 20.3
         },
         "high": {
           "n": 6,
@@ -66,33 +66,33 @@
           "win_pct": 50.0
         }
       },
-      "win_pct": 22.4,
-      "roi_pct": 9.3
+      "win_pct": 19.5,
+      "roi_pct": -11.5
     },
     "FormFox": {
-      "tips": 85,
-      "wins": 21,
+      "tips": 87,
+      "wins": 20,
       "places": 4,
-      "losses": 60,
-      "unknown": 30,
-      "stakes": 85.0,
-      "returns": 88.86,
-      "pnl": 3.85,
-      "avg_odds": 5.48,
+      "losses": 63,
+      "unknown": 28,
+      "stakes": 87.0,
+      "returns": 84.3,
+      "pnl": -2.71,
+      "avg_odds": 5.85,
       "style": {
-        "win": 72,
+        "win": 74,
         "ew": 13
       },
       "conf": {
         "low": {
-          "n": 18,
-          "wins": 4,
-          "win_pct": 22.2
+          "n": 21,
+          "wins": 7,
+          "win_pct": 33.3
         },
         "mid": {
-          "n": 59,
-          "wins": 15,
-          "win_pct": 25.4
+          "n": 58,
+          "wins": 11,
+          "win_pct": 19.0
         },
         "high": {
           "n": 8,
@@ -100,33 +100,33 @@
           "win_pct": 25.0
         }
       },
-      "win_pct": 24.7,
-      "roi_pct": 4.5
+      "win_pct": 23.0,
+      "roi_pct": -3.1
     },
     "HotTrainer": {
-      "tips": 86,
-      "wins": 26,
-      "places": 4,
-      "losses": 56,
-      "unknown": 29,
-      "stakes": 86.0,
-      "returns": 112.43,
-      "pnl": 26.43,
-      "avg_odds": 5.2,
+      "tips": 87,
+      "wins": 20,
+      "places": 3,
+      "losses": 64,
+      "unknown": 28,
+      "stakes": 87.0,
+      "returns": 72.67,
+      "pnl": -14.34,
+      "avg_odds": 5.24,
       "style": {
-        "win": 73,
-        "ew": 13
+        "win": 78,
+        "ew": 9
       },
       "conf": {
         "low": {
-          "n": 18,
-          "wins": 6,
-          "win_pct": 33.3
+          "n": 20,
+          "wins": 4,
+          "win_pct": 20.0
         },
         "mid": {
-          "n": 59,
-          "wins": 16,
-          "win_pct": 27.1
+          "n": 58,
+          "wins": 12,
+          "win_pct": 20.7
         },
         "high": {
           "n": 9,
@@ -134,33 +134,33 @@
           "win_pct": 44.4
         }
       },
-      "win_pct": 30.2,
-      "roi_pct": 30.7
+      "win_pct": 23.0,
+      "roi_pct": -16.5
     },
     "PaceProphet": {
-      "tips": 85,
-      "wins": 19,
+      "tips": 87,
+      "wins": 17,
       "places": 5,
-      "losses": 61,
-      "unknown": 30,
-      "stakes": 85.0,
-      "returns": 75.48,
-      "pnl": -9.52,
-      "avg_odds": 5.74,
+      "losses": 65,
+      "unknown": 28,
+      "stakes": 87.0,
+      "returns": 62.46,
+      "pnl": -24.54,
+      "avg_odds": 5.76,
       "style": {
-        "win": 71,
+        "win": 73,
         "ew": 14
       },
       "conf": {
         "low": {
-          "n": 14,
-          "wins": 2,
-          "win_pct": 14.3
+          "n": 18,
+          "wins": 1,
+          "win_pct": 5.6
         },
         "mid": {
-          "n": 66,
-          "wins": 14,
-          "win_pct": 21.2
+          "n": 64,
+          "wins": 13,
+          "win_pct": 20.3
         },
         "high": {
           "n": 5,
@@ -168,22 +168,22 @@
           "win_pct": 60.0
         }
       },
-      "win_pct": 22.4,
-      "roi_pct": -11.2
+      "win_pct": 19.5,
+      "roi_pct": -28.2
     },
     "ValueHunter": {
-      "tips": 85,
-      "wins": 25,
-      "places": 6,
-      "losses": 54,
-      "unknown": 30,
-      "stakes": 85.0,
-      "returns": 140.0,
-      "pnl": 55.0,
-      "avg_odds": 6.74,
+      "tips": 87,
+      "wins": 18,
+      "places": 4,
+      "losses": 65,
+      "unknown": 28,
+      "stakes": 87.0,
+      "returns": 86.99,
+      "pnl": -0.01,
+      "avg_odds": 6.71,
       "style": {
-        "win": 65,
-        "ew": 20
+        "win": 70,
+        "ew": 17
       },
       "conf": {
         "low": {
@@ -192,47 +192,47 @@
           "win_pct": 10.0
         },
         "mid": {
-          "n": 57,
-          "wins": 15,
-          "win_pct": 26.3
+          "n": 62,
+          "wins": 11,
+          "win_pct": 17.7
         },
         "high": {
-          "n": 18,
-          "wins": 9,
-          "win_pct": 50.0
+          "n": 15,
+          "wins": 6,
+          "win_pct": 40.0
         }
       },
-      "win_pct": 29.4,
-      "roi_pct": 64.7
+      "win_pct": 20.7,
+      "roi_pct": -0.0
     }
   },
   "periods": {
     "all": {
       "bots": {
         "BloodlineBetty": {
-          "tips": 85,
-          "wins": 25,
+          "tips": 88,
+          "wins": 20,
           "places": 4,
-          "losses": 56,
-          "unknown": 30,
-          "stakes": 85.0,
-          "returns": 112.52,
-          "pnl": 27.52,
+          "losses": 64,
+          "unknown": 27,
+          "stakes": 88.0,
+          "returns": 72.12,
+          "pnl": -15.88,
           "avg_odds": 5.81,
           "style": {
-            "win": 70,
-            "ew": 15
+            "win": 75,
+            "ew": 13
           },
           "conf": {
             "low": {
-              "n": 15,
-              "wins": 2,
-              "win_pct": 13.3
+              "n": 18,
+              "wins": 3,
+              "win_pct": 16.7
             },
             "mid": {
               "n": 61,
-              "wins": 19,
-              "win_pct": 31.1
+              "wins": 13,
+              "win_pct": 21.3
             },
             "high": {
               "n": 9,
@@ -240,33 +240,33 @@
               "win_pct": 44.4
             }
           },
-          "win_pct": 29.4,
-          "roi_pct": 32.4
+          "win_pct": 22.7,
+          "roi_pct": -18.0
         },
         "DevilAdvocate": {
-          "tips": 85,
-          "wins": 19,
-          "places": 6,
-          "losses": 60,
-          "unknown": 30,
-          "stakes": 85.0,
-          "returns": 92.89,
-          "pnl": 7.89,
-          "avg_odds": 6.02,
+          "tips": 87,
+          "wins": 17,
+          "places": 5,
+          "losses": 65,
+          "unknown": 28,
+          "stakes": 87.0,
+          "returns": 76.97,
+          "pnl": -10.03,
+          "avg_odds": 6.0,
           "style": {
-            "win": 71,
-            "ew": 14
+            "win": 72,
+            "ew": 15
           },
           "conf": {
             "low": {
-              "n": 14,
+              "n": 17,
               "wins": 1,
-              "win_pct": 7.1
+              "win_pct": 5.9
             },
             "mid": {
-              "n": 65,
-              "wins": 15,
-              "win_pct": 23.1
+              "n": 64,
+              "wins": 13,
+              "win_pct": 20.3
             },
             "high": {
               "n": 6,
@@ -274,33 +274,33 @@
               "win_pct": 50.0
             }
           },
-          "win_pct": 22.4,
-          "roi_pct": 9.3
+          "win_pct": 19.5,
+          "roi_pct": -11.5
         },
         "FormFox": {
-          "tips": 85,
-          "wins": 21,
+          "tips": 87,
+          "wins": 20,
           "places": 4,
-          "losses": 60,
-          "unknown": 30,
-          "stakes": 85.0,
-          "returns": 88.86,
-          "pnl": 3.85,
-          "avg_odds": 5.48,
+          "losses": 63,
+          "unknown": 28,
+          "stakes": 87.0,
+          "returns": 84.3,
+          "pnl": -2.71,
+          "avg_odds": 5.85,
           "style": {
-            "win": 72,
+            "win": 74,
             "ew": 13
           },
           "conf": {
             "low": {
-              "n": 18,
-              "wins": 4,
-              "win_pct": 22.2
+              "n": 21,
+              "wins": 7,
+              "win_pct": 33.3
             },
             "mid": {
-              "n": 59,
-              "wins": 15,
-              "win_pct": 25.4
+              "n": 58,
+              "wins": 11,
+              "win_pct": 19.0
             },
             "high": {
               "n": 8,
@@ -308,33 +308,33 @@
               "win_pct": 25.0
             }
           },
-          "win_pct": 24.7,
-          "roi_pct": 4.5
+          "win_pct": 23.0,
+          "roi_pct": -3.1
         },
         "HotTrainer": {
-          "tips": 86,
-          "wins": 26,
-          "places": 4,
-          "losses": 56,
-          "unknown": 29,
-          "stakes": 86.0,
-          "returns": 112.43,
-          "pnl": 26.43,
-          "avg_odds": 5.2,
+          "tips": 87,
+          "wins": 20,
+          "places": 3,
+          "losses": 64,
+          "unknown": 28,
+          "stakes": 87.0,
+          "returns": 72.67,
+          "pnl": -14.34,
+          "avg_odds": 5.24,
           "style": {
-            "win": 73,
-            "ew": 13
+            "win": 78,
+            "ew": 9
           },
           "conf": {
             "low": {
-              "n": 18,
-              "wins": 6,
-              "win_pct": 33.3
+              "n": 20,
+              "wins": 4,
+              "win_pct": 20.0
             },
             "mid": {
-              "n": 59,
-              "wins": 16,
-              "win_pct": 27.1
+              "n": 58,
+              "wins": 12,
+              "win_pct": 20.7
             },
             "high": {
               "n": 9,
@@ -342,33 +342,33 @@
               "win_pct": 44.4
             }
           },
-          "win_pct": 30.2,
-          "roi_pct": 30.7
+          "win_pct": 23.0,
+          "roi_pct": -16.5
         },
         "PaceProphet": {
-          "tips": 85,
-          "wins": 19,
+          "tips": 87,
+          "wins": 17,
           "places": 5,
-          "losses": 61,
-          "unknown": 30,
-          "stakes": 85.0,
-          "returns": 75.48,
-          "pnl": -9.52,
-          "avg_odds": 5.74,
+          "losses": 65,
+          "unknown": 28,
+          "stakes": 87.0,
+          "returns": 62.46,
+          "pnl": -24.54,
+          "avg_odds": 5.76,
           "style": {
-            "win": 71,
+            "win": 73,
             "ew": 14
           },
           "conf": {
             "low": {
-              "n": 14,
-              "wins": 2,
-              "win_pct": 14.3
+              "n": 18,
+              "wins": 1,
+              "win_pct": 5.6
             },
             "mid": {
-              "n": 66,
-              "wins": 14,
-              "win_pct": 21.2
+              "n": 64,
+              "wins": 13,
+              "win_pct": 20.3
             },
             "high": {
               "n": 5,
@@ -376,22 +376,22 @@
               "win_pct": 60.0
             }
           },
-          "win_pct": 22.4,
-          "roi_pct": -11.2
+          "win_pct": 19.5,
+          "roi_pct": -28.2
         },
         "ValueHunter": {
-          "tips": 85,
-          "wins": 25,
-          "places": 6,
-          "losses": 54,
-          "unknown": 30,
-          "stakes": 85.0,
-          "returns": 140.0,
-          "pnl": 55.0,
-          "avg_odds": 6.74,
+          "tips": 87,
+          "wins": 18,
+          "places": 4,
+          "losses": 65,
+          "unknown": 28,
+          "stakes": 87.0,
+          "returns": 86.99,
+          "pnl": -0.01,
+          "avg_odds": 6.71,
           "style": {
-            "win": 65,
-            "ew": 20
+            "win": 70,
+            "ew": 17
           },
           "conf": {
             "low": {
@@ -400,49 +400,49 @@
               "win_pct": 10.0
             },
             "mid": {
-              "n": 57,
-              "wins": 15,
-              "win_pct": 26.3
+              "n": 62,
+              "wins": 11,
+              "win_pct": 17.7
             },
             "high": {
-              "n": 18,
-              "wins": 9,
-              "win_pct": 50.0
+              "n": 15,
+              "wins": 6,
+              "win_pct": 40.0
             }
           },
-          "win_pct": 29.4,
-          "roi_pct": 64.7
+          "win_pct": 20.7,
+          "roi_pct": -0.0
         }
       },
-      "best_roi": "ValueHunter",
-      "best_win": "HotTrainer"
+      "best_roi": "FormFox",
+      "best_win": "FormFox"
     },
     "week": {
       "bots": {
         "BloodlineBetty": {
-          "tips": 85,
-          "wins": 25,
+          "tips": 88,
+          "wins": 20,
           "places": 4,
-          "losses": 56,
-          "unknown": 30,
-          "stakes": 85.0,
-          "returns": 112.52,
-          "pnl": 27.52,
+          "losses": 64,
+          "unknown": 27,
+          "stakes": 88.0,
+          "returns": 72.12,
+          "pnl": -15.88,
           "avg_odds": 5.81,
           "style": {
-            "win": 70,
-            "ew": 15
+            "win": 75,
+            "ew": 13
           },
           "conf": {
             "low": {
-              "n": 15,
-              "wins": 2,
-              "win_pct": 13.3
+              "n": 18,
+              "wins": 3,
+              "win_pct": 16.7
             },
             "mid": {
               "n": 61,
-              "wins": 19,
-              "win_pct": 31.1
+              "wins": 13,
+              "win_pct": 21.3
             },
             "high": {
               "n": 9,
@@ -450,33 +450,33 @@
               "win_pct": 44.4
             }
           },
-          "win_pct": 29.4,
-          "roi_pct": 32.4
+          "win_pct": 22.7,
+          "roi_pct": -18.0
         },
         "DevilAdvocate": {
-          "tips": 85,
-          "wins": 19,
-          "places": 6,
-          "losses": 60,
-          "unknown": 30,
-          "stakes": 85.0,
-          "returns": 92.89,
-          "pnl": 7.89,
-          "avg_odds": 6.02,
+          "tips": 87,
+          "wins": 17,
+          "places": 5,
+          "losses": 65,
+          "unknown": 28,
+          "stakes": 87.0,
+          "returns": 76.97,
+          "pnl": -10.03,
+          "avg_odds": 6.0,
           "style": {
-            "win": 71,
-            "ew": 14
+            "win": 72,
+            "ew": 15
           },
           "conf": {
             "low": {
-              "n": 14,
+              "n": 17,
               "wins": 1,
-              "win_pct": 7.1
+              "win_pct": 5.9
             },
             "mid": {
-              "n": 65,
-              "wins": 15,
-              "win_pct": 23.1
+              "n": 64,
+              "wins": 13,
+              "win_pct": 20.3
             },
             "high": {
               "n": 6,
@@ -484,33 +484,33 @@
               "win_pct": 50.0
             }
           },
-          "win_pct": 22.4,
-          "roi_pct": 9.3
+          "win_pct": 19.5,
+          "roi_pct": -11.5
         },
         "FormFox": {
-          "tips": 85,
-          "wins": 21,
+          "tips": 87,
+          "wins": 20,
           "places": 4,
-          "losses": 60,
-          "unknown": 30,
-          "stakes": 85.0,
-          "returns": 88.86,
-          "pnl": 3.85,
-          "avg_odds": 5.48,
+          "losses": 63,
+          "unknown": 28,
+          "stakes": 87.0,
+          "returns": 84.3,
+          "pnl": -2.71,
+          "avg_odds": 5.85,
           "style": {
-            "win": 72,
+            "win": 74,
             "ew": 13
           },
           "conf": {
             "low": {
-              "n": 18,
-              "wins": 4,
-              "win_pct": 22.2
+              "n": 21,
+              "wins": 7,
+              "win_pct": 33.3
             },
             "mid": {
-              "n": 59,
-              "wins": 15,
-              "win_pct": 25.4
+              "n": 58,
+              "wins": 11,
+              "win_pct": 19.0
             },
             "high": {
               "n": 8,
@@ -518,33 +518,33 @@
               "win_pct": 25.0
             }
           },
-          "win_pct": 24.7,
-          "roi_pct": 4.5
+          "win_pct": 23.0,
+          "roi_pct": -3.1
         },
         "HotTrainer": {
-          "tips": 86,
-          "wins": 26,
-          "places": 4,
-          "losses": 56,
-          "unknown": 29,
-          "stakes": 86.0,
-          "returns": 112.43,
-          "pnl": 26.43,
-          "avg_odds": 5.2,
+          "tips": 87,
+          "wins": 20,
+          "places": 3,
+          "losses": 64,
+          "unknown": 28,
+          "stakes": 87.0,
+          "returns": 72.67,
+          "pnl": -14.34,
+          "avg_odds": 5.24,
           "style": {
-            "win": 73,
-            "ew": 13
+            "win": 78,
+            "ew": 9
           },
           "conf": {
             "low": {
-              "n": 18,
-              "wins": 6,
-              "win_pct": 33.3
+              "n": 20,
+              "wins": 4,
+              "win_pct": 20.0
             },
             "mid": {
-              "n": 59,
-              "wins": 16,
-              "win_pct": 27.1
+              "n": 58,
+              "wins": 12,
+              "win_pct": 20.7
             },
             "high": {
               "n": 9,
@@ -552,33 +552,33 @@
               "win_pct": 44.4
             }
           },
-          "win_pct": 30.2,
-          "roi_pct": 30.7
+          "win_pct": 23.0,
+          "roi_pct": -16.5
         },
         "PaceProphet": {
-          "tips": 85,
-          "wins": 19,
+          "tips": 87,
+          "wins": 17,
           "places": 5,
-          "losses": 61,
-          "unknown": 30,
-          "stakes": 85.0,
-          "returns": 75.48,
-          "pnl": -9.52,
-          "avg_odds": 5.74,
+          "losses": 65,
+          "unknown": 28,
+          "stakes": 87.0,
+          "returns": 62.46,
+          "pnl": -24.54,
+          "avg_odds": 5.76,
           "style": {
-            "win": 71,
+            "win": 73,
             "ew": 14
           },
           "conf": {
             "low": {
-              "n": 14,
-              "wins": 2,
-              "win_pct": 14.3
+              "n": 18,
+              "wins": 1,
+              "win_pct": 5.6
             },
             "mid": {
-              "n": 66,
-              "wins": 14,
-              "win_pct": 21.2
+              "n": 64,
+              "wins": 13,
+              "win_pct": 20.3
             },
             "high": {
               "n": 5,
@@ -586,22 +586,22 @@
               "win_pct": 60.0
             }
           },
-          "win_pct": 22.4,
-          "roi_pct": -11.2
+          "win_pct": 19.5,
+          "roi_pct": -28.2
         },
         "ValueHunter": {
-          "tips": 85,
-          "wins": 25,
-          "places": 6,
-          "losses": 54,
-          "unknown": 30,
-          "stakes": 85.0,
-          "returns": 140.0,
-          "pnl": 55.0,
-          "avg_odds": 6.74,
+          "tips": 87,
+          "wins": 18,
+          "places": 4,
+          "losses": 65,
+          "unknown": 28,
+          "stakes": 87.0,
+          "returns": 86.99,
+          "pnl": -0.01,
+          "avg_odds": 6.71,
           "style": {
-            "win": 65,
-            "ew": 20
+            "win": 70,
+            "ew": 17
           },
           "conf": {
             "low": {
@@ -610,49 +610,49 @@
               "win_pct": 10.0
             },
             "mid": {
-              "n": 57,
-              "wins": 15,
-              "win_pct": 26.3
+              "n": 62,
+              "wins": 11,
+              "win_pct": 17.7
             },
             "high": {
-              "n": 18,
-              "wins": 9,
-              "win_pct": 50.0
+              "n": 15,
+              "wins": 6,
+              "win_pct": 40.0
             }
           },
-          "win_pct": 29.4,
-          "roi_pct": 64.7
+          "win_pct": 20.7,
+          "roi_pct": -0.0
         }
       },
-      "best_roi": "ValueHunter",
-      "best_win": "HotTrainer"
+      "best_roi": "FormFox",
+      "best_win": "FormFox"
     },
     "month": {
       "bots": {
         "BloodlineBetty": {
-          "tips": 85,
-          "wins": 25,
+          "tips": 88,
+          "wins": 20,
           "places": 4,
-          "losses": 56,
-          "unknown": 30,
-          "stakes": 85.0,
-          "returns": 112.52,
-          "pnl": 27.52,
+          "losses": 64,
+          "unknown": 27,
+          "stakes": 88.0,
+          "returns": 72.12,
+          "pnl": -15.88,
           "avg_odds": 5.81,
           "style": {
-            "win": 70,
-            "ew": 15
+            "win": 75,
+            "ew": 13
           },
           "conf": {
             "low": {
-              "n": 15,
-              "wins": 2,
-              "win_pct": 13.3
+              "n": 18,
+              "wins": 3,
+              "win_pct": 16.7
             },
             "mid": {
               "n": 61,
-              "wins": 19,
-              "win_pct": 31.1
+              "wins": 13,
+              "win_pct": 21.3
             },
             "high": {
               "n": 9,
@@ -660,33 +660,33 @@
               "win_pct": 44.4
             }
           },
-          "win_pct": 29.4,
-          "roi_pct": 32.4
+          "win_pct": 22.7,
+          "roi_pct": -18.0
         },
         "DevilAdvocate": {
-          "tips": 85,
-          "wins": 19,
-          "places": 6,
-          "losses": 60,
-          "unknown": 30,
-          "stakes": 85.0,
-          "returns": 92.89,
-          "pnl": 7.89,
-          "avg_odds": 6.02,
+          "tips": 87,
+          "wins": 17,
+          "places": 5,
+          "losses": 65,
+          "unknown": 28,
+          "stakes": 87.0,
+          "returns": 76.97,
+          "pnl": -10.03,
+          "avg_odds": 6.0,
           "style": {
-            "win": 71,
-            "ew": 14
+            "win": 72,
+            "ew": 15
           },
           "conf": {
             "low": {
-              "n": 14,
+              "n": 17,
               "wins": 1,
-              "win_pct": 7.1
+              "win_pct": 5.9
             },
             "mid": {
-              "n": 65,
-              "wins": 15,
-              "win_pct": 23.1
+              "n": 64,
+              "wins": 13,
+              "win_pct": 20.3
             },
             "high": {
               "n": 6,
@@ -694,33 +694,33 @@
               "win_pct": 50.0
             }
           },
-          "win_pct": 22.4,
-          "roi_pct": 9.3
+          "win_pct": 19.5,
+          "roi_pct": -11.5
         },
         "FormFox": {
-          "tips": 85,
-          "wins": 21,
+          "tips": 87,
+          "wins": 20,
           "places": 4,
-          "losses": 60,
-          "unknown": 30,
-          "stakes": 85.0,
-          "returns": 88.86,
-          "pnl": 3.85,
-          "avg_odds": 5.48,
+          "losses": 63,
+          "unknown": 28,
+          "stakes": 87.0,
+          "returns": 84.3,
+          "pnl": -2.71,
+          "avg_odds": 5.85,
           "style": {
-            "win": 72,
+            "win": 74,
             "ew": 13
           },
           "conf": {
             "low": {
-              "n": 18,
-              "wins": 4,
-              "win_pct": 22.2
+              "n": 21,
+              "wins": 7,
+              "win_pct": 33.3
             },
             "mid": {
-              "n": 59,
-              "wins": 15,
-              "win_pct": 25.4
+              "n": 58,
+              "wins": 11,
+              "win_pct": 19.0
             },
             "high": {
               "n": 8,
@@ -728,33 +728,33 @@
               "win_pct": 25.0
             }
           },
-          "win_pct": 24.7,
-          "roi_pct": 4.5
+          "win_pct": 23.0,
+          "roi_pct": -3.1
         },
         "HotTrainer": {
-          "tips": 86,
-          "wins": 26,
-          "places": 4,
-          "losses": 56,
-          "unknown": 29,
-          "stakes": 86.0,
-          "returns": 112.43,
-          "pnl": 26.43,
-          "avg_odds": 5.2,
+          "tips": 87,
+          "wins": 20,
+          "places": 3,
+          "losses": 64,
+          "unknown": 28,
+          "stakes": 87.0,
+          "returns": 72.67,
+          "pnl": -14.34,
+          "avg_odds": 5.24,
           "style": {
-            "win": 73,
-            "ew": 13
+            "win": 78,
+            "ew": 9
           },
           "conf": {
             "low": {
-              "n": 18,
-              "wins": 6,
-              "win_pct": 33.3
+              "n": 20,
+              "wins": 4,
+              "win_pct": 20.0
             },
             "mid": {
-              "n": 59,
-              "wins": 16,
-              "win_pct": 27.1
+              "n": 58,
+              "wins": 12,
+              "win_pct": 20.7
             },
             "high": {
               "n": 9,
@@ -762,33 +762,33 @@
               "win_pct": 44.4
             }
           },
-          "win_pct": 30.2,
-          "roi_pct": 30.7
+          "win_pct": 23.0,
+          "roi_pct": -16.5
         },
         "PaceProphet": {
-          "tips": 85,
-          "wins": 19,
+          "tips": 87,
+          "wins": 17,
           "places": 5,
-          "losses": 61,
-          "unknown": 30,
-          "stakes": 85.0,
-          "returns": 75.48,
-          "pnl": -9.52,
-          "avg_odds": 5.74,
+          "losses": 65,
+          "unknown": 28,
+          "stakes": 87.0,
+          "returns": 62.46,
+          "pnl": -24.54,
+          "avg_odds": 5.76,
           "style": {
-            "win": 71,
+            "win": 73,
             "ew": 14
           },
           "conf": {
             "low": {
-              "n": 14,
-              "wins": 2,
-              "win_pct": 14.3
+              "n": 18,
+              "wins": 1,
+              "win_pct": 5.6
             },
             "mid": {
-              "n": 66,
-              "wins": 14,
-              "win_pct": 21.2
+              "n": 64,
+              "wins": 13,
+              "win_pct": 20.3
             },
             "high": {
               "n": 5,
@@ -796,22 +796,22 @@
               "win_pct": 60.0
             }
           },
-          "win_pct": 22.4,
-          "roi_pct": -11.2
+          "win_pct": 19.5,
+          "roi_pct": -28.2
         },
         "ValueHunter": {
-          "tips": 85,
-          "wins": 25,
-          "places": 6,
-          "losses": 54,
-          "unknown": 30,
-          "stakes": 85.0,
-          "returns": 140.0,
-          "pnl": 55.0,
-          "avg_odds": 6.74,
+          "tips": 87,
+          "wins": 18,
+          "places": 4,
+          "losses": 65,
+          "unknown": 28,
+          "stakes": 87.0,
+          "returns": 86.99,
+          "pnl": -0.01,
+          "avg_odds": 6.71,
           "style": {
-            "win": 65,
-            "ew": 20
+            "win": 70,
+            "ew": 17
           },
           "conf": {
             "low": {
@@ -820,49 +820,49 @@
               "win_pct": 10.0
             },
             "mid": {
-              "n": 57,
-              "wins": 15,
-              "win_pct": 26.3
+              "n": 62,
+              "wins": 11,
+              "win_pct": 17.7
             },
             "high": {
-              "n": 18,
-              "wins": 9,
-              "win_pct": 50.0
+              "n": 15,
+              "wins": 6,
+              "win_pct": 40.0
             }
           },
-          "win_pct": 29.4,
-          "roi_pct": 64.7
+          "win_pct": 20.7,
+          "roi_pct": -0.0
         }
       },
-      "best_roi": "ValueHunter",
-      "best_win": "HotTrainer"
+      "best_roi": "FormFox",
+      "best_win": "FormFox"
     },
     "year": {
       "bots": {
         "BloodlineBetty": {
-          "tips": 85,
-          "wins": 25,
+          "tips": 88,
+          "wins": 20,
           "places": 4,
-          "losses": 56,
-          "unknown": 30,
-          "stakes": 85.0,
-          "returns": 112.52,
-          "pnl": 27.52,
+          "losses": 64,
+          "unknown": 27,
+          "stakes": 88.0,
+          "returns": 72.12,
+          "pnl": -15.88,
           "avg_odds": 5.81,
           "style": {
-            "win": 70,
-            "ew": 15
+            "win": 75,
+            "ew": 13
           },
           "conf": {
             "low": {
-              "n": 15,
-              "wins": 2,
-              "win_pct": 13.3
+              "n": 18,
+              "wins": 3,
+              "win_pct": 16.7
             },
             "mid": {
               "n": 61,
-              "wins": 19,
-              "win_pct": 31.1
+              "wins": 13,
+              "win_pct": 21.3
             },
             "high": {
               "n": 9,
@@ -870,33 +870,33 @@
               "win_pct": 44.4
             }
           },
-          "win_pct": 29.4,
-          "roi_pct": 32.4
+          "win_pct": 22.7,
+          "roi_pct": -18.0
         },
         "DevilAdvocate": {
-          "tips": 85,
-          "wins": 19,
-          "places": 6,
-          "losses": 60,
-          "unknown": 30,
-          "stakes": 85.0,
-          "returns": 92.89,
-          "pnl": 7.89,
-          "avg_odds": 6.02,
+          "tips": 87,
+          "wins": 17,
+          "places": 5,
+          "losses": 65,
+          "unknown": 28,
+          "stakes": 87.0,
+          "returns": 76.97,
+          "pnl": -10.03,
+          "avg_odds": 6.0,
           "style": {
-            "win": 71,
-            "ew": 14
+            "win": 72,
+            "ew": 15
           },
           "conf": {
             "low": {
-              "n": 14,
+              "n": 17,
               "wins": 1,
-              "win_pct": 7.1
+              "win_pct": 5.9
             },
             "mid": {
-              "n": 65,
-              "wins": 15,
-              "win_pct": 23.1
+              "n": 64,
+              "wins": 13,
+              "win_pct": 20.3
             },
             "high": {
               "n": 6,
@@ -904,33 +904,33 @@
               "win_pct": 50.0
             }
           },
-          "win_pct": 22.4,
-          "roi_pct": 9.3
+          "win_pct": 19.5,
+          "roi_pct": -11.5
         },
         "FormFox": {
-          "tips": 85,
-          "wins": 21,
+          "tips": 87,
+          "wins": 20,
           "places": 4,
-          "losses": 60,
-          "unknown": 30,
-          "stakes": 85.0,
-          "returns": 88.86,
-          "pnl": 3.85,
-          "avg_odds": 5.48,
+          "losses": 63,
+          "unknown": 28,
+          "stakes": 87.0,
+          "returns": 84.3,
+          "pnl": -2.71,
+          "avg_odds": 5.85,
           "style": {
-            "win": 72,
+            "win": 74,
             "ew": 13
           },
           "conf": {
             "low": {
-              "n": 18,
-              "wins": 4,
-              "win_pct": 22.2
+              "n": 21,
+              "wins": 7,
+              "win_pct": 33.3
             },
             "mid": {
-              "n": 59,
-              "wins": 15,
-              "win_pct": 25.4
+              "n": 58,
+              "wins": 11,
+              "win_pct": 19.0
             },
             "high": {
               "n": 8,
@@ -938,33 +938,33 @@
               "win_pct": 25.0
             }
           },
-          "win_pct": 24.7,
-          "roi_pct": 4.5
+          "win_pct": 23.0,
+          "roi_pct": -3.1
         },
         "HotTrainer": {
-          "tips": 86,
-          "wins": 26,
-          "places": 4,
-          "losses": 56,
-          "unknown": 29,
-          "stakes": 86.0,
-          "returns": 112.43,
-          "pnl": 26.43,
-          "avg_odds": 5.2,
+          "tips": 87,
+          "wins": 20,
+          "places": 3,
+          "losses": 64,
+          "unknown": 28,
+          "stakes": 87.0,
+          "returns": 72.67,
+          "pnl": -14.34,
+          "avg_odds": 5.24,
           "style": {
-            "win": 73,
-            "ew": 13
+            "win": 78,
+            "ew": 9
           },
           "conf": {
             "low": {
-              "n": 18,
-              "wins": 6,
-              "win_pct": 33.3
+              "n": 20,
+              "wins": 4,
+              "win_pct": 20.0
             },
             "mid": {
-              "n": 59,
-              "wins": 16,
-              "win_pct": 27.1
+              "n": 58,
+              "wins": 12,
+              "win_pct": 20.7
             },
             "high": {
               "n": 9,
@@ -972,33 +972,33 @@
               "win_pct": 44.4
             }
           },
-          "win_pct": 30.2,
-          "roi_pct": 30.7
+          "win_pct": 23.0,
+          "roi_pct": -16.5
         },
         "PaceProphet": {
-          "tips": 85,
-          "wins": 19,
+          "tips": 87,
+          "wins": 17,
           "places": 5,
-          "losses": 61,
-          "unknown": 30,
-          "stakes": 85.0,
-          "returns": 75.48,
-          "pnl": -9.52,
-          "avg_odds": 5.74,
+          "losses": 65,
+          "unknown": 28,
+          "stakes": 87.0,
+          "returns": 62.46,
+          "pnl": -24.54,
+          "avg_odds": 5.76,
           "style": {
-            "win": 71,
+            "win": 73,
             "ew": 14
           },
           "conf": {
             "low": {
-              "n": 14,
-              "wins": 2,
-              "win_pct": 14.3
+              "n": 18,
+              "wins": 1,
+              "win_pct": 5.6
             },
             "mid": {
-              "n": 66,
-              "wins": 14,
-              "win_pct": 21.2
+              "n": 64,
+              "wins": 13,
+              "win_pct": 20.3
             },
             "high": {
               "n": 5,
@@ -1006,22 +1006,22 @@
               "win_pct": 60.0
             }
           },
-          "win_pct": 22.4,
-          "roi_pct": -11.2
+          "win_pct": 19.5,
+          "roi_pct": -28.2
         },
         "ValueHunter": {
-          "tips": 85,
-          "wins": 25,
-          "places": 6,
-          "losses": 54,
-          "unknown": 30,
-          "stakes": 85.0,
-          "returns": 140.0,
-          "pnl": 55.0,
-          "avg_odds": 6.74,
+          "tips": 87,
+          "wins": 18,
+          "places": 4,
+          "losses": 65,
+          "unknown": 28,
+          "stakes": 87.0,
+          "returns": 86.99,
+          "pnl": -0.01,
+          "avg_odds": 6.71,
           "style": {
-            "win": 65,
-            "ew": 20
+            "win": 70,
+            "ew": 17
           },
           "conf": {
             "low": {
@@ -1030,33 +1030,33 @@
               "win_pct": 10.0
             },
             "mid": {
-              "n": 57,
-              "wins": 15,
-              "win_pct": 26.3
+              "n": 62,
+              "wins": 11,
+              "win_pct": 17.7
             },
             "high": {
-              "n": 18,
-              "wins": 9,
-              "win_pct": 50.0
+              "n": 15,
+              "wins": 6,
+              "win_pct": 40.0
             }
           },
-          "win_pct": 29.4,
-          "roi_pct": 64.7
+          "win_pct": 20.7,
+          "roi_pct": -0.0
         }
       },
-      "best_roi": "ValueHunter",
-      "best_win": "HotTrainer"
+      "best_roi": "FormFox",
+      "best_win": "FormFox"
     }
   },
-  "best_roi": "ValueHunter",
-  "best_win": "HotTrainer",
+  "best_roi": "FormFox",
+  "best_win": "FormFox",
   "hot_pick": {
-    "n": 79,
-    "wins": 22,
+    "n": 77,
+    "wins": 18,
     "places": 5,
-    "stakes": 79.0,
-    "returns": 96.56,
-    "pnl": 17.56,
+    "stakes": 77.0,
+    "returns": 59.69,
+    "pnl": -17.31,
     "days": [
       {
         "date": "2026-11-22",
@@ -1072,13 +1072,13 @@
       },
       {
         "date": "2026-11-24",
-        "n": 19,
-        "wins": 8,
-        "pnl": 27.4
+        "n": 17,
+        "wins": 4,
+        "pnl": -7.47
       }
     ],
-    "win_pct": 27.8,
-    "roi_pct": 22.2
+    "win_pct": 23.4,
+    "roi_pct": -22.5
   },
   "history": [
     {
@@ -1098,9 +1098,9 @@
     {
       "date": "2026-11-24",
       "tips": 234,
-      "settled": 133,
-      "unknown": 101,
-      "pnl": 128.48
+      "settled": 145,
+      "unknown": 89,
+      "pnl": -50.2
     }
   ],
   "last_settled": "2026-11-24"

@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
   "source": "sportinglife",
-  "scraped_at": "2026-11-24T15:30:06.327608Z",
+  "scraped_at": "2026-11-24T16:16:53.983475Z",
   "meetings": [
     {
       "course": "Lingfield",
@@ -619,6 +619,100 @@
               "sp": 15.0
             }
           ]
+        },
+        {
+          "time": "15:38",
+          "name": "AWC Trials Day - Lingfield 2nd Jan 2027 Handicap",
+          "course": "Lingfield",
+          "distance": "1m 2f",
+          "going": "Standard",
+          "field_size": 14,
+          "runners": [
+            {
+              "name": "Far Far Out",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 3.25
+            },
+            {
+              "name": "Bennyworth",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 8.5
+            },
+            {
+              "name": "Venturing",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 19.0
+            },
+            {
+              "name": "Akrivos",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 15.0
+            },
+            {
+              "name": "Turton",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "Herstmonceux",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 4.5
+            },
+            {
+              "name": "Glamerous",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 126.0
+            },
+            {
+              "name": "A Daughters Love",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Meritocratic",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 6.5
+            },
+            {
+              "name": "Intsaar",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "Karmacy",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 67.0
+            },
+            {
+              "name": "Parole Board",
+              "position": 12,
+              "status": "RUNNER",
+              "sp": 26.0
+            },
+            {
+              "name": "Emerald Reine",
+              "position": 13,
+              "status": "RUNNER",
+              "sp": 81.0
+            },
+            {
+              "name": "Baggie Boy",
+              "position": 14,
+              "status": "RUNNER",
+              "sp": 51.0
+            }
+          ]
         }
       ]
     },
@@ -1191,51 +1285,51 @@
           "runners": [
             {
               "name": "Wild Goose",
-              "position": 0,
+              "position": 1,
               "status": "RUNNER",
               "sp": 2.75
             },
             {
-              "name": "Klitschko",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 10.0
-            },
-            {
-              "name": "Saligo Bay",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 19.0
-            },
-            {
-              "name": "Mister Cessna",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 23.0
-            },
-            {
-              "name": "He's A Latchico",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 29.0
-            },
-            {
               "name": "Manuelito",
-              "position": 0,
+              "position": 2,
               "status": "RUNNER",
               "sp": 3.0
             },
             {
+              "name": "Lawrenny",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 15.0
+            },
+            {
+              "name": "Mister Cessna",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
               "name": "The Cistercian",
-              "position": 0,
+              "position": 5,
               "status": "RUNNER",
               "sp": 5.5
             },
             {
-              "name": "Lawrenny",
-              "position": 0,
+              "name": "Klitschko",
+              "position": 6,
               "status": "RUNNER",
-              "sp": 15.0
+              "sp": 10.0
+            },
+            {
+              "name": "He's A Latchico",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "Saligo Bay",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 19.0
             }
           ]
         }
@@ -1859,6 +1953,94 @@
               "position": 0,
               "status": "RUNNER",
               "sp": 126.0
+            }
+          ]
+        },
+        {
+          "time": "15:50",
+          "name": "Irish Stallion Farms EBF Mares (Ladies Pro/Am) Flat Race",
+          "course": "Tramore",
+          "distance": "2m 50y",
+          "going": "Soft to Heavy",
+          "field_size": 13,
+          "runners": [
+            {
+              "name": "Lady Aurora",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 2.75
+            },
+            {
+              "name": "For My Lady",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 21.0
+            },
+            {
+              "name": "Shuil Solas",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 4.0
+            },
+            {
+              "name": "Lest Ye Forget",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 9.0
+            },
+            {
+              "name": "Dice In Her Eyes",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 34.0
+            },
+            {
+              "name": "Peace Rose",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 501.0
+            },
+            {
+              "name": "Found It",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 3.0
+            },
+            {
+              "name": "Miss Kobe",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "She's Trixy",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 101.0
+            },
+            {
+              "name": "Mozart's Song",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "Saint Herblaine",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 101.0
+            },
+            {
+              "name": "Back In Favour",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Allez Yeats",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 201.0
             }
           ]
         }
