@@ -1,10 +1,12 @@
-
 name: Daily Racecards & Tips Update
 
 on:
   schedule:
     - cron: "30 7 * * *"    # 07:30 UTC morning cards + tips
-    - cron: "15 21 * * *"   # 21:15 UTC results + history + settle
+    - cron: "0 10 * * *"    # 10:00 UTC quick refresh (cards/odds drift)
+    - cron: "0 16 * * *"    # 16:00 UTC mid-afternoon partial results settle
+    - cron: "15 21 * * *"   # 21:15 UTC full results + history + settle
+    - cron: "0 23 * * *"    # 23:00 UTC late re-settle (catch late results)
   workflow_dispatch:
     inputs:
       mode:
@@ -38,9 +40,10 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "mode=${{ github.event.inputs.mode }}" >> $GITHUB_OUTPUT
-          elif [ "${{ github.event.schedule }}" = "30 7 * * *" ]; then
+          elif [ "${{ github.event.schedule }}" = "30 7 * * *" ] || [ "${{ github.event.schedule }}" = "0 10 * * *" ]; then
             echo "mode=tips" >> $GITHUB_OUTPUT
           else
+            # 16:00 / 21:15 / 23:00 → results + settle (idempotent)
             echo "mode=results" >> $GITHUB_OUTPUT
           fi
           echo "UTC now: $(date -u)"
