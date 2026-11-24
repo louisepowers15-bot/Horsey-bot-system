@@ -1,8 +1,2550 @@
 {
   "date": "2026-11-24",
-  "meetings": [],
-  "races": [],
-  "generated_at": "2026-11-23T17:35:03.600511Z",
-  "published": false,
-  "note": "Cards for 2026-11-24 are not published yet on Sporting Life. The feed still returns the same race ids as 2026-11-23. No meetings stored \u2014 will fill in once the real card appears."
+  "meetings": [
+    "Lingfield",
+    "Southwell",
+    "Tramore",
+    "Wincanton",
+    "Wolverhampton"
+  ],
+  "races": [
+    {
+      "course": "Lingfield",
+      "time": "11:38",
+      "name": "Midnite Ain't Your Grandad's Bookie Handicap (Class 5)",
+      "going": "Standard",
+      "distance": "1m 7f 170y",
+      "surface": "AW",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Division Day",
+          "odds": 3.75,
+          "conf": 77,
+          "type": "win",
+          "reason": "What I like about Division Day is the direction of travel. The recent form is moving the right way, not the wrong way. Won last time; has 3 recent wins in the figures. Form on the card: 131541. Trip is 1m 7f 170y. That does not look an obvious mismatch. All-weather today. We cannot see from the form string alone whether past runs were on this surface, so do not over-claim. Trained by Mrs L Richards. Put together, there is a clean case for Division Day to be involved \u2014 and at 3.75 I would take it to win. It carries 9-13 today. It is down about 17lb on its last winning weight, which is a help. Official rating: 71.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Division Day",
+          "odds": 3.75,
+          "conf": 75,
+          "type": "win",
+          "reason": "I am against the crowd in this one and on Division Day. Division Day won last time and has 3 recent wins in the figures. Its figures read 131541. R Havlin is booked \u2014 that does not look like a no-hoper booking. Lingfield, 1m 7f 170y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 3.75. It carries 9-13 today. It is down about 17lb on its last winning weight, which is a help. Official rating: 71.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Division Day",
+          "odds": 3.75,
+          "conf": 80,
+          "type": "win",
+          "reason": "The form is the reason I am on Division Day \u2014 it won last time. Has 3 recent wins in the figures. The string on the card is 131541. The newer runs are better than the older ones, which is what you want to see. Distance today: 1m 7f 170y. That matches the sort of test these figures were earned over well enough. It is all-weather today. Remember the form figures alone do not say whether those past runs were on sand or turf \u2014 treat a pure number line with a little caution. I would back Division Day to win around 3.75. It carries 9-13 today. It is down about 17lb on its last winning weight, which is a help. Official rating: 71.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Division Day",
+          "odds": 3.75,
+          "conf": 73,
+          "type": "win",
+          "reason": "Trainer angle: Mrs L Richards's Division Day. R Havlin has a full book (5 rides). This is one of the mounts they bothered to keep. Form check: won last time; has 3 recent wins in the figures. It is Lingfield, 1m 7f 170y. Back Division Day \u2014 win around 3.75. It carries 9-13 today. It is down about 17lb on its last winning weight, which is a help. Official rating: 71.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Division Day",
+          "odds": 3.75,
+          "conf": 72,
+          "type": "win",
+          "reason": "With 8 runners the shape of the race still matters. Division Day looks suited to how this should be run. R Havlin has 5 rides on the card. Busy jockeys who keep a mount usually know how to place one. Form snapshot: won last time; has 3 recent wins in the figures. Lingfield over 1m 7f 170y. Early speed will decide who has fuel left. On the AW the tempo can change quickly; a horse that travels is gold. So the reason is practical, not mystical: race shape + booking + enough form. Win Division Day around 3.75. It carries 9-13 today. It is down about 17lb on its last winning weight, which is a help. Official rating: 71.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Division Day",
+          "odds": 3.75,
+          "conf": 76,
+          "type": "win",
+          "reason": "At about 3.75, Division Day is not a crazy price for what is on the card. What has it done? won last time; has 3 recent wins in the figures. Figures: 131541. AW race: form numbers do not spell out past surfaces, so leave a little room for error. I am happy enough winning at 3.75 if the race falls right. It carries 9-13 today. It is down about 17lb on its last winning weight, which is a help. Official rating: 71.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Lingfield",
+      "time": "12:08",
+      "name": "AWC Season 14 Has Begun Nursery (Class 6)",
+      "going": "Standard",
+      "distance": "1m 7f 170y",
+      "surface": "AW",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Lilywhite Hart",
+          "odds": 5.5,
+          "conf": 54,
+          "type": "win",
+          "reason": "Lilywhite Hart is not the flashiest name in the race, but the setup looks workable for another solid run. Finished third last time. Form on the card: 363655. Trip is 1m 7f 170y. That does not look an obvious mismatch. All-weather today. We cannot see from the form string alone whether past runs were on this surface, so do not over-claim. Trained by D K Ivory. Put together, there is a clean case for Lilywhite Hart to be involved \u2014 and at 5.50 I would take it to win. It carries 9-8 today. Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 1}. Official rating: 64.",
+          "stars": 1
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Lushill",
+          "odds": 6.5,
+          "conf": 54,
+          "type": "win",
+          "reason": "People will jump on Pride's Queen at about 4.00 because the name is obvious. Its form is 23508 \u2014 fine, not frightening. I would rather be on Lushill. Lushill finished third last time and has been top-three 3 times recently. Its figures read 364832. Edward Greatrex is booked \u2014 that does not look like a no-hoper booking. Lingfield, 1m 7f 170y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 6.50. It carries 9-3 today. Headgear on the card: {'symbol': 't', 'name': 'Tongue strap', 'count': 2}. Official rating: 59.",
+          "stars": 1
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Pride's Queen",
+          "odds": 4.0,
+          "conf": 54,
+          "type": "win",
+          "reason": "The form is the reason I am on Pride's Queen \u2014 it finished second last time. The string on the card is 23508. Today is 1m 7f 170y. It is all-weather today. Remember the form figures alone do not say whether those past runs were on sand or turf \u2014 treat a pure number line with a little caution. Big field (12) \u2014 form horses still need a clean trip. Win bet: Pride's Queen, about 4.00. It carries 9-1 today. Official rating: 57.",
+          "stars": 2
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Pride's Queen",
+          "odds": 4.0,
+          "conf": 54,
+          "type": "win",
+          "reason": "Trainer angle: M Botti's Pride's Queen. Marco Ghiani has a full book (8 rides). This is one of the mounts they bothered to keep. Form check: finished second last time. It is Lingfield, 1m 7f 170y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. I would rather be with this yard's runner at 4.00 than chase a random outsider. It carries 9-1 today. Official rating: 57.",
+          "stars": 2
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Beechwood Glory",
+          "odds": 7.5,
+          "conf": 55,
+          "type": "win",
+          "reason": "This is a big field (12). Ability is not enough if the horse is stuck on the inside or flat-footed when the pace lifts. Beechwood Glory is the type I want for that job on the form we have. R Havlin has 5 rides on the card. Busy jockeys who keep a mount usually know how to place one. Form snapshot: has been top-three 4 times recently. Lingfield over 1m 7f 170y. Early speed will decide who has fuel left. On the AW the tempo can change quickly; a horse that travels is gold. So the reason is practical, not mystical: race shape + booking + enough form. Win Beechwood Glory around 7.50. It carries 9-8 today. It is back very quickly (4 days since last run). Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 1}. Official rating: 64.",
+          "stars": 1
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Postremo",
+          "odds": 11.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "The number is the hook: 11-1 Postremo. That only interests me if the form is not a write-off. What has it done? finished third last time. Figures: 356. J S Moore has 3 today \u2014 not a total blind runner from a quiet yard. AW race: form numbers do not spell out past surfaces, so leave a little room for error. I am happy enough winning at 11.00 if the race falls right. It carries 9-8 today. It has had 101 days off, which is a break rather than a quick turnaround. Official rating: 64.",
+          "stars": 1
+        }
+      ]
+    },
+    {
+      "course": "Lingfield",
+      "time": "12:38",
+      "name": "AWC Finals Day At Newcastle 26th March EBF Maiden Stakes (GBB Race) (Class 4)",
+      "going": "Standard",
+      "distance": "1m 7f 170y",
+      "surface": "AW",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Gilded Outlaw",
+          "odds": 9.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Gilded Outlaw is not the flashiest name in the race, but the setup looks workable for another solid run. Trip is 1m 7f 170y. That does not look an obvious mismatch. All-weather today. We cannot see from the form string alone whether past runs were on this surface, so do not over-claim. Trained by G Boughey. Put together, there is a clean case for Gilded Outlaw to be involved \u2014 and at 9.00 I would take it to win. It carries 9-7 today.",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Yellow Mission",
+          "odds": 11.0,
+          "conf": 53,
+          "type": "win",
+          "reason": "Stepney Blue is short enough at about 3.50 without a big form line on the card. That bothers me. I would rather be on Yellow Mission. Edward Greatrex is booked \u2014 that does not look like a no-hoper booking. Lingfield, 1m 7f 170y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 11.00. It carries 9-7 today.",
+          "stars": 1
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Gilded Outlaw",
+          "odds": 9.0,
+          "conf": 52,
+          "type": "win",
+          "reason": "Form is thin on the page for Gilded Outlaw, so this is not a deep form bet \u2014 more a case of least risk in a murky race. Today is 1m 7f 170y. It is all-weather today. Remember the form figures alone do not say whether those past runs were on sand or turf \u2014 treat a pure number line with a little caution. Win bet: Gilded Outlaw, about 9.00. It carries 9-7 today.",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Gilded Outlaw",
+          "odds": 9.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Trainer angle: G Boughey's Gilded Outlaw. Jack Callan is on more than one for the same yard today. That is a deliberate booking, not a spare ride. It is Lingfield, 1m 7f 170y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. I would rather be with this yard's runner at 9.00 than chase a random outsider. It carries 9-7 today.",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Rhythm Runner",
+          "odds": 7.5,
+          "conf": 55,
+          "type": "win",
+          "reason": "With 11 runners the shape of the race still matters. Rhythm Runner looks suited to how this should be run. Marco Ghiani has 8 rides on the card. Busy jockeys who keep a mount usually know how to place one. Lingfield over 1m 7f 170y. Early speed will decide who has fuel left. On the AW the tempo can change quickly; a horse that travels is gold. So the reason is practical, not mystical: race shape + booking + enough form. Win Rhythm Runner around 7.50. It carries 9-2 today.",
+          "stars": 1
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Gilded Outlaw",
+          "odds": 9.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Gilded Outlaw is drifting around 9.00 while others are shorter. I am not convinced those shorter prices are earned. Form on the page is light, so this is a price-led idea rather than a form napkin job. G Boughey has 3 today \u2014 not a total blind runner from a quiet yard. AW race: form numbers do not spell out past surfaces, so leave a little room for error. I am happy enough winning at 9.00 if the race falls right. It carries 9-7 today.",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Lingfield",
+      "time": "13:08",
+      "name": "All-Weather Championship Is Back Nursery (Class 6)",
+      "going": "Standard",
+      "distance": "1m 7f 170y",
+      "surface": "AW",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Past Passion",
+          "odds": 6.0,
+          "conf": 55,
+          "type": "win",
+          "reason": "Past Passion is not the flashiest name in the race, but the setup looks workable for another solid run. Form on the card: 643402. Trip is 1m 7f 170y. That does not look an obvious mismatch. All-weather today. We cannot see from the form string alone whether past runs were on this surface, so do not over-claim. Trained by J G Portman. Put together, there is a clean case for Past Passion to be involved \u2014 and at 6.00 I would take it to win. It carries 9-8 today. Official rating: 61.",
+          "stars": 2
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Last Dandelion",
+          "odds": 5.5,
+          "conf": 57,
+          "type": "win",
+          "reason": "People will jump on Defiant Dream at about 3.50 because the name is obvious. Its form is 244056 \u2014 fine, not frightening. I would rather be on Last Dandelion. Last Dandelion has been top-three 3 times recently. Its figures read 441023. Jack Dace is booked \u2014 that does not look like a no-hoper booking. Lingfield, 1m 7f 170y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 5.50. It carries 9-9 today. That is about 5lb more than when it last won \u2014 a real rise in the weights over this longer trip. Official rating: 62.",
+          "stars": 3
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Last Dandelion",
+          "odds": 5.5,
+          "conf": 54,
+          "type": "win",
+          "reason": "Last Dandelion gets in on the figures. It has been top-three 3 times recently. The string on the card is 441023. Today is 1m 7f 170y. It is all-weather today. Remember the form figures alone do not say whether those past runs were on sand or turf \u2014 treat a pure number line with a little caution. Win bet: Last Dandelion, about 5.50. It carries 9-9 today. That is about 5lb more than when it last won \u2014 a real rise in the weights over this longer trip. Official rating: 62.",
+          "stars": 3
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "C'est Lui",
+          "odds": 5.0,
+          "conf": 53,
+          "type": "win",
+          "reason": "Dylan Cunha has turned up with 4 runners today. When a yard saturates a meeting like that, I pay attention \u2014 and C'est Lui is the one I want from them in this race. S M Levey has a full book (5 rides). This is one of the mounts they bothered to keep. Form check: finished third last time. It is Lingfield, 1m 7f 170y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. I would rather be with this yard's runner at 5.00 than chase a random outsider. It carries 9-2 today. Official rating: 55.",
+          "stars": 1
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Past Passion",
+          "odds": 6.0,
+          "conf": 54,
+          "type": "win",
+          "reason": "With 10 runners the shape of the race still matters. Past Passion looks suited to how this should be run. Olivia Tubb is a good booking if you care about where the horse sits in the run. Lingfield over 1m 7f 170y. Early speed will decide who has fuel left. On the AW the tempo can change quickly; a horse that travels is gold. So the reason is practical, not mystical: race shape + booking + enough form. Win Past Passion around 6.00. It carries 9-8 today. Official rating: 61.",
+          "stars": 2
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Last Dandelion",
+          "odds": 5.5,
+          "conf": 55,
+          "type": "win",
+          "reason": "At about 5.50, Last Dandelion is not a crazy price for what is on the card. What has it done? has been top-three 3 times recently. Figures: 441023. AW race: form numbers do not spell out past surfaces, so leave a little room for error. I am happy enough winning at 5.50 if the race falls right. It carries 9-9 today. That is about 5lb more than when it last won \u2014 a real rise in the weights over this longer trip. Official rating: 62.",
+          "stars": 3
+        }
+      ]
+    },
+    {
+      "course": "Lingfield",
+      "time": "13:38",
+      "name": "Midnite It's Actually Pretty Good Maiden Stakes (GBB/GBBPlus Race) (Class 3)",
+      "going": "Standard",
+      "distance": "1m 7f 170y",
+      "surface": "AW",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Trustintimes",
+          "odds": 8.5,
+          "conf": 66,
+          "type": "ew",
+          "reason": "Trustintimes has already shown it can win. The question is whether today's setup lets it do it again. Won last time; has 3 recent wins in the figures. Form on the card: 140211. Trip is 1m 7f 170y. That does not look an obvious mismatch. All-weather today. We cannot see from the form string alone whether past runs were on this surface, so do not over-claim. Trained by H Fry. Put together, there is a clean case for Trustintimes to be involved \u2014 and at 8.50 I would play each-way. It carries 9-12 today. It is down about 17lb on its last winning weight, which is a help. Recent runs on the card look more turf-based than all-weather, so treat AW form as unproven from those lines.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Trustintimes",
+          "odds": 8.5,
+          "conf": 70,
+          "type": "ew",
+          "reason": "People will jump on Liam Mera Kai at about 3.25 because the name is obvious. Its form is 52353 \u2014 fine, not frightening. I would rather be on Trustintimes. Trustintimes won last time and has 3 recent wins in the figures. Its figures read 140211. Charles Bishop is booked \u2014 that does not look like a no-hoper booking. Lingfield, 1m 7f 170y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Each-way at about 8.50. It carries 9-12 today. It is down about 17lb on its last winning weight, which is a help. Recent runs on the card look more turf-based than all-weather, so treat AW form as unproven from those lines.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Trustintimes",
+          "odds": 8.5,
+          "conf": 73,
+          "type": "ew",
+          "reason": "Trustintimes gets in on the figures. It won last time. Has 3 recent wins in the figures. The string on the card is 140211. Distance today: 1m 7f 170y. That matches the sort of test these figures were earned over well enough. It is all-weather today. Remember the form figures alone do not say whether those past runs were on sand or turf \u2014 treat a pure number line with a little caution. Each-way at about 8.50 is the sensible way to use the form case. It carries 9-12 today. It is down about 17lb on its last winning weight, which is a help. Recent runs on the card look more turf-based than all-weather, so treat AW form as unproven from those lines.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Trustintimes",
+          "odds": 8.5,
+          "conf": 66,
+          "type": "ew",
+          "reason": "Trustintimes is the H Fry horse I am interested in. Charles Bishop has a full book (7 rides). This is one of the mounts they bothered to keep. Form check: won last time; has 3 recent wins in the figures. It is Lingfield, 1m 7f 170y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. Back Trustintimes \u2014 win around 8.50. Each-way if you prefer. It carries 9-12 today. It is down about 17lb on its last winning weight, which is a help. Recent runs on the card look more turf-based than all-weather, so treat AW form as unproven from those lines.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Trustintimes",
+          "odds": 8.5,
+          "conf": 64,
+          "type": "ew",
+          "reason": "With 9 runners the shape of the race still matters. Trustintimes looks suited to how this should be run. Charles Bishop has 7 rides on the card. Busy jockeys who keep a mount usually know how to place one. Form snapshot: won last time; has 3 recent wins in the figures. Lingfield over 1m 7f 170y. Early speed will decide who has fuel left. On the AW the tempo can change quickly; a horse that travels is gold. So the reason is practical, not mystical: race shape + booking + enough form. Each-way Trustintimes around 8.50. It carries 9-12 today. It is down about 17lb on its last winning weight, which is a help. Recent runs on the card look more turf-based than all-weather, so treat AW form as unproven from those lines.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Trustintimes",
+          "odds": 8.5,
+          "conf": 72,
+          "type": "ew",
+          "reason": "Trustintimes is drifting around 8.50 while others are shorter. I am not convinced those shorter prices are earned. What has it done? won last time; has 3 recent wins in the figures. Figures: 140211. H Fry has 3 today \u2014 not a total blind runner from a quiet yard. AW race: form numbers do not spell out past surfaces, so leave a little room for error. Take it each-way at 8.50 and let the place part do some work. It carries 9-12 today. It is down about 17lb on its last winning weight, which is a help. Recent runs on the card look more turf-based than all-weather, so treat AW form as unproven from those lines.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Lingfield",
+      "time": "14:08",
+      "name": "ARC 1M Bonus Handicap (Class 6)",
+      "going": "Standard",
+      "distance": "1m 7f 170y",
+      "surface": "AW",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Spirit Of Breeze",
+          "odds": 11.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Spirit Of Breeze is not the flashiest name in the race, but the setup looks workable for another solid run. Was out of the first three last time; has been top-three 3 times recently. Form on the card: 002339. Trip is 1m 7f 170y. That does not look an obvious mismatch. All-weather today. We cannot see from the form string alone whether past runs were on this surface, so do not over-claim. Trained by Jamie & Josh Moore. Put together, there is a clean case for Spirit Of Breeze to be involved \u2014 and at 11.00 I would take it to win. It carries 9-6 today. Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 8}, {'symbol': 't', 'name': 'Tongue strap', 'count': 17}. Official rating: 63.",
+          "stars": 3
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Way To Dubai",
+          "odds": 8.5,
+          "conf": 54,
+          "type": "win",
+          "reason": "People will jump on Valentine Boy at about 4.33 because the name is obvious. Its form is 435648 \u2014 fine, not frightening. I would rather be on Way To Dubai. Jason Watson is booked \u2014 that does not look like a no-hoper booking. Lingfield, 1m 7f 170y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 8.50. It carries 9-4 today. It is back very quickly (3 days since last run). Official rating: 61.",
+          "stars": 2
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Spirit Of Breeze",
+          "odds": 11.0,
+          "conf": 55,
+          "type": "win",
+          "reason": "The form is the reason I am on Spirit Of Breeze \u2014 it was out of the first three last time. Has been top-three 3 times recently. The string on the card is 002339. Distance today: 1m 7f 170y. That matches the sort of test these figures were earned over well enough. It is all-weather today. Remember the form figures alone do not say whether those past runs were on sand or turf \u2014 treat a pure number line with a little caution. Big field (12) \u2014 form horses still need a clean trip. I would back Spirit Of Breeze to win around 11.00. It carries 9-6 today. Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 8}, {'symbol': 't', 'name': 'Tongue strap', 'count': 17}. Official rating: 63.",
+          "stars": 3
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Spirit Of Breeze",
+          "odds": 11.0,
+          "conf": 55,
+          "type": "win",
+          "reason": "Jamie & Josh Moore has turned up with 4 runners today. When a yard saturates a meeting like that, I pay attention \u2014 and Spirit Of Breeze is the one I want from them in this race. D Egan has a full book (8 rides). This is one of the mounts they bothered to keep. Form check: was out of the first three last time; has been top-three 3 times recently. It is Lingfield, 1m 7f 170y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. Back Spirit Of Breeze \u2014 win around 11.00. It carries 9-6 today. Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 8}, {'symbol': 't', 'name': 'Tongue strap', 'count': 17}. Official rating: 63.",
+          "stars": 3
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Way To Dubai",
+          "odds": 8.5,
+          "conf": 55,
+          "type": "win",
+          "reason": "This is a big field (12). Ability is not enough if the horse is stuck on the inside or flat-footed when the pace lifts. Way To Dubai is the type I want for that job on the form we have. Jason Watson has 6 rides on the card. Busy jockeys who keep a mount usually know how to place one. Lingfield over 1m 7f 170y. Early speed will decide who has fuel left. On the AW the tempo can change quickly; a horse that travels is gold. So the reason is practical, not mystical: race shape + booking + enough form. Win Way To Dubai around 8.50. It carries 9-4 today. It is back very quickly (3 days since last run). Official rating: 61.",
+          "stars": 2
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Sant Alessio",
+          "odds": 11.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "The number is the hook: 11-1 Sant Alessio. That only interests me if the form is not a write-off. Form on the page is light, so this is a price-led idea rather than a form napkin job. J Tickle has 3 today \u2014 not a total blind runner from a quiet yard. AW race: form numbers do not spell out past surfaces, so leave a little room for error. I am happy enough winning at 11.00 if the race falls right. It carries 9-6 today. It is back very quickly (4 days since last run). Official rating: 63.",
+          "stars": 1
+        }
+      ]
+    },
+    {
+      "course": "Lingfield",
+      "time": "14:38",
+      "name": "ARC All Weather Bonus Is Back Handicap (Div 1) (Class 6)",
+      "going": "Standard",
+      "distance": "1m 7f 170y",
+      "surface": "AW",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Twitch",
+          "odds": 4.5,
+          "conf": 68,
+          "type": "win",
+          "reason": "What I like about Twitch is the direction of travel. The recent form is moving the right way, not the wrong way. Won last time; has 2 recent wins in the figures. Form on the card: 161246. Trip is 1m 7f 170y. That does not look an obvious mismatch. All-weather today. We cannot see from the form string alone whether past runs were on this surface, so do not over-claim. Trained by Craig Benton. Put together, there is a clean case for Twitch to be involved \u2014 and at 4.50 I would take it to win. It carries 9-5 today. It is up about 3lb on its last winning weight, which asks a bit more of it. Headgear on the card: {'symbol': 'b', 'name': 'Blinkers', 'count': 26}. Official rating: 56.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Twitch",
+          "odds": 4.5,
+          "conf": 66,
+          "type": "win",
+          "reason": "I am against the crowd in this one and on Twitch. Twitch won last time and has 2 recent wins in the figures. Its figures read 161246. Georgia Dobie is booked \u2014 that does not look like a no-hoper booking. Lingfield, 1m 7f 170y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 4.50. It carries 9-5 today. It is up about 3lb on its last winning weight, which asks a bit more of it. Headgear on the card: {'symbol': 'b', 'name': 'Blinkers', 'count': 26}. Official rating: 56.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Twitch",
+          "odds": 4.5,
+          "conf": 68,
+          "type": "win",
+          "reason": "Start with the form: Twitch won last time. Has 2 recent wins in the figures. The string on the card is 161246. The newer runs are better than the older ones, which is what you want to see. Today is 1m 7f 170y. It is all-weather today. Remember the form figures alone do not say whether those past runs were on sand or turf \u2014 treat a pure number line with a little caution. Big field (14) \u2014 form horses still need a clean trip. Win bet: Twitch, about 4.50. It carries 9-5 today. It is up about 3lb on its last winning weight, which asks a bit more of it. Headgear on the card: {'symbol': 'b', 'name': 'Blinkers', 'count': 26}. Official rating: 56.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Twitch",
+          "odds": 4.5,
+          "conf": 65,
+          "type": "win",
+          "reason": "I am siding with the stable: Twitch for Craig Benton. Georgia Dobie rides. Form check: won last time; has 2 recent wins in the figures. It is Lingfield, 1m 7f 170y. I would rather be with this yard's runner at 4.50 than chase a random outsider. It carries 9-5 today. It is up about 3lb on its last winning weight, which asks a bit more of it. Headgear on the card: {'symbol': 'b', 'name': 'Blinkers', 'count': 26}. Official rating: 56.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Twitch",
+          "odds": 4.5,
+          "conf": 69,
+          "type": "win",
+          "reason": "This is a big field (14). Ability is not enough if the horse is stuck on the inside or flat-footed when the pace lifts. Twitch is the type I want for that job on the form we have. Georgia Dobie is a good booking if you care about where the horse sits in the run. Form snapshot: won last time; has 2 recent wins in the figures. Lingfield over 1m 7f 170y. Early speed will decide who has fuel left. On the AW the tempo can change quickly; a horse that travels is gold. So the reason is practical, not mystical: race shape + booking + enough form. Win Twitch around 4.50. It carries 9-5 today. It is up about 3lb on its last winning weight, which asks a bit more of it. Headgear on the card: {'symbol': 'b', 'name': 'Blinkers', 'count': 26}. Official rating: 56.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Twitch",
+          "odds": 4.5,
+          "conf": 70,
+          "type": "win",
+          "reason": "At about 4.50, Twitch is not a crazy price for what is on the card. What has it done? won last time; has 2 recent wins in the figures. Figures: 161246. AW race: form numbers do not spell out past surfaces, so leave a little room for error. I am happy enough winning at 4.50 if the race falls right. It carries 9-5 today. It is up about 3lb on its last winning weight, which asks a bit more of it. Headgear on the card: {'symbol': 'b', 'name': 'Blinkers', 'count': 26}. Official rating: 56.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Lingfield",
+      "time": "15:08",
+      "name": "ARC All Weather Bonus Is Back Handicap (Div 2) (Class 6)",
+      "going": "Standard",
+      "distance": "1m 7f 170y",
+      "surface": "AW",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Rovinia",
+          "odds": 7.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "Rovinia is not the flashiest name in the race, but the setup looks workable for another solid run. Finished second last time; has been top-three 5 times recently. Form on the card: 235312. Trip is 1m 7f 170y. That does not look an obvious mismatch. All-weather today. We cannot see from the form string alone whether past runs were on this surface, so do not over-claim. Trained by R A Teal. Put together, there is a clean case for Rovinia to be involved \u2014 and at 7.00 I would take it to win. It carries 9-1 today. It is down about 8lb on its last winning weight, which is a help. Official rating: 51.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Rovinia",
+          "odds": 7.0,
+          "conf": 64,
+          "type": "win",
+          "reason": "People will jump on Orange Emperor at about 3.75 because the name is obvious. Its form is 353256 \u2014 fine, not frightening. I would rather be on Rovinia. Rovinia finished second last time and has been top-three 5 times recently. Its figures read 235312. Marco Ghiani is booked \u2014 that does not look like a no-hoper booking. Lingfield, 1m 7f 170y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 7.00. It carries 9-1 today. It is down about 8lb on its last winning weight, which is a help. Official rating: 51.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Rovinia",
+          "odds": 7.0,
+          "conf": 67,
+          "type": "win",
+          "reason": "Rovinia gets in on the figures. It finished second last time. Has been top-three 5 times recently. The string on the card is 235312. Today is 1m 7f 170y. It is all-weather today. Remember the form figures alone do not say whether those past runs were on sand or turf \u2014 treat a pure number line with a little caution. Big field (13) \u2014 form horses still need a clean trip. Win bet: Rovinia, about 7.00. It carries 9-1 today. It is down about 8lb on its last winning weight, which is a help. Official rating: 51.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Rovinia",
+          "odds": 7.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Rovinia is the R A Teal horse I am interested in. Marco Ghiani has a full book (8 rides). This is one of the mounts they bothered to keep. Form check: finished second last time; has been top-three 5 times recently. It is Lingfield, 1m 7f 170y. I would rather be with this yard's runner at 7.00 than chase a random outsider. It carries 9-1 today. It is down about 8lb on its last winning weight, which is a help. Official rating: 51.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Rovinia",
+          "odds": 7.0,
+          "conf": 63,
+          "type": "win",
+          "reason": "This is a big field (13). Ability is not enough if the horse is stuck on the inside or flat-footed when the pace lifts. Rovinia is the type I want for that job on the form we have. Marco Ghiani has 8 rides on the card. Busy jockeys who keep a mount usually know how to place one. Form snapshot: finished second last time; has been top-three 5 times recently. Lingfield over 1m 7f 170y. Early speed will decide who has fuel left. On the AW the tempo can change quickly; a horse that travels is gold. So the reason is practical, not mystical: race shape + booking + enough form. Win Rovinia around 7.00. It carries 9-1 today. It is down about 8lb on its last winning weight, which is a help. Official rating: 51.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Rovinia",
+          "odds": 7.0,
+          "conf": 67,
+          "type": "win",
+          "reason": "Rovinia is drifting around 7.00 while others are shorter. I am not convinced those shorter prices are earned. What has it done? finished second last time; has been top-three 5 times recently. Figures: 235312. R A Teal has 2 today \u2014 not a total blind runner from a quiet yard. AW race: form numbers do not spell out past surfaces, so leave a little room for error. I am happy enough winning at 7.00 if the race falls right. It carries 9-1 today. It is down about 8lb on its last winning weight, which is a help. Official rating: 51.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Lingfield",
+      "time": "15:38",
+      "name": "AWC Trials Day - Lingfield 2nd Jan 2027 Handicap (Class 6)",
+      "going": "Standard",
+      "distance": "1m 7f 170y",
+      "surface": "AW",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Far Far Out",
+          "odds": 3.25,
+          "conf": 56,
+          "type": "win",
+          "reason": "What I like about Far Far Out is the direction of travel. The recent form is moving the right way, not the wrong way. Won last time; has a win in the recent figures. Form on the card: 124008. Trip is 1m 7f 170y. That does not look an obvious mismatch. All-weather today. We cannot see from the form string alone whether past runs were on this surface, so do not over-claim. Trained by A W Carroll. Put together, there is a clean case for Far Far Out to be involved \u2014 and at 3.25 I would take it to win. It carries 9-9 today. That is about 6lb more than when it last won \u2014 a real rise in the weights over this longer trip. Official rating: 55.",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Turton",
+          "odds": 9.0,
+          "conf": 53,
+          "type": "win",
+          "reason": "People will jump on Far Far Out at about 3.25 because the name is obvious. Its form is 124008 \u2014 fine, not frightening. I would rather be on Turton. Harry Davies is booked \u2014 that does not look like a no-hoper booking. Lingfield, 1m 7f 170y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 9.00. It carries 9-0 today. Headgear on the card: {'symbol': 't', 'name': 'Tongue strap', 'count': 2}. Official rating: 45.",
+          "stars": 2
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Far Far Out",
+          "odds": 3.25,
+          "conf": 51,
+          "type": "win",
+          "reason": "The form is the reason I am on Far Far Out \u2014 it won last time. Has a win in the recent figures. The string on the card is 124008. The newer runs are better than the older ones, which is what you want to see. Distance today: 1m 7f 170y. That matches the sort of test these figures were earned over well enough. It is all-weather today. Remember the form figures alone do not say whether those past runs were on sand or turf \u2014 treat a pure number line with a little caution. Big field (14) \u2014 form horses still need a clean trip. I would back Far Far Out to win around 3.25. It carries 9-9 today. That is about 6lb more than when it last won \u2014 a real rise in the weights over this longer trip. Official rating: 55.",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Far Far Out",
+          "odds": 3.25,
+          "conf": 53,
+          "type": "win",
+          "reason": "A W Carroll has turned up with 6 runners today. When a yard saturates a meeting like that, I pay attention \u2014 and Far Far Out is the one I want from them in this race. William Carson rides. Form check: won last time; has a win in the recent figures. It is Lingfield, 1m 7f 170y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. Back Far Far Out \u2014 win around 3.25. It carries 9-9 today. That is about 6lb more than when it last won \u2014 a real rise in the weights over this longer trip. Official rating: 55.",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Far Far Out",
+          "odds": 3.25,
+          "conf": 54,
+          "type": "win",
+          "reason": "This is a big field (14). Ability is not enough if the horse is stuck on the inside or flat-footed when the pace lifts. Far Far Out is the type I want for that job on the form we have. William Carson is a good booking if you care about where the horse sits in the run. Form snapshot: won last time; has a win in the recent figures. Lingfield over 1m 7f 170y. Early speed will decide who has fuel left. On the AW the tempo can change quickly; a horse that travels is gold. So the reason is practical, not mystical: race shape + booking + enough form. Win Far Far Out around 3.25. It carries 9-9 today. That is about 6lb more than when it last won \u2014 a real rise in the weights over this longer trip. Official rating: 55.",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Turton",
+          "odds": 9.0,
+          "conf": 55,
+          "type": "win",
+          "reason": "Turton is drifting around 9.00 while others are shorter. I am not convinced those shorter prices are earned. Form on the page is light, so this is a price-led idea rather than a form napkin job. A W Carroll has 6 today \u2014 not a total blind runner from a quiet yard. AW race: form numbers do not spell out past surfaces, so leave a little room for error. I am happy enough winning at 9.00 if the race falls right. It carries 9-0 today. Headgear on the card: {'symbol': 't', 'name': 'Tongue strap', 'count': 2}. Official rating: 45.",
+          "stars": 2
+        }
+      ]
+    },
+    {
+      "course": "Southwell",
+      "time": "11:56",
+      "name": "Join The Southwell Racecourse Corporate Club Handicap Chase (Class 5)",
+      "going": "Good-good to soft in places",
+      "distance": "2m 4f 88y",
+      "surface": "turf",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Rap Soul",
+          "odds": 7.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "What I like about Rap Soul is the direction of travel. The recent form is moving the right way, not the wrong way. Finished third last time; has 2 recent wins in the figures. Form on the card: 31107. Trip is 2m 4f 88y. That does not look an obvious mismatch. Ground: Good-good to soft in places. Usable on the information we have. Trained by R Bandey. Put together, there is a clean case for Rap Soul to be involved \u2014 and at 7.00 I would take it to win. It carries 12-0 today. Official rating: 98.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Rap Soul",
+          "odds": 7.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "People will jump on Henry Box Brown at about 5.00 because the name is obvious. Its form is 36166 \u2014 fine, not frightening. I would rather be on Rap Soul. Rap Soul finished third last time and has 2 recent wins in the figures. Its figures read 31107. J M Quinlan is booked \u2014 that does not look like a no-hoper booking. Southwell, 2m 4f 88y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 7.00. It carries 12-0 today. Official rating: 98.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Rap Soul",
+          "odds": 7.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Rap Soul gets in on the figures. It finished third last time. Has 2 recent wins in the figures. The string on the card is 31107. The newer runs are better than the older ones, which is what you want to see. Today is 2m 4f 88y. Ground is Good-good to soft in places. Nothing in the card says that is a hard stop. Win bet: Rap Soul, about 7.00. It carries 12-0 today. Official rating: 98.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Rap Soul",
+          "odds": 7.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Rap Soul is the R Bandey horse I am interested in. J M Quinlan rides. Form check: finished third last time; has 2 recent wins in the figures. It is Southwell, 2m 4f 88y. I would rather be with this yard's runner at 7.00 than chase a random outsider. It carries 12-0 today. Official rating: 98.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Rap Soul",
+          "odds": 7.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "With 10 runners the shape of the race still matters. Rap Soul looks suited to how this should be run. J M Quinlan has 3 rides on the card. Busy jockeys who keep a mount usually know how to place one. Form snapshot: finished third last time; has 2 recent wins in the figures. Southwell over 2m 4f 88y. Early speed will decide who has fuel left. So the reason is practical, not mystical: race shape + booking + enough form. Win Rap Soul around 7.00. It carries 12-0 today. Official rating: 98.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Rap Soul",
+          "odds": 7.0,
+          "conf": 63,
+          "type": "win",
+          "reason": "At about 7.00, Rap Soul is not a crazy price for what is on the card. What has it done? finished third last time; has 2 recent wins in the figures. Figures: 31107. I am happy enough winning at 7.00 if the race falls right. It carries 12-0 today. Official rating: 98.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Southwell",
+      "time": "12:26",
+      "name": "Dance Through The Decades Christmas Parties Novices' Handicap Chase (Class 5)",
+      "going": "Good-good to soft in places",
+      "distance": "2m 4f 88y",
+      "surface": "turf",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Could Be You",
+          "odds": 5.0,
+          "conf": 64,
+          "type": "win",
+          "reason": "Could Be You has already shown it can win. The question is whether today's setup lets it do it again. Won last time; has a win in the recent figures. Form on the card: 1589. Trip is 2m 4f 88y. That does not look an obvious mismatch. Ground: Good-good to soft in places. Usable on the information we have. Trained by N P Mulholland. Put together, there is a clean case for Could Be You to be involved \u2014 and at 5.00 I would take it to win. It carries 10-9 today. It is down about 9lb on its last winning weight, which is a help. Official rating: 81.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Could Be You",
+          "odds": 5.0,
+          "conf": 63,
+          "type": "win",
+          "reason": "People will jump on Sledgehammer at about 2.75 because the name is obvious. Its form is 11466 \u2014 fine, not frightening. I would rather be on Could Be You. Could Be You won last time and has a win in the recent figures. Its figures read 1589. R P McLernon is booked \u2014 that does not look like a no-hoper booking. Southwell, 2m 4f 88y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 5.00. It carries 10-9 today. It is down about 9lb on its last winning weight, which is a help. Official rating: 81.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Could Be You",
+          "odds": 5.0,
+          "conf": 66,
+          "type": "win",
+          "reason": "The form is the reason I am on Could Be You \u2014 it won last time. Has a win in the recent figures. The string on the card is 1589. Distance today: 2m 4f 88y. That matches the sort of test these figures were earned over well enough. Ground is Good-good to soft in places. Nothing in the card says that is a hard stop. I would back Could Be You to win around 5.00. It carries 10-9 today. It is down about 9lb on its last winning weight, which is a help. Official rating: 81.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Could Be You",
+          "odds": 5.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "N P Mulholland has turned up with 5 runners today. When a yard saturates a meeting like that, I pay attention \u2014 and Could Be You is the one I want from them in this race. R P McLernon rides. Form check: won last time; has a win in the recent figures. It is Southwell, 2m 4f 88y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. Back Could Be You \u2014 win around 5.00. It carries 10-9 today. It is down about 9lb on its last winning weight, which is a help. Official rating: 81.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Could Be You",
+          "odds": 5.0,
+          "conf": 62,
+          "type": "win",
+          "reason": "With 9 runners the shape of the race still matters. Could Be You looks suited to how this should be run. R P McLernon is a good booking if you care about where the horse sits in the run. Form snapshot: won last time; has a win in the recent figures. Southwell over 2m 4f 88y. Early speed will decide who has fuel left. So the reason is practical, not mystical: race shape + booking + enough form. Win Could Be You around 5.00. It carries 10-9 today. It is down about 9lb on its last winning weight, which is a help. Official rating: 81.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Could Be You",
+          "odds": 5.0,
+          "conf": 62,
+          "type": "win",
+          "reason": "At about 5.00, Could Be You is not a crazy price for what is on the card. What has it done? won last time; has a win in the recent figures. Figures: 1589. N P Mulholland has 5 today \u2014 not a total blind runner from a quiet yard. I am happy enough winning at 5.00 if the race falls right. It carries 10-9 today. It is down about 9lb on its last winning weight, which is a help. Official rating: 81.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Southwell",
+      "time": "12:56",
+      "name": "Winter Ladies Night Saturday 28th November Maiden Hurdle (GBB Race) (Div 1) (Class 4)",
+      "going": "Good-good to soft in places",
+      "distance": "2m 4f 88y",
+      "surface": "turf",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Popton Point",
+          "odds": 5.0,
+          "conf": 65,
+          "type": "win",
+          "reason": "What I like about Popton Point is the direction of travel. The recent form is moving the right way, not the wrong way. Finished second last time; has 2 recent wins in the figures. Form on the card: 211. Trip is 2m 4f 88y. That does not look an obvious mismatch. Ground: Good-good to soft in places. Usable on the information we have. Trained by J Candlish. Put together, there is a clean case for Popton Point to be involved \u2014 and at 5.00 I would take it to win. It carries 10-11 today. It is down about 12lb on its last winning weight, which is a help. It has been off for about 262 days \u2014 a long absence, so fitness is a question.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Popton Point",
+          "odds": 5.0,
+          "conf": 64,
+          "type": "win",
+          "reason": "Uda Man Dan is short enough at about 3.25 without a big form line on the card. That bothers me. I would rather be on Popton Point. Popton Point finished second last time and has 2 recent wins in the figures. Its figures read 211. Luke Scott is booked \u2014 that does not look like a no-hoper booking. Southwell, 2m 4f 88y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 5.00. It carries 10-11 today. It is down about 12lb on its last winning weight, which is a help. It has been off for about 262 days \u2014 a long absence, so fitness is a question.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Popton Point",
+          "odds": 5.0,
+          "conf": 68,
+          "type": "win",
+          "reason": "Start with the form: Popton Point finished second last time. Has 2 recent wins in the figures. The string on the card is 211. The newer runs are better than the older ones, which is what you want to see. Today is 2m 4f 88y. Ground is Good-good to soft in places. Nothing in the card says that is a hard stop. Big field (12) \u2014 form horses still need a clean trip. Win bet: Popton Point, about 5.00. It carries 10-11 today. It is down about 12lb on its last winning weight, which is a help. It has been off for about 262 days \u2014 a long absence, so fitness is a question.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Popton Point",
+          "odds": 5.0,
+          "conf": 65,
+          "type": "win",
+          "reason": "J Candlish has turned up with 11 runners today. When a yard saturates a meeting like that, I pay attention \u2014 and Popton Point is the one I want from them in this race. Luke Scott rides. Form check: finished second last time; has 2 recent wins in the figures. It is Southwell, 2m 4f 88y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. I would rather be with this yard's runner at 5.00 than chase a random outsider. It carries 10-11 today. It is down about 12lb on its last winning weight, which is a help. It has been off for about 262 days \u2014 a long absence, so fitness is a question.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Popton Point",
+          "odds": 5.0,
+          "conf": 65,
+          "type": "win",
+          "reason": "This is a big field (12). Ability is not enough if the horse is stuck on the inside or flat-footed when the pace lifts. Popton Point is the type I want for that job on the form we have. Luke Scott is a good booking if you care about where the horse sits in the run. Form snapshot: finished second last time; has 2 recent wins in the figures. Southwell over 2m 4f 88y. Early speed will decide who has fuel left. So the reason is practical, not mystical: race shape + booking + enough form. Win Popton Point around 5.00. It carries 10-11 today. It is down about 12lb on its last winning weight, which is a help. It has been off for about 262 days \u2014 a long absence, so fitness is a question.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Popton Point",
+          "odds": 5.0,
+          "conf": 65,
+          "type": "win",
+          "reason": "At about 5.00, Popton Point is not a crazy price for what is on the card. What has it done? finished second last time; has 2 recent wins in the figures. Figures: 211. J Candlish has 11 today \u2014 not a total blind runner from a quiet yard. I am happy enough winning at 5.00 if the race falls right. It carries 10-11 today. It is down about 12lb on its last winning weight, which is a help. It has been off for about 262 days \u2014 a long absence, so fitness is a question.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Southwell",
+      "time": "13:26",
+      "name": "Winter Ladies Night Saturday 28th November Maiden Hurdle (GBB Race) (Div 2) (Class 4)",
+      "going": "Good-good to soft in places",
+      "distance": "2m 4f 88y",
+      "surface": "turf",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Goodbye Earl",
+          "odds": 5.5,
+          "conf": 51,
+          "type": "win",
+          "reason": "Goodbye Earl is not the flashiest name in the race, but the setup looks workable for another solid run. Finished third last time. Form on the card: 3. Trip is 2m 4f 88y. That does not look an obvious mismatch. Ground: Good-good to soft in places. Usable on the information we have. Trained by D Pipe. Put together, there is a clean case for Goodbye Earl to be involved \u2014 and at 5.50 I would take it to win. It carries 11-4 today.",
+          "stars": 5
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Campfield Flyer",
+          "odds": 6.0,
+          "conf": 50,
+          "type": "win",
+          "reason": "People will jump on Made In Reugny at about 1.67 because the name is obvious. Its form is 2 \u2014 fine, not frightening. I would rather be on Campfield Flyer. Campfield Flyer finished second last time. Its figures read 26. Luke Scott is booked \u2014 that does not look like a no-hoper booking. Southwell, 2m 4f 88y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 6.00. It carries 11-4 today. It has been off for about 275 days \u2014 a long absence, so fitness is a question.",
+          "stars": 1
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Goodbye Earl",
+          "odds": 5.5,
+          "conf": 51,
+          "type": "win",
+          "reason": "Goodbye Earl gets in on the figures. It finished third last time. The string on the card is 3. Today is 2m 4f 88y. Ground is Good-good to soft in places. Nothing in the card says that is a hard stop. Big field (12) \u2014 form horses still need a clean trip. Win bet: Goodbye Earl, about 5.50. It carries 11-4 today.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Goodbye Earl",
+          "odds": 5.5,
+          "conf": 51,
+          "type": "win",
+          "reason": "D Pipe has turned up with 6 runners today. When a yard saturates a meeting like that, I pay attention \u2014 and Goodbye Earl is the one I want from them in this race. Rian Corcoran rides. Form check: finished third last time. It is Southwell, 2m 4f 88y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. I would rather be with this yard's runner at 5.50 than chase a random outsider. It carries 11-4 today.",
+          "stars": 5
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Goodbye Earl",
+          "odds": 5.5,
+          "conf": 54,
+          "type": "win",
+          "reason": "This is a big field (12). Ability is not enough if the horse is stuck on the inside or flat-footed when the pace lifts. Goodbye Earl is the type I want for that job on the form we have. Rian Corcoran is a good booking if you care about where the horse sits in the run. Form snapshot: finished third last time. Southwell over 2m 4f 88y. Early speed will decide who has fuel left. So the reason is practical, not mystical: race shape + booking + enough form. Win Goodbye Earl around 5.50. It carries 11-4 today.",
+          "stars": 5
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Goodbye Earl",
+          "odds": 5.5,
+          "conf": 54,
+          "type": "win",
+          "reason": "At about 5.50, Goodbye Earl is not a crazy price for what is on the card. What has it done? finished third last time. Figures: 3. D Pipe has 6 today \u2014 not a total blind runner from a quiet yard. I am happy enough winning at 5.50 if the race falls right. It carries 11-4 today.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "course": "Southwell",
+      "time": "13:56",
+      "name": "Festive Fixtures At Southwell Racecourse Novices' Limited Handicap Hurdle (Class 5)",
+      "going": "Good-good to soft in places",
+      "distance": "2m 4f 88y",
+      "surface": "turf",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Dino Bellagio",
+          "odds": 7.0,
+          "conf": 54,
+          "type": "win",
+          "reason": "Dino Bellagio is not the flashiest name in the race, but the setup looks workable for another solid run. Finished third last time. Form on the card: 377453. Trip is 2m 4f 88y. That does not look an obvious mismatch. Ground: Good-good to soft in places. Usable on the information we have. Trained by D McCain Jnr. Put together, there is a clean case for Dino Bellagio to be involved \u2014 and at 7.00 I would take it to win. It carries 11-7 today. Official rating: 90.",
+          "stars": 2
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Gaelic Glow",
+          "odds": 9.0,
+          "conf": 55,
+          "type": "win",
+          "reason": "People will jump on Nobody Told Me at about 4.33 because the name is obvious. Its form is 345576 \u2014 fine, not frightening. I would rather be on Gaelic Glow. Jonathan England is booked \u2014 that does not look like a no-hoper booking. Southwell, 2m 4f 88y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 9.00. It carries 11-12 today. Official rating: 95.",
+          "stars": 2
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Dino Bellagio",
+          "odds": 7.0,
+          "conf": 52,
+          "type": "win",
+          "reason": "Start with the form: Dino Bellagio finished third last time. The string on the card is 377453. Distance today: 2m 4f 88y. That matches the sort of test these figures were earned over well enough. Ground is Good-good to soft in places. Nothing in the card says that is a hard stop. Big field (14) \u2014 form horses still need a clean trip. I would back Dino Bellagio to win around 7.00. It carries 11-7 today. Official rating: 90.",
+          "stars": 2
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Tenadaay",
+          "odds": 11.0,
+          "conf": 53,
+          "type": "win",
+          "reason": "F O'Brien has turned up with 6 runners today. When a yard saturates a meeting like that, I pay attention \u2014 and Tenadaay is the one I want from them in this race. Kielan Woods is on more than one for the same yard today. That is a deliberate booking, not a spare ride. Form check: has been top-three 3 times recently. It is Southwell, 2m 4f 88y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. I would rather be with this yard's runner at 11.00 than chase a random outsider. It carries 11-3 today. That is about 24lb more than when it last won \u2014 a real rise in the weights over this longer trip. Official rating: 86.",
+          "stars": 1
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Gaelic Glow",
+          "odds": 9.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "This is a big field (14). Ability is not enough if the horse is stuck on the inside or flat-footed when the pace lifts. Gaelic Glow is the type I want for that job on the form we have. Jonathan England has 5 rides on the card. Busy jockeys who keep a mount usually know how to place one. Southwell over 2m 4f 88y. Early speed will decide who has fuel left. So the reason is practical, not mystical: race shape + booking + enough form. Win Gaelic Glow around 9.00. It carries 11-12 today. Official rating: 95.",
+          "stars": 2
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Milady Du Breuil",
+          "odds": 11.0,
+          "conf": 55,
+          "type": "win",
+          "reason": "The number is the hook: 11-1 Milady Du Breuil. That only interests me if the form is not a write-off. Form on the page is light, so this is a price-led idea rather than a form napkin job. Christian Williams has 3 today \u2014 not a total blind runner from a quiet yard. I am happy enough winning at 11.00 if the race falls right. It carries 11-7 today. It has been off for about 226 days \u2014 a long absence, so fitness is a question. Official rating: 90.",
+          "stars": 1
+        }
+      ]
+    },
+    {
+      "course": "Southwell",
+      "time": "14:26",
+      "name": "Christmas Jumper Day Sunday 13th December Handicap Hurdle (Class 4)",
+      "going": "Good-good to soft in places",
+      "distance": "2m 4f 88y",
+      "surface": "turf",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Magical Arthur",
+          "odds": 6.0,
+          "conf": 67,
+          "type": "win",
+          "reason": "Magical Arthur has already shown it can win. The question is whether today's setup lets it do it again. Won last time; has 3 recent wins in the figures. Form on the card: 10211. Trip is 2m 4f 88y. That does not look an obvious mismatch. Ground: Good-good to soft in places. Usable on the information we have. Trained by J Candlish. Put together, there is a clean case for Magical Arthur to be involved \u2014 and at 6.00 I would take it to win. It carries 12-0 today. It has been off for about 528 days \u2014 a long absence, so fitness is a question. Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 5}, {'symbol': 't', 'name': 'Tongue strap', 'count': 17}. Official rating: 110.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Magical Arthur",
+          "odds": 6.0,
+          "conf": 69,
+          "type": "win",
+          "reason": "I am against the crowd in this one and on Magical Arthur. Magical Arthur won last time and has 3 recent wins in the figures. Its figures read 10211. Sean Quinlan is booked \u2014 that does not look like a no-hoper booking. Southwell, 2m 4f 88y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 6.00. It carries 12-0 today. It has been off for about 528 days \u2014 a long absence, so fitness is a question. Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 5}, {'symbol': 't', 'name': 'Tongue strap', 'count': 17}. Official rating: 110.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Magical Arthur",
+          "odds": 6.0,
+          "conf": 68,
+          "type": "win",
+          "reason": "The form is the reason I am on Magical Arthur \u2014 it won last time. Has 3 recent wins in the figures. The string on the card is 10211. Today is 2m 4f 88y. Ground is Good-good to soft in places. Nothing in the card says that is a hard stop. Big field (15) \u2014 form horses still need a clean trip. Win bet: Magical Arthur, about 6.00. It carries 12-0 today. It has been off for about 528 days \u2014 a long absence, so fitness is a question. Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 5}, {'symbol': 't', 'name': 'Tongue strap', 'count': 17}. Official rating: 110.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Magical Arthur",
+          "odds": 6.0,
+          "conf": 73,
+          "type": "win",
+          "reason": "J Candlish has turned up with 11 runners today. When a yard saturates a meeting like that, I pay attention \u2014 and Magical Arthur is the one I want from them in this race. Sean Quinlan is on more than one for the same yard today. That is a deliberate booking, not a spare ride. Form check: won last time; has 3 recent wins in the figures. It is Southwell, 2m 4f 88y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. I would rather be with this yard's runner at 6.00 than chase a random outsider. It carries 12-0 today. It has been off for about 528 days \u2014 a long absence, so fitness is a question. Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 5}, {'symbol': 't', 'name': 'Tongue strap', 'count': 17}. Official rating: 110.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Magical Arthur",
+          "odds": 6.0,
+          "conf": 70,
+          "type": "win",
+          "reason": "This is a big field (15). Ability is not enough if the horse is stuck on the inside or flat-footed when the pace lifts. Magical Arthur is the type I want for that job on the form we have. Sean Quinlan has 4 rides on the card. Busy jockeys who keep a mount usually know how to place one. Form snapshot: won last time; has 3 recent wins in the figures. Southwell over 2m 4f 88y. Early speed will decide who has fuel left. So the reason is practical, not mystical: race shape + booking + enough form. Win Magical Arthur around 6.00. It carries 12-0 today. It has been off for about 528 days \u2014 a long absence, so fitness is a question. Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 5}, {'symbol': 't', 'name': 'Tongue strap', 'count': 17}. Official rating: 110.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Magical Arthur",
+          "odds": 6.0,
+          "conf": 72,
+          "type": "win",
+          "reason": "At about 6.00, Magical Arthur is not a crazy price for what is on the card. What has it done? won last time; has 3 recent wins in the figures. Figures: 10211. J Candlish has 11 today \u2014 not a total blind runner from a quiet yard. I am happy enough winning at 6.00 if the race falls right. It carries 12-0 today. It has been off for about 528 days \u2014 a long absence, so fitness is a question. Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 5}, {'symbol': 't', 'name': 'Tongue strap', 'count': 17}. Official rating: 110.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Southwell",
+      "time": "14:56",
+      "name": "Book The Bistro In Seasons Restaurant Handicap Hurdle (Class 5)",
+      "going": "Good-good to soft in places",
+      "distance": "2m 4f 88y",
+      "surface": "turf",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Harrys Hope",
+          "odds": 7.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Harrys Hope is not the flashiest name in the race, but the setup looks workable for another solid run. Finished third last time; has been top-three 3 times recently. Form on the card: 342420. Trip is 2m 4f 88y. That does not look an obvious mismatch. Ground: Good-good to soft in places. Usable on the information we have. Trained by M Crawley. Put together, there is a clean case for Harrys Hope to be involved \u2014 and at 7.00 I would take it to win. It carries 11-13 today. Official rating: 99.",
+          "stars": 3
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Elusive Shine",
+          "odds": 9.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "People will jump on Gimarias at about 3.75 because the name is obvious. Its form is 23575 \u2014 fine, not frightening. I would rather be on Elusive Shine. Elusive Shine finished third last time. Its figures read 3359. Jonathan England is booked \u2014 that does not look like a no-hoper booking. Southwell, 2m 4f 88y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 9.00. It carries 10-12 today. It has been off for about 698 days \u2014 a long absence, so fitness is a question. Headgear on the card: {'symbol': 't', 'name': 'Tongue strap', 'count': 1}. Official rating: 84.",
+          "stars": 1
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Twp Stori",
+          "odds": 8.0,
+          "conf": 55,
+          "type": "win",
+          "reason": "The form is the reason I am on Twp Stori \u2014 it finished second last time. Has been top-three 3 times recently. The string on the card is 23365. The newer runs are better than the older ones, which is what you want to see. Distance today: 2m 4f 88y. That matches the sort of test these figures were earned over well enough. Ground is Good-good to soft in places. Nothing in the card says that is a hard stop. I would back Twp Stori to win around 8.00. It carries 10-9 today. It has had 145 days off, which is a break rather than a quick turnaround. Official rating: 81.",
+          "stars": 1
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Innisfree Lass",
+          "odds": 8.0,
+          "conf": 55,
+          "type": "win",
+          "reason": "I am siding with the stable: Innisfree Lass for Joey Ramsden. Harry Atkins rides. Form check: has a win in the recent figures. It is Southwell, 2m 4f 88y. I would rather be with this yard's runner at 8.00 than chase a random outsider. It carries 11-10 today. It has had 151 days off, which is a break rather than a quick turnaround. Headgear on the card: {'symbol': 't', 'name': 'Tongue strap', 'count': 2}. Official rating: 96.",
+          "stars": 1
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Harrys Hope",
+          "odds": 7.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "With 9 runners the shape of the race still matters. Harrys Hope looks suited to how this should be run. J M Quinlan has 3 rides on the card. Busy jockeys who keep a mount usually know how to place one. Form snapshot: finished third last time; has been top-three 3 times recently. Southwell over 2m 4f 88y. Early speed will decide who has fuel left. So the reason is practical, not mystical: race shape + booking + enough form. Win Harrys Hope around 7.00. It carries 11-13 today. Official rating: 99.",
+          "stars": 3
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Harrys Hope",
+          "odds": 7.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "At about 7.00, Harrys Hope is not a crazy price for what is on the card. What has it done? finished third last time; has been top-three 3 times recently. Figures: 342420. I am happy enough winning at 7.00 if the race falls right. It carries 11-13 today. Official rating: 99.",
+          "stars": 3
+        }
+      ]
+    },
+    {
+      "course": "Southwell",
+      "time": "15:26",
+      "name": "Conferences And Events At Southwell Racecourse Handicap Hurdle (Class 3)",
+      "going": "Good-good to soft in places",
+      "distance": "2m 4f 88y",
+      "surface": "turf",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Wild Goose",
+          "odds": 3.75,
+          "conf": 65,
+          "type": "win",
+          "reason": "Wild Goose has already shown it can win. The question is whether today's setup lets it do it again. Has 2 recent wins in the figures. Form on the card: 415124. Trip is 2m 4f 88y. That does not look an obvious mismatch. Ground: Good-good to soft in places. Usable on the information we have. Trained by K Bailey & M Nicholls. Put together, there is a clean case for Wild Goose to be involved \u2014 and at 3.75 I would take it to win. It carries 11-10 today. It is down about 4lb on its last winning weight, which is a help. Headgear on the card: {'symbol': 't', 'name': 'Tongue strap', 'count': 8}. Official rating: 124.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Wild Goose",
+          "odds": 3.75,
+          "conf": 67,
+          "type": "win",
+          "reason": "I am against the crowd in this one and on Wild Goose. Wild Goose has 2 recent wins in the figures. Its figures read 415124. Aamilah Aswat is booked \u2014 that does not look like a no-hoper booking. Southwell, 2m 4f 88y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 3.75. It carries 11-10 today. It is down about 4lb on its last winning weight, which is a help. Headgear on the card: {'symbol': 't', 'name': 'Tongue strap', 'count': 8}. Official rating: 124.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Wild Goose",
+          "odds": 3.75,
+          "conf": 69,
+          "type": "win",
+          "reason": "Wild Goose gets in on the figures. It has 2 recent wins in the figures. The string on the card is 415124. Today is 2m 4f 88y. Ground is Good-good to soft in places. Nothing in the card says that is a hard stop. Win bet: Wild Goose, about 3.75. It carries 11-10 today. It is down about 4lb on its last winning weight, which is a help. Headgear on the card: {'symbol': 't', 'name': 'Tongue strap', 'count': 8}. Official rating: 124.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Wild Goose",
+          "odds": 3.75,
+          "conf": 64,
+          "type": "win",
+          "reason": "Wild Goose is the K Bailey & M Nicholls horse I am interested in. Aamilah Aswat rides. Form check: has 2 recent wins in the figures. It is Southwell, 2m 4f 88y. I would rather be with this yard's runner at 3.75 than chase a random outsider. It carries 11-10 today. It is down about 4lb on its last winning weight, which is a help. Headgear on the card: {'symbol': 't', 'name': 'Tongue strap', 'count': 8}. Official rating: 124.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Wild Goose",
+          "odds": 3.75,
+          "conf": 65,
+          "type": "win",
+          "reason": "With 8 runners the shape of the race still matters. Wild Goose looks suited to how this should be run. Aamilah Aswat is a good booking if you care about where the horse sits in the run. Form snapshot: has 2 recent wins in the figures. Southwell over 2m 4f 88y. Early speed will decide who has fuel left. So the reason is practical, not mystical: race shape + booking + enough form. Win Wild Goose around 3.75. It carries 11-10 today. It is down about 4lb on its last winning weight, which is a help. Headgear on the card: {'symbol': 't', 'name': 'Tongue strap', 'count': 8}. Official rating: 124.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Wild Goose",
+          "odds": 3.75,
+          "conf": 69,
+          "type": "win",
+          "reason": "At about 3.75, Wild Goose is not a crazy price for what is on the card. What has it done? has 2 recent wins in the figures. Figures: 415124. I am happy enough winning at 3.75 if the race falls right. It carries 11-10 today. It is down about 4lb on its last winning weight, which is a help. Headgear on the card: {'symbol': 't', 'name': 'Tongue strap', 'count': 8}. Official rating: 124.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Wolverhampton",
+      "time": "16:30",
+      "name": "Midnite It's Actually Pretty Good Apprentice Handicap (Class 6)",
+      "going": "Standard",
+      "distance": "6f 20y",
+      "surface": "AW",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Forever Glamorous",
+          "odds": 11.0,
+          "conf": 58,
+          "type": "ew",
+          "reason": "Forever Glamorous is not the flashiest name in the race, but the setup looks workable for another solid run. Has been top-three 4 times recently. Form on the card: 531532. Trip is 6f 20y. That does not look an obvious mismatch. All-weather today. We cannot see from the form string alone whether past runs were on this surface, so do not over-claim. Trained by C Mason. Put together, there is a clean case for Forever Glamorous to be involved \u2014 and at 11.00 I would play each-way. It carries 9-5 today. It gets a small weight drop compared with its last win (2lb). Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 4}. Official rating: 56. Recent runs on the card look more turf-based than all-weather, so treat AW form as unproven from those lines.",
+          "stars": 5
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Forever Glamorous",
+          "odds": 11.0,
+          "conf": 62,
+          "type": "ew",
+          "reason": "People will jump on Mehmar at about 4.33 because the name is obvious. Its form is 204758 \u2014 fine, not frightening. I would rather be on Forever Glamorous. Forever Glamorous has been top-three 4 times recently. Its figures read 531532. Alexandra Egan is booked \u2014 that does not look like a no-hoper booking. Wolverhampton, 6f 20y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Each-way at about 11.00. It carries 9-5 today. It gets a small weight drop compared with its last win (2lb). Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 4}. Official rating: 56. Recent runs on the card look more turf-based than all-weather, so treat AW form as unproven from those lines.",
+          "stars": 5
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Forever Glamorous",
+          "odds": 11.0,
+          "conf": 61,
+          "type": "ew",
+          "reason": "Start with the form: Forever Glamorous has been top-three 4 times recently. The string on the card is 531532. Today is 6f 20y. It is all-weather today. Remember the form figures alone do not say whether those past runs were on sand or turf \u2014 treat a pure number line with a little caution. Big field (13) \u2014 form horses still need a clean trip. Each-way at about 11.00 is the sensible way to use the form case. It carries 9-5 today. It gets a small weight drop compared with its last win (2lb). Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 4}. Official rating: 56. Recent runs on the card look more turf-based than all-weather, so treat AW form as unproven from those lines.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Forever Glamorous",
+          "odds": 11.0,
+          "conf": 58,
+          "type": "ew",
+          "reason": "I am siding with the stable: Forever Glamorous for C Mason. Alexandra Egan rides. Form check: has been top-three 4 times recently. It is Wolverhampton, 6f 20y. I would rather be with this yard's runner at 11.00 than chase a random outsider. It carries 9-5 today. It gets a small weight drop compared with its last win (2lb). Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 4}. Official rating: 56. Recent runs on the card look more turf-based than all-weather, so treat AW form as unproven from those lines.",
+          "stars": 5
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Havana Club",
+          "odds": 9.0,
+          "conf": 57,
+          "type": "ew",
+          "reason": "This is a big field (13). Ability is not enough if the horse is stuck on the inside or flat-footed when the pace lifts. Havana Club is the type I want for that job on the form we have. Donagh Murphy is a good booking if you care about where the horse sits in the run. Form snapshot: finished third last time; has been top-three 3 times recently. Wolverhampton over 6f 20y. Early speed will decide who has fuel left. On the AW the tempo can change quickly; a horse that travels is gold. So the reason is practical, not mystical: race shape + booking + enough form. Each-way Havana Club around 9.00. It carries 9-3 today. It gets a small weight drop compared with its last win (3lb). Official rating: 54.",
+          "stars": 1
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Forever Glamorous",
+          "odds": 11.0,
+          "conf": 64,
+          "type": "ew",
+          "reason": "The number is the hook: 11-1 Forever Glamorous. That only interests me if the form is not a write-off. What has it done? has been top-three 4 times recently. Figures: 531532. C Mason has 2 today \u2014 not a total blind runner from a quiet yard. AW race: form numbers do not spell out past surfaces, so leave a little room for error. Take it each-way at 11.00 and let the place part do some work. It carries 9-5 today. It gets a small weight drop compared with its last win (2lb). Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 4}. Official rating: 56. Recent runs on the card look more turf-based than all-weather, so treat AW form as unproven from those lines.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "course": "Wolverhampton",
+      "time": "17:00",
+      "name": "Midnite Ain't Your Grandad's Bookie EBF Novice Stakes (GBB Race) (Class 4)",
+      "going": "Standard",
+      "distance": "6f 20y",
+      "surface": "AW",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Baandee",
+          "odds": 4.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "Baandee is not the flashiest name in the race, but the setup looks workable for another solid run. Finished second last time; has been top-three 5 times recently. Form on the card: 22222. Trip is 6f 20y. That does not look an obvious mismatch. All-weather today. We cannot see from the form string alone whether past runs were on this surface, so do not over-claim. Trained by Jack Morland. Put together, there is a clean case for Baandee to be involved \u2014 and at 4.00 I would take it to win. It carries 8-13 today. Headgear on the card: {'symbol': 'b', 'name': 'Blinkers', 'count': 1}. Official rating: 74.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Baandee",
+          "odds": 4.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "People will jump on Prosewriter at about 2.62 because the name is obvious. Its form is 1 \u2014 fine, not frightening. I would rather be on Baandee. Baandee finished second last time and has been top-three 5 times recently. Its figures read 22222. George Wood is booked \u2014 that does not look like a no-hoper booking. Wolverhampton, 6f 20y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 4.00. It carries 8-13 today. Headgear on the card: {'symbol': 'b', 'name': 'Blinkers', 'count': 1}. Official rating: 74.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Baandee",
+          "odds": 4.0,
+          "conf": 62,
+          "type": "win",
+          "reason": "Start with the form: Baandee finished second last time. Has been top-three 5 times recently. The string on the card is 22222. Distance today: 6f 20y. That matches the sort of test these figures were earned over well enough. It is all-weather today. Remember the form figures alone do not say whether those past runs were on sand or turf \u2014 treat a pure number line with a little caution. Big field (13) \u2014 form horses still need a clean trip. I would back Baandee to win around 4.00. It carries 8-13 today. Headgear on the card: {'symbol': 'b', 'name': 'Blinkers', 'count': 1}. Official rating: 74.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Baandee",
+          "odds": 4.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "I am siding with the stable: Baandee for Jack Morland. George Wood rides. Form check: finished second last time; has been top-three 5 times recently. It is Wolverhampton, 6f 20y. Back Baandee \u2014 win around 4.00. It carries 8-13 today. Headgear on the card: {'symbol': 'b', 'name': 'Blinkers', 'count': 1}. Official rating: 74.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Baandee",
+          "odds": 4.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "This is a big field (13). Ability is not enough if the horse is stuck on the inside or flat-footed when the pace lifts. Baandee is the type I want for that job on the form we have. George Wood is a good booking if you care about where the horse sits in the run. Form snapshot: finished second last time; has been top-three 5 times recently. Wolverhampton over 6f 20y. Early speed will decide who has fuel left. On the AW the tempo can change quickly; a horse that travels is gold. So the reason is practical, not mystical: race shape + booking + enough form. Win Baandee around 4.00. It carries 8-13 today. Headgear on the card: {'symbol': 'b', 'name': 'Blinkers', 'count': 1}. Official rating: 74.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Baandee",
+          "odds": 4.0,
+          "conf": 63,
+          "type": "win",
+          "reason": "At about 4.00, Baandee is not a crazy price for what is on the card. What has it done? finished second last time; has been top-three 5 times recently. Figures: 22222. AW race: form numbers do not spell out past surfaces, so leave a little room for error. I am happy enough winning at 4.00 if the race falls right. It carries 8-13 today. Headgear on the card: {'symbol': 'b', 'name': 'Blinkers', 'count': 1}. Official rating: 74.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Wolverhampton",
+      "time": "17:30",
+      "name": "All Weather Championship Is Back EBF Maiden Stakes (GBB/GBBPlus Race) (Div 1) (Class 3)",
+      "going": "Standard",
+      "distance": "6f 20y",
+      "surface": "AW",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Manolin",
+          "odds": 5.0,
+          "conf": 53,
+          "type": "win",
+          "reason": "Manolin is not the flashiest name in the race, but the setup looks workable for another solid run. Form on the card: 4. Trip is 6f 20y. That does not look an obvious mismatch. All-weather today. We cannot see from the form string alone whether past runs were on this surface, so do not over-claim. Trained by A M Balding. Put together, there is a clean case for Manolin to be involved \u2014 and at 5.00 I would take it to win. It carries 9-7 today.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Manolin",
+          "odds": 5.0,
+          "conf": 49,
+          "type": "win",
+          "reason": "People will jump on Zajal at about 1.91 because the name is obvious. Its form is 2 \u2014 fine, not frightening. I would rather be on Manolin. Callum Hutchinson is booked \u2014 that does not look like a no-hoper booking. Wolverhampton, 6f 20y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 5.00. It carries 9-7 today.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Manolin",
+          "odds": 5.0,
+          "conf": 48,
+          "type": "win",
+          "reason": "Form is thin on the page for Manolin, so this is not a deep form bet \u2014 more a case of least risk in a murky race. Distance today: 6f 20y. That matches the sort of test these figures were earned over well enough. It is all-weather today. Remember the form figures alone do not say whether those past runs were on sand or turf \u2014 treat a pure number line with a little caution. I would back Manolin to win around 5.00. It carries 9-7 today.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Manolin",
+          "odds": 5.0,
+          "conf": 50,
+          "type": "win",
+          "reason": "A M Balding has turned up with 5 runners today. When a yard saturates a meeting like that, I pay attention \u2014 and Manolin is the one I want from them in this race. Callum Hutchinson is on more than one for the same yard today. That is a deliberate booking, not a spare ride. It is Wolverhampton, 6f 20y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. Back Manolin \u2014 win around 5.00. It carries 9-7 today.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Manolin",
+          "odds": 5.0,
+          "conf": 52,
+          "type": "win",
+          "reason": "With 9 runners the shape of the race still matters. Manolin looks suited to how this should be run. Callum Hutchinson has 4 rides on the card. Busy jockeys who keep a mount usually know how to place one. Wolverhampton over 6f 20y. Early speed will decide who has fuel left. On the AW the tempo can change quickly; a horse that travels is gold. So the reason is practical, not mystical: race shape + booking + enough form. Win Manolin around 5.00. It carries 9-7 today.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Manolin",
+          "odds": 5.0,
+          "conf": 52,
+          "type": "win",
+          "reason": "At about 5.00, Manolin is not a crazy price for what is on the card. Form on the page is light, so this is a price-led idea rather than a form napkin job. A M Balding has 5 today \u2014 not a total blind runner from a quiet yard. AW race: form numbers do not spell out past surfaces, so leave a little room for error. I am happy enough winning at 5.00 if the race falls right. It carries 9-7 today.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Wolverhampton",
+      "time": "18:00",
+      "name": "All Weather Championship Is Back EBF Maiden Stakes (GBB/GBBPlus Race) (Div 2) (Class 3)",
+      "going": "Standard",
+      "distance": "6f 20y",
+      "surface": "AW",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Carletto",
+          "odds": 8.0,
+          "conf": 55,
+          "type": "win",
+          "reason": "Carletto is not the flashiest name in the race, but the setup looks workable for another solid run. Trip is 6f 20y. That does not look an obvious mismatch. All-weather today. We cannot see from the form string alone whether past runs were on this surface, so do not over-claim. Trained by E Walker. Put together, there is a clean case for Carletto to be involved \u2014 and at 8.00 I would take it to win. It carries 9-7 today.",
+          "stars": 2
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Top Scholar",
+          "odds": 9.0,
+          "conf": 52,
+          "type": "win",
+          "reason": "Modernist is short enough at about 2.38 without a big form line on the card. That bothers me. I would rather be on Top Scholar. Top Scholar finished third last time. Its figures read 3. Cieren Fallon is booked \u2014 that does not look like a no-hoper booking. Wolverhampton, 6f 20y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 9.00. It carries 9-7 today.",
+          "stars": 3
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Carletto",
+          "odds": 8.0,
+          "conf": 53,
+          "type": "win",
+          "reason": "Form is thin on the page for Carletto, so this is not a deep form bet \u2014 more a case of least risk in a murky race. Distance today: 6f 20y. That matches the sort of test these figures were earned over well enough. It is all-weather today. Remember the form figures alone do not say whether those past runs were on sand or turf \u2014 treat a pure number line with a little caution. I would back Carletto to win around 8.00. It carries 9-7 today.",
+          "stars": 2
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Top Scholar",
+          "odds": 9.0,
+          "conf": 52,
+          "type": "win",
+          "reason": "W J Haggas has turned up with 5 runners today. When a yard saturates a meeting like that, I pay attention \u2014 and Top Scholar is the one I want from them in this race. Cieren Fallon is on more than one for the same yard today. That is a deliberate booking, not a spare ride. Form check: finished third last time. It is Wolverhampton, 6f 20y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. Back Top Scholar \u2014 win around 9.00. It carries 9-7 today.",
+          "stars": 3
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Haldon Fire",
+          "odds": 3.75,
+          "conf": 54,
+          "type": "win",
+          "reason": "With 8 runners the shape of the race still matters. Haldon Fire looks suited to how this should be run. Callum Hutchinson has 4 rides on the card. Busy jockeys who keep a mount usually know how to place one. Form snapshot: finished second last time. Wolverhampton over 6f 20y. Early speed will decide who has fuel left. On the AW the tempo can change quickly; a horse that travels is gold. So the reason is practical, not mystical: race shape + booking + enough form. Win Haldon Fire around 3.75. It carries 9-7 today.",
+          "stars": 1
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Top Scholar",
+          "odds": 9.0,
+          "conf": 55,
+          "type": "win",
+          "reason": "Top Scholar is drifting around 9.00 while others are shorter. I am not convinced those shorter prices are earned. What has it done? finished third last time. Figures: 3. W J Haggas has 5 today \u2014 not a total blind runner from a quiet yard. AW race: form numbers do not spell out past surfaces, so leave a little room for error. I am happy enough winning at 9.00 if the race falls right. It carries 9-7 today.",
+          "stars": 3
+        }
+      ]
+    },
+    {
+      "course": "Wolverhampton",
+      "time": "18:30",
+      "name": "AWC Finals Day At Newcastle 26th March Nursery (GBBPlusRace) (Class 4)",
+      "going": "Standard",
+      "distance": "6f 20y",
+      "surface": "AW",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "High Calibre",
+          "odds": 3.5,
+          "conf": 61,
+          "type": "win",
+          "reason": "High Calibre is not the flashiest name in the race, but the setup looks workable for another solid run. Won last time; has been top-three 3 times recently. Form on the card: 135266. Trip is 6f 20y. That does not look an obvious mismatch. All-weather today. We cannot see from the form string alone whether past runs were on this surface, so do not over-claim. Trained by R Hannon. Put together, there is a clean case for High Calibre to be involved \u2014 and at 3.50 I would take it to win. It carries 9-6 today. Official rating: 77.",
+          "stars": 3
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "High Calibre",
+          "odds": 3.5,
+          "conf": 59,
+          "type": "win",
+          "reason": "People will jump on National Pride at about 2.38 because the name is obvious. Its form is 14426 \u2014 fine, not frightening. I would rather be on High Calibre. High Calibre won last time and has been top-three 3 times recently. Its figures read 135266. Only 4 in the field. One messy jump from the jolly and the race is blown open. Joe Leavy is booked \u2014 that does not look like a no-hoper booking. Wolverhampton, 6f 20y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 3.50. It carries 9-6 today. Official rating: 77.",
+          "stars": 3
+        },
+        {
+          "bot": "FormFox",
+          "horse": "National Pride",
+          "odds": 2.38,
+          "conf": 63,
+          "type": "win",
+          "reason": "The form is the reason I am on National Pride \u2014 it won last time. Has a win in the recent figures. The string on the card is 14426. Today is 6f 20y. It is all-weather today. Remember the form figures alone do not say whether those past runs were on sand or turf \u2014 treat a pure number line with a little caution. Only 4 runners, so the form order should have every chance to hold up. Win bet: National Pride, about 2.38. It carries 9-7 today. Official rating: 78.",
+          "stars": 3
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "National Pride",
+          "odds": 2.38,
+          "conf": 62,
+          "type": "win",
+          "reason": "W J Haggas has turned up with 5 runners today. When a yard saturates a meeting like that, I pay attention \u2014 and National Pride is the one I want from them in this race. Cieren Fallon is on more than one for the same yard today. That is a deliberate booking, not a spare ride. Form check: won last time; has a win in the recent figures. It is Wolverhampton, 6f 20y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. I would rather be with this yard's runner at 2.38 than chase a random outsider. It carries 9-7 today. Official rating: 78.",
+          "stars": 3
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "National Pride",
+          "odds": 2.38,
+          "conf": 63,
+          "type": "win",
+          "reason": "Tiny field (4). This becomes a tactics race. Position and nerve matter as much as the form book, which is why National Pride interests me. Cieren Fallon has 5 rides on the card. Busy jockeys who keep a mount usually know how to place one. Form snapshot: won last time; has a win in the recent figures. Wolverhampton over 6f 20y. Early speed will decide who has fuel left. On the AW the tempo can change quickly; a horse that travels is gold. So the reason is practical, not mystical: race shape + booking + enough form. Win National Pride around 2.38. It carries 9-7 today. Official rating: 78.",
+          "stars": 3
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "High Calibre",
+          "odds": 3.5,
+          "conf": 62,
+          "type": "win",
+          "reason": "At about 3.50, High Calibre is not a crazy price for what is on the card. What has it done? won last time; has been top-three 3 times recently. Figures: 135266. AW race: form numbers do not spell out past surfaces, so leave a little room for error. I am happy enough winning at 3.50 if the race falls right. It carries 9-6 today. Official rating: 77.",
+          "stars": 3
+        }
+      ]
+    },
+    {
+      "course": "Wolverhampton",
+      "time": "19:00",
+      "name": "Midnite: Built For 2026 Not 2006 Handicap (Class 3)",
+      "going": "Standard",
+      "distance": "6f 20y",
+      "surface": "AW",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Another Abbot",
+          "odds": 9.0,
+          "conf": 59,
+          "type": "ew",
+          "reason": "Another Abbot has already shown it can win. The question is whether today's setup lets it do it again. Was out of the first three last time; has a win in the recent figures. Form on the card: 028177. Trip is 6f 20y. That does not look an obvious mismatch. All-weather today. We cannot see from the form string alone whether past runs were on this surface, so do not over-claim. Trained by W J Haggas. Put together, there is a clean case for Another Abbot to be involved \u2014 and at 9.00 I would play each-way. It carries 9-6 today. It is down about 4lb on its last winning weight, which is a help. Headgear on the card: {'symbol': 't', 'name': 'Tongue strap', 'count': 21}. Official rating: 89. Recent runs on the card look more turf-based than all-weather, so treat AW form as unproven from those lines.",
+          "stars": 2
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Yes I'm Mali",
+          "odds": 11.0,
+          "conf": 59,
+          "type": "ew",
+          "reason": "People will jump on Dandana at about 4.50 because the name is obvious. Its form is 424004 \u2014 fine, not frightening. I would rather be on Yes I'm Mali. Yes I'm Mali was out of the first three last time and has been top-three 3 times recently. Its figures read 024012. Mark Winn is booked \u2014 that does not look like a no-hoper booking. Wolverhampton, 6f 20y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Each-way at about 11.00. It carries 9-2 today. It is down about 13lb on its last winning weight, which is a help. It is back very quickly (5 days since last run). Official rating: 85.",
+          "stars": 2
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Another Abbot",
+          "odds": 9.0,
+          "conf": 57,
+          "type": "ew",
+          "reason": "Start with the form: Another Abbot was out of the first three last time. Has a win in the recent figures. The string on the card is 028177. Today is 6f 20y. It is all-weather today. Remember the form figures alone do not say whether those past runs were on sand or turf \u2014 treat a pure number line with a little caution. Each-way at about 9.00 is the sensible way to use the form case. It carries 9-6 today. It is down about 4lb on its last winning weight, which is a help. Headgear on the card: {'symbol': 't', 'name': 'Tongue strap', 'count': 21}. Official rating: 89. Recent runs on the card look more turf-based than all-weather, so treat AW form as unproven from those lines.",
+          "stars": 2
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Silent Strike",
+          "odds": 5.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "A M Balding has turned up with 5 runners today. When a yard saturates a meeting like that, I pay attention \u2014 and Silent Strike is the one I want from them in this race. Callum Hutchinson is on more than one for the same yard today. That is a deliberate booking, not a spare ride. Form check: finished third last time; has been top-three 4 times recently. It is Wolverhampton, 6f 20y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. Back Silent Strike \u2014 win around 5.00. It carries 9-4 today. It is up about 3lb on its last winning weight, which asks a bit more of it. Headgear on the card: {'symbol': 't', 'name': 'Tongue strap', 'count': 3}. Official rating: 87.",
+          "stars": 2
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Silent Strike",
+          "odds": 5.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "With 10 runners the shape of the race still matters. Silent Strike looks suited to how this should be run. Callum Hutchinson has 4 rides on the card. Busy jockeys who keep a mount usually know how to place one. Form snapshot: finished third last time; has been top-three 4 times recently. Wolverhampton over 6f 20y. Early speed will decide who has fuel left. On the AW the tempo can change quickly; a horse that travels is gold. So the reason is practical, not mystical: race shape + booking + enough form. Win Silent Strike around 5.00. It carries 9-4 today. It is up about 3lb on its last winning weight, which asks a bit more of it. Headgear on the card: {'symbol': 't', 'name': 'Tongue strap', 'count': 3}. Official rating: 87.",
+          "stars": 2
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Yes I'm Mali",
+          "odds": 11.0,
+          "conf": 60,
+          "type": "ew",
+          "reason": "The number is the hook: 11-1 Yes I'm Mali. That only interests me if the form is not a write-off. What has it done? was out of the first three last time; has been top-three 3 times recently. Figures: 024012. AW race: form numbers do not spell out past surfaces, so leave a little room for error. Take it each-way at 11.00 and let the place part do some work. It carries 9-2 today. It is down about 13lb on its last winning weight, which is a help. It is back very quickly (5 days since last run). Official rating: 85.",
+          "stars": 2
+        }
+      ]
+    },
+    {
+      "course": "Wolverhampton",
+      "time": "19:30",
+      "name": "AWC Season 14 Has Begun Fillies' Handicap (Class 4)",
+      "going": "Standard",
+      "distance": "6f 20y",
+      "surface": "AW",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Maldevious",
+          "odds": 5.0,
+          "conf": 69,
+          "type": "win",
+          "reason": "Maldevious has already shown it can win. The question is whether today's setup lets it do it again. Won last time; has 2 recent wins in the figures. Form on the card: 154451. Trip is 6f 20y. That does not look an obvious mismatch. All-weather today. We cannot see from the form string alone whether past runs were on this surface, so do not over-claim. Trained by B Ellison. Put together, there is a clean case for Maldevious to be involved \u2014 and at 5.00 I would take it to win. It carries 8-12 today. It is down about 10lb on its last winning weight, which is a help. It is back very quickly (7 days since last run). Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 8}, {'symbol': 't', 'name': 'Tongue strap', 'count': 7}. Official rating: 66.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Maldevious",
+          "odds": 5.0,
+          "conf": 70,
+          "type": "win",
+          "reason": "I am against the crowd in this one and on Maldevious. Maldevious won last time and has 2 recent wins in the figures. Its figures read 154451. Harry Russell is booked \u2014 that does not look like a no-hoper booking. Wolverhampton, 6f 20y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 5.00. It carries 8-12 today. It is down about 10lb on its last winning weight, which is a help. It is back very quickly (7 days since last run). Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 8}, {'symbol': 't', 'name': 'Tongue strap', 'count': 7}. Official rating: 66.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Maldevious",
+          "odds": 5.0,
+          "conf": 68,
+          "type": "win",
+          "reason": "Start with the form: Maldevious won last time. Has 2 recent wins in the figures. The string on the card is 154451. Today is 6f 20y. It is all-weather today. Remember the form figures alone do not say whether those past runs were on sand or turf \u2014 treat a pure number line with a little caution. Win bet: Maldevious, about 5.00. It carries 8-12 today. It is down about 10lb on its last winning weight, which is a help. It is back very quickly (7 days since last run). Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 8}, {'symbol': 't', 'name': 'Tongue strap', 'count': 7}. Official rating: 66.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Maldevious",
+          "odds": 5.0,
+          "conf": 65,
+          "type": "win",
+          "reason": "I am siding with the stable: Maldevious for B Ellison. Harry Russell rides. Form check: won last time; has 2 recent wins in the figures. It is Wolverhampton, 6f 20y. I would rather be with this yard's runner at 5.00 than chase a random outsider. It carries 8-12 today. It is down about 10lb on its last winning weight, which is a help. It is back very quickly (7 days since last run). Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 8}, {'symbol': 't', 'name': 'Tongue strap', 'count': 7}. Official rating: 66.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Maldevious",
+          "odds": 5.0,
+          "conf": 69,
+          "type": "win",
+          "reason": "With 11 runners the shape of the race still matters. Maldevious looks suited to how this should be run. Harry Russell is a good booking if you care about where the horse sits in the run. Form snapshot: won last time; has 2 recent wins in the figures. Wolverhampton over 6f 20y. Early speed will decide who has fuel left. On the AW the tempo can change quickly; a horse that travels is gold. So the reason is practical, not mystical: race shape + booking + enough form. Win Maldevious around 5.00. It carries 8-12 today. It is down about 10lb on its last winning weight, which is a help. It is back very quickly (7 days since last run). Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 8}, {'symbol': 't', 'name': 'Tongue strap', 'count': 7}. Official rating: 66.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Maldevious",
+          "odds": 5.0,
+          "conf": 71,
+          "type": "win",
+          "reason": "At about 5.00, Maldevious is not a crazy price for what is on the card. What has it done? won last time; has 2 recent wins in the figures. Figures: 154451. AW race: form numbers do not spell out past surfaces, so leave a little room for error. I am happy enough winning at 5.00 if the race falls right. It carries 8-12 today. It is down about 10lb on its last winning weight, which is a help. It is back very quickly (7 days since last run). Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 8}, {'symbol': 't', 'name': 'Tongue strap', 'count': 7}. Official rating: 66.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Wolverhampton",
+      "time": "20:00",
+      "name": "Midnite Built Different Handicap (GBBPlus Race) (Class 4)",
+      "going": "Standard",
+      "distance": "6f 20y",
+      "surface": "AW",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Must Believe",
+          "odds": 3.75,
+          "conf": 68,
+          "type": "win",
+          "reason": "Must Believe has already shown it can win. The question is whether today's setup lets it do it again. Won last time; has 2 recent wins in the figures. Form on the card: 142381. Trip is 6f 20y. That does not look an obvious mismatch. All-weather today. We cannot see from the form string alone whether past runs were on this surface, so do not over-claim. Trained by George Baker. Put together, there is a clean case for Must Believe to be involved \u2014 and at 3.75 I would take it to win. It carries 9-8 today. It is down about 4lb on its last winning weight, which is a help. Official rating: 79.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Must Believe",
+          "odds": 3.75,
+          "conf": 70,
+          "type": "win",
+          "reason": "I am against the crowd in this one and on Must Believe. Must Believe won last time and has 2 recent wins in the figures. Its figures read 142381. Billy Loughnane is booked \u2014 that does not look like a no-hoper booking. Wolverhampton, 6f 20y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 3.75. It carries 9-8 today. It is down about 4lb on its last winning weight, which is a help. Official rating: 79.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Must Believe",
+          "odds": 3.75,
+          "conf": 71,
+          "type": "win",
+          "reason": "Start with the form: Must Believe won last time. Has 2 recent wins in the figures. The string on the card is 142381. Distance today: 6f 20y. That matches the sort of test these figures were earned over well enough. It is all-weather today. Remember the form figures alone do not say whether those past runs were on sand or turf \u2014 treat a pure number line with a little caution. I would back Must Believe to win around 3.75. It carries 9-8 today. It is down about 4lb on its last winning weight, which is a help. Official rating: 79.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Must Believe",
+          "odds": 3.75,
+          "conf": 67,
+          "type": "win",
+          "reason": "I am siding with the stable: Must Believe for George Baker. Billy Loughnane has a full book (8 rides). This is one of the mounts they bothered to keep. Form check: won last time; has 2 recent wins in the figures. It is Wolverhampton, 6f 20y. Back Must Believe \u2014 win around 3.75. It carries 9-8 today. It is down about 4lb on its last winning weight, which is a help. Official rating: 79.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Must Believe",
+          "odds": 3.75,
+          "conf": 68,
+          "type": "win",
+          "reason": "With 9 runners the shape of the race still matters. Must Believe looks suited to how this should be run. Billy Loughnane has 8 rides on the card. Busy jockeys who keep a mount usually know how to place one. Form snapshot: won last time; has 2 recent wins in the figures. Wolverhampton over 6f 20y. Early speed will decide who has fuel left. On the AW the tempo can change quickly; a horse that travels is gold. So the reason is practical, not mystical: race shape + booking + enough form. Win Must Believe around 3.75. It carries 9-8 today. It is down about 4lb on its last winning weight, which is a help. Official rating: 79.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Must Believe",
+          "odds": 3.75,
+          "conf": 69,
+          "type": "win",
+          "reason": "At about 3.75, Must Believe is not a crazy price for what is on the card. What has it done? won last time; has 2 recent wins in the figures. Figures: 142381. George Baker has 2 today \u2014 not a total blind runner from a quiet yard. AW race: form numbers do not spell out past surfaces, so leave a little room for error. I am happy enough winning at 3.75 if the race falls right. It carries 9-8 today. It is down about 4lb on its last winning weight, which is a help. Official rating: 79.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Wolverhampton",
+      "time": "20:30",
+      "name": "Midnite A Next Generation Betting App Handicap (Class 5)",
+      "going": "Standard",
+      "distance": "6f 20y",
+      "surface": "AW",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Rye",
+          "odds": 5.0,
+          "conf": 68,
+          "type": "win",
+          "reason": "Rye is not the flashiest name in the race, but the setup looks workable for another solid run. Finished second last time; has been top-three 3 times recently. Form on the card: 241624. Trip is 6f 20y. That does not look an obvious mismatch. All-weather today. We cannot see from the form string alone whether past runs were on this surface, so do not over-claim. Trained by A W Carroll. Put together, there is a clean case for Rye to be involved \u2014 and at 5.00 I would take it to win. It carries 8-10 today. It is down about 11lb on its last winning weight, which is a help. Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 5}. Official rating: 62.",
+          "stars": 2
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Sunlit Sea",
+          "odds": 7.0,
+          "conf": 69,
+          "type": "win",
+          "reason": "People will jump on Campenaerts at about 4.50 because the name is obvious. Its form is 124287 \u2014 fine, not frightening. I would rather be on Sunlit Sea. Sunlit Sea finished third last time and has 3 recent wins in the figures. Its figures read 313211. L Morris is booked \u2014 that does not look like a no-hoper booking. Wolverhampton, 6f 20y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 7.00. It carries 9-6 today. It gets a small weight drop compared with its last win (3lb). Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 2}. Official rating: 72.",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Rye",
+          "odds": 5.0,
+          "conf": 68,
+          "type": "win",
+          "reason": "Rye gets in on the figures. It finished second last time. Has been top-three 3 times recently. The string on the card is 241624. Distance today: 6f 20y. That matches the sort of test these figures were earned over well enough. It is all-weather today. Remember the form figures alone do not say whether those past runs were on sand or turf \u2014 treat a pure number line with a little caution. I would back Rye to win around 5.00. It carries 8-10 today. It is down about 11lb on its last winning weight, which is a help. Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 5}. Official rating: 62.",
+          "stars": 2
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Sunlit Sea",
+          "odds": 7.0,
+          "conf": 68,
+          "type": "win",
+          "reason": "Trainer angle: Sir Mark Prescott's Sunlit Sea. L Morris is on more than one for the same yard today. That is a deliberate booking, not a spare ride. Form check: finished third last time; has 3 recent wins in the figures. It is Wolverhampton, 6f 20y. Back Sunlit Sea \u2014 win around 7.00. It carries 9-6 today. It gets a small weight drop compared with its last win (3lb). Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 2}. Official rating: 72.",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Sunlit Sea",
+          "odds": 7.0,
+          "conf": 66,
+          "type": "win",
+          "reason": "With 10 runners the shape of the race still matters. Sunlit Sea looks suited to how this should be run. L Morris has 6 rides on the card. Busy jockeys who keep a mount usually know how to place one. Form snapshot: finished third last time; has 3 recent wins in the figures. Wolverhampton over 6f 20y. Early speed will decide who has fuel left. On the AW the tempo can change quickly; a horse that travels is gold. So the reason is practical, not mystical: race shape + booking + enough form. Win Sunlit Sea around 7.00. It carries 9-6 today. It gets a small weight drop compared with its last win (3lb). Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 2}. Official rating: 72.",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Sunlit Sea",
+          "odds": 7.0,
+          "conf": 69,
+          "type": "win",
+          "reason": "Sunlit Sea is drifting around 7.00 while others are shorter. I am not convinced those shorter prices are earned. What has it done? finished third last time; has 3 recent wins in the figures. Figures: 313211. Sir Mark Prescott has 2 today \u2014 not a total blind runner from a quiet yard. AW race: form numbers do not spell out past surfaces, so leave a little room for error. I am happy enough winning at 7.00 if the race falls right. It carries 9-6 today. It gets a small weight drop compared with its last win (3lb). Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 2}. Official rating: 72.",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Tramore",
+      "time": "12:45",
+      "name": "2027 Annual Badge At Tramore Racecourse Maiden Hurdle",
+      "going": "Soft-heavy in places on hurdle course (inspection 8am)",
+      "distance": "2m 50y",
+      "surface": "turf",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Flooring Brandy",
+          "odds": 7.0,
+          "conf": 55,
+          "type": "win",
+          "reason": "Flooring Brandy is not the flashiest name in the race, but the setup looks workable for another solid run. Trip is 2m 50y. That does not look an obvious mismatch. Ground: Soft-heavy in places on hurdle course. Usable on the information we have. Trained by G P Cromwell. Put together, there is a clean case for Flooring Brandy to be involved \u2014 and at 7.00 I would take it to win. It carries 11-12 today. Headgear on the card: {'symbol': 't', 'name': 'Tongue strap', 'count': 1}.",
+          "stars": 1
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Blue Rebel",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "People will jump on Forty Fifty at about 1.91 because the name is obvious. Its form is 64 \u2014 fine, not frightening. I would rather be on Blue Rebel. Blue Rebel won last time and has a win in the recent figures. Its figures read 1-. Reserve 3 is booked \u2014 that does not look like a no-hoper booking. Tramore, 2m 50y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 6.00. It carries 11-12 today. It has been off for about 269 days \u2014 a long absence, so fitness is a question.",
+          "stars": 5
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Blue Rebel",
+          "odds": 6.0,
+          "conf": 51,
+          "type": "win",
+          "reason": "The form is the reason I am on Blue Rebel \u2014 it won last time. Has a win in the recent figures. The string on the card is 1-. Distance today: 2m 50y. That matches the sort of test these figures were earned over well enough. Ground is Soft-heavy in places on hurdle course. Nothing in the card says that is a hard stop. Big field (18) \u2014 form horses still need a clean trip. I would back Blue Rebel to win around 6.00. It carries 11-12 today. It has been off for about 269 days \u2014 a long absence, so fitness is a question.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Blue Rebel",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "G Elliott has turned up with 7 runners today. When a yard saturates a meeting like that, I pay attention \u2014 and Blue Rebel is the one I want from them in this race. Reserve 3 is on more than one for the same yard today. That is a deliberate booking, not a spare ride. Form check: won last time; has a win in the recent figures. It is Tramore, 2m 50y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. Back Blue Rebel \u2014 win around 6.00. It carries 11-12 today. It has been off for about 269 days \u2014 a long absence, so fitness is a question.",
+          "stars": 5
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Blue Rebel",
+          "odds": 6.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "This is a big field (18). Ability is not enough if the horse is stuck on the inside or flat-footed when the pace lifts. Blue Rebel is the type I want for that job on the form we have. Reserve 3 has 4 rides on the card. Busy jockeys who keep a mount usually know how to place one. Form snapshot: won last time; has a win in the recent figures. Tramore over 2m 50y. Early speed will decide who has fuel left. So the reason is practical, not mystical: race shape + booking + enough form. Win Blue Rebel around 6.00. It carries 11-12 today. It has been off for about 269 days \u2014 a long absence, so fitness is a question.",
+          "stars": 5
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Blue Rebel",
+          "odds": 6.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Blue Rebel is drifting around 6.00 while others are shorter. I am not convinced those shorter prices are earned. What has it done? won last time; has a win in the recent figures. Figures: 1-. G Elliott has 7 today \u2014 not a total blind runner from a quiet yard. I am happy enough winning at 6.00 if the race falls right. It carries 11-12 today. It has been off for about 269 days \u2014 a long absence, so fitness is a question.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "course": "Tramore",
+      "time": "13:15",
+      "name": "New Years Day Discount Tickets Online Mares Maiden Hurdle",
+      "going": "Soft-heavy in places on hurdle course (inspection 8am)",
+      "distance": "2m 50y",
+      "surface": "turf",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Even Tho",
+          "odds": 1.33,
+          "conf": 63,
+          "type": "win",
+          "reason": "What I like about Even Tho is the direction of travel. The recent form is moving the right way, not the wrong way. Won last time; has 2 recent wins in the figures. Form on the card: 11. Trip is 2m 50y. That does not look an obvious mismatch. Ground: Soft-heavy in places on hurdle course. Usable on the information we have. Trained by W P Mullins. Put together, there is a clean case for Even Tho to be involved \u2014 and at 1.33 I would take it to win. It carries 11-7 today. It is down about 4lb on its last winning weight, which is a help. It has been off for about 209 days \u2014 a long absence, so fitness is a question.",
+          "stars": 5
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Even Tho",
+          "odds": 1.33,
+          "conf": 60,
+          "type": "win",
+          "reason": "I am against the crowd in this one and on Even Tho. Even Tho won last time and has 2 recent wins in the figures. Its figures read 11. Brian Hayes is booked \u2014 that does not look like a no-hoper booking. Tramore, 2m 50y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 1.33. It carries 11-7 today. It is down about 4lb on its last winning weight, which is a help. It has been off for about 209 days \u2014 a long absence, so fitness is a question.",
+          "stars": 5
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Even Tho",
+          "odds": 1.33,
+          "conf": 64,
+          "type": "win",
+          "reason": "The form is the reason I am on Even Tho \u2014 it won last time. Has 2 recent wins in the figures. The string on the card is 11. The newer runs are better than the older ones, which is what you want to see. Today is 2m 50y. Ground is Soft-heavy in places on hurdle course. Nothing in the card says that is a hard stop. Win bet: Even Tho, about 1.33. It carries 11-7 today. It is down about 4lb on its last winning weight, which is a help. It has been off for about 209 days \u2014 a long absence, so fitness is a question.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Even Tho",
+          "odds": 1.33,
+          "conf": 65,
+          "type": "win",
+          "reason": "W P Mullins has turned up with 4 runners today. When a yard saturates a meeting like that, I pay attention \u2014 and Even Tho is the one I want from them in this race. Brian Hayes is on more than one for the same yard today. That is a deliberate booking, not a spare ride. Form check: won last time; has 2 recent wins in the figures. It is Tramore, 2m 50y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. I would rather be with this yard's runner at 1.33 than chase a random outsider. It carries 11-7 today. It is down about 4lb on its last winning weight, which is a help. It has been off for about 209 days \u2014 a long absence, so fitness is a question.",
+          "stars": 5
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Even Tho",
+          "odds": 1.33,
+          "conf": 64,
+          "type": "win",
+          "reason": "With 10 runners the shape of the race still matters. Even Tho looks suited to how this should be run. Brian Hayes has 3 rides on the card. Busy jockeys who keep a mount usually know how to place one. Form snapshot: won last time; has 2 recent wins in the figures. Tramore over 2m 50y. Early speed will decide who has fuel left. So the reason is practical, not mystical: race shape + booking + enough form. Win Even Tho around 1.33. It carries 11-7 today. It is down about 4lb on its last winning weight, which is a help. It has been off for about 209 days \u2014 a long absence, so fitness is a question.",
+          "stars": 5
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Lucky Valley",
+          "odds": 6.5,
+          "conf": 55,
+          "type": "win",
+          "reason": "At about 6.50, Lucky Valley is not a crazy price for what is on the card. What has it done? finished third last time. Figures: 355. I am happy enough winning at 6.50 if the race falls right. It carries 10-13 today. Trainer: Michael Barry. Jockey: Alan O'Sullivan. Course: Tramore. All of this is taken from the racecard and any results history we have stored \u2014 nothing is guessed beyond that.",
+          "stars": 1
+        }
+      ]
+    },
+    {
+      "course": "Tramore",
+      "time": "13:45",
+      "name": "Book A Table For New Years Day Mares Handicap Hurdle",
+      "going": "Soft-heavy in places on hurdle course (inspection 8am)",
+      "distance": "2m 50y",
+      "surface": "turf",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Mount Shenshan",
+          "odds": 9.0,
+          "conf": 60,
+          "type": "ew",
+          "reason": "What I like about Mount Shenshan is the direction of travel. The recent form is moving the right way, not the wrong way. Has 2 recent wins in the figures. Form on the card: 411606. Trip is 2m 50y. That does not look an obvious mismatch. Ground: Soft-heavy in places on hurdle course. Usable on the information we have. Trained by T Mullins. Put together, there is a clean case for Mount Shenshan to be involved \u2014 and at 9.00 I would play each-way. It carries 10-10 today. It gets a small weight drop compared with its last win (3lb). Headgear on the card: {'symbol': 't', 'name': 'Tongue strap', 'count': 6}. Official rating: 92.",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Mount Shenshan",
+          "odds": 9.0,
+          "conf": 63,
+          "type": "ew",
+          "reason": "People will jump on Westin Pimpernel at about 3.50 because the name is obvious. Its form is 1500 \u2014 fine, not frightening. I would rather be on Mount Shenshan. Mount Shenshan has 2 recent wins in the figures. Its figures read 411606. Sean Cleary-Farrell is booked \u2014 that does not look like a no-hoper booking. Tramore, 2m 50y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Each-way at about 9.00. It carries 10-10 today. It gets a small weight drop compared with its last win (3lb). Headgear on the card: {'symbol': 't', 'name': 'Tongue strap', 'count': 6}. Official rating: 92.",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Mount Shenshan",
+          "odds": 9.0,
+          "conf": 60,
+          "type": "ew",
+          "reason": "Mount Shenshan gets in on the figures. It has 2 recent wins in the figures. The string on the card is 411606. The newer runs are better than the older ones, which is what you want to see. Distance today: 2m 50y. That matches the sort of test these figures were earned over well enough. Ground is Soft-heavy in places on hurdle course. Nothing in the card says that is a hard stop. Big field (12) \u2014 form horses still need a clean trip. Each-way at about 9.00 is the sensible way to use the form case. It carries 10-10 today. It gets a small weight drop compared with its last win (3lb). Headgear on the card: {'symbol': 't', 'name': 'Tongue strap', 'count': 6}. Official rating: 92.",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Westin Pimpernel",
+          "odds": 3.5,
+          "conf": 61,
+          "type": "win",
+          "reason": "G Elliott has turned up with 7 runners today. When a yard saturates a meeting like that, I pay attention \u2014 and Westin Pimpernel is the one I want from them in this race. Sam Ewing rides. Form check: won last time; has a win in the recent figures. It is Tramore, 2m 50y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. I would rather be with this yard's runner at 3.50 than chase a random outsider. It carries 10-1 today. It gets a small weight drop compared with its last win (3lb). Official rating: 84.",
+          "stars": 2
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Westin Pimpernel",
+          "odds": 3.5,
+          "conf": 58,
+          "type": "win",
+          "reason": "This is a big field (12). Ability is not enough if the horse is stuck on the inside or flat-footed when the pace lifts. Westin Pimpernel is the type I want for that job on the form we have. Sam Ewing is a good booking if you care about where the horse sits in the run. Form snapshot: won last time; has a win in the recent figures. Tramore over 2m 50y. Early speed will decide who has fuel left. So the reason is practical, not mystical: race shape + booking + enough form. Win Westin Pimpernel around 3.50. It carries 10-1 today. It gets a small weight drop compared with its last win (3lb). Official rating: 84.",
+          "stars": 2
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Mount Shenshan",
+          "odds": 9.0,
+          "conf": 62,
+          "type": "ew",
+          "reason": "Mount Shenshan is drifting around 9.00 while others are shorter. I am not convinced those shorter prices are earned. What has it done? has 2 recent wins in the figures. Figures: 411606. T Mullins has 2 today \u2014 not a total blind runner from a quiet yard. Take it each-way at 9.00 and let the place part do some work. It carries 10-10 today. It gets a small weight drop compared with its last win (3lb). Headgear on the card: {'symbol': 't', 'name': 'Tongue strap', 'count': 6}. Official rating: 92.",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Tramore",
+      "time": "14:15",
+      "name": "Bill Halley Outstanding Contribution Award 2026 Handicap Hurdle (0-100)",
+      "going": "Soft-heavy in places on hurdle course (inspection 8am)",
+      "distance": "2m 50y",
+      "surface": "turf",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Lake Chad",
+          "odds": 5.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Lake Chad has already shown it can win. The question is whether today's setup lets it do it again. Won last time; has 2 recent wins in the figures. Form on the card: 188102. Trip is 2m 50y. That does not look an obvious mismatch. Ground: Soft-heavy in places on hurdle course. Usable on the information we have. Trained by P Fenton. Put together, there is a clean case for Lake Chad to be involved \u2014 and at 5.00 I would take it to win. It carries 12-0 today. It gets a small weight drop compared with its last win (2lb). Official rating: 100.",
+          "stars": 5
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Wolfhill",
+          "odds": 11.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "People will jump on Talas Kera at about 3.00 because the name is obvious. Its form is 124045 \u2014 fine, not frightening. I would rather be on Wolfhill. Wolfhill has a win in the recent figures. Its figures read 717008. Anna McGuinness is booked \u2014 that does not look like a no-hoper booking. Tramore, 2m 50y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 11.00. It carries 11-11 today. Official rating: 97.",
+          "stars": 1
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Lake Chad",
+          "odds": 5.0,
+          "conf": 60,
+          "type": "win",
+          "reason": "Start with the form: Lake Chad won last time. Has 2 recent wins in the figures. The string on the card is 188102. Distance today: 2m 50y. That matches the sort of test these figures were earned over well enough. Ground is Soft-heavy in places on hurdle course. Nothing in the card says that is a hard stop. Big field (19) \u2014 form horses still need a clean trip. I would back Lake Chad to win around 5.00. It carries 12-0 today. It gets a small weight drop compared with its last win (2lb). Official rating: 100.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Lake Chad",
+          "odds": 5.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "I am siding with the stable: Lake Chad for P Fenton. Niall Moore has a full book (4 rides). This is one of the mounts they bothered to keep. Form check: won last time; has 2 recent wins in the figures. It is Tramore, 2m 50y. Back Lake Chad \u2014 win around 5.00. It carries 12-0 today. It gets a small weight drop compared with its last win (2lb). Official rating: 100.",
+          "stars": 5
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Lake Chad",
+          "odds": 5.0,
+          "conf": 61,
+          "type": "win",
+          "reason": "This is a big field (19). Ability is not enough if the horse is stuck on the inside or flat-footed when the pace lifts. Lake Chad is the type I want for that job on the form we have. Niall Moore has 4 rides on the card. Busy jockeys who keep a mount usually know how to place one. Form snapshot: won last time; has 2 recent wins in the figures. Tramore over 2m 50y. Early speed will decide who has fuel left. So the reason is practical, not mystical: race shape + booking + enough form. Win Lake Chad around 5.00. It carries 12-0 today. It gets a small weight drop compared with its last win (2lb). Official rating: 100.",
+          "stars": 5
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Lake Chad",
+          "odds": 5.0,
+          "conf": 62,
+          "type": "win",
+          "reason": "Lake Chad is drifting around 5.00 while others are shorter. I am not convinced those shorter prices are earned. What has it done? won last time; has 2 recent wins in the figures. Figures: 188102. I am happy enough winning at 5.00 if the race falls right. It carries 12-0 today. It gets a small weight drop compared with its last win (2lb). Official rating: 100.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "course": "Tramore",
+      "time": "14:45",
+      "name": "2027 Group Package Deals Online Beginners Chase",
+      "going": "Soft-heavy in places on hurdle course (inspection 8am)",
+      "distance": "2m 50y",
+      "surface": "turf",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Walk In The Clouds",
+          "odds": 8.0,
+          "conf": 54,
+          "type": "win",
+          "reason": "Walk In The Clouds has already shown it can win. The question is whether today's setup lets it do it again. Has a win in the recent figures. Form on the card: 418800. Trip is 2m 50y. That does not look an obvious mismatch. Ground: Soft-heavy in places on hurdle course. Usable on the information we have. Trained by C Collins. Put together, there is a clean case for Walk In The Clouds to be involved \u2014 and at 8.00 I would take it to win. It carries 11-5 today. It has been off for about 238 days \u2014 a long absence, so fitness is a question. Official rating: 96.",
+          "stars": 2
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Joshua Chamberlain",
+          "odds": 6.0,
+          "conf": 54,
+          "type": "win",
+          "reason": "People will jump on Rebel Reba at about 3.00 because the name is obvious. Its form is 276 \u2014 fine, not frightening. I would rather be on Joshua Chamberlain. Joshua Chamberlain finished third last time and has been top-three 3 times recently. Its figures read 324051. Eoghan Finegan is booked \u2014 that does not look like a no-hoper booking. Tramore, 2m 50y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 6.00. It carries 11-12 today. That is about 11lb more than when it last won \u2014 a real rise in the weights over this longer trip.",
+          "stars": 2
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Walk In The Clouds",
+          "odds": 8.0,
+          "conf": 50,
+          "type": "win",
+          "reason": "Walk In The Clouds gets in on the figures. It has a win in the recent figures. The string on the card is 418800. Today is 2m 50y. Ground is Soft-heavy in places on hurdle course. Nothing in the card says that is a hard stop. Big field (17) \u2014 form horses still need a clean trip. Win bet: Walk In The Clouds, about 8.00. It carries 11-5 today. It has been off for about 238 days \u2014 a long absence, so fitness is a question. Official rating: 96.",
+          "stars": 2
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Rebel Reba",
+          "odds": 3.0,
+          "conf": 54,
+          "type": "win",
+          "reason": "W P Mullins has turned up with 4 runners today. When a yard saturates a meeting like that, I pay attention \u2014 and Rebel Reba is the one I want from them in this race. Brian Hayes is on more than one for the same yard today. That is a deliberate booking, not a spare ride. Form check: finished second last time. It is Tramore, 2m 50y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. I would rather be with this yard's runner at 3.00 than chase a random outsider. It carries 11-5 today.",
+          "stars": 1
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Ersudaly",
+          "odds": 5.0,
+          "conf": 55,
+          "type": "win",
+          "reason": "This is a big field (17). Ability is not enough if the horse is stuck on the inside or flat-footed when the pace lifts. Ersudaly is the type I want for that job on the form we have. Reserve 3 has 4 rides on the card. Busy jockeys who keep a mount usually know how to place one. Form snapshot: finished second last time. Tramore over 2m 50y. Early speed will decide who has fuel left. So the reason is practical, not mystical: race shape + booking + enough form. Win Ersudaly around 5.00. It carries 11-5 today. Headgear on the card: {'symbol': 'p', 'name': 'Cheek pieces', 'count': 4}.",
+          "stars": 1
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Joshua Chamberlain",
+          "odds": 6.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Joshua Chamberlain is drifting around 6.00 while others are shorter. I am not convinced those shorter prices are earned. What has it done? finished third last time; has been top-three 3 times recently. Figures: 324051. I am happy enough winning at 6.00 if the race falls right. It carries 11-12 today. That is about 11lb more than when it last won \u2014 a real rise in the weights over this longer trip.",
+          "stars": 2
+        }
+      ]
+    },
+    {
+      "course": "Tramore",
+      "time": "15:15",
+      "name": "Ladies Cove Handicap Chase (0-100)",
+      "going": "Soft-heavy in places on hurdle course (inspection 8am)",
+      "distance": "2m 50y",
+      "surface": "turf",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Knockbrack Rambler",
+          "odds": 5.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "Knockbrack Rambler has already shown it can win. The question is whether today's setup lets it do it again. Won last time; has a win in the recent figures. Form on the card: 1858. Trip is 2m 50y. That does not look an obvious mismatch. Ground: Soft-heavy in places on hurdle course. Usable on the information we have. Trained by Brendan Walsh. Put together, there is a clean case for Knockbrack Rambler to be involved \u2014 and at 5.00 I would take it to win. It carries 11-9 today. It gets a small weight drop compared with its last win (3lb). It has had 176 days off, which is a break rather than a quick turnaround. Official rating: 94.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Knockbrack Rambler",
+          "odds": 5.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "People will jump on Revolut Ned at about 3.00 because the name is obvious. Its form is 160730 \u2014 fine, not frightening. I would rather be on Knockbrack Rambler. Knockbrack Rambler won last time and has a win in the recent figures. Its figures read 1858. Phillip Enright is booked \u2014 that does not look like a no-hoper booking. Tramore, 2m 50y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 5.00. It carries 11-9 today. It gets a small weight drop compared with its last win (3lb). It has had 176 days off, which is a break rather than a quick turnaround. Official rating: 94.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Knockbrack Rambler",
+          "odds": 5.0,
+          "conf": 57,
+          "type": "win",
+          "reason": "Knockbrack Rambler gets in on the figures. It won last time. Has a win in the recent figures. The string on the card is 1858. Today is 2m 50y. Ground is Soft-heavy in places on hurdle course. Nothing in the card says that is a hard stop. Big field (17) \u2014 form horses still need a clean trip. Win bet: Knockbrack Rambler, about 5.00. It carries 11-9 today. It gets a small weight drop compared with its last win (3lb). It has had 176 days off, which is a break rather than a quick turnaround. Official rating: 94.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Knockbrack Rambler",
+          "odds": 5.0,
+          "conf": 58,
+          "type": "win",
+          "reason": "Knockbrack Rambler is the Brendan Walsh horse I am interested in. Phillip Enright has a full book (4 rides). This is one of the mounts they bothered to keep. Form check: won last time; has a win in the recent figures. It is Tramore, 2m 50y. I would rather be with this yard's runner at 5.00 than chase a random outsider. It carries 11-9 today. It gets a small weight drop compared with its last win (3lb). It has had 176 days off, which is a break rather than a quick turnaround. Official rating: 94.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Knockbrack Rambler",
+          "odds": 5.0,
+          "conf": 59,
+          "type": "win",
+          "reason": "This is a big field (17). Ability is not enough if the horse is stuck on the inside or flat-footed when the pace lifts. Knockbrack Rambler is the type I want for that job on the form we have. Phillip Enright has 4 rides on the card. Busy jockeys who keep a mount usually know how to place one. Form snapshot: won last time; has a win in the recent figures. Tramore over 2m 50y. Early speed will decide who has fuel left. So the reason is practical, not mystical: race shape + booking + enough form. Win Knockbrack Rambler around 5.00. It carries 11-9 today. It gets a small weight drop compared with its last win (3lb). It has had 176 days off, which is a break rather than a quick turnaround. Official rating: 94.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Knockbrack Rambler",
+          "odds": 5.0,
+          "conf": 62,
+          "type": "win",
+          "reason": "At about 5.00, Knockbrack Rambler is not a crazy price for what is on the card. What has it done? won last time; has a win in the recent figures. Figures: 1858. I am happy enough winning at 5.00 if the race falls right. It carries 11-9 today. It gets a small weight drop compared with its last win (3lb). It has had 176 days off, which is a break rather than a quick turnaround. Official rating: 94.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Tramore",
+      "time": "15:50",
+      "name": "Irish Stallion Farms EBF Mares (Ladies Pro/Am) Flat Race",
+      "going": "Soft-heavy in places on hurdle course (inspection 8am)",
+      "distance": "2m 50y",
+      "surface": "turf",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Shuil Solas",
+          "odds": 4.33,
+          "conf": 54,
+          "type": "win",
+          "reason": "Shuil Solas is not the flashiest name in the race, but the setup looks workable for another solid run. Form on the card: 72295. Trip is 2m 50y. That does not look an obvious mismatch. Ground: Soft-heavy in places on hurdle course. Usable on the information we have. Trained by J & T Kiely. Put together, there is a clean case for Shuil Solas to be involved \u2014 and at 4.33 I would take it to win. It carries 11-11 today.",
+          "stars": 1
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Lest Ye Forget",
+          "odds": 9.0,
+          "conf": 54,
+          "type": "win",
+          "reason": "People will jump on Lady Aurora at about 2.25 because the name is obvious. Its form is P1- \u2014 fine, not frightening. I would rather be on Lest Ye Forget. Lest Ye Forget finished third last time. Its figures read 35. Ms A Power is booked \u2014 that does not look like a no-hoper booking. Tramore, 2m 50y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 9.00. It carries 11-11 today.",
+          "stars": 5
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Lest Ye Forget",
+          "odds": 9.0,
+          "conf": 50,
+          "type": "win",
+          "reason": "Lest Ye Forget gets in on the figures. It finished third last time. The string on the card is 35. Distance today: 2m 50y. That matches the sort of test these figures were earned over well enough. Ground is Soft-heavy in places on hurdle course. Nothing in the card says that is a hard stop. Big field (13) \u2014 form horses still need a clean trip. I would back Lest Ye Forget to win around 9.00. It carries 11-11 today.",
+          "stars": 5
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Lest Ye Forget",
+          "odds": 9.0,
+          "conf": 53,
+          "type": "win",
+          "reason": "Lest Ye Forget is the Patrick Kiely horse I am interested in. Ms A Power is on more than one for the same yard today. That is a deliberate booking, not a spare ride. Form check: finished third last time. It is Tramore, 2m 50y. Back Lest Ye Forget \u2014 win around 9.00. It carries 11-11 today.",
+          "stars": 5
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Lest Ye Forget",
+          "odds": 9.0,
+          "conf": 53,
+          "type": "win",
+          "reason": "This is a big field (13). Ability is not enough if the horse is stuck on the inside or flat-footed when the pace lifts. Lest Ye Forget is the type I want for that job on the form we have. Ms A Power is a good booking if you care about where the horse sits in the run. Form snapshot: finished third last time. Tramore over 2m 50y. Early speed will decide who has fuel left. So the reason is practical, not mystical: race shape + booking + enough form. Win Lest Ye Forget around 9.00. It carries 11-11 today.",
+          "stars": 5
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Lest Ye Forget",
+          "odds": 9.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "Lest Ye Forget is drifting around 9.00 while others are shorter. I am not convinced those shorter prices are earned. What has it done? finished third last time. Figures: 35. Patrick Kiely has 2 today \u2014 not a total blind runner from a quiet yard. I am happy enough winning at 9.00 if the race falls right. It carries 11-11 today.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "course": "Wincanton",
+      "time": "12:53",
+      "name": "Bloomfield & Associate Maiden Hurdle (GBB Race) (Class 4)",
+      "going": "Good to firm-firm in places",
+      "distance": "2m 5f 82y",
+      "surface": "turf",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Just A Heartbeat",
+          "odds": 8.0,
+          "conf": 65,
+          "type": "ew",
+          "reason": "Just A Heartbeat is not the flashiest name in the race, but the setup looks workable for another solid run. Finished second last time; has been top-three 4 times recently. Form on the card: 229922. Trip is 2m 5f 82y. That does not look an obvious mismatch. Ground: Good to firm-firm in places. Usable on the information we have. Trained by H Fry. Put together, there is a clean case for Just A Heartbeat to be involved \u2014 and at 8.00 I would play each-way. It carries 10-11 today. Official rating: 99.",
+          "stars": 3
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Elated",
+          "odds": 8.0,
+          "conf": 68,
+          "type": "ew",
+          "reason": "People will jump on Alan Bresil at about 8.00 because the name is obvious. Its form is 23364 \u2014 fine, not frightening. I would rather be on Elated. Elated finished second last time and has been top-three 5 times recently. Its figures read 22223. Charlie Price is booked \u2014 that does not look like a no-hoper booking. Wincanton, 2m 5f 82y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Each-way at about 8.00. It carries 10-11 today. Official rating: 98.",
+          "stars": 2
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Elated",
+          "odds": 8.0,
+          "conf": 64,
+          "type": "ew",
+          "reason": "The form is the reason I am on Elated \u2014 it finished second last time. Has been top-three 5 times recently. The string on the card is 22223. Distance today: 2m 5f 82y. That matches the sort of test these figures were earned over well enough. Ground is Good to firm-firm in places. Nothing in the card says that is a hard stop. Each-way at about 8.00 is the sensible way to use the form case. It carries 10-11 today. Official rating: 98.",
+          "stars": 2
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Just A Heartbeat",
+          "odds": 8.0,
+          "conf": 64,
+          "type": "ew",
+          "reason": "I am siding with the stable: Just A Heartbeat for H Fry. C P O'Shea is on more than one for the same yard today. That is a deliberate booking, not a spare ride. Form check: finished second last time; has been top-three 4 times recently. It is Wincanton, 2m 5f 82y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. I would rather be with this yard's runner at 8.00 than chase a random outsider. It carries 10-11 today. Official rating: 99.",
+          "stars": 3
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Just A Heartbeat",
+          "odds": 8.0,
+          "conf": 65,
+          "type": "ew",
+          "reason": "With 11 runners the shape of the race still matters. Just A Heartbeat looks suited to how this should be run. C P O'Shea is a good booking if you care about where the horse sits in the run. Form snapshot: finished second last time; has been top-three 4 times recently. Wincanton over 2m 5f 82y. Early speed will decide who has fuel left. So the reason is practical, not mystical: race shape + booking + enough form. Each-way Just A Heartbeat around 8.00. It carries 10-11 today. Official rating: 99.",
+          "stars": 3
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Kilnew Supreme",
+          "odds": 8.0,
+          "conf": 69,
+          "type": "ew",
+          "reason": "At about 8.00, Kilnew Supreme is not a crazy price for what is on the card. What has it done? finished second last time; has been top-three 5 times recently. Figures: 22222. P F Nicholls has 2 today \u2014 not a total blind runner from a quiet yard. Take it each-way at 8.00 and let the place part do some work. It carries 11-4 today. Official rating: 106.",
+          "stars": 1
+        }
+      ]
+    },
+    {
+      "course": "Wincanton",
+      "time": "13:23",
+      "name": "C J Cox Novices' Hurdle (GBB Race) (Class 4)",
+      "going": "Good to firm-firm in places",
+      "distance": "2m 5f 82y",
+      "surface": "turf",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Lady Kluck",
+          "odds": 8.0,
+          "conf": 54,
+          "type": "ew",
+          "reason": "Lady Kluck is not the flashiest name in the race, but the setup looks workable for another solid run. Finished third last time; has been top-three 3 times recently. Form on the card: 35413. Trip is 2m 5f 82y. That does not look an obvious mismatch. Ground: Good to firm-firm in places. Usable on the information we have. Trained by D Pipe. Put together, there is a clean case for Lady Kluck to be involved \u2014 and at 8.00 I would play each-way. It carries 10-7 today. It gets a small weight drop compared with its last win (2lb). It has been off for about 583 days \u2014 a long absence, so fitness is a question.",
+          "stars": 2
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Lady Kluck",
+          "odds": 8.0,
+          "conf": 48,
+          "type": "ew",
+          "reason": "People will jump on Rose Warrior at about 8.00 because the name is obvious. Its form is 144870 \u2014 fine, not frightening. I would rather be on Lady Kluck. Lady Kluck finished third last time and has been top-three 3 times recently. Its figures read 35413. Wincanton, 2m 5f 82y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Each-way at about 8.00. It carries 10-7 today. It gets a small weight drop compared with its last win (2lb). It has been off for about 583 days \u2014 a long absence, so fitness is a question.",
+          "stars": 2
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Unflappable",
+          "odds": 8.0,
+          "conf": 52,
+          "type": "win",
+          "reason": "Unflappable gets in on the figures. It has been top-three 3 times recently. The string on the card is 8233. Distance today: 2m 5f 82y. That matches the sort of test these figures were earned over well enough. Ground is Good to firm-firm in places. Nothing in the card says that is a hard stop. Big field (19) \u2014 form horses still need a clean trip. I would back Unflappable to win around 8.00. It carries 10-7 today.",
+          "stars": 1
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Squib",
+          "odds": 8.0,
+          "conf": 53,
+          "type": "win",
+          "reason": "J Tizzard has turned up with 4 runners today. When a yard saturates a meeting like that, I pay attention \u2014 and Squib is the one I want from them in this race. Freddie Gingell is on more than one for the same yard today. That is a deliberate booking, not a spare ride. It is Wincanton, 2m 5f 82y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. I would rather be with this yard's runner at 8.00 than chase a random outsider. It carries 11-0 today.",
+          "stars": 1
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Horethorne",
+          "odds": 8.0,
+          "conf": 53,
+          "type": "win",
+          "reason": "This is a big field (19). Ability is not enough if the horse is stuck on the inside or flat-footed when the pace lifts. Horethorne is the type I want for that job on the form we have. Freddie Gingell is a good booking if you care about where the horse sits in the run. Wincanton over 2m 5f 82y. Early speed will decide who has fuel left. So the reason is practical, not mystical: race shape + booking + enough form. Win Horethorne around 8.00. It carries 11-0 today.",
+          "stars": 1
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Trojan Truth",
+          "odds": 8.0,
+          "conf": 56,
+          "type": "win",
+          "reason": "At about 8.00, Trojan Truth is not a crazy price for what is on the card. Form on the page is light, so this is a price-led idea rather than a form napkin job. E De Giles has 2 today \u2014 not a total blind runner from a quiet yard. I am happy enough winning at 8.00 if the race falls right. It carries 11-0 today.",
+          "stars": 1
+        }
+      ]
+    },
+    {
+      "course": "Wincanton",
+      "time": "13:53",
+      "name": "Woolley & Wallis Novices' Limited Handicap Hurdle (Class 5)",
+      "going": "Good to firm-firm in places",
+      "distance": "2m 5f 82y",
+      "surface": "turf",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Seventeenothree",
+          "odds": 8.0,
+          "conf": 59,
+          "type": "ew",
+          "reason": "Seventeenothree has already shown it can win. The question is whether today's setup lets it do it again. Won last time; has a win in the recent figures. Form on the card: 196680. Trip is 2m 5f 82y. That does not look an obvious mismatch. Ground: Good to firm-firm in places. Usable on the information we have. Trained by K Woollacott. Put together, there is a clean case for Seventeenothree to be involved \u2014 and at 8.00 I would play each-way. It carries 10-4 today. It is down about 10lb on its last winning weight, which is a help. It has been off for about 232 days \u2014 a long absence, so fitness is a question. Official rating: 71.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Seventeenothree",
+          "odds": 8.0,
+          "conf": 62,
+          "type": "ew",
+          "reason": "People will jump on The Brave Guy at about 8.00 because the name is obvious. Its form is 6597 \u2014 fine, not frightening. I would rather be on Seventeenothree. Seventeenothree won last time and has a win in the recent figures. Its figures read 196680. Wincanton, 2m 5f 82y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Each-way at about 8.00. It carries 10-4 today. It is down about 10lb on its last winning weight, which is a help. It has been off for about 232 days \u2014 a long absence, so fitness is a question. Official rating: 71.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Seventeenothree",
+          "odds": 8.0,
+          "conf": 63,
+          "type": "ew",
+          "reason": "Start with the form: Seventeenothree won last time. Has a win in the recent figures. The string on the card is 196680. Distance today: 2m 5f 82y. That matches the sort of test these figures were earned over well enough. Ground is Good to firm-firm in places. Nothing in the card says that is a hard stop. Big field (21) \u2014 form horses still need a clean trip. Each-way at about 8.00 is the sensible way to use the form case. It carries 10-4 today. It is down about 10lb on its last winning weight, which is a help. It has been off for about 232 days \u2014 a long absence, so fitness is a question. Official rating: 71.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Seventeenothree",
+          "odds": 8.0,
+          "conf": 59,
+          "type": "ew",
+          "reason": "I am siding with the stable: Seventeenothree for K Woollacott. Form check: won last time; has a win in the recent figures. It is Wincanton, 2m 5f 82y. Back Seventeenothree \u2014 win around 8.00. Each-way if you prefer. It carries 10-4 today. It is down about 10lb on its last winning weight, which is a help. It has been off for about 232 days \u2014 a long absence, so fitness is a question. Official rating: 71.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Seventeenothree",
+          "odds": 8.0,
+          "conf": 60,
+          "type": "ew",
+          "reason": "This is a big field (21). Ability is not enough if the horse is stuck on the inside or flat-footed when the pace lifts. Seventeenothree is the type I want for that job on the form we have. Form snapshot: won last time; has a win in the recent figures. Wincanton over 2m 5f 82y. Early speed will decide who has fuel left. So the reason is practical, not mystical: race shape + booking + enough form. Each-way Seventeenothree around 8.00. It carries 10-4 today. It is down about 10lb on its last winning weight, which is a help. It has been off for about 232 days \u2014 a long absence, so fitness is a question. Official rating: 71.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Seventeenothree",
+          "odds": 8.0,
+          "conf": 65,
+          "type": "ew",
+          "reason": "At about 8.00, Seventeenothree is not a crazy price for what is on the card. What has it done? won last time; has a win in the recent figures. Figures: 196680. K Woollacott has 2 today \u2014 not a total blind runner from a quiet yard. Take it each-way at 8.00 and let the place part do some work. It carries 10-4 today. It is down about 10lb on its last winning weight, which is a help. It has been off for about 232 days \u2014 a long absence, so fitness is a question. Official rating: 71.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Wincanton",
+      "time": "14:23",
+      "name": "Barbers 1833 X Mares' Handicap Hurdle (Class 5)",
+      "going": "Good to firm-firm in places",
+      "distance": "2m 5f 82y",
+      "surface": "turf",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Just A Heartbeat",
+          "odds": 8.0,
+          "conf": 64,
+          "type": "ew",
+          "reason": "Just A Heartbeat is not the flashiest name in the race, but the setup looks workable for another solid run. Finished second last time; has been top-three 4 times recently. Form on the card: 229922. Trip is 2m 5f 82y. That does not look an obvious mismatch. Ground: Good to firm-firm in places. Usable on the information we have. Trained by H Fry. Put together, there is a clean case for Just A Heartbeat to be involved \u2014 and at 8.00 I would play each-way. It carries 12-0 today. Official rating: 99.",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Seventeenothree",
+          "odds": 8.0,
+          "conf": 66,
+          "type": "ew",
+          "reason": "People will jump on Just A Heartbeat at about 8.00 because the name is obvious. Its form is 229922 \u2014 fine, not frightening. I would rather be on Seventeenothree. Seventeenothree won last time and has a win in the recent figures. Its figures read 196680. Wincanton, 2m 5f 82y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Each-way at about 8.00. It carries 10-0 today. It is down about 14lb on its last winning weight, which is a help. It has been off for about 232 days \u2014 a long absence, so fitness is a question. Official rating: 71.",
+          "stars": 2
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Just A Heartbeat",
+          "odds": 8.0,
+          "conf": 66,
+          "type": "ew",
+          "reason": "Start with the form: Just A Heartbeat finished second last time. Has been top-three 4 times recently. The string on the card is 229922. Today is 2m 5f 82y. Ground is Good to firm-firm in places. Nothing in the card says that is a hard stop. Each-way at about 8.00 is the sensible way to use the form case. It carries 12-0 today. Official rating: 99.",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Just A Heartbeat",
+          "odds": 8.0,
+          "conf": 65,
+          "type": "ew",
+          "reason": "I am siding with the stable: Just A Heartbeat for H Fry. C P O'Shea is on more than one for the same yard today. That is a deliberate booking, not a spare ride. Form check: finished second last time; has been top-three 4 times recently. It is Wincanton, 2m 5f 82y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. I would rather be with this yard's runner at 8.00 than chase a random outsider. It carries 12-0 today. Official rating: 99.",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Just A Heartbeat",
+          "odds": 8.0,
+          "conf": 65,
+          "type": "ew",
+          "reason": "With 9 runners the shape of the race still matters. Just A Heartbeat looks suited to how this should be run. C P O'Shea is a good booking if you care about where the horse sits in the run. Form snapshot: finished second last time; has been top-three 4 times recently. Wincanton over 2m 5f 82y. Early speed will decide who has fuel left. So the reason is practical, not mystical: race shape + booking + enough form. Each-way Just A Heartbeat around 8.00. It carries 12-0 today. Official rating: 99.",
+          "stars": 4
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Seventeenothree",
+          "odds": 8.0,
+          "conf": 67,
+          "type": "ew",
+          "reason": "At about 8.00, Seventeenothree is not a crazy price for what is on the card. What has it done? won last time; has a win in the recent figures. Figures: 196680. K Woollacott has 2 today \u2014 not a total blind runner from a quiet yard. Take it each-way at 8.00 and let the place part do some work. It carries 10-0 today. It is down about 14lb on its last winning weight, which is a help. It has been off for about 232 days \u2014 a long absence, so fitness is a question. Official rating: 71.",
+          "stars": 2
+        }
+      ]
+    },
+    {
+      "course": "Wincanton",
+      "time": "14:53",
+      "name": "Friars Moor Livestock Health Handicap Hurdle (Class 5)",
+      "going": "Good to firm-firm in places",
+      "distance": "2m 5f 82y",
+      "surface": "turf",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Expert Analysis",
+          "odds": 8.0,
+          "conf": 61,
+          "type": "ew",
+          "reason": "Expert Analysis is not the flashiest name in the race, but the setup looks workable for another solid run. Finished third last time; has been top-three 5 times recently. Form on the card: 33323. Trip is 2m 5f 82y. That does not look an obvious mismatch. Ground: Good to firm-firm in places. Usable on the information we have. Trained by J Candlish. Put together, there is a clean case for Expert Analysis to be involved \u2014 and at 8.00 I would play each-way. It carries 11-12 today. Official rating: 98.",
+          "stars": 6
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Expert Analysis",
+          "odds": 8.0,
+          "conf": 54,
+          "type": "ew",
+          "reason": "People will jump on Imperial Trooper at about 8.00 because the name is obvious. Its form is 338356 \u2014 fine, not frightening. I would rather be on Expert Analysis. Expert Analysis finished third last time and has been top-three 5 times recently. Its figures read 33323. Wincanton, 2m 5f 82y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Each-way at about 8.00. It carries 11-12 today. Official rating: 98.",
+          "stars": 6
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Expert Analysis",
+          "odds": 8.0,
+          "conf": 60,
+          "type": "ew",
+          "reason": "The form is the reason I am on Expert Analysis \u2014 it finished third last time. Has been top-three 5 times recently. The string on the card is 33323. Distance today: 2m 5f 82y. That matches the sort of test these figures were earned over well enough. Ground is Good to firm-firm in places. Nothing in the card says that is a hard stop. Big field (20) \u2014 form horses still need a clean trip. Each-way at about 8.00 is the sensible way to use the form case. It carries 11-12 today. Official rating: 98.",
+          "stars": 6
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Expert Analysis",
+          "odds": 8.0,
+          "conf": 56,
+          "type": "ew",
+          "reason": "J Candlish has turned up with 11 runners today. When a yard saturates a meeting like that, I pay attention \u2014 and Expert Analysis is the one I want from them in this race. Form check: finished third last time; has been top-three 5 times recently. It is Wincanton, 2m 5f 82y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. Back Expert Analysis \u2014 win around 8.00. Each-way if you prefer. It carries 11-12 today. Official rating: 98.",
+          "stars": 6
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Expert Analysis",
+          "odds": 8.0,
+          "conf": 58,
+          "type": "ew",
+          "reason": "This is a big field (20). Ability is not enough if the horse is stuck on the inside or flat-footed when the pace lifts. Expert Analysis is the type I want for that job on the form we have. Form snapshot: finished third last time; has been top-three 5 times recently. Wincanton over 2m 5f 82y. Early speed will decide who has fuel left. So the reason is practical, not mystical: race shape + booking + enough form. Each-way Expert Analysis around 8.00. It carries 11-12 today. Official rating: 98.",
+          "stars": 6
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Expert Analysis",
+          "odds": 8.0,
+          "conf": 64,
+          "type": "ew",
+          "reason": "At about 8.00, Expert Analysis is not a crazy price for what is on the card. What has it done? finished third last time; has been top-three 5 times recently. Figures: 33323. J Candlish has 11 today \u2014 not a total blind runner from a quiet yard. Take it each-way at 8.00 and let the place part do some work. It carries 11-12 today. Official rating: 98.",
+          "stars": 6
+        }
+      ]
+    },
+    {
+      "course": "Wincanton",
+      "time": "15:23",
+      "name": "Killens 'Junior' NH Flat Race (GBB Race) (Class 4)",
+      "going": "Good to firm-firm in places",
+      "distance": "2m 5f 82y",
+      "surface": "turf",
+      "code": "unknown",
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Albatross The Ace",
+          "odds": 8.0,
+          "conf": 52,
+          "type": "win",
+          "reason": "Albatross The Ace has already shown it can win. The question is whether today's setup lets it do it again. Has a win in the recent figures. Form on the card: 51. Trip is 2m 5f 82y. That does not look an obvious mismatch. Ground: Good to firm-firm in places. Usable on the information we have. Trained by I Furtado. Put together, there is a clean case for Albatross The Ace to be involved \u2014 and at 8.00 I would take it to win. It carries 11-9 today. That is about 7lb more than when it last won \u2014 a real rise in the weights over this longer trip.",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Albatross The Ace",
+          "odds": 8.0,
+          "conf": 47,
+          "type": "win",
+          "reason": "I am against the crowd in this one and on Albatross The Ace. Albatross The Ace has a win in the recent figures. Its figures read 51. William Shanahan is booked \u2014 that does not look like a no-hoper booking. Wincanton, 2m 5f 82y. Plain English: the favourite is not a good enough thing to force me off a horse whose own form still stands up. Win at about 8.00. It carries 11-9 today. That is about 7lb more than when it last won \u2014 a real rise in the weights over this longer trip.",
+          "stars": 4
+        },
+        {
+          "bot": "FormFox",
+          "horse": "Albatross The Ace",
+          "odds": 8.0,
+          "conf": 49,
+          "type": "win",
+          "reason": "Albatross The Ace gets in on the figures. It has a win in the recent figures. The string on the card is 51. Today is 2m 5f 82y. Ground is Good to firm-firm in places. Nothing in the card says that is a hard stop. Win bet: Albatross The Ace, about 8.00. It carries 11-9 today. That is about 7lb more than when it last won \u2014 a real rise in the weights over this longer trip.",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Albatross The Ace",
+          "odds": 8.0,
+          "conf": 51,
+          "type": "win",
+          "reason": "I Furtado has turned up with 4 runners today. When a yard saturates a meeting like that, I pay attention \u2014 and Albatross The Ace is the one I want from them in this race. William Shanahan rides. Form check: has a win in the recent figures. It is Wincanton, 2m 5f 82y. A busy day sheet does not guarantee a winner, but it is real information: the yard is here to be competitive. I would rather be with this yard's runner at 8.00 than chase a random outsider. It carries 11-9 today. That is about 7lb more than when it last won \u2014 a real rise in the weights over this longer trip.",
+          "stars": 4
+        },
+        {
+          "bot": "PaceProphet",
+          "horse": "Fancymeetinguhere",
+          "odds": 8.0,
+          "conf": 51,
+          "type": "win",
+          "reason": "With 10 runners the shape of the race still matters. Fancymeetinguhere looks suited to how this should be run. Benjamin Poste has 3 rides on the card. Busy jockeys who keep a mount usually know how to place one. Wincanton over 2m 5f 82y. Early speed will decide who has fuel left. So the reason is practical, not mystical: race shape + booking + enough form. Win Fancymeetinguhere around 8.00. It carries 10-9 today.",
+          "stars": 1
+        },
+        {
+          "bot": "ValueHunter",
+          "horse": "Come With Me Now",
+          "odds": 8.0,
+          "conf": 54,
+          "type": "win",
+          "reason": "At about 8.00, Come With Me Now is not a crazy price for what is on the card. Form on the page is light, so this is a price-led idea rather than a form napkin job. S Hosie has 6 today \u2014 not a total blind runner from a quiet yard. I am happy enough winning at 8.00 if the race falls right. It carries 11-2 today.",
+          "stars": 1
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-11-24T09:00:58.238792Z",
+  "note": "Human-style reasons; day trainer/jockey books; surface + trip aware",
+  "published": true
 }
