@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
   "source": "sportinglife",
-  "scraped_at": "2026-11-24T18:27:49.169613Z",
+  "scraped_at": "2026-11-24T20:35:29.513208Z",
   "meetings": [
     {
       "course": "Lingfield",
@@ -1633,6 +1633,320 @@
               "position": 8,
               "status": "RUNNER",
               "sp": 67.0
+            }
+          ]
+        },
+        {
+          "time": "18:30",
+          "name": "AWC Finals Day At Newcastle 26th March Nursery (GBBPlusRace)",
+          "course": "Wolverhampton",
+          "distance": "1m 142y",
+          "going": "Standard",
+          "field_size": 4,
+          "runners": [
+            {
+              "name": "National Pride",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 2.62
+            },
+            {
+              "name": "Happy Love",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 1.83
+            },
+            {
+              "name": "High Calibre",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 7.0
+            },
+            {
+              "name": "Capricious Star",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 5.5
+            }
+          ]
+        },
+        {
+          "time": "19:00",
+          "name": "Midnite: Built For 2026 Not 2006 Handicap",
+          "course": "Wolverhampton",
+          "distance": "6f 20y",
+          "going": "Standard",
+          "field_size": 10,
+          "runners": [
+            {
+              "name": "Dandana",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 8.0
+            },
+            {
+              "name": "Purosangue",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 7.0
+            },
+            {
+              "name": "Desert Falcon",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 10.0
+            },
+            {
+              "name": "Alfa Kellenic",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 8.5
+            },
+            {
+              "name": "Silent Strike",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Another Abbot",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 3.25
+            },
+            {
+              "name": "Bolo Neighs",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 9.0
+            },
+            {
+              "name": "One And Gone",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 34.0
+            },
+            {
+              "name": "Harry Three",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 34.0
+            },
+            {
+              "name": "Yes I'm Mali",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 11.0
+            }
+          ]
+        },
+        {
+          "time": "19:30",
+          "name": "AWC Season 14 Has Begun Fillies' Handicap",
+          "course": "Wolverhampton",
+          "distance": "7f 36y",
+          "going": "Standard",
+          "field_size": 11,
+          "runners": [
+            {
+              "name": "Ghisa",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Um Wadi",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 3.25
+            },
+            {
+              "name": "Queue Dos",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Enola Grey",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Maldevious",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "Ice Sovereigns",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Inside Story",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 12.0
+            },
+            {
+              "name": "Merry",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Nanoscience",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 7.5
+            },
+            {
+              "name": "Queen Tamara",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Chantelle",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 7.0
+            }
+          ]
+        },
+        {
+          "time": "20:00",
+          "name": "Midnite Built Different Handicap (GBBPlus Race)",
+          "course": "Wolverhampton",
+          "distance": "1m 5f 219y",
+          "going": "Standard",
+          "field_size": 9,
+          "runners": [
+            {
+              "name": "Quebella",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 4.0
+            },
+            {
+              "name": "Must Believe",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 4.33
+            },
+            {
+              "name": "Senor Cortez",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Wonder",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 12.0
+            },
+            {
+              "name": "Oneforthegutter",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 15.0
+            },
+            {
+              "name": "Yaa Min",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Codiak",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Flagbearer",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Midnight Rumble",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 126.0
+            }
+          ]
+        },
+        {
+          "time": "20:30",
+          "name": "Midnite A Next Generation Betting App Handicap",
+          "course": "Wolverhampton",
+          "distance": "5f 21y",
+          "going": "Standard",
+          "field_size": 10,
+          "runners": [
+            {
+              "name": "Moe's Legacy",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Rye",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 9.0
+            },
+            {
+              "name": "Showtime Mahomes",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 7.0
+            },
+            {
+              "name": "Beaumadier",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 10.0
+            },
+            {
+              "name": "Maharajas Express",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 3.5
+            },
+            {
+              "name": "Campenaerts",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Truly Glamorous",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "Burdett Estate",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Grandlad",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 6.0
+            },
+            {
+              "name": "Sunlit Sea",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 7.0
             }
           ]
         }

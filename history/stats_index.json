@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-24T18:27:49.388166+00:00",
-  "runs": 637,
+  "updated_at": "2026-11-24T20:35:29.745602+00:00",
+  "runs": 681,
   "trainer_course": {
     "celongsdon|huntingdon": {
       "wins": 0,
@@ -628,9 +628,9 @@
       "rate": 0.1067
     },
     "cfellowes|wolverhampton": {
-      "wins": 1,
-      "n": 3,
-      "rate": 0.1782
+      "wins": 2,
+      "n": 4,
+      "rate": 0.2467
     },
     "hjevans|wolverhampton": {
       "wins": 0,
@@ -659,8 +659,8 @@
     },
     "ianwilliams|wolverhampton": {
       "wins": 1,
-      "n": 5,
-      "rate": 0.1508
+      "n": 8,
+      "rate": 0.1225
     },
     "mickyhammond|wolverhampton": {
       "wins": 0,
@@ -674,8 +674,8 @@
     },
     "domeara|wolverhampton": {
       "wins": 1,
-      "n": 2,
-      "rate": 0.196
+      "n": 3,
+      "rate": 0.1782
     },
     "joeyramsden|wolverhampton": {
       "wins": 0,
@@ -699,8 +699,8 @@
     },
     "krburke|wolverhampton": {
       "wins": 0,
-      "n": 3,
-      "rate": 0.0873
+      "n": 4,
+      "rate": 0.08
     },
     "mptregoning|wolverhampton": {
       "wins": 1,
@@ -734,8 +734,8 @@
     },
     "cgcox|wolverhampton": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "imohammedjsantos|wolverhampton": {
       "wins": 1,
@@ -744,8 +744,8 @@
     },
     "hayleyburton|wolverhampton": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "mrsachamilton|wolverhampton": {
       "wins": 0,
@@ -774,13 +774,13 @@
     },
     "rhannon|wolverhampton": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "cjohnston|wolverhampton": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "rstephens|wolverhampton": {
       "wins": 0,
@@ -794,13 +794,13 @@
     },
     "sirmarkprescott|wolverhampton": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 3,
+      "rate": 0.0873
     },
     "awcarroll|wolverhampton": {
       "wins": 0,
-      "n": 5,
-      "rate": 0.0738
+      "n": 6,
+      "rate": 0.0686
     },
     "sengland|wolverhampton": {
       "wins": 0,
@@ -839,8 +839,8 @@
     },
     "dmloughnane|wolverhampton": {
       "wins": 0,
-      "n": 4,
-      "rate": 0.08
+      "n": 5,
+      "rate": 0.0738
     },
     "jgmoshea|wolverhampton": {
       "wins": 1,
@@ -884,8 +884,8 @@
     },
     "jrfanshawe|wolverhampton": {
       "wins": 0,
-      "n": 3,
-      "rate": 0.0873
+      "n": 4,
+      "rate": 0.08
     },
     "tkent|wolverhampton": {
       "wins": 0,
@@ -909,8 +909,8 @@
     },
     "georgebaker|wolverhampton": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "ambalding|lingfield": {
       "wins": 1,
@@ -1859,18 +1859,18 @@
     },
     "gtutty|wolverhampton": {
       "wins": 1,
-      "n": 1,
-      "rate": 0.2178
+      "n": 2,
+      "rate": 0.196
     },
     "missjacamacho|wolverhampton": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "cmason|wolverhampton": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "mrsrcarr|wolverhampton": {
       "wins": 0,
@@ -1884,8 +1884,8 @@
     },
     "ifurtado|wolverhampton": {
       "wins": 0,
-      "n": 2,
-      "rate": 0.096
+      "n": 3,
+      "rate": 0.0873
     },
     "wmuircgrassick|wolverhampton": {
       "wins": 0,
@@ -1929,8 +1929,8 @@
     },
     "ambalding|wolverhampton": {
       "wins": 1,
-      "n": 2,
-      "rate": 0.196
+      "n": 4,
+      "rate": 0.1633
     },
     "ewalker|wolverhampton": {
       "wins": 0,
@@ -1939,8 +1939,8 @@
     },
     "jameshorton|wolverhampton": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 3,
+      "rate": 0.0873
     },
     "jtgosden|wolverhampton": {
       "wins": 0,
@@ -1949,10 +1949,90 @@
     },
     "jgportman|wolverhampton": {
       "wins": 0,
+      "n": 2,
+      "rate": 0.096
+    },
+    "wjhaggas|wolverhampton": {
+      "wins": 1,
+      "n": 4,
+      "rate": 0.1633
+    },
+    "rmhcowell|wolverhampton": {
+      "wins": 0,
       "n": 1,
       "rate": 0.1067
     },
-    "wjhaggas|wolverhampton": {
+    "scrisford|wolverhampton": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "rmbeckett|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "bellison|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "rafahey|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "harrycharlton|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "jsmoore|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "jtate|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "gboughey|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "owenburrows|wolverhampton": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "ebethell|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "ddonovan|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "jcoulson|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "briantoomey|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "rharris|wolverhampton": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "granttuer|wolverhampton": {
       "wins": 0,
       "n": 1,
       "rate": 0.1067
@@ -3183,8 +3263,8 @@
     },
     "missjacamacho|AW": {
       "wins": 0,
-      "n": 5,
-      "rate": 0.0738
+      "n": 6,
+      "rate": 0.0686
     },
     "lrussellmscudamore|AW": {
       "wins": 0,
@@ -3203,8 +3283,8 @@
     },
     "ianwilliams|AW": {
       "wins": 1,
-      "n": 8,
-      "rate": 0.1225
+      "n": 11,
+      "rate": 0.1032
     },
     "groldroyd|AW": {
       "wins": 0,
@@ -3212,14 +3292,14 @@
       "rate": 0.1067
     },
     "wjhaggas|AW": {
-      "wins": 0,
-      "n": 5,
-      "rate": 0.0738
+      "wins": 1,
+      "n": 8,
+      "rate": 0.1225
     },
     "gboughey|AW": {
       "wins": 1,
-      "n": 5,
-      "rate": 0.1508
+      "n": 6,
+      "rate": 0.14
     },
     "olliepears|AW": {
       "wins": 0,
@@ -3238,8 +3318,8 @@
     },
     "gtutty|AW": {
       "wins": 1,
-      "n": 2,
-      "rate": 0.196
+      "n": 3,
+      "rate": 0.1782
     },
     "jcandlish|AW": {
       "wins": 1,
@@ -3253,8 +3333,8 @@
     },
     "ebethell|AW": {
       "wins": 0,
-      "n": 2,
-      "rate": 0.096
+      "n": 3,
+      "rate": 0.0873
     },
     "mappleby|AW": {
       "wins": 0,
@@ -3313,13 +3393,13 @@
     },
     "rafahey|AW": {
       "wins": 0,
-      "n": 3,
-      "rate": 0.0873
+      "n": 4,
+      "rate": 0.08
     },
     "krburke|AW": {
       "wins": 0,
-      "n": 4,
-      "rate": 0.08
+      "n": 5,
+      "rate": 0.0738
     },
     "rvarian|AW": {
       "wins": 1,
@@ -3363,8 +3443,8 @@
     },
     "awcarroll|AW": {
       "wins": 1,
-      "n": 11,
-      "rate": 0.1032
+      "n": 12,
+      "rate": 0.098
     },
     "helencuthbert|AW": {
       "wins": 0,
@@ -3388,8 +3468,8 @@
     },
     "granttuer|AW": {
       "wins": 0,
-      "n": 2,
-      "rate": 0.096
+      "n": 3,
+      "rate": 0.0873
     },
     "ptmidgley|AW": {
       "wins": 0,
@@ -3438,8 +3518,8 @@
     },
     "bellison|AW": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "dwwhillans|AW": {
       "wins": 0,
@@ -3453,8 +3533,8 @@
     },
     "ifurtado|AW": {
       "wins": 0,
-      "n": 3,
-      "rate": 0.0873
+      "n": 4,
+      "rate": 0.08
     },
     "garyrutherford|AW": {
       "wins": 0,
@@ -3462,9 +3542,9 @@
       "rate": 0.1067
     },
     "cfellowes|AW": {
-      "wins": 1,
-      "n": 3,
-      "rate": 0.1782
+      "wins": 2,
+      "n": 4,
+      "rate": 0.2467
     },
     "hjevans|AW": {
       "wins": 0,
@@ -3503,8 +3583,8 @@
     },
     "domeara|AW": {
       "wins": 1,
-      "n": 2,
-      "rate": 0.196
+      "n": 3,
+      "rate": 0.1782
     },
     "joeyramsden|AW": {
       "wins": 0,
@@ -3543,8 +3623,8 @@
     },
     "cgcox|AW": {
       "wins": 1,
-      "n": 2,
-      "rate": 0.196
+      "n": 3,
+      "rate": 0.1782
     },
     "imohammedjsantos|AW": {
       "wins": 1,
@@ -3553,8 +3633,8 @@
     },
     "hayleyburton|AW": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "mrsachamilton|AW": {
       "wins": 0,
@@ -3583,13 +3663,13 @@
     },
     "rhannon|AW": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "cjohnston|AW": {
       "wins": 0,
-      "n": 3,
-      "rate": 0.0873
+      "n": 4,
+      "rate": 0.08
     },
     "rstephens|AW": {
       "wins": 0,
@@ -3603,8 +3683,8 @@
     },
     "sirmarkprescott|AW": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 3,
+      "rate": 0.0873
     },
     "sengland|AW": {
       "wins": 0,
@@ -3643,8 +3723,8 @@
     },
     "dmloughnane|AW": {
       "wins": 0,
-      "n": 7,
-      "rate": 0.064
+      "n": 8,
+      "rate": 0.06
     },
     "jgmoshea|AW": {
       "wins": 1,
@@ -3683,8 +3763,8 @@
     },
     "jrfanshawe|AW": {
       "wins": 0,
-      "n": 3,
-      "rate": 0.0873
+      "n": 4,
+      "rate": 0.08
     },
     "tkent|AW": {
       "wins": 0,
@@ -3698,13 +3778,13 @@
     },
     "georgebaker|AW": {
       "wins": 0,
-      "n": 2,
-      "rate": 0.096
+      "n": 3,
+      "rate": 0.0873
     },
     "ambalding|AW": {
       "wins": 2,
-      "n": 3,
-      "rate": 0.2691
+      "n": 5,
+      "rate": 0.2277
     },
     "jscott|AW": {
       "wins": 0,
@@ -3733,8 +3813,8 @@
     },
     "jsmoore|AW": {
       "wins": 0,
-      "n": 2,
-      "rate": 0.096
+      "n": 3,
+      "rate": 0.0873
     },
     "dkivory|AW": {
       "wins": 0,
@@ -3818,8 +3898,8 @@
     },
     "jtate|AW": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "janechapplehyam|AW": {
       "wins": 0,
@@ -3973,8 +4053,8 @@
     },
     "jgportman|AW": {
       "wins": 0,
-      "n": 2,
-      "rate": 0.096
+      "n": 3,
+      "rate": 0.0873
     },
     "hmorrison|AW": {
       "wins": 0,
@@ -4418,8 +4498,8 @@
     },
     "cmason|AW": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "jackmorland|AW": {
       "wins": 1,
@@ -4448,13 +4528,58 @@
     },
     "jameshorton|AW": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 3,
+      "rate": 0.0873
     },
     "jtgosden|AW": {
       "wins": 0,
       "n": 2,
       "rate": 0.096
+    },
+    "rmhcowell|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "scrisford|AW": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "rmbeckett|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "harrycharlton|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "owenburrows|AW": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "ddonovan|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "jcoulson|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "briantoomey|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "rharris|AW": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
     }
   },
   "jockey_trainer": {
@@ -4934,14 +5059,14 @@
       "rate": 0.1067
     },
     "cierenfallon|wjhaggas": {
-      "wins": 0,
-      "n": 4,
-      "rate": 0.08
+      "wins": 1,
+      "n": 7,
+      "rate": 0.1307
     },
     "billyloughnane|gboughey": {
       "wins": 1,
-      "n": 3,
-      "rate": 0.1782
+      "n": 4,
+      "rate": 0.1633
     },
     "camhardie|olliepears": {
       "wins": 0,
@@ -4975,13 +5100,13 @@
     },
     "ryansexton|missjacamacho": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "ojorr|ebethell": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "kstott|mappleby": {
       "wins": 0,
@@ -5245,8 +5370,8 @@
     },
     "billyloughnane|ianwilliams": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "gregfairley|garyrutherford": {
       "wins": 0,
@@ -5254,9 +5379,9 @@
       "rate": 0.1067
     },
     "paddybradley|cfellowes": {
-      "wins": 1,
-      "n": 2,
-      "rate": 0.196
+      "wins": 2,
+      "n": 3,
+      "rate": 0.2691
     },
     "joeleavy|hjevans": {
       "wins": 0,
@@ -5285,8 +5410,8 @@
     },
     "ryankavanagh|ianwilliams": {
       "wins": 1,
-      "n": 2,
-      "rate": 0.196
+      "n": 3,
+      "rate": 0.1782
     },
     "aidenbrookes|mickyhammond": {
       "wins": 0,
@@ -5325,8 +5450,8 @@
     },
     "clee|krburke": {
       "wins": 0,
-      "n": 3,
-      "rate": 0.0873
+      "n": 4,
+      "rate": 0.08
     },
     "dccostello|mptregoning": {
       "wins": 1,
@@ -5455,8 +5580,8 @@
     },
     "lmorris|sirmarkprescott": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 3,
+      "rate": 0.0873
     },
     "mollygunn|awcarroll": {
       "wins": 0,
@@ -5515,8 +5640,8 @@
     },
     "hoperegan|dmloughnane": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "lmorris|dmloughnane": {
       "wins": 0,
@@ -6945,8 +7070,8 @@
     },
     "callumhutchinson|ambalding": {
       "wins": 1,
-      "n": 2,
-      "rate": 0.196
+      "n": 4,
+      "rate": 0.1633
     },
     "kshoemark|ewalker": {
       "wins": 0,
@@ -6955,8 +7080,8 @@
     },
     "danielmuscutt|jameshorton": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 3,
+      "rate": 0.0873
     },
     "lukecatton|jtgosden": {
       "wins": 0,
@@ -6974,6 +7099,136 @@
       "rate": 0.1067
     },
     "robhornby|jgportman": {
+      "wins": 0,
+      "n": 2,
+      "rate": 0.096
+    },
+    "joeleavy|rhannon": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "billyloughnane|cjohnston": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "lmorris|ifurtado": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "kshoemark|cgcox": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "markwinn|domeara": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "billyloughnane|rmhcowell": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "callumrodriguez|scrisford": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "rhysclutterbuck|rmbeckett": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "harryrussell|bellison": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "shanegray|rafahey": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "lauracoughlan|gtutty": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "callumrodriguez|harrycharlton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "alexandraegan|jsmoore": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "clee|jtate": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "callumrodriguez|owenburrows": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "lmorris|ianwilliams": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "billyloughnane|georgebaker": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "holliedoyle|ddonovan": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "joeleavy|jcoulson": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "georgewood|jrfanshawe": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "darraghkeenan|hayleyburton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "ginamangan|cmason": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "kshoemark|briantoomey": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "holliedoyle|awcarroll": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "cierenfallon|rharris": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "laurapearson|granttuer": {
       "wins": 0,
       "n": 1,
       "rate": 0.1067
@@ -8037,8 +8292,8 @@
     },
     "capriciousstar|wolverhampton": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "orchardhatches|wolverhampton": {
       "wins": 1,
@@ -10164,6 +10419,221 @@
       "wins": 0,
       "n": 1,
       "rate": 0.1067
+    },
+    "nationalpride|wolverhampton": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "highcalibre|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "happylove|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "alfakellenic|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "silentstrike|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "harrythree|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "yesimmali|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "oneandgone|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "purosangue|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "dandana|wolverhampton": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "desertfalcon|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "boloneighs|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "anotherabbot|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "maldevious|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "icesovereigns|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "chantelle|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "enolagrey|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "merry|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "ghisa|wolverhampton": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "queentamara|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "queuedos|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "nanoscience|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "insidestory|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "umwadi|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "quebella|wolverhampton": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "oneforthegutter|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "mustbelieve|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "flagbearer|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "codiak|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "senorcortez|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "midnightrumble|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "wonder|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "yaamin|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "maharajasexpress|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "campenaerts|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "trulyglamorous|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "burdettestate|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "rye|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "moeslegacy|wolverhampton": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "grandlad|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "sunlitsea|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "showtimemahomes|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "beaumadier|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "horse_surface": {
@@ -11224,8 +11694,8 @@
     },
     "capriciousstar|AW": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "orchardhatches|AW": {
       "wins": 1,
@@ -13343,6 +13813,221 @@
       "rate": 0.1067
     },
     "topscholar|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "nationalpride|AW": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "highcalibre|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "happylove|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "alfakellenic|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "silentstrike|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "harrythree|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "yesimmali|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "oneandgone|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "purosangue|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "dandana|AW": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "desertfalcon|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "boloneighs|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "anotherabbot|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "maldevious|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "icesovereigns|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "chantelle|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "enolagrey|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "merry|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "ghisa|AW": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "queentamara|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "queuedos|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "nanoscience|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "insidestory|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "umwadi|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "quebella|AW": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "oneforthegutter|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "mustbelieve|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "flagbearer|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "codiak|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "senorcortez|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "midnightrumble|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "wonder|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "yaamin|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "maharajasexpress|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "campenaerts|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "trulyglamorous|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "burdettestate|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "rye|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "moeslegacy|AW": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "grandlad|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "sunlitsea|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "showtimemahomes|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "beaumadier|AW": {
       "wins": 0,
       "n": 1,
       "rate": 0.1067
@@ -15788,8 +16473,8 @@
     },
     "capriciousstar|aw": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "orchardhatches|aw": {
       "wins": 1,
@@ -17907,6 +18592,221 @@
       "rate": 0.1067
     },
     "topscholar|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "nationalpride|aw": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "highcalibre|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "happylove|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "alfakellenic|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "silentstrike|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "harrythree|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "yesimmali|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "oneandgone|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "purosangue|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "dandana|aw": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "desertfalcon|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "boloneighs|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "anotherabbot|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "maldevious|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "icesovereigns|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "chantelle|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "enolagrey|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "merry|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "ghisa|aw": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "queentamara|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "queuedos|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "nanoscience|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "insidestory|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "umwadi|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "quebella|aw": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "oneforthegutter|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "mustbelieve|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "flagbearer|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "codiak|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "senorcortez|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "midnightrumble|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "wonder|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "yaamin|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "maharajasexpress|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "campenaerts|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "trulyglamorous|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "burdettestate|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "rye|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "moeslegacy|aw": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "grandlad|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "sunlitsea|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "showtimemahomes|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "beaumadier|aw": {
       "wins": 0,
       "n": 1,
       "rate": 0.1067
@@ -21092,6 +21992,226 @@
       "wins": 0,
       "n": 1,
       "rate": 0.1067
+    },
+    "capriciousstar|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "nationalpride|sprint": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "highcalibre|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "happylove|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "alfakellenic|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "silentstrike|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "harrythree|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "yesimmali|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "oneandgone|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "purosangue|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "dandana|sprint": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "desertfalcon|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "boloneighs|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "anotherabbot|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "maldevious|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "icesovereigns|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "chantelle|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "enolagrey|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "merry|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "ghisa|sprint": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "queentamara|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "queuedos|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "nanoscience|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "insidestory|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "umwadi|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "quebella|middle": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "oneforthegutter|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "mustbelieve|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "flagbearer|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "codiak|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "senorcortez|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "midnightrumble|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "wonder|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "yaamin|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "maharajasexpress|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "campenaerts|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "trulyglamorous|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "burdettestate|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "rye|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "moeslegacy|sprint": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "grandlad|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "sunlitsea|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "showtimemahomes|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "beaumadier|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "horse_place_surface": {
@@ -22152,8 +23272,8 @@
     },
     "capriciousstar|AW": {
       "places": 1,
-      "n": 1,
-      "rate": 0.3829
+      "n": 2,
+      "rate": 0.335
     },
     "orchardhatches|AW": {
       "places": 1,
@@ -24274,6 +25394,221 @@
       "places": 1,
       "n": 1,
       "rate": 0.3829
+    },
+    "nationalpride|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "highcalibre|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "happylove|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "alfakellenic|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "silentstrike|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "harrythree|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "yesimmali|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "oneandgone|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "purosangue|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "dandana|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "desertfalcon|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "boloneighs|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "anotherabbot|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "maldevious|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "icesovereigns|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "chantelle|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "enolagrey|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "merry|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "ghisa|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "queentamara|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "queuedos|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "nanoscience|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "insidestory|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "umwadi|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "quebella|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "oneforthegutter|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "mustbelieve|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "flagbearer|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "codiak|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "senorcortez|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "midnightrumble|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "wonder|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "yaamin|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "maharajasexpress|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "campenaerts|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "trulyglamorous|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "burdettestate|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "rye|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "moeslegacy|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "grandlad|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "sunlitsea|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "showtimemahomes|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "beaumadier|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
     }
   },
   "horse_place_code": {
