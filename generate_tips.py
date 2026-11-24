@@ -591,27 +591,31 @@ def tipster_reason(bot, r, tip_type, conf, field_size, rivals: list | None = Non
     elif trend <= 0.38 and form:
         facts.append((50, "The profile is more mixed lately; not a pure improver story."))
 
-    # Weight
-    if wdelta is not None:
+    # Weight — only when scraper set a *trusted* comparable delta (same style of race, abs <= 12)
+    if wdelta is not None and abs(float(wdelta)) <= 12:
         if wdelta <= -4:
-            facts.append((78, f"Helpful drop in the weights — about {abs(wdelta):.0f}lb lighter than its last win."))
+            facts.append((78, f"Helpful drop in the weights — about {abs(wdelta):.0f}lb lighter than its last comparable win on the card."))
         elif wdelta <= -2:
-            facts.append((60, f"Small weight drop ({abs(wdelta):.0f}lb) versus last winning mark."))
+            facts.append((60, f"Small weight drop ({abs(wdelta):.0f}lb) versus last winning weight on the card."))
         elif wdelta >= 5:
-            facts.append((65, f"Up about {wdelta:.0f}lb on its last win — asks more, especially if the trip stretches it."))
+            facts.append((65, f"Up about {wdelta:.0f}lb on its last win on the card — asks a bit more."))
         elif wdelta >= 3:
-            facts.append((55, f"Carries roughly {wdelta:.0f}lb more than when it last won."))
+            facts.append((55, f"Carries roughly {wdelta:.0f}lb more than last winning weight on the card."))
 
-    # Absence / freshness
+    # Days off — only with a real number from the feed or dated last run
     if days is not None:
-        if days > 180:
-            facts.append((75, f"Off {days} days — long absence, so the fitness question is real."))
-        elif days > 100:
-            facts.append((58, f"Back from {days} days off; needs to be tuned after the break."))
-        elif 14 <= days <= 40:
-            facts.append((52, f"Spacing looks normal ({days} days since last)."))
-        elif days < 7:
-            facts.append((55, f"Quick turnaround ({days} days) — either well-in or rushed."))
+        try:
+            days_i = int(days)
+        except (TypeError, ValueError):
+            days_i = None
+        if days_i is not None and 0 <= days_i <= 900:
+            if days_i > 180:
+                facts.append((75, f"Off {days_i} days (from last run date on the card) — long absence, fitness is a real question."))
+            elif days_i > 100:
+                facts.append((58, f"Back from {days_i} days off (card last-run date)."))
+            elif days_i < 7:
+                facts.append((55, f"Quick turnaround — {days_i} days since last run on the card."))
+            # deliberately skip "normal spacing" chatter — low value, often noise
 
     # Connections
     if trainer and t_day >= 3:

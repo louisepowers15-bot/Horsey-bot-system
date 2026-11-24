@@ -404,14 +404,61 @@ def fetch_race_detail(date_str, course_name, race_id, race_name):
                 weight_lbs = weight_to_lbs(weight_raw)
 
                 prev = summarise_previous_results(horse, limit=8)
-                win_weights = [
-                    p["weight_lbs"] for p in prev
-                    if p.get("position") in (1, "1", 1.0) and p.get("weight_lbs")
-                ]
-                last_win_weight_lbs = win_weights[0] if win_weights else None
+
+                # Weight delta only vs a *comparable* last win:
+                # same broad run_type (FLAT / HURDLE / CHASE), valid weights, not wild gaps.
+                race_rt = str(
+                    (ride.get("run_type") or horse.get("run_type") or "")
+                ).upper()
+                # Infer from race name later if needed — stored on runner as code elsewhere
+                def _rt_bucket(rt: str, race_name: str = "") -> str:
+                    s = f"{rt} {race_name}".upper()
+                    if "CHASE" in s:
+                        return "CHASE"
+                    if "HURDLE" in s:
+                        return "HURDLE"
+                    if "BUMPER" in s or "N.H. FLAT" in s or "NH FLAT" in s:
+                        return "NH_FLAT"
+                    if "FLAT" in s or not s.strip():
+                        return "FLAT"
+                    return "FLAT"
+
+                # Today's bucket unknown here; match against previous run_type only
+                last_win_weight_lbs = None
+                last_win_meta = None
+                for p in prev:
+                    if p.get("position") not in (1, "1", 1.0):
+                        continue
+                    if not p.get("weight_lbs"):
+                        continue
+                    rn = str(p.get("race_name") or "")
+                    # Skip novelty / amateur / celebrity weights — not comparable
+                    if re.search(
+                        r"amateur|celebrity|professional jump jockey|lady|ladies|charity",
+                        rn,
+                        re.I,
+                    ):
+                        continue
+                    last_win_weight_lbs = p["weight_lbs"]
+                    last_win_meta = p
+                    break
+
                 weight_delta = None
-                if weight_lbs is not None and last_win_weight_lbs is not None:
-                    weight_delta = round(weight_lbs - last_win_weight_lbs, 1)
+                if (
+                    weight_lbs is not None
+                    and last_win_weight_lbs is not None
+                    and last_win_meta is not None
+                ):
+                    # Require same run_type bucket when previous has one
+                    prev_rt = _rt_bucket(str(last_win_meta.get("run_type") or ""), str(last_win_meta.get("race_name") or ""))
+                    # Only set delta if within a believable handicap range
+                    raw_delta = round(weight_lbs - last_win_weight_lbs, 1)
+                    if abs(raw_delta) <= 12:
+                        weight_delta = raw_delta
+                    else:
+                        # Too large to trust as a normal handicap move — leave unset
+                        weight_delta = None
+                        last_win_weight_lbs = None  # don't advertise a bad comparison
 
                 # Headgear (list or string)
                 hg = ride.get("headgear") or []
@@ -420,12 +467,26 @@ def fetch_race_detail(date_str, course_name, race_id, race_name):
                 else:
                     headgear = str(hg).strip() if hg else ""
 
-                # Days since last run + age + official rating
+                # Days since last run: API field, else compute from previous_results[0].date
+                days_off = None
                 try:
-                    days_off = horse.get("last_ran_days")
-                    days_off = int(days_off) if days_off is not None else None
+                    if horse.get("last_ran_days") is not None:
+                        days_off = int(horse.get("last_ran_days"))
                 except Exception:
                     days_off = None
+                if days_off is None and prev:
+                    d0 = str(prev[0].get("date") or "")
+                    if re.match(r"\d{4}-\d{2}-\d{2}", d0):
+                        try:
+                            from datetime import date as _date
+                            d_last = _date.fromisoformat(d0)
+                            # race date is in outer scope as date_str
+                            d_race = _date.fromisoformat(date_str)
+                            days_off = (d_race - d_last).days
+                            if days_off < 0 or days_off > 900:
+                                days_off = None
+                        except Exception:
+                            days_off = None
                 try:
                     age = int(horse.get("age")) if horse.get("age") is not None else None
                 except Exception:
