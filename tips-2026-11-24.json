@@ -21,7 +21,7 @@
           "bot": "BloodlineBetty",
           "horse": "Kashooda",
           "odds": 5.0,
-          "conf": 63,
+          "conf": 64,
           "type": "win",
           "reason": "Kashooda has already won at Lingfield over 1m 7f 170y (2026-11-24), so the track holds no mysteries. Rated 70 for this. A M Balding is busy today (5 on the card), and Jason Watson keeps the mount among 6 rides. Worth a win bet at around 5.00.",
           "stars": 5
@@ -39,7 +39,7 @@
           "bot": "FormFox",
           "horse": "Kashooda",
           "odds": 5.0,
-          "conf": 65,
+          "conf": 66,
           "type": "win",
           "reason": "Kashooda has already won at Lingfield over 1m 7f 170y (2026-11-24), so the track holds no mysteries. Rated 70 for this. A M Balding is busy today (5 on the card), and Jason Watson keeps the mount among 6 rides. Worth a win bet at around 5.00.",
           "stars": 5
@@ -48,7 +48,7 @@
           "bot": "HotTrainer",
           "horse": "Kashooda",
           "odds": 5.0,
-          "conf": 63,
+          "conf": 64,
           "type": "win",
           "reason": "Kashooda has already won at Lingfield over 1m 7f 170y (2026-11-24), so the track holds no mysteries. Rated 70 for this. A M Balding is busy today (5 on the card), and Jason Watson keeps the mount among 6 rides. Worth a win bet at around 5.00.",
           "stars": 5
@@ -84,57 +84,57 @@
       "tips": [
         {
           "bot": "BloodlineBetty",
-          "horse": "Rocsane",
-          "odds": 4.5,
+          "horse": "True Charm",
+          "odds": 9.0,
           "conf": 57,
           "type": "win",
-          "reason": "Rocsane has solid course form at Lingfield \u2014 3rd over 6f 1y, which matters more than a cold form string. Rated 64 for this. Trained by G G Margarson, and D Egan keeps the mount among 8 rides. Worth a win bet at around 4.50.",
-          "stars": 6
+          "reason": "True Charm has already won at Lingfield over 6f 1y (2026-11-24), so the track holds no mysteries. Rated 65 for this. Runs in hood, tongue strap. Worth a win bet at around 9.00.",
+          "stars": 2
         },
         {
           "bot": "DevilAdvocate",
-          "horse": "Rocsane",
-          "odds": 4.5,
-          "conf": 58,
+          "horse": "True Charm",
+          "odds": 9.0,
+          "conf": 57,
           "type": "win",
-          "reason": "Rocsane has solid course form at Lingfield \u2014 3rd over 6f 1y, which matters more than a cold form string. Rated 64 for this. Trained by G G Margarson, and D Egan keeps the mount among 8 rides. Worth a win bet at around 4.50.",
-          "stars": 6
+          "reason": "True Charm has already won at Lingfield over 6f 1y (2026-11-24), so the track holds no mysteries. Rated 65 for this. Runs in hood, tongue strap. Worth a win bet at around 9.00.",
+          "stars": 2
         },
         {
           "bot": "FormFox",
           "horse": "Rocsane",
           "odds": 4.5,
-          "conf": 61,
+          "conf": 56,
           "type": "win",
-          "reason": "Rocsane has solid course form at Lingfield \u2014 3rd over 6f 1y, which matters more than a cold form string. Rated 64 for this. Trained by G G Margarson, and D Egan keeps the mount among 8 rides. Worth a win bet at around 4.50.",
-          "stars": 6
+          "reason": "Rocsane is the form angle for me. Rated 64 for this. Trained by G G Margarson, and D Egan keeps the mount among 8 rides. Has all-weather experience on the card already, so the surface itself is not a complete unknown. Worth a win bet at around 4.50.",
+          "stars": 1
         },
         {
           "bot": "HotTrainer",
-          "horse": "Rocsane",
-          "odds": 4.5,
-          "conf": 58,
+          "horse": "Pride's Queen",
+          "odds": 4.33,
+          "conf": 54,
           "type": "win",
-          "reason": "Rocsane has solid course form at Lingfield \u2014 3rd over 6f 1y, which matters more than a cold form string. Rated 64 for this. Trained by G G Margarson, and D Egan keeps the mount among 8 rides. Worth a win bet at around 4.50.",
-          "stars": 6
+          "reason": "Connections lean me toward Pride's Queen. Rated 57 for this. M Botti is busy today (3 on the card), and Marco Ghiani keeps the mount among 8 rides. Has all-weather experience on the card already, so the surface itself is not a complete unknown. Worth a win bet at around 4.33.",
+          "stars": 1
         },
         {
           "bot": "PaceProphet",
-          "horse": "Rocsane",
-          "odds": 4.5,
-          "conf": 57,
+          "horse": "Beechwood Glory",
+          "odds": 7.5,
+          "conf": 55,
           "type": "win",
-          "reason": "Rocsane has solid course form at Lingfield \u2014 3rd over 6f 1y, which matters more than a cold form string. Rated 64 for this. Trained by G G Margarson, and D Egan keeps the mount among 8 rides. Worth a win bet at around 4.50.",
-          "stars": 6
+          "reason": "Beechwood Glory for how this race should be run. Rated 64 for this. Runs in cheek pieces. Trained by J Butler, and R Havlin keeps the mount among 5 rides. Worth a win bet at around 7.50.",
+          "stars": 1
         },
         {
           "bot": "ValueHunter",
-          "horse": "Rocsane",
-          "odds": 4.5,
+          "horse": "Lilywhite Hart",
+          "odds": 7.5,
           "conf": 58,
-          "type": "win",
-          "reason": "Rocsane has solid course form at Lingfield \u2014 3rd over 6f 1y, which matters more than a cold form string. Rated 64 for this. Trained by G G Margarson, and D Egan keeps the mount among 8 rides. Worth a win bet at around 4.50.",
-          "stars": 6
+          "type": "ew",
+          "reason": "Lilywhite Hart has solid course form at Lingfield \u2014 2nd over 6f 1y, which matters more than a cold form string. Off a mark of 64 there is room to be competitive if the handicapper has been kind. Runs in cheek pieces. Each-way at around 7.50 looks the sensible way to play it.",
+          "stars": 1
         }
       ]
     },
@@ -215,10 +215,10 @@
         {
           "bot": "BloodlineBetty",
           "horse": "Dancingonthestars",
-          "odds": 9.0,
+          "odds": 7.5,
           "conf": 55,
           "type": "win",
-          "reason": "Dancingonthestars fits the conditions better than most. Eased in class (Class 6 today vs recent Class 4), which can help if the ability is still there. Dylan Cunha is busy today (4 on the card), and Connor Planas rides. Worth a win bet at around 9.00.",
+          "reason": "Dancingonthestars fits the conditions better than most. Eased in class (Class 6 today vs recent Class 4), which can help if the ability is still there. Dylan Cunha is busy today (4 on the card), and Connor Planas rides. Worth a win bet at around 7.50.",
           "stars": 1
         },
         {
@@ -541,9 +541,9 @@
           "bot": "BloodlineBetty",
           "horse": "Far Far Out",
           "odds": 3.5,
-          "conf": 56,
+          "conf": 57,
           "type": "win",
-          "reason": "Far Far Out fits the conditions better than most. Rated 55 for this. A W Carroll is busy today (6 on the card), and William Carson rides. A W Carroll is 8% (n=4) at Lingfield in our results store. Worth a win bet at around 3.50.",
+          "reason": "Far Far Out fits the conditions better than most. Rated 55 for this. A W Carroll is busy today (6 on the card), and William Carson rides. Up about 6lb on a comparable winning weight from the card. Worth a win bet at around 3.50.",
           "stars": 2
         },
         {
@@ -588,7 +588,7 @@
           "odds": 3.5,
           "conf": 53,
           "type": "win",
-          "reason": "Far Far Out is the price that interests me. Rated 55 for this. A W Carroll is busy today (6 on the card), and William Carson rides. A W Carroll is 8% (n=4) at Lingfield in our results store. Worth a win bet at around 3.50.",
+          "reason": "Far Far Out is the price that interests me. Rated 55 for this. A W Carroll is busy today (6 on the card), and William Carson rides. Up about 6lb on a comparable winning weight from the card. Worth a win bet at around 3.50.",
           "stars": 2
         }
       ]
@@ -670,46 +670,46 @@
         {
           "bot": "BloodlineBetty",
           "horse": "Could Be You",
-          "odds": 5.0,
+          "odds": 4.5,
           "conf": 59,
           "type": "win",
-          "reason": "Could Be You fits the conditions better than most. Rated 81 for this. N P Mulholland is busy today (5 on the card), and R P McLernon rides. A 9lb drop versus a comparable winning weight on the card is a genuine help. Worth a win bet at around 5.00.",
+          "reason": "Could Be You fits the conditions better than most. Rated 81 for this. N P Mulholland is busy today (5 on the card), and R P McLernon rides. A 9lb drop versus a comparable winning weight on the card is a genuine help. Worth a win bet at around 4.50.",
           "stars": 3
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Could Be You",
-          "odds": 5.0,
+          "odds": 4.5,
           "conf": 57,
           "type": "win",
-          "reason": "I prefer Could Be You to the more obvious horses. Rated 81 for this. N P Mulholland is busy today (5 on the card), and R P McLernon rides. A 9lb drop versus a comparable winning weight on the card is a genuine help. Worth a win bet at around 5.00.",
+          "reason": "I prefer Could Be You to the more obvious horses. Rated 81 for this. N P Mulholland is busy today (5 on the card), and R P McLernon rides. A 9lb drop versus a comparable winning weight on the card is a genuine help. Worth a win bet at around 4.50.",
           "stars": 3
         },
         {
           "bot": "FormFox",
           "horse": "Could Be You",
-          "odds": 5.0,
+          "odds": 4.5,
           "conf": 60,
           "type": "win",
-          "reason": "Could Be You is the form angle for me. Rated 81 for this. N P Mulholland is busy today (5 on the card), and R P McLernon rides. A 9lb drop versus a comparable winning weight on the card is a genuine help. Worth a win bet at around 5.00.",
+          "reason": "Could Be You is the form angle for me. Rated 81 for this. N P Mulholland is busy today (5 on the card), and R P McLernon rides. A 9lb drop versus a comparable winning weight on the card is a genuine help. Worth a win bet at around 4.50.",
           "stars": 3
         },
         {
           "bot": "HotTrainer",
           "horse": "Sledgehammer",
-          "odds": 2.88,
+          "odds": 3.25,
           "conf": 59,
           "type": "win",
-          "reason": "Connections lean me toward Sledgehammer. Rated 99 for this. Trained by A Keatley, and Oakley Brown rides. Conditions (Good-good to soft in places) look testing; horses that handle this ground get preferred. Worth a win bet at around 2.88.",
-          "stars": 1
+          "reason": "Connections lean me toward Sledgehammer. Rated 99 for this. Trained by A Keatley, and Oakley Brown rides. Conditions (Good-good to soft in places) look testing; horses that handle this ground get preferred. Worth a win bet at around 3.25.",
+          "stars": 2
         },
         {
           "bot": "PaceProphet",
-          "horse": "Peckforton Hills",
-          "odds": 6.5,
-          "conf": 58,
+          "horse": "Sledgehammer",
+          "odds": 3.25,
+          "conf": 59,
           "type": "win",
-          "reason": "Peckforton Hills has solid course form at Southwell \u2014 2nd over 3m 60y, which matters more than a cold form string. Rated 91 for this. Runs in cheek pieces, tongue strap. Worth a win bet at around 6.50.",
+          "reason": "Sledgehammer for how this race should be run. Rated 99 for this. Trained by A Keatley, and Oakley Brown rides. Conditions (Good-good to soft in places) look testing; horses that handle this ground get preferred. Worth a win bet at around 3.25.",
           "stars": 2
         },
         {
@@ -719,7 +719,7 @@
           "conf": 60,
           "type": "win",
           "reason": "Peckforton Hills has solid course form at Southwell \u2014 2nd over 3m 60y, which matters more than a cold form string. Rated 91 for this. Runs in cheek pieces, tongue strap. Worth a win bet at around 6.50.",
-          "stars": 2
+          "stars": 1
         }
       ]
     },
@@ -2544,7 +2544,7 @@
       ]
     }
   ],
-  "generated_at": "2026-11-24T12:10:23.449406Z",
+  "generated_at": "2026-11-24T12:15:11.172107Z",
   "note": "Human-style reasons; day trainer/jockey books; surface + trip aware",
   "published": true
 }

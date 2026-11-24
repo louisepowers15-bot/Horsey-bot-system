@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
   "source": "sportinglife",
-  "scraped_at": "2026-11-24T11:56:18.770602Z",
+  "scraped_at": "2026-11-24T12:16:05.211664Z",
   "meetings": [
     {
       "course": "Lingfield",
@@ -61,6 +61,163 @@
               "position": 0,
               "status": "NONRUNNER",
               "sp": 26.0
+            }
+          ]
+        },
+        {
+          "time": "12:08",
+          "name": "AWC Season 14 Has Begun Nursery",
+          "course": "Lingfield",
+          "distance": "6f 1y",
+          "going": "Standard",
+          "field_size": 12,
+          "runners": [
+            {
+              "name": "True Charm",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 9.0
+            },
+            {
+              "name": "Lilywhite Hart",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 8.0
+            },
+            {
+              "name": "Seathegulls",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Rocsane",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Pride's Queen",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 4.5
+            },
+            {
+              "name": "Lushill",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 15.0
+            },
+            {
+              "name": "Hemustbeanangel",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 7.5
+            },
+            {
+              "name": "Alpha Legend",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Postremo",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 34.0
+            },
+            {
+              "name": "Havana Grey Star",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 67.0
+            },
+            {
+              "name": "Percy Shaw",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 12.0
+            },
+            {
+              "name": "Beechwood Glory",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 7.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course": "Southwell",
+      "races": [
+        {
+          "time": "11:56",
+          "name": "Join The Southwell Racecourse Corporate Club Handicap Chase",
+          "course": "Southwell",
+          "distance": "2m 4f 88y",
+          "going": "Good",
+          "field_size": 10,
+          "runners": [
+            {
+              "name": "Imperial Bede",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 2.75
+            },
+            {
+              "name": "Bravethewaves",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 9.5
+            },
+            {
+              "name": "Grain Trade",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 9.5
+            },
+            {
+              "name": "Rap Soul",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 12.0
+            },
+            {
+              "name": "Four Decades",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 15.0
+            },
+            {
+              "name": "Henry Box Brown",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "Dynamite Defense",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "The Paddy Pie",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Doors Breaker",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Colby Mayfield",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 4.0
             }
           ]
         }
