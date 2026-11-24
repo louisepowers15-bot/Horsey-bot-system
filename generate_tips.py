@@ -871,6 +871,7 @@ def build_tips_for_races(d, flat_races):
                 er["_code"] = er.get("_code") or "unknown"
             # History pattern hints (neutral when empty)
             er["_hist_bits"] = []
+            er["_hist_used"] = False
             if HAS_HISTORY and int(hist_index.get("runs") or 0) > 0:
                 er["_hist_bits"] = horse_history_bits(
                     hist_index,
@@ -881,15 +882,72 @@ def build_tips_for_races(d, flat_races):
                     going,
                     distance,
                 )
-                # Mild score nudges when we have real samples
                 hs = hist_index.get("horse_surface") or {}
                 hc = hist_index.get("horse_code") or {}
+                hg = hist_index.get("horse_going") or {}
+                hd = hist_index.get("horse_distance") or {}
+                hcourse = hist_index.get("horse_course") or {}
+                tcourse = hist_index.get("trainer_course") or {}
+                jtrain = hist_index.get("jockey_trainer") or {}
+
                 rate_s, n_s = lookup(hs, er.get("name") or "", er.get("_surface") or "unknown")
                 rate_c, n_c = lookup(hc, er.get("name") or "", er.get("_code") or "unknown")
                 if n_s >= 3:
-                    er["_form"] = min(0.9, er["_form"] + (rate_s - 0.12) * 0.15)
+                    er["_form"] = min(0.9, er["_form"] + (rate_s - 0.12) * 0.18)
+                    er["_hist_used"] = True
                 if n_c >= 3:
-                    er["_form"] = min(0.9, er["_form"] + (rate_c - 0.12) * 0.12)
+                    er["_form"] = min(0.9, er["_form"] + (rate_c - 0.12) * 0.14)
+                    er["_hist_used"] = True
+
+                # Align buckets with history_store.going_bucket / distance_bucket
+                gf = going_family(going)
+                if gf == "softish":
+                    gb = "soft"
+                elif gf == "quick":
+                    gb = "firm"
+                elif gf == "AW":
+                    gb = "aw"
+                elif gf == "good":
+                    gb = "good"
+                else:
+                    gb = "unknown"
+                fur = distance_furlongs(distance)
+                if fur is None:
+                    db = "unknown"
+                elif fur < 8.8:   # ~1.1m
+                    db = "sprint"
+                elif fur < 12.8:  # ~1.6m
+                    db = "mile"
+                elif fur < 17.6:  # ~2.2m
+                    db = "middle"
+                elif fur < 22.4:  # ~2.8m
+                    db = "staying"
+                else:
+                    db = "extreme"
+
+                rate_g, n_g = lookup(hg, er.get("name") or "", gb)
+                rate_d, n_d = lookup(hd, er.get("name") or "", db)
+                rate_hc, n_hc = lookup(hcourse, er.get("name") or "", course)
+                if n_g >= 3:
+                    er["_going"] = min(0.85, max(0.2, er.get("_going", 0.5) + (rate_g - 0.12) * 0.35))
+                    er["_hist_used"] = True
+                if n_d >= 3:
+                    er["_trip"] = min(0.85, max(0.2, er.get("_trip", 0.5) + (rate_d - 0.12) * 0.35))
+                    er["_hist_used"] = True
+                if n_hc >= 2:
+                    er["_form"] = min(0.9, er["_form"] + (rate_hc - 0.12) * 0.2)
+                    er["_hist_used"] = True
+
+                tn = norm_name(er.get("trainer") or "")
+                jn = norm_name(er.get("jockey") or "")
+                rate_tc, n_tc = lookup(tcourse, tn, course)
+                rate_jt, n_jt = lookup(jtrain, jn, tn)
+                if n_tc >= 4:
+                    er["_trainer"] = min(0.88, max(0.2, er.get("_trainer", 0.5) + (rate_tc - 0.12) * 0.4))
+                    er["_hist_used"] = True
+                if n_jt >= 4:
+                    er["_combo"] = min(0.88, max(0.2, er.get("_combo", 0.5) + (rate_jt - 0.12) * 0.4))
+                    er["_hist_used"] = True
             runners.append(er)
         rng = random.Random(f"{d.isoformat()}|{course}|{race.get('time')}|{idx}")
 

@@ -145,6 +145,12 @@ def empty_bot():
         "stakes": 0.0, "returns": 0.0, "pnl": 0.0,
         "avg_odds": 0.0, "_odds_sum": 0.0,
         "style": {"win": 0, "ew": 0},
+        # confidence calibration buckets
+        "conf": {
+            "low": {"n": 0, "wins": 0},      # conf < 55
+            "mid": {"n": 0, "wins": 0},      # 55–69
+            "high": {"n": 0, "wins": 0},     # 70+
+        },
     }
 
 
@@ -214,7 +220,26 @@ def _finalise_bot_stats(stats: dict) -> dict:
     stats["pnl"] = round(stats.get("pnl") or 0, 2)
     stats["stakes"] = round(stats.get("stakes") or 0, 2)
     stats["returns"] = round(stats.get("returns") or 0, 2)
+    conf = stats.get("conf") or {}
+    for k in ("low", "mid", "high"):
+        bucket = conf.get(k) or {"n": 0, "wins": 0}
+        n = bucket.get("n") or 0
+        bucket["win_pct"] = round(100.0 * (bucket.get("wins") or 0) / n, 1) if n else 0.0
+        conf[k] = bucket
+    stats["conf"] = conf
     return stats
+
+
+def _conf_bucket(conf) -> str:
+    try:
+        c = int(conf)
+    except (TypeError, ValueError):
+        c = 50
+    if c >= 70:
+        return "high"
+    if c >= 55:
+        return "mid"
+    return "low"
 
 
 def _apply_tip(bucket: dict, tip: dict) -> None:
@@ -237,19 +262,27 @@ def _apply_tip(bucket: dict, tip: dict) -> None:
     if ttype not in ("win", "ew"):
         ttype = "win"
     b["style"][ttype] = b["style"].get(ttype, 0) + 1
-    if outcome == "win":
+    won = outcome == "win"
+    if won:
         b["wins"] += 1
     elif outcome == "place":
         b["places"] += 1
     else:
         b["losses"] += 1
+    # confidence calibration
+    if "conf" not in b:
+        b["conf"] = {"low": {"n": 0, "wins": 0}, "mid": {"n": 0, "wins": 0}, "high": {"n": 0, "wins": 0}}
+    ck = _conf_bucket(tip.get("conf"))
+    b["conf"][ck]["n"] += 1
+    if won:
+        b["conf"][ck]["wins"] += 1
 
 
 def rebuild_leaderboard_from_settled() -> dict:
     """Rebuild leaderboard from every settled-*.json (idempotent).
 
     Also builds period slices: week (last 7 calendar days), month (last 30),
-    year (last 365), and all-time. UI can switch between them.
+    year (last 365), and all-time. Tracks hot-pick (consensus) performance.
     """
     today = date.today()
     periods = {
@@ -259,6 +292,7 @@ def rebuild_leaderboard_from_settled() -> dict:
         "year": {"bots": {b: empty_bot() for b in BOTS}},
     }
     history = []
+    hot = {"n": 0, "wins": 0, "places": 0, "stakes": 0.0, "returns": 0.0, "pnl": 0.0, "days": []}
     files = sorted(ROOT.glob("settled-*.json"))
     for path in files:
         data = load_json(path)
@@ -279,8 +313,10 @@ def rebuild_leaderboard_from_settled() -> dict:
                 "unknown": summary.get("unknown") or 0,
                 "pnl": round(float(summary.get("pnl") or 0), 2),
             })
+        day_hot = {"n": 0, "wins": 0, "pnl": 0.0}
         for race in data.get("races") or []:
-            for tip in race.get("tips") or []:
+            tips = race.get("tips") or []
+            for tip in tips:
                 _apply_tip(periods["all"]["bots"], tip)
                 if day is None:
                     continue
@@ -291,6 +327,47 @@ def rebuild_leaderboard_from_settled() -> dict:
                     _apply_tip(periods["month"]["bots"], tip)
                 if age <= 365:
                     _apply_tip(periods["year"]["bots"], tip)
+
+            # Hot pick = horse with most bot agreement in the race (stars >= 3)
+            if not tips:
+                continue
+            best_stars = max(int(t.get("stars") or 0) for t in tips)
+            if best_stars < 3:
+                continue
+            # one representative tip for that horse (prefer highest conf)
+            consensus = [t for t in tips if int(t.get("stars") or 0) == best_stars]
+            consensus.sort(key=lambda t: int(t.get("conf") or 0), reverse=True)
+            hp = consensus[0]
+            outcome = hp.get("outcome") or "unknown"
+            if outcome == "unknown":
+                continue
+            stake = 1.0
+            ret = float(hp.get("return") or 0)
+            # if this tip was EW, return is already for £1 total; use as-is
+            # for consensus we treat as win-only level £1 using odds if win else 0
+            if (hp.get("type") or "win").lower() == "ew":
+                # approximate win-only settlement for consensus card
+                odds = float(hp.get("odds") or 0)
+                ret = odds if outcome == "win" else 0.0
+            pnl = ret - stake
+            hot["n"] += 1
+            hot["stakes"] += stake
+            hot["returns"] += ret
+            hot["pnl"] += pnl
+            day_hot["n"] += 1
+            day_hot["pnl"] += pnl
+            if outcome == "win":
+                hot["wins"] += 1
+                day_hot["wins"] += 1
+            elif outcome == "place":
+                hot["places"] += 1
+        if day_hot["n"]:
+            hot["days"].append({
+                "date": ds,
+                "n": day_hot["n"],
+                "wins": day_hot["wins"],
+                "pnl": round(day_hot["pnl"], 2),
+            })
 
     for period in periods.values():
         for bot, stats in period["bots"].items():
@@ -311,18 +388,26 @@ def rebuild_leaderboard_from_settled() -> dict:
         )
         period["best_win"] = ranked_w[0][0] if ranked_w else None
 
+    # Finalise hot pick stats
+    hot["pnl"] = round(hot["pnl"], 2)
+    hot["stakes"] = round(hot["stakes"], 2)
+    hot["returns"] = round(hot["returns"], 2)
+    hot["win_pct"] = round(100.0 * hot["wins"] / hot["n"], 1) if hot["n"] else 0.0
+    hot["roi_pct"] = round(100.0 * hot["pnl"] / hot["stakes"], 1) if hot["stakes"] else 0.0
+
     lb = {
         "updated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "bots": periods["all"]["bots"],  # back-compat for older UI
         "periods": periods,
         "best_roi": periods["all"]["best_roi"],
         "best_win": periods["all"]["best_win"],
+        "hot_pick": hot,
         "history": sorted(history, key=lambda x: x.get("date") or "")[-90:],
     }
 
     path = ROOT / "leaderboard.json"
     path.write_text(json.dumps(lb, indent=2), encoding="utf-8")
-    print(f"Rebuilt {path} from {len(files)} settled day file(s); best ROI={lb['best_roi']}")
+    print(f"Rebuilt {path} from {len(files)} settled day file(s); best ROI={lb['best_roi']}; hot n={hot['n']}")
     return lb
 
 

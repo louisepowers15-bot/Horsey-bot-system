@@ -159,17 +159,20 @@ def append_runs(records: list[dict]) -> int:
 
 
 def rebuild_day(day: str) -> int:
-    """Merge results + racecards for one day into history/runs.jsonl."""
+    """Merge results + racecards for one day into history/runs.jsonl.
+
+    Accepts both scraper shapes:
+      - meetings[].races[].runners[]  (current scrape_results.py)
+      - top-level races[] with positions[] (legacy)
+    """
     results = load_json(ROOT / f"results-{day}.json")
-    # also check archive
     if not results:
         results = load_json(ARCHIVE / f"results-{day}.json")
-    if not results or not results.get("races"):
+    if not results:
         print(f"No results for {day}")
         return 0
 
     cards = load_json(ROOT / f"racecards-{day}.json") or load_json(ARCHIVE / f"racecards-{day}.json") or {}
-    # index card runners by (course, time) and by (course, horse)
     card_races = {}
     for m in cards.get("meetings") or []:
         course = m.get("course") or ""
@@ -188,8 +191,25 @@ def rebuild_day(day: str) -> int:
                 "runners": {norm(x.get("name") or ""): x for x in race.get("runners") or []},
             }
 
+    # Normalize results into a flat list of races with runners
+    flat_races = []
+    if results.get("meetings"):
+        for m in results["meetings"]:
+            m_course = m.get("course") or ""
+            for race in m.get("races") or []:
+                flat_races.append({
+                    **race,
+                    "course": race.get("course") or m_course,
+                })
+    elif results.get("races"):
+        flat_races = list(results["races"])
+
+    if not flat_races:
+        print(f"No races in results for {day}")
+        return 0
+
     records = []
-    for race in results.get("races") or []:
+    for race in flat_races:
         course = race.get("course") or ""
         time_s = (race.get("time") or "").strip()
         card = card_races.get((norm(course), time_s), {})
@@ -198,11 +218,33 @@ def rebuild_day(day: str) -> int:
         surface = detect_surface(course, going, race.get("surface") or card.get("surface") or "")
         code = detect_code(race.get("name") or card.get("name") or "", race.get("code") or card.get("code") or "")
         race_name = race.get("name") or card.get("name") or ""
-        positions = race.get("positions") or []
-        pos_map = {norm(p.get("horse") or ""): p for p in positions}
-        # include all finishers from results; enrich from card when possible
+
+        # runners[] with position/sp (current) OR positions[] (legacy)
+        pos_map = {}
+        for ru in race.get("runners") or []:
+            hn = norm(ru.get("name") or "")
+            if hn:
+                pos_map[hn] = {
+                    "horse": ru.get("name"),
+                    "pos": ru.get("position"),
+                    "sp": ru.get("sp") or ru.get("odds"),
+                    "trainer": ru.get("trainer") or "",
+                    "jockey": ru.get("jockey") or "",
+                    "status": ru.get("status") or "",
+                }
+        for p in race.get("positions") or []:
+            hn = norm(p.get("horse") or p.get("name") or "")
+            if hn and hn not in pos_map:
+                pos_map[hn] = {
+                    "horse": p.get("horse") or p.get("name"),
+                    "pos": p.get("pos") or p.get("position"),
+                    "sp": p.get("sp") or p.get("odds"),
+                    "trainer": p.get("trainer") or "",
+                    "jockey": p.get("jockey") or "",
+                }
+
         names = set(pos_map.keys()) | set((card.get("runners") or {}).keys())
-        field_size = race.get("field_size") or len(names) or len(positions)
+        field_size = race.get("field_size") or len(names) or len(pos_map)
 
         for hn in names:
             pre = (card.get("runners") or {}).get(hn, {})
@@ -213,6 +255,10 @@ def rebuild_day(day: str) -> int:
                 pos = int(pos) if pos is not None else None
             except Exception:
                 pos = None
+            # Non-runners / DNF
+            status = (post.get("status") or "").upper()
+            if status in ("NR", "NON-RUNNER", "WD") and pos is None:
+                continue
             records.append({
                 "date": day,
                 "course": course,
@@ -228,7 +274,7 @@ def rebuild_day(day: str) -> int:
                 "horse": horse,
                 "position": pos,
                 "won": pos == 1,
-                "placed": isinstance(pos, int) and pos <= 3,
+                "placed": isinstance(pos, int) and 1 <= pos <= 3,
                 "trainer": pre.get("trainer") or post.get("trainer") or "",
                 "jockey": pre.get("jockey") or post.get("jockey") or "",
                 "odds": pre.get("odds") or post.get("sp") or post.get("odds"),
