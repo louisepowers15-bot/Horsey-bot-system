@@ -562,6 +562,20 @@ def tipster_reason(bot, r, tip_type, conf, field_size, rivals: list | None = Non
             facts.append((85, h if h.endswith(".") else h + "."))
 
     # Form
+    # Explicit last-run fail (P/F/U) — never bury this
+    last_code = (form[:1] if form else "") or str(r.get("last_run_code") or "")
+    last_cas = (r.get("last_run_casualty") or "").strip()
+    if last_code == "P":
+        facts.append((95, f"Pulled up last time" + (f" ({last_cas})" if last_cas else "") + " — that is a serious flag, not a footnote."))
+    elif last_code == "F":
+        facts.append((95, "Fell last time out — major caution."))
+    elif last_code == "U":
+        facts.append((92, "Unseated last time — not a clean complete."))
+    elif last_code == "R":
+        facts.append((90, "Failed to complete last time (refused/ran out)."))
+    elif last_code == "B":
+        facts.append((88, "Brought down last time — unlucky possible, still a concern."))
+
     if ff:
         if form_s >= 0.62:
             facts.append((80, f"Form is solid: {ff[0]}" + (f", and {ff[1]}" if len(ff) > 1 else "") + (f" ({form})" if form else "") + "."))

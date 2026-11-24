@@ -209,6 +209,7 @@ def summarise_previous_results(horse_obj: dict, limit: int = 6) -> list[dict]:
     for p in prev[:limit]:
         if not isinstance(p, dict):
             continue
+        cas = _casualty_reason(p.get("casualty"))
         out.append({
             "date": p.get("date") or "",
             "course": p.get("course_name") or p.get("course_shortcode") or "",
@@ -216,6 +217,7 @@ def summarise_previous_results(horse_obj: dict, limit: int = 6) -> list[dict]:
             "weight": p.get("weight") or "",
             "weight_lbs": weight_to_lbs(p.get("weight")),
             "position": p.get("position"),
+            "casualty": cas,
             "going": p.get("going") or p.get("going_shortcode") or "",
             "run_type": str(p.get("run_type") or ""),
             "race_name": str(p.get("race_name") or "")[:80],
@@ -225,18 +227,32 @@ def summarise_previous_results(horse_obj: dict, limit: int = 6) -> list[dict]:
 
 
 
+def _casualty_reason(casualty) -> str:
+    """Sporting Life sends casualty as dict {'reason': 'PulledUp'} or a plain string."""
+    if not casualty:
+        return ""
+    if isinstance(casualty, dict):
+        return str(
+            casualty.get("reason") or casualty.get("code") or casualty.get("type") or ""
+        ).strip()
+    return str(casualty).strip()
+
+
 def _position_char(pos, casualty="") -> str:
-    cas = str(casualty or "").upper()
-    if cas in ("F", "FELL", "FALL", "FEL"):
+    """Map finish position / casualty to a single form character (UK style)."""
+    cas = _casualty_reason(casualty).upper().replace(" ", "").replace("_", "")
+    if cas in ("F", "FELL", "FALL", "FEL") or "FELL" in cas:
         return "F"
-    if cas in ("P", "PU", "PULLED UP", "PULLED_UP"):
+    if cas in ("P", "PU", "PULLEDUP", "PULLED") or "PULL" in cas:
         return "P"
-    if cas in ("U", "UR", "UNSEATED", "UNSEATED RIDER"):
+    if cas in ("U", "UR", "UNSEATED", "UNSEATEDRIDER") or "UNSEAT" in cas:
         return "U"
-    if cas in ("R", "REF", "REFUSED"):
+    if cas in ("R", "REF", "REFUSED") or "REFUS" in cas:
         return "R"
-    if cas in ("B", "BD", "BROUGHT DOWN"):
+    if cas in ("B", "BD", "BROUGHTDOWN") or "BROUGHT" in cas:
         return "B"
+    if cas in ("RO", "RANOUT") or "RANOUT" in cas:
+        return "R"
     if pos is None or pos == "":
         return ""
     try:
@@ -254,7 +270,11 @@ def _position_char(pos, casualty="") -> str:
 
 
 def form_from_previous_results(previous_results: list, limit: int = 8) -> str:
-    """Most-recent-first form string from structured previous_results only."""
+    """Most-recent-first form string from structured previous_results.
+
+    Always includes casualties (P/F/U/R/B). Never skip a run just because
+    position is null when the horse failed to complete.
+    """
     chars = []
     for p in (previous_results or [])[:limit]:
         if not isinstance(p, dict):
@@ -349,9 +369,17 @@ def fetch_race_detail(date_str, course_name, race_id, race_name):
                 if not form_figs and form_summary:
                     # last resort only — mark as summary-sourced
                     form_figs = form_summary.replace(" ", "")
-                form_source = "previous_results" if form_from_previous_results(prev_raw) else (
+                form_source = "previous_results" if form_from_previous_results(prev_raw, limit=8) else (
                     "formsummary" if form_summary else "none"
                 )
+                # If structured form is empty/short but formsummary has data, merge carefully
+                if form_summary and (not form_figs or len(form_figs) < 3):
+                    # formsummary is often oldest→newest; reverse to newest-first
+                    cleaned = form_summary.replace(" ", "").replace("-", "")
+                    if cleaned and len(cleaned) > len(form_figs):
+                        form_figs = cleaned[::-1]
+                        form_source = "formsummary_reversed"
+
 
                 wins = form_figs.count("1")
                 places = form_figs.count("2") + form_figs.count("3")
@@ -418,6 +446,8 @@ def fetch_race_detail(date_str, course_name, race_id, race_name):
                     "form": form_figs,
                     "form_source": form_source,
                     "form_summary_raw": form_summary,
+                    "last_run_code": form_figs[:1] if form_figs else "",
+                    "last_run_casualty": _casualty_reason((prev_raw[0] or {}).get("casualty")) if prev_raw else "",
                     "form_score": round(form_score, 2),
                     "trainer_score": round(min(0.85, 0.4 + wins * 0.08), 2),
                     "jockey_score": round(combo, 2),
