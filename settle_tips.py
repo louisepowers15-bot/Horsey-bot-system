@@ -405,9 +405,29 @@ def rebuild_leaderboard_from_settled() -> dict:
         "history": sorted(history, key=lambda x: x.get("date") or "")[-90:],
     }
 
+    # Track freshest settled day
+    last_dates = sorted(
+        (h.get("date") for h in history if h.get("date")),
+        reverse=True,
+    )
+    last_settled = last_dates[0] if last_dates else None
+    lb["last_settled"] = last_settled
+    lb["updated_at"] = datetime.now(timezone.utc).isoformat()
+
     path = ROOT / "leaderboard.json"
     path.write_text(json.dumps(lb, indent=2), encoding="utf-8")
-    print(f"Rebuilt {path} from {len(files)} settled day file(s); best ROI={lb['best_roi']}; hot n={hot['n']}")
+
+    # Lightweight status for the site header
+    status = {
+        "last_settled": last_settled,
+        "updated_at": lb["updated_at"],
+        "best_roi": lb.get("best_roi"),
+        "best_win": lb.get("best_win"),
+        "settled_days": len(files),
+    }
+    (ROOT / "status.json").write_text(json.dumps(status, indent=2), encoding="utf-8")
+
+    print(f"Rebuilt {path} from {len(files)} settled day file(s); last_settled={last_settled}; best ROI={lb['best_roi']}; hot n={hot['n']}")
     return lb
 
 

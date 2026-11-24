@@ -203,7 +203,8 @@
 
     <div class="tabs" id="main-tabs">
       <button class="tab active" data-tab="today">📅 Today</button>
-      <button class="tab" data-tab="tomorrow">🌅 Tomorrow</button>
+      <div id="data-status" style="text-align:center;font-size:0.85rem;color:#94a3b8;padding:0.35rem 0.75rem;">Loading status…</div>
+<button class="tab" data-tab="tomorrow">🌅 Tomorrow</button>
       <button class="tab" data-tab="hot">🔥 Hot Pick</button>
       <button class="tab" data-tab="big">🏆 Big Festivals</button>
       <button class="tab" data-tab="doubles">🎲 Doubles & Accas</button>
@@ -358,35 +359,78 @@ function renderRacecards(dataSet) {
 }
 
 function getHotPick(dataSet) {
-  if (!dataSet || !dataSet.races) return null;
-  const scores = {};
-  dataSet.races.forEach(race => {
-    (race.tips || []).forEach(t => {
-      const key = race.course + "|" + race.time + "|" + t.horse;
-      if (!scores[key]) {
-        scores[key] = { horse: t.horse, course: race.course, time: race.time, race: race.name, odds: t.odds, total: 0, count: 0, bots: [] };
+  if (!dataSet) return null;
+  // Prefer server-built hot_picks (3+ bots, conf floor)
+  if (Array.isArray(dataSet.hot_picks) && dataSet.hot_picks.length) {
+    return dataSet.hot_picks[0];
+  }
+  // Fallback: aggregate from race tips
+  const tallies = {};
+  (dataSet.races || []).forEach(function (race) {
+    (race.tips || []).forEach(function (t) {
+      const key = (race.course || "") + "|" + (race.time || "") + "|" + (t.horse || "");
+      if (!tallies[key]) {
+        tallies[key] = {
+          horse: t.horse,
+          course: race.course,
+          time: race.time,
+          race: race.name,
+          odds: t.odds,
+          bots: [],
+          confs: [],
+          type: t.type
+        };
       }
-      scores[key].total += Number(t.conf) || 0;
-      scores[key].count += 1;
-      scores[key].bots.push(t.bot);
-      if (t.odds) scores[key].odds = t.odds;
+      tallies[key].bots.push(t.bot);
+      tallies[key].confs.push(t.conf || 0);
     });
   });
-  const list = Object.values(scores).map(s => ({ ...s, avg: s.total / s.count, combined: s.total }));
-  list.sort((a, b) => b.combined - a.combined || b.avg - a.avg);
-  return list[0] || null;
+  let best = null;
+  Object.keys(tallies).forEach(function (k) {
+    const v = tallies[k];
+    const n = v.bots.length;
+    const avg = v.confs.reduce(function (a, b) { return a + b; }, 0) / Math.max(1, n);
+    if (n < 3 || avg < 55) return;
+    const score = n * 10 + avg;
+    if (!best || score > best.score) {
+      best = {
+        horse: v.horse,
+        course: v.course,
+        time: v.time,
+        race: v.race,
+        odds: v.odds,
+        bot_count: n,
+        avg_conf: Math.round(avg * 10) / 10,
+        bots: v.bots,
+        type: v.type,
+        score: score
+      };
+    }
+  });
+  return best;
 }
 
 function renderHotPick() {
+  const list = (todayData && Array.isArray(todayData.hot_picks)) ? todayData.hot_picks : null;
+  if (list && list.length) {
+    let html = '<div class="section-title">Daily Hot Picks</div><p style="color:#94a3b8;text-align:center;font-size:0.85rem;margin:0 0 1rem">3+ bots agreed · avg confidence ≥ 55</p>';
+    list.slice(0, 8).forEach(function (hot) {
+      html += '<div class="card hot-pick"><h3>' + (hot.horse || "") + '</h3>' +
+        '<div style="color:#94a3b8;font-size:0.9rem">' + (hot.course || "") + " " + (hot.time || "") +
+        (hot.race ? " · " + hot.race : "") + "</div>" +
+        '<div style="margin-top:0.5rem"><b>' + (hot.bot_count || (hot.bots || []).length) + " bots</b> · avg conf " +
+        (hot.avg_conf || "?") + " · " + (hot.type || "win") + " @ " + (hot.odds || "?") + "</div>" +
+        '<div style="margin-top:0.35rem;font-size:0.85rem;color:#cbd5e1">' + (hot.bots || []).join(", ") + "</div></div>";
+    });
+    return html;
+  }
   const hot = getHotPick(todayData);
-  if (!hot) return '<p style="color:#94a3b8;text-align:center;padding:2rem">No hot pick available yet.</p>';
+  if (!hot) return '<p style="color:#94a3b8;text-align:center;padding:2rem">No hot pick available yet (need 3+ bots on one horse with solid confidence).</p>';
   return '<div class="section-title">Today’s Hot Pick</div>' +
     '<div class="card hot-pick"><h3>' + hot.horse + '</h3>' +
-    '<p><strong>' + hot.course + '</strong> · ' + hot.time + '<br>' + hot.race + '</p>' +
-    '<p style="margin-top:0.5rem">Odds: <strong>' + Number(hot.odds).toFixed(2) +
-    '</strong> · Combined confidence: <strong>' + Math.round(hot.combined) +
-    '</strong> (' + hot.count + ' bots · avg ' + Math.round(hot.avg) + '%)</p>' +
-    '<p style="margin-top:0.35rem;color:#94a3b8;font-size:0.85rem">Bots: ' + hot.bots.join(", ") + '</p></div>';
+    '<div style="color:#94a3b8">' + (hot.course || "") + " " + (hot.time || "") + "</div>" +
+    '<div style="margin-top:0.5rem"><b>' + (hot.bot_count || 0) + " bots</b> · conf " + (hot.avg_conf || "") +
+    " · " + (hot.type || "win") + " @ " + (hot.odds || "") + "</div></div>";
 }
 
 function topSelections(dataSet, typeFilter, limit) {
@@ -486,6 +530,35 @@ function renderLeaderboard() {
     '</div>' +
     '<p style="color:#94a3b8;text-align:center;padding:1rem" id="lb-loading">Loading leaderboard…</p>' +
     '<div id="lb-root"></div>';
+}
+
+
+async function loadDataStatus() {
+  const el = document.getElementById("data-status");
+  if (!el) return;
+  try {
+    const res = await fetch("./status.json?t=" + Date.now());
+    if (res.ok) {
+      const s = await res.json();
+      const parts = [];
+      if (s.last_settled) parts.push("Last settled: <b style=\"color:#e2e8f0\">" + s.last_settled + "</b>");
+      if (s.best_roi) parts.push("Best ROI: <b style=\"color:#4ade80\">" + s.best_roi + "</b>");
+      if (s.settled_days != null) parts.push(s.settled_days + " days tracked");
+      el.innerHTML = parts.join(" · ") || "Status ready";
+      return;
+    }
+  } catch (e) {}
+  try {
+    const res = await fetch("./leaderboard.json?t=" + Date.now());
+    if (res.ok) {
+      const lb = await res.json();
+      el.innerHTML = lb.last_settled
+        ? ("Last settled: <b style=\"color:#e2e8f0\">" + lb.last_settled + "</b>")
+        : "Leaderboard loaded — no settlements yet";
+      return;
+    }
+  } catch (e) {}
+  el.textContent = "";
 }
 
 async function fillLeaderboard(period) {

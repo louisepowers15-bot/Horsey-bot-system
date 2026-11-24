@@ -486,39 +486,99 @@ def score_bot(bot, r, rng):
     )
     if r["_rank"] <= 2 and r["_form"] >= 0.5:
         s += 0.045
-    if r["_rank"] == 1 and r["_form"] >= 0.55:
-        s += 0.03
-    if r["odds"] >= 12 and r["_form"] < 0.52:
-        s -= 0.12
-    if r["odds"] >= 18 and r["_form"] < 0.58:
-        s -= 0.18
-    if r["odds"] >= 25:
-        s -= 0.12
-    if bot == "DevilAdvocate" and r["_rank"] == 1 and r["_form"] < 0.55:
-        s -= 0.06
-    if bot == "ValueHunter" and r["odds"] < 2.2:
-        s -= 0.05
-    # Surface specialists lean
-    if bot in ("BloodlineBetty", "FormFox") and r.get("_surface") == "AW":
-        s += 0.015
-    # Class rise/drop: Class 5 -> Class 3 is a real step up in grade
+    if r.get("_rank") == 1 and r["_form"] >= 0.55:
+        s += 0.02
+
+    # --- History rates (hard factors when samples exist) ---
+    # enrich may set _hist_trainer_course, _hist_combo, _hist_going, _hist_trip, _hist_n_*
+    def _hr(key, nkey, weight=0.08, min_n=4):
+        nonlocal s
+        n = int(r.get(nkey) or 0)
+        rate = r.get(key)
+        if rate is None or n < min_n:
+            return
+        # rate is win rate ~0.05-0.35; centre around 0.12
+        s += weight * (float(rate) - 0.12)
+
+    _hr("_hist_tc_rate", "_hist_tc_n", weight=0.10, min_n=4)
+    _hr("_hist_combo_rate", "_hist_combo_n", weight=0.08, min_n=4)
+    _hr("_hist_going_rate", "_hist_going_n", weight=0.07, min_n=3)
+    _hr("_hist_trip_rate", "_hist_trip_n", weight=0.06, min_n=3)
+    _hr("_hist_course_rate", "_hist_course_n", weight=0.08, min_n=2)
+
+    # --- Class move + OR interaction ---
     move = r.get("_class_move") or ""
     if move == "up":
-        # Stepping up 2+ class bands — often struggle unless progressive
         s -= 0.06
         if r.get("_race_class") is not None and r.get("_recent_class") is not None:
             gap = int(r["_recent_class"]) - int(r["_race_class"])
             if gap >= 3:
-                s -= 0.05  # steep rise e.g. 6 -> 3
-        if r.get("_form") is not None and r["_form"] < 0.5:
-            s -= 0.03  # weak form + class rise
+                s -= 0.05
+        if r["_form"] < 0.5:
+            s -= 0.03
+        # up in class AND carrying more weight vs last win
+        if r.get("_weight_delta_lbs") is not None and float(r["_weight_delta_lbs"]) >= 3:
+            s -= 0.03
     elif move == "down":
-        s += 0.04  # eased in grade can help
-        if r.get("_form") is not None and r["_form"] >= 0.55:
+        s += 0.04
+        if r["_form"] >= 0.55:
             s += 0.02
+        if r.get("_weight_delta_lbs") is not None and float(r["_weight_delta_lbs"]) <= -2:
+            s += 0.02  # class drop + weight drop
 
-    s += rng.uniform(-0.025, 0.025)
-    return max(0.08, min(0.93, s))
+    # --- Last-run fail ---
+    last = (r.get("_form_raw") or r.get("form") or "")[:1]
+    if last == "P":
+        s -= 0.08
+    elif last in ("F", "U", "R", "B"):
+        s -= 0.07
+
+    # --- Debut / blank form: tip rarely ---
+    form = (r.get("_form_raw") or r.get("form") or "").strip()
+    if not form:
+        s -= 0.12  # strong caution unless connections rescue it
+        if int(r.get("_t_day_n") or 0) >= 3 or int(r.get("_j_day_n") or 0) >= 3:
+            s += 0.04  # busy yard/jockey can offset a little
+
+    # --- Race shape ---
+    fs = int(r.get("_field_size") or r.get("field_size") or 0)
+    if fs >= 12:
+        s -= 0.015  # luck in running
+        if r["_rank"] <= 2:
+            s += 0.01
+    elif 0 < fs <= 6:
+        s += 0.02 if r["_form"] >= 0.5 else 0.0
+
+    # --- Market vs model (value edge) ---
+    # implied win prob from decimal odds; compare to soft model score
+    odds = float(r.get("odds") or 10)
+    implied = 1.0 / odds if odds > 1 else 0.1
+    # map s roughly to 0.05-0.45 chance
+    model_p = max(0.04, min(0.45, s * 0.42))
+    edge = model_p - implied
+    r["_edge"] = round(edge, 4)
+    if bot == "ValueHunter":
+        s += max(-0.05, min(0.10, edge * 0.5))
+        if edge < -0.02:
+            s -= 0.04  # overbet for value bot
+    elif bot == "DevilAdvocate" and r["_rank"] == 1 and r["_form"] < 0.55:
+        s += 0.03  # oppose weak fav
+
+    # Long absence with form evidence only
+    days = r.get("_days_off")
+    try:
+        days = int(days) if days is not None else None
+    except (TypeError, ValueError):
+        days = None
+    if days is not None and days > 180:
+        s -= 0.04
+    elif days is not None and days > 100:
+        s -= 0.02
+
+    s += rng.uniform(-0.02, 0.02)
+    return max(0.05, min(0.93, s))
+
+
 
 
 def choose_type(bot, r, field_size, prob):
@@ -532,16 +592,45 @@ def choose_type(bot, r, field_size, prob):
     return "win"
 
 
-def pick_for_bot(bot, ranked, field_size):
+def pick_for_bot(bot, ranked, field_size, used_names=None, force_diversity=True):
+    """Pick a horse for this bot. Prefer unique picks unless one horse dominates scores."""
+    used_names = used_names or set()
+    candidates = []
     for prob, r in ranked:
         if r["odds"] >= 16 and r["_form"] < 0.55:
             continue
         if r["odds"] >= 20 and r["_rank"] >= 4 and r["_form"] < 0.6:
             continue
-        tip_type = choose_type(bot, r, field_size, prob)
-        return prob, r, tip_type
-    market = [x for x in ranked if x[1]["_rank"] <= max(3, field_size // 2)]
-    pool = market or ranked
+        # blank form: only allow if score still high after debut penalty
+        if not (r.get("_form_raw") or r.get("form") or "").strip() and prob < 0.45:
+            continue
+        candidates.append((prob, r))
+    if not candidates:
+        candidates = list(ranked)
+
+    # If best is clearly clear of second, allow consensus
+    best_p = candidates[0][0] if candidates else 0
+    second_p = candidates[1][0] if len(candidates) > 1 else 0
+    clear_leader = (best_p - second_p) >= 0.08
+
+    def take(pool):
+        for prob, r in pool:
+            name = (r.get("name") or "").strip()
+            if force_diversity and name in used_names and not clear_leader:
+                continue
+            tip_type = choose_type(bot, r, field_size, prob)
+            # ValueHunter: need non-negative edge unless short field
+            if bot == "ValueHunter" and r.get("_edge") is not None and r["_edge"] < -0.03 and r["odds"] < 8:
+                continue
+            return prob, r, tip_type
+        return None
+
+    got = take(candidates)
+    if got:
+        return got
+    # fallback: ignore diversity
+    market = [x for x in candidates if x[1]["_rank"] <= max(3, field_size // 2)]
+    pool = market or candidates or ranked
     prob, r = pool[0]
     return prob, r, choose_type(bot, r, field_size, prob)
 
@@ -994,6 +1083,17 @@ def build_tips_for_races(d, flat_races):
                     er["_combo"] = min(0.88, max(0.2, er.get("_combo", 0.5) + (rate_jt - 0.12) * 0.4))
                     er["_hist_used"] = True
 
+                er["_hist_tc_rate"] = rate_tc if n_tc else None
+                er["_hist_tc_n"] = n_tc
+                er["_hist_combo_rate"] = rate_jt if n_jt else None
+                er["_hist_combo_n"] = n_jt
+                er["_hist_course_rate"] = rate_hc if n_hc else None
+                er["_hist_course_n"] = n_hc
+                er["_hist_going_rate"] = rate_g if n_g else None
+                er["_hist_going_n"] = n_g
+                er["_hist_trip_rate"] = rate_d if n_d else None
+                er["_hist_trip_n"] = n_d
+
                 # Plain-English history facts for the tip write-up
                 hf = []
                 if n_tc >= 4:
@@ -1015,9 +1115,17 @@ def build_tips_for_races(d, flat_races):
         rng = random.Random(f"{d.isoformat()}|{course}|{race.get('time')}|{idx}")
 
         tips = []
+        used = set()
         for bot in BOT_NAMES:
             ranked = sorted(((score_bot(bot, r, rng), r) for r in runners), key=lambda x: -x[0])
-            prob, best, tip_type = pick_for_bot(bot, ranked, field_size)
+            # recompute edges for value after ranking list built
+            for prob, r in ranked:
+                if r.get("_edge") is None:
+                    odds = float(r.get("odds") or 10)
+                    implied = 1.0 / odds if odds > 1 else 0.1
+                    model_p = max(0.04, min(0.45, prob * 0.42))
+                    r["_edge"] = round(model_p - implied, 4)
+            prob, best, tip_type = pick_for_bot(bot, ranked, field_size, used_names=used, force_diversity=True)
             conf = max(40, min(84, int(round(prob * 100))))
             tips.append({
                 "bot": bot,
@@ -1025,10 +1133,13 @@ def build_tips_for_races(d, flat_races):
                 "odds": round(best["odds"], 2),
                 "conf": conf,
                 "type": tip_type,
+                "edge": best.get("_edge"),
+                "class_move": best.get("_class_move") or "",
                 "reason": tipster_reason(bot, best, tip_type, conf, field_size, rivals=runners),
             })
+            used.add((best.get("name") or "").strip())
 
-        # Stars = how many bots independently chose this horse (agreement is allowed)
+        # Stars = how many bots independently chose this horse
         counts = Counter(t["horse"] for t in tips)
         for t in tips:
             t["stars"] = counts[t["horse"]]
@@ -1041,15 +1152,67 @@ def build_tips_for_races(d, flat_races):
             "distance": distance,
             "surface": race.get("surface") or surface_from(course, going),
             "code": race.get("code") or "unknown",
+            "race_class": race.get("race_class"),
             "tips": tips,
         })
+
+    # --- Daily Hot Picks: 3+ bots, avg conf >= 55, not pure longshot spam ---
+    horse_agg = {}
+    for race in races_out:
+        for t in race.get("tips") or []:
+            key = (race.get("course"), race.get("time"), t.get("horse"))
+            horse_agg.setdefault(key, {
+                "course": race.get("course"),
+                "time": race.get("time"),
+                "name": race.get("name"),
+                "horse": t.get("horse"),
+                "odds": t.get("odds"),
+                "bots": [],
+                "confs": [],
+                "types": [],
+            })
+            horse_agg[key]["bots"].append(t.get("bot"))
+            horse_agg[key]["confs"].append(int(t.get("conf") or 0))
+            horse_agg[key]["types"].append(t.get("type") or "win")
+            horse_agg[key]["odds"] = t.get("odds")
+
+    hot = []
+    for key, v in horse_agg.items():
+        n = len(v["bots"])
+        if n < 3:
+            continue
+        avg_conf = sum(v["confs"]) / max(1, n)
+        if avg_conf < 55:
+            continue
+        odds = float(v.get("odds") or 99)
+        if odds >= 21 and n < 4:
+            continue  # need strong agreement on big prices
+        hot.append({
+            "course": v["course"],
+            "time": v["time"],
+            "race": v["name"],
+            "horse": v["horse"],
+            "odds": v["odds"],
+            "bots": v["bots"],
+            "bot_count": n,
+            "avg_conf": round(avg_conf, 1),
+            "type": "ew" if v["types"].count("ew") > v["types"].count("win") else "win",
+            "score": round(n * 10 + avg_conf + max(0, 12 - odds), 2),
+        })
+    hot.sort(key=lambda x: -x["score"])
+    hot = hot[:12]
 
     return {
         "date": d.isoformat(),
         "meetings": meetings,
         "races": races_out,
+        "hot_picks": hot,
         "generated_at": datetime.utcnow().isoformat() + "Z",
-        "note": "Human-style reasons; day trainer/jockey books; surface + trip aware",
+        "note": "History-weighted scores; class moves; diversity picks; hot picks need 3+ bots & conf≥55",
+        "meta": {
+            "history_runs": int(hist_index.get("runs") or 0),
+            "hot_pick_rules": "min_bots=3, min_avg_conf=55",
+        },
     }
 
 
@@ -1075,6 +1238,7 @@ def load_scraped_races(d):
                 "distance": r.get("distance") or "",
                 "surface": r.get("surface") or "",
                 "code": r.get("code") or "",
+                "race_class": r.get("race_class"),
                 "runners": r["runners"],
             })
     return flat
