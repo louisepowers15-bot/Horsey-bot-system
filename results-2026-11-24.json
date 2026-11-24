@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
   "source": "sportinglife",
-  "scraped_at": "2026-11-24T13:55:12.279483Z",
+  "scraped_at": "2026-11-24T15:30:06.327608Z",
   "meetings": [
     {
       "course": "Lingfield",
@@ -355,6 +355,270 @@
               "sp": 67.0
             }
           ]
+        },
+        {
+          "time": "14:08",
+          "name": "ARC 1M Bonus Handicap",
+          "course": "Lingfield",
+          "distance": "1m 1y",
+          "going": "Standard",
+          "field_size": 12,
+          "runners": [
+            {
+              "name": "Nordic Norm",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Rey De La Batalla",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 8.0
+            },
+            {
+              "name": "North View",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 4.33
+            },
+            {
+              "name": "Sant Alessio",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 6.5
+            },
+            {
+              "name": "Way To Dubai",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 8.0
+            },
+            {
+              "name": "Spirit Of Breeze",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 19.0
+            },
+            {
+              "name": "The Bitter Moose",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 7.0
+            },
+            {
+              "name": "Dandy G Boy",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 15.0
+            },
+            {
+              "name": "Valentine Boy",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 7.0
+            },
+            {
+              "name": "Penfolds Grange",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Secret Message",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 81.0
+            },
+            {
+              "name": "Jazzy Baby",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 21.0
+            }
+          ]
+        },
+        {
+          "time": "14:38",
+          "name": "ARC All Weather Bonus Is Back Handicap (Div 1)",
+          "course": "Lingfield",
+          "distance": "7f 1y",
+          "going": "Standard",
+          "field_size": 14,
+          "runners": [
+            {
+              "name": "Two And Two",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Sanditon",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Lessay",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 4.0
+            },
+            {
+              "name": "Jackson Street",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 9.0
+            },
+            {
+              "name": "Teggy Lasso",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 3.75
+            },
+            {
+              "name": "Pimentel",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 19.0
+            },
+            {
+              "name": "Barnsnape Boy",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "Twitch",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 7.5
+            },
+            {
+              "name": "First Encounter",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Lahina Bay",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 19.0
+            },
+            {
+              "name": "Mount Mogan",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "Master Of Puppets",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 151.0
+            },
+            {
+              "name": "Cooramook",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 15.0
+            },
+            {
+              "name": "Sovereign Class",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 6.0
+            }
+          ]
+        },
+        {
+          "time": "15:08",
+          "name": "ARC All Weather Bonus Is Back Handicap (Div 2)",
+          "course": "Lingfield",
+          "distance": "7f 1y",
+          "going": "Standard",
+          "field_size": 13,
+          "runners": [
+            {
+              "name": "Real Gold",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 81.0
+            },
+            {
+              "name": "Orange Emperor",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 3.0
+            },
+            {
+              "name": "Rovinia",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 7.0
+            },
+            {
+              "name": "Dandy Khan",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 6.5
+            },
+            {
+              "name": "Tam Lin",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "It's A Mugs Game",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Tilsworth Max",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 21.0
+            },
+            {
+              "name": "Denby's Dream",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 12.0
+            },
+            {
+              "name": "Amber Honey",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 8.5
+            },
+            {
+              "name": "Zoulette",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 34.0
+            },
+            {
+              "name": "So Chic",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Lady Delila",
+              "position": 12,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "Imelda",
+              "position": 13,
+              "status": "RUNNER",
+              "sp": 15.0
+            }
+          ]
         }
       ]
     },
@@ -658,6 +922,322 @@
               "sp": 151.0
             }
           ]
+        },
+        {
+          "time": "13:56",
+          "name": "Festive Fixtures At Southwell Racecourse Novices' Limited Handicap Hurdle",
+          "course": "Southwell",
+          "distance": "1m 7f 182y",
+          "going": "Good",
+          "field_size": 14,
+          "runners": [
+            {
+              "name": "Nobody Told Me",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 2.62
+            },
+            {
+              "name": "Yourcardismarked",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 2.75
+            },
+            {
+              "name": "Laplander",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Milady Du Breuil",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 67.0
+            },
+            {
+              "name": "Gaelic Glow",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Tenadaay",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Orbys River",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 67.0
+            },
+            {
+              "name": "Troy Story",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 101.0
+            },
+            {
+              "name": "Cheap Sandwiches",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 8.5
+            },
+            {
+              "name": "Everest",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Little Lady Lucy",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 26.0
+            },
+            {
+              "name": "On Subs",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 81.0
+            },
+            {
+              "name": "Dino Bellagio",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 10.0
+            },
+            {
+              "name": "Trackman",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 151.0
+            }
+          ]
+        },
+        {
+          "time": "14:26",
+          "name": "Christmas Jumper Day Sunday 13th December Handicap Hurdle",
+          "course": "Southwell",
+          "distance": "2m 4f 88y",
+          "going": "Good",
+          "field_size": 15,
+          "runners": [
+            {
+              "name": "Typhoon Warrior",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Presenting Milan",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 6.5
+            },
+            {
+              "name": "The Boss Bear",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 3.5
+            },
+            {
+              "name": "In The Purple",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 4.33
+            },
+            {
+              "name": "At Mangan Bridge",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 15.0
+            },
+            {
+              "name": "Eternity Rose",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Ka Mate Du Brivet",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Ballin Bay",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Blazing Duke",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 34.0
+            },
+            {
+              "name": "Laysoft",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Stroll On By",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 26.0
+            },
+            {
+              "name": "Starshine Legend",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 81.0
+            },
+            {
+              "name": "Magical Arthur",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 34.0
+            },
+            {
+              "name": "Ithaka",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Smile Back",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 13.0
+            }
+          ]
+        },
+        {
+          "time": "14:56",
+          "name": "Book The Bistro In Seasons Restaurant Handicap Hurdle",
+          "course": "Southwell",
+          "distance": "3m 60y",
+          "going": "Good",
+          "field_size": 9,
+          "runners": [
+            {
+              "name": "Elusive Shine",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 9.5
+            },
+            {
+              "name": "The Brave Guy",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 4.33
+            },
+            {
+              "name": "Gimarias",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 3.0
+            },
+            {
+              "name": "Has Troke",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 6.5
+            },
+            {
+              "name": "Ocean Walz",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Innisfree Lass",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Twp Stori",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 19.0
+            },
+            {
+              "name": "Harrys Hope",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 6.5
+            },
+            {
+              "name": "Eyeeye",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 34.0
+            }
+          ]
+        },
+        {
+          "time": "15:26",
+          "name": "Conferences And Events At Southwell Racecourse Handicap Hurdle",
+          "course": "Southwell",
+          "distance": "1m 7f 182y",
+          "going": "Good",
+          "field_size": 8,
+          "runners": [
+            {
+              "name": "Wild Goose",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 2.75
+            },
+            {
+              "name": "Klitschko",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 10.0
+            },
+            {
+              "name": "Saligo Bay",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 19.0
+            },
+            {
+              "name": "Mister Cessna",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "He's A Latchico",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "Manuelito",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 3.0
+            },
+            {
+              "name": "The Cistercian",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Lawrenny",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 15.0
+            }
+          ]
         }
       ]
     },
@@ -885,22 +1465,34 @@
               "sp": 8.0
             },
             {
+              "name": "Maxios Prime",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 9.5
+            },
+            {
+              "name": "Leading Rose",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 34.0
+            },
+            {
+              "name": "Dromana Mist",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 4.33
+            },
+            {
+              "name": "French Adventure",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 19.0
+            },
+            {
               "name": "Mastertown Miss",
               "position": 0,
               "status": "RUNNER",
               "sp": 17.0
-            },
-            {
-              "name": "Westin Pimpernel",
-              "position": 0,
-              "status": "NONRUNNER",
-              "sp": 3.5
-            },
-            {
-              "name": "Dromana Mist",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 4.33
             },
             {
               "name": "Lep Around",
@@ -909,28 +1501,364 @@
               "sp": 101.0
             },
             {
-              "name": "French Adventure",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 19.0
-            },
-            {
-              "name": "Maxios Prime",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 9.5
-            },
-            {
               "name": "Clash Gold",
               "position": 0,
               "status": "RUNNER",
               "sp": 34.0
             },
             {
-              "name": "Leading Rose",
+              "name": "Westin Pimpernel",
               "position": 0,
+              "status": "NONRUNNER",
+              "sp": 3.5
+            }
+          ]
+        },
+        {
+          "time": "14:15",
+          "name": "Bill Halley Outstanding Contribution Award 2026 Handicap Hurdle (0-100)",
+          "course": "Tramore",
+          "distance": "2m 5f",
+          "going": "Soft to Heavy",
+          "field_size": 19,
+          "runners": [
+            {
+              "name": "Le Midnightdancer",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Johnny Cakes",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 6.0
+            },
+            {
+              "name": "The Ducks Walk",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 4.5
+            },
+            {
+              "name": "Lake Chad",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 9.0
+            },
+            {
+              "name": "Fizzle Rock",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 21.0
+            },
+            {
+              "name": "Cloonbonniffe",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Ballinaboola Jet",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Wolfhill",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "Man Down",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "Walkmethroughit",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 8.0
+            },
+            {
+              "name": "Fairy Meadow",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 81.0
+            },
+            {
+              "name": "Renard De Noir",
+              "position": 12,
               "status": "RUNNER",
               "sp": 34.0
+            },
+            {
+              "name": "Talas Kera",
+              "position": 13,
+              "status": "RUNNER",
+              "sp": 8.0
+            },
+            {
+              "name": "Carrigeen Ardisia",
+              "position": 14,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Madame Masque",
+              "position": 15,
+              "status": "RUNNER",
+              "sp": 8.0
+            },
+            {
+              "name": "El Arco",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 4.5
+            },
+            {
+              "name": "Lily Milan",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 34.0
+            },
+            {
+              "name": "Cosmo Renfro",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Piper Street",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 101.0
+            }
+          ]
+        },
+        {
+          "time": "14:45",
+          "name": "2027 Group Package Deals Online Beginners Chase",
+          "course": "Tramore",
+          "distance": "2m 5f 100y",
+          "going": "Soft",
+          "field_size": 17,
+          "runners": [
+            {
+              "name": "Rebel Reba",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 4.0
+            },
+            {
+              "name": "Glenary Prince",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 9.5
+            },
+            {
+              "name": "Kimy",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 4.5
+            },
+            {
+              "name": "Leni's Law",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 7.0
+            },
+            {
+              "name": "Let's Go Mans",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 9.5
+            },
+            {
+              "name": "I C U In My Dreams",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Queen Of The Gales",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 67.0
+            },
+            {
+              "name": "Sekakarma",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Walk In The Clouds",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 9.0
+            },
+            {
+              "name": "Spanish John",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Harry's Dream",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 67.0
+            },
+            {
+              "name": "Jonny Carrol",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 26.0
+            },
+            {
+              "name": "Datzdjazz",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Cruisin Susan",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 101.0
+            },
+            {
+              "name": "Ersudaly",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Joshua Chamberlain",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Kanog Bay",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 7.5
+            }
+          ]
+        },
+        {
+          "time": "15:15",
+          "name": "Ladies Cove Handicap Chase (0-100)",
+          "course": "Tramore",
+          "distance": "2m 5f 100y",
+          "going": "Soft",
+          "field_size": 17,
+          "runners": [
+            {
+              "name": "Revolut Ned",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "Stily",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Another Ocana",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 8.0
+            },
+            {
+              "name": "Roccabaker",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 7.5
+            },
+            {
+              "name": "Moorish Castle",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 21.0
+            },
+            {
+              "name": "Without Exception",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 8.0
+            },
+            {
+              "name": "King Gris",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Knockbrack Rambler",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Likable Chancer",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 15.0
+            },
+            {
+              "name": "God Help Us",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "Lough Nigara",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "Ray Gun",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 8.0
+            },
+            {
+              "name": "Notimelikedpresent",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 9.0
+            },
+            {
+              "name": "Rockstown Girl",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Drumadeise",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 15.0
+            },
+            {
+              "name": "Orlando Spirit",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Battle Of Benburb",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 126.0
             }
           ]
         }
