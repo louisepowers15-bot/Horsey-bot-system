@@ -1,6 +1,70 @@
 {
   "date": "2026-11-24",
   "source": "sportinglife",
-  "scraped_at": "2026-11-24T11:15:55.770934Z",
-  "meetings": []
+  "scraped_at": "2026-11-24T11:56:18.770602Z",
+  "meetings": [
+    {
+      "course": "Lingfield",
+      "races": [
+        {
+          "time": "11:38",
+          "name": "Midnite Ain't Your Grandad's Bookie Handicap",
+          "course": "Lingfield",
+          "distance": "1m 7f 170y",
+          "going": "Standard",
+          "field_size": 8,
+          "runners": [
+            {
+              "name": "Kashooda",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Fiefdom",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Division Day",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 8.0
+            },
+            {
+              "name": "Neswick",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 2.2
+            },
+            {
+              "name": "Fair Dinkum",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 19.0
+            },
+            {
+              "name": "Youthful King",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Percy Jones",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "It's Life",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 26.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

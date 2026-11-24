@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-24T11:15:55.866745+00:00",
-  "runs": 296,
+  "updated_at": "2026-11-24T11:56:18.922839+00:00",
+  "runs": 304,
   "trainer_course": {
     "celongsdon|huntingdon": {
       "wins": 0,
@@ -908,6 +908,46 @@
       "rate": 0.1067
     },
     "georgebaker|wolverhampton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "ambalding|lingfield": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "jscott|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "dmloughnane|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "mptregoning|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "swoods|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "ladace|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "mrslrichards|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "kathyturner|lingfield": {
       "wins": 0,
       "n": 1,
       "rate": 0.1067
@@ -1888,8 +1928,8 @@
     },
     "mptregoning|AW": {
       "wins": 1,
-      "n": 2,
-      "rate": 0.196
+      "n": 3,
+      "rate": 0.1782
     },
     "wgreatrex|AW": {
       "wins": 0,
@@ -2003,8 +2043,8 @@
     },
     "dmloughnane|AW": {
       "wins": 0,
-      "n": 4,
-      "rate": 0.08
+      "n": 5,
+      "rate": 0.0738
     },
     "jgmoshea|AW": {
       "wins": 1,
@@ -2057,6 +2097,36 @@
       "rate": 0.2178
     },
     "georgebaker|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "ambalding|AW": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "jscott|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "swoods|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "ladace|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "mrslrichards|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "kathyturner|AW": {
       "wins": 0,
       "n": 1,
       "rate": 0.1067
@@ -3254,6 +3324,46 @@
       "rate": 0.1067
     },
     "clee|tkent": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "jasonwatson|ambalding": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "tarynlangley|jscott": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "charlesbishop|dmloughnane": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "marcoghiani|mptregoning": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "degan|swoods": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "jackdace|ladace": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "rhavlin|mrslrichards": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "nonrunner|kathyturner": {
       "wins": 0,
       "n": 1,
       "rate": 0.1067
@@ -4739,6 +4849,46 @@
       "wins": 0,
       "n": 1,
       "rate": 0.1067
+    },
+    "kashooda|lingfield": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "fairdinkum|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "percyjones|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "neswick|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "fiefdom|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "youthfulking|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "divisionday|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "itslife|lingfield": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "horse_surface": {
@@ -6218,6 +6368,46 @@
       "rate": 0.1067
     },
     "pipily|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "kashooda|AW": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "fairdinkum|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "percyjones|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "neswick|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "fiefdom|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "youthfulking|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "divisionday|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "itslife|AW": {
       "wins": 0,
       "n": 1,
       "rate": 0.1067
@@ -8175,6 +8365,46 @@
       "wins": 0,
       "n": 1,
       "rate": 0.1067
+    },
+    "kashooda|aw": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "fairdinkum|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "percyjones|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "neswick|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "fiefdom|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "youthfulking|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "divisionday|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "itslife|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "horse_distance": {
@@ -9657,6 +9887,46 @@
       "wins": 0,
       "n": 1,
       "rate": 0.1067
+    },
+    "kashooda|middle": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "fairdinkum|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "percyjones|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "neswick|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "fiefdom|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "youthfulking|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "divisionday|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "itslife|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "horse_place_surface": {
@@ -11136,6 +11406,46 @@
       "rate": 0.24
     },
     "pipily|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "kashooda|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "fairdinkum|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "percyjones|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "neswick|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "fiefdom|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "youthfulking|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "divisionday|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "itslife|AW": {
       "places": 0,
       "n": 1,
       "rate": 0.24
