@@ -2,26 +2,27 @@ name: Update tips and results
 
 on:
   schedule:
-    # Morning full cards + tips (UK ~07:30)
+    # Morning: scrape cards + first tips of the day (frozen after this)
     - cron: "30 7 * * *"
-    # Odds-aware tips refresh only
+    # Optional: refresh racecards only (odds on site data) — does NOT rewrite tips
     - cron: "0 10 * * *"
-    # Results + settle windows
+    # Results + settle
     - cron: "0 16 * * *"
     - cron: "15 21 * * *"
     - cron: "0 23 * * *"
   workflow_dispatch:
     inputs:
       mode:
-        description: "tips | results | both | odds"
+        description: "tips (first of day) | cards (no tips) | results | both | force-tips"
         required: true
         default: both
         type: choice
         options:
           - tips
+          - cards
           - results
           - both
-          - odds
+          - force-tips
 
 permissions:
   contents: write
@@ -45,7 +46,7 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "mode=${{ github.event.inputs.mode }}" >> $GITHUB_OUTPUT
           elif [ "${{ github.event.schedule }}" = "0 10 * * *" ]; then
-            echo "mode=odds" >> $GITHUB_OUTPUT
+            echo "mode=cards" >> $GITHUB_OUTPUT
           elif [ "${{ github.event.schedule }}" = "30 7 * * *" ]; then
             echo "mode=tips" >> $GITHUB_OUTPUT
           else
@@ -53,49 +54,44 @@ jobs:
           fi
           echo "UTC now: $(date -u)"
 
-      - name: Morning – full scrape + tips
+      - name: Morning – cards + first tips (frozen)
         if: steps.mode.outputs.mode == 'tips' || steps.mode.outputs.mode == 'both'
         run: |
           python scrape_racecards.py --date today
-          python generate_tips.py --date today
-          # Health: today must have races
-          python - <<'PY'
-          import json, pathlib, sys
-          p = pathlib.Path("racecards-"+__import__("datetime").date.today().isoformat()+".json")
-          if not p.exists():
-              print("FAIL: no racecards file"); sys.exit(1)
-          d = json.loads(p.read_text())
-          n = sum(len(m.get("races") or []) for m in d.get("meetings") or [])
-          print(f"Health: {n} races")
-          if n < 1:
-              print("FAIL: zero races"); sys.exit(1)
-          t = pathlib.Path("tips-"+__import__("datetime").date.today().isoformat()+".json")
-          if not t.exists():
-              print("FAIL: no tips file"); sys.exit(1)
-          td = json.loads(t.read_text())
-          if not td.get("races"):
-              print("FAIL: empty tips"); sys.exit(1)
-          print("Health OK")
-          PY
-          python scrape_racecards.py --date tomorrow || true
-          python generate_tips.py --date tomorrow || true
-
-      - name: Mid-morning – odds refresh + tips only
-        if: steps.mode.outputs.mode == 'odds'
-        run: |
-          # Re-scrape cards (prices) and regenerate tips; form comes from same feed
-          python scrape_racecards.py --date today
+          # Will SKIP if tips-today already has races (unless force-tips)
           python generate_tips.py --date today
           python - <<'PY'
           import json, pathlib, sys
           from datetime import date
+          p = pathlib.Path(f"racecards-{date.today().isoformat()}.json")
           t = pathlib.Path(f"tips-{date.today().isoformat()}.json")
+          if not p.exists():
+              print("FAIL: no racecards"); sys.exit(1)
+          n = sum(len(m.get("races") or []) for m in json.loads(p.read_text()).get("meetings") or [])
+          print(f"Health racecards: {n} races")
+          if n < 1:
+              sys.exit(1)
           if not t.exists() or not json.loads(t.read_text()).get("races"):
-              print("FAIL: odds refresh produced empty tips"); sys.exit(1)
-          print("Odds refresh OK")
+              print("FAIL: no tips after morning run"); sys.exit(1)
+          print("Health OK — tips frozen for the day")
           PY
+          python scrape_racecards.py --date tomorrow || true
+          python generate_tips.py --date tomorrow || true
 
-      - name: Evening – results, settle, history, archive
+      - name: Force regenerate tips (manual only)
+        if: steps.mode.outputs.mode == 'force-tips'
+        run: |
+          python scrape_racecards.py --date today
+          python generate_tips.py --date today --force
+          echo "Forced tip overwrite complete"
+
+      - name: Mid-morning – racecards only (tips untouched)
+        if: steps.mode.outputs.mode == 'cards'
+        run: |
+          python scrape_racecards.py --date today || true
+          echo "Cards refreshed; tips file left as-is (frozen)"
+
+      - name: Evening – results, settle, history (no tip generation)
         if: steps.mode.outputs.mode == 'results' || steps.mode.outputs.mode == 'both'
         run: |
           python scrape_results.py --date yesterday || true
@@ -105,12 +101,11 @@ jobs:
           python history_store.py --rebuild-day yesterday || true
           python history_store.py --rebuild-day today || true
           python history_store.py --archive --keep-days 14 || true
-          # Status must exist after settle
           test -f leaderboard.json
           python - <<'PY'
           import json, pathlib
           lb = json.loads(pathlib.Path("leaderboard.json").read_text())
-          print("last_settled=", lb.get("last_settled"), "updated_at=", lb.get("updated_at"))
+          print("last_settled=", lb.get("last_settled"))
           PY
 
       - name: Commit and push
