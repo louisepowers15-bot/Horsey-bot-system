@@ -299,16 +299,40 @@ def fetch_race_detail(date_str, course_name, race_id, race_name):
                     continue
 
                 betting = ride.get("betting") or {}
-                odds_str = (
-                    betting.get("current_odds")
-                    or betting.get("forecast_odds")
-                    or betting.get("decimal_odds")
-                    or ""
-                )
-                if not odds_str and isinstance(ride.get("bookmakerOdds"), list) and ride["bookmakerOdds"]:
-                    odds_str = ride["bookmakerOdds"][0].get("odds") or ride["bookmakerOdds"][0].get("decimal") or ""
+                # Prefer LIVE bookmaker prices over Sporting Life's "current_odds"
+                # (current_odds is often a forecast/paper price — e.g. 15/2 when the
+                # horse is actually 6/5 with bookmakers).
+                dec = 0.0
+                bm_list = ride.get("bookmakerOdds") or ride.get("bookmaker_odds") or []
+                if isinstance(bm_list, list) and bm_list:
+                    bm_decs = []
+                    for bm in bm_list:
+                        if not isinstance(bm, dict):
+                            continue
+                        d = bm.get("decimalOdds") or bm.get("decimal") or bm.get("odds")
+                        if d is None:
+                            frac = bm.get("fractionalOdds") or bm.get("fractional")
+                            d = parse_odds(frac) if frac else 0.0
+                        else:
+                            try:
+                                d = float(d)
+                            except (TypeError, ValueError):
+                                d = parse_odds(d)
+                        if d and d > 1.0:
+                            bm_decs.append(d)
+                    if bm_decs:
+                        # shortest price = market favourite signal
+                        dec = round(min(bm_decs), 2)
 
-                dec = parse_odds(odds_str)
+                if dec <= 1.0:
+                    odds_str = (
+                        betting.get("current_odds")
+                        or betting.get("forecast_odds")
+                        or betting.get("decimal_odds")
+                        or ""
+                    )
+                    dec = parse_odds(odds_str)
+
                 if dec <= 1.0:
                     dec = 8.0
 
