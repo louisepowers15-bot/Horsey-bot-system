@@ -1,7 +1,7 @@
 {
   "date": "2026-11-23",
   "source": "sportinglife",
-  "scraped_at": "2026-11-23T17:35:50.794640Z",
+  "scraped_at": "2026-11-24T05:18:58.033587Z",
   "meetings": [
     {
       "course": "Huntingdon",
@@ -1001,6 +1001,422 @@
               "sp": 29.0
             }
           ]
+        },
+        {
+          "time": "17:45",
+          "name": "Midnite It's Actually Pretty Good Handicap (Div 1)",
+          "course": "Newcastle",
+          "distance": "6f",
+          "going": "Standard",
+          "field_size": 10,
+          "runners": [
+            {
+              "name": "Storm Esme",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Mythical Phoenix",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 15.0
+            },
+            {
+              "name": "Lumenbourg",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Moonstone Boy",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 9.5
+            },
+            {
+              "name": "Spun To Gold",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 7.0
+            },
+            {
+              "name": "Wise Crack",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "The Green Man",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 6.0
+            },
+            {
+              "name": "Jersey Maverick",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 21.0
+            },
+            {
+              "name": "Encore",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 4.5
+            },
+            {
+              "name": "Noelies Dream",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 8.0
+            }
+          ]
+        },
+        {
+          "time": "18:15",
+          "name": "Midnite It's Actually Pretty Good Handicap (Div 2)",
+          "course": "Newcastle",
+          "distance": "6f",
+          "going": "Standard",
+          "field_size": 9,
+          "runners": [
+            {
+              "name": "Go Victor",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Brave Traveller",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 12.0
+            },
+            {
+              "name": "Mr Dreamseller",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 8.5
+            },
+            {
+              "name": "Sugar Baby",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 9.0
+            },
+            {
+              "name": "Azure Zain",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 3.5
+            },
+            {
+              "name": "Kings Merchant",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Raatea",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 8.0
+            },
+            {
+              "name": "Come On Eibhlin",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "Winter Crown",
+              "position": 0,
+              "status": "WITHDRAWN",
+              "sp": 11.0
+            }
+          ]
+        },
+        {
+          "time": "18:45",
+          "name": "Midnite: Built For 2026 Not 2006 Handicap",
+          "course": "Newcastle",
+          "distance": "6f",
+          "going": "Standard",
+          "field_size": 14,
+          "runners": [
+            {
+              "name": "Lord Abama",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 4.33
+            },
+            {
+              "name": "Teddy Shaw",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Teardrops",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Tomorrow Day",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 6.5
+            },
+            {
+              "name": "Multaneighttothree",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 4.33
+            },
+            {
+              "name": "Reenie's Dream",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "Henriette Ronner",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 8.0
+            },
+            {
+              "name": "Believe In Lies",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 26.0
+            },
+            {
+              "name": "Triple P",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Snuggle",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Yaaser",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 12.0
+            },
+            {
+              "name": "Ramon Di Loria",
+              "position": 12,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Kilfrush Blue",
+              "position": 13,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Orbital Chime",
+              "position": 0,
+              "status": "WITHDRAWN",
+              "sp": 26.0
+            }
+          ]
+        },
+        {
+          "time": "19:15",
+          "name": "Make The Move To Midnite Handicap",
+          "course": "Newcastle",
+          "distance": "5f",
+          "going": "Standard",
+          "field_size": 14,
+          "runners": [
+            {
+              "name": "Justmyluck",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Too Much",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Simba's Pride",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Toptime",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Sunday River",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Water Of Leith",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Fordham Flyer",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 26.0
+            },
+            {
+              "name": "Herakles",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Believeinmenow",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 9.0
+            },
+            {
+              "name": "Hi Lord",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "The Tunguska Event",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Cast No Shadow",
+              "position": 12,
+              "status": "RUNNER",
+              "sp": 34.0
+            },
+            {
+              "name": "Contorno",
+              "position": 13,
+              "status": "RUNNER",
+              "sp": 34.0
+            },
+            {
+              "name": "Miss Rainbow",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 9.0
+            }
+          ]
+        },
+        {
+          "time": "19:45",
+          "name": "AW Trials Day - Lingfield 2nd Jan 2027 Handicap",
+          "course": "Newcastle",
+          "distance": "1m 5y",
+          "going": "Standard",
+          "field_size": 14,
+          "runners": [
+            {
+              "name": "Barleybrown",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 3.75
+            },
+            {
+              "name": "Concert Boy",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 3.0
+            },
+            {
+              "name": "African Spirit",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 9.5
+            },
+            {
+              "name": "Ana Emaraaty",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 26.0
+            },
+            {
+              "name": "Pallas Lord",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Oilisa",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 15.0
+            },
+            {
+              "name": "Misemerald",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "Boy Star",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "Ravenswell",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 19.0
+            },
+            {
+              "name": "Haltonwood",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 8.0
+            },
+            {
+              "name": "Walk On Walk On",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Penny Mountain",
+              "position": 12,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Infantry Officer",
+              "position": 13,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Kelpie Grey",
+              "position": 14,
+              "status": "RUNNER",
+              "sp": 34.0
+            }
+          ]
         }
       ]
     },
@@ -1138,6 +1554,556 @@
               "position": 0,
               "status": "WITHDRAWN",
               "sp": 13.0
+            }
+          ]
+        },
+        {
+          "time": "17:30",
+          "name": "AWC Finals Day At Newcastle - 26th March EBF Maiden Stakes (GBB Race)",
+          "course": "Wolverhampton",
+          "distance": "6f 20y",
+          "going": "Standard",
+          "field_size": 12,
+          "runners": [
+            {
+              "name": "Kodi Morse",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 2.62
+            },
+            {
+              "name": "Queen Of Christmas",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 6.0
+            },
+            {
+              "name": "Geometric",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 3.25
+            },
+            {
+              "name": "Casting Coach",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 7.5
+            },
+            {
+              "name": "Girl From Havana",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Frontier Run",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 21.0
+            },
+            {
+              "name": "Lady Skipworth",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 251.0
+            },
+            {
+              "name": "Deshaies",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Maggie's Faith",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 126.0
+            },
+            {
+              "name": "Tarragindi",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Incandescence",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 12.0
+            },
+            {
+              "name": "Purist",
+              "position": 12,
+              "status": "RUNNER",
+              "sp": 126.0
+            }
+          ]
+        },
+        {
+          "time": "18:00",
+          "name": "Make The Move To Midnite Handicap",
+          "course": "Wolverhampton",
+          "distance": "5f 21y",
+          "going": "Standard",
+          "field_size": 11,
+          "runners": [
+            {
+              "name": "Our Planet",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 1.5
+            },
+            {
+              "name": "Bold Return",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "Gustav Graves",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 26.0
+            },
+            {
+              "name": "Kiss Don't Tell",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Fancy Dancer",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "Piperstown",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 26.0
+            },
+            {
+              "name": "Cabeza De Llave",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 9.5
+            },
+            {
+              "name": "Bessie Wallis",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 26.0
+            },
+            {
+              "name": "Beach Partee",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Stash The Cash",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Black Cab",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 11.0
+            }
+          ]
+        },
+        {
+          "time": "18:30",
+          "name": "Make The Move To Midnite Handicap",
+          "course": "Wolverhampton",
+          "distance": "1m 4f 51y",
+          "going": "Standard",
+          "field_size": 12,
+          "runners": [
+            {
+              "name": "Saxophonist",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 4.0
+            },
+            {
+              "name": "Dance Time",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 15.0
+            },
+            {
+              "name": "Kaaranah",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 6.0
+            },
+            {
+              "name": "Charlie's Choice",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 7.5
+            },
+            {
+              "name": "Barachiel",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 3.0
+            },
+            {
+              "name": "Helga",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 67.0
+            },
+            {
+              "name": "Magician of Riga",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 10.0
+            },
+            {
+              "name": "Spirit Of Jura",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "Three Dons",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 151.0
+            },
+            {
+              "name": "Seventy",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Aleen",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 19.0
+            },
+            {
+              "name": "Melody De Vega",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 17.0
+            }
+          ]
+        },
+        {
+          "time": "19:00",
+          "name": "AWC Season 14 Has Begun Handicap (Div 1)",
+          "course": "Wolverhampton",
+          "distance": "7f 36y",
+          "going": "Standard",
+          "field_size": 12,
+          "runners": [
+            {
+              "name": "Because We Can",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 15.0
+            },
+            {
+              "name": "Giorgio M",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Ridger",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 4.33
+            },
+            {
+              "name": "Dark Mandate",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 4.33
+            },
+            {
+              "name": "Montpellier Green",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 4.33
+            },
+            {
+              "name": "Lessay",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 12.0
+            },
+            {
+              "name": "Chifa",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "On Key",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "State Of Madness",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Spirit Of Jenny",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 19.0
+            },
+            {
+              "name": "Punchbowl Flyer",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Crown The Future",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 8.0
+            }
+          ]
+        },
+        {
+          "time": "19:30",
+          "name": "AWC Season 14 Has Begun Handicap (Div 2)",
+          "course": "Wolverhampton",
+          "distance": "7f 36y",
+          "going": "Standard",
+          "field_size": 12,
+          "runners": [
+            {
+              "name": "Romanovich",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 26.0
+            },
+            {
+              "name": "Jamie Sommers",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 7.0
+            },
+            {
+              "name": "Girls Allowed",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Yehudi",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Monsieur Patat",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 10.0
+            },
+            {
+              "name": "Profit Street",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 12.0
+            },
+            {
+              "name": "Mr Tony",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 34.0
+            },
+            {
+              "name": "Chapman's Peak",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 6.5
+            },
+            {
+              "name": "Good Karma",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Beauzon",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Lhebayeb",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 26.0
+            },
+            {
+              "name": "Bomb Squad",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 15.0
+            }
+          ]
+        },
+        {
+          "time": "20:00",
+          "name": "AWC Trials Day - Lingfield 2nd January 2027 Handicap",
+          "course": "Wolverhampton",
+          "distance": "7f 36y",
+          "going": "Standard",
+          "field_size": 11,
+          "runners": [
+            {
+              "name": "Monarch's Gold",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 4.0
+            },
+            {
+              "name": "Drifts Away",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "The Watcher",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 3.25
+            },
+            {
+              "name": "Pietro",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Reciprocated",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 8.0
+            },
+            {
+              "name": "Jez Bomb",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 26.0
+            },
+            {
+              "name": "Treasure Time",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Follow Your Heart",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "City Cyclone",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 67.0
+            },
+            {
+              "name": "Shah",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "King's Vanity",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 17.0
+            }
+          ]
+        },
+        {
+          "time": "20:30",
+          "name": "AWC Season 14 Handicap",
+          "course": "Wolverhampton",
+          "distance": "1m 142y",
+          "going": "Standard",
+          "field_size": 10,
+          "runners": [
+            {
+              "name": "Hitched",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 2.75
+            },
+            {
+              "name": "Galileo Island",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "He's A Gentleman",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 12.0
+            },
+            {
+              "name": "Sovereign Bay",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 4.0
+            },
+            {
+              "name": "Shadowmere",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 10.0
+            },
+            {
+              "name": "Galba",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Law Supreme",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "Pipily",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 12.0
+            },
+            {
+              "name": "Ecclefechan",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Clatford",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 126.0
             }
           ]
         }
