@@ -1,7 +1,7 @@
 {
   "date": "2026-11-25",
   "source": "sportinglife",
-  "scraped_at": "2026-11-25T18:03:57.293094Z",
+  "scraped_at": "2026-11-25T19:42:43.500285Z",
   "meetings": [
     {
       "course": "Wetherby",
@@ -1525,28 +1525,40 @@
               "sp": 9.0
             },
             {
-              "name": "Poet",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 101.0
-            },
-            {
               "name": "She's A Goldigger",
-              "position": 0,
+              "position": 5,
               "status": "RUNNER",
               "sp": 26.0
             },
             {
+              "name": "Mickey Mongoose",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 19.0
+            },
+            {
               "name": "Multaneighttothree",
-              "position": 0,
+              "position": 7,
               "status": "RUNNER",
               "sp": 4.0
             },
             {
-              "name": "Teardrops",
-              "position": 0,
-              "status": "NONRUNNER",
-              "sp": 4.5
+              "name": "Neapolitan",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Poet",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 101.0
+            },
+            {
+              "name": "Breeze Star",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 67.0
             },
             {
               "name": "Kelpie Grey",
@@ -1555,28 +1567,104 @@
               "sp": 15.0
             },
             {
-              "name": "Neapolitan",
+              "name": "Teardrops",
               "position": 0,
-              "status": "RUNNER",
-              "sp": 17.0
+              "status": "NONRUNNER",
+              "sp": 4.5
             },
             {
               "name": "Lady Delila",
               "position": 0,
               "status": "NONRUNNER",
               "sp": 11.0
-            },
+            }
+          ]
+        },
+        {
+          "time": "18:30",
+          "name": "All-Weather Championship Season 14 Has Begun Apprentice Handicap (Div 2)",
+          "course": "Newcastle",
+          "distance": "7f 14y",
+          "going": "Standard",
+          "field_size": 13,
+          "runners": [
             {
-              "name": "Mickey Mongoose",
-              "position": 0,
+              "name": "Victory Sound",
+              "position": 1,
               "status": "RUNNER",
-              "sp": 19.0
+              "sp": 4.0
             },
             {
-              "name": "Breeze Star",
-              "position": 0,
+              "name": "Ganthorpe",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Mister Sky Blue",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "Yaaser",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 10.0
+            },
+            {
+              "name": "Gressington",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 4.0
+            },
+            {
+              "name": "Sovereign Class",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 9.0
+            },
+            {
+              "name": "Yaahobby",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 21.0
+            },
+            {
+              "name": "Toy Soldier",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Billyjoegold",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Coulsty Exchange",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 6.0
+            },
+            {
+              "name": "Joud",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 8.0
+            },
+            {
+              "name": "My Mate Beattie",
+              "position": 12,
               "status": "RUNNER",
               "sp": 67.0
+            },
+            {
+              "name": "Spirited Dancer",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 8.0
             }
           ]
         }
@@ -1880,6 +1968,252 @@
               "position": 14,
               "status": "RUNNER",
               "sp": 12.0
+            }
+          ]
+        },
+        {
+          "time": "18:25",
+          "name": "Bet 20 Pound Get 20 Pound With Unibet Handicap",
+          "course": "Kempton",
+          "distance": "1m",
+          "going": "Standard / Slow",
+          "field_size": 14,
+          "runners": [
+            {
+              "name": "Karakula Dancer",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 7.0
+            },
+            {
+              "name": "Melodical",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Upsomdowns",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "Blue Hill",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 6.0
+            },
+            {
+              "name": "Roccobear",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 3.5
+            },
+            {
+              "name": "Aurelune",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Q T Pie",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Venetian Romance",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Salamis Bay",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 34.0
+            },
+            {
+              "name": "Wield",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "Starakova",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 26.0
+            },
+            {
+              "name": "Heated Moment",
+              "position": 12,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Blue Celestial",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "Viviana",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 17.0
+            }
+          ]
+        },
+        {
+          "time": "19:00",
+          "name": "Unibet Floodlit Stakes (Listed)",
+          "course": "Kempton",
+          "distance": "1m 3f 219y",
+          "going": "Standard / Slow",
+          "field_size": 8,
+          "runners": [
+            {
+              "name": "Amiloc",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 4.33
+            },
+            {
+              "name": "El Cordobes",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 2.1
+            },
+            {
+              "name": "Lion's Pride",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 10.0
+            },
+            {
+              "name": "Constitution Hill",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 6.5
+            },
+            {
+              "name": "Royal Playwright",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 7.5
+            },
+            {
+              "name": "Virtual Rock",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 101.0
+            },
+            {
+              "name": "Besieged",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 21.0
+            },
+            {
+              "name": "Janey Mackers",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 126.0
+            }
+          ]
+        },
+        {
+          "time": "19:30",
+          "name": "Unibet London Middle Distance Series (Final) Handicap (GBBPlus Race)",
+          "course": "Kempton",
+          "distance": "1m 2f 219y",
+          "going": "Standard / Slow",
+          "field_size": 14,
+          "runners": [
+            {
+              "name": "War Hawk",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 8.5
+            },
+            {
+              "name": "Tryfan",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Tiernan",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 12.0
+            },
+            {
+              "name": "Londoner",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 12.0
+            },
+            {
+              "name": "Classical Allusion",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 4.0
+            },
+            {
+              "name": "King's Code",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Haku",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 26.0
+            },
+            {
+              "name": "Paradias",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Night Breeze",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 67.0
+            },
+            {
+              "name": "Hamlet's Night",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 21.0
+            },
+            {
+              "name": "Sax Avoidance",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Cape Fear",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "Solarize",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Forever Penywern",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 21.0
             }
           ]
         }
