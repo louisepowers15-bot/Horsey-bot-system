@@ -40,6 +40,7 @@ BOT_NAMES = [
     "HotTrainer",      # trainer + jockey-trainer combo
     "BloodlineBetty",  # trip + going
     "DevilAdvocate",   # balanced sceptic / light value
+    "PlaceHunter",     # EW only, 10/1+, big enough fields, can pass
 ]
 
 WEIGHTS = {
@@ -47,6 +48,8 @@ WEIGHTS = {
     "HotTrainer":     {"form": 0.18, "trend": 0.08, "trainer": 0.24, "jockey": 0.12, "combo": 0.18, "value": 0.04, "field": 0.04, "going": 0.06, "trip": 0.06},
     "BloodlineBetty": {"form": 0.16, "trend": 0.10, "trainer": 0.10, "jockey": 0.06, "combo": 0.08, "value": 0.04, "field": 0.04, "going": 0.18, "trip": 0.24},
     "DevilAdvocate":  {"form": 0.26, "trend": 0.10, "trainer": 0.10, "jockey": 0.08, "combo": 0.10, "value": 0.14, "field": 0.06, "going": 0.08, "trip": 0.08},
+    # Place-focused: form + field + value; still uses trainer/jockey/trip/going
+    "PlaceHunter":    {"form": 0.28, "trend": 0.10, "trainer": 0.10, "jockey": 0.08, "combo": 0.08, "value": 0.18, "field": 0.12, "going": 0.03, "trip": 0.03},
 }
 
 # Common UK/IRE all-weather tracks
@@ -588,6 +591,9 @@ def choose_type(bot, r, field_size, prob):
     """EW only when place terms are realistic and form supports a place angle."""
     odds = float(r.get("odds") or 99)
     form = float(r.get("_form") or 0)
+    # PlaceHunter is EW-only by design (caller already filtered odds/field)
+    if bot == "PlaceHunter":
+        return "ew"
     if field_size < 7 or odds < 6.0:
         return "win"
     if form < 0.48 or odds > 16:
@@ -609,6 +615,20 @@ def pick_for_bot(bot, ranked, field_size, used_names=None, force_diversity=True)
         odds = float(r.get("odds") or 99)
         form = float(r.get("_form") or 0)
         rank = int(r.get("_rank") or 99)
+        if bot == "PlaceHunter":
+            # EW specialist: above 10/1, field already gated by caller, need real form
+            if field_size < 8:
+                continue
+            if odds <= 11.0:  # must be above 10/1
+                continue
+            if odds > 34:  # avoid pure no-hopers
+                continue
+            if form < 0.46:
+                continue
+            if rank == 1:
+                continue  # not a short fav EW play
+            candidates.append((prob, r))
+            continue
         if odds >= 14 and form < 0.58:
             continue
         if odds >= 18:
@@ -623,6 +643,8 @@ def pick_for_bot(bot, ranked, field_size, used_names=None, force_diversity=True)
             continue
         candidates.append((prob, r))
     if not candidates:
+        if bot == "PlaceHunter":
+            return None, None, None  # signal: pass the race
         candidates = [(p, r) for p, r in ranked[:5] if float(r.get("odds") or 99) <= 14] or list(ranked[:3])
 
     best_p, best_r = candidates[0]
@@ -696,6 +718,33 @@ def tipster_reason(bot, r, tip_type, conf, field_size, rivals: list | None = Non
     In-depth tip note (target 50+ words) using only card + history facts.
     Always includes form figures when present, plus concrete race context.
     """
+
+    if bot == "PlaceHunter":
+        name = r.get("name") or "This horse"
+        odds = float(r.get("odds") or 0)
+        form = str(r.get("form") or r.get("_form_raw") or "").strip()
+        trainer = (r.get("trainer") or "").strip()
+        jockey = (r.get("jockey") or "").strip()
+        going = (r.get("_going_txt") or "").strip()
+        trip = (r.get("_trip_txt") or "").strip()
+        bits = []
+        bits.append(
+            f"{name} is an each-way play at around {odds:.2f} — only considered because the field is big enough for place terms and the price is over 10/1."
+        )
+        if form:
+            bits.append(f"Form figures ({form}) are enough to make a place case, not a pure lottery ticket.")
+        if trainer and jockey:
+            bits.append(f"Connections: {trainer} / {jockey}.")
+        elif trainer:
+            bits.append(f"Trained by {trainer}.")
+        if trip or going:
+            bits.append("Conditions: " + ", ".join(x for x in (trip, going) if x) + ".")
+        bits.append(
+            f"Field of {field_size} supports the place part of the bet. This is each-way only — no win-only stance at this price."
+        )
+        bits.append(f"Confidence {conf}%.")
+        return " ".join(bits)
+
     name = (r.get("name") or "This horse").strip()
     odds = float(r.get("odds") or 10)
     form = (r.get("_form_raw") or r.get("form") or "").strip()
@@ -1123,7 +1172,10 @@ def build_tips_for_races(d, flat_races):
                     implied = 1.0 / odds if odds > 1 else 0.1
                     model_p = max(0.04, min(0.45, prob * 0.42))
                     r["_edge"] = round(model_p - implied, 4)
-            prob, best, tip_type = pick_for_bot(bot, ranked, field_size, used_names=used, force_diversity=True)
+            picked = pick_for_bot(bot, ranked, field_size, used_names=used, force_diversity=True)
+            if picked[0] is None:
+                continue  # PlaceHunter (or empty) pass
+            prob, best, tip_type = picked
             second = 0.0
             for p2, r2 in ranked:
                 if (r2.get("name") or "") != (best.get("name") or ""):
@@ -1141,7 +1193,23 @@ def build_tips_for_races(d, flat_races):
             edge = best.get("_edge")
             # --- Selective: each bot may PASS this race ---
             pass_reason = None
-            if conf < 55:
+            if bot == "PlaceHunter":
+                # Strict EW book: 10/1+, field terms, form, can always pass
+                if field_size < 8:
+                    pass_reason = "field too small for EW place terms"
+                elif field_size < 12 and odds_f < 13:
+                    pass_reason = "want bigger field or bigger price for 2-place terms"
+                elif odds_f <= 11.0:
+                    pass_reason = "price not above 10/1"
+                elif odds_f > 34:
+                    pass_reason = "price too huge — no realistic place case"
+                elif form_f < 0.48:
+                    pass_reason = "form too soft for EW at the price"
+                elif conf < 52:
+                    pass_reason = "confidence below PlaceHunter bar"
+                else:
+                    tip_type = "ew"  # force
+            elif conf < 55:
                 pass_reason = "confidence below threshold"
             elif form_f < 0.48:
                 pass_reason = "form too soft"
@@ -1153,8 +1221,7 @@ def build_tips_for_races(d, flat_races):
                 pass_reason = "EW terms not acceptable"
             elif edge is not None and float(edge) < -0.02 and odds_f < 5:
                 pass_reason = "no price edge vs implied odds"
-            # Require a clear top: margin already baked into conf; extra gate
-            if pass_reason is None and conf < 58 and odds_f > 8:
+            if pass_reason is None and bot != "PlaceHunter" and conf < 58 and odds_f > 8:
                 pass_reason = "longish price needs higher confidence"
 
             if pass_reason:
@@ -1177,22 +1244,27 @@ def build_tips_for_races(d, flat_races):
         for t in tips:
             t["stars"] = counts[t["horse"]]
 
-        # Race-level no-bet: need at least 2 bots with a tip, else pass the race
-        no_bet = len(tips) < 2
+        # Race-level no-bet: need at least 2 win-bots, but keep PlaceHunter EW solos
+        ph_tips = [x for x in tips if x.get("bot") == "PlaceHunter"]
+        core_tips = [x for x in tips if x.get("bot") != "PlaceHunter"]
+        no_bet = len(core_tips) < 2
         no_bet_reason = None
         if no_bet:
-            no_bet_reason = "No clear angle — fewer than 2 bots found a tip that clears the quality bar."
-            tips = []  # publish empty tips for this race
+            no_bet_reason = "No clear win angle — fewer than 2 core bots cleared the bar."
+            tips = list(ph_tips)  # may still show PlaceHunter EW if it spoke
+            no_bet = len(tips) == 0  # only true empty if PH also silent
 
-        # Race consensus only when real agreement
+        # Race consensus only when real agreement (core win tips)
         by_horse = {}
-        for t in tips:
-            h = t["horse"]
-            by_horse.setdefault(h, {"horse": h, "bots": [], "confs": [], "odds": t["odds"], "types": []})
-            by_horse[h]["bots"].append(t["bot"])
-            by_horse[h]["confs"].append(int(t.get("conf") or 0))
-            by_horse[h]["odds"] = t.get("odds")
-            by_horse[h]["types"].append(t.get("type") or "win")
+        for tip in tips:
+            if tip.get("bot") == "PlaceHunter":
+                continue  # EW specialist does not drive win consensus bar
+            h = tip["horse"]
+            by_horse.setdefault(h, {"horse": h, "bots": [], "confs": [], "odds": tip["odds"], "types": []})
+            by_horse[h]["bots"].append(tip["bot"])
+            by_horse[h]["confs"].append(int(tip.get("conf") or 0))
+            by_horse[h]["odds"] = tip.get("odds")
+            by_horse[h]["types"].append(tip.get("type") or "win")
         consensus = None
         if by_horse and not no_bet:
             ranked_h = sorted(
@@ -1390,17 +1462,13 @@ def main():
         meta["freeze_policy"] = "first_write_wins"
 
     out.write_text(json.dumps(tips, indent=2), encoding="utf-8")
-    n_races = len(tips.get("races") or [])
-    n_tips = sum(len(r.get("tips") or []) for r in tips.get("races") or [])
-    n_pass = sum(1 for r in tips.get("races") or [] if r.get("no_bet"))
-    print(f"Wrote {out} races={n_races} tips={n_tips} no_bet_races={n_pass} frozen={tips.get('frozen')}")
-    # Sample first race that actually has a tip (selective mode may leave race 0 empty)
-    for r in tips.get("races") or []:
-        tips0 = r.get("tips") or []
-        if tips0:
-            t0 = tips0[0]
-            print("Sample reason:", t0.get("bot"), t0.get("horse"), "→", str(t0.get("reason") or "")[:180])
-            break
+    print(f"Wrote {out} races={len(tips.get('races') or [])} frozen={tips.get('frozen')}")
+    if tips.get("races"):
+        for race in tips["races"]:
+            if race.get("tips"):
+                t0 = race["tips"][0]
+                print("Sample reason:", t0["bot"], t0["horse"], "→", t0["reason"][:180])
+                break
 
 
 if __name__ == "__main__":

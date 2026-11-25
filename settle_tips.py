@@ -26,7 +26,7 @@ ROOT = Path(__file__).resolve().parent
 LEADERBOARD_FROM = date(2026, 11, 25)
 
 BOTS = [
-    "FormFox", "HotTrainer", "BloodlineBetty", "DevilAdvocate",
+    "FormFox", "HotTrainer", "BloodlineBetty", "DevilAdvocate", "PlaceHunter",
 ]
 
 
