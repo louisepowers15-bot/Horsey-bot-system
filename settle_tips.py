@@ -23,7 +23,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 
 # Leaderboard counts only settled days on/after this date (reset point)
-LEADERBOARD_FROM = date(2026, 11, 22)
+LEADERBOARD_FROM = date(2026, 11, 25)
 
 BOTS = [
     "FormFox", "HotTrainer", "BloodlineBetty", "DevilAdvocate", "PlaceHunter",
