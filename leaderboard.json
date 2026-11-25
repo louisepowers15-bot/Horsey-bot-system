@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T20:35:29.583272+00:00",
+  "updated_at": "2026-11-25T00:15:48.976019+00:00",
   "bots": {
     "BloodlineBetty": {
       "tips": 97,
@@ -1101,7 +1101,14 @@
       "settled": 199,
       "unknown": 35,
       "pnl": -20.95
+    },
+    {
+      "date": "2026-11-25",
+      "tips": 0,
+      "settled": 0,
+      "unknown": 0,
+      "pnl": 0.0
     }
   ],
-  "last_settled": "2026-11-24"
+  "last_settled": "2026-11-25"
 }

@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
   "source": "sportinglife",
-  "scraped_at": "2026-11-24T20:35:29.513208Z",
+  "scraped_at": "2026-11-25T00:15:48.705956Z",
   "meetings": [
     {
       "course": "Lingfield",
@@ -1913,34 +1913,34 @@
               "sp": 10.0
             },
             {
-              "name": "Maharajas Express",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 3.5
-            },
-            {
-              "name": "Campenaerts",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 5.5
-            },
-            {
               "name": "Truly Glamorous",
-              "position": 0,
+              "position": 5,
               "status": "RUNNER",
               "sp": 11.0
             },
             {
-              "name": "Burdett Estate",
-              "position": 0,
+              "name": "Maharajas Express",
+              "position": 6,
               "status": "RUNNER",
-              "sp": 17.0
+              "sp": 3.5
             },
             {
               "name": "Grandlad",
-              "position": 0,
+              "position": 7,
               "status": "RUNNER",
               "sp": 6.0
+            },
+            {
+              "name": "Campenaerts",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 5.5
+            },
+            {
+              "name": "Burdett Estate",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 17.0
             },
             {
               "name": "Sunlit Sea",
