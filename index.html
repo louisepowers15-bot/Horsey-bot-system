@@ -208,7 +208,7 @@
   <div class="container">
     <header>
       <h1><span>🏇</span> Horse Racing Bot Chat</h1>
-      <div class="meta" id="header-meta">UK & Ireland · Loading…</div>
+      <div class="meta" id="header-meta">UK & Ireland</div>
     </header>
 
     <div class="info-box">
@@ -217,14 +217,13 @@
 
     <div class="tabs" id="main-tabs">
       <button class="tab active" data-tab="today">📅 Today</button>
-      <button class="tab" data-tab="tomorrow">🌅 Tomorrow</button>
       <button class="tab" data-tab="hot">🔥 Hot Pick</button>
       <button class="tab" data-tab="big">🏆 Big Festivals</button>
       <button class="tab" data-tab="doubles">🎲 Doubles & Accas</button>
       <button class="tab" data-tab="leaderboard">🏅 Leaderboard</button>
     </div>
 
-    <div id="content"><p style="color:#94a3b8;text-align:center;padding:2rem">Loading tips…</p></div>
+    <div id="content"><p style="color:#94a3b8;text-align:center;padding:2rem">Loading…</p></div>
     <div class="footer">Free personal project · Bet responsibly (18+)</div>
   </div>
 
@@ -238,20 +237,22 @@ const BOTS = {
 };
 
 let todayData = null;
-let tomorrowData = null;
 let currentTab = "today";
 
+/** Local calendar date YYYY-MM-DD (not UTC — avoids wrong day near midnight). */
 function getDateOffset(days) {
   const d = new Date();
   d.setDate(d.getDate() + days);
-  return d.toISOString().slice(0, 10);
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return y + "-" + m + "-" + day;
 }
 
 async function fetchTipsForDate(dateStr) {
   const paths = [
-    `./tips-${dateStr}.json`,
-    `tips-${dateStr}.json`,
-    `./data/tips-${dateStr}.json`
+    "./tips-" + dateStr + ".json",
+    "tips-" + dateStr + ".json"
   ];
   for (const path of paths) {
     try {
@@ -259,20 +260,27 @@ async function fetchTipsForDate(dateStr) {
       if (!res.ok) continue;
       const data = await res.json();
       if (data && Array.isArray(data.races) && data.races.length > 0) return data;
+      // file exists but empty races — keep note for UI
+      if (data && data.note) return data;
     } catch (e) {}
   }
   return null;
 }
 
 async function loadTips() {
-  const todayStr = getDateOffset(0);
-  const tomorrowStr = getDateOffset(1);
-  try {
-    todayData = await fetchTipsForDate(todayStr);
-  } catch (e) { console.error(e); }
-  try {
-    tomorrowData = await fetchTipsForDate(tomorrowStr);
-  } catch (e) { console.error(e); }
+  // Prefer today; if empty (timezone / before morning run), fall back to yesterday
+  const candidates = [getDateOffset(0), getDateOffset(-1), getDateOffset(-2)];
+  todayData = null;
+  for (const ds of candidates) {
+    try {
+      const data = await fetchTipsForDate(ds);
+      if (data && Array.isArray(data.races) && data.races.length > 0) {
+        todayData = data;
+        break;
+      }
+      if (!todayData && data) todayData = data; // keep note-only as last resort
+    } catch (e) { console.error(e); }
+  }
 }
 
 function updateHeaderDate(dateStr) {
@@ -313,11 +321,8 @@ function groupByMeeting(races) {
 function renderRacecards(dataSet) {
   if (!dataSet || !dataSet.races || dataSet.races.length === 0) {
     const note = (dataSet && dataSet.note) ? dataSet.note : "";
-    const unpublished = dataSet && dataSet.published === false;
-    if (unpublished || note) {
-      return '<div class="data-warn"><strong>' + (unpublished ? "Tomorrow's card not on our feed yet" : "Notice") +
-        "</strong><br>" + (note || "Racecards for this date are not available from the feed yet. Check back later — tips will appear once real runners are published.") +
-        "</div>";
+    if (note) {
+      return '<div class="data-warn"><strong>No tips for this date yet</strong><br>' + note + "</div>";
     }
     return '<p style="color:#94a3b8;text-align:center;padding:2.5rem">No tips available for this date yet.</p>';
   }
@@ -768,9 +773,6 @@ function renderContent() {
   if (currentTab === "today") {
     updateHeaderDate((todayData && todayData.date) || getDateOffset(0));
     el.innerHTML = renderRacecards(todayData);
-  } else if (currentTab === "tomorrow") {
-    updateHeaderDate((tomorrowData && tomorrowData.date) || getDateOffset(1));
-    el.innerHTML = renderRacecards(tomorrowData);
   } else if (currentTab === "hot") {
     updateHeaderDate((todayData && todayData.date) || getDateOffset(0));
     el.innerHTML = renderHotPick();
@@ -795,12 +797,24 @@ document.getElementById("main-tabs").addEventListener("click", function(e) {
 });
 
 (async function() {
+  const el = document.getElementById("content");
   try {
     await loadTips();
   } catch (e) {
     console.error(e);
   }
-  renderContent();
+  try {
+    renderContent();
+  } catch (e) {
+    console.error(e);
+    if (el) {
+      el.innerHTML = '<div class="data-warn"><strong>Could not render tips</strong><br>' +
+        (e && e.message ? e.message : "Check the browser console.") + "</div>";
+    }
+  }
+  if (!todayData || !todayData.races || !todayData.races.length) {
+    updateHeaderDate(getDateOffset(0));
+  }
 })();
 </script>
 </body>
