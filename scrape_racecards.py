@@ -694,45 +694,54 @@ def main():
     note = None
     unpublished = False
 
-    # Compare against any recent day files (1–3 days back)
-    for back in (1, 2, 3):
-        other = (d - timedelta(days=back)).isoformat()
-        opath = ROOT_DIR / f"racecards-{other}.json"
-        if not opath.exists() or not race_ids:
-            continue
-        try:
-            odata = json.loads(opath.read_text(encoding="utf-8"))
-            o_ids = sorted({
-                str(r.get("race_id"))
-                for m in odata.get("meetings") or []
-                for r in m.get("races") or []
-                if r.get("race_id")
-            })
-            if o_ids and o_ids == race_ids:
-                unpublished = True
-                note = (
-                    f"Cards for {d.isoformat()} are not published yet on Sporting Life. "
-                    f"The feed still returns the same race ids as {other}. "
-                    "No meetings stored — will fill in once the real card appears."
-                )
-                print(note)
-                break
-        except Exception:
-            pass
+    # Only for FUTURE dates: if race ids are identical to a previous day file,
+    # Sporting Life is probably still serving the previous card.
+    # Never blank out *today* when we already scraped runners — SL date URLs
+    # are unreliable and morning tips must still publish.
+    if d > date.today():
+        for back in (1, 2, 3):
+            other = (d - timedelta(days=back)).isoformat()
+            opath = ROOT_DIR / f"racecards-{other}.json"
+            if not opath.exists() or not race_ids:
+                continue
+            try:
+                odata = json.loads(opath.read_text(encoding="utf-8"))
+                o_ids = sorted({
+                    str(r.get("race_id"))
+                    for m in odata.get("meetings") or []
+                    for r in m.get("races") or []
+                    if r.get("race_id")
+                })
+                if o_ids and o_ids == race_ids:
+                    unpublished = True
+                    note = (
+                        f"Cards for {d.isoformat()} are not published yet on Sporting Life. "
+                        f"The feed still returns the same race ids as {other}. "
+                        "No meetings stored — will fill in once the real card appears."
+                    )
+                    print(note)
+                    break
+            except Exception:
+                pass
 
-    # Also refuse empty-looking future cards with zero runners
-    if not unpublished and total == 0 and d > date.today():
-        unpublished = True
-        note = (
-            f"No runners found for {d.isoformat()}. "
-            "Card may not be published yet."
-        )
-        print(note)
+        if not unpublished and total == 0:
+            unpublished = True
+            note = (
+                f"No runners found for {d.isoformat()}. "
+                "Card may not be published yet."
+            )
+            print(note)
 
     if unpublished:
         meetings = []
         race_ids = []
         total = 0
+    elif total == 0 and d == date.today():
+        note = (
+            f"Scrape returned 0 runners for today ({d.isoformat()}). "
+            "Check Sporting Life / scraper."
+        )
+        print(note)
 
     out = {
         "date": d.isoformat(),
