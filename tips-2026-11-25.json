@@ -18,7 +18,7 @@
       "code": "unknown",
       "race_class": 4,
       "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
       "tips": []
     },
@@ -32,7 +32,7 @@
       "code": "unknown",
       "race_class": 5,
       "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
       "tips": []
     },
@@ -118,7 +118,7 @@
       "code": "unknown",
       "race_class": 4,
       "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
       "tips": []
     },
@@ -132,7 +132,7 @@
       "code": "unknown",
       "race_class": 4,
       "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
       "tips": []
     },
@@ -170,6 +170,17 @@
           "class_move": "similar",
           "reason": "Albie Littlewood fits this trip and ground better than a cold reading of the headlines suggests. The form figures on the card are 111568 \u2014 won last time; has 3 recent wins in the figures. Latest recorded start: 1st at Worcester over 2m 110y (Good to Soft) on 2026-10-21. Today's race: Wetherby, 2m, going Good-good to soft in places, Class 4, field of 8. Also on the card: official rating 120; carries 12-0; about 8lb higher than a comparable winning weight on the card. Connections: trained by D Skelton (7 on the card today); Harry Skelton rides and has 6 booked today. D Skelton is 26% (n=7) at Wetherby in our results store. Jockey\u2013trainer combo 33% together from 10 runs we have logged. The market is led by Gaelic Rover around 2.88 (form 13F123); Albie Littlewood is available at about 3.50, which is the price this case is built on. Worth a win bet at around 3.50 on the evidence above.",
           "stars": 2
+        },
+        {
+          "bot": "PlaceHunter",
+          "horse": "Halftheworldaway",
+          "odds": 17.0,
+          "conf": 59,
+          "type": "ew",
+          "edge": 0.2027,
+          "class_move": "similar",
+          "reason": "Halftheworldaway is an each-way play at around 17.00 \u2014 only considered because the field is big enough for place terms and the price is over 10/1. Form figures (811234) are enough to make a place case, not a pure lottery ticket. Connections: O Greenall & J Guerriero / Jack Tudor. Conditions: 2m, Good-good to soft in places. Field of 8 supports the place part of the bet. This is each-way only \u2014 no win-only stance at this price. Confidence 59%.",
+          "stars": 1
         }
       ]
     },
@@ -183,7 +194,7 @@
       "code": "unknown",
       "race_class": 5,
       "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
       "tips": []
     },
@@ -197,7 +208,7 @@
       "code": "unknown",
       "race_class": 4,
       "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
       "tips": []
     },
@@ -211,7 +222,7 @@
       "code": "unknown",
       "race_class": 4,
       "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
       "tips": []
     },
@@ -225,7 +236,7 @@
       "code": "unknown",
       "race_class": 5,
       "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
       "tips": []
     },
@@ -383,7 +394,7 @@
       "code": "unknown",
       "race_class": 5,
       "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
       "tips": []
     },
@@ -456,6 +467,17 @@
           "class_move": "similar",
           "reason": "I prefer Always Happy to the more obvious names in the market. The form figures on the card are 12221 \u2014 won last time; has 2 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 1st at Newcastle over 1m 2f 42y (Standard) on 2026-11-25. Course evidence at Newcastle: 1st over 1m 2f 42y on 2026-11-25. Today's race: Newcastle, 1m 2f 42y, going Standard, Class 4, field of 12. Also on the card: official rating 87; carries 10-0. Connections: trained by R Varian (3 on the card today); S D Bowen rides and has 4 booked today. The market is led by Arbaawy around 3.25 (form 252263); Always Happy is available at about 4.00, which is the price this case is built on. Worth a win bet at around 4.00 on the evidence above.",
           "stars": 4
+        },
+        {
+          "bot": "PlaceHunter",
+          "horse": "Geo",
+          "odds": 19.0,
+          "conf": 52,
+          "type": "ew",
+          "edge": 0.1319,
+          "class_move": "similar",
+          "reason": "Geo is an each-way play at around 19.00 \u2014 only considered because the field is big enough for place terms and the price is over 10/1. Form figures (503164) are enough to make a place case, not a pure lottery ticket. Connections: J S Goldie / Lauren Young. Conditions: 1m 2f 42y, Standard. Field of 12 supports the place part of the bet. This is each-way only \u2014 no win-only stance at this price. Confidence 52%.",
+          "stars": 1
         }
       ]
     },
@@ -469,7 +491,7 @@
       "code": "unknown",
       "race_class": 4,
       "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
       "tips": []
     },
@@ -483,7 +505,7 @@
       "code": "unknown",
       "race_class": 4,
       "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
       "tips": []
     },
@@ -496,10 +518,22 @@
       "surface": "AW",
       "code": "unknown",
       "race_class": 3,
-      "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet": false,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
-      "tips": []
+      "tips": [
+        {
+          "bot": "PlaceHunter",
+          "horse": "Canvas",
+          "odds": 17.0,
+          "conf": 59,
+          "type": "ew",
+          "edge": 0.2083,
+          "class_move": "similar",
+          "reason": "Canvas is an each-way play at around 17.00 \u2014 only considered because the field is big enough for place terms and the price is over 10/1. Form figures (216122) are enough to make a place case, not a pure lottery ticket. Connections: S Dixon / K T O'Neill. Conditions: 1m 2f 42y, Standard. Field of 13 supports the place part of the bet. This is each-way only \u2014 no win-only stance at this price. Confidence 59%.",
+          "stars": 1
+        }
+      ]
     },
     {
       "course": "Newcastle",
@@ -570,6 +604,17 @@
           "class_move": "similar",
           "reason": "I prefer Massimo Blue to the more obvious names in the market. The form figures on the card are 621641 \u2014 has 2 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 6th at Newcastle over 6f (Standard) on 2026-11-25. Course evidence at Newcastle: 6th over 6f on 2026-11-25; 2nd over 6f on 2026-10-30. Today's race: Newcastle, 1m 2f 42y, going Standard, Class 4, field of 11. Also on the card: official rating 77; carries 9-6; about 6lb lower than a comparable winning weight on the card. Connections: trained by Dylan Cunha (2 on the card today); Edward Greatrex rides and has 3 booked today. The market is led by Itsatenfromlen around 4.50 (form 750509); Massimo Blue is available at about 5.50, which is the price this case is built on. Worth a win bet at around 5.50 on the evidence above.",
           "stars": 4
+        },
+        {
+          "bot": "PlaceHunter",
+          "horse": "Juan Les Pins",
+          "odds": 13.0,
+          "conf": 56,
+          "type": "ew",
+          "edge": 0.1566,
+          "class_move": "similar",
+          "reason": "Juan Les Pins is an each-way play at around 13.00 \u2014 only considered because the field is big enough for place terms and the price is over 10/1. Form figures (171360) are enough to make a place case, not a pure lottery ticket. Connections: M Appleby / K Stott. Conditions: 1m 2f 42y, Standard. Field of 11 supports the place part of the bet. This is each-way only \u2014 no win-only stance at this price. Confidence 56%.",
+          "stars": 1
         }
       ]
     },
@@ -630,10 +675,22 @@
       "surface": "AW",
       "code": "unknown",
       "race_class": 6,
-      "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet": false,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
-      "tips": []
+      "tips": [
+        {
+          "bot": "PlaceHunter",
+          "horse": "South Shore Island",
+          "odds": 13.0,
+          "conf": 54,
+          "type": "ew",
+          "edge": 0.136,
+          "class_move": "similar",
+          "reason": "South Shore Island is an each-way play at around 13.00 \u2014 only considered because the field is big enough for place terms and the price is over 10/1. Form figures (335424) are enough to make a place case, not a pure lottery ticket. Connections: Lizzie Quinlan / Jack Callan. Conditions: 1m 2f 42y, Standard. Field of 14 supports the place part of the bet. This is each-way only \u2014 no win-only stance at this price. Confidence 54%.",
+          "stars": 1
+        }
+      ]
     },
     {
       "course": "Newcastle",
@@ -777,7 +834,7 @@
       "code": "unknown",
       "race_class": 4,
       "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
       "tips": []
     },
@@ -791,7 +848,7 @@
       "code": "unknown",
       "race_class": 4,
       "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
       "tips": []
     },
@@ -805,7 +862,7 @@
       "code": "unknown",
       "race_class": 4,
       "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
       "tips": []
     },
@@ -818,10 +875,22 @@
       "surface": "AW",
       "code": "unknown",
       "race_class": 6,
-      "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet": false,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
-      "tips": []
+      "tips": [
+        {
+          "bot": "PlaceHunter",
+          "horse": "Lopefernza",
+          "odds": 12.0,
+          "conf": 55,
+          "type": "ew",
+          "edge": 0.1357,
+          "class_move": "similar",
+          "reason": "Lopefernza is an each-way play at around 12.00 \u2014 only considered because the field is big enough for place terms and the price is over 10/1. Form figures (155766) are enough to make a place case, not a pure lottery ticket. Connections: D Loughnane / Jack Doughty. Conditions: 7f, Standard to slow. Field of 14 supports the place part of the bet. This is each-way only \u2014 no win-only stance at this price. Confidence 55%.",
+          "stars": 1
+        }
+      ]
     },
     {
       "course": "Kempton",
@@ -966,6 +1035,17 @@
           "class_move": "similar",
           "reason": "I prefer Solarize to the more obvious names in the market. The form figures on the card are 741125 \u2014 has 2 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 7th at Kempton over 1m 2f 219y (Standard / Slow) on 2026-11-25. Course evidence at Kempton: 7th over 1m 2f 219y on 2026-11-25; 2nd over 1m 2f 219y on 2026-02-18. Today's race: Kempton, 7f, going Standard to slow, Class 2, field of 14. Also on the card: official rating 94; carries 9-1; visor. Connections: trained by C Johnston (5 on the card today); Callum Shepherd rides and has 2 booked today. The market is led by Classical Allusion around 4.00 (form 816605); Solarize is available at about 5.00, which is the price this case is built on. Worth a win bet at around 5.00 on the evidence above.",
           "stars": 4
+        },
+        {
+          "bot": "PlaceHunter",
+          "horse": "Tiernan",
+          "odds": 12.0,
+          "conf": 55,
+          "type": "ew",
+          "edge": 0.1349,
+          "class_move": "similar",
+          "reason": "Tiernan is an each-way play at around 12.00 \u2014 only considered because the field is big enough for place terms and the price is over 10/1. Form figures (353625) are enough to make a place case, not a pure lottery ticket. Connections: I Jardine / A Mullen. Conditions: 7f, Standard to slow. Field of 14 supports the place part of the bet. This is each-way only \u2014 no win-only stance at this price. Confidence 55%.",
+          "stars": 1
         }
       ]
     },
@@ -984,25 +1064,36 @@
       "tips": [
         {
           "bot": "FormFox",
-          "horse": "Caraway",
-          "odds": 6.0,
-          "conf": 60,
+          "horse": "Ghost Story",
+          "odds": 4.0,
+          "conf": 78,
           "type": "win",
-          "edge": 0.0944,
+          "edge": 0.0291,
           "class_move": "similar",
-          "reason": "Caraway is the form pick on this card. The form figures on the card are 221522 \u2014 finished second last time; has been top-three 5 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 2nd at Wolverhampton over 1m 4f 51y (Standard) on 2026-11-03. Today's race: Kempton, 7f, going Standard to slow, Class 5, field of 14. Also on the card: official rating 66; carries 9-6. Connections: trained by W J Haggas (4 on the card today); Darragh Keenan rides and has 3 booked today. The market is led by Midnight Media around 3.25 (form 231422); Caraway is available at about 6.00, which is the price this case is built on. Worth a win bet at around 6.00 on the evidence above.",
+          "reason": "Ghost Story is the form pick on this card. The form figures on the card are 112944 \u2014 won last time; has 2 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 1st at Kempton over 1m 2f 219y (Standard / Slow) on 2026-11-25. Course evidence at Kempton: 1st over 1m 2f 219y on 2026-11-25; 4th over 1m 2f 219y on 2026-09-23. Today's race: Kempton, 7f, going Standard to slow, Class 5, field of 14. Also on the card: official rating 67; carries 9-11. Connections: trained by J Butler (5 on the card today); Billy Loughnane rides and has 8 booked today. The market is led by Midnight Media around 3.50 (form 423142); Ghost Story is available at about 4.00, which is the price this case is built on. Worth a win bet at around 4.00 on the evidence above.",
+          "stars": 2
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Ghost Story",
+          "odds": 4.0,
+          "conf": 72,
+          "type": "win",
+          "edge": 0.0325,
+          "class_move": "similar",
+          "reason": "Connections angle points me at Ghost Story. The form figures on the card are 112944 \u2014 won last time; has 2 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 1st at Kempton over 1m 2f 219y (Standard / Slow) on 2026-11-25. Course evidence at Kempton: 1st over 1m 2f 219y on 2026-11-25; 4th over 1m 2f 219y on 2026-09-23. Today's race: Kempton, 7f, going Standard to slow, Class 5, field of 14. Also on the card: official rating 67; carries 9-11. Connections: trained by J Butler (5 on the card today); Billy Loughnane rides and has 8 booked today. The market is led by Midnight Media around 3.50 (form 423142); Ghost Story is available at about 4.00, which is the price this case is built on. Worth a win bet at around 4.00 on the evidence above.",
           "stars": 2
         },
         {
           "bot": "DevilAdvocate",
           "horse": "Caraway",
-          "odds": 6.0,
-          "conf": 68,
-          "type": "win",
-          "edge": 0.1011,
+          "odds": 7.5,
+          "conf": 60,
+          "type": "ew",
+          "edge": 0.1228,
           "class_move": "similar",
-          "reason": "I prefer Caraway to the more obvious names in the market. The form figures on the card are 221522 \u2014 finished second last time; has been top-three 5 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 2nd at Wolverhampton over 1m 4f 51y (Standard) on 2026-11-03. Today's race: Kempton, 7f, going Standard to slow, Class 5, field of 14. Also on the card: official rating 66; carries 9-6. Connections: trained by W J Haggas (4 on the card today); Darragh Keenan rides and has 3 booked today. The market is led by Midnight Media around 3.25 (form 231422); Caraway is available at about 6.00, which is the price this case is built on. Worth a win bet at around 6.00 on the evidence above.",
-          "stars": 2
+          "reason": "I prefer Caraway to the more obvious names in the market. The form figures on the card are 522152 \u2014 has been top-three 4 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 5th at Kempton over 1m 2f 219y (Standard / Slow) on 2026-11-25. Course evidence at Kempton: 5th over 1m 2f 219y on 2026-11-25. Today's race: Kempton, 7f, going Standard to slow, Class 5, field of 14. Also on the card: official rating 66; carries 9-6. Connections: trained by W J Haggas (4 on the card today); Darragh Keenan rides and has 3 booked today. The market is led by Midnight Media around 3.50 (form 423142); Caraway is available at about 7.50, which is the price this case is built on. Each-way at around 7.50 is the sensible way to use the case in a 14-runner field.",
+          "stars": 1
         }
       ]
     },
@@ -1016,7 +1107,7 @@
       "code": "unknown",
       "race_class": 5,
       "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
       "tips": []
     },
@@ -1077,6 +1168,17 @@
           "class_move": "",
           "reason": "I prefer Caffu Zafeen to the more obvious names in the market. The form figures on the card are 631111 \u2014 has 4 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 6th at Dundalk over 5f (Standard) on 2026-11-25. Course evidence at Dundalk: 6th over 5f on 2026-11-25; 3rd over 6f on 2026-11-13. Today's race: Dundalk, 5f, going Standard, AW, field of 13. Also on the card: official rating 82; carries 9-6. Connections: trained by P W Flynn (3 on the card today); Shay Wallace rides and has 2 booked today. The market is led by Firewalker around 3.25 (form 411204); Caffu Zafeen is available at about 4.50, which is the price this case is built on. Worth a win bet at around 4.50 on the evidence above.",
           "stars": 3
+        },
+        {
+          "bot": "PlaceHunter",
+          "horse": "Coincidental Glory",
+          "odds": 12.0,
+          "conf": 57,
+          "type": "ew",
+          "edge": 0.1567,
+          "class_move": "",
+          "reason": "Coincidental Glory is an each-way play at around 12.00 \u2014 only considered because the field is big enough for place terms and the price is over 10/1. Form figures (014132) are enough to make a place case, not a pure lottery ticket. Connections: A McGuinness / Camillus Byrne. Conditions: 5f, Standard. Field of 13 supports the place part of the bet. This is each-way only \u2014 no win-only stance at this price. Confidence 57%.",
+          "stars": 1
         }
       ]
     },
@@ -1090,7 +1192,7 @@
       "code": "unknown",
       "race_class": null,
       "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
       "tips": []
     },
@@ -1104,7 +1206,7 @@
       "code": "unknown",
       "race_class": null,
       "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
       "tips": []
     },
@@ -1155,7 +1257,7 @@
       "code": "unknown",
       "race_class": null,
       "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
       "tips": []
     },
@@ -1169,7 +1271,7 @@
       "code": "unknown",
       "race_class": null,
       "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
       "tips": []
     },
@@ -1183,7 +1285,7 @@
       "code": "unknown",
       "race_class": null,
       "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
       "tips": []
     },
@@ -1197,7 +1299,7 @@
       "code": "unknown",
       "race_class": null,
       "no_bet": true,
-      "no_bet_reason": "No clear angle \u2014 fewer than 2 bots found a tip that clears the quality bar.",
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
       "consensus": null,
       "tips": []
     }
@@ -1321,7 +1423,7 @@
       "score": 111.83
     }
   ],
-  "generated_at": "2026-11-25T19:59:34.395734Z",
+  "generated_at": "2026-11-25T20:21:55.154005Z",
   "note": "4 bots only (FormFox, HotTrainer, BloodlineBetty, DevilAdvocate). Selective no-bet; history when available. Tips frozen after first successful generation; re-runs will not overwrite unless --force.",
   "meta": {
     "history_runs": 1114,
