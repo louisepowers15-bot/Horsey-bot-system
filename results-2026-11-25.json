@@ -1,7 +1,7 @@
 {
   "date": "2026-11-25",
   "source": "sportinglife",
-  "scraped_at": "2026-11-25T20:34:13.312799Z",
+  "scraped_at": "2026-11-25T20:46:14.515603Z",
   "meetings": [
     {
       "course": "Wetherby",
@@ -2320,88 +2320,88 @@
           "field_size": 14,
           "runners": [
             {
-              "name": "Assessment",
-              "position": 0,
+              "name": "Split Elevens",
+              "position": 1,
               "status": "RUNNER",
-              "sp": 126.0
-            },
-            {
-              "name": "Hello Humphrey",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 51.0
-            },
-            {
-              "name": "Pints In Peace",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 67.0
+              "sp": 2.75
             },
             {
               "name": "Arctician",
-              "position": 0,
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 7.5
+            },
+            {
+              "name": "Guilty Verdict",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 6.5
+            },
+            {
+              "name": "King Cherry",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "Phoenix Of Dreams",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Rhythm N Rock",
+              "position": 6,
               "status": "RUNNER",
               "sp": 7.5
             },
             {
               "name": "Billy Mill",
-              "position": 0,
+              "position": 7,
               "status": "RUNNER",
               "sp": 11.0
             },
             {
-              "name": "Split Elevens",
-              "position": 0,
+              "name": "Mollstar",
+              "position": 8,
               "status": "RUNNER",
-              "sp": 2.75
+              "sp": 19.0
             },
             {
               "name": "Token Gesture",
-              "position": 0,
+              "position": 9,
               "status": "RUNNER",
               "sp": 19.0
+            },
+            {
+              "name": "Pints In Peace",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 67.0
+            },
+            {
+              "name": "Enough Already",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 126.0
+            },
+            {
+              "name": "Assessment",
+              "position": 12,
+              "status": "RUNNER",
+              "sp": 126.0
+            },
+            {
+              "name": "Hello Humphrey",
+              "position": 13,
+              "status": "RUNNER",
+              "sp": 51.0
             },
             {
               "name": "Hexagonal",
               "position": 0,
               "status": "NONRUNNER",
               "sp": 101.0
-            },
-            {
-              "name": "Guilty Verdict",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 6.5
-            },
-            {
-              "name": "Mollstar",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 19.0
-            },
-            {
-              "name": "Rhythm N Rock",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 7.5
-            },
-            {
-              "name": "Enough Already",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 126.0
-            },
-            {
-              "name": "King Cherry",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 29.0
-            },
-            {
-              "name": "Phoenix Of Dreams",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 5.0
             }
           ]
         }
