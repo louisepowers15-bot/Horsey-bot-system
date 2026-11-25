@@ -1390,10 +1390,17 @@ def main():
         meta["freeze_policy"] = "first_write_wins"
 
     out.write_text(json.dumps(tips, indent=2), encoding="utf-8")
-    print(f"Wrote {out} races={len(tips.get('races') or [])} frozen={tips.get('frozen')}")
-    if tips.get("races"):
-        t0 = tips["races"][0]["tips"][0]
-        print("Sample reason:", t0["bot"], t0["horse"], "→", t0["reason"][:180])
+    n_races = len(tips.get("races") or [])
+    n_tips = sum(len(r.get("tips") or []) for r in tips.get("races") or [])
+    n_pass = sum(1 for r in tips.get("races") or [] if r.get("no_bet"))
+    print(f"Wrote {out} races={n_races} tips={n_tips} no_bet_races={n_pass} frozen={tips.get('frozen')}")
+    # Sample first race that actually has a tip (selective mode may leave race 0 empty)
+    for r in tips.get("races") or []:
+        tips0 = r.get("tips") or []
+        if tips0:
+            t0 = tips0[0]
+            print("Sample reason:", t0.get("bot"), t0.get("horse"), "→", str(t0.get("reason") or "")[:180])
+            break
 
 
 if __name__ == "__main__":
