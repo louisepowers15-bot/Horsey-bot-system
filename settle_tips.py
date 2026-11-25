@@ -23,7 +23,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 
 # Leaderboard counts only settled days on/after this date (reset point)
-LEADERBOARD_FROM = date(2026, 11, 25)
+LEADERBOARD_FROM = date(2026, 11, 22)
 
 BOTS = [
     "FormFox", "HotTrainer", "BloodlineBetty", "DevilAdvocate", "PlaceHunter",
@@ -325,17 +325,25 @@ def rebuild_leaderboard_from_settled() -> dict:
                     continue
             else:
                 continue
-            history.append({
-                "date": ds,
-                "tips": summary.get("tips") or 0,
-                "settled": summary.get("settled") or 0,
-                "unknown": summary.get("unknown") or 0,
-                "pnl": round(float(summary.get("pnl") or 0), 2),
-            })
+        # Always record the day once we have a valid date
+        history.append({
+            "date": (day.isoformat() if hasattr(day, "isoformat") else ds),
+            "tips": summary.get("tips") or 0,
+            "settled": summary.get("settled") or 0,
+            "unknown": summary.get("unknown") or 0,
+            "pnl": round(float(summary.get("pnl") or 0), 2),
+        })
         day_hot = {"n": 0, "wins": 0, "pnl": 0.0}
         for race in data.get("races") or []:
             tips = race.get("tips") or []
             for tip in tips:
+                if tip.get("bot") not in BOTS:
+                    continue  # ignore retired bots (PaceProphet/ValueHunter etc.)
+                stars = int(tip.get("stars") or 0)
+                od = float(tip.get("odds") or 0)
+                if tip.get("strong") or (stars >= 3 and 2.6 <= od <= 10):
+                    tip = dict(tip)
+                    tip["strong"] = True
                 _apply_tip(periods["all"]["bots"], tip)
                 if day is None:
                     continue

@@ -231,13 +231,11 @@
 
 <script>
 const BOTS = {
-  BloodlineBetty: { name: "BloodlineBetty", colour: "#ec4899" },
-  DevilAdvocate:  { name: "DevilAdvocate",  colour: "#a855f7" },
   FormFox:        { name: "FormFox",        colour: "#3b82f6" },
   HotTrainer:     { name: "HotTrainer",     colour: "#ef4444" },
-  PlaceHunter:    { name: "PlaceHunter",    colour: "#14b8a6" },
-  PaceProphet:    { name: "PaceProphet",    colour: "#f97316" },
-  ValueHunter:    { name: "ValueHunter",    colour: "#22c55e" }
+  BloodlineBetty: { name: "BloodlineBetty", colour: "#ec4899" },
+  DevilAdvocate:  { name: "DevilAdvocate",  colour: "#a855f7" },
+  PlaceHunter:    { name: "PlaceHunter",    colour: "#14b8a6" }
 };
 
 let todayData = null;
@@ -632,7 +630,8 @@ async function fillLeaderboard(period) {
   }
 
   const bots = slice.bots;
-  const ranked = Object.keys(bots).map(id => {
+  const ACTIVE = ["FormFox","HotTrainer","BloodlineBetty","DevilAdvocate","PlaceHunter"];
+  const ranked = Object.keys(bots).filter(id => ACTIVE.indexOf(id) >= 0).map(id => {
     const b = bots[id];
     return { id: id, b: b, roi: b.roi_pct != null ? b.roi_pct : 0, win: b.win_pct != null ? b.win_pct : 0, tips: b.tips || 0 };
   }).sort((a, c) => c.roi - a.roi);

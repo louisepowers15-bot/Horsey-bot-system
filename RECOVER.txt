@@ -1,0 +1,27 @@
+RECOVERY STEPS (do in order)
+
+1) Upload these files to the repo (overwrite):
+   - generate_tips.py  (has PlaceHunter)
+   - settle_tips.py    (5 bots only, leaderboard from 22 Nov)
+   - index.html        (5 bots only — no PaceProphet/ValueHunter)
+
+2) GitHub → Actions → Daily workflow → Run workflow
+   Mode: force-tips
+   Wait until it finishes green.
+
+3) Confirm on GitHub that tips-YYYY-MM-DD.json for TODAY lists PlaceHunter
+   in some races (open the file, search PlaceHunter).
+
+4) Run workflow again:
+   Mode: results
+   This rebuilds leaderboard from settled files (active bots only).
+
+5) Hard-refresh the site (Ctrl+Shift+R) or private window.
+
+WHY YOU STILL SAW 6 BOTS / OLD TIPS
+- tips files are FROZEN after first write. force-tips is required to rewrite them.
+- settled-*.json from earlier still contained PaceProphet/ValueHunter; the board was counting those.
+- New settle_tips ignores retired bots on the leaderboard.
+
+NOTE: force-tips only regenerates TODAY (UTC date on the runner).
+If you need to refresh an older day, that is not in the workflow by default.
