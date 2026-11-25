@@ -1,12 +1,12 @@
 {
   "date": "2026-11-25",
-  "settled_at": "2026-11-25T20:27:57.841075Z",
+  "settled_at": "2026-11-25T20:34:13.368879Z",
   "summary": {
     "date": "2026-11-25",
     "tips": 57,
-    "settled": 54,
-    "unknown": 3,
-    "pnl": 81.7175
+    "settled": 57,
+    "unknown": 0,
+    "pnl": 86.7175
   },
   "races": [
     {
@@ -1045,7 +1045,7 @@
           "stake": 1.0,
           "return": 0.0,
           "pnl": -1.0,
-          "position": null,
+          "position": 7,
           "course": "Kempton",
           "time": "19:30",
           "race": "Unibet London Middle Distance Series (Final) Handicap (GBBPlus Race) (Class 2)"
@@ -1064,7 +1064,7 @@
           "stake": 1.0,
           "return": 0.0,
           "pnl": -1.0,
-          "position": null,
+          "position": 7,
           "course": "Kempton",
           "time": "19:30",
           "race": "Unibet London Middle Distance Series (Final) Handicap (GBBPlus Race) (Class 2)"
@@ -1083,7 +1083,7 @@
           "stake": 1.0,
           "return": 0.0,
           "pnl": -1.0,
-          "position": null,
+          "position": 7,
           "course": "Kempton",
           "time": "19:30",
           "race": "Unibet London Middle Distance Series (Final) Handicap (GBBPlus Race) (Class 2)"
@@ -1102,7 +1102,7 @@
           "stake": 1.0,
           "return": 0.0,
           "pnl": -1.0,
-          "position": null,
+          "position": 7,
           "course": "Kempton",
           "time": "19:30",
           "race": "Unibet London Middle Distance Series (Final) Handicap (GBBPlus Race) (Class 2)"
@@ -1144,10 +1144,11 @@
           "class_move": "similar",
           "reason": "Ghost Story is the form pick on this card. The form figures on the card are 112944 \u2014 won last time; has 2 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 1st at Kempton over 1m 2f 219y (Standard / Slow) on 2026-11-25. Course evidence at Kempton: 1st over 1m 2f 219y on 2026-11-25; 4th over 1m 2f 219y on 2026-09-23. Today's race: Kempton, 7f, going Standard to slow, Class 5, field of 14. Also on the card: official rating 67; carries 9-11. Connections: trained by J Butler (5 on the card today); Billy Loughnane rides and has 8 booked today. The market is led by Midnight Media around 3.50 (form 423142); Ghost Story is available at about 4.00, which is the price this case is built on. Worth a win bet at around 4.00 on the evidence above.",
           "stars": 2,
-          "outcome": "unknown",
-          "stake": 0.0,
-          "return": 0.0,
-          "pnl": 0.0,
+          "outcome": "win",
+          "stake": 1.0,
+          "return": 4.0,
+          "pnl": 3.0,
+          "position": 1,
           "course": "Kempton",
           "time": "20:00",
           "race": "Unibet's New VAR Goal Guarantee Fillies' Handicap (Class 5)"
@@ -1162,10 +1163,11 @@
           "class_move": "similar",
           "reason": "Connections angle points me at Ghost Story. The form figures on the card are 112944 \u2014 won last time; has 2 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 1st at Kempton over 1m 2f 219y (Standard / Slow) on 2026-11-25. Course evidence at Kempton: 1st over 1m 2f 219y on 2026-11-25; 4th over 1m 2f 219y on 2026-09-23. Today's race: Kempton, 7f, going Standard to slow, Class 5, field of 14. Also on the card: official rating 67; carries 9-11. Connections: trained by J Butler (5 on the card today); Billy Loughnane rides and has 8 booked today. The market is led by Midnight Media around 3.50 (form 423142); Ghost Story is available at about 4.00, which is the price this case is built on. Worth a win bet at around 4.00 on the evidence above.",
           "stars": 2,
-          "outcome": "unknown",
-          "stake": 0.0,
-          "return": 0.0,
-          "pnl": 0.0,
+          "outcome": "win",
+          "stake": 1.0,
+          "return": 4.0,
+          "pnl": 3.0,
+          "position": 1,
           "course": "Kempton",
           "time": "20:00",
           "race": "Unibet's New VAR Goal Guarantee Fillies' Handicap (Class 5)"
@@ -1180,10 +1182,12 @@
           "class_move": "similar",
           "reason": "I prefer Caraway to the more obvious names in the market. The form figures on the card are 522152 \u2014 has been top-three 4 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 5th at Kempton over 1m 2f 219y (Standard / Slow) on 2026-11-25. Course evidence at Kempton: 5th over 1m 2f 219y on 2026-11-25. Today's race: Kempton, 7f, going Standard to slow, Class 5, field of 14. Also on the card: official rating 66; carries 9-6. Connections: trained by W J Haggas (4 on the card today); Darragh Keenan rides and has 3 booked today. The market is led by Midnight Media around 3.50 (form 423142); Caraway is available at about 7.50, which is the price this case is built on. Each-way at around 7.50 is the sensible way to use the case in a 14-runner field.",
           "stars": 1,
-          "outcome": "unknown",
-          "stake": 0.0,
+          "outcome": "lose",
+          "stake": 1.0,
           "return": 0.0,
-          "pnl": 0.0,
+          "pnl": -1.0,
+          "position": 5,
+          "place_terms": "0.25 odds, 3 places",
           "course": "Kempton",
           "time": "20:00",
           "race": "Unibet's New VAR Goal Guarantee Fillies' Handicap (Class 5)"

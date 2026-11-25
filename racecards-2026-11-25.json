@@ -1,7 +1,7 @@
 {
   "date": "2026-11-25",
   "source": "sportinglife",
-  "scraped_at": "2026-11-25T20:21:54.946731Z",
+  "scraped_at": "2026-11-25T20:32:45.401166Z",
   "race_id_fingerprint": [
     "950188",
     "950189",
@@ -31217,7 +31217,7 @@
           "runners": [
             {
               "name": "Phoenix Of Dreams",
-              "odds": 5.0,
+              "odds": 4.5,
               "jockey": "J P Sullivan",
               "trainer": "J & S Quinn",
               "form": "181237",
@@ -31229,7 +31229,7 @@
               "trainer_score": 0.56,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
-              "value_score": 0.3,
+              "value_score": 0.32,
               "weight": "10-2",
               "weight_lbs": 142,
               "last_win_weight_lbs": 136,
@@ -31437,7 +31437,7 @@
             },
             {
               "name": "Arctician",
-              "odds": 6.0,
+              "odds": 7.5,
               "jockey": "Paddy Bradley",
               "trainer": "S Dow",
               "form": "707874",
@@ -31449,7 +31449,7 @@
               "trainer_score": 0.4,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
-              "value_score": 0.27,
+              "value_score": 0.23,
               "weight": "9-11",
               "weight_lbs": 137,
               "last_win_weight_lbs": null,
@@ -31547,7 +31547,7 @@
             },
             {
               "name": "Pints In Peace",
-              "odds": 51.0,
+              "odds": 67.0,
               "jockey": "T P Queally",
               "trainer": "J & S Best",
               "form": "899656",
@@ -31657,7 +31657,7 @@
             },
             {
               "name": "Rhythm N Rock",
-              "odds": 8.5,
+              "odds": 6.5,
               "jockey": "L Morris",
               "trainer": "J Butler",
               "form": "567510",
@@ -31669,7 +31669,7 @@
               "trainer_score": 0.48,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
-              "value_score": 0.22,
+              "value_score": 0.25,
               "weight": "9-10",
               "weight_lbs": 136,
               "last_win_weight_lbs": 135,
@@ -31767,7 +31767,7 @@
             },
             {
               "name": "Split Elevens",
-              "odds": 2.75,
+              "odds": 2.88,
               "jockey": "Billy Loughnane",
               "trainer": "J Butler",
               "form": "322221",
@@ -31779,7 +31779,7 @@
               "trainer_score": 0.48,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
-              "value_score": 0.46,
+              "value_score": 0.45,
               "weight": "9-10",
               "weight_lbs": 136,
               "last_win_weight_lbs": 138,
@@ -31877,7 +31877,7 @@
             },
             {
               "name": "Assessment",
-              "odds": 81.0,
+              "odds": 126.0,
               "jockey": "Darragh Keenan",
               "trainer": "D Donovan",
               "form": "090200",
@@ -31987,7 +31987,7 @@
             },
             {
               "name": "Token Gesture",
-              "odds": 15.0,
+              "odds": 21.0,
               "jockey": "Rose Dawes",
               "trainer": "M D I Usher",
               "form": "617U88",
@@ -31999,7 +31999,7 @@
               "trainer_score": 0.48,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
-              "value_score": 0.17,
+              "value_score": 0.15,
               "weight": "9-7",
               "weight_lbs": 133,
               "last_win_weight_lbs": 133,
@@ -32317,7 +32317,7 @@
             },
             {
               "name": "Hello Humphrey",
-              "odds": 67.0,
+              "odds": 51.0,
               "jockey": "Joey Haynes",
               "trainer": "M D I Usher",
               "form": "343220",
@@ -32427,7 +32427,7 @@
             },
             {
               "name": "Mollstar",
-              "odds": 21.0,
+              "odds": 17.0,
               "jockey": "Ashley Lewis",
               "trainer": "E Walker",
               "form": "692734",
@@ -32439,7 +32439,7 @@
               "trainer_score": 0.4,
               "jockey_score": 0.55,
               "pedigree_score": 0.5,
-              "value_score": 0.15,
+              "value_score": 0.16,
               "weight": "9-4",
               "weight_lbs": 130,
               "last_win_weight_lbs": null,
@@ -32537,7 +32537,7 @@
             },
             {
               "name": "Enough Already",
-              "odds": 81.0,
+              "odds": 126.0,
               "jockey": "William Cox",
               "trainer": "J & S Best",
               "form": "763899",

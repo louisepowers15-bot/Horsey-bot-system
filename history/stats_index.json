@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-25T19:42:43.765994+00:00",
-  "runs": 1114,
+  "updated_at": "2026-11-25T20:34:13.583766+00:00",
+  "runs": 1142,
   "trainer_course": {
     "celongsdon|huntingdon": {
       "wins": 0,
@@ -2549,8 +2549,8 @@
     },
     "ewalker|kempton": {
       "wins": 0,
-      "n": 5,
-      "rate": 0.0738
+      "n": 6,
+      "rate": 0.0686
     },
     "dylancunha|kempton": {
       "wins": 0,
@@ -2599,8 +2599,8 @@
     },
     "ambalding|kempton": {
       "wins": 0,
-      "n": 4,
-      "rate": 0.08
+      "n": 5,
+      "rate": 0.0738
     },
     "rvarian|kempton": {
       "wins": 0,
@@ -2624,13 +2624,13 @@
     },
     "scwilliams|kempton": {
       "wins": 0,
-      "n": 2,
-      "rate": 0.096
+      "n": 4,
+      "rate": 0.08
     },
     "wjhaggas|kempton": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "cappleby|kempton": {
       "wins": 1,
@@ -2643,9 +2643,9 @@
       "rate": 0.0873
     },
     "jbutler|kempton": {
-      "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "wins": 1,
+      "n": 4,
+      "rate": 0.1633
     },
     "mjattwater|kempton": {
       "wins": 0,
@@ -2659,8 +2659,8 @@
     },
     "olliesangster|kempton": {
       "wins": 0,
-      "n": 2,
-      "rate": 0.096
+      "n": 3,
+      "rate": 0.0873
     },
     "ealdunlop|kempton": {
       "wins": 0,
@@ -2674,8 +2674,8 @@
     },
     "sdow|kempton": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "dloughnane|kempton": {
       "wins": 1,
@@ -3094,8 +3094,8 @@
     },
     "rmbeckett|kempton": {
       "wins": 1,
-      "n": 1,
-      "rate": 0.2178
+      "n": 2,
+      "rate": 0.196
     },
     "harrycharlton|kempton": {
       "wins": 0,
@@ -3104,13 +3104,13 @@
     },
     "ddonovan|kempton": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "ianwilliams|kempton": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "pdevans|kempton": {
       "wins": 0,
@@ -3126,6 +3126,56 @@
       "wins": 1,
       "n": 1,
       "rate": 0.2178
+    },
+    "rhannon|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "wmuircgrassick|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "mdiusher|kempton": {
+      "wins": 0,
+      "n": 3,
+      "rate": 0.0873
+    },
+    "jcfox|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "djcoakley|kempton": {
+      "wins": 0,
+      "n": 2,
+      "rate": 0.096
+    },
+    "tward|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "jsbest|kempton": {
+      "wins": 0,
+      "n": 3,
+      "rate": 0.0873
+    },
+    "jrboyle|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "brmillman|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "jsquinn|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "trainer_code": {
@@ -4713,8 +4763,8 @@
     },
     "ianwilliams|AW": {
       "wins": 1,
-      "n": 14,
-      "rate": 0.0891
+      "n": 15,
+      "rate": 0.0852
     },
     "groldroyd|AW": {
       "wins": 0,
@@ -4723,8 +4773,8 @@
     },
     "wjhaggas|AW": {
       "wins": 1,
-      "n": 11,
-      "rate": 0.1032
+      "n": 12,
+      "rate": 0.098
     },
     "gboughey|AW": {
       "wins": 1,
@@ -4813,8 +4863,8 @@
     },
     "olliesangster|AW": {
       "wins": 0,
-      "n": 9,
-      "rate": 0.0565
+      "n": 10,
+      "rate": 0.0533
     },
     "mdods|AW": {
       "wins": 2,
@@ -4888,8 +4938,8 @@
     },
     "mdiusher|AW": {
       "wins": 2,
-      "n": 4,
-      "rate": 0.2467
+      "n": 7,
+      "rate": 0.1973
     },
     "tfaulkner|AW": {
       "wins": 0,
@@ -4928,8 +4978,8 @@
     },
     "jsquinn|AW": {
       "wins": 0,
-      "n": 3,
-      "rate": 0.0873
+      "n": 4,
+      "rate": 0.08
     },
     "ntinkler|AW": {
       "wins": 0,
@@ -5093,8 +5143,8 @@
     },
     "rhannon|AW": {
       "wins": 1,
-      "n": 5,
-      "rate": 0.1508
+      "n": 6,
+      "rate": 0.14
     },
     "cjohnston|AW": {
       "wins": 0,
@@ -5123,8 +5173,8 @@
     },
     "tward|AW": {
       "wins": 0,
-      "n": 2,
-      "rate": 0.096
+      "n": 3,
+      "rate": 0.0873
     },
     "dloughnane|AW": {
       "wins": 1,
@@ -5137,9 +5187,9 @@
       "rate": 0.0873
     },
     "jbutler|AW": {
-      "wins": 0,
-      "n": 4,
-      "rate": 0.08
+      "wins": 1,
+      "n": 7,
+      "rate": 0.1307
     },
     "edegiles|AW": {
       "wins": 0,
@@ -5213,8 +5263,8 @@
     },
     "ambalding|AW": {
       "wins": 2,
-      "n": 9,
-      "rate": 0.1741
+      "n": 10,
+      "rate": 0.1644
     },
     "jscott|AW": {
       "wins": 0,
@@ -5473,8 +5523,8 @@
     },
     "scwilliams|AW": {
       "wins": 0,
-      "n": 3,
-      "rate": 0.0873
+      "n": 5,
+      "rate": 0.0738
     },
     "tlacey|AW": {
       "wins": 0,
@@ -5603,8 +5653,8 @@
     },
     "sdow|AW": {
       "wins": 0,
-      "n": 2,
-      "rate": 0.096
+      "n": 3,
+      "rate": 0.0873
     },
     "kieranburke|AW": {
       "wins": 0,
@@ -5653,8 +5703,8 @@
     },
     "jrboyle|AW": {
       "wins": 0,
-      "n": 3,
-      "rate": 0.0873
+      "n": 4,
+      "rate": 0.08
     },
     "charliepike|AW": {
       "wins": 0,
@@ -5888,8 +5938,8 @@
     },
     "wmuircgrassick|AW": {
       "wins": 0,
-      "n": 2,
-      "rate": 0.096
+      "n": 3,
+      "rate": 0.0873
     },
     "gharris|AW": {
       "wins": 0,
@@ -5953,8 +6003,8 @@
     },
     "ewalker|AW": {
       "wins": 1,
-      "n": 10,
-      "rate": 0.1089
+      "n": 11,
+      "rate": 0.1032
     },
     "jameshorton|AW": {
       "wins": 0,
@@ -5978,8 +6028,8 @@
     },
     "rmbeckett|AW": {
       "wins": 1,
-      "n": 2,
-      "rate": 0.196
+      "n": 3,
+      "rate": 0.1782
     },
     "harrycharlton|AW": {
       "wins": 0,
@@ -5993,8 +6043,8 @@
     },
     "ddonovan|AW": {
       "wins": 0,
-      "n": 2,
-      "rate": 0.096
+      "n": 3,
+      "rate": 0.0873
     },
     "jcoulson|AW": {
       "wins": 0,
@@ -6622,6 +6672,26 @@
       "rate": 0.1067
     },
     "pdevans|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "jcfox|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "djcoakley|AW": {
+      "wins": 0,
+      "n": 2,
+      "rate": 0.096
+    },
+    "jsbest|AW": {
+      "wins": 0,
+      "n": 3,
+      "rate": 0.0873
+    },
+    "brmillman|AW": {
       "wins": 0,
       "n": 1,
       "rate": 0.1067
@@ -7805,8 +7875,8 @@
     },
     "smlevey|tward": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "jasonwatson|jamesowen": {
       "wins": 0,
@@ -8905,8 +8975,8 @@
     },
     "charlesbishop|ianwilliams": {
       "wins": 0,
-      "n": 2,
-      "rate": 0.096
+      "n": 3,
+      "rate": 0.0873
     },
     "remiemorgan|awatson": {
       "wins": 0,
@@ -9150,8 +9220,8 @@
     },
     "joeleavy|rhannon": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "billyloughnane|cjohnston": {
       "wins": 0,
@@ -9965,8 +10035,8 @@
     },
     "ashleylewis|ewalker": {
       "wins": 0,
-      "n": 3,
-      "rate": 0.0873
+      "n": 4,
+      "rate": 0.08
     },
     "rhavlin|jtgosden": {
       "wins": 0,
@@ -9995,8 +10065,8 @@
     },
     "marcoghiani|scwilliams": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "holliedoyle|wjhaggas": {
       "wins": 0,
@@ -10645,8 +10715,8 @@
     },
     "darraghkeenan|ddonovan": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "marcoghiani|dckubler": {
       "wins": 0,
@@ -10689,6 +10759,111 @@
       "rate": 0.2178
     },
     "smlevey|aking": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "lewisedmunds|wmuircgrassick": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "ncallan|mdiusher": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "nonrunner|jcfox": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "billyloughnane|jbutler": {
+      "wins": 1,
+      "n": 2,
+      "rate": 0.196
+    },
+    "robhornby|djcoakley": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "charlietucker|ambalding": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "holliedoyle|djcoakley": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "darraghkeenan|wjhaggas": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "nonrunner|rmbeckett": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "hcrouch|olliesangster": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "tpqueally|jsbest": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "paddybradley|sdow": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "smlevey|scwilliams": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "williamcox|jsbest": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "finleymarsh|jsbest": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "joeyhaynes|mdiusher": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "lmorris|jbutler": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "rosedawes|mdiusher": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "hcrouch|jrboyle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "lewisedmunds|brmillman": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "jpsullivan|jsquinn": {
       "wins": 0,
       "n": 1,
       "rate": 0.1067
@@ -16229,6 +16404,146 @@
       "wins": 0,
       "n": 1,
       "rate": 0.1067
+    },
+    "luckyluna|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "midnightmedia|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "vilaineverlaine|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "albusanne|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "ghoststory|kempton": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "starofdubai|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "solarpass|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "goldenphase|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "justqueenhigh|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "caraway|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "glenna|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "musicalaccord|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "moontune|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "lunella|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "pintsinpeace|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "arctician|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "kingcherry|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "enoughalready|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "hexagonal|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "hellohumphrey|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "rhythmnrock|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "tokengesture|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "assessment|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "mollstar|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "guiltyverdict|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "splitelevens|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "billymill|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "phoenixofdreams|kempton": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "horse_surface": {
@@ -21743,6 +22058,146 @@
       "rate": 0.2178
     },
     "paradias|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "luckyluna|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "midnightmedia|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "vilaineverlaine|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "albusanne|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "ghoststory|AW": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "starofdubai|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "solarpass|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "goldenphase|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "justqueenhigh|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "caraway|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "glenna|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "musicalaccord|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "moontune|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "lunella|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "pintsinpeace|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "arctician|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "kingcherry|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "enoughalready|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "hexagonal|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "hellohumphrey|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "rhythmnrock|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "tokengesture|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "assessment|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "mollstar|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "guiltyverdict|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "splitelevens|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "billymill|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "phoenixofdreams|AW": {
       "wins": 0,
       "n": 1,
       "rate": 0.1067
@@ -29295,6 +29750,146 @@
       "wins": 0,
       "n": 1,
       "rate": 0.1067
+    },
+    "luckyluna|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "midnightmedia|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "vilaineverlaine|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "albusanne|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "ghoststory|aw": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "starofdubai|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "solarpass|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "goldenphase|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "justqueenhigh|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "caraway|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "glenna|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "musicalaccord|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "moontune|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "lunella|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "pintsinpeace|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "arctician|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "kingcherry|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "enoughalready|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "hexagonal|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "hellohumphrey|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "rhythmnrock|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "tokengesture|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "assessment|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "mollstar|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "guiltyverdict|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "splitelevens|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "billymill|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "phoenixofdreams|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "horse_distance": {
@@ -34817,6 +35412,146 @@
       "wins": 0,
       "n": 1,
       "rate": 0.1067
+    },
+    "luckyluna|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "midnightmedia|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "vilaineverlaine|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "albusanne|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "ghoststory|mile": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "starofdubai|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "solarpass|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "goldenphase|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "justqueenhigh|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "caraway|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "glenna|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "musicalaccord|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "moontune|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "lunella|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "pintsinpeace|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "arctician|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "kingcherry|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "enoughalready|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "hexagonal|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "hellohumphrey|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "rhythmnrock|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "tokengesture|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "assessment|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "mollstar|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "guiltyverdict|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "splitelevens|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "billymill|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "phoenixofdreams|sprint": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "horse_place_surface": {
@@ -40331,6 +41066,146 @@
       "rate": 0.3829
     },
     "paradias|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "luckyluna|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "midnightmedia|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "vilaineverlaine|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "albusanne|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "ghoststory|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "starofdubai|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "solarpass|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "goldenphase|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "justqueenhigh|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "caraway|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "glenna|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "musicalaccord|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "moontune|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "lunella|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "pintsinpeace|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "arctician|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "kingcherry|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "enoughalready|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "hexagonal|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "hellohumphrey|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "rhythmnrock|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "tokengesture|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "assessment|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "mollstar|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "guiltyverdict|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "splitelevens|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "billymill|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "phoenixofdreams|AW": {
       "places": 0,
       "n": 1,
       "rate": 0.24

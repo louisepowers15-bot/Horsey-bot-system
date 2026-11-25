@@ -1,7 +1,7 @@
 {
   "date": "2026-11-25",
   "source": "sportinglife",
-  "scraped_at": "2026-11-25T19:42:43.500285Z",
+  "scraped_at": "2026-11-25T20:34:13.312799Z",
   "meetings": [
     {
       "course": "Wetherby",
@@ -2156,64 +2156,252 @@
               "sp": 12.0
             },
             {
+              "name": "Cape Fear",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "Paradias",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Solarize",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
               "name": "Classical Allusion",
-              "position": 0,
+              "position": 8,
               "status": "RUNNER",
               "sp": 4.0
             },
             {
               "name": "King's Code",
-              "position": 0,
+              "position": 9,
               "status": "RUNNER",
               "sp": 13.0
             },
             {
               "name": "Haku",
-              "position": 0,
+              "position": 10,
               "status": "RUNNER",
               "sp": 26.0
             },
             {
-              "name": "Paradias",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 23.0
-            },
-            {
               "name": "Night Breeze",
-              "position": 0,
+              "position": 11,
               "status": "RUNNER",
               "sp": 67.0
             },
             {
               "name": "Hamlet's Night",
-              "position": 0,
+              "position": 12,
               "status": "RUNNER",
               "sp": 21.0
             },
             {
               "name": "Sax Avoidance",
+              "position": 13,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Forever Penywern",
+              "position": 14,
+              "status": "RUNNER",
+              "sp": 21.0
+            }
+          ]
+        },
+        {
+          "time": "20:00",
+          "name": "Unibet's New VAR Goal Guarantee Fillies' Handicap",
+          "course": "Kempton",
+          "distance": "1m 2f 219y",
+          "going": "Standard / Slow",
+          "field_size": 14,
+          "runners": [
+            {
+              "name": "Ghost Story",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 4.0
+            },
+            {
+              "name": "Lucky Luna",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 23.0
+            },
+            {
+              "name": "Golden Phase",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Midnight Media",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 3.5
+            },
+            {
+              "name": "Caraway",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 7.5
+            },
+            {
+              "name": "Glenna",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 5.0
+            },
+            {
+              "name": "Moontune",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 15.0
+            },
+            {
+              "name": "Lunella",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 12.0
+            },
+            {
+              "name": "Just Queen High",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 67.0
+            },
+            {
+              "name": "Star Of Dubai",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 34.0
+            },
+            {
+              "name": "Solar Pass",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 13.0
+            },
+            {
+              "name": "Albus Anne",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 7.0
+            },
+            {
+              "name": "Vilaine Verlaine",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 67.0
+            },
+            {
+              "name": "Musical Accord",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 101.0
+            }
+          ]
+        },
+        {
+          "time": "20:30",
+          "name": "Try Unibet's New Smartview Racecards Handicap",
+          "course": "Kempton",
+          "distance": "7f",
+          "going": "Standard / Slow",
+          "field_size": 14,
+          "runners": [
+            {
+              "name": "Assessment",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 126.0
+            },
+            {
+              "name": "Hello Humphrey",
               "position": 0,
               "status": "RUNNER",
               "sp": 51.0
             },
             {
-              "name": "Cape Fear",
+              "name": "Pints In Peace",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 67.0
+            },
+            {
+              "name": "Arctician",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 7.5
+            },
+            {
+              "name": "Billy Mill",
               "position": 0,
               "status": "RUNNER",
               "sp": 11.0
             },
             {
-              "name": "Solarize",
+              "name": "Split Elevens",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 2.75
+            },
+            {
+              "name": "Token Gesture",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 19.0
+            },
+            {
+              "name": "Hexagonal",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 101.0
+            },
+            {
+              "name": "Guilty Verdict",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 6.5
+            },
+            {
+              "name": "Mollstar",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 19.0
+            },
+            {
+              "name": "Rhythm N Rock",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 7.5
+            },
+            {
+              "name": "Enough Already",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 126.0
+            },
+            {
+              "name": "King Cherry",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 29.0
+            },
+            {
+              "name": "Phoenix Of Dreams",
               "position": 0,
               "status": "RUNNER",
               "sp": 5.0
-            },
-            {
-              "name": "Forever Penywern",
-              "position": 0,
-              "status": "RUNNER",
-              "sp": 21.0
             }
           ]
         }
