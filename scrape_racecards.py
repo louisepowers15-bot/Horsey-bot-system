@@ -715,20 +715,33 @@ def main():
                 if o_ids and o_ids == race_ids:
                     unpublished = True
                     note = (
-                        f"Cards for {d.isoformat()} are not published yet on Sporting Life. "
-                        f"The feed still returns the same race ids as {other}. "
-                        "No meetings stored — will fill in once the real card appears."
+                        f"Tomorrow's card is not on Sporting Life yet "
+                        f"(still showing {other}'s races). "
+                        "Betting sites sometimes list early markets before full racecards "
+                        "appear here. Tips will fill once the real card is published — "
+                        "usually late evening or early morning."
                     )
                     print(note)
                     break
             except Exception:
                 pass
 
+        # Extra: meeting date stamped on scrape object
+        if not unpublished and meetings:
+            stamped = [m.get("meeting_date") for m in meetings if m.get("meeting_date")]
+            if stamped and all(str(x) != d.isoformat() for x in stamped):
+                unpublished = True
+                note = (
+                    f"Sporting Life returned meetings dated {sorted(set(map(str, stamped)))} "
+                    f"for requested {d.isoformat()}. Treating as not published yet."
+                )
+                print(note)
+
         if not unpublished and total == 0:
             unpublished = True
             note = (
                 f"No runners found for {d.isoformat()}. "
-                "Card may not be published yet."
+                "Card may not be published yet — try again later this evening."
             )
             print(note)
 

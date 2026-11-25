@@ -217,8 +217,7 @@
 
     <div class="tabs" id="main-tabs">
       <button class="tab active" data-tab="today">📅 Today</button>
-      <div id="data-status" style="text-align:center;font-size:0.85rem;color:#94a3b8;padding:0.35rem 0.75rem;">Loading status…</div>
-<button class="tab" data-tab="tomorrow">🌅 Tomorrow</button>
+      <button class="tab" data-tab="tomorrow">🌅 Tomorrow</button>
       <button class="tab" data-tab="hot">🔥 Hot Pick</button>
       <button class="tab" data-tab="big">🏆 Big Festivals</button>
       <button class="tab" data-tab="doubles">🎲 Doubles & Accas</button>
@@ -316,7 +315,7 @@ function renderRacecards(dataSet) {
     const note = (dataSet && dataSet.note) ? dataSet.note : "";
     const unpublished = dataSet && dataSet.published === false;
     if (unpublished || note) {
-      return '<div class="data-warn"><strong>' + (unpublished ? "Card not published yet" : "Notice") +
+      return '<div class="data-warn"><strong>' + (unpublished ? "Tomorrow's card not on our feed yet" : "Notice") +
         "</strong><br>" + (note || "Racecards for this date are not available from the feed yet. Check back later — tips will appear once real runners are published.") +
         "</div>";
     }
@@ -564,7 +563,7 @@ function renderLeaderboard() {
 }
 
 
-async function loadDataStatus() {
+async function  {
   const el = document.getElementById("data-status");
   if (!el) return;
   try {
