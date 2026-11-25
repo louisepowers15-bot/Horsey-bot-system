@@ -36,21 +36,17 @@ except Exception:
         return []
 
 BOT_NAMES = [
-    "BloodlineBetty",
-    "DevilAdvocate",
-    "FormFox",
-    "HotTrainer",
-    "PaceProphet",
-    "ValueHunter",
+    "FormFox",         # recent form + trend
+    "HotTrainer",      # trainer + jockey-trainer combo
+    "BloodlineBetty",  # trip + going
+    "DevilAdvocate",   # balanced sceptic / light value
 ]
 
 WEIGHTS = {
-    "FormFox":        {"form": 0.30, "trend": 0.10, "trainer": 0.10, "jockey": 0.08, "combo": 0.08, "value": 0.10, "field": 0.06, "going": 0.08, "trip": 0.10},
-    "HotTrainer":     {"form": 0.14, "trend": 0.06, "trainer": 0.24, "jockey": 0.12, "combo": 0.16, "value": 0.08, "field": 0.05, "going": 0.07, "trip": 0.08},
-    "ValueHunter":    {"form": 0.16, "trend": 0.08, "trainer": 0.10, "jockey": 0.08, "combo": 0.08, "value": 0.28, "field": 0.08, "going": 0.07, "trip": 0.07},
-    "DevilAdvocate":  {"form": 0.20, "trend": 0.08, "trainer": 0.10, "jockey": 0.10, "combo": 0.10, "value": 0.18, "field": 0.08, "going": 0.08, "trip": 0.08},
-    "BloodlineBetty": {"form": 0.16, "trend": 0.12, "trainer": 0.12, "jockey": 0.08, "combo": 0.10, "value": 0.10, "field": 0.06, "going": 0.12, "trip": 0.14},
-    "PaceProphet":    {"form": 0.16, "trend": 0.08, "trainer": 0.10, "jockey": 0.14, "combo": 0.12, "value": 0.10, "field": 0.14, "going": 0.08, "trip": 0.08},
+    "FormFox":        {"form": 0.36, "trend": 0.14, "trainer": 0.08, "jockey": 0.06, "combo": 0.06, "value": 0.06, "field": 0.04, "going": 0.08, "trip": 0.12},
+    "HotTrainer":     {"form": 0.18, "trend": 0.08, "trainer": 0.24, "jockey": 0.12, "combo": 0.18, "value": 0.04, "field": 0.04, "going": 0.06, "trip": 0.06},
+    "BloodlineBetty": {"form": 0.16, "trend": 0.10, "trainer": 0.10, "jockey": 0.06, "combo": 0.08, "value": 0.04, "field": 0.04, "going": 0.18, "trip": 0.24},
+    "DevilAdvocate":  {"form": 0.26, "trend": 0.10, "trainer": 0.10, "jockey": 0.08, "combo": 0.10, "value": 0.14, "field": 0.06, "going": 0.08, "trip": 0.08},
 }
 
 # Common UK/IRE all-weather tracks
@@ -484,10 +480,18 @@ def score_bot(bot, r, rng):
         + w["going"] * r["_going"]
         + w["trip"] * r["_trip"]
     )
-    if r["_rank"] <= 2 and r["_form"] >= 0.5:
-        s += 0.045
-    if r.get("_rank") == 1 and r["_form"] >= 0.55:
+    if r["_rank"] <= 2 and r["_form"] >= 0.55:
+        s += 0.035
+    if r.get("_rank") == 1 and r["_form"] >= 0.60:
         s += 0.02
+    # Punish short prices with soft form (market fav we don't trust)
+    if r.get("_rank") == 1 and r["_form"] < 0.48:
+        s -= 0.06
+    if r.get("_rank") == 1 and float(r.get("odds") or 99) <= 2.5 and r["_form"] < 0.55:
+        s -= 0.04
+    # Longshot tax unless form is strong
+    if float(r.get("odds") or 99) >= 12 and r["_form"] < 0.60:
+        s -= 0.05
 
     # --- History rates (hard factors when samples exist) ---
     # enrich may set _hist_trainer_course, _hist_combo, _hist_going, _hist_trip, _hist_n_*
@@ -557,12 +561,11 @@ def score_bot(bot, r, rng):
     model_p = max(0.04, min(0.45, s * 0.42))
     edge = model_p - implied
     r["_edge"] = round(edge, 4)
-    if bot == "ValueHunter":
-        s += max(-0.05, min(0.10, edge * 0.5))
-        if edge < -0.02:
-            s -= 0.04  # overbet for value bot
-    elif bot == "DevilAdvocate" and r["_rank"] == 1 and r["_form"] < 0.55:
-        s += 0.03  # oppose weak fav
+    if bot == "DevilAdvocate":
+        # Mild price sensitivity + fade weak favourites
+        s += max(-0.03, min(0.06, edge * 0.35))
+        if r["_rank"] == 1 and r["_form"] < 0.55:
+            s += 0.03
 
     # Long absence with form evidence only
     days = r.get("_days_off")
@@ -582,12 +585,14 @@ def score_bot(bot, r, rng):
 
 
 def choose_type(bot, r, field_size, prob):
-    odds = r["odds"]
-    if field_size < 5 or odds < 5.5:
+    """EW only when place terms are realistic and form supports a place angle."""
+    odds = float(r.get("odds") or 99)
+    form = float(r.get("_form") or 0)
+    if field_size < 7 or odds < 6.0:
         return "win"
-    if r["_form"] < 0.45:
+    if form < 0.48 or odds > 16:
         return "win"
-    if field_size >= 8 and odds >= 7.5 and prob >= 0.32 and r["_form"] >= 0.48:
+    if field_size >= 8 and 6.5 <= odds <= 14 and prob >= 0.34 and form >= 0.50:
         return "ew"
     return "win"
 
@@ -601,17 +606,24 @@ def pick_for_bot(bot, ranked, field_size, used_names=None, force_diversity=True)
     used_names = used_names or set()
     candidates = []
     for prob, r in ranked:
-        if r["odds"] >= 16 and r["_form"] < 0.55:
+        odds = float(r.get("odds") or 99)
+        form = float(r.get("_form") or 0)
+        rank = int(r.get("_rank") or 99)
+        if odds >= 14 and form < 0.58:
             continue
-        if r["odds"] >= 20 and r["_rank"] >= 4 and r["_form"] < 0.6:
+        if odds >= 18:
             continue
-        if not (r.get("_form_raw") or r.get("form") or "").strip() and prob < 0.45:
+        if odds >= 12 and rank >= 5 and form < 0.62:
             continue
-        if bot == "ValueHunter" and r.get("_edge") is not None and r["_edge"] < -0.03 and r["odds"] < 8:
+        if rank == 1 and form < 0.42:
+            continue
+        if not (r.get("_form_raw") or r.get("form") or "").strip() and prob < 0.50:
+            continue
+        if bot == "DevilAdvocate" and r.get("_edge") is not None and r["_edge"] < -0.03 and odds < 6:
             continue
         candidates.append((prob, r))
     if not candidates:
-        candidates = list(ranked)
+        candidates = [(p, r) for p, r in ranked[:5] if float(r.get("odds") or 99) <= 14] or list(ranked[:3])
 
     best_p, best_r = candidates[0]
     best_name = (best_r.get("name") or "").strip()
@@ -772,10 +784,8 @@ def tipster_reason(bot, r, tip_type, conf, field_size, rivals: list | None = Non
     openers = {
         "FormFox": f"{name} is the form pick on this card.",
         "HotTrainer": f"Connections angle points me at {name}.",
-        "ValueHunter": f"At about {odds:.2f}, {name} is the price that stands out.",
         "DevilAdvocate": f"I prefer {name} to the more obvious names in the market.",
-        "BloodlineBetty": f"{name} fits this test better than a cold reading of the headlines suggests.",
-        "PaceProphet": f"For how this race is likely to be run, {name} is the one I want.",
+        "BloodlineBetty": f"{name} fits this trip and ground better than a cold reading of the headlines suggests.",
     }
     sentences.append(openers.get(bot, f"{name} is the selection."))
 
@@ -1114,7 +1124,42 @@ def build_tips_for_races(d, flat_races):
                     model_p = max(0.04, min(0.45, prob * 0.42))
                     r["_edge"] = round(model_p - implied, 4)
             prob, best, tip_type = pick_for_bot(bot, ranked, field_size, used_names=used, force_diversity=True)
-            conf = max(40, min(84, int(round(prob * 100))))
+            second = 0.0
+            for p2, r2 in ranked:
+                if (r2.get("name") or "") != (best.get("name") or ""):
+                    second = p2
+                    break
+            margin = max(0.0, float(prob) - float(second))
+            conf = int(round(48 + margin * 220 + max(0, float(prob) - 0.35) * 40))
+            if float(best.get("odds") or 99) >= 10:
+                conf = min(conf, 62)
+            if float(best.get("_form") or 0) < 0.50:
+                conf = min(conf, 58)
+            conf = max(42, min(78, conf))
+            odds_f = float(best.get("odds") or 99)
+            form_f = float(best.get("_form") or 0)
+            edge = best.get("_edge")
+            # --- Selective: each bot may PASS this race ---
+            pass_reason = None
+            if conf < 55:
+                pass_reason = "confidence below threshold"
+            elif form_f < 0.48:
+                pass_reason = "form too soft"
+            elif odds_f < 2.4:
+                pass_reason = "odds-on / very short — poor long-run ROI on this model"
+            elif odds_f > 12 and tip_type == "win":
+                pass_reason = "win tip too long for model edge"
+            elif tip_type == "ew" and (odds_f < 6.5 or odds_f > 12 or field_size < 8):
+                pass_reason = "EW terms not acceptable"
+            elif edge is not None and float(edge) < -0.02 and odds_f < 5:
+                pass_reason = "no price edge vs implied odds"
+            # Require a clear top: margin already baked into conf; extra gate
+            if pass_reason is None and conf < 58 and odds_f > 8:
+                pass_reason = "longish price needs higher confidence"
+
+            if pass_reason:
+                continue  # this bot has no tip in this race
+
             tips.append({
                 "bot": bot,
                 "horse": best["name"],
@@ -1132,7 +1177,14 @@ def build_tips_for_races(d, flat_races):
         for t in tips:
             t["stars"] = counts[t["horse"]]
 
-        # Race consensus = horse with most bots; tie-break by avg conf then shorter odds
+        # Race-level no-bet: need at least 2 bots with a tip, else pass the race
+        no_bet = len(tips) < 2
+        no_bet_reason = None
+        if no_bet:
+            no_bet_reason = "No clear angle — fewer than 2 bots found a tip that clears the quality bar."
+            tips = []  # publish empty tips for this race
+
+        # Race consensus only when real agreement
         by_horse = {}
         for t in tips:
             h = t["horse"]
@@ -1142,7 +1194,7 @@ def build_tips_for_races(d, flat_races):
             by_horse[h]["odds"] = t.get("odds")
             by_horse[h]["types"].append(t.get("type") or "win")
         consensus = None
-        if by_horse:
+        if by_horse and not no_bet:
             ranked_h = sorted(
                 by_horse.values(),
                 key=lambda v: (
@@ -1156,15 +1208,17 @@ def build_tips_for_races(d, flat_races):
             avg_c = sum(top["confs"]) / max(1, n)
             tip_type = "ew" if top["types"].count("ew") > top["types"].count("win") else "win"
             strength = "strong" if n >= 4 else ("solid" if n >= 3 else ("lean" if n >= 2 else "split"))
-            consensus = {
-                "horse": top["horse"],
-                "odds": top["odds"],
-                "bot_count": n,
-                "avg_conf": round(avg_c, 1),
-                "bots": top["bots"],
-                "type": tip_type,
-                "strength": strength,  # strong | solid | lean | split
-            }
+            # Only publish consensus for solid/strong
+            if strength in ("solid", "strong") and avg_c >= 56:
+                consensus = {
+                    "horse": top["horse"],
+                    "odds": top["odds"],
+                    "bot_count": n,
+                    "avg_conf": round(avg_c, 1),
+                    "bots": top["bots"],
+                    "type": tip_type,
+                    "strength": strength,
+                }
 
         races_out.append({
             "course": course or "Unknown",
@@ -1175,6 +1229,8 @@ def build_tips_for_races(d, flat_races):
             "surface": race.get("surface") or surface_from(course, going),
             "code": race.get("code") or "unknown",
             "race_class": race.get("race_class"),
+            "no_bet": no_bet,
+            "no_bet_reason": no_bet_reason,
             "consensus": consensus,
             "tips": tips,
         })
@@ -1205,13 +1261,15 @@ def build_tips_for_races(d, flat_races):
         if n < 2:
             continue
         avg_conf = sum(v["confs"]) / max(1, n)
-        if avg_conf < 52:
+        if n < 3:
             continue
-        if n == 2 and avg_conf < 58:
-            continue  # pair needs higher conf
+        if avg_conf < 58:
+            continue
+        if n == 3 and avg_conf < 62:
+            continue
         odds = float(v.get("odds") or 99)
-        if odds >= 21 and n < 4:
-            continue  # need strong agreement on big prices
+        if odds < 2.5 or odds > 12:
+            continue
         hot.append({
             "course": v["course"],
             "time": v["time"],
@@ -1233,10 +1291,10 @@ def build_tips_for_races(d, flat_races):
         "races": races_out,
         "hot_picks": hot,
         "generated_at": datetime.utcnow().isoformat() + "Z",
-        "note": "History-weighted scores; class moves; diversity picks; hot picks need 3+ bots & conf≥55",
+        "note": "4 bots only (FormFox, HotTrainer, BloodlineBetty, DevilAdvocate). Selective no-bet; history when available.",
         "meta": {
             "history_runs": int(hist_index.get("runs") or 0),
-            "hot_pick_rules": "min_bots=3, min_avg_conf=55",
+            "hot_pick_rules": "min_bots=3, min_avg_conf=58, odds 2.5-12",
         },
     }
 

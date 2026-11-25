@@ -21,9 +21,12 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
+
+# Leaderboard counts only settled days on/after this date (reset point)
+LEADERBOARD_FROM = date(2026, 11, 25)
+
 BOTS = [
-    "BloodlineBetty", "DevilAdvocate", "FormFox",
-    "HotTrainer", "PaceProphet", "ValueHunter",
+    "FormFox", "HotTrainer", "BloodlineBetty", "DevilAdvocate",
 ]
 
 
@@ -306,6 +309,22 @@ def rebuild_leaderboard_from_settled() -> dict:
                 day = datetime.strptime(ds, "%Y-%m-%d").date()
             except ValueError:
                 day = None
+        # Reset: ignore history before LEADERBOARD_FROM
+        if day is not None and day < LEADERBOARD_FROM:
+            continue
+        if day is None:
+            # try parse from filename settled-YYYY-MM-DD.json
+            import re as _re
+            m = _re.search(r"(\d{4}-\d{2}-\d{2})", path.name)
+            if m:
+                try:
+                    day = datetime.strptime(m.group(1), "%Y-%m-%d").date()
+                    if day < LEADERBOARD_FROM:
+                        continue
+                except ValueError:
+                    continue
+            else:
+                continue
             history.append({
                 "date": ds,
                 "tips": summary.get("tips") or 0,
@@ -397,6 +416,7 @@ def rebuild_leaderboard_from_settled() -> dict:
 
     lb = {
         "updated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "reset_from": LEADERBOARD_FROM.isoformat(),
         "bots": periods["all"]["bots"],  # back-compat for older UI
         "periods": periods,
         "best_roi": periods["all"]["best_roi"],
