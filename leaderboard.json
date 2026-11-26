@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T23:56:08.885668+00:00",
+  "updated_at": "2026-11-26T03:32:01.178431+00:00",
   "reset_from": "2026-11-25",
   "bots": {
     "FormFox": {
@@ -906,7 +906,14 @@
       "settled": 57,
       "unknown": 0,
       "pnl": 86.72
+    },
+    {
+      "date": "2026-11-26",
+      "tips": 0,
+      "settled": 0,
+      "unknown": 0,
+      "pnl": 0.0
     }
   ],
-  "last_settled": "2026-11-25"
+  "last_settled": "2026-11-26"
 }
