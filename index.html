@@ -568,33 +568,6 @@ function renderLeaderboard() {
 }
 
 
-async function  {
-  const el = document.getElementById("data-status");
-  if (!el) return;
-  try {
-    const res = await fetch("./status.json?t=" + Date.now());
-    if (res.ok) {
-      const s = await res.json();
-      const parts = [];
-      if (s.last_settled) parts.push("Last settled: <b style=\"color:#e2e8f0\">" + s.last_settled + "</b>");
-      if (s.best_roi) parts.push("Best ROI: <b style=\"color:#4ade80\">" + s.best_roi + "</b>");
-      if (s.settled_days != null) parts.push(s.settled_days + " days tracked");
-      el.innerHTML = parts.join(" · ") || "Status ready";
-      return;
-    }
-  } catch (e) {}
-  try {
-    const res = await fetch("./leaderboard.json?t=" + Date.now());
-    if (res.ok) {
-      const lb = await res.json();
-      el.innerHTML = lb.last_settled
-        ? ("Last settled: <b style=\"color:#e2e8f0\">" + lb.last_settled + "</b>")
-        : "Leaderboard loaded — no settlements yet";
-      return;
-    }
-  } catch (e) {}
-  el.textContent = "";
-}
 
 async function fillLeaderboard(period) {
   const root = document.getElementById("lb-root");
