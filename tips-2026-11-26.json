@@ -1,9 +1,1510 @@
 {
   "date": "2026-11-26",
-  "meetings": [],
-  "races": [],
-  "generated_at": "2026-11-25T21:53:45.698367Z",
-  "published": false,
-  "frozen": false,
-  "note": "Tomorrow's card is not on Sporting Life yet (still showing 2026-11-25's races). Betting sites sometimes list early markets before full racecards appear here. Tips will fill once the real card is published \u2014 usually late evening or early morning."
+  "meetings": [
+    "Chelmsford City",
+    "Lingfield",
+    "Market Rasen",
+    "Taunton",
+    "Thurles"
+  ],
+  "races": [
+    {
+      "course": "Market Rasen",
+      "time": "11:54",
+      "name": "PricedUp Bet 'National Hunt' Novices' Hurdle (GBB Race) (Class 4)",
+      "going": "Good to soft",
+      "distance": "2m 125y",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": 4,
+      "no_bet": true,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
+      "consensus": null,
+      "tips": []
+    },
+    {
+      "course": "Market Rasen",
+      "time": "12:29",
+      "name": "PricedUp Now With Best Odds Handicap Hurdle (Class 5)",
+      "going": "Good to soft",
+      "distance": "2m 125y",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": 5,
+      "no_bet": true,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
+      "consensus": null,
+      "tips": []
+    },
+    {
+      "course": "Market Rasen",
+      "time": "13:04",
+      "name": "PricedUp Boosted Prices Daily Bud Booth Mares' Chase (Listed) (GBB Race) (Class 1)",
+      "going": "Good to soft",
+      "distance": "2m 125y",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": 1,
+      "no_bet": false,
+      "no_bet_reason": null,
+      "consensus": {
+        "horse": "Bluey",
+        "odds": 3.5,
+        "bot_count": 4,
+        "avg_conf": 76.8,
+        "bots": [
+          "FormFox",
+          "HotTrainer",
+          "BloodlineBetty",
+          "DevilAdvocate"
+        ],
+        "type": "win",
+        "strength": "strong"
+      },
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Bluey",
+          "odds": 3.5,
+          "conf": 78,
+          "type": "win",
+          "edge": 0.0257,
+          "class_move": "similar",
+          "reason": "Bluey is the form pick on this card. The form figures on the card are 312124 \u2014 finished third last time; has 2 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 3rd at Aintree over 2m 3f 200y (Good to Soft (Good in places)) on 2026-11-07. Course evidence at Market Rasen: 1st over 2m 5f 89y on 2026-04-14. Today's race: Market Rasen, 2m 125y, going Good to soft, Class 1, field of 5. Also on the card: official rating 136; carries 11-4; about 10lb lower than a comparable winning weight on the card. Connections: trained by Miss E C Lavelle (3 on the card today); Harry Cobden rides and has 4 booked today. The market is led by Kala Conti around 1.80 (form 1F2110); Bluey is available at about 3.50, which is the price this case is built on. Worth a win bet at around 3.50 on the evidence above.",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Bluey",
+          "odds": 3.5,
+          "conf": 78,
+          "type": "win",
+          "edge": 0.0121,
+          "class_move": "similar",
+          "reason": "Connections angle points me at Bluey. The form figures on the card are 312124 \u2014 finished third last time; has 2 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 3rd at Aintree over 2m 3f 200y (Good to Soft (Good in places)) on 2026-11-07. Course evidence at Market Rasen: 1st over 2m 5f 89y on 2026-04-14. Today's race: Market Rasen, 2m 125y, going Good to soft, Class 1, field of 5. Also on the card: official rating 136; carries 11-4; about 10lb lower than a comparable winning weight on the card. Connections: trained by Miss E C Lavelle (3 on the card today); Harry Cobden rides and has 4 booked today. The market is led by Kala Conti around 1.80 (form 1F2110); Bluey is available at about 3.50, which is the price this case is built on. Worth a win bet at around 3.50 on the evidence above.",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Bluey",
+          "odds": 3.5,
+          "conf": 78,
+          "type": "win",
+          "edge": -0.0058,
+          "class_move": "similar",
+          "reason": "Bluey fits this trip and ground better than a cold reading of the headlines suggests. The form figures on the card are 312124 \u2014 finished third last time; has 2 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 3rd at Aintree over 2m 3f 200y (Good to Soft (Good in places)) on 2026-11-07. Course evidence at Market Rasen: 1st over 2m 5f 89y on 2026-04-14. Today's race: Market Rasen, 2m 125y, going Good to soft, Class 1, field of 5. Also on the card: official rating 136; carries 11-4; about 10lb lower than a comparable winning weight on the card. Connections: trained by Miss E C Lavelle (3 on the card today); Harry Cobden rides and has 4 booked today. The market is led by Kala Conti around 1.80 (form 1F2110); Bluey is available at about 3.50, which is the price this case is built on. Worth a win bet at around 3.50 on the evidence above.",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Bluey",
+          "odds": 3.5,
+          "conf": 73,
+          "type": "win",
+          "edge": 0.0208,
+          "class_move": "similar",
+          "reason": "I prefer Bluey to the more obvious names in the market. The form figures on the card are 312124 \u2014 finished third last time; has 2 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 3rd at Aintree over 2m 3f 200y (Good to Soft (Good in places)) on 2026-11-07. Course evidence at Market Rasen: 1st over 2m 5f 89y on 2026-04-14. Today's race: Market Rasen, 2m 125y, going Good to soft, Class 1, field of 5. Also on the card: official rating 136; carries 11-4; about 10lb lower than a comparable winning weight on the card. Connections: trained by Miss E C Lavelle (3 on the card today); Harry Cobden rides and has 4 booked today. The market is led by Kala Conti around 1.80 (form 1F2110); Bluey is available at about 3.50, which is the price this case is built on. Worth a win bet at around 3.50 on the evidence above.",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Market Rasen",
+      "time": "13:39",
+      "name": "Aubrey Bealby ABH Tipster Champion Novices' Handicap Chase (Class 5)",
+      "going": "Good to soft",
+      "distance": "2m 125y",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": 5,
+      "no_bet": true,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
+      "consensus": null,
+      "tips": []
+    },
+    {
+      "course": "Market Rasen",
+      "time": "14:14",
+      "name": "PricedUp Boosts And BOG Handicap Hurdle (Class 4)",
+      "going": "Good to soft",
+      "distance": "2m 125y",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": 4,
+      "no_bet": false,
+      "no_bet_reason": null,
+      "consensus": {
+        "horse": "Billy Boi Blue",
+        "odds": 6.5,
+        "bot_count": 3,
+        "avg_conf": 74.3,
+        "bots": [
+          "FormFox",
+          "HotTrainer",
+          "DevilAdvocate"
+        ],
+        "type": "ew",
+        "strength": "solid"
+      },
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Billy Boi Blue",
+          "odds": 6.5,
+          "conf": 67,
+          "type": "ew",
+          "edge": 0.134,
+          "class_move": "similar",
+          "reason": "Billy Boi Blue is the form pick on this card. The form figures on the card are 117516 \u2014 won last time; has 3 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 1st at Southwell over 3m 60y (Good (Good to Soft in places)) on 2026-11-02. Today's race: Market Rasen, 2m 125y, going Good to soft, Class 4, field of 9. Also on the card: official rating 114; carries 11-8; about 7lb lower than a comparable winning weight on the card; cheek pieces, tongue strap. Connections: trained by D Killahena & G McPherson (3 on the card today); Kielan Woods rides and has 4 booked today. The market is led by Jury's In around 3.25 (form 60134); Billy Boi Blue is available at about 6.50, which is the price this case is built on. Each-way at around 6.50 is the sensible way to use the case in a 9-runner field.",
+          "stars": 3
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Billy Boi Blue",
+          "odds": 6.5,
+          "conf": 78,
+          "type": "ew",
+          "edge": 0.1346,
+          "class_move": "similar",
+          "reason": "Connections angle points me at Billy Boi Blue. The form figures on the card are 117516 \u2014 won last time; has 3 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 1st at Southwell over 3m 60y (Good (Good to Soft in places)) on 2026-11-02. Today's race: Market Rasen, 2m 125y, going Good to soft, Class 4, field of 9. Also on the card: official rating 114; carries 11-8; about 7lb lower than a comparable winning weight on the card; cheek pieces, tongue strap. Connections: trained by D Killahena & G McPherson (3 on the card today); Kielan Woods rides and has 4 booked today. The market is led by Jury's In around 3.25 (form 60134); Billy Boi Blue is available at about 6.50, which is the price this case is built on. Each-way at around 6.50 is the sensible way to use the case in a 9-runner field.",
+          "stars": 3
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Frisky Whiskey",
+          "odds": 4.0,
+          "conf": 58,
+          "type": "win",
+          "edge": 0.0013,
+          "class_move": "similar",
+          "reason": "Frisky Whiskey fits this trip and ground better than a cold reading of the headlines suggests. The form figures on the card are 212346 \u2014 finished second last time; has been top-three 4 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 2nd at Sedgefield over 3m 3f 9y (Good) on 2026-11-13. Course evidence at Market Rasen: 6th over 2m 2f 140y on 2026-05-28. Today's race: Market Rasen, 2m 125y, going Good to soft, Class 4, field of 9. Also on the card: official rating 105; carries 10-13; cheek pieces, tongue strap. Connections: trained by B Ellison (2 on the card today); Danny McMenamin rides and has 5 booked today. The market is led by Jury's In around 3.25 (form 60134); Frisky Whiskey is available at about 4.00, which is the price this case is built on. Worth a win bet at around 4.00 on the evidence above.",
+          "stars": 1
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Billy Boi Blue",
+          "odds": 6.5,
+          "conf": 78,
+          "type": "ew",
+          "edge": 0.1368,
+          "class_move": "similar",
+          "reason": "I prefer Billy Boi Blue to the more obvious names in the market. The form figures on the card are 117516 \u2014 won last time; has 3 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 1st at Southwell over 3m 60y (Good (Good to Soft in places)) on 2026-11-02. Today's race: Market Rasen, 2m 125y, going Good to soft, Class 4, field of 9. Also on the card: official rating 114; carries 11-8; about 7lb lower than a comparable winning weight on the card; cheek pieces, tongue strap. Connections: trained by D Killahena & G McPherson (3 on the card today); Kielan Woods rides and has 4 booked today. The market is led by Jury's In around 3.25 (form 60134); Billy Boi Blue is available at about 6.50, which is the price this case is built on. Each-way at around 6.50 is the sensible way to use the case in a 9-runner field.",
+          "stars": 3
+        },
+        {
+          "bot": "PlaceHunter",
+          "horse": "Ladronne",
+          "odds": 15.0,
+          "conf": 59,
+          "type": "ew",
+          "edge": 0.1954,
+          "class_move": "similar",
+          "reason": "Ladronne is an each-way play at around 15.00 \u2014 only considered because the field is big enough for place terms and the price is over 10/1. Form figures (525214) are enough to make a place case, not a pure lottery ticket. Connections: J Parkinson & S Smith / Oscar Palmer. Conditions: 2m 125y, Good to soft. Field of 9 supports the place part of the bet. This is each-way only \u2014 no win-only stance at this price. Confidence 59%.",
+          "stars": 1
+        }
+      ]
+    },
+    {
+      "course": "Market Rasen",
+      "time": "14:49",
+      "name": "PricedUp Bet Handicap Chase (Class 5)",
+      "going": "Good to soft",
+      "distance": "2m 125y",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": 5,
+      "no_bet": false,
+      "no_bet_reason": null,
+      "consensus": {
+        "horse": "Jukebox D'eddy",
+        "odds": 3.5,
+        "bot_count": 4,
+        "avg_conf": 72.2,
+        "bots": [
+          "FormFox",
+          "HotTrainer",
+          "BloodlineBetty",
+          "DevilAdvocate"
+        ],
+        "type": "win",
+        "strength": "strong"
+      },
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Jukebox D'eddy",
+          "odds": 3.5,
+          "conf": 68,
+          "type": "win",
+          "edge": -0.0124,
+          "class_move": "similar",
+          "reason": "Jukebox D'eddy is the form pick on this card. The form figures on the card are 213112 \u2014 finished second last time; has 3 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 2nd at Hereford over 3m 1f 44y (Good) on 2026-04-06. Course evidence at Market Rasen: 1st over 2m 7f 191y on 2025-12-04. Today's race: Market Rasen, 2m 125y, going Good to soft, Class 5, field of 10. Also on the card: official rating 90; carries 11-4; tongue strap, visor; off 234 days since last run on the card. Connections: trained by T R Gretton (2 on the card today); S Bowen rides and has 6 booked today. Jukebox D'eddy is at the head of the market around 3.50 on our prices. Worth a win bet at around 3.50 on the evidence above.",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Jukebox D'eddy",
+          "odds": 3.5,
+          "conf": 78,
+          "type": "win",
+          "edge": -0.0005,
+          "class_move": "similar",
+          "reason": "Connections angle points me at Jukebox D'eddy. The form figures on the card are 213112 \u2014 finished second last time; has 3 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 2nd at Hereford over 3m 1f 44y (Good) on 2026-04-06. Course evidence at Market Rasen: 1st over 2m 7f 191y on 2025-12-04. Today's race: Market Rasen, 2m 125y, going Good to soft, Class 5, field of 10. Also on the card: official rating 90; carries 11-4; tongue strap, visor; off 234 days since last run on the card. Connections: trained by T R Gretton (2 on the card today); S Bowen rides and has 6 booked today. Jukebox D'eddy is at the head of the market around 3.50 on our prices. Worth a win bet at around 3.50 on the evidence above.",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Jukebox D'eddy",
+          "odds": 3.5,
+          "conf": 70,
+          "type": "win",
+          "edge": -0.0182,
+          "class_move": "similar",
+          "reason": "Jukebox D'eddy fits this trip and ground better than a cold reading of the headlines suggests. The form figures on the card are 213112 \u2014 finished second last time; has 3 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 2nd at Hereford over 3m 1f 44y (Good) on 2026-04-06. Course evidence at Market Rasen: 1st over 2m 7f 191y on 2025-12-04. Today's race: Market Rasen, 2m 125y, going Good to soft, Class 5, field of 10. Also on the card: official rating 90; carries 11-4; tongue strap, visor; off 234 days since last run on the card. Connections: trained by T R Gretton (2 on the card today); S Bowen rides and has 6 booked today. Jukebox D'eddy is at the head of the market around 3.50 on our prices. Worth a win bet at around 3.50 on the evidence above.",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Jukebox D'eddy",
+          "odds": 3.5,
+          "conf": 73,
+          "type": "win",
+          "edge": -0.0018,
+          "class_move": "similar",
+          "reason": "I prefer Jukebox D'eddy to the more obvious names in the market. The form figures on the card are 213112 \u2014 finished second last time; has 3 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 2nd at Hereford over 3m 1f 44y (Good) on 2026-04-06. Course evidence at Market Rasen: 1st over 2m 7f 191y on 2025-12-04. Today's race: Market Rasen, 2m 125y, going Good to soft, Class 5, field of 10. Also on the card: official rating 90; carries 11-4; tongue strap, visor; off 234 days since last run on the card. Connections: trained by T R Gretton (2 on the card today); S Bowen rides and has 6 booked today. Jukebox D'eddy is at the head of the market around 3.50 on our prices. Worth a win bet at around 3.50 on the evidence above.",
+          "stars": 4
+        },
+        {
+          "bot": "PlaceHunter",
+          "horse": "El Muchacho",
+          "odds": 19.0,
+          "conf": 52,
+          "type": "ew",
+          "edge": 0.1369,
+          "class_move": "similar",
+          "reason": "El Muchacho is an each-way play at around 19.00 \u2014 only considered because the field is big enough for place terms and the price is over 10/1. Form figures (932323) are enough to make a place case, not a pure lottery ticket. Connections: M E Sowersby / Charlie Maggs. Conditions: 2m 125y, Good to soft. Field of 10 supports the place part of the bet. This is each-way only \u2014 no win-only stance at this price. Confidence 52%.",
+          "stars": 1
+        }
+      ]
+    },
+    {
+      "course": "Market Rasen",
+      "time": "15:24",
+      "name": "PricedUp Now With Best Odds Open NH Flat Race (GBB Race) (Class 4)",
+      "going": "Good to soft",
+      "distance": "2m 125y",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": 4,
+      "no_bet": true,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
+      "consensus": null,
+      "tips": []
+    },
+    {
+      "course": "Taunton",
+      "time": "12:20",
+      "name": "Remembering Hendrix 'National Hunt' Novices' Hurdle (GBB Race) (Class 4)",
+      "going": "Good to firm",
+      "distance": "2m 104y",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": 4,
+      "no_bet": true,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
+      "consensus": null,
+      "tips": []
+    },
+    {
+      "course": "Taunton",
+      "time": "12:55",
+      "name": "Denise Smith Memorial Novices' Limited Handicap Hurdle (Class 5)",
+      "going": "Good to firm",
+      "distance": "2m 104y",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": 5,
+      "no_bet": true,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
+      "consensus": null,
+      "tips": []
+    },
+    {
+      "course": "Taunton",
+      "time": "13:30",
+      "name": "Stag Environmental Handicap Hurdle (Class 4)",
+      "going": "Good to firm",
+      "distance": "2m 104y",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": 4,
+      "no_bet": false,
+      "no_bet_reason": null,
+      "consensus": {
+        "horse": "Into Battle",
+        "odds": 8.5,
+        "bot_count": 3,
+        "avg_conf": 74.7,
+        "bots": [
+          "FormFox",
+          "BloodlineBetty",
+          "DevilAdvocate"
+        ],
+        "type": "win",
+        "strength": "solid"
+      },
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Into Battle",
+          "odds": 8.5,
+          "conf": 78,
+          "type": "win",
+          "edge": 0.1309,
+          "class_move": "similar",
+          "reason": "Into Battle is the form pick on this card. The form figures on the card are 831320 \u2014 has been top-three 4 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 8th at Kempton over 1m 7f 218y (Standard / Slow) on 2026-09-04. Today's race: Taunton, 2m 104y, going Good to firm, Class 4, field of 7. Also on the card: official rating 110; carries 11-8; about 6lb lower than a comparable winning weight on the card. Connections: trained by R Stephens (2 on the card today); R T Dunne rides. The market is led by Courageous Strike around 3.25 (form 632511); Into Battle is available at about 8.50, which is the price this case is built on. Worth a win bet at around 8.50 on the evidence above.",
+          "stars": 3
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Into Battle",
+          "odds": 8.5,
+          "conf": 68,
+          "type": "win",
+          "edge": 0.1183,
+          "class_move": "similar",
+          "reason": "Into Battle fits this trip and ground better than a cold reading of the headlines suggests. The form figures on the card are 831320 \u2014 has been top-three 4 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 8th at Kempton over 1m 7f 218y (Standard / Slow) on 2026-09-04. Today's race: Taunton, 2m 104y, going Good to firm, Class 4, field of 7. Also on the card: official rating 110; carries 11-8; about 6lb lower than a comparable winning weight on the card. Connections: trained by R Stephens (2 on the card today); R T Dunne rides. The market is led by Courageous Strike around 3.25 (form 632511); Into Battle is available at about 8.50, which is the price this case is built on. Worth a win bet at around 8.50 on the evidence above.",
+          "stars": 3
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Into Battle",
+          "odds": 8.5,
+          "conf": 78,
+          "type": "win",
+          "edge": 0.1329,
+          "class_move": "similar",
+          "reason": "I prefer Into Battle to the more obvious names in the market. The form figures on the card are 831320 \u2014 has been top-three 4 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 8th at Kempton over 1m 7f 218y (Standard / Slow) on 2026-09-04. Today's race: Taunton, 2m 104y, going Good to firm, Class 4, field of 7. Also on the card: official rating 110; carries 11-8; about 6lb lower than a comparable winning weight on the card. Connections: trained by R Stephens (2 on the card today); R T Dunne rides. The market is led by Courageous Strike around 3.25 (form 632511); Into Battle is available at about 8.50, which is the price this case is built on. Worth a win bet at around 8.50 on the evidence above.",
+          "stars": 3
+        }
+      ]
+    },
+    {
+      "course": "Taunton",
+      "time": "14:05",
+      "name": "Stables Business Park Handicap Hurdle (Class 5)",
+      "going": "Good to firm",
+      "distance": "2m 104y",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": 5,
+      "no_bet": true,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
+      "consensus": null,
+      "tips": []
+    },
+    {
+      "course": "Taunton",
+      "time": "14:40",
+      "name": "Mike Trickey & Geoff White Memorial Handicap Hurdle (Class 4)",
+      "going": "Good to firm",
+      "distance": "2m 104y",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": 4,
+      "no_bet": false,
+      "no_bet_reason": null,
+      "consensus": {
+        "horse": "D'jo Dela Barriere",
+        "odds": 8.5,
+        "bot_count": 4,
+        "avg_conf": 74.5,
+        "bots": [
+          "FormFox",
+          "HotTrainer",
+          "BloodlineBetty",
+          "DevilAdvocate"
+        ],
+        "type": "win",
+        "strength": "strong"
+      },
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "D'jo Dela Barriere",
+          "odds": 8.5,
+          "conf": 78,
+          "type": "win",
+          "edge": 0.1426,
+          "class_move": "similar",
+          "reason": "D'jo Dela Barriere is the form pick on this card. The form figures on the card are 415655 \u2014 has a win in the recent figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 4th at Lingfield over 2m 7f (Good) on 2026-11-10. Today's race: Taunton, 2m 104y, going Good to firm, Class 4, field of 5. Also on the card: official rating 104; carries 11-5; about 9lb lower than a comparable winning weight on the card. Connections: trained by Mrs C Williams (3 on the card today); Miss Eleanor Williams rides. The market is led by Calvino around 2.38 (form 3P31P2); D'jo Dela Barriere is available at about 8.50, which is the price this case is built on. Worth a win bet at around 8.50 on the evidence above.",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "D'jo Dela Barriere",
+          "odds": 8.5,
+          "conf": 69,
+          "type": "win",
+          "edge": 0.1309,
+          "class_move": "similar",
+          "reason": "Connections angle points me at D'jo Dela Barriere. The form figures on the card are 415655 \u2014 has a win in the recent figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 4th at Lingfield over 2m 7f (Good) on 2026-11-10. Today's race: Taunton, 2m 104y, going Good to firm, Class 4, field of 5. Also on the card: official rating 104; carries 11-5; about 9lb lower than a comparable winning weight on the card. Connections: trained by Mrs C Williams (3 on the card today); Miss Eleanor Williams rides. The market is led by Calvino around 2.38 (form 3P31P2); D'jo Dela Barriere is available at about 8.50, which is the price this case is built on. Worth a win bet at around 8.50 on the evidence above.",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "D'jo Dela Barriere",
+          "odds": 8.5,
+          "conf": 73,
+          "type": "win",
+          "edge": 0.1263,
+          "class_move": "similar",
+          "reason": "D'jo Dela Barriere fits this trip and ground better than a cold reading of the headlines suggests. The form figures on the card are 415655 \u2014 has a win in the recent figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 4th at Lingfield over 2m 7f (Good) on 2026-11-10. Today's race: Taunton, 2m 104y, going Good to firm, Class 4, field of 5. Also on the card: official rating 104; carries 11-5; about 9lb lower than a comparable winning weight on the card. Connections: trained by Mrs C Williams (3 on the card today); Miss Eleanor Williams rides. The market is led by Calvino around 2.38 (form 3P31P2); D'jo Dela Barriere is available at about 8.50, which is the price this case is built on. Worth a win bet at around 8.50 on the evidence above.",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "D'jo Dela Barriere",
+          "odds": 8.5,
+          "conf": 78,
+          "type": "win",
+          "edge": 0.142,
+          "class_move": "similar",
+          "reason": "I prefer D'jo Dela Barriere to the more obvious names in the market. The form figures on the card are 415655 \u2014 has a win in the recent figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 4th at Lingfield over 2m 7f (Good) on 2026-11-10. Today's race: Taunton, 2m 104y, going Good to firm, Class 4, field of 5. Also on the card: official rating 104; carries 11-5; about 9lb lower than a comparable winning weight on the card. Connections: trained by Mrs C Williams (3 on the card today); Miss Eleanor Williams rides. The market is led by Calvino around 2.38 (form 3P31P2); D'jo Dela Barriere is available at about 8.50, which is the price this case is built on. Worth a win bet at around 8.50 on the evidence above.",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Taunton",
+      "time": "15:15",
+      "name": "Christmas Sparkle Charity Raceday 10 December Open NH Flat Race (GBB Race) (Class 5)",
+      "going": "Good to firm",
+      "distance": "2m 104y",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": 5,
+      "no_bet": true,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
+      "consensus": null,
+      "tips": []
+    },
+    {
+      "course": "Lingfield",
+      "time": "12:37",
+      "name": "Sky Sports Racing Virgin 512 Conditional Jockeys' Handicap Hurdle (Class 5)",
+      "going": "Good",
+      "distance": "2m 7f",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": 5,
+      "no_bet": true,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
+      "consensus": null,
+      "tips": []
+    },
+    {
+      "course": "Lingfield",
+      "time": "13:12",
+      "name": "Tips For Every Race At raceday-ready.com Handicap Chase (Class 5)",
+      "going": "Good",
+      "distance": "2m 7f",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": 5,
+      "no_bet": true,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
+      "consensus": null,
+      "tips": []
+    },
+    {
+      "course": "Lingfield",
+      "time": "13:47",
+      "name": "Mark Sheasby Birthday Celebration Mares' Maiden Hurdle (GBB Race) (Class 4)",
+      "going": "Good",
+      "distance": "2m 7f",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": 4,
+      "no_bet": true,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
+      "consensus": null,
+      "tips": []
+    },
+    {
+      "course": "Lingfield",
+      "time": "14:22",
+      "name": "Follow AtTheRaces On X Novices' Limited Handicap Chase (GBB Race) (Class 3)",
+      "going": "Good",
+      "distance": "2m 7f",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": 3,
+      "no_bet": false,
+      "no_bet_reason": null,
+      "consensus": {
+        "horse": "Blue Carpet",
+        "odds": 3.75,
+        "bot_count": 3,
+        "avg_conf": 74.3,
+        "bots": [
+          "FormFox",
+          "HotTrainer",
+          "BloodlineBetty"
+        ],
+        "type": "win",
+        "strength": "solid"
+      },
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Blue Carpet",
+          "odds": 3.75,
+          "conf": 67,
+          "type": "win",
+          "edge": 0.0076,
+          "class_move": "similar",
+          "reason": "Blue Carpet is the form pick on this card. The form figures on the card are 212124 \u2014 finished second last time; has 2 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 2nd at Haydock over 3m 58y (Good (Good to Soft in places)) on 2026-04-04. Today's race: Lingfield, 2m 7f, going Good, Class 3, field of 6. Also on the card: official rating 132; carries 11-12; off 236 days since last run on the card. Connections: trained by D Skelton (10 on the card today); Harry Skelton rides and has 4 booked today. Jockey\u2013trainer combo 33% together from 10 runs we have logged. The market is led by Laughing John around 2.75 (form F011U2); Blue Carpet is available at about 3.75, which is the price this case is built on. Worth a win bet at around 3.75 on the evidence above.",
+          "stars": 3
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Blue Carpet",
+          "odds": 3.75,
+          "conf": 78,
+          "type": "win",
+          "edge": 0.0219,
+          "class_move": "similar",
+          "reason": "Connections angle points me at Blue Carpet. The form figures on the card are 212124 \u2014 finished second last time; has 2 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 2nd at Haydock over 3m 58y (Good (Good to Soft in places)) on 2026-04-04. Today's race: Lingfield, 2m 7f, going Good, Class 3, field of 6. Also on the card: official rating 132; carries 11-12; off 236 days since last run on the card. Connections: trained by D Skelton (10 on the card today); Harry Skelton rides and has 4 booked today. Jockey\u2013trainer combo 33% together from 10 runs we have logged. The market is led by Laughing John around 2.75 (form F011U2); Blue Carpet is available at about 3.75, which is the price this case is built on. Worth a win bet at around 3.75 on the evidence above.",
+          "stars": 3
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Blue Carpet",
+          "odds": 3.75,
+          "conf": 78,
+          "type": "win",
+          "edge": 0.0047,
+          "class_move": "similar",
+          "reason": "Blue Carpet fits this trip and ground better than a cold reading of the headlines suggests. The form figures on the card are 212124 \u2014 finished second last time; has 2 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 2nd at Haydock over 3m 58y (Good (Good to Soft in places)) on 2026-04-04. Today's race: Lingfield, 2m 7f, going Good, Class 3, field of 6. Also on the card: official rating 132; carries 11-12; off 236 days since last run on the card. Connections: trained by D Skelton (10 on the card today); Harry Skelton rides and has 4 booked today. Jockey\u2013trainer combo 33% together from 10 runs we have logged. The market is led by Laughing John around 2.75 (form F011U2); Blue Carpet is available at about 3.75, which is the price this case is built on. Worth a win bet at around 3.75 on the evidence above.",
+          "stars": 3
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Royal Way",
+          "odds": 12.0,
+          "conf": 59,
+          "type": "win",
+          "edge": 0.1788,
+          "class_move": "similar",
+          "reason": "I prefer Royal Way to the more obvious names in the market. The form figures on the card are 242133 \u2014 finished second last time; has been top-three 5 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 2nd at Fakenham over 2m 4f 1y (Good) on 2026-05-04. Today's race: Lingfield, 2m 7f, going Good, Class 3, field of 6. Also on the card: official rating 118; carries 10-12; about 7lb lower than a comparable winning weight on the card; off 206 days since last run on the card. Connections: trained by Jamie & Josh Moore (6 on the card today); Sean Houlihan rides and has 2 booked today. The market is led by Laughing John around 2.75 (form F011U2); Royal Way is available at about 12.00, which is the price this case is built on. Worth a win bet at around 12.00 on the evidence above.",
+          "stars": 1
+        }
+      ]
+    },
+    {
+      "course": "Lingfield",
+      "time": "14:57",
+      "name": "Get Raceday Ready Novices' Hurdle (GBB Race) (Class 4)",
+      "going": "Good",
+      "distance": "2m 7f",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": 4,
+      "no_bet": true,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
+      "consensus": null,
+      "tips": []
+    },
+    {
+      "course": "Lingfield",
+      "time": "15:32",
+      "name": "Follow attheraces On Instagram Handicap Hurdle (Class 4)",
+      "going": "Good",
+      "distance": "2m 7f",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": 4,
+      "no_bet": false,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
+      "consensus": null,
+      "tips": [
+        {
+          "bot": "PlaceHunter",
+          "horse": "Following Chapter",
+          "odds": 21.0,
+          "conf": 53,
+          "type": "ew",
+          "edge": 0.1436,
+          "class_move": "similar",
+          "reason": "Following Chapter is an each-way play at around 21.00 \u2014 only considered because the field is big enough for place terms and the price is over 10/1. Form figures (962144) are enough to make a place case, not a pure lottery ticket. Connections: A Ralph / Non Runner. Conditions: 2m 7f, Good. Field of 9 supports the place part of the bet. This is each-way only \u2014 no win-only stance at this price. Confidence 53%.",
+          "stars": 1
+        }
+      ]
+    },
+    {
+      "course": "Chelmsford City",
+      "time": "16:30",
+      "name": "Midnite A Next Generation Betting App Handicap (Class 6)",
+      "going": "Standard",
+      "distance": "1m 5f 66y",
+      "surface": "AW",
+      "code": "unknown",
+      "race_class": 6,
+      "no_bet": false,
+      "no_bet_reason": null,
+      "consensus": null,
+      "tips": [
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Sea Of Charm",
+          "odds": 9.0,
+          "conf": 62,
+          "type": "ew",
+          "edge": 0.1147,
+          "class_move": "similar",
+          "reason": "Sea Of Charm fits this trip and ground better than a cold reading of the headlines suggests. The form figures on the card are 274223 \u2014 finished second last time; has been top-three 4 times recently. Latest recorded start: 2nd at Wolverhampton over 1m 4f 51y (Standard) on 2026-11-16. Today's race: Chelmsford City, 1m 5f 66y, going Standard, Class 6, field of 14. Also on the card: official rating 55; carries 9-9; cheek pieces. Connections: trained by G Nicholls (3 on the card today); William Cox rides. The market is led by Masego around 3.00 (form 227032); Sea Of Charm is available at about 9.00, which is the price this case is built on. Each-way at around 9.00 is the sensible way to use the case in a 14-runner field.",
+          "stars": 2
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Sea Of Charm",
+          "odds": 9.0,
+          "conf": 67,
+          "type": "ew",
+          "edge": 0.1242,
+          "class_move": "similar",
+          "reason": "I prefer Sea Of Charm to the more obvious names in the market. The form figures on the card are 274223 \u2014 finished second last time; has been top-three 4 times recently. Latest recorded start: 2nd at Wolverhampton over 1m 4f 51y (Standard) on 2026-11-16. Today's race: Chelmsford City, 1m 5f 66y, going Standard, Class 6, field of 14. Also on the card: official rating 55; carries 9-9; cheek pieces. Connections: trained by G Nicholls (3 on the card today); William Cox rides. The market is led by Masego around 3.00 (form 227032); Sea Of Charm is available at about 9.00, which is the price this case is built on. Each-way at around 9.00 is the sensible way to use the case in a 14-runner field.",
+          "stars": 2
+        }
+      ]
+    },
+    {
+      "course": "Chelmsford City",
+      "time": "17:00",
+      "name": "Midnite Built Different Handicap (Div 1) (Class 6)",
+      "going": "Standard",
+      "distance": "1m 5f 66y",
+      "surface": "AW",
+      "code": "unknown",
+      "race_class": 6,
+      "no_bet": true,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
+      "consensus": null,
+      "tips": []
+    },
+    {
+      "course": "Chelmsford City",
+      "time": "17:30",
+      "name": "Midnite Built Different Handicap (Div 2) (Class 6)",
+      "going": "Standard",
+      "distance": "1m 5f 66y",
+      "surface": "AW",
+      "code": "unknown",
+      "race_class": 6,
+      "no_bet": false,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
+      "consensus": null,
+      "tips": [
+        {
+          "bot": "PlaceHunter",
+          "horse": "Coolagh Magic",
+          "odds": 21.0,
+          "conf": 53,
+          "type": "ew",
+          "edge": 0.1502,
+          "class_move": "similar",
+          "reason": "Coolagh Magic is an each-way play at around 21.00 \u2014 only considered because the field is big enough for place terms and the price is over 10/1. Form figures (461469) are enough to make a place case, not a pure lottery ticket. Connections: A Carson / William Carson. Conditions: 1m 5f 66y, Standard. Field of 14 supports the place part of the bet. This is each-way only \u2014 no win-only stance at this price. Confidence 53%.",
+          "stars": 1
+        }
+      ]
+    },
+    {
+      "course": "Chelmsford City",
+      "time": "18:00",
+      "name": "All-Weather Championship Is Back Nursery (Class 5)",
+      "going": "Standard",
+      "distance": "1m 5f 66y",
+      "surface": "AW",
+      "code": "unknown",
+      "race_class": 5,
+      "no_bet": true,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
+      "consensus": null,
+      "tips": []
+    },
+    {
+      "course": "Chelmsford City",
+      "time": "18:30",
+      "name": "AWC Finals Day At Newcastle 26th March Fillies' Handicap (Class 5)",
+      "going": "Standard",
+      "distance": "1m 5f 66y",
+      "surface": "AW",
+      "code": "unknown",
+      "race_class": 5,
+      "no_bet": false,
+      "no_bet_reason": null,
+      "consensus": {
+        "horse": "Coxy's Star",
+        "odds": 4.5,
+        "bot_count": 3,
+        "avg_conf": 69.3,
+        "bots": [
+          "FormFox",
+          "BloodlineBetty",
+          "DevilAdvocate"
+        ],
+        "type": "win",
+        "strength": "solid"
+      },
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Coxy's Star",
+          "odds": 4.5,
+          "conf": 76,
+          "type": "win",
+          "edge": 0.0404,
+          "class_move": "similar",
+          "reason": "Coxy's Star is the form pick on this card. The form figures on the card are 129404 \u2014 won last time; has a win in the recent figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 1st at Wolverhampton over 1m 142y (Standard) on 2026-10-13. Today's race: Chelmsford City, 1m 5f 66y, going Standard, Class 5, field of 7. Also on the card: official rating 61; carries 9-2; about 5lb lower than a comparable winning weight on the card. Connections: trained by W Muir & C Grassick; Lewis Edmunds rides. The market is led by Forbidden Colours around 3.75 (form 354845); Coxy's Star is available at about 4.50, which is the price this case is built on. Worth a win bet at around 4.50 on the evidence above.",
+          "stars": 3
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Overbudget",
+          "odds": 5.0,
+          "conf": 58,
+          "type": "win",
+          "edge": 0.0533,
+          "class_move": "similar",
+          "reason": "Connections angle points me at Overbudget. The form figures on the card are 311896 \u2014 finished third last time; has 2 recent wins in the figures. Latest recorded start: 3rd at Southwell over 6f 16y (Standard) on 2026-10-26. Today's race: Chelmsford City, 1m 5f 66y, going Standard, Class 5, field of 7. Also on the card: official rating 65; carries 9-6; about 4lb higher than a comparable winning weight on the card; cheek pieces. Connections: trained by M Appleby (7 on the card today); Billy Loughnane rides and has 8 booked today. The market is led by Forbidden Colours around 3.75 (form 354845); Overbudget is available at about 5.00, which is the price this case is built on. Worth a win bet at around 5.00 on the evidence above.",
+          "stars": 1
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Coxy's Star",
+          "odds": 4.5,
+          "conf": 65,
+          "type": "win",
+          "edge": 0.0306,
+          "class_move": "similar",
+          "reason": "Coxy's Star fits this trip and ground better than a cold reading of the headlines suggests. The form figures on the card are 129404 \u2014 won last time; has a win in the recent figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 1st at Wolverhampton over 1m 142y (Standard) on 2026-10-13. Today's race: Chelmsford City, 1m 5f 66y, going Standard, Class 5, field of 7. Also on the card: official rating 61; carries 9-2; about 5lb lower than a comparable winning weight on the card. Connections: trained by W Muir & C Grassick; Lewis Edmunds rides. The market is led by Forbidden Colours around 3.75 (form 354845); Coxy's Star is available at about 4.50, which is the price this case is built on. Worth a win bet at around 4.50 on the evidence above.",
+          "stars": 3
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Coxy's Star",
+          "odds": 4.5,
+          "conf": 67,
+          "type": "win",
+          "edge": 0.039,
+          "class_move": "similar",
+          "reason": "I prefer Coxy's Star to the more obvious names in the market. The form figures on the card are 129404 \u2014 won last time; has a win in the recent figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 1st at Wolverhampton over 1m 142y (Standard) on 2026-10-13. Today's race: Chelmsford City, 1m 5f 66y, going Standard, Class 5, field of 7. Also on the card: official rating 61; carries 9-2; about 5lb lower than a comparable winning weight on the card. Connections: trained by W Muir & C Grassick; Lewis Edmunds rides. The market is led by Forbidden Colours around 3.75 (form 354845); Coxy's Star is available at about 4.50, which is the price this case is built on. Worth a win bet at around 4.50 on the evidence above.",
+          "stars": 3
+        }
+      ]
+    },
+    {
+      "course": "Chelmsford City",
+      "time": "19:00",
+      "name": "Darley EBF Novice Stakes (GBB Race) (Class 2)",
+      "going": "Standard",
+      "distance": "1m 5f 66y",
+      "surface": "AW",
+      "code": "unknown",
+      "race_class": 2,
+      "no_bet": true,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
+      "consensus": null,
+      "tips": []
+    },
+    {
+      "course": "Chelmsford City",
+      "time": "19:30",
+      "name": "AWC Season 14 Has Begun Handicap (Class 6)",
+      "going": "Standard",
+      "distance": "1m 5f 66y",
+      "surface": "AW",
+      "code": "unknown",
+      "race_class": 6,
+      "no_bet": false,
+      "no_bet_reason": null,
+      "consensus": {
+        "horse": "Rovinia",
+        "odds": 9.0,
+        "bot_count": 3,
+        "avg_conf": 70.3,
+        "bots": [
+          "FormFox",
+          "BloodlineBetty",
+          "DevilAdvocate"
+        ],
+        "type": "ew",
+        "strength": "solid"
+      },
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Rovinia",
+          "odds": 9.0,
+          "conf": 69,
+          "type": "ew",
+          "edge": 0.1369,
+          "class_move": "similar",
+          "reason": "Rovinia is the form pick on this card. The form figures on the card are 323531 \u2014 finished third last time; has been top-three 5 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 3rd at Lingfield over 7f 1y (Standard) on 2026-11-24. Today's race: Chelmsford City, 1m 5f 66y, going Standard, Class 6, field of 14. Also on the card: official rating 51; carries 9-5; about 4lb lower than a comparable winning weight on the card. Connections: trained by R A Teal (2 on the card today); Owen Lewis rides. The market is led by Honey Dale around 2.75 (form 11P050); Rovinia is available at about 9.00, which is the price this case is built on. Each-way at around 9.00 is the sensible way to use the case in a 14-runner field.",
+          "stars": 3
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Rovinia",
+          "odds": 9.0,
+          "conf": 67,
+          "type": "ew",
+          "edge": 0.1273,
+          "class_move": "similar",
+          "reason": "Rovinia fits this trip and ground better than a cold reading of the headlines suggests. The form figures on the card are 323531 \u2014 finished third last time; has been top-three 5 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 3rd at Lingfield over 7f 1y (Standard) on 2026-11-24. Today's race: Chelmsford City, 1m 5f 66y, going Standard, Class 6, field of 14. Also on the card: official rating 51; carries 9-5; about 4lb lower than a comparable winning weight on the card. Connections: trained by R A Teal (2 on the card today); Owen Lewis rides. The market is led by Honey Dale around 2.75 (form 11P050); Rovinia is available at about 9.00, which is the price this case is built on. Each-way at around 9.00 is the sensible way to use the case in a 14-runner field.",
+          "stars": 3
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Rovinia",
+          "odds": 9.0,
+          "conf": 75,
+          "type": "ew",
+          "edge": 0.1431,
+          "class_move": "similar",
+          "reason": "I prefer Rovinia to the more obvious names in the market. The form figures on the card are 323531 \u2014 finished third last time; has been top-three 5 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 3rd at Lingfield over 7f 1y (Standard) on 2026-11-24. Today's race: Chelmsford City, 1m 5f 66y, going Standard, Class 6, field of 14. Also on the card: official rating 51; carries 9-5; about 4lb lower than a comparable winning weight on the card. Connections: trained by R A Teal (2 on the card today); Owen Lewis rides. The market is led by Honey Dale around 2.75 (form 11P050); Rovinia is available at about 9.00, which is the price this case is built on. Each-way at around 9.00 is the sensible way to use the case in a 14-runner field.",
+          "stars": 3
+        }
+      ]
+    },
+    {
+      "course": "Chelmsford City",
+      "time": "20:00",
+      "name": "Make The Move To Midnite Handicap (Class 5)",
+      "going": "Standard",
+      "distance": "1m 5f 66y",
+      "surface": "AW",
+      "code": "unknown",
+      "race_class": 5,
+      "no_bet": false,
+      "no_bet_reason": null,
+      "consensus": {
+        "horse": "Macanudo",
+        "odds": 8.0,
+        "bot_count": 4,
+        "avg_conf": 75.8,
+        "bots": [
+          "FormFox",
+          "HotTrainer",
+          "BloodlineBetty",
+          "DevilAdvocate"
+        ],
+        "type": "ew",
+        "strength": "strong"
+      },
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Macanudo",
+          "odds": 8.0,
+          "conf": 77,
+          "type": "ew",
+          "edge": 0.1534,
+          "class_move": "similar",
+          "reason": "Macanudo is the form pick on this card. The form figures on the card are 323117 \u2014 finished third last time; has 2 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 3rd at Southwell over 4f 214y (Standard) on 2026-11-05. Today's race: Chelmsford City, 1m 5f 66y, going Standard, Class 5, field of 9. Also on the card: official rating 62; carries 9-2; about 9lb lower than a comparable winning weight on the card; visor. Connections: trained by Ian Williams (5 on the card today); Billy Loughnane rides and has 8 booked today. The market is led by Freddie's Star around 2.88 (form 157450); Macanudo is available at about 8.00, which is the price this case is built on. Each-way at around 8.00 is the sensible way to use the case in a 9-runner field.",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Macanudo",
+          "odds": 8.0,
+          "conf": 77,
+          "type": "ew",
+          "edge": 0.1455,
+          "class_move": "similar",
+          "reason": "Connections angle points me at Macanudo. The form figures on the card are 323117 \u2014 finished third last time; has 2 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 3rd at Southwell over 4f 214y (Standard) on 2026-11-05. Today's race: Chelmsford City, 1m 5f 66y, going Standard, Class 5, field of 9. Also on the card: official rating 62; carries 9-2; about 9lb lower than a comparable winning weight on the card; visor. Connections: trained by Ian Williams (5 on the card today); Billy Loughnane rides and has 8 booked today. The market is led by Freddie's Star around 2.88 (form 157450); Macanudo is available at about 8.00, which is the price this case is built on. Each-way at around 8.00 is the sensible way to use the case in a 9-runner field.",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Macanudo",
+          "odds": 8.0,
+          "conf": 71,
+          "type": "ew",
+          "edge": 0.1319,
+          "class_move": "similar",
+          "reason": "Macanudo fits this trip and ground better than a cold reading of the headlines suggests. The form figures on the card are 323117 \u2014 finished third last time; has 2 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 3rd at Southwell over 4f 214y (Standard) on 2026-11-05. Today's race: Chelmsford City, 1m 5f 66y, going Standard, Class 5, field of 9. Also on the card: official rating 62; carries 9-2; about 9lb lower than a comparable winning weight on the card; visor. Connections: trained by Ian Williams (5 on the card today); Billy Loughnane rides and has 8 booked today. The market is led by Freddie's Star around 2.88 (form 157450); Macanudo is available at about 8.00, which is the price this case is built on. Each-way at around 8.00 is the sensible way to use the case in a 9-runner field.",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Macanudo",
+          "odds": 8.0,
+          "conf": 78,
+          "type": "ew",
+          "edge": 0.1563,
+          "class_move": "similar",
+          "reason": "I prefer Macanudo to the more obvious names in the market. The form figures on the card are 323117 \u2014 finished third last time; has 2 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 3rd at Southwell over 4f 214y (Standard) on 2026-11-05. Today's race: Chelmsford City, 1m 5f 66y, going Standard, Class 5, field of 9. Also on the card: official rating 62; carries 9-2; about 9lb lower than a comparable winning weight on the card; visor. Connections: trained by Ian Williams (5 on the card today); Billy Loughnane rides and has 8 booked today. The market is led by Freddie's Star around 2.88 (form 157450); Macanudo is available at about 8.00, which is the price this case is built on. Each-way at around 8.00 is the sensible way to use the case in a 9-runner field.",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "course": "Chelmsford City",
+      "time": "20:30",
+      "name": "Midnite Ain't Your Grandad's Bookie Handicap (GBBPlus Race) (Class 4)",
+      "going": "Standard",
+      "distance": "1m 5f 66y",
+      "surface": "AW",
+      "code": "unknown",
+      "race_class": 4,
+      "no_bet": false,
+      "no_bet_reason": null,
+      "consensus": {
+        "horse": "Caledonian",
+        "odds": 3.75,
+        "bot_count": 3,
+        "avg_conf": 73.3,
+        "bots": [
+          "FormFox",
+          "HotTrainer",
+          "BloodlineBetty"
+        ],
+        "type": "win",
+        "strength": "solid"
+      },
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Caledonian",
+          "odds": 3.75,
+          "conf": 76,
+          "type": "win",
+          "edge": 0.0041,
+          "class_move": "similar",
+          "reason": "Caledonian is the form pick on this card. The form figures on the card are 315548 \u2014 finished third last time; has a win in the recent figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 3rd at Lingfield over 1m 2f 1y (Standard) on 2026-11-22. Today's race: Chelmsford City, 1m 5f 66y, going Standard, Class 4, field of 10. Also on the card: official rating 71; carries 9-5; about 5lb lower than a comparable winning weight on the card. Connections: trained by D M Simcock (3 on the card today); Callum Shepherd rides and has 3 booked today. Caledonian is at the head of the market around 3.75 on our prices. Worth a win bet at around 3.75 on the evidence above.",
+          "stars": 3
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Caledonian",
+          "odds": 3.75,
+          "conf": 73,
+          "type": "win",
+          "edge": 0.0059,
+          "class_move": "similar",
+          "reason": "Connections angle points me at Caledonian. The form figures on the card are 315548 \u2014 finished third last time; has a win in the recent figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 3rd at Lingfield over 1m 2f 1y (Standard) on 2026-11-22. Today's race: Chelmsford City, 1m 5f 66y, going Standard, Class 4, field of 10. Also on the card: official rating 71; carries 9-5; about 5lb lower than a comparable winning weight on the card. Connections: trained by D M Simcock (3 on the card today); Callum Shepherd rides and has 3 booked today. Caledonian is at the head of the market around 3.75 on our prices. Worth a win bet at around 3.75 on the evidence above.",
+          "stars": 3
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Caledonian",
+          "odds": 3.75,
+          "conf": 71,
+          "type": "win",
+          "edge": -0.0008,
+          "class_move": "similar",
+          "reason": "Caledonian fits this trip and ground better than a cold reading of the headlines suggests. The form figures on the card are 315548 \u2014 finished third last time; has a win in the recent figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 3rd at Lingfield over 1m 2f 1y (Standard) on 2026-11-22. Today's race: Chelmsford City, 1m 5f 66y, going Standard, Class 4, field of 10. Also on the card: official rating 71; carries 9-5; about 5lb lower than a comparable winning weight on the card. Connections: trained by D M Simcock (3 on the card today); Callum Shepherd rides and has 3 booked today. Caledonian is at the head of the market around 3.75 on our prices. Worth a win bet at around 3.75 on the evidence above.",
+          "stars": 3
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Kokoluna",
+          "odds": 7.0,
+          "conf": 68,
+          "type": "ew",
+          "edge": 0.1176,
+          "class_move": "similar",
+          "reason": "I prefer Kokoluna to the more obvious names in the market. The form figures on the card are 172241 \u2014 won last time; has 2 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 1st at Chelmsford City over 1m 2f (Standard) on 2026-11-02. Course evidence at Chelmsford City: 1st over 1m 2f on 2026-11-02. Today's race: Chelmsford City, 1m 5f 66y, going Standard, Class 4, field of 10. Also on the card: official rating 77; carries 9-8; cheek pieces. Connections: trained by Eve Johnson Houghton; Charles Bishop rides and has 3 booked today. The market is led by Caledonian around 3.75 (form 315548); Kokoluna is available at about 7.00, which is the price this case is built on. Each-way at around 7.00 is the sensible way to use the case in a 10-runner field.",
+          "stars": 1
+        }
+      ]
+    },
+    {
+      "course": "Thurles",
+      "time": "12:11",
+      "name": "William Hill Challenge Series Handicap Chase",
+      "going": "Good-good to yielding in places on hurdle course",
+      "distance": "3m 1f 22y",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": null,
+      "no_bet": false,
+      "no_bet_reason": null,
+      "consensus": {
+        "horse": "Mistyburn",
+        "odds": 5.5,
+        "bot_count": 4,
+        "avg_conf": 72.8,
+        "bots": [
+          "FormFox",
+          "HotTrainer",
+          "BloodlineBetty",
+          "DevilAdvocate"
+        ],
+        "type": "win",
+        "strength": "strong"
+      },
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Mistyburn",
+          "odds": 5.5,
+          "conf": 78,
+          "type": "win",
+          "edge": 0.1018,
+          "class_move": "",
+          "reason": "Mistyburn is the form pick on this card. The form figures on the card are 323761 \u2014 finished third last time; has been top-three 4 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 3rd at Fairyhouse over 3m 90y (Good to Yielding) on 2026-11-03. Today's race: Thurles, 3m 1f 22y, going Good-good to yielding in places on hurdle course, turf, field of 14. Also on the card: official rating 89; carries 10-5; about 10lb lower than a comparable winning weight on the card; cheek pieces, tongue strap. Connections: trained by P J Rothwell (5 on the card today); Simon Torrens rides and has 2 booked today. The market is led by Chanceitlucky around 4.50 (form 105640); Mistyburn is available at about 5.50, which is the price this case is built on. Worth a win bet at around 5.50 on the evidence above.",
+          "stars": 4
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Mistyburn",
+          "odds": 5.5,
+          "conf": 70,
+          "type": "win",
+          "edge": 0.0865,
+          "class_move": "",
+          "reason": "Connections angle points me at Mistyburn. The form figures on the card are 323761 \u2014 finished third last time; has been top-three 4 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 3rd at Fairyhouse over 3m 90y (Good to Yielding) on 2026-11-03. Today's race: Thurles, 3m 1f 22y, going Good-good to yielding in places on hurdle course, turf, field of 14. Also on the card: official rating 89; carries 10-5; about 10lb lower than a comparable winning weight on the card; cheek pieces, tongue strap. Connections: trained by P J Rothwell (5 on the card today); Simon Torrens rides and has 2 booked today. The market is led by Chanceitlucky around 4.50 (form 105640); Mistyburn is available at about 5.50, which is the price this case is built on. Worth a win bet at around 5.50 on the evidence above.",
+          "stars": 4
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Mistyburn",
+          "odds": 5.5,
+          "conf": 69,
+          "type": "win",
+          "edge": 0.081,
+          "class_move": "",
+          "reason": "Mistyburn fits this trip and ground better than a cold reading of the headlines suggests. The form figures on the card are 323761 \u2014 finished third last time; has been top-three 4 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 3rd at Fairyhouse over 3m 90y (Good to Yielding) on 2026-11-03. Today's race: Thurles, 3m 1f 22y, going Good-good to yielding in places on hurdle course, turf, field of 14. Also on the card: official rating 89; carries 10-5; about 10lb lower than a comparable winning weight on the card; cheek pieces, tongue strap. Connections: trained by P J Rothwell (5 on the card today); Simon Torrens rides and has 2 booked today. The market is led by Chanceitlucky around 4.50 (form 105640); Mistyburn is available at about 5.50, which is the price this case is built on. Worth a win bet at around 5.50 on the evidence above.",
+          "stars": 4
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Mistyburn",
+          "odds": 5.5,
+          "conf": 74,
+          "type": "win",
+          "edge": 0.0996,
+          "class_move": "",
+          "reason": "I prefer Mistyburn to the more obvious names in the market. The form figures on the card are 323761 \u2014 finished third last time; has been top-three 4 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 3rd at Fairyhouse over 3m 90y (Good to Yielding) on 2026-11-03. Today's race: Thurles, 3m 1f 22y, going Good-good to yielding in places on hurdle course, turf, field of 14. Also on the card: official rating 89; carries 10-5; about 10lb lower than a comparable winning weight on the card; cheek pieces, tongue strap. Connections: trained by P J Rothwell (5 on the card today); Simon Torrens rides and has 2 booked today. The market is led by Chanceitlucky around 4.50 (form 105640); Mistyburn is available at about 5.50, which is the price this case is built on. Worth a win bet at around 5.50 on the evidence above.",
+          "stars": 4
+        },
+        {
+          "bot": "PlaceHunter",
+          "horse": "Knocknagoran Lady",
+          "odds": 21.0,
+          "conf": 56,
+          "type": "ew",
+          "edge": 0.1876,
+          "class_move": "",
+          "reason": "Knocknagoran Lady is an each-way play at around 21.00 \u2014 only considered because the field is big enough for place terms and the price is over 10/1. Form figures (5P1411) are enough to make a place case, not a pure lottery ticket. Connections: Cian Hughes / Conor Stone-Walsh. Conditions: 3m 1f 22y, Good-good to yielding in places on hurdle course. Field of 14 supports the place part of the bet. This is each-way only \u2014 no win-only stance at this price. Confidence 56%.",
+          "stars": 1
+        }
+      ]
+    },
+    {
+      "course": "Thurles",
+      "time": "12:46",
+      "name": "Racing TV Club Day Chase (Listed) (Class 1)",
+      "going": "Good-good to yielding in places on hurdle course",
+      "distance": "3m 1f 22y",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": 1,
+      "no_bet": true,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
+      "consensus": null,
+      "tips": []
+    },
+    {
+      "course": "Thurles",
+      "time": "13:21",
+      "name": "Connolly's RED MILLS Irish EBF Auction & Median Maiden Hurdle",
+      "going": "Good-good to yielding in places on hurdle course",
+      "distance": "3m 1f 22y",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": null,
+      "no_bet": false,
+      "no_bet_reason": null,
+      "consensus": null,
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Missouri Snow",
+          "odds": 5.5,
+          "conf": 64,
+          "type": "win",
+          "edge": 0.0866,
+          "class_move": "",
+          "reason": "Missouri Snow is the form pick on this card. The form figures on the card are 331 \u2014 finished third last time; has been top-three 3 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 3rd at Galway over 2m 90y (Soft to Heavy) on 2026-10-26. Today's race: Thurles, 3m 1f 22y, going Good-good to yielding in places on hurdle course, turf, field of 17. Also on the card: carries 11-5; about 6lb lower than a comparable winning weight on the card. Connections: trained by N Slevin (2 on the card today); Carl Millar rides and has 2 booked today. The market is led by Dieux Diligence around 3.00 (form 34); Missouri Snow is available at about 5.50, which is the price this case is built on. Worth a win bet at around 5.50 on the evidence above.",
+          "stars": 2
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "She Was The One",
+          "odds": 8.0,
+          "conf": 58,
+          "type": "ew",
+          "edge": 0.1292,
+          "class_move": "",
+          "reason": "Connections angle points me at She Was The One. The form figures on the card are 6123 \u2014 has been top-three 3 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 6th at Cheltenham over 2m 87y (Good (Good to Firm in places)) on 2026-11-14. Today's race: Thurles, 3m 1f 22y, going Good-good to yielding in places on hurdle course, turf, field of 17. Also on the card: carries 11-4; about 5lb lower than a comparable winning weight on the card. Connections: trained by D Hogan (4 on the card today); Michael Kenneally rides and has 4 booked today. The market is led by Dieux Diligence around 3.00 (form 34); She Was The One is available at about 8.00, which is the price this case is built on. Each-way at around 8.00 is the sensible way to use the case in a 17-runner field.",
+          "stars": 1
+        },
+        {
+          "bot": "BloodlineBetty",
+          "horse": "Missouri Snow",
+          "odds": 5.5,
+          "conf": 67,
+          "type": "win",
+          "edge": 0.0741,
+          "class_move": "",
+          "reason": "Missouri Snow fits this trip and ground better than a cold reading of the headlines suggests. The form figures on the card are 331 \u2014 finished third last time; has been top-three 3 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 3rd at Galway over 2m 90y (Soft to Heavy) on 2026-10-26. Today's race: Thurles, 3m 1f 22y, going Good-good to yielding in places on hurdle course, turf, field of 17. Also on the card: carries 11-5; about 6lb lower than a comparable winning weight on the card. Connections: trained by N Slevin (2 on the card today); Carl Millar rides and has 2 booked today. The market is led by Dieux Diligence around 3.00 (form 34); Missouri Snow is available at about 5.50, which is the price this case is built on. Worth a win bet at around 5.50 on the evidence above.",
+          "stars": 2
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "The Ocean Queen",
+          "odds": 9.0,
+          "conf": 61,
+          "type": "ew",
+          "edge": 0.1395,
+          "class_move": "",
+          "reason": "I prefer The Ocean Queen to the more obvious names in the market. The form figures on the card are 2512 \u2014 finished second last time; has been top-three 3 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 2nd at Limerick over 2m 188y (Good to Yielding (Yielding in places)) on 2026-10-17. Today's race: Thurles, 3m 1f 22y, going Good-good to yielding in places on hurdle course, turf, field of 17. Also on the card: carries 11-5; hood. Connections: trained by G P Cromwell (2 on the card today); Keith Donoghue rides and has 2 booked today. The market is led by Dieux Diligence around 3.00 (form 34); The Ocean Queen is available at about 9.00, which is the price this case is built on. Each-way at around 9.00 is the sensible way to use the case in a 17-runner field.",
+          "stars": 1
+        },
+        {
+          "bot": "PlaceHunter",
+          "horse": "S T Hamo",
+          "odds": 13.0,
+          "conf": 56,
+          "type": "ew",
+          "edge": 0.1498,
+          "class_move": "",
+          "reason": "S T Hamo is an each-way play at around 13.00 \u2014 only considered because the field is big enough for place terms and the price is over 10/1. Form figures (332534) are enough to make a place case, not a pure lottery ticket. Connections: A McCann / James Smith. Conditions: 3m 1f 22y, Good-good to yielding in places on hurdle course. Field of 17 supports the place part of the bet. This is each-way only \u2014 no win-only stance at this price. Confidence 56%.",
+          "stars": 1
+        }
+      ]
+    },
+    {
+      "course": "Thurles",
+      "time": "13:56",
+      "name": "Horse And Jockey 3-Y-O Maiden Hurdle",
+      "going": "Good-good to yielding in places on hurdle course",
+      "distance": "3m 1f 22y",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": null,
+      "no_bet": false,
+      "no_bet_reason": null,
+      "consensus": null,
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Sunrush",
+          "odds": 5.0,
+          "conf": 59,
+          "type": "win",
+          "edge": 0.03,
+          "class_move": "",
+          "reason": "Sunrush is the form pick on this card. The form figures on the card are 327135 \u2014 finished third last time; has been top-three 4 times recently. Latest recorded start: 3rd at Navan over 2m (Good to Yielding (Yielding in places)) on 2026-11-15. Today's race: Thurles, 3m 1f 22y, going Good-good to yielding in places on hurdle course, turf, field of 11. Also on the card: carries 11-0; tongue strap. Connections: trained by A Slattery (2 on the card today); Cian Quirke rides and has 3 booked today. The market is led by Neria around 2.20 (form 23); Sunrush is available at about 5.00, which is the price this case is built on. Worth a win bet at around 5.00 on the evidence above.",
+          "stars": 1
+        },
+        {
+          "bot": "HotTrainer",
+          "horse": "Maxminelli",
+          "odds": 5.5,
+          "conf": 59,
+          "type": "win",
+          "edge": 0.0508,
+          "class_move": "",
+          "reason": "Connections angle points me at Maxminelli. The form figures on the card are 342327 \u2014 finished third last time; has been top-three 4 times recently. Latest recorded start: 3rd at Fairyhouse over 2m (Good to Yielding) on 2026-11-03. Today's race: Thurles, 3m 1f 22y, going Good-good to yielding in places on hurdle course, turf, field of 11. Also on the card: carries 11-0; cheek pieces, tongue strap. Connections: trained by H De Bromhead (4 on the card today); Jordan Gainford rides and has 3 booked today. The market is led by Neria around 2.20 (form 23); Maxminelli is available at about 5.50, which is the price this case is built on. Worth a win bet at around 5.50 on the evidence above.",
+          "stars": 2
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Maxminelli",
+          "odds": 5.5,
+          "conf": 64,
+          "type": "win",
+          "edge": 0.058,
+          "class_move": "",
+          "reason": "I prefer Maxminelli to the more obvious names in the market. The form figures on the card are 342327 \u2014 finished third last time; has been top-three 4 times recently. Latest recorded start: 3rd at Fairyhouse over 2m (Good to Yielding) on 2026-11-03. Today's race: Thurles, 3m 1f 22y, going Good-good to yielding in places on hurdle course, turf, field of 11. Also on the card: carries 11-0; cheek pieces, tongue strap. Connections: trained by H De Bromhead (4 on the card today); Jordan Gainford rides and has 3 booked today. The market is led by Neria around 2.20 (form 23); Maxminelli is available at about 5.50, which is the price this case is built on. Worth a win bet at around 5.50 on the evidence above.",
+          "stars": 2
+        }
+      ]
+    },
+    {
+      "course": "Thurles",
+      "time": "14:31",
+      "name": "Irish Stallion Farms EBF Mares Maiden Hurdle",
+      "going": "Good-good to yielding in places on hurdle course",
+      "distance": "3m 1f 22y",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": null,
+      "no_bet": false,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
+      "consensus": null,
+      "tips": [
+        {
+          "bot": "PlaceHunter",
+          "horse": "Born Believing",
+          "odds": 17.0,
+          "conf": 53,
+          "type": "ew",
+          "edge": 0.1374,
+          "class_move": "",
+          "reason": "Born Believing is an each-way play at around 17.00 \u2014 only considered because the field is big enough for place terms and the price is over 10/1. Form figures (3551) are enough to make a place case, not a pure lottery ticket. Connections: C O'Connell / Mr D O'Sullivan. Conditions: 3m 1f 22y, Good-good to yielding in places on hurdle course. Field of 20 supports the place part of the bet. This is each-way only \u2014 no win-only stance at this price. Confidence 53%.",
+          "stars": 1
+        }
+      ]
+    },
+    {
+      "course": "Thurles",
+      "time": "15:06",
+      "name": "Racing Here Again On 3rd December Maiden Hurdle",
+      "going": "Good-good to yielding in places on hurdle course",
+      "distance": "3m 1f 22y",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": null,
+      "no_bet": false,
+      "no_bet_reason": null,
+      "consensus": null,
+      "tips": [
+        {
+          "bot": "FormFox",
+          "horse": "Apache Peak",
+          "odds": 6.5,
+          "conf": 58,
+          "type": "ew",
+          "edge": 0.0796,
+          "class_move": "",
+          "reason": "Apache Peak is the form pick on this card. The form figures on the card are 43222 \u2014 has been top-three 4 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 4th at Punchestown over 2m 95y (Good) on 2026-10-14. Today's race: Thurles, 3m 1f 22y, going Good-good to yielding in places on hurdle course, turf, field of 18. Also on the card: carries 10-13. Connections: trained by R O'Sullivan (3 on the card today); Conor Stone-Walsh rides and has 3 booked today. The market is led by Moment Of Grace around 2.63 (form 2-); Apache Peak is available at about 6.50, which is the price this case is built on. Each-way at around 6.50 is the sensible way to use the case in a 18-runner field.",
+          "stars": 2
+        },
+        {
+          "bot": "DevilAdvocate",
+          "horse": "Apache Peak",
+          "odds": 6.5,
+          "conf": 75,
+          "type": "ew",
+          "edge": 0.0878,
+          "class_move": "",
+          "reason": "I prefer Apache Peak to the more obvious names in the market. The form figures on the card are 43222 \u2014 has been top-three 4 times recently. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 4th at Punchestown over 2m 95y (Good) on 2026-10-14. Today's race: Thurles, 3m 1f 22y, going Good-good to yielding in places on hurdle course, turf, field of 18. Also on the card: carries 10-13. Connections: trained by R O'Sullivan (3 on the card today); Conor Stone-Walsh rides and has 3 booked today. The market is led by Moment Of Grace around 2.63 (form 2-); Apache Peak is available at about 6.50, which is the price this case is built on. Each-way at around 6.50 is the sensible way to use the case in a 18-runner field.",
+          "stars": 2
+        }
+      ]
+    },
+    {
+      "course": "Thurles",
+      "time": "15:39",
+      "name": "William Hill Challenge Series Mares Handicap Hurdle (0-100)",
+      "going": "Good-good to yielding in places on hurdle course",
+      "distance": "3m 1f 22y",
+      "surface": "turf",
+      "code": "unknown",
+      "race_class": null,
+      "no_bet": true,
+      "no_bet_reason": "No clear win angle \u2014 fewer than 2 core bots cleared the bar.",
+      "consensus": null,
+      "tips": []
+    }
+  ],
+  "hot_picks": [
+    {
+      "course": "Market Rasen",
+      "time": "13:04",
+      "race": "PricedUp Boosted Prices Daily Bud Booth Mares' Chase (Listed) (GBB Race) (Class 1)",
+      "horse": "Bluey",
+      "odds": 3.5,
+      "bots": [
+        "FormFox",
+        "HotTrainer",
+        "BloodlineBetty",
+        "DevilAdvocate"
+      ],
+      "bot_count": 4,
+      "avg_conf": 76.8,
+      "type": "win",
+      "score": 125.25
+    },
+    {
+      "course": "Market Rasen",
+      "time": "14:49",
+      "race": "PricedUp Bet Handicap Chase (Class 5)",
+      "horse": "Jukebox D'eddy",
+      "odds": 3.5,
+      "bots": [
+        "FormFox",
+        "HotTrainer",
+        "BloodlineBetty",
+        "DevilAdvocate"
+      ],
+      "bot_count": 4,
+      "avg_conf": 72.2,
+      "type": "win",
+      "score": 120.75
+    },
+    {
+      "course": "Chelmsford City",
+      "time": "20:00",
+      "race": "Make The Move To Midnite Handicap (Class 5)",
+      "horse": "Macanudo",
+      "odds": 8.0,
+      "bots": [
+        "FormFox",
+        "HotTrainer",
+        "BloodlineBetty",
+        "DevilAdvocate"
+      ],
+      "bot_count": 4,
+      "avg_conf": 75.8,
+      "type": "ew",
+      "score": 119.75
+    },
+    {
+      "course": "Thurles",
+      "time": "12:11",
+      "race": "William Hill Challenge Series Handicap Chase",
+      "horse": "Mistyburn",
+      "odds": 5.5,
+      "bots": [
+        "FormFox",
+        "HotTrainer",
+        "BloodlineBetty",
+        "DevilAdvocate"
+      ],
+      "bot_count": 4,
+      "avg_conf": 72.8,
+      "type": "win",
+      "score": 119.25
+    },
+    {
+      "course": "Taunton",
+      "time": "14:40",
+      "race": "Mike Trickey & Geoff White Memorial Handicap Hurdle (Class 4)",
+      "horse": "D'jo Dela Barriere",
+      "odds": 8.5,
+      "bots": [
+        "FormFox",
+        "HotTrainer",
+        "BloodlineBetty",
+        "DevilAdvocate"
+      ],
+      "bot_count": 4,
+      "avg_conf": 74.5,
+      "type": "win",
+      "score": 118.0
+    },
+    {
+      "course": "Lingfield",
+      "time": "14:22",
+      "race": "Follow AtTheRaces On X Novices' Limited Handicap Chase (GBB Race) (Class 3)",
+      "horse": "Blue Carpet",
+      "odds": 3.75,
+      "bots": [
+        "FormFox",
+        "HotTrainer",
+        "BloodlineBetty"
+      ],
+      "bot_count": 3,
+      "avg_conf": 74.3,
+      "type": "win",
+      "score": 112.58
+    },
+    {
+      "course": "Chelmsford City",
+      "time": "20:30",
+      "race": "Midnite Ain't Your Grandad's Bookie Handicap (GBBPlus Race) (Class 4)",
+      "horse": "Caledonian",
+      "odds": 3.75,
+      "bots": [
+        "FormFox",
+        "HotTrainer",
+        "BloodlineBetty"
+      ],
+      "bot_count": 3,
+      "avg_conf": 73.3,
+      "type": "win",
+      "score": 111.58
+    },
+    {
+      "course": "Market Rasen",
+      "time": "14:14",
+      "race": "PricedUp Boosts And BOG Handicap Hurdle (Class 4)",
+      "horse": "Billy Boi Blue",
+      "odds": 6.5,
+      "bots": [
+        "FormFox",
+        "HotTrainer",
+        "DevilAdvocate"
+      ],
+      "bot_count": 3,
+      "avg_conf": 74.3,
+      "type": "ew",
+      "score": 109.83
+    },
+    {
+      "course": "Taunton",
+      "time": "13:30",
+      "race": "Stag Environmental Handicap Hurdle (Class 4)",
+      "horse": "Into Battle",
+      "odds": 8.5,
+      "bots": [
+        "FormFox",
+        "BloodlineBetty",
+        "DevilAdvocate"
+      ],
+      "bot_count": 3,
+      "avg_conf": 74.7,
+      "type": "win",
+      "score": 108.17
+    },
+    {
+      "course": "Chelmsford City",
+      "time": "18:30",
+      "race": "AWC Finals Day At Newcastle 26th March Fillies' Handicap (Class 5)",
+      "horse": "Coxy's Star",
+      "odds": 4.5,
+      "bots": [
+        "FormFox",
+        "BloodlineBetty",
+        "DevilAdvocate"
+      ],
+      "bot_count": 3,
+      "avg_conf": 69.3,
+      "type": "win",
+      "score": 106.83
+    },
+    {
+      "course": "Chelmsford City",
+      "time": "19:30",
+      "race": "AWC Season 14 Has Begun Handicap (Class 6)",
+      "horse": "Rovinia",
+      "odds": 9.0,
+      "bots": [
+        "FormFox",
+        "BloodlineBetty",
+        "DevilAdvocate"
+      ],
+      "bot_count": 3,
+      "avg_conf": 70.3,
+      "type": "ew",
+      "score": 103.33
+    }
+  ],
+  "generated_at": "2026-11-26T08:43:48.594898Z",
+  "note": "4 bots only (FormFox, HotTrainer, BloodlineBetty, DevilAdvocate). Selective no-bet; history when available. Tips frozen after first successful generation; re-runs will not overwrite unless --force.",
+  "meta": {
+    "history_runs": 1142,
+    "hot_pick_rules": "min_bots=3, min_avg_conf=58, odds 2.5-12",
+    "frozen": true,
+    "freeze_policy": "first_write_wins"
+  },
+  "published": true,
+  "frozen": true
 }
