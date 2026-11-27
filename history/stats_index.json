@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-27T08:59:31.893173+00:00",
-  "runs": 1502,
+  "updated_at": "2026-11-27T12:02:03.495695+00:00",
+  "runs": 1518,
   "trainer_course": {
     "celongsdon|huntingdon": {
       "wins": 0,
@@ -4246,6 +4246,86 @@
       "wins": 0,
       "n": 1,
       "rate": 0.1067
+    },
+    "harryderham|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "njgifford|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "njhenderson|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "hfry|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "wgreatrex|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "bpauling|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "dpipe|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "pfnicholls|newbury": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "fayebramley|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "omurphy|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "cgordon|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "bicase|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "dskelton|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "dskelton|doncaster": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "mbowen|doncaster": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "sengland|doncaster": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "trainer_code": {
@@ -4271,8 +4351,8 @@
     },
     "bpauling|hurdle": {
       "wins": 2,
-      "n": 8,
-      "rate": 0.185
+      "n": 9,
+      "rate": 0.1741
     },
     "harryeustace|hurdle": {
       "wins": 0,
@@ -4326,8 +4406,8 @@
     },
     "omurphy|hurdle": {
       "wins": 3,
-      "n": 12,
-      "rate": 0.198
+      "n": 13,
+      "rate": 0.1886
     },
     "chobson|hurdle": {
       "wins": 0,
@@ -4401,8 +4481,8 @@
     },
     "bicase|hurdle": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "jamiesnowden|hurdle": {
       "wins": 1,
@@ -4471,18 +4551,18 @@
     },
     "harryderham|hurdle": {
       "wins": 0,
-      "n": 3,
-      "rate": 0.0873
+      "n": 4,
+      "rate": 0.08
     },
     "njhenderson|hurdle": {
       "wins": 0,
-      "n": 3,
-      "rate": 0.0873
+      "n": 4,
+      "rate": 0.08
     },
     "wgreatrex|hurdle": {
       "wins": 1,
-      "n": 4,
-      "rate": 0.1633
+      "n": 5,
+      "rate": 0.1508
     },
     "jtickle|hurdle": {
       "wins": 0,
@@ -4526,8 +4606,8 @@
     },
     "dskelton|hurdle": {
       "wins": 7,
-      "n": 21,
-      "rate": 0.2745
+      "n": 22,
+      "rate": 0.2653
     },
     "misseclavelle|chase": {
       "wins": 1,
@@ -4656,8 +4736,8 @@
     },
     "dpipe|hurdle": {
       "wins": 0,
-      "n": 5,
-      "rate": 0.0738
+      "n": 6,
+      "rate": 0.0686
     },
     "rtphillips|hurdle": {
       "wins": 0,
@@ -4866,8 +4946,8 @@
     },
     "cgordon|hurdle": {
       "wins": 0,
-      "n": 4,
-      "rate": 0.08
+      "n": 5,
+      "rate": 0.0738
     },
     "sallwood|hurdle": {
       "wins": 0,
@@ -5236,8 +5316,8 @@
     },
     "sengland|chase": {
       "wins": 1,
-      "n": 1,
-      "rate": 0.2178
+      "n": 2,
+      "rate": 0.196
     },
     "jswainwright|chase": {
       "wins": 0,
@@ -5256,8 +5336,8 @@
     },
     "dskelton|chase": {
       "wins": 0,
-      "n": 3,
-      "rate": 0.0873
+      "n": 4,
+      "rate": 0.08
     },
     "ruthjefferson|hurdle": {
       "wins": 0,
@@ -5366,8 +5446,8 @@
     },
     "fayebramley|hurdle": {
       "wins": 0,
-      "n": 3,
-      "rate": 0.0873
+      "n": 4,
+      "rate": 0.08
     },
     "cjgray|hurdle": {
       "wins": 0,
@@ -5640,9 +5720,9 @@
       "rate": 0.2178
     },
     "pfnicholls|hurdle": {
-      "wins": 0,
-      "n": 3,
-      "rate": 0.0873
+      "wins": 1,
+      "n": 4,
+      "rate": 0.1633
     },
     "rstephens|hurdle": {
       "wins": 0,
@@ -5651,8 +5731,8 @@
     },
     "njgifford|hurdle": {
       "wins": 1,
-      "n": 1,
-      "rate": 0.2178
+      "n": 2,
+      "rate": 0.196
     },
     "gfedwards|hurdle": {
       "wins": 0,
@@ -6048,6 +6128,16 @@
       "wins": 0,
       "n": 1,
       "rate": 0.1067
+    },
+    "hfry|hurdle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "mbowen|chase": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "trainer_surface": {
@@ -6073,8 +6163,8 @@
     },
     "bpauling|turf": {
       "wins": 2,
-      "n": 10,
-      "rate": 0.1644
+      "n": 11,
+      "rate": 0.1558
     },
     "harryeustace|turf": {
       "wins": 0,
@@ -6128,8 +6218,8 @@
     },
     "omurphy|turf": {
       "wins": 5,
-      "n": 15,
-      "rate": 0.2591
+      "n": 16,
+      "rate": 0.2483
     },
     "chobson|turf": {
       "wins": 0,
@@ -6148,8 +6238,8 @@
     },
     "njhenderson|turf": {
       "wins": 1,
-      "n": 7,
-      "rate": 0.1307
+      "n": 8,
+      "rate": 0.1225
     },
     "lwadham|turf": {
       "wins": 0,
@@ -6193,8 +6283,8 @@
     },
     "bicase|turf": {
       "wins": 1,
-      "n": 3,
-      "rate": 0.1782
+      "n": 4,
+      "rate": 0.1633
     },
     "jamiesnowden|turf": {
       "wins": 2,
@@ -6258,13 +6348,13 @@
     },
     "harryderham|turf": {
       "wins": 0,
-      "n": 4,
-      "rate": 0.08
+      "n": 5,
+      "rate": 0.0738
     },
     "wgreatrex|turf": {
       "wins": 1,
-      "n": 4,
-      "rate": 0.1633
+      "n": 5,
+      "rate": 0.1508
     },
     "jtickle|turf": {
       "wins": 0,
@@ -6282,9 +6372,9 @@
       "rate": 0.2178
     },
     "pfnicholls|turf": {
-      "wins": 0,
-      "n": 5,
-      "rate": 0.0738
+      "wins": 1,
+      "n": 6,
+      "rate": 0.14
     },
     "ajhoneyball|turf": {
       "wins": 0,
@@ -6303,8 +6393,8 @@
     },
     "dskelton|turf": {
       "wins": 8,
-      "n": 26,
-      "rate": 0.2635
+      "n": 28,
+      "rate": 0.2489
     },
     "nwtwistondavies|turf": {
       "wins": 0,
@@ -6978,8 +7068,8 @@
     },
     "dpipe|turf": {
       "wins": 0,
-      "n": 6,
-      "rate": 0.0686
+      "n": 7,
+      "rate": 0.064
     },
     "mrscwilliams|turf": {
       "wins": 1,
@@ -7043,8 +7133,8 @@
     },
     "sengland|turf": {
       "wins": 3,
-      "n": 10,
-      "rate": 0.22
+      "n": 11,
+      "rate": 0.2084
     },
     "rtphillips|turf": {
       "wins": 0,
@@ -7348,8 +7438,8 @@
     },
     "cgordon|turf": {
       "wins": 1,
-      "n": 7,
-      "rate": 0.1307
+      "n": 8,
+      "rate": 0.1225
     },
     "dmccainjnr|turf": {
       "wins": 0,
@@ -7788,8 +7878,8 @@
     },
     "fayebramley|turf": {
       "wins": 0,
-      "n": 3,
-      "rate": 0.0873
+      "n": 4,
+      "rate": 0.08
     },
     "cjgray|turf": {
       "wins": 0,
@@ -8403,8 +8493,8 @@
     },
     "njgifford|turf": {
       "wins": 1,
-      "n": 1,
-      "rate": 0.2178
+      "n": 2,
+      "rate": 0.196
     },
     "gfedwards|turf": {
       "wins": 0,
@@ -8730,6 +8820,16 @@
       "wins": 0,
       "n": 1,
       "rate": 0.1067
+    },
+    "hfry|turf": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "mbowen|turf": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "jockey_trainer": {
@@ -8810,8 +8910,8 @@
     },
     "sbowen|omurphy": {
       "wins": 4,
-      "n": 8,
-      "rate": 0.31
+      "n": 9,
+      "rate": 0.2918
     },
     "rtdunne|chobson": {
       "wins": 0,
@@ -8840,8 +8940,8 @@
     },
     "ndeboinville|njhenderson": {
       "wins": 1,
-      "n": 2,
-      "rate": 0.196
+      "n": 3,
+      "rate": 0.1782
     },
     "jackhogan|fobrien": {
       "wins": 0,
@@ -9080,8 +9180,8 @@
     },
     "tristandurrell|dskelton": {
       "wins": 1,
-      "n": 4,
-      "rate": 0.1633
+      "n": 5,
+      "rate": 0.1508
     },
     "adamwedge|misseclavelle": {
       "wins": 1,
@@ -10055,8 +10155,8 @@
     },
     "jacktudor|dpipe": {
       "wins": 0,
-      "n": 3,
-      "rate": 0.0873
+      "n": 4,
+      "rate": 0.08
     },
     "jamesturner|mrscwilliams": {
       "wins": 0,
@@ -10660,8 +10760,8 @@
     },
     "freddiegordon|cgordon": {
       "wins": 1,
-      "n": 4,
-      "rate": 0.1633
+      "n": 5,
+      "rate": 0.1508
     },
     "sbowen|tward": {
       "wins": 0,
@@ -10720,8 +10820,8 @@
     },
     "caoilinquinn|wgreatrex": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "bshughes|celongsdon": {
       "wins": 0,
@@ -11585,8 +11685,8 @@
     },
     "benjones|bpauling": {
       "wins": 2,
-      "n": 5,
-      "rate": 0.2277
+      "n": 6,
+      "rate": 0.2114
     },
     "joeanderson|gharris": {
       "wins": 0,
@@ -11725,8 +11825,8 @@
     },
     "harrykimber|fayebramley": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "charlieprice|katyprice": {
       "wins": 0,
@@ -13015,8 +13115,8 @@
     },
     "jjburke|bicase": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "harrycobden|lwadham": {
       "wins": 0,
@@ -13030,8 +13130,8 @@
     },
     "dominiclewis|dskelton": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "bryancarver|ichanin": {
       "wins": 0,
@@ -13094,9 +13194,9 @@
       "rate": 0.196
     },
     "samtwistondavies|pfnicholls": {
-      "wins": 0,
-      "n": 3,
-      "rate": 0.0873
+      "wins": 1,
+      "n": 4,
+      "rate": 0.1633
     },
     "rtdunne|rstephens": {
       "wins": 0,
@@ -13929,6 +14029,31 @@
       "rate": 0.2178
     },
     "kevinhealy|amcnamara": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "paulobrien|harryderham": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "rexdingle|njgifford": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "bryancarver|hfry": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "shanefenelon|mbowen": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "rpmclernon|sengland": {
       "wins": 0,
       "n": 1,
       "rate": 0.1067
@@ -21409,6 +21534,86 @@
       "wins": 0,
       "n": 1,
       "rate": 0.1067
+    },
+    "loverdesbois|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "soldierpoet|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "princerupert|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "loughmourne|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "islandgetaway|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "oatsoeasy|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "ladykluck|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "riverkwai|newbury": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "coolmillion|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "burkflight|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "killarney|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "midnightescape|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "franciscoalvares|newbury": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "palamon|doncaster": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "kayfdancer|doncaster": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "kentdethaix|doncaster": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "horse_surface": {
@@ -28816,6 +29021,86 @@
       "wins": 0,
       "n": 1,
       "rate": 0.1067
+    },
+    "loverdesbois|turf": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "soldierpoet|turf": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "princerupert|turf": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "loughmourne|turf": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "islandgetaway|turf": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "oatsoeasy|turf": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "ladykluck|turf": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "riverkwai|turf": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "coolmillion|turf": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "burkflight|turf": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "killarney|turf": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "midnightescape|turf": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "franciscoalvares|turf": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "palamon|turf": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "kayfdancer|turf": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "kentdethaix|turf": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "horse_code": {
@@ -32155,6 +32440,86 @@
       "rate": 0.2178
     },
     "mightbetheone|hurdle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "loverdesbois|hurdle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "soldierpoet|hurdle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "princerupert|hurdle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "loughmourne|hurdle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "islandgetaway|hurdle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "oatsoeasy|hurdle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "ladykluck|hurdle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "riverkwai|hurdle": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "coolmillion|hurdle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "burkflight|hurdle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "killarney|hurdle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "midnightescape|hurdle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "franciscoalvares|hurdle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "palamon|chase": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "kayfdancer|chase": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "kentdethaix|chase": {
       "wins": 0,
       "n": 1,
       "rate": 0.1067
@@ -39572,6 +39937,86 @@
       "rate": 0.2178
     },
     "mightbetheone|soft": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "loverdesbois|soft": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "soldierpoet|soft": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "princerupert|soft": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "loughmourne|soft": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "islandgetaway|soft": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "oatsoeasy|soft": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "ladykluck|soft": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "riverkwai|soft": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "coolmillion|soft": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "burkflight|soft": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "killarney|soft": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "midnightescape|soft": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "franciscoalvares|soft": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "palamon|good": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "kayfdancer|good": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "kentdethaix|good": {
       "wins": 0,
       "n": 1,
       "rate": 0.1067
@@ -46997,6 +47442,86 @@
       "wins": 0,
       "n": 1,
       "rate": 0.1067
+    },
+    "loverdesbois|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "soldierpoet|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "princerupert|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "loughmourne|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "islandgetaway|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "oatsoeasy|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "ladykluck|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "riverkwai|middle": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "coolmillion|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "burkflight|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "killarney|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "midnightescape|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "franciscoalvares|middle": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "palamon|extreme": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "kayfdancer|extreme": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "kentdethaix|extreme": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "horse_place_surface": {
@@ -54404,6 +54929,86 @@
       "places": 0,
       "n": 1,
       "rate": 0.24
+    },
+    "loverdesbois|turf": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "soldierpoet|turf": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "princerupert|turf": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "loughmourne|turf": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "islandgetaway|turf": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "oatsoeasy|turf": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "ladykluck|turf": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "riverkwai|turf": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "coolmillion|turf": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "burkflight|turf": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "killarney|turf": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "midnightescape|turf": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "franciscoalvares|turf": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "palamon|turf": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "kayfdancer|turf": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "kentdethaix|turf": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
     }
   },
   "horse_place_code": {
@@ -57743,6 +58348,86 @@
       "rate": 0.3829
     },
     "mightbetheone|hurdle": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "loverdesbois|hurdle": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "soldierpoet|hurdle": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "princerupert|hurdle": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "loughmourne|hurdle": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "islandgetaway|hurdle": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "oatsoeasy|hurdle": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "ladykluck|hurdle": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "riverkwai|hurdle": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "coolmillion|hurdle": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "burkflight|hurdle": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "killarney|hurdle": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "midnightescape|hurdle": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "franciscoalvares|hurdle": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "palamon|chase": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "kayfdancer|chase": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "kentdethaix|chase": {
       "places": 0,
       "n": 1,
       "rate": 0.24

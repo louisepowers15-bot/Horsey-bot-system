@@ -1,6 +1,133 @@
 {
   "date": "2026-11-27",
   "source": "sportinglife",
-  "scraped_at": "2026-11-27T08:59:31.790708Z",
-  "meetings": []
+  "scraped_at": "2026-11-27T12:02:03.300620Z",
+  "meetings": [
+    {
+      "course": "Newbury",
+      "races": [
+        {
+          "time": "11:40",
+          "name": "Coral 'Black Friday Price Boosts' 'National Hunt' Maiden Hurdle (GBB Race) (Div 1)",
+          "course": "Newbury",
+          "distance": "2m 69y",
+          "going": "Good to Soft (Good in places)",
+          "field_size": 13,
+          "runners": [
+            {
+              "name": "River Kwai",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 2.38
+            },
+            {
+              "name": "Lover Desbois",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 3.75
+            },
+            {
+              "name": "Prince Rupert",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 2.75
+            },
+            {
+              "name": "Loughmourne",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 9.5
+            },
+            {
+              "name": "Francisco Alvares",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 101.0
+            },
+            {
+              "name": "Burk Flight",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 126.0
+            },
+            {
+              "name": "Killarney",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 251.0
+            },
+            {
+              "name": "Lady Kluck",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 151.0
+            },
+            {
+              "name": "Soldier Poet",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 201.0
+            },
+            {
+              "name": "Midnight Escape",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 34.0
+            },
+            {
+              "name": "Island Getaway",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 251.0
+            },
+            {
+              "name": "Cool Million",
+              "position": 12,
+              "status": "RUNNER",
+              "sp": 301.0
+            },
+            {
+              "name": "Oatsoeasy",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course": "Doncaster",
+      "races": [
+        {
+          "time": "12:00",
+          "name": "Golden Scoop Novices' Limited Handicap Chase (GBB Race)",
+          "course": "Doncaster",
+          "distance": "2m 7f 214y",
+          "going": "Good",
+          "field_size": 3,
+          "runners": [
+            {
+              "name": "Kent De Thaix",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 2.38
+            },
+            {
+              "name": "Palamon",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 3.0
+            },
+            {
+              "name": "Kayf Dancer",
+              "position": 0,
+              "status": "RUNNER",
+              "sp": 3.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
