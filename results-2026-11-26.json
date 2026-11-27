@@ -1,7 +1,7 @@
 {
   "date": "2026-11-26",
   "source": "sportinglife",
-  "scraped_at": "2026-11-27T20:10:52.575513Z",
+  "scraped_at": "2026-11-27T23:51:04.913248Z",
   "meetings": [
     {
       "course": "Market Rasen",
@@ -1534,7 +1534,7 @@
             {
               "name": "Bear Right",
               "position": 0,
-              "status": "WITHDRAWN",
+              "status": "NON_RUNNER",
               "sp": 5.5
             }
           ]
@@ -2277,7 +2277,7 @@
             {
               "name": "Jimjohn Kittkath",
               "position": 0,
-              "status": "WITHDRAWN",
+              "status": "NON_RUNNER",
               "sp": 101.0
             }
           ]

@@ -1,7 +1,7 @@
 {
   "date": "2026-11-27",
   "source": "sportinglife",
-  "scraped_at": "2026-11-27T20:11:18.625067Z",
+  "scraped_at": "2026-11-27T23:51:28.813598Z",
   "meetings": [
     {
       "course": "Newbury",
@@ -2028,6 +2028,106 @@
               "position": 11,
               "status": "RUNNER",
               "sp": 26.0
+            }
+          ]
+        },
+        {
+          "time": "20:30",
+          "name": "Saddle Cocktail Bar At Dundalk Stadium Handicap",
+          "course": "Dundalk",
+          "distance": "1m 2f 150y",
+          "going": "Standard",
+          "field_size": 15,
+          "runners": [
+            {
+              "name": "Love Orchid",
+              "position": 1,
+              "status": "RUNNER",
+              "sp": 9.0
+            },
+            {
+              "name": "Movin And Groovin",
+              "position": 2,
+              "status": "RUNNER",
+              "sp": 3.0
+            },
+            {
+              "name": "Flying Fortress",
+              "position": 3,
+              "status": "RUNNER",
+              "sp": 6.5
+            },
+            {
+              "name": "A Pretty Penny",
+              "position": 4,
+              "status": "RUNNER",
+              "sp": 21.0
+            },
+            {
+              "name": "Riyazanka",
+              "position": 5,
+              "status": "RUNNER",
+              "sp": 11.0
+            },
+            {
+              "name": "Usuario Amigo",
+              "position": 6,
+              "status": "RUNNER",
+              "sp": 7.0
+            },
+            {
+              "name": "Satono Chevalier",
+              "position": 7,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Flame Of Forest",
+              "position": 8,
+              "status": "RUNNER",
+              "sp": 17.0
+            },
+            {
+              "name": "Wild Berries",
+              "position": 9,
+              "status": "RUNNER",
+              "sp": 26.0
+            },
+            {
+              "name": "Emily Estherfaye",
+              "position": 10,
+              "status": "RUNNER",
+              "sp": 41.0
+            },
+            {
+              "name": "Afloat",
+              "position": 11,
+              "status": "RUNNER",
+              "sp": 67.0
+            },
+            {
+              "name": "Isthatrightkatie",
+              "position": 12,
+              "status": "RUNNER",
+              "sp": 67.0
+            },
+            {
+              "name": "Tribal Moon",
+              "position": 13,
+              "status": "RUNNER",
+              "sp": 4.5
+            },
+            {
+              "name": "Anightaway",
+              "position": 14,
+              "status": "RUNNER",
+              "sp": 51.0
+            },
+            {
+              "name": "Rosanella",
+              "position": 0,
+              "status": "NONRUNNER",
+              "sp": null
             }
           ]
         }

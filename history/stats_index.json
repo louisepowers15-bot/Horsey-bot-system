@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-27T20:11:18.898142+00:00",
-  "runs": 1787,
+  "updated_at": "2026-11-27T23:51:29.010662+00:00",
+  "runs": 1802,
   "trainer_course": {
     "celongsdon|huntingdon": {
       "wins": 0,
@@ -2699,8 +2699,8 @@
     },
     "jpmurtagh|dundalk": {
       "wins": 1,
-      "n": 4,
-      "rate": 0.1633
+      "n": 5,
+      "rate": 0.1508
     },
     "danielmurphy|dundalk": {
       "wins": 0,
@@ -2724,8 +2724,8 @@
     },
     "nlupini|dundalk": {
       "wins": 1,
-      "n": 6,
-      "rate": 0.14
+      "n": 7,
+      "rate": 0.1307
     },
     "elynam|dundalk": {
       "wins": 0,
@@ -2768,9 +2768,9 @@
       "rate": 0.1067
     },
     "nmeade|dundalk": {
-      "wins": 0,
-      "n": 2,
-      "rate": 0.096
+      "wins": 1,
+      "n": 3,
+      "rate": 0.1782
     },
     "tommcguinness|dundalk": {
       "wins": 0,
@@ -2779,8 +2779,8 @@
     },
     "rosullivan|dundalk": {
       "wins": 0,
-      "n": 2,
-      "rate": 0.096
+      "n": 3,
+      "rate": 0.0873
     },
     "damcloughlin|dundalk": {
       "wins": 0,
@@ -2789,8 +2789,8 @@
     },
     "robrien|dundalk": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "pjflynn|dundalk": {
       "wins": 1,
@@ -2854,8 +2854,8 @@
     },
     "dmarnane|dundalk": {
       "wins": 0,
-      "n": 3,
-      "rate": 0.0873
+      "n": 4,
+      "rate": 0.08
     },
     "wmccreery|dundalk": {
       "wins": 0,
@@ -2889,8 +2889,8 @@
     },
     "aslattery|dundalk": {
       "wins": 0,
-      "n": 4,
-      "rate": 0.08
+      "n": 5,
+      "rate": 0.0738
     },
     "definn|dundalk": {
       "wins": 0,
@@ -4819,8 +4819,8 @@
     },
     "gpcromwell|dundalk": {
       "wins": 0,
-      "n": 2,
-      "rate": 0.096
+      "n": 4,
+      "rate": 0.08
     },
     "emullins|dundalk": {
       "wins": 0,
@@ -4909,8 +4909,8 @@
     },
     "seandavis|dundalk": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "harrycleary|dundalk": {
       "wins": 0,
@@ -4921,6 +4921,31 @@
       "wins": 1,
       "n": 1,
       "rate": 0.2178
+    },
+    "debbiecody|dundalk": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "jhalley|dundalk": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "nckelly|dundalk": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "mkflannery|dundalk": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "misskbrown|dundalk": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "trainer_code": {
@@ -8698,8 +8723,8 @@
     },
     "jpmurtagh|AW": {
       "wins": 1,
-      "n": 4,
-      "rate": 0.1633
+      "n": 5,
+      "rate": 0.1508
     },
     "danielmurphy|AW": {
       "wins": 0,
@@ -8723,8 +8748,8 @@
     },
     "nlupini|AW": {
       "wins": 1,
-      "n": 6,
-      "rate": 0.14
+      "n": 7,
+      "rate": 0.1307
     },
     "elynam|AW": {
       "wins": 0,
@@ -8767,9 +8792,9 @@
       "rate": 0.1067
     },
     "nmeade|AW": {
-      "wins": 0,
-      "n": 2,
-      "rate": 0.096
+      "wins": 1,
+      "n": 3,
+      "rate": 0.1782
     },
     "tommcguinness|AW": {
       "wins": 0,
@@ -8778,8 +8803,8 @@
     },
     "rosullivan|AW": {
       "wins": 0,
-      "n": 2,
-      "rate": 0.096
+      "n": 3,
+      "rate": 0.0873
     },
     "damcloughlin|AW": {
       "wins": 0,
@@ -8788,8 +8813,8 @@
     },
     "robrien|AW": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "pjflynn|AW": {
       "wins": 1,
@@ -8853,8 +8878,8 @@
     },
     "dmarnane|AW": {
       "wins": 0,
-      "n": 3,
-      "rate": 0.0873
+      "n": 4,
+      "rate": 0.08
     },
     "wmccreery|AW": {
       "wins": 0,
@@ -8888,8 +8913,8 @@
     },
     "aslattery|AW": {
       "wins": 0,
-      "n": 4,
-      "rate": 0.08
+      "n": 5,
+      "rate": 0.0738
     },
     "definn|AW": {
       "wins": 0,
@@ -9608,8 +9633,8 @@
     },
     "gpcromwell|AW": {
       "wins": 0,
-      "n": 2,
-      "rate": 0.096
+      "n": 4,
+      "rate": 0.08
     },
     "emullins|AW": {
       "wins": 0,
@@ -9698,8 +9723,8 @@
     },
     "seandavis|AW": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "harrycleary|AW": {
       "wins": 0,
@@ -9710,6 +9735,31 @@
       "wins": 1,
       "n": 1,
       "rate": 0.2178
+    },
+    "debbiecody|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "jhalley|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "nckelly|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "mkflannery|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "misskbrown|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "jockey_trainer": {
@@ -13155,8 +13205,8 @@
     },
     "bencoen|jpmurtagh": {
       "wins": 1,
-      "n": 4,
-      "rate": 0.1633
+      "n": 5,
+      "rate": 0.1508
     },
     "declanmcdonogh|danielmurphy": {
       "wins": 0,
@@ -13250,8 +13300,8 @@
     },
     "adamgrant|robrien": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "robyndonaghueleahy|pjflynn": {
       "wins": 0,
@@ -15380,8 +15430,8 @@
     },
     "robertwhearty|gpcromwell": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "keithenkennedy|mrsjharrington": {
       "wins": 0,
@@ -15520,8 +15570,8 @@
     },
     "waynelordan|nlupini": {
       "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "n": 2,
+      "rate": 0.096
     },
     "seamieheffernan|jordankidd": {
       "wins": 0,
@@ -15549,9 +15599,9 @@
       "rate": 0.1067
     },
     "nicolaburns|nmeade": {
-      "wins": 0,
-      "n": 1,
-      "rate": 0.1067
+      "wins": 1,
+      "n": 2,
+      "rate": 0.196
     },
     "patrickmcgettigan|psweeney": {
       "wins": 0,
@@ -15599,6 +15649,56 @@
       "rate": 0.2178
     },
     "nicolaburns|jcmcconnell": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "camillusbyrne|gpcromwell": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "nathancrosse|dmarnane": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "adambrownesouza|aslattery": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "patrickmcgettigan|rosullivan": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "julianpietropaolo|debbiecody": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "reserve1|jhalley": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "seandavis|seandavis": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "rorymulligan|nckelly": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "melsheridan|mkflannery": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "killianleonard|misskbrown": {
       "wins": 0,
       "n": 1,
       "rate": 0.1067
@@ -24494,6 +24594,81 @@
       "wins": 0,
       "n": 1,
       "rate": 0.1067
+    },
+    "flyingfortress|dundalk": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "usuarioamigo|dundalk": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "flameofforest|dundalk": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "movinandgroovin|dundalk": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "emilyestherfaye|dundalk": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "wildberries|dundalk": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "aprettypenny|dundalk": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "rosanella|dundalk": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "anightaway|dundalk": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "tribalmoon|dundalk": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "loveorchid|dundalk": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "riyazanka|dundalk": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "afloat|dundalk": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "satonochevalier|dundalk": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "isthatrightkatie|dundalk": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "horse_surface": {
@@ -33283,6 +33458,81 @@
       "rate": 0.2178
     },
     "byebyenow|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "flyingfortress|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "usuarioamigo|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "flameofforest|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "movinandgroovin|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "emilyestherfaye|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "wildberries|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "aprettypenny|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "rosanella|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "anightaway|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "tribalmoon|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "loveorchid|AW": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "riyazanka|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "afloat|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "satonochevalier|AW": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "isthatrightkatie|AW": {
       "wins": 0,
       "n": 1,
       "rate": 0.1067
@@ -46010,6 +46260,81 @@
       "wins": 0,
       "n": 1,
       "rate": 0.1067
+    },
+    "flyingfortress|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "usuarioamigo|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "flameofforest|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "movinandgroovin|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "emilyestherfaye|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "wildberries|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "aprettypenny|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "rosanella|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "anightaway|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "tribalmoon|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "loveorchid|aw": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "riyazanka|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "afloat|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "satonochevalier|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "isthatrightkatie|aw": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "horse_distance": {
@@ -54827,6 +55152,81 @@
       "wins": 0,
       "n": 1,
       "rate": 0.1067
+    },
+    "flyingfortress|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "usuarioamigo|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "flameofforest|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "movinandgroovin|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "emilyestherfaye|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "wildberries|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "aprettypenny|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "rosanella|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "anightaway|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "tribalmoon|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "loveorchid|mile": {
+      "wins": 1,
+      "n": 1,
+      "rate": 0.2178
+    },
+    "riyazanka|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "afloat|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "satonochevalier|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
+    },
+    "isthatrightkatie|mile": {
+      "wins": 0,
+      "n": 1,
+      "rate": 0.1067
     }
   },
   "horse_place_surface": {
@@ -63616,6 +64016,81 @@
       "rate": 0.3829
     },
     "byebyenow|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "flyingfortress|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "usuarioamigo|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "flameofforest|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "movinandgroovin|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "emilyestherfaye|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "wildberries|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "aprettypenny|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "rosanella|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "anightaway|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "tribalmoon|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "loveorchid|AW": {
+      "places": 1,
+      "n": 1,
+      "rate": 0.3829
+    },
+    "riyazanka|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "afloat|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "satonochevalier|AW": {
+      "places": 0,
+      "n": 1,
+      "rate": 0.24
+    },
+    "isthatrightkatie|AW": {
       "places": 0,
       "n": 1,
       "rate": 0.24
