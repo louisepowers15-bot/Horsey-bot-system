@@ -201,6 +201,43 @@
     }
     .hot-card h3 { font-size:0.85rem; color:#fbbf24; margin-bottom:0.35rem; }
 
+    .lb-style-pill {
+      display:inline-block; font-size:0.72rem; font-weight:600; padding:0.15rem 0.5rem;
+      border-radius:9999px; background:#1e293b; color:#cbd5e1; border:1px solid #334155;
+    }
+    .lb-bot-row { cursor:pointer; }
+    .lb-bot-row:hover { background: rgba(56,189,248,0.08); }
+    .lb-subtabs { display:flex; gap:0.4rem; flex-wrap:wrap; margin:0.75rem 0 0.5rem; }
+    .lb-subtabs button {
+      background:#1e293b; border:1px solid #334155; color:#94a3b8; border-radius:9999px;
+      padding:0.35rem 0.75rem; font-size:0.8rem; cursor:pointer;
+    }
+    .lb-subtabs button.active { background:#0ea5e9; color:#fff; border-color:#0ea5e9; }
+    .tip-result-row {
+      display:grid; grid-template-columns: 1fr auto auto auto; gap:0.4rem 0.6rem;
+      align-items:center; padding:0.55rem 0.65rem; border-radius:0.5rem;
+      margin:0.35rem 0; border:1px solid #1e293b; font-size:0.88rem;
+    }
+    .tip-result-row.win, .tip-result-row.place {
+      background: rgba(74,222,128,0.12); border-color: rgba(74,222,128,0.35);
+    }
+    .tip-result-row.lose {
+      background: rgba(248,113,113,0.10); border-color: rgba(248,113,113,0.3);
+    }
+    .tip-result-row.unknown {
+      background: rgba(148,163,184,0.08); border-color: #334155;
+    }
+    .tip-result-row .horse { font-weight:600; color:#e2e8f0; }
+    .tip-result-row .meta { color:#94a3b8; font-size:0.78rem; }
+    .tip-result-row .pos { font-weight:700; }
+    .tip-result-row.win .pos, .tip-result-row.place .pos { color:#4ade80; }
+    .tip-result-row.lose .pos { color:#f87171; }
+    .bot-detail-back {
+      background:transparent; border:none; color:#38bdf8; cursor:pointer;
+      font-size:0.85rem; margin-bottom:0.5rem; padding:0;
+    }
+
+
   </style>
 
 </head>
@@ -591,10 +628,131 @@ function renderLeaderboard() {
       '<button type="button" data-period="month">This month</button>' +
       '<button type="button" data-period="year">This year</button>' +
     '</div>' +
+    '<div class="lb-subtabs" id="lb-subtabs">' +
+      '<button type="button" data-lbview="summary" class="active">Summary</button>' +
+      '<button type="button" data-lbview="alltips">All tips</button>' +
+    '</div>' +
     '<p style="color:#94a3b8;text-align:center;padding:1rem" id="lb-loading">Loading leaderboard…</p>' +
     '<div id="lb-root"></div>';
 }
 
+
+
+
+function styleLabel(b) {
+  const w = (b.style && b.style.win) || 0;
+  const ew = (b.style && b.style.ew) || 0;
+  const total = w + ew;
+  const avg = Number(b.avg_odds) || 0;
+  if (!total) return "No tips yet";
+  const ewShare = ew / total;
+  let core;
+  if (ewShare >= 0.6) core = "Mostly each-way";
+  else if (ewShare >= 0.3) core = "Mix win + E/W";
+  else core = "Mostly win bets";
+  let price = "";
+  if (avg > 0) {
+    if (avg < 3.5) price = " · short prices";
+    else if (avg < 7) price = " · mid prices";
+    else price = " · bigger prices";
+  }
+  return core + price + " (W " + w + " / EW " + ew + ")";
+}
+
+function outcomeClass(outcome) {
+  const o = (outcome || "unknown").toLowerCase();
+  if (o === "win" || o === "place") return o;
+  if (o === "lose" || o === "loss") return "lose";
+  return "unknown";
+}
+
+function posLabel(tip) {
+  const o = (tip.outcome || "").toLowerCase();
+  const p = tip.position;
+  if (p != null && p !== "" && Number(p) > 0) {
+    const n = Number(p);
+    const suf = n === 1 ? "st" : n === 2 ? "nd" : n === 3 ? "rd" : "th";
+    return n + suf;
+  }
+  if (o === "win") return "1st";
+  if (o === "place") return "Placed";
+  if (o === "lose" || o === "loss") return "Unplaced";
+  return "—";
+}
+
+async function loadAllSettledTips() {
+  if (window._settledTipsCache) return window._settledTipsCache;
+  const tips = [];
+  const dates = new Set();
+  const lb = window._lbData;
+  if (lb && Array.isArray(lb.history)) {
+    lb.history.forEach(h => { if (h && h.date) dates.add(h.date); });
+  }
+  if (lb && lb.last_settled) dates.add(lb.last_settled);
+  if (lb && lb.reset_from) dates.add(lb.reset_from);
+  // also try last 10 local calendar days
+  for (let i = 0; i < 10; i++) dates.add(getDateOffset(-i));
+
+  await Promise.all([...dates].map(async (ds) => {
+    try {
+      const res = await fetch("./settled-" + ds + ".json?t=" + Date.now());
+      if (!res.ok) return;
+      const data = await res.json();
+      const day = data.date || ds;
+      (data.races || []).forEach(race => {
+        (race.tips || []).forEach(t => {
+          tips.push({
+            ...t,
+            date: day,
+            course: t.course || race.course || "",
+            time: t.time || race.time || "",
+            race: t.race || race.name || ""
+          });
+        });
+      });
+    } catch (e) {}
+  }));
+
+  tips.sort((a, b) => {
+    const da = (b.date || "").localeCompare(a.date || "");
+    if (da) return da;
+    return String(a.time || "").localeCompare(String(b.time || ""));
+  });
+  window._settledTipsCache = tips;
+  return tips;
+}
+
+function renderTipResultRow(t) {
+  const cls = outcomeClass(t.outcome);
+  const bot = BOTS[t.bot] || { name: t.bot, colour: "#64748b" };
+  const pnl = Number(t.pnl);
+  const pnlTxt = isNaN(pnl) ? "" : ((pnl >= 0 ? "+" : "") + pnl.toFixed(2));
+  const pnlCls = !isNaN(pnl) && pnl >= 0 ? "lb-roi-pos" : "lb-roi-neg";
+  return '<div class="tip-result-row ' + cls + '">' +
+    '<div><div class="horse">' + (t.horse || "?") +
+      (t.type === "ew" ? ' <span class="ew-flag">E/W</span>' : "") + "</div>" +
+      '<div class="meta">' + (t.date || "") + " · " + (t.course || "") + " " + (t.time || "") +
+      ' · <span class="bot-badge" style="background:' + bot.colour + ';font-size:0.7rem">' + bot.name + "</span></div></div>" +
+    '<div style="text-align:right">' + (t.odds != null ? Number(t.odds).toFixed(2) : "—") + "</div>" +
+    '<div class="pos">' + posLabel(t) + "</div>" +
+    '<div class="' + pnlCls + '" style="text-align:right">' + (pnlTxt || "—") + "</div>" +
+    "</div>";
+}
+
+function filterTipsForPeriod(tips, period) {
+  const reset = (window._lbData && window._lbData.reset_from) || "1970-01-01";
+  const today = getDateOffset(0);
+  return tips.filter(t => {
+    const d = t.date || "";
+    if (d < reset) return false;
+    if (period === "all") return true;
+    const age = (new Date(today + "T12:00:00") - new Date(d + "T12:00:00")) / 86400000;
+    if (period === "week") return age <= 7;
+    if (period === "month") return age <= 30;
+    if (period === "year") return age <= 365;
+    return true;
+  });
+}
 
 
 async function fillLeaderboard(period) {
@@ -710,13 +868,13 @@ async function fillLeaderboard(period) {
     if (row.id === bestWin) pills += '<span class="lb-pill lb-pill-blue">BEST WIN%</span>';
     if (idx === 0) pills += '<span class="lb-crown">👑</span>';
     const roiCls = roi >= 0 ? "lb-roi-pos" : "lb-roi-neg";
-    return '<tr class="' + cls.join(" ") + '">' +
+    return '<tr class="lb-bot-row ' + cls.join(" ") + '" data-bot="' + row.id + '">' +
       '<td><span class="bot-badge" style="background:' + bot.colour + '">' + bot.name + '</span>' + pills + '</td>' +
       '<td>' + (b.tips || 0) + '</td>' +
       '<td>' + (b.win_pct != null ? b.win_pct : 0) + '%</td>' +
       '<td class="' + roiCls + '">' + (roi >= 0 ? "+" : "") + roi + '%</td>' +
       '<td>' + (b.avg_odds || 0) + '</td>' +
-      '<td>W ' + (b.style && b.style.win || 0) + ' / EW ' + (b.style && b.style.ew || 0) + '</td></tr>';
+      '<td><span class="lb-style-pill">' + styleLabel(b) + '</span></td></tr>';
   }).join("");
 
   let calHtml = '<div style="margin:1rem 0 0.35rem;color:#94a3b8;font-size:0.8rem">Confidence calibration (did high-conf tips actually win more?)</div><div class="cal-grid">';
@@ -740,15 +898,51 @@ async function fillLeaderboard(period) {
   if (!hasCal) calHtml = "";
 
   const periodLabel = { all: "All time", week: "Last 7 days", month: "Last 30 days", year: "Last 365 days" }[period] || period;
-  root.innerHTML =
-    podium +
-    hotHtml +
-    spark +
-    '<p style="color:#94a3b8;font-size:0.85rem;margin:0.75rem 0">Showing: <strong style="color:#e2e8f0">' + periodLabel + '</strong> · Updated: ' + (data.updated_at || "—") + ' · Level £1 stakes</p>' +
-    '<table class="lb-table" style="width:100%;border-collapse:collapse;font-size:0.9rem">' +
-    '<thead><tr style="color:#94a3b8;text-align:left"><th>Bot</th><th>Tips</th><th>Win%</th><th>ROI</th><th>Avg odds</th><th>Style</th></tr></thead>' +
-    '<tbody>' + rows + '</tbody></table>' +
-    calHtml;
+  const view = window._lbView || "summary";
+  const settledAll = await loadAllSettledTips();
+  const settled = filterTipsForPeriod(settledAll, period);
+
+  let bodyHtml = "";
+  if (view === "alltips") {
+    const header = '<div style="display:grid;grid-template-columns:1fr auto auto auto;gap:0.4rem 0.6rem;padding:0.35rem 0.65rem;color:#94a3b8;font-size:0.75rem">' +
+      '<div>Tip</div><div style="text-align:right">Odds</div><div>Pos</div><div style="text-align:right">P&L</div></div>';
+    if (!settled.length) {
+      bodyHtml = '<p style="color:#94a3b8;text-align:center;padding:1.5rem">No settled tips in this period yet.</p>';
+    } else {
+      bodyHtml = header + settled.map(renderTipResultRow).join("");
+    }
+  } else if (view === "bot" && window._lbBot) {
+    const botId = window._lbBot;
+    const bot = BOTS[botId] || { name: botId, colour: "#64748b" };
+    const mine = settled.filter(t => t.bot === botId);
+    const stats = (slice.bots || {})[botId] || {};
+    const best = mine.slice().sort((a, b) => (Number(b.pnl) || -999) - (Number(a.pnl) || -999));
+    bodyHtml =
+      '<button type="button" class="bot-detail-back" id="lb-back-summary">← Back to summary</button>' +
+      '<div style="margin:0.35rem 0 0.75rem"><span class="bot-badge" style="background:' + bot.colour + '">' + bot.name + '</span>' +
+      '<div style="color:#94a3b8;font-size:0.85rem;margin-top:0.35rem">' + styleLabel(stats) + '</div>' +
+      '<div style="color:#94a3b8;font-size:0.85rem">Tips ' + (stats.tips || mine.length) +
+      ' · Win ' + (stats.win_pct != null ? stats.win_pct : "—") + '% · ROI ' +
+      ((stats.roi_pct || 0) >= 0 ? "+" : "") + (stats.roi_pct != null ? stats.roi_pct : "—") + '%</div></div>' +
+      '<div style="color:#e2e8f0;font-weight:600;margin:0.75rem 0 0.35rem">Best results (by P&L)</div>' +
+      (best.length ? best.slice(0, 12).map(renderTipResultRow).join("") :
+        '<p style="color:#94a3b8">No settled tips for this bot in the period.</p>') +
+      '<div style="color:#e2e8f0;font-weight:600;margin:1rem 0 0.35rem">All tips for ' + bot.name + '</div>' +
+      (mine.length ? mine.map(renderTipResultRow).join("") : "");
+  } else {
+    bodyHtml =
+      podium +
+      hotHtml +
+      spark +
+      '<p style="color:#94a3b8;font-size:0.85rem;margin:0.75rem 0">Showing: <strong style="color:#e2e8f0">' + periodLabel +
+      '</strong> · Updated: ' + (data.updated_at || "—") + ' · Level £1 stakes · <span style="color:#64748b">Click a bot for their tips</span></p>' +
+      '<table class="lb-table" style="width:100%;border-collapse:collapse;font-size:0.9rem">' +
+      '<thead><tr style="color:#94a3b8;text-align:left"><th>Bot</th><th>Tips</th><th>Win%</th><th>ROI</th><th>Avg odds</th><th>Style</th></tr></thead>' +
+      '<tbody>' + rows + '</tbody></table>' +
+      calHtml;
+  }
+
+  root.innerHTML = bodyHtml;
 
   const tabs = document.getElementById("lb-period-tabs");
   if (tabs && !tabs._wired) {
@@ -764,6 +958,39 @@ async function fillLeaderboard(period) {
   if (tabs) {
     tabs.querySelectorAll("button").forEach(b => {
       b.classList.toggle("active", b.dataset.period === period);
+    });
+  }
+
+  const sub = document.getElementById("lb-subtabs");
+  if (sub && !sub._wired) {
+    sub._wired = true;
+    sub.addEventListener("click", function(e) {
+      const btn = e.target.closest("button[data-lbview]");
+      if (!btn) return;
+      window._lbView = btn.dataset.lbview;
+      if (window._lbView !== "bot") window._lbBot = null;
+      sub.querySelectorAll("button").forEach(b => b.classList.toggle("active", b.dataset.lbview === window._lbView));
+      fillLeaderboard(window._lbPeriod || "all");
+    });
+  }
+  if (sub) {
+    const v = window._lbView || "summary";
+    sub.querySelectorAll("button").forEach(b => b.classList.toggle("active", b.dataset.lbview === v || (v === "bot" && b.dataset.lbview === "summary")));
+  }
+
+  root.querySelectorAll("tr.lb-bot-row").forEach(tr => {
+    tr.addEventListener("click", function() {
+      window._lbBot = tr.getAttribute("data-bot");
+      window._lbView = "bot";
+      fillLeaderboard(window._lbPeriod || "all");
+    });
+  });
+  const back = document.getElementById("lb-back-summary");
+  if (back) {
+    back.addEventListener("click", function() {
+      window._lbView = "summary";
+      window._lbBot = null;
+      fillLeaderboard(window._lbPeriod || "all");
     });
   }
 }
