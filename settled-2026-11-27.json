@@ -1,12 +1,13 @@
 {
   "date": "2026-11-27",
-  "settled_at": "2026-11-27T20:11:18.677162Z",
+  "settled_at": "2026-11-27T20:56:10.190478Z",
   "summary": {
     "date": "2026-11-27",
     "tips": 41,
-    "settled": 29,
+    "settled": 23,
     "unknown": 12,
-    "pnl": -15.5
+    "pnl": -9.5,
+    "voids": 6
   },
   "races": [
     {
@@ -54,11 +55,12 @@
           "class_move": "similar",
           "reason": "Bluey is the form pick on this card. The form figures on the card are 131212 \u2014 won last time; has 3 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 1st at Market Rasen over 2m 7f 191y (Good to Soft (Good in places)) on 2026-11-26. Today's race: Newbury, 2m 69y, going Good-good to soft in places on hurdle course, Class 2, field of 8. Also on the card: official rating 136; carries 11-6. Connections: trained by Miss E C Lavelle (2 on the card today); Ben Jones rides and has 5 booked today. The market is led by Kap Ouest around 2.50 (form 1295U1); Bluey is available at about 5.00, which is the price this case is built on. Worth a win bet at around 5.00 on the evidence above.",
           "stars": 3,
-          "outcome": "lose",
-          "stake": 1.0,
+          "outcome": "void",
+          "stake": 0.0,
           "return": 0.0,
-          "pnl": -1.0,
+          "pnl": 0.0,
           "position": null,
+          "void_reason": "non-runner",
           "course": "Newbury",
           "time": "14:25",
           "race": "Coral 'Bet10 Get50 Sign Up Offer' Handicap Chase (GBB Race) (Class 2)"
@@ -73,11 +75,12 @@
           "class_move": "similar",
           "reason": "Bluey fits this trip and ground better than a cold reading of the headlines suggests. The form figures on the card are 131212 \u2014 won last time; has 3 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 1st at Market Rasen over 2m 7f 191y (Good to Soft (Good in places)) on 2026-11-26. Today's race: Newbury, 2m 69y, going Good-good to soft in places on hurdle course, Class 2, field of 8. Also on the card: official rating 136; carries 11-6. Connections: trained by Miss E C Lavelle (2 on the card today); Ben Jones rides and has 5 booked today. The market is led by Kap Ouest around 2.50 (form 1295U1); Bluey is available at about 5.00, which is the price this case is built on. Worth a win bet at around 5.00 on the evidence above.",
           "stars": 3,
-          "outcome": "lose",
-          "stake": 1.0,
+          "outcome": "void",
+          "stake": 0.0,
           "return": 0.0,
-          "pnl": -1.0,
+          "pnl": 0.0,
           "position": null,
+          "void_reason": "non-runner",
           "course": "Newbury",
           "time": "14:25",
           "race": "Coral 'Bet10 Get50 Sign Up Offer' Handicap Chase (GBB Race) (Class 2)"
@@ -92,11 +95,12 @@
           "class_move": "similar",
           "reason": "I prefer Bluey to the more obvious names in the market. The form figures on the card are 131212 \u2014 won last time; has 3 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 1st at Market Rasen over 2m 7f 191y (Good to Soft (Good in places)) on 2026-11-26. Today's race: Newbury, 2m 69y, going Good-good to soft in places on hurdle course, Class 2, field of 8. Also on the card: official rating 136; carries 11-6. Connections: trained by Miss E C Lavelle (2 on the card today); Ben Jones rides and has 5 booked today. The market is led by Kap Ouest around 2.50 (form 1295U1); Bluey is available at about 5.00, which is the price this case is built on. Worth a win bet at around 5.00 on the evidence above.",
           "stars": 3,
-          "outcome": "lose",
-          "stake": 1.0,
+          "outcome": "void",
+          "stake": 0.0,
           "return": 0.0,
-          "pnl": -1.0,
+          "pnl": 0.0,
           "position": null,
+          "void_reason": "non-runner",
           "course": "Newbury",
           "time": "14:25",
           "race": "Coral 'Bet10 Get50 Sign Up Offer' Handicap Chase (GBB Race) (Class 2)"
@@ -118,12 +122,12 @@
           "class_move": "similar",
           "reason": "Caldwell Potter is an each-way play at around 13.00 \u2014 only considered because the field is big enough for place terms and the price is over 10/1. Form figures (112311) are enough to make a place case, not a pure lottery ticket. Connections: P F Nicholls / Sam Twiston-Davies. Conditions: 2m 69y, Good-good to soft in places on hurdle course. Field of 11 supports the place part of the bet. This is each-way only \u2014 no win-only stance at this price. Confidence 62%.",
           "stars": 1,
-          "outcome": "lose",
-          "stake": 1.0,
+          "outcome": "void",
+          "stake": 0.0,
           "return": 0.0,
-          "pnl": -1.0,
+          "pnl": 0.0,
           "position": null,
-          "place_terms": "0.2 odds, 3 places",
+          "void_reason": "non-runner",
           "course": "Newbury",
           "time": "15:00",
           "race": "Coral Long Distance Hurdle (Grade 2) (GBB Race) (Class 1)"
@@ -282,6 +286,7 @@
           "stake": 0.0,
           "return": 0.0,
           "pnl": 0.0,
+          "position": null,
           "course": "Musselburgh",
           "time": "14:32",
           "race": "Edinburgh Rugby 1872 Cup Handicap Hurdle (Class 4)"
@@ -300,6 +305,7 @@
           "stake": 0.0,
           "return": 0.0,
           "pnl": 0.0,
+          "position": null,
           "course": "Musselburgh",
           "time": "14:32",
           "race": "Edinburgh Rugby 1872 Cup Handicap Hurdle (Class 4)"
@@ -318,6 +324,7 @@
           "stake": 0.0,
           "return": 0.0,
           "pnl": 0.0,
+          "position": null,
           "course": "Musselburgh",
           "time": "14:32",
           "race": "Edinburgh Rugby 1872 Cup Handicap Hurdle (Class 4)"
@@ -336,6 +343,7 @@
           "stake": 0.0,
           "return": 0.0,
           "pnl": 0.0,
+          "position": null,
           "course": "Musselburgh",
           "time": "14:32",
           "race": "Edinburgh Rugby 1872 Cup Handicap Hurdle (Class 4)"
@@ -361,6 +369,7 @@
           "stake": 0.0,
           "return": 0.0,
           "pnl": 0.0,
+          "position": null,
           "course": "Musselburgh",
           "time": "15:07",
           "race": "Racing TV Conditional Jockeys' Handicap Hurdle (Class 5)"
@@ -379,6 +388,7 @@
           "stake": 0.0,
           "return": 0.0,
           "pnl": 0.0,
+          "position": null,
           "course": "Musselburgh",
           "time": "15:07",
           "race": "Racing TV Conditional Jockeys' Handicap Hurdle (Class 5)"
@@ -397,6 +407,7 @@
           "stake": 0.0,
           "return": 0.0,
           "pnl": 0.0,
+          "position": null,
           "course": "Musselburgh",
           "time": "15:07",
           "race": "Racing TV Conditional Jockeys' Handicap Hurdle (Class 5)"
@@ -415,6 +426,7 @@
           "stake": 0.0,
           "return": 0.0,
           "pnl": 0.0,
+          "position": null,
           "course": "Musselburgh",
           "time": "15:07",
           "race": "Racing TV Conditional Jockeys' Handicap Hurdle (Class 5)"
@@ -717,12 +729,12 @@
           "class_move": "similar",
           "reason": "Smokey Malone is an each-way play at around 17.00 \u2014 only considered because the field is big enough for place terms and the price is over 10/1. Form figures (924511) are enough to make a place case, not a pure lottery ticket. Connections: J & S Birkett / Dylan Hogan. Conditions: 6f 16y, Standard. Field of 14 supports the place part of the bet. This is each-way only \u2014 no win-only stance at this price. Confidence 52%.",
           "stars": 1,
-          "outcome": "lose",
-          "stake": 1.0,
+          "outcome": "void",
+          "stake": 0.0,
           "return": 0.0,
-          "pnl": -1.0,
+          "pnl": 0.0,
           "position": null,
-          "place_terms": "0.25 odds, 3 places",
+          "void_reason": "non-runner",
           "course": "Southwell",
           "time": "18:15",
           "race": "Midnite Ain't Your Grandad's Bookie Handicap (Class 6)"
@@ -763,11 +775,12 @@
           "class_move": "similar",
           "reason": "Connections angle points me at Off Spin. The form figures on the card are 315152 \u2014 finished third last time; has 2 recent wins in the figures. Those recent runs are solid enough that the form is a genuine reason to be involved, not just a name on the sheet. Latest recorded start: 3rd at Lingfield over 1m 4f 1y (Standard) on 2026-11-21. Today's race: Southwell, 6f 16y, going Standard, Class 6, field of 14. Also on the card: official rating 63; carries 11-0; tongue strap. Connections: trained by Miss Gay Kelleway; Miss Brodie Hampson rides. Off Spin is at the head of the market around 5.50 on our prices. Worth a win bet at around 5.50 on the evidence above.",
           "stars": 1,
-          "outcome": "lose",
-          "stake": 1.0,
+          "outcome": "void",
+          "stake": 0.0,
           "return": 0.0,
-          "pnl": -1.0,
+          "pnl": 0.0,
           "position": null,
+          "void_reason": "non-runner",
           "course": "Southwell",
           "time": "18:45",
           "race": "Midnite A Next Generation Betting App Amateur Jockeys' Handicap (Class 6)"
@@ -965,6 +978,7 @@
           "stake": 0.0,
           "return": 0.0,
           "pnl": 0.0,
+          "position": null,
           "course": "Dundalk",
           "time": "20:30",
           "race": "Saddle Cocktail Bar At Dundalk Stadium Handicap"
@@ -983,6 +997,7 @@
           "stake": 0.0,
           "return": 0.0,
           "pnl": 0.0,
+          "position": null,
           "course": "Dundalk",
           "time": "20:30",
           "race": "Saddle Cocktail Bar At Dundalk Stadium Handicap"
@@ -1001,6 +1016,7 @@
           "stake": 0.0,
           "return": 0.0,
           "pnl": 0.0,
+          "position": null,
           "course": "Dundalk",
           "time": "20:30",
           "race": "Saddle Cocktail Bar At Dundalk Stadium Handicap"
@@ -1019,6 +1035,7 @@
           "stake": 0.0,
           "return": 0.0,
           "pnl": 0.0,
+          "position": null,
           "course": "Dundalk",
           "time": "20:30",
           "race": "Saddle Cocktail Bar At Dundalk Stadium Handicap"
