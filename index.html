@@ -268,18 +268,46 @@ async function fetchTipsForDate(dateStr) {
 }
 
 async function loadTips() {
-  // Prefer today; if empty (timezone / before morning run), fall back to yesterday
-  const candidates = [getDateOffset(0), getDateOffset(-1), getDateOffset(-2)];
+  // Always try TODAY first. Only fall back to a previous day if today has no races,
+  // and mark the UI so we never silently show the wrong day.
   todayData = null;
-  for (const ds of candidates) {
+  let fallback = null;
+  const todayStr = getDateOffset(0);
+  try {
+    const data = await fetchTipsForDate(todayStr);
+    if (data && Array.isArray(data.races) && data.races.length > 0) {
+      todayData = data;
+      todayData._showingFallback = false;
+      return;
+    }
+    if (data) {
+      // Today's file exists but empty / not published
+      todayData = data;
+      todayData._showingFallback = false;
+    }
+  } catch (e) { console.error(e); }
+
+  for (const ds of [getDateOffset(-1), getDateOffset(-2)]) {
     try {
       const data = await fetchTipsForDate(ds);
       if (data && Array.isArray(data.races) && data.races.length > 0) {
-        todayData = data;
+        fallback = data;
+        fallback._showingFallback = true;
+        fallback._fallbackFrom = ds;
         break;
       }
-      if (!todayData && data) todayData = data; // keep note-only as last resort
     } catch (e) { console.error(e); }
+  }
+  // Prefer a clear "not ready" for today over wrong-day tips if today file has a note
+  if (todayData && todayData.published === false && (!todayData.races || !todayData.races.length)) {
+    // keep todayData empty message — do not swap to yesterday silently
+    if (!todayData.note) {
+      todayData.note = "Today's card is not ready on the feed yet. Tips will appear after the morning auto-update once Sporting Life publishes runners.";
+    }
+    return;
+  }
+  if ((!todayData || !todayData.races || !todayData.races.length) && fallback) {
+    todayData = fallback;
   }
 }
 
