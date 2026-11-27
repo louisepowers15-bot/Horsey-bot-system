@@ -20,7 +20,7 @@ import re
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-ROOT = Path(".").resolve()
+ROOT = Path(__file__).resolve().parent
 
 # Leaderboard counts only settled days on/after this date (reset point)
 LEADERBOARD_FROM = date(2026, 11, 25)
