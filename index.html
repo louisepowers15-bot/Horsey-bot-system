@@ -224,6 +224,10 @@
     .tip-result-row.lose {
       background: rgba(248,113,113,0.10); border-color: rgba(248,113,113,0.3);
     }
+    .tip-result-row.void {
+      background: rgba(148,163,184,0.12); border-color: #64748b;
+    }
+    .tip-result-row.void .pos { color:#94a3b8; }
     .tip-result-row.unknown {
       background: rgba(148,163,184,0.08); border-color: #334155;
     }
@@ -663,11 +667,13 @@ function outcomeClass(outcome) {
   const o = (outcome || "unknown").toLowerCase();
   if (o === "win" || o === "place") return o;
   if (o === "lose" || o === "loss") return "lose";
+  if (o === "void" || o === "nr" || o === "non-runner") return "void";
   return "unknown";
 }
 
 function posLabel(tip) {
   const o = (tip.outcome || "").toLowerCase();
+  if (o === "void" || o === "nr" || o === "non-runner") return "Void (NR)";
   const p = tip.position;
   if (p != null && p !== "" && Number(p) > 0) {
     const n = Number(p);

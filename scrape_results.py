@@ -102,7 +102,16 @@ def fetch_race_result(date_str, course, race_id, race_name):
                 pos = int(pos) if pos is not None else None
             except (TypeError, ValueError):
                 pos = None
-            status = str(ride.get("ride_status") or "").upper()
+            status = str(ride.get("ride_status") or ride.get("status") or "").upper()
+            # Normalise common non-runner flags from Sporting Life
+            if not status or status in ("NONE", "NULL"):
+                # Some payloads put NR in position text / horse status
+                hs = str((ride.get("horse") or {}).get("status") or "").upper()
+                if hs:
+                    status = hs
+            if any(x in status for x in ("NON_RUNNER", "NON-RUNNER", "WITHDRAWN")) or status in ("NR", "WD"):
+                status = "NON_RUNNER"
+                pos = 0
             sp = ""
             betting = ride.get("betting") or {}
             sp = betting.get("starting_price") or betting.get("current_odds") or ""

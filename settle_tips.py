@@ -75,14 +75,29 @@ def result_index(results: dict):
             for ru in race.get("runners") or []:
                 h = norm(ru.get("name"))
                 pos = ru.get("position")
-                # treat 0 / negative as non-finisher (NR / PU etc.) — still known outcome
+                status = str(ru.get("status") or "").upper()
                 try:
                     pos_i = int(pos) if pos is not None else None
                 except (TypeError, ValueError):
                     pos_i = None
-                if pos_i is not None and pos_i <= 0:
-                    # finished status unknown / DNF — mark as high position so lose
-                    pos_i = 99
+                # Non-runner / withdrawn → VOID (stake back), not a loss
+                nr_markers = (
+                    "NON_RUNNER", "NON-RUNNER", "NON RUNNER", "NR",
+                    "WITHDRAWN", "WD", "VOID", "DECLARED_NON_RUNNER",
+                )
+                is_nr = any(m in status for m in nr_markers) or status in nr_markers
+                if is_nr or pos_i == 0:
+                    # Special code: None with flag via -1 means void/NR
+                    pos_i = -1
+                elif pos_i is not None and pos_i < 0:
+                    # Other DNF (PU, UR, F) — still a losing tip if they "ran"
+                    # Keep as high position only when status says they participated
+                    if any(x in status for x in ("PULLED", "UNSEATED", "FELL", "REFUSED", "BROUGHT", "RUNNER", "FINISHED")):
+                        pos_i = 99
+                    elif not status or status in ("", "UNKNOWN"):
+                        pos_i = 99
+                    else:
+                        pos_i = -1  # treat ambiguous non-finish with NR-like status as void
                 by_ct_h[(course.lower(), time, h)] = pos_i
                 by_c_h[(course.lower(), h)] = pos_i
                 by_h[h] = pos_i
@@ -94,7 +109,18 @@ def settle_tip(tip, pos, field_size):
     ttype = (tip.get("type") or "win").lower()
     stake = 1.0
     if pos is None:
-        return {"outcome": "unknown", "stake": 0.0, "return": 0.0, "pnl": 0.0}
+        return {"outcome": "unknown", "stake": 0.0, "return": 0.0, "pnl": 0.0, "position": None}
+
+    # Non-runner / void — money back, no effect on ROI
+    if pos == -1:
+        return {
+            "outcome": "void",
+            "stake": 0.0,
+            "return": 0.0,
+            "pnl": 0.0,
+            "position": None,
+            "void_reason": "non-runner",
+        }
 
     if ttype != "ew":
         won = pos == 1
@@ -144,7 +170,7 @@ def settle_tip(tip, pos, field_size):
 
 def empty_bot():
     return {
-        "tips": 0, "wins": 0, "places": 0, "losses": 0, "unknown": 0,
+        "tips": 0, "wins": 0, "places": 0, "losses": 0, "unknown": 0, "voids": 0,
         "stakes": 0.0, "returns": 0.0, "pnl": 0.0,
         "avg_odds": 0.0, "_odds_sum": 0.0,
         "style": {"win": 0, "ew": 0},
@@ -190,6 +216,9 @@ def settle_one_day(d: date) -> dict | None:
             day_summary["tips"] += 1
             if settlement["outcome"] == "unknown":
                 day_summary["unknown"] += 1
+            elif settlement["outcome"] == "void":
+                day_summary["voids"] = day_summary.get("voids", 0) + 1
+                # no pnl impact
             else:
                 day_summary["settled"] += 1
                 day_summary["pnl"] += settlement["pnl"]
@@ -254,7 +283,11 @@ def _apply_tip(bucket: dict, tip: dict) -> None:
     b = bucket[bot]
     outcome = tip.get("outcome") or "unknown"
     if outcome == "unknown":
-        b["unknown"] += 1
+        b["unknown"] = (b.get("unknown") or 0) + 1
+        return
+    # Non-runner / void: stake refunded — do NOT count as a tip or loss
+    if outcome == "void":
+        b["voids"] = (b.get("voids") or 0) + 1
         return
     b["tips"] += 1
     b["stakes"] += float(tip.get("stake") or 0)
