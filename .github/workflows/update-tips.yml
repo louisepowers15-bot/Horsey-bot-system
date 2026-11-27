@@ -4,6 +4,8 @@ on:
   schedule:
     # Morning: scrape cards + first tips of the day (frozen after this)
     - cron: "30 7 * * *"
+    # Backup morning tips (if 07:30 ran before cards published, this fills the day)
+    - cron: "0 9 * * *"
     # Optional: refresh racecards only (odds on site data) — does NOT rewrite tips
     - cron: "0 10 * * *"
     # Results + settle
@@ -43,14 +45,21 @@ jobs:
       - name: Decide mode
         id: mode
         run: |
+          # Robust mode pick: cron expression match is unreliable on GitHub;
+          # also branch on UTC hour so morning tips always run.
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "mode=${{ github.event.inputs.mode }}" >> $GITHUB_OUTPUT
-          elif [ "${{ github.event.schedule }}" = "0 10 * * *" ]; then
-            echo "mode=cards" >> $GITHUB_OUTPUT
-          elif [ "${{ github.event.schedule }}" = "30 7 * * *" ]; then
-            echo "mode=tips" >> $GITHUB_OUTPUT
           else
-            echo "mode=results" >> $GITHUB_OUTPUT
+            HOUR=$(date -u +%H)
+            CRON="${{ github.event.schedule }}"
+            echo "UTC hour=$HOUR cron='$CRON'"
+            if [ "$CRON" = "0 10 * * *" ] || [ "$HOUR" = "10" ]; then
+              echo "mode=cards" >> $GITHUB_OUTPUT
+            elif [ "$CRON" = "30 7 * * *" ] || [ "$CRON" = "0 9 * * *" ] || [ "$HOUR" = "07" ] || [ "$HOUR" = "08" ] || [ "$HOUR" = "09" ]; then
+              echo "mode=tips" >> $GITHUB_OUTPUT
+            else
+              echo "mode=results" >> $GITHUB_OUTPUT
+            fi
           fi
           echo "UTC now: $(date -u)"
 
@@ -58,8 +67,24 @@ jobs:
         if: steps.mode.outputs.mode == 'tips' || steps.mode.outputs.mode == 'both'
         run: |
           python scrape_racecards.py --date today
-          # Will SKIP if tips-today already has races (unless force-tips)
+          # Empty/unpublished tips files are overwritten; non-empty stay frozen
           python generate_tips.py --date today
+          # If still empty (card late), one more scrape+generate pass
+          python - <<'PY'
+          import json, pathlib, subprocess, sys
+          from datetime import date
+          t = pathlib.Path(f"tips-{date.today().isoformat()}.json")
+          n = 0
+          if t.exists():
+              try:
+                  n = len(json.loads(t.read_text()).get("races") or [])
+              except Exception:
+                  n = 0
+          if n < 1:
+              print("Tips still empty — re-scrape and generate once more")
+              subprocess.check_call([sys.executable, "scrape_racecards.py", "--date", "today"])
+              subprocess.check_call([sys.executable, "generate_tips.py", "--date", "today"])
+          PY
           python - <<'PY'
           import json, pathlib, sys
           from datetime import date
