@@ -75,29 +75,21 @@ def result_index(results: dict):
             for ru in race.get("runners") or []:
                 h = norm(ru.get("name"))
                 pos = ru.get("position")
-                status = str(ru.get("status") or "").upper()
+                status = str(ru.get("status") or "").upper().replace(" ", "").replace("-", "").replace("_", "")
                 try:
                     pos_i = int(pos) if pos is not None else None
                 except (TypeError, ValueError):
                     pos_i = None
-                # Non-runner / withdrawn → VOID (stake back), not a loss
-                nr_markers = (
-                    "NON_RUNNER", "NON-RUNNER", "NON RUNNER", "NR",
-                    "WITHDRAWN", "WD", "VOID", "DECLARED_NON_RUNNER",
+                # Sporting Life uses NONRUNNER / NON_RUNNER / NR / WITHDRAWN etc.
+                is_nr = (
+                    "NONRUNNER" in status
+                    or status in ("NR", "WD", "WITHDRAWN", "VOID")
+                    or pos_i == 0
                 )
-                is_nr = any(m in status for m in nr_markers) or status in nr_markers
-                if is_nr or pos_i == 0:
-                    # Special code: None with flag via -1 means void/NR
-                    pos_i = -1
+                if is_nr:
+                    pos_i = -1  # void — stake refunded
                 elif pos_i is not None and pos_i < 0:
-                    # Other DNF (PU, UR, F) — still a losing tip if they "ran"
-                    # Keep as high position only when status says they participated
-                    if any(x in status for x in ("PULLED", "UNSEATED", "FELL", "REFUSED", "BROUGHT", "RUNNER", "FINISHED")):
-                        pos_i = 99
-                    elif not status or status in ("", "UNKNOWN"):
-                        pos_i = 99
-                    else:
-                        pos_i = -1  # treat ambiguous non-finish with NR-like status as void
+                    pos_i = 99  # DNF that ran (PU/UR/F) → lose
                 by_ct_h[(course.lower(), time, h)] = pos_i
                 by_c_h[(course.lower(), h)] = pos_i
                 by_h[h] = pos_i
