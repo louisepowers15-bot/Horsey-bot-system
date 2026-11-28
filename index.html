@@ -874,11 +874,26 @@ async function fillLeaderboard(period) {
     if (row.id === bestWin) pills += '<span class="lb-pill lb-pill-blue">BEST WIN%</span>';
     if (idx === 0) pills += '<span class="lb-crown">👑</span>';
     const roiCls = roi >= 0 ? "lb-roi-pos" : "lb-roi-neg";
+    const winBetPct = b.win_bet_pct;
+    const ewPlacePct = b.ew_place_pct;
+    const ewWinPct = b.ew_win_pct;
+    const winBetTxt = (b.win_tips || 0) > 0
+      ? ((winBetPct != null ? winBetPct : 0) + '% <span style="color:#64748b;font-size:0.75em">(' + (b.win_tips || 0) + ')</span>')
+      : '—';
+    const ewPlaceTxt = (b.ew_tips || 0) > 0
+      ? ((ewPlacePct != null ? ewPlacePct : 0) + '% <span style="color:#64748b;font-size:0.75em">(' + (b.ew_tips || 0) + ')</span>')
+      : '—';
+    const ewWinTxt = (b.ew_tips || 0) > 0
+      ? ((ewWinPct != null ? ewWinPct : 0) + '%')
+      : '—';
+    const roiSign = roi > 0 ? '+' : '';
     return '<tr class="lb-bot-row ' + cls.join(" ") + '" data-bot="' + row.id + '">' +
       '<td><span class="bot-badge" style="background:' + bot.colour + '">' + bot.name + '</span>' + pills + '</td>' +
       '<td>' + (b.tips || 0) + '</td>' +
-      '<td>' + (b.win_pct != null ? b.win_pct : 0) + '%</td>' +
-      '<td class="' + roiCls + '">' + (roi >= 0 ? "+" : "") + roi + '%</td>' +
+      '<td title="Strike rate on win-only tips">' + winBetTxt + '</td>' +
+      '<td title="Each-way tips that finished in the paid places">' + ewPlaceTxt + '</td>' +
+      '<td title="% of each-way tips that finished first">' + ewWinTxt + '</td>' +
+      '<td class="' + roiCls + '">' + roiSign + roi + '%</td>' +
       '<td>' + (b.avg_odds || 0) + '</td>' +
       '<td><span class="lb-style-pill">' + styleLabel(b) + '</span></td></tr>';
   }).join("");
@@ -943,8 +958,13 @@ async function fillLeaderboard(period) {
       '<p style="color:#94a3b8;font-size:0.85rem;margin:0.75rem 0">Showing: <strong style="color:#e2e8f0">' + periodLabel +
       '</strong> · Updated: ' + (data.updated_at || "—") + ' · Level £1 stakes · <span style="color:#64748b">Click a bot for their tips</span></p>' +
       '<table class="lb-table" style="width:100%;border-collapse:collapse;font-size:0.9rem">' +
-      '<thead><tr style="color:#94a3b8;text-align:left"><th>Bot</th><th>Tips</th><th>Win%</th><th>ROI</th><th>Avg odds</th><th>Style</th></tr></thead>' +
+      '<thead><tr style="color:#94a3b8;text-align:left"><th>Bot</th><th>Tips</th><th>Win tips</th><th>EW place</th><th>EW 1st</th><th>ROI</th><th>Avg odds</th><th>Style</th></tr></thead>' +
       '<tbody>' + rows + '</tbody></table>' +
+      '<p style="color:#64748b;font-size:0.75rem;margin:0.4rem 0 0">' +
+      'Win tips = strike rate on win-only tips · EW place = % of each-way tips in the paid places ' +
+      '(enhanced/extra places on bigger handicaps) · EW 1st = % of E/W tips that finished first</p>' +
+
+
       calHtml;
   }
 

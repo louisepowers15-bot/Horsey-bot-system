@@ -42,12 +42,44 @@ def norm(name: str) -> str:
     return " ".join(str(name or "").lower().replace(".", "").split())
 
 
-def place_terms(field_size: int):
-    if field_size >= 12:
+def place_terms(field_size: int, race_name: str = "", enhanced: bool = True):
+    """Each-way place terms.
+
+    Standard industry-ish baseline, with optional *enhanced* places closer to
+    what Sky Bet / extra-places offers often pay (4–5 places in bigger fields).
+
+    We cannot read every bookie's board for free, so enhanced=True is a
+    practical model: bigger fields and handicaps get extra places.
+    Returns (fraction_of_odds, n_places) or None if EW not sensible.
+    """
+    n = int(field_size or 0)
+    name = (race_name or "").lower()
+    is_handicap = "handicap" in name or "h'cap" in name or "hcap" in name
+
+    if n < 5:
+        return None
+
+    if enhanced:
+        # Sky-style / extra-places leaning rules (best-effort, not a quote)
+        if n >= 16 and is_handicap:
+            return 0.20, 5   # 1/5, 5 places — common enhanced handicap
+        if n >= 14:
+            return 0.20, 4 if is_handicap else 3
+        if n >= 12:
+            return 0.25, 4 if is_handicap else 3   # 1/4, 4 places handicaps
+        if n >= 8:
+            return 0.20, 4 if is_handicap else 3   # extra place on many handicaps
+        # 5–7 runners
+        return 0.25, 2
+
+    # Conservative standard terms
+    if n >= 16 and is_handicap:
+        return 0.25, 4
+    if n >= 12:
         return 0.25, 3
-    if field_size >= 8:
+    if n >= 8:
         return 0.20, 3
-    if field_size >= 5:
+    if n >= 5:
         return 0.25, 2
     return None
 
@@ -96,7 +128,7 @@ def result_index(results: dict):
     return by_ct_h, by_c_h, by_h, field_by_ct
 
 
-def settle_tip(tip, pos, field_size):
+def settle_tip(tip, pos, field_size, race_name: str = "", enhanced: bool = True):
     odds = float(tip.get("odds") or 0) or 0
     ttype = (tip.get("type") or "win").lower()
     stake = 1.0
@@ -125,7 +157,7 @@ def settle_tip(tip, pos, field_size):
             "position": pos if pos < 99 else None,
         }
 
-    terms = place_terms(field_size or 0)
+    terms = place_terms(field_size or 0, race_name=race_name, enhanced=enhanced)
     if not terms:
         won = pos == 1
         ret = odds if won else 0.0
@@ -157,6 +189,8 @@ def settle_tip(tip, pos, field_size):
         "pnl": total - stake,
         "position": pos if pos < 99 else None,
         "place_terms": f"{frac} odds, {places} places",
+        "places_paid": places,
+        "enhanced_places": enhanced,
     }
 
 
@@ -166,6 +200,8 @@ def empty_bot():
         "stakes": 0.0, "returns": 0.0, "pnl": 0.0,
         "avg_odds": 0.0, "_odds_sum": 0.0,
         "style": {"win": 0, "ew": 0},
+        "win_tips": 0, "win_wins": 0,
+        "ew_tips": 0, "ew_places": 0, "ew_wins": 0,
         # confidence calibration buckets
         "conf": {
             "low": {"n": 0, "wins": 0},      # conf < 55
@@ -202,7 +238,7 @@ def settle_one_day(d: date) -> dict | None:
                 pos = by_c_h.get((course.lower(), h))
             if pos is None:
                 pos = by_h.get(h)
-            settlement = settle_tip(tip, pos, field)
+            settlement = settle_tip(tip, pos, field, race_name=race.get("name") or "", enhanced=True)
             row = {**tip, **settlement, "course": course, "time": time, "race": race.get("name")}
             stips.append(row)
             day_summary["tips"] += 1
@@ -238,6 +274,13 @@ def _finalise_bot_stats(stats: dict) -> dict:
     else:
         stats["avg_odds"] = 0.0
         stats["win_pct"] = 0.0
+    # Win-only strike rate (true winners on win bets)
+    wt = stats.get("win_tips") or 0
+    stats["win_bet_pct"] = round(100.0 * (stats.get("win_wins") or 0) / wt, 1) if wt else None
+    # EW place rate (finished in paid places) and EW first-place rate
+    et = stats.get("ew_tips") or 0
+    stats["ew_place_pct"] = round(100.0 * (stats.get("ew_places") or 0) / et, 1) if et else None
+    stats["ew_win_pct"] = round(100.0 * (stats.get("ew_wins") or 0) / et, 1) if et else None
     stats.pop("_odds_sum", None)
     st = max(0.01, stats.get("stakes") or 0)
     stats["roi_pct"] = round(100.0 * (stats.get("pnl") or 0) / st, 1) if (stats.get("stakes") or 0) else 0.0
@@ -290,6 +333,17 @@ def _apply_tip(bucket: dict, tip: dict) -> None:
     if ttype not in ("win", "ew"):
         ttype = "win"
     b["style"][ttype] = b["style"].get(ttype, 0) + 1
+    if ttype == "win":
+        b["win_tips"] = (b.get("win_tips") or 0) + 1
+        if outcome == "win":
+            b["win_wins"] = (b.get("win_wins") or 0) + 1
+    elif ttype == "ew":
+        b["ew_tips"] = (b.get("ew_tips") or 0) + 1
+        if outcome in ("win", "place"):
+            b["ew_places"] = (b.get("ew_places") or 0) + 1
+        if outcome == "win" or (tip.get("position") == 1):
+            b["ew_wins"] = (b.get("ew_wins") or 0) + 1
+
     won = outcome == "win"
     if won:
         b["wins"] += 1
